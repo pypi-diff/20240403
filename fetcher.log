@@ -1717,3 +1717,83 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 01:23:50] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
 [2024-04-03 01:23:50] INFO root fetch - main [MainThread]: End processing [burr]: success
 [2024-04-03 01:23:50] INFO root fetch - main [MainThread]: Store serial: [22592978]
+[2024-04-03 01:25:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592978]
+[2024-04-03 01:25:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 01:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-skill-wikipedia
+[2024-04-03 01:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langflow
+[2024-04-03 01:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymodelextractor
+[2024-04-03 01:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-decide-host
+[2024-04-03 01:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mdof
+[2024-04-03 01:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ip2vulns
+[2024-04-03 01:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cbcmgr
+[2024-04-03 01:25:59] INFO root fetch - processPackages [pymodelextractor]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-03 01:25:59] INFO root fetch - processPackages [langflow]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-03 01:25:59] INFO root fetch - processPackages [cbcmgr]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-03 01:25:59] INFO root fetch - processPackages [neon-skill-wikipedia]: New version: [1.0.2a2] Old Version: [1.0.2a1]
+[2024-04-03 01:25:59] INFO root fetch - processPackages [pymodelextractor]: Downloading https://files.pythonhosted.org/packages/27/27/d46c9f8564f940a64b64c8cfa298234f8df54af47363e0565dced27e53e8/pymodelextractor-0.9.8.tar.gz
+[2024-04-03 01:25:59] INFO root fetch - processPackages [neon-skill-wikipedia]: Downloading https://files.pythonhosted.org/packages/03/f4/235461e8f01e5d851f5a947cb970899b770b5ee60086c3652d8ec0c1cea1/neon-skill-wikipedia-1.0.2a1.tar.gz
+[2024-04-03 01:25:59] INFO root fetch - processPackages [mdof]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 01:25:59] INFO root fetch - processPackages [ip2vulns]: New version: [1.0.4] Old Version: [1.0.1]
+[2024-04-03 01:25:59] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/96/59/8f83edf6892821224c2956fe0e4fdc0e0195ce2fab33465bb9076856431b/cbcmgr-2.2.8.tar.gz
+[2024-04-03 01:25:59] WARNING root fetch - processPackages [pymodelextractor]: Timeout reached during download
+[2024-04-03 01:25:59] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/50/76/c5859531cf4a122de1e604c1b18fbeba9f9d3f7bbe5ac9d505a9a190fb90/langflow-0.6.8.tar.gz
+[2024-04-03 01:25:59] WARNING root fetch - processPackages [cbcmgr]: Timeout reached during download
+[2024-04-03 01:25:59] INFO root fetch - processPackages [pymodelextractor]: Downloading https://files.pythonhosted.org/packages/ec/8b/cbb34eb2a55ada32a65c0b38f8c293b53c323b3cd374386159cbe324e93f/pymodelextractor-0.9.9.tar.gz
+[2024-04-03 01:25:59] WARNING root fetch - processPackages [neon-skill-wikipedia]: Timeout reached during download
+[2024-04-03 01:25:59] INFO root fetch - processPackages [django-decide-host]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-03 01:25:59] INFO root fetch - processPackages [ip2vulns]: Downloading https://files.pythonhosted.org/packages/10/ec/c79ac1860cd9faea04eff149cff8068cf44ce806b4a2190c155246a40b35/ip2vulns-1.0.1.tar.gz
+[2024-04-03 01:25:59] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/67/64/457361dba5eba5ba47c78661d68e9e4df76506658db791e9c1a1c1f8c492/cbcmgr-2.2.9.tar.gz
+[2024-04-03 01:25:59] INFO root fetch - processPackages [neon-skill-wikipedia]: Downloading https://files.pythonhosted.org/packages/e1/33/9029b81c544d5001090d366e73ecbd4268b2014fc667c4edb1adeea0c8b9/neon-skill-wikipedia-1.0.2a2.tar.gz
+[2024-04-03 01:25:59] WARNING root fetch - processPackages [pymodelextractor]: Timeout reached during download
+[2024-04-03 01:25:59] INFO root fetch - processPackages [pymodelextractor]: executing diffoscope
+[2024-04-03 01:25:59] INFO root fetch - processPackages [pymodelextractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodelextractor-0.9.8.tar.gz tmp/pymodelextractor-0.9.9.tar.gz --markdown 20240403/p/pymodelextractor/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-03 01:25:59] WARNING root fetch - processPackages [ip2vulns]: Timeout reached during download
+[2024-04-03 01:25:59] WARNING root fetch - processPackages [cbcmgr]: Timeout reached during download
+[2024-04-03 01:25:59] INFO root fetch - processPackages [cbcmgr]: executing diffoscope
+[2024-04-03 01:25:59] INFO root fetch - processPackages [cbcmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbcmgr-2.2.8.tar.gz tmp/cbcmgr-2.2.9.tar.gz --markdown 20240403/c/cbcmgr/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2024-04-03 01:25:59] INFO root fetch - processPackages [mdof]: Downloading https://files.pythonhosted.org/packages/eb/55/97f0d727678e18173a72ce5e5812aa6c37282e5e854df44957ecc41d7ad9/mdof-0.0.8.tar.gz
+[2024-04-03 01:25:59] WARNING root fetch - processPackages [neon-skill-wikipedia]: Timeout reached during download
+[2024-04-03 01:25:59] INFO root fetch - processPackages [neon-skill-wikipedia]: executing diffoscope
+[2024-04-03 01:25:59] INFO root fetch - processPackages [neon-skill-wikipedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-wikipedia-1.0.2a1.tar.gz tmp/neon-skill-wikipedia-1.0.2a2.tar.gz --markdown 20240403/n/neon-skill-wikipedia/1.0.2a1-1.0.2a2/diff.md --exclude *.pyd
+[2024-04-03 01:25:59] WARNING root fetch - processPackages [mdof]: Timeout reached during download
+[2024-04-03 01:25:59] INFO root fetch - processPackages [ip2vulns]: Downloading https://files.pythonhosted.org/packages/80/74/28cd3c6eff483e30f4cd881f4a335b17bc425222567e898902f3bf0b5ccc/ip2vulns-1.0.4.tar.gz
+[2024-04-03 01:26:00] INFO root fetch - processPackages [django-decide-host]: Downloading https://files.pythonhosted.org/packages/cb/c8/93758eda17d1bddadd862d054e433ca9c31c7db319bacfbc9bed0574811d/django-decide-host-0.3.8.tar.gz
+[2024-04-03 01:26:00] WARNING root fetch - processPackages [ip2vulns]: Timeout reached during download
+[2024-04-03 01:26:00] INFO root fetch - processPackages [ip2vulns]: executing diffoscope
+[2024-04-03 01:26:00] INFO root fetch - processPackages [ip2vulns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ip2vulns-1.0.1.tar.gz tmp/ip2vulns-1.0.4.tar.gz --markdown 20240403/i/ip2vulns/1.0.1-1.0.4/diff.md --exclude *.pyd
+[2024-04-03 01:26:00] INFO root fetch - processPackages [mdof]: Downloading https://files.pythonhosted.org/packages/9e/84/d2a6f45668139927aecb88a92cccd7c0884c48914ab06aecf0deef91356a/mdof-0.0.9.tar.gz
+[2024-04-03 01:26:00] WARNING root fetch - processPackages [django-decide-host]: Timeout reached during download
+[2024-04-03 01:26:00] WARNING root fetch - processPackages [langflow]: Timeout reached during download
+[2024-04-03 01:26:00] WARNING root fetch - processPackages [mdof]: Timeout reached during download
+[2024-04-03 01:26:00] INFO root fetch - processPackages [mdof]: executing diffoscope
+[2024-04-03 01:26:00] INFO root fetch - processPackages [mdof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdof-0.0.8.tar.gz tmp/mdof-0.0.9.tar.gz --markdown 20240403/m/mdof/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 01:26:00] INFO root fetch - processPackages [django-decide-host]: Downloading https://files.pythonhosted.org/packages/32/10/f96bd23cebbf404cfbcc8285fe3f0de6490c0fe106094a457b11ccbb4489/django-decide-host-0.3.9.tar.gz
+[2024-04-03 01:26:00] WARNING root fetch - processPackages [django-decide-host]: Timeout reached during download
+[2024-04-03 01:26:00] INFO root fetch - processPackages [django-decide-host]: executing diffoscope
+[2024-04-03 01:26:00] INFO root fetch - processPackages [django-decide-host]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-decide-host-0.3.8.tar.gz tmp/django-decide-host-0.3.9.tar.gz --markdown 20240403/d/django-decide-host/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-03 01:26:00] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/ca/cd/e4c8f78ec9ba726e93dc89d46660f0ddb944f948759cd1c9c757060a5fc4/langflow-0.6.9.tar.gz
+[2024-04-03 01:26:00] INFO root fetch - processPackages [pymodelextractor]: Remove: archive file [/home/abi/fetcher/tmp/pymodelextractor-0.9.8.tar.gz]
+[2024-04-03 01:26:00] INFO root fetch - processPackages [pymodelextractor]: Remove: archive file [/home/abi/fetcher/tmp/pymodelextractor-0.9.9.tar.gz]
+[2024-04-03 01:26:00] INFO root fetch - main [MainThread]: End processing [pymodelextractor]: success
+[2024-04-03 01:26:00] INFO root fetch - processPackages [neon-skill-wikipedia]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-wikipedia-1.0.2a1.tar.gz]
+[2024-04-03 01:26:00] INFO root fetch - processPackages [neon-skill-wikipedia]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-wikipedia-1.0.2a2.tar.gz]
+[2024-04-03 01:26:00] INFO root fetch - main [MainThread]: End processing [neon-skill-wikipedia]: success
+[2024-04-03 01:26:00] INFO root fetch - processPackages [ip2vulns]: Remove: archive file [/home/abi/fetcher/tmp/ip2vulns-1.0.1.tar.gz]
+[2024-04-03 01:26:00] INFO root fetch - processPackages [ip2vulns]: Remove: archive file [/home/abi/fetcher/tmp/ip2vulns-1.0.4.tar.gz]
+[2024-04-03 01:26:00] INFO root fetch - main [MainThread]: End processing [ip2vulns]: success
+[2024-04-03 01:26:00] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-2.2.8.tar.gz]
+[2024-04-03 01:26:00] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-2.2.9.tar.gz]
+[2024-04-03 01:26:00] INFO root fetch - main [MainThread]: End processing [cbcmgr]: success
+[2024-04-03 01:26:00] INFO root fetch - processPackages [mdof]: Remove: archive file [/home/abi/fetcher/tmp/mdof-0.0.8.tar.gz]
+[2024-04-03 01:26:00] INFO root fetch - processPackages [mdof]: Remove: archive file [/home/abi/fetcher/tmp/mdof-0.0.9.tar.gz]
+[2024-04-03 01:26:00] INFO root fetch - main [MainThread]: End processing [mdof]: success
+[2024-04-03 01:26:01] INFO root fetch - processPackages [django-decide-host]: Remove: archive file [/home/abi/fetcher/tmp/django-decide-host-0.3.8.tar.gz]
+[2024-04-03 01:26:01] INFO root fetch - processPackages [django-decide-host]: Remove: archive file [/home/abi/fetcher/tmp/django-decide-host-0.3.9.tar.gz]
+[2024-04-03 01:26:01] INFO root fetch - main [MainThread]: End processing [django-decide-host]: success
+[2024-04-03 01:26:01] WARNING root fetch - processPackages [langflow]: Timeout reached during download
+[2024-04-03 01:26:01] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2024-04-03 01:26:01] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.6.8.tar.gz tmp/langflow-0.6.9.tar.gz --markdown 20240403/l/langflow/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2024-04-03 01:26:29] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.6.8.tar.gz]
+[2024-04-03 01:26:29] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.6.9.tar.gz]
+[2024-04-03 01:26:29] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2024-04-03 01:26:29] INFO root fetch - main [MainThread]: Store serial: [22593000]

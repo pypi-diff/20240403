@@ -1994,3 +1994,31 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 01:43:51] INFO root fetch - processPackages [latex-rubber]: Remove: archive file [/home/abi/fetcher/tmp/latex-rubber-1.6.2.tar.gz]
 [2024-04-03 01:43:51] INFO root fetch - main [MainThread]: End processing [latex-rubber]: success
 [2024-04-03 01:43:51] INFO root fetch - main [MainThread]: Store serial: [22593053]
+[2024-04-03 01:45:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593053]
+[2024-04-03 01:46:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 01:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dolbaram
+[2024-04-03 01:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shipper-shippy
+[2024-04-03 01:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slickconf
+[2024-04-03 01:46:00] INFO root fetch - processPackages [dolbaram]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-03 01:46:00] INFO root fetch - processPackages [shipper-shippy]: New version: [2.33.0] Old Version: [2.32.0]
+[2024-04-03 01:46:00] INFO root fetch - processPackages [dolbaram]: Downloading https://files.pythonhosted.org/packages/51/0c/4b14061a98f27fa95c5b9636f18abd32cbac8e558e04b53ccad2ee103320/dolbaram-0.2.2.tar.gz
+[2024-04-03 01:46:00] WARNING root fetch - processPackages [slickconf]: Skipping, unable to determine old version
+[2024-04-03 01:46:00] INFO root fetch - main [MainThread]: End processing [slickconf] error
+[2024-04-03 01:46:00] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/b5/c1/98cdc4c76d1340fb43ab164cc12fafd22802ad2b2f71de72cdc8205e29ac/shipper-shippy-2.32.0.tar.gz
+[2024-04-03 01:46:00] WARNING root fetch - processPackages [dolbaram]: Timeout reached during download
+[2024-04-03 01:46:00] WARNING root fetch - processPackages [shipper-shippy]: Timeout reached during download
+[2024-04-03 01:46:00] INFO root fetch - processPackages [dolbaram]: Downloading https://files.pythonhosted.org/packages/49/be/b2e38d7258647c33eb94a6565540c160143b506a7eb2ab7ed7a9af9318e8/dolbaram-0.2.3.tar.gz
+[2024-04-03 01:46:00] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/20/29/ff680c25f86128e9556501b1956910de153c73e567e64151f26f25e1c2b6/shipper-shippy-2.33.0.tar.gz
+[2024-04-03 01:46:00] WARNING root fetch - processPackages [dolbaram]: Timeout reached during download
+[2024-04-03 01:46:00] INFO root fetch - processPackages [dolbaram]: executing diffoscope
+[2024-04-03 01:46:00] INFO root fetch - processPackages [dolbaram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolbaram-0.2.2.tar.gz tmp/dolbaram-0.2.3.tar.gz --markdown 20240403/d/dolbaram/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-03 01:46:00] WARNING root fetch - processPackages [shipper-shippy]: Timeout reached during download
+[2024-04-03 01:46:00] INFO root fetch - processPackages [shipper-shippy]: executing diffoscope
+[2024-04-03 01:46:00] INFO root fetch - processPackages [shipper-shippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipper-shippy-2.32.0.tar.gz tmp/shipper-shippy-2.33.0.tar.gz --markdown 20240403/s/shipper-shippy/2.32.0-2.33.0/diff.md --exclude *.pyd
+[2024-04-03 01:46:01] INFO root fetch - processPackages [dolbaram]: Remove: archive file [/home/abi/fetcher/tmp/dolbaram-0.2.2.tar.gz]
+[2024-04-03 01:46:01] INFO root fetch - processPackages [dolbaram]: Remove: archive file [/home/abi/fetcher/tmp/dolbaram-0.2.3.tar.gz]
+[2024-04-03 01:46:01] INFO root fetch - main [MainThread]: End processing [dolbaram]: success
+[2024-04-03 01:46:01] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper-shippy-2.32.0.tar.gz]
+[2024-04-03 01:46:01] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper-shippy-2.33.0.tar.gz]
+[2024-04-03 01:46:01] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
+[2024-04-03 01:46:01] INFO root fetch - main [MainThread]: Store serial: [22593064]

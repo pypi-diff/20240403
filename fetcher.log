@@ -1276,3 +1276,185 @@
 [2024-04-03 01:04:50] INFO root fetch - processPackages [gammaloop]: Remove: archive file [/home/abi/fetcher/tmp/gammaloop-0.1.0.tar.gz]
 [2024-04-03 01:04:50] INFO root fetch - main [MainThread]: End processing [gammaloop]: success
 [2024-04-03 01:04:50] INFO root fetch - main [MainThread]: Store serial: [22592837]
+[2024-04-03 01:06:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592837]
+[2024-04-03 01:06:58] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-03 01:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyord
+[2024-04-03 01:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2024-04-03 01:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mango-pycore
+[2024-04-03 01:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mango-pycore
+[2024-04-03 01:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lmwrapper
+[2024-04-03 01:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lmwrapper
+[2024-04-03 01:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lmwrapper
+[2024-04-03 01:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lmwrapper
+[2024-04-03 01:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lmwrapper
+[2024-04-03 01:06:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lmwrapper
+[2024-04-03 01:06:59] INFO root fetch - processPackages [mango-pycore]: New version: [0.1.9] Old Version: [0.1.8a0]
+[2024-04-03 01:06:59] INFO root fetch - processPackages [mango-pycore]: New version: [0.1.9] Old Version: [0.1.8a0]
+[2024-04-03 01:06:59] INFO root fetch - processPackages [tmnt]: New version: [0.7.4b20231227] Old Version: [0.7.47b20240401]
+[2024-04-03 01:06:59] INFO root fetch - processPackages [lmwrapper]: New version: [0.8.7.3] Old Version: [0.8.7.2]
+[2024-04-03 01:06:59] INFO root fetch - processPackages [lmwrapper]: New version: [0.8.7.3] Old Version: [0.8.7.2]
+[2024-04-03 01:06:59] INFO root fetch - processPackages [lmwrapper]: New version: [0.8.7.3] Old Version: [0.8.7.2]
+[2024-04-03 01:06:59] INFO root fetch - processPackages [lmwrapper]: New version: [0.8.7.3] Old Version: [0.8.7.2]
+[2024-04-03 01:06:59] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/dd/2e/14c38e4e5d34f2b3bf8390eba2f36cf232f84cc4d17c7dd53d504489fd94/mango_pycore-0.1.8a0.tar.gz
+[2024-04-03 01:06:59] INFO root fetch - processPackages [lmwrapper]: New version: [0.8.7.3] Old Version: [0.8.7.2]
+[2024-04-03 01:06:59] INFO root fetch - processPackages [lmwrapper]: New version: [0.8.7.3] Old Version: [0.8.7.2]
+[2024-04-03 01:06:59] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/dd/2e/14c38e4e5d34f2b3bf8390eba2f36cf232f84cc4d17c7dd53d504489fd94/mango_pycore-0.1.8a0.tar.gz
+[2024-04-03 01:06:59] INFO root fetch - processPackages [pyord]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-03 01:06:59] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/95/35/ed5a72c33b6296fd829bdb220541389570255ecba7607582fca75b6502dd/tmnt-0.7.47b20240401.tar.gz
+[2024-04-03 01:06:59] WARNING root fetch - processPackages [mango-pycore]: Timeout reached during download
+[2024-04-03 01:06:59] WARNING root fetch - processPackages [mango-pycore]: Timeout reached during download
+[2024-04-03 01:06:59] INFO root fetch - processPackages [lmwrapper]: Downloading https://files.pythonhosted.org/packages/f1/7d/8e1330b578abb12661b9570334ad1f9aad80b7cde705657f5e21520664a7/lmwrapper-0.8.7.2.tar.gz
+[2024-04-03 01:06:59] INFO root fetch - processPackages [lmwrapper]: Downloading https://files.pythonhosted.org/packages/f1/7d/8e1330b578abb12661b9570334ad1f9aad80b7cde705657f5e21520664a7/lmwrapper-0.8.7.2.tar.gz
+[2024-04-03 01:06:59] INFO root fetch - processPackages [lmwrapper]: Downloading https://files.pythonhosted.org/packages/f1/7d/8e1330b578abb12661b9570334ad1f9aad80b7cde705657f5e21520664a7/lmwrapper-0.8.7.2.tar.gz
+[2024-04-03 01:06:59] INFO root fetch - processPackages [lmwrapper]: Downloading https://files.pythonhosted.org/packages/f1/7d/8e1330b578abb12661b9570334ad1f9aad80b7cde705657f5e21520664a7/lmwrapper-0.8.7.2.tar.gz
+[2024-04-03 01:06:59] INFO root fetch - processPackages [lmwrapper]: Downloading https://files.pythonhosted.org/packages/f1/7d/8e1330b578abb12661b9570334ad1f9aad80b7cde705657f5e21520664a7/lmwrapper-0.8.7.2.tar.gz
+[2024-04-03 01:06:59] INFO root fetch - processPackages [lmwrapper]: Downloading https://files.pythonhosted.org/packages/f1/7d/8e1330b578abb12661b9570334ad1f9aad80b7cde705657f5e21520664a7/lmwrapper-0.8.7.2.tar.gz
+[2024-04-03 01:06:59] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/ac/cf/ba57e180bead82b37d573f26a56c3d72b3aa5b398d123e0538e8f9fcfded/mango_pycore-0.1.9.tar.gz
+[2024-04-03 01:06:59] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/ac/cf/ba57e180bead82b37d573f26a56c3d72b3aa5b398d123e0538e8f9fcfded/mango_pycore-0.1.9.tar.gz
+[2024-04-03 01:06:59] INFO root fetch - processPackages [pyord]: Downloading https://files.pythonhosted.org/packages/0c/dd/ed8072995be372b142bef20195bd983618e9169b9fb0000fbde65567b0a3/pyord-0.1.0.tar.gz
+[2024-04-03 01:06:59] WARNING root fetch - processPackages [tmnt]: Timeout reached during download
+[2024-04-03 01:06:59] WARNING root fetch - processPackages [lmwrapper]: Timeout reached during download
+[2024-04-03 01:06:59] WARNING root fetch - processPackages [lmwrapper]: Timeout reached during download
+[2024-04-03 01:06:59] WARNING root fetch - processPackages [lmwrapper]: Timeout reached during download
+[2024-04-03 01:06:59] WARNING root fetch - processPackages [lmwrapper]: Timeout reached during download
+[2024-04-03 01:06:59] WARNING root fetch - processPackages [lmwrapper]: Timeout reached during download
+[2024-04-03 01:06:59] WARNING root fetch - processPackages [lmwrapper]: Timeout reached during download
+[2024-04-03 01:06:59] WARNING root fetch - processPackages [mango-pycore]: Timeout reached during download
+[2024-04-03 01:06:59] INFO root fetch - processPackages [mango-pycore]: executing diffoscope
+[2024-04-03 01:06:59] INFO root fetch - processPackages [mango-pycore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_pycore-0.1.8a0.tar.gz tmp/mango_pycore-0.1.9.tar.gz --markdown 20240403/m/mango-pycore/0.1.8a0-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 01:06:59] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/ea/3a/0cd54af36ea52550ab5b0361342ea6cbae9843227af8a4fe56d32695a1f3/tmnt-0.7.4b20231227.tar.gz
+[2024-04-03 01:06:59] WARNING root fetch - processPackages [mango-pycore]: Timeout reached during download
+[2024-04-03 01:06:59] INFO root fetch - processPackages [mango-pycore]: executing diffoscope
+[2024-04-03 01:06:59] INFO root fetch - processPackages [mango-pycore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_pycore-0.1.8a0.tar.gz tmp/mango_pycore-0.1.9.tar.gz --markdown 20240403/m/mango-pycore/0.1.8a0-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 01:06:59] INFO root fetch - processPackages [lmwrapper]: Downloading https://files.pythonhosted.org/packages/03/76/6c564b7b4819df58dc77a913c0fe4760a35152dc47a6b40f36a08e1f6339/lmwrapper-0.8.7.3-py3-none-any.whl
+[2024-04-03 01:06:59] INFO root fetch - processPackages [lmwrapper]: Downloading https://files.pythonhosted.org/packages/03/76/6c564b7b4819df58dc77a913c0fe4760a35152dc47a6b40f36a08e1f6339/lmwrapper-0.8.7.3-py3-none-any.whl
+[2024-04-03 01:06:59] INFO root fetch - processPackages [lmwrapper]: Downloading https://files.pythonhosted.org/packages/03/76/6c564b7b4819df58dc77a913c0fe4760a35152dc47a6b40f36a08e1f6339/lmwrapper-0.8.7.3-py3-none-any.whl
+[2024-04-03 01:07:00] INFO root fetch - processPackages [lmwrapper]: Downloading https://files.pythonhosted.org/packages/03/76/6c564b7b4819df58dc77a913c0fe4760a35152dc47a6b40f36a08e1f6339/lmwrapper-0.8.7.3-py3-none-any.whl
+[2024-04-03 01:07:00] INFO root fetch - processPackages [lmwrapper]: Downloading https://files.pythonhosted.org/packages/03/76/6c564b7b4819df58dc77a913c0fe4760a35152dc47a6b40f36a08e1f6339/lmwrapper-0.8.7.3-py3-none-any.whl
+[2024-04-03 01:07:00] INFO root fetch - processPackages [lmwrapper]: Downloading https://files.pythonhosted.org/packages/03/76/6c564b7b4819df58dc77a913c0fe4760a35152dc47a6b40f36a08e1f6339/lmwrapper-0.8.7.3-py3-none-any.whl
+[2024-04-03 01:07:00] WARNING root fetch - processPackages [tmnt]: Timeout reached during download
+[2024-04-03 01:07:00] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-04-03 01:07:00] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.47b20240401.tar.gz tmp/tmnt-0.7.4b20231227.tar.gz --markdown 20240403/t/tmnt/0.7.47b20240401-0.7.4b20231227/diff.md --exclude *.pyd
+[2024-04-03 01:07:00] WARNING root fetch - processPackages [pyord]: Timeout reached during download
+[2024-04-03 01:07:00] WARNING root fetch - processPackages [lmwrapper]: Timeout reached during download
+[2024-04-03 01:07:00] INFO root fetch - processPackages [lmwrapper]: executing diffoscope
+[2024-04-03 01:07:00] INFO root fetch - processPackages [lmwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmwrapper-0.8.7.2.tar.gz tmp/lmwrapper-0.8.7.3-py3-none-any.whl.zip --markdown 20240403/l/lmwrapper/0.8.7.2-0.8.7.3/diff.md --exclude *.pyd
+[2024-04-03 01:07:00] WARNING root fetch - processPackages [lmwrapper]: Timeout reached during download
+[2024-04-03 01:07:00] WARNING root fetch - processPackages [lmwrapper]: Timeout reached during download
+[2024-04-03 01:07:00] INFO root fetch - processPackages [lmwrapper]: executing diffoscope
+[2024-04-03 01:07:00] WARNING root fetch - processPackages [lmwrapper]: Timeout reached during download
+[2024-04-03 01:07:00] INFO root fetch - processPackages [lmwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmwrapper-0.8.7.2.tar.gz tmp/lmwrapper-0.8.7.3-py3-none-any.whl.zip --markdown 20240403/l/lmwrapper/0.8.7.2-0.8.7.3/diff.md --exclude *.pyd
+[2024-04-03 01:07:00] INFO root fetch - processPackages [lmwrapper]: executing diffoscope
+[2024-04-03 01:07:00] WARNING root fetch - processPackages [lmwrapper]: Timeout reached during download
+[2024-04-03 01:07:00] WARNING root fetch - processPackages [lmwrapper]: Timeout reached during download
+[2024-04-03 01:07:00] INFO root fetch - processPackages [lmwrapper]: executing diffoscope
+[2024-04-03 01:07:00] INFO root fetch - processPackages [lmwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmwrapper-0.8.7.2.tar.gz tmp/lmwrapper-0.8.7.3-py3-none-any.whl.zip --markdown 20240403/l/lmwrapper/0.8.7.2-0.8.7.3/diff.md --exclude *.pyd
+[2024-04-03 01:07:00] INFO root fetch - processPackages [lmwrapper]: executing diffoscope
+[2024-04-03 01:07:00] INFO root fetch - processPackages [lmwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmwrapper-0.8.7.2.tar.gz tmp/lmwrapper-0.8.7.3-py3-none-any.whl.zip --markdown 20240403/l/lmwrapper/0.8.7.2-0.8.7.3/diff.md --exclude *.pyd
+[2024-04-03 01:07:00] INFO root fetch - processPackages [lmwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmwrapper-0.8.7.2.tar.gz tmp/lmwrapper-0.8.7.3-py3-none-any.whl.zip --markdown 20240403/l/lmwrapper/0.8.7.2-0.8.7.3/diff.md --exclude *.pyd
+[2024-04-03 01:07:00] INFO root fetch - processPackages [lmwrapper]: executing diffoscope
+[2024-04-03 01:07:00] INFO root fetch - processPackages [lmwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmwrapper-0.8.7.2.tar.gz tmp/lmwrapper-0.8.7.3-py3-none-any.whl.zip --markdown 20240403/l/lmwrapper/0.8.7.2-0.8.7.3/diff.md --exclude *.pyd
+[2024-04-03 01:07:00] INFO root fetch - processPackages [pyord]: Downloading https://files.pythonhosted.org/packages/06/c6/cd93f45514e1155e7b4cba7be47b764cebcf368ed93443aaa7c0fa7cae4b/pyord-0.2.0.tar.gz
+[2024-04-03 01:07:00] WARNING root fetch - processPackages [pyord]: Timeout reached during download
+[2024-04-03 01:07:00] INFO root fetch - processPackages [pyord]: executing diffoscope
+[2024-04-03 01:07:00] INFO root fetch - processPackages [pyord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyord-0.1.0.tar.gz tmp/pyord-0.2.0.tar.gz --markdown 20240403/p/pyord/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-03 01:07:00] INFO root fetch - processPackages [mango-pycore]: Remove: archive file [/home/abi/fetcher/tmp/mango_pycore-0.1.8a0.tar.gz]
+[2024-04-03 01:07:00] INFO root fetch - processPackages [mango-pycore]: Remove: archive file [/home/abi/fetcher/tmp/mango_pycore-0.1.9.tar.gz]
+[2024-04-03 01:07:00] INFO root fetch - processPackages [mango-pycore]: Start processing: neon-skill-support-helper
+[2024-04-03 01:07:00] INFO root fetch - main [MainThread]: End processing [mango-pycore]: success
+[2024-04-03 01:07:00] INFO root fetch - processPackages [mango-pycore]: Start processing: flwr-nightly
+[2024-04-03 01:07:00] INFO root fetch - main [MainThread]: End processing [mango-pycore]: success
+[2024-04-03 01:07:00] INFO root fetch - processPackages [neon-skill-support-helper]: New version: [1.2.2a2] Old Version: [1.2.2a1]
+[2024-04-03 01:07:00] INFO root fetch - processPackages [flwr-nightly]: New version: [1.8.0.dev20240401] Old Version: [1.8.0.dev20240328]
+[2024-04-03 01:07:00] INFO root fetch - processPackages [neon-skill-support-helper]: Downloading https://files.pythonhosted.org/packages/05/e3/26fb62c441d46cb697ec92b8c46e222c6fce2809ae0938421e28d734d953/neon-skill-support_helper-1.2.2a1.tar.gz
+[2024-04-03 01:07:00] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/08/76/27f816590e59e5adfc478068a1621040aa64c696a0ca7d8069c5a94f551e/flwr_nightly-1.8.0.dev20240328.tar.gz
+[2024-04-03 01:07:00] WARNING root fetch - processPackages [neon-skill-support-helper]: Timeout reached during download
+[2024-04-03 01:07:01] INFO root fetch - processPackages [neon-skill-support-helper]: Downloading https://files.pythonhosted.org/packages/1c/9c/02e5af93f1c8b1eaeb667e65468d912a53f4304393b4790919ed3a606e1e/neon-skill-support_helper-1.2.2a2.tar.gz
+[2024-04-03 01:07:01] WARNING root fetch - processPackages [flwr-nightly]: Timeout reached during download
+[2024-04-03 01:07:01] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.47b20240401.tar.gz]
+[2024-04-03 01:07:01] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.4b20231227.tar.gz]
+[2024-04-03 01:07:01] INFO root fetch - processPackages [tmnt]: Start processing: anywidget
+[2024-04-03 01:07:01] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-04-03 01:07:01] INFO root fetch - processPackages [lmwrapper]: Remove: archive file [/home/abi/fetcher/tmp/lmwrapper-0.8.7.2.tar.gz]
+[2024-04-03 01:07:01] INFO root fetch - processPackages [lmwrapper]: Remove: archive file [/home/abi/fetcher/tmp/lmwrapper-0.8.7.3-py3-none-any.whl.zip]
+[2024-04-03 01:07:01] INFO root fetch - processPackages [lmwrapper]: Start processing: mirascope
+[2024-04-03 01:07:01] INFO root fetch - main [MainThread]: End processing [lmwrapper]: success
+[2024-04-03 01:07:01] INFO root fetch - processPackages [anywidget]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-03 01:07:01] WARNING root fetch - processPackages [neon-skill-support-helper]: Timeout reached during download
+[2024-04-03 01:07:01] INFO root fetch - processPackages [neon-skill-support-helper]: executing diffoscope
+[2024-04-03 01:07:01] INFO root fetch - processPackages [neon-skill-support-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-support_helper-1.2.2a1.tar.gz tmp/neon-skill-support_helper-1.2.2a2.tar.gz --markdown 20240403/n/neon-skill-support-helper/1.2.2a1-1.2.2a2/diff.md --exclude *.pyd
+[2024-04-03 01:07:01] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/b9/70/b0ddd9f37a633106b21cb27fd36c01776eb333f752e318d4683b936bb0c4/anywidget-0.9.4.tar.gz
+[2024-04-03 01:07:01] INFO root fetch - processPackages [lmwrapper]: Start processing: coastsat-package
+[2024-04-03 01:07:01] INFO root fetch - main [MainThread]: End processing [lmwrapper]: success
+[2024-04-03 01:07:01] INFO root fetch - processPackages [lmwrapper]: Start processing: comet-maths
+[2024-04-03 01:07:01] INFO root fetch - main [MainThread]: End processing [lmwrapper]: success
+[2024-04-03 01:07:01] INFO root fetch - processPackages [mirascope]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-03 01:07:01] ERROR root fetch - processPackages [lmwrapper]: Diffoscope failed: time="2024-04-03T01:07:00+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 75, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 35, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
+
+[2024-04-03 01:07:01] INFO root fetch - main [MainThread]: End processing [lmwrapper] error
+[2024-04-03 01:07:01] INFO root fetch - processPackages [comet-maths]: New version: [0.9] Old Version: [0.8]
+[2024-04-03 01:07:01] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/37/d8/0f718d50cd9e3032d674d989d2d87869013b4afd09831e74cb8ab25221a3/flwr_nightly-1.8.0.dev20240401.tar.gz
+[2024-04-03 01:07:01] INFO root fetch - main [MainThread]: End processing [lmwrapper]: success
+[2024-04-03 01:07:01] INFO root fetch - processPackages [comet-maths]: Downloading https://files.pythonhosted.org/packages/a0/9d/10de8a8610929b5e518ad469fbe5f79b5741949de43cb299129d8d099452/comet_maths-0.8.tar.gz
+[2024-04-03 01:07:01] INFO root fetch - main [MainThread]: End processing [lmwrapper]: success
+[2024-04-03 01:07:01] INFO root fetch - processPackages [mirascope]: Downloading https://files.pythonhosted.org/packages/5c/4e/1d742f757ca3ecf7cd5c9bde4b7c55735ddbb3bd5e3b996f3fcdd55d840a/mirascope-0.8.1.tar.gz
+[2024-04-03 01:07:01] WARNING root fetch - processPackages [comet-maths]: Timeout reached during download
+[2024-04-03 01:07:01] INFO root fetch - processPackages [coastsat-package]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 01:07:01] WARNING root fetch - processPackages [flwr-nightly]: Timeout reached during download
+[2024-04-03 01:07:01] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-04-03 01:07:01] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.8.0.dev20240328.tar.gz tmp/flwr_nightly-1.8.0.dev20240401.tar.gz --markdown 20240403/f/flwr-nightly/1.8.0.dev20240328-1.8.0.dev20240401/diff.md --exclude *.pyd
+[2024-04-03 01:07:01] INFO root fetch - processPackages [comet-maths]: Downloading https://files.pythonhosted.org/packages/cf/a7/a9877e8a9b60f1dea120f60fa85520f52bf5d43e689e40c0cc4cc604c78f/comet_maths-0.9.tar.gz
+[2024-04-03 01:07:01] WARNING root fetch - processPackages [mirascope]: Timeout reached during download
+[2024-04-03 01:07:01] INFO root fetch - processPackages [pyord]: Remove: archive file [/home/abi/fetcher/tmp/pyord-0.1.0.tar.gz]
+[2024-04-03 01:07:01] INFO root fetch - processPackages [pyord]: Remove: archive file [/home/abi/fetcher/tmp/pyord-0.2.0.tar.gz]
+[2024-04-03 01:07:01] INFO root fetch - main [MainThread]: End processing [pyord]: success
+[2024-04-03 01:07:01] WARNING root fetch - processPackages [comet-maths]: Timeout reached during download
+[2024-04-03 01:07:01] INFO root fetch - processPackages [comet-maths]: executing diffoscope
+[2024-04-03 01:07:01] INFO root fetch - processPackages [comet-maths]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_maths-0.8.tar.gz tmp/comet_maths-0.9.tar.gz --markdown 20240403/c/comet-maths/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-03 01:07:01] WARNING root fetch - processPackages [anywidget]: Timeout reached during download
+[2024-04-03 01:07:01] INFO root fetch - processPackages [mirascope]: Downloading https://files.pythonhosted.org/packages/e8/7b/de0f642e18ae0afebe6e8d88cf8f149ee4ed4978b23b8b1a1dd96f8c8005/mirascope-0.8.2.tar.gz
+[2024-04-03 01:07:01] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/ec/fc/22acbf3856f7f7a710baa4c2f5e0fb852f2f0eee7f1c7931d8971c28ef9b/anywidget-0.9.5.tar.gz
+[2024-04-03 01:07:01] INFO root fetch - processPackages [coastsat-package]: Downloading https://files.pythonhosted.org/packages/c5/b9/bbe0f91e773f2ff00b4883939c25278cb13099ac01d05593e3bae87ad82c/coastsat_package-0.1.8.tar.gz
+[2024-04-03 01:07:01] WARNING root fetch - processPackages [coastsat-package]: Skipping package: exceeds size limit 32859514>=10485760
+[2024-04-03 01:07:01] INFO root fetch - main [MainThread]: End processing [coastsat-package] error
+[2024-04-03 01:07:01] WARNING root fetch - processPackages [mirascope]: Timeout reached during download
+[2024-04-03 01:07:01] INFO root fetch - processPackages [mirascope]: executing diffoscope
+[2024-04-03 01:07:01] INFO root fetch - processPackages [mirascope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirascope-0.8.1.tar.gz tmp/mirascope-0.8.2.tar.gz --markdown 20240403/m/mirascope/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2024-04-03 01:07:01] INFO root fetch - processPackages [neon-skill-support-helper]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-support_helper-1.2.2a1.tar.gz]
+[2024-04-03 01:07:01] INFO root fetch - processPackages [neon-skill-support-helper]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-support_helper-1.2.2a2.tar.gz]
+[2024-04-03 01:07:01] INFO root fetch - main [MainThread]: End processing [neon-skill-support-helper]: success
+[2024-04-03 01:07:02] WARNING root fetch - processPackages [anywidget]: Timeout reached during download
+[2024-04-03 01:07:02] INFO root fetch - processPackages [anywidget]: executing diffoscope
+[2024-04-03 01:07:02] INFO root fetch - processPackages [anywidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anywidget-0.9.4.tar.gz tmp/anywidget-0.9.5.tar.gz --markdown 20240403/a/anywidget/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2024-04-03 01:07:02] INFO root fetch - processPackages [comet-maths]: Remove: archive file [/home/abi/fetcher/tmp/comet_maths-0.8.tar.gz]
+[2024-04-03 01:07:02] INFO root fetch - processPackages [comet-maths]: Remove: archive file [/home/abi/fetcher/tmp/comet_maths-0.9.tar.gz]
+[2024-04-03 01:07:02] INFO root fetch - main [MainThread]: End processing [comet-maths]: success
+[2024-04-03 01:07:02] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.8.1.tar.gz]
+[2024-04-03 01:07:02] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.8.2.tar.gz]
+[2024-04-03 01:07:02] INFO root fetch - main [MainThread]: End processing [mirascope]: success
+[2024-04-03 01:07:02] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.8.0.dev20240328.tar.gz]
+[2024-04-03 01:07:02] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.8.0.dev20240401.tar.gz]
+[2024-04-03 01:07:02] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-04-03 01:07:04] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.9.4.tar.gz]
+[2024-04-03 01:07:04] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.9.5.tar.gz]
+[2024-04-03 01:07:04] INFO root fetch - main [MainThread]: End processing [anywidget]: success
+[2024-04-03 01:07:04] INFO root fetch - main [MainThread]: Store serial: [22592886]

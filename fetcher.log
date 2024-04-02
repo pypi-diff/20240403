@@ -1213,3 +1213,66 @@
 [2024-04-03 01:02:32] INFO root fetch - processPackages [dextbird]: Remove: archive file [/home/abi/fetcher/tmp/dextbird-0.4.0a2-cp39-cp39-musllinux_1_2_x86_64.whl.zip]
 [2024-04-03 01:02:32] INFO root fetch - main [MainThread]: End processing [dextbird]: success
 [2024-04-03 01:02:32] INFO root fetch - main [MainThread]: Store serial: [22592813]
+[2024-04-03 01:04:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592813]
+[2024-04-03 01:04:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 01:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsplus
+[2024-04-03 01:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fmbench
+[2024-04-03 01:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammaloop
+[2024-04-03 01:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: owl-on-fhir
+[2024-04-03 01:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: beautiful-ternary
+[2024-04-03 01:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nectarclient-lib
+[2024-04-03 01:04:47] INFO root fetch - processPackages [owl-on-fhir]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-03 01:04:47] INFO root fetch - processPackages [fmbench]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-03 01:04:47] INFO root fetch - processPackages [nectarclient-lib]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-03 01:04:47] INFO root fetch - processPackages [gammaloop]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-03 01:04:47] INFO root fetch - processPackages [fmbench]: Downloading https://files.pythonhosted.org/packages/12/ff/7ccc41c0fab7fb2a7b7db448775887d29837bdaabdb47265fcd435e8eb35/fmbench-1.0.8.tar.gz
+[2024-04-03 01:04:47] INFO root fetch - processPackages [owl-on-fhir]: Downloading https://files.pythonhosted.org/packages/66/6f/f4528559248c094d835574389372beec930bb2be8311827347dc034ff5ea/owl-on-fhir-1.1.3.tar.gz
+[2024-04-03 01:04:48] INFO root fetch - processPackages [beautiful-ternary]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-03 01:04:48] WARNING root fetch - processPackages [owl-on-fhir]: Skipping package: exceeds size limit 80687497>=10485760
+[2024-04-03 01:04:48] INFO root fetch - main [MainThread]: End processing [owl-on-fhir] error
+[2024-04-03 01:04:48] WARNING root fetch - processPackages [fmbench]: Timeout reached during download
+[2024-04-03 01:04:48] INFO root fetch - processPackages [gammaloop]: Downloading https://files.pythonhosted.org/packages/4a/c3/e5fe7862ce1e03dbd9d85ebfd6e8f53bec910e561718c57d7fc4577c5ad7/gammaloop-0.0.1.tar.gz
+[2024-04-03 01:04:48] INFO root fetch - processPackages [nectarclient-lib]: Downloading https://files.pythonhosted.org/packages/b2/bc/618b83f5418a32f4968333063c429fd57f9b3d4786390e9883191c3166c0/nectarclient-lib-1.2.0.tar.gz
+[2024-04-03 01:04:48] INFO root fetch - processPackages [fmbench]: Downloading https://files.pythonhosted.org/packages/84/ee/d5b3731e328488d9664f215a9cdceeb188cdf6dd2c19b5f99a6a59daa9e4/fmbench-1.0.9.tar.gz
+[2024-04-03 01:04:48] INFO root fetch - processPackages [beautiful-ternary]: Downloading https://files.pythonhosted.org/packages/d0/52/cd9c919af6d718c0a8ff9cb132e9a6ffecc9bd329d6fe5b28abe9c5eb816/beautiful-ternary-1.0.0.tar.gz
+[2024-04-03 01:04:48] WARNING root fetch - processPackages [nectarclient-lib]: Timeout reached during download
+[2024-04-03 01:04:48] WARNING root fetch - processPackages [gammaloop]: Timeout reached during download
+[2024-04-03 01:04:48] WARNING root fetch - processPackages [beautiful-ternary]: Timeout reached during download
+[2024-04-03 01:04:48] WARNING root fetch - processPackages [fmbench]: Timeout reached during download
+[2024-04-03 01:04:48] INFO root fetch - processPackages [fmbench]: executing diffoscope
+[2024-04-03 01:04:48] INFO root fetch - processPackages [fmbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmbench-1.0.8.tar.gz tmp/fmbench-1.0.9.tar.gz --markdown 20240403/f/fmbench/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-03 01:04:48] INFO root fetch - processPackages [dsplus]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-03 01:04:48] INFO root fetch - processPackages [nectarclient-lib]: Downloading https://files.pythonhosted.org/packages/15/5d/ca0c5dfdb9e58a959f0c65aa11d12f1319f9183ed30354b98d2b28cea0f3/nectarclient-lib-1.3.0.tar.gz
+[2024-04-03 01:04:48] INFO root fetch - processPackages [beautiful-ternary]: Downloading https://files.pythonhosted.org/packages/74/81/ba8945662c9893a2986e463776ed07eadbb1adc4cc50323e03a5b9bb77dd/beautiful-ternary-1.1.0.tar.gz
+[2024-04-03 01:04:48] INFO root fetch - processPackages [gammaloop]: Downloading https://files.pythonhosted.org/packages/2c/d6/f6b3f8f5402f3993eefb0036ef79c5952d4803db566192b2fd087d7bcfa2/gammaloop-0.1.0.tar.gz
+[2024-04-03 01:04:48] INFO root fetch - processPackages [dsplus]: Downloading https://files.pythonhosted.org/packages/91/4f/95707bc0b819cc852489dd5e1931d12c0804e385c245394202e51a697381/dsplus-0.3.8.tar.gz
+[2024-04-03 01:04:48] WARNING root fetch - processPackages [beautiful-ternary]: Timeout reached during download
+[2024-04-03 01:04:48] WARNING root fetch - processPackages [nectarclient-lib]: Timeout reached during download
+[2024-04-03 01:04:48] INFO root fetch - processPackages [beautiful-ternary]: executing diffoscope
+[2024-04-03 01:04:48] INFO root fetch - processPackages [beautiful-ternary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beautiful-ternary-1.0.0.tar.gz tmp/beautiful-ternary-1.1.0.tar.gz --markdown 20240403/b/beautiful-ternary/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-03 01:04:48] INFO root fetch - processPackages [nectarclient-lib]: executing diffoscope
+[2024-04-03 01:04:48] INFO root fetch - processPackages [nectarclient-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nectarclient-lib-1.2.0.tar.gz tmp/nectarclient-lib-1.3.0.tar.gz --markdown 20240403/n/nectarclient-lib/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2024-04-03 01:04:48] WARNING root fetch - processPackages [dsplus]: Timeout reached during download
+[2024-04-03 01:04:49] WARNING root fetch - processPackages [gammaloop]: Timeout reached during download
+[2024-04-03 01:04:49] INFO root fetch - processPackages [gammaloop]: executing diffoscope
+[2024-04-03 01:04:49] INFO root fetch - processPackages [gammaloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammaloop-0.0.1.tar.gz tmp/gammaloop-0.1.0.tar.gz --markdown 20240403/g/gammaloop/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2024-04-03 01:04:49] INFO root fetch - processPackages [dsplus]: Downloading https://files.pythonhosted.org/packages/51/19/5ddf7a52cdeadfc3776a00b4e52daf5ddd7815931711e5d06907a182e10a/dsplus-0.3.9.tar.gz
+[2024-04-03 01:04:49] WARNING root fetch - processPackages [dsplus]: Timeout reached during download
+[2024-04-03 01:04:49] INFO root fetch - processPackages [dsplus]: executing diffoscope
+[2024-04-03 01:04:49] INFO root fetch - processPackages [dsplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsplus-0.3.8.tar.gz tmp/dsplus-0.3.9.tar.gz --markdown 20240403/d/dsplus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-03 01:04:49] INFO root fetch - processPackages [nectarclient-lib]: Remove: archive file [/home/abi/fetcher/tmp/nectarclient-lib-1.2.0.tar.gz]
+[2024-04-03 01:04:49] INFO root fetch - processPackages [nectarclient-lib]: Remove: archive file [/home/abi/fetcher/tmp/nectarclient-lib-1.3.0.tar.gz]
+[2024-04-03 01:04:49] INFO root fetch - main [MainThread]: End processing [nectarclient-lib]: success
+[2024-04-03 01:04:49] INFO root fetch - processPackages [fmbench]: Remove: archive file [/home/abi/fetcher/tmp/fmbench-1.0.8.tar.gz]
+[2024-04-03 01:04:49] INFO root fetch - processPackages [fmbench]: Remove: archive file [/home/abi/fetcher/tmp/fmbench-1.0.9.tar.gz]
+[2024-04-03 01:04:49] INFO root fetch - main [MainThread]: End processing [fmbench]: success
+[2024-04-03 01:04:49] INFO root fetch - processPackages [beautiful-ternary]: Remove: archive file [/home/abi/fetcher/tmp/beautiful-ternary-1.0.0.tar.gz]
+[2024-04-03 01:04:49] INFO root fetch - processPackages [beautiful-ternary]: Remove: archive file [/home/abi/fetcher/tmp/beautiful-ternary-1.1.0.tar.gz]
+[2024-04-03 01:04:49] INFO root fetch - main [MainThread]: End processing [beautiful-ternary]: success
+[2024-04-03 01:04:49] INFO root fetch - processPackages [dsplus]: Remove: archive file [/home/abi/fetcher/tmp/dsplus-0.3.8.tar.gz]
+[2024-04-03 01:04:49] INFO root fetch - processPackages [dsplus]: Remove: archive file [/home/abi/fetcher/tmp/dsplus-0.3.9.tar.gz]
+[2024-04-03 01:04:49] INFO root fetch - main [MainThread]: End processing [dsplus]: success
+[2024-04-03 01:04:50] INFO root fetch - processPackages [gammaloop]: Remove: archive file [/home/abi/fetcher/tmp/gammaloop-0.0.1.tar.gz]
+[2024-04-03 01:04:50] INFO root fetch - processPackages [gammaloop]: Remove: archive file [/home/abi/fetcher/tmp/gammaloop-0.1.0.tar.gz]
+[2024-04-03 01:04:50] INFO root fetch - main [MainThread]: End processing [gammaloop]: success
+[2024-04-03 01:04:50] INFO root fetch - main [MainThread]: Store serial: [22592837]

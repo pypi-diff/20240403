@@ -1458,3 +1458,16 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 01:07:04] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.9.5.tar.gz]
 [2024-04-03 01:07:04] INFO root fetch - main [MainThread]: End processing [anywidget]: success
 [2024-04-03 01:07:04] INFO root fetch - main [MainThread]: Store serial: [22592886]
+[2024-04-03 01:09:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592886]
+[2024-04-03 01:09:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 01:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easysnowdata
+[2024-04-03 01:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nednl
+[2024-04-03 01:09:14] INFO root fetch - processPackages [easysnowdata]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-03 01:09:14] WARNING root fetch - processPackages [nednl]: Skipping, unable to determine old version
+[2024-04-03 01:09:14] INFO root fetch - main [MainThread]: End processing [nednl] error
+[2024-04-03 01:09:14] INFO root fetch - processPackages [easysnowdata]: Downloading https://files.pythonhosted.org/packages/91/b3/8cfefaa1ba27a3212265b34cdf941a3398fb6234fdc4f98f09b2c462f94a/easysnowdata-0.0.1.tar.gz
+[2024-04-03 01:09:14] WARNING root fetch - processPackages [easysnowdata]: Timeout reached during download
+[2024-04-03 01:09:14] INFO root fetch - processPackages [easysnowdata]: Downloading https://files.pythonhosted.org/packages/31/0f/12fa339a0e9df1c1a20132c9061a94fa493597a32f7de9a0c006e3d7db1d/easysnowdata-0.0.2.tar.gz
+[2024-04-03 01:09:15] WARNING root fetch - processPackages [easysnowdata]: Skipping package: exceeds size limit 13040030>=10485760
+[2024-04-03 01:09:15] INFO root fetch - main [MainThread]: End processing [easysnowdata] error
+[2024-04-03 01:09:15] INFO root fetch - main [MainThread]: Store serial: [22592900]

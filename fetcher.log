@@ -1797,3 +1797,39 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 01:26:29] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.6.9.tar.gz]
 [2024-04-03 01:26:29] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2024-04-03 01:26:29] INFO root fetch - main [MainThread]: Store serial: [22593000]
+[2024-04-03 01:28:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593000]
+[2024-04-03 01:28:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 01:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotify-web-downloader
+[2024-04-03 01:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih
+[2024-04-03 01:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lmwrapper
+[2024-04-03 01:28:39] INFO root fetch - processPackages [lmwrapper]: New version: [0.8.7.3] Old Version: [0.8.7.2]
+[2024-04-03 01:28:39] INFO root fetch - processPackages [spotify-web-downloader]: New version: [1.6] Old Version: [1.5.5]
+[2024-04-03 01:28:39] INFO root fetch - processPackages [lmwrapper]: Downloading https://files.pythonhosted.org/packages/f1/7d/8e1330b578abb12661b9570334ad1f9aad80b7cde705657f5e21520664a7/lmwrapper-0.8.7.2.tar.gz
+[2024-04-03 01:28:39] INFO root fetch - processPackages [spotify-web-downloader]: Downloading https://files.pythonhosted.org/packages/af/a0/a9275b217f69d007e597630e0207128b023a7a636c2c5c59ea7340e7cc45/spotify_web_downloader-1.5.5.tar.gz
+[2024-04-03 01:28:39] WARNING root fetch - processPackages [spotify-web-downloader]: Timeout reached during download
+[2024-04-03 01:28:39] WARNING root fetch - processPackages [lmwrapper]: Timeout reached during download
+[2024-04-03 01:28:39] INFO root fetch - processPackages [lmwrapper]: Downloading https://files.pythonhosted.org/packages/03/76/6c564b7b4819df58dc77a913c0fe4760a35152dc47a6b40f36a08e1f6339/lmwrapper-0.8.7.3-py3-none-any.whl
+[2024-04-03 01:28:39] INFO root fetch - processPackages [spotify-web-downloader]: Downloading https://files.pythonhosted.org/packages/c3/40/9eff09d170ea9ea1635f6804f6852f31b03e718c65542aa9b1b91093f0b9/spotify_web_downloader-1.6.tar.gz
+[2024-04-03 01:28:39] INFO root fetch - processPackages [pih]: New version: [0.33] Old Version: [0.32]
+[2024-04-03 01:28:39] WARNING root fetch - processPackages [lmwrapper]: Timeout reached during download
+[2024-04-03 01:28:39] INFO root fetch - processPackages [lmwrapper]: executing diffoscope
+[2024-04-03 01:28:39] INFO root fetch - processPackages [lmwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmwrapper-0.8.7.2.tar.gz tmp/lmwrapper-0.8.7.3-py3-none-any.whl.zip --markdown 20240403/l/lmwrapper/0.8.7.2-0.8.7.3/diff.md --exclude *.pyd
+[2024-04-03 01:28:39] WARNING root fetch - processPackages [spotify-web-downloader]: Timeout reached during download
+[2024-04-03 01:28:39] INFO root fetch - processPackages [spotify-web-downloader]: executing diffoscope
+[2024-04-03 01:28:39] INFO root fetch - processPackages [spotify-web-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_web_downloader-1.5.5.tar.gz tmp/spotify_web_downloader-1.6.tar.gz --markdown 20240403/s/spotify-web-downloader/1.5.5-1.6/diff.md --exclude *.pyd
+[2024-04-03 01:28:39] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/33/c0/11492b6917e7d8adc777731dac88ad790d1c9d29fee7ecdd99188af0e163/pih-0.32.tar.gz
+[2024-04-03 01:28:39] WARNING root fetch - processPackages [pih]: Timeout reached during download
+[2024-04-03 01:28:40] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/02/69/ee0d9e4a2b88e0979ef900b2d12c1d7e7e3591b17255ca1ed4aaf3101681/pih-0.33.tar.gz
+[2024-04-03 01:28:40] INFO root fetch - processPackages [spotify-web-downloader]: Remove: archive file [/home/abi/fetcher/tmp/spotify_web_downloader-1.5.5.tar.gz]
+[2024-04-03 01:28:40] INFO root fetch - processPackages [spotify-web-downloader]: Remove: archive file [/home/abi/fetcher/tmp/spotify_web_downloader-1.6.tar.gz]
+[2024-04-03 01:28:40] INFO root fetch - main [MainThread]: End processing [spotify-web-downloader]: success
+[2024-04-03 01:28:40] INFO root fetch - processPackages [lmwrapper]: Remove: archive file [/home/abi/fetcher/tmp/lmwrapper-0.8.7.2.tar.gz]
+[2024-04-03 01:28:40] INFO root fetch - processPackages [lmwrapper]: Remove: archive file [/home/abi/fetcher/tmp/lmwrapper-0.8.7.3-py3-none-any.whl.zip]
+[2024-04-03 01:28:40] INFO root fetch - main [MainThread]: End processing [lmwrapper]: success
+[2024-04-03 01:28:40] WARNING root fetch - processPackages [pih]: Timeout reached during download
+[2024-04-03 01:28:40] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-03 01:28:40] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.32.tar.gz tmp/pih-0.33.tar.gz --markdown 20240403/p/pih/0.32-0.33/diff.md --exclude *.pyd
+[2024-04-03 01:28:41] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.32.tar.gz]
+[2024-04-03 01:28:41] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.33.tar.gz]
+[2024-04-03 01:28:41] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-03 01:28:41] INFO root fetch - main [MainThread]: Store serial: [22593006]

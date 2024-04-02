@@ -1933,3 +1933,39 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 01:39:31] INFO root fetch - processPackages [wolta]: Remove: archive file [/home/abi/fetcher/tmp/wolta-0.1.3.tar.gz]
 [2024-04-03 01:39:31] INFO root fetch - main [MainThread]: End processing [wolta]: success
 [2024-04-03 01:39:31] INFO root fetch - main [MainThread]: Store serial: [22593037]
+[2024-04-03 01:41:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593037]
+[2024-04-03 01:41:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 01:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dolbaram
+[2024-04-03 01:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ran-bst
+[2024-04-03 01:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sklearn-viz
+[2024-04-03 01:41:40] INFO root fetch - processPackages [dolbaram]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-03 01:41:40] INFO root fetch - processPackages [sklearn-viz]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-03 01:41:40] INFO root fetch - processPackages [ran-bst]: New version: [2.1.0] Old Version: [2.0.2]
+[2024-04-03 01:41:40] INFO root fetch - processPackages [dolbaram]: Downloading https://files.pythonhosted.org/packages/51/0c/4b14061a98f27fa95c5b9636f18abd32cbac8e558e04b53ccad2ee103320/dolbaram-0.2.2.tar.gz
+[2024-04-03 01:41:40] INFO root fetch - processPackages [ran-bst]: Downloading https://files.pythonhosted.org/packages/fb/cd/e4b8cc1c0518b395e900a46db789123fb308b7ba2980dfcc4812aec963de/ran-bst-2.0.2.tar.gz
+[2024-04-03 01:41:40] INFO root fetch - processPackages [sklearn-viz]: Downloading https://files.pythonhosted.org/packages/e9/bf/73481b1f87591889194885d4eb395bfadfc665fef09c6288ad2ffd3f6583/sklearn_viz-0.3.0.tar.gz
+[2024-04-03 01:41:40] WARNING root fetch - processPackages [ran-bst]: Timeout reached during download
+[2024-04-03 01:41:40] WARNING root fetch - processPackages [dolbaram]: Timeout reached during download
+[2024-04-03 01:41:40] WARNING root fetch - processPackages [sklearn-viz]: Timeout reached during download
+[2024-04-03 01:41:40] INFO root fetch - processPackages [ran-bst]: Downloading https://files.pythonhosted.org/packages/d4/c3/c909428a72369045fea3349eabd0d8c6ec8edfb16293b90c4b66fe797d3e/ran-bst-2.1.0.tar.gz
+[2024-04-03 01:41:40] INFO root fetch - processPackages [dolbaram]: Downloading https://files.pythonhosted.org/packages/49/be/b2e38d7258647c33eb94a6565540c160143b506a7eb2ab7ed7a9af9318e8/dolbaram-0.2.3.tar.gz
+[2024-04-03 01:41:40] INFO root fetch - processPackages [sklearn-viz]: Downloading https://files.pythonhosted.org/packages/c5/95/054763dc92da97b34c6fdbbbcfe0c4249b73ea1620ef548c615553165c45/sklearn_viz-0.3.1.tar.gz
+[2024-04-03 01:41:40] WARNING root fetch - processPackages [ran-bst]: Timeout reached during download
+[2024-04-03 01:41:40] INFO root fetch - processPackages [ran-bst]: executing diffoscope
+[2024-04-03 01:41:40] INFO root fetch - processPackages [ran-bst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ran-bst-2.0.2.tar.gz tmp/ran-bst-2.1.0.tar.gz --markdown 20240403/r/ran-bst/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2024-04-03 01:41:40] WARNING root fetch - processPackages [dolbaram]: Timeout reached during download
+[2024-04-03 01:41:40] INFO root fetch - processPackages [dolbaram]: executing diffoscope
+[2024-04-03 01:41:40] INFO root fetch - processPackages [dolbaram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolbaram-0.2.2.tar.gz tmp/dolbaram-0.2.3.tar.gz --markdown 20240403/d/dolbaram/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-03 01:41:40] WARNING root fetch - processPackages [sklearn-viz]: Timeout reached during download
+[2024-04-03 01:41:40] INFO root fetch - processPackages [sklearn-viz]: executing diffoscope
+[2024-04-03 01:41:40] INFO root fetch - processPackages [sklearn-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_viz-0.3.0.tar.gz tmp/sklearn_viz-0.3.1.tar.gz --markdown 20240403/s/sklearn-viz/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-03 01:41:41] INFO root fetch - processPackages [ran-bst]: Remove: archive file [/home/abi/fetcher/tmp/ran-bst-2.0.2.tar.gz]
+[2024-04-03 01:41:41] INFO root fetch - processPackages [ran-bst]: Remove: archive file [/home/abi/fetcher/tmp/ran-bst-2.1.0.tar.gz]
+[2024-04-03 01:41:41] INFO root fetch - main [MainThread]: End processing [ran-bst]: success
+[2024-04-03 01:41:41] INFO root fetch - processPackages [dolbaram]: Remove: archive file [/home/abi/fetcher/tmp/dolbaram-0.2.2.tar.gz]
+[2024-04-03 01:41:41] INFO root fetch - processPackages [dolbaram]: Remove: archive file [/home/abi/fetcher/tmp/dolbaram-0.2.3.tar.gz]
+[2024-04-03 01:41:41] INFO root fetch - main [MainThread]: End processing [dolbaram]: success
+[2024-04-03 01:41:41] INFO root fetch - processPackages [sklearn-viz]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_viz-0.3.0.tar.gz]
+[2024-04-03 01:41:41] INFO root fetch - processPackages [sklearn-viz]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_viz-0.3.1.tar.gz]
+[2024-04-03 01:41:41] INFO root fetch - main [MainThread]: End processing [sklearn-viz]: success
+[2024-04-03 01:41:41] INFO root fetch - main [MainThread]: Store serial: [22593047]

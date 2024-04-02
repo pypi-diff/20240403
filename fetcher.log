@@ -156,3 +156,108 @@
 [2024-04-03 00:09:43] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
 [2024-04-03 00:09:43] INFO root fetch - main [MainThread]: End processing [burr]: success
 [2024-04-03 00:09:43] INFO root fetch - main [MainThread]: Store serial: [22592411]
+[2024-04-03 00:11:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592411]
+[2024-04-03 00:11:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-03 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: broad-babel
+[2024-04-03 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deltachat-rpc-client
+[2024-04-03 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-skill-stock
+[2024-04-03 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: freegenius
+[2024-04-03 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: regis
+[2024-04-03 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fast-agave
+[2024-04-03 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shdo
+[2024-04-03 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apitoolkit-pyramid
+[2024-04-03 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: esbmc-ai
+[2024-04-03 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: verysimpletest
+[2024-04-03 00:11:52] INFO root fetch - processPackages [broad-babel]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 00:11:52] INFO root fetch - processPackages [apitoolkit-pyramid]: New version: [0.1.2] Old Version: [0.0.2]
+[2024-04-03 00:11:52] INFO root fetch - processPackages [esbmc-ai]: New version: [0.5.0.dev4] Old Version: [0.5.0.dev3]
+[2024-04-03 00:11:52] INFO root fetch - processPackages [shdo]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-03 00:11:52] INFO root fetch - processPackages [neon-skill-stock]: New version: [1.0.1a2] Old Version: [1.0.1a1]
+[2024-04-03 00:11:52] INFO root fetch - processPackages [regis]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 00:11:52] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/9b/22/9138f7fd845158bdb7b888378ebb415086b390fc7bc3bfc87027f3a63f19/shdo-0.0.3.tar.gz
+[2024-04-03 00:11:52] INFO root fetch - processPackages [broad-babel]: Downloading https://files.pythonhosted.org/packages/c2/52/ea99ca547213e6c3abaad749fb0d2c7920221401bf654a63d3bbb65d56d4/broad_babel-0.1.8.tar.gz
+[2024-04-03 00:11:52] INFO root fetch - processPackages [apitoolkit-pyramid]: Downloading https://files.pythonhosted.org/packages/99/15/6234dbecf80a7f5498e644011fcdf46adb50f9b0fa4ea25275d11c411db9/apitoolkit-pyramid-0.0.2.tar.gz
+[2024-04-03 00:11:52] INFO root fetch - processPackages [deltachat-rpc-client]: New version: [1.137.0] Old Version: [1.136.6]
+[2024-04-03 00:11:52] INFO root fetch - processPackages [freegenius]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 00:11:52] INFO root fetch - processPackages [esbmc-ai]: Downloading https://files.pythonhosted.org/packages/83/c2/196b33737086e7e5200027bbaa0d2466945347d93dbc4eaabe8050fec19e/esbmc_ai-0.5.0.dev3.tar.gz
+[2024-04-03 00:11:52] INFO root fetch - processPackages [fast-agave]: New version: [0.9.0.dev1] Old Version: [0.9.0.dev0]
+[2024-04-03 00:11:52] WARNING root fetch - processPackages [verysimpletest]: Skipping, unable to determine old version
+[2024-04-03 00:11:52] INFO root fetch - main [MainThread]: End processing [verysimpletest] error
+[2024-04-03 00:11:52] WARNING root fetch - processPackages [shdo]: Timeout reached during download
+[2024-04-03 00:11:52] WARNING root fetch - processPackages [apitoolkit-pyramid]: Timeout reached during download
+[2024-04-03 00:11:52] WARNING root fetch - processPackages [broad-babel]: Timeout reached during download
+[2024-04-03 00:11:52] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/6f/a0/f28ee0e233993d710b958fb4eca9f4892fdc879db0894cb221c3c672db85/freegenius-0.0.8.tar.gz
+[2024-04-03 00:11:52] INFO root fetch - processPackages [regis]: Downloading https://files.pythonhosted.org/packages/a9/19/a046cde404f181fda6ee27f5dc3222dda2311afcbdc14d6cbebde4c3e7ac/regis-0.1.8.tar.gz
+[2024-04-03 00:11:52] WARNING root fetch - processPackages [esbmc-ai]: Timeout reached during download
+[2024-04-03 00:11:52] INFO root fetch - processPackages [deltachat-rpc-client]: Downloading https://files.pythonhosted.org/packages/47/c8/002654c3e6caf1fcc4659aac9b7897cdf6a50238e2d2c9d03bb75c004c22/deltachat-rpc-client-1.136.6.tar.gz
+[2024-04-03 00:11:52] INFO root fetch - processPackages [neon-skill-stock]: Downloading https://files.pythonhosted.org/packages/6f/b7/3f0850f9270d092997b6b3bb25e6ad1b8f05a41d582495de710ec5ad3e15/neon-skill-stock-1.0.1a1.tar.gz
+[2024-04-03 00:11:52] INFO root fetch - processPackages [fast-agave]: Downloading https://files.pythonhosted.org/packages/ca/78/5091fccfab34df4a319ce47800e8b8e49b4cb0e5649eff74dbbb6cd712e7/fast_agave-0.9.0.dev0.tar.gz
+[2024-04-03 00:11:52] WARNING root fetch - processPackages [freegenius]: Timeout reached during download
+[2024-04-03 00:11:52] INFO root fetch - processPackages [broad-babel]: Downloading https://files.pythonhosted.org/packages/f1/40/6158feafa284056fb417486acbcce8a1a84a7752e77f900820d3c8944ed8/broad_babel-0.1.9.tar.gz
+[2024-04-03 00:11:52] INFO root fetch - processPackages [apitoolkit-pyramid]: Downloading https://files.pythonhosted.org/packages/84/15/89334ebb9c21b06c9d48e2c8fac6826e988a37e17b3a0fac8196baa9fd5c/apitoolkit-pyramid-0.1.2.tar.gz
+[2024-04-03 00:11:52] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/64/a9/f3ae6b148a4bd786790a124582c069ff16ee88fb307a8ebff8181577bb4d/freegenius-0.0.9.tar.gz
+[2024-04-03 00:11:52] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/c5/1f/b1f706cd4abccaea84b07e5eede329e7c6f1e2adca5c62812c34c282b213/shdo-0.0.4.tar.gz
+[2024-04-03 00:11:52] WARNING root fetch - processPackages [regis]: Timeout reached during download
+[2024-04-03 00:11:52] WARNING root fetch - processPackages [neon-skill-stock]: Timeout reached during download
+[2024-04-03 00:11:52] WARNING root fetch - processPackages [fast-agave]: Timeout reached during download
+[2024-04-03 00:11:52] WARNING root fetch - processPackages [deltachat-rpc-client]: Timeout reached during download
+[2024-04-03 00:11:53] INFO root fetch - processPackages [esbmc-ai]: Downloading https://files.pythonhosted.org/packages/cc/e3/590dd23e9ee0fb3046958002d7406c4b9ca4f2187b7cfe11ef021a2857ec/esbmc_ai-0.5.0.dev4.tar.gz
+[2024-04-03 00:11:53] WARNING root fetch - processPackages [apitoolkit-pyramid]: Timeout reached during download
+[2024-04-03 00:11:53] INFO root fetch - processPackages [apitoolkit-pyramid]: executing diffoscope
+[2024-04-03 00:11:53] INFO root fetch - processPackages [apitoolkit-pyramid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apitoolkit-pyramid-0.0.2.tar.gz tmp/apitoolkit-pyramid-0.1.2.tar.gz --markdown 20240403/a/apitoolkit-pyramid/0.0.2-0.1.2/diff.md --exclude *.pyd
+[2024-04-03 00:11:53] WARNING root fetch - processPackages [broad-babel]: Timeout reached during download
+[2024-04-03 00:11:53] INFO root fetch - processPackages [broad-babel]: executing diffoscope
+[2024-04-03 00:11:53] INFO root fetch - processPackages [broad-babel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/broad_babel-0.1.8.tar.gz tmp/broad_babel-0.1.9.tar.gz --markdown 20240403/b/broad-babel/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 00:11:53] WARNING root fetch - processPackages [freegenius]: Timeout reached during download
+[2024-04-03 00:11:53] WARNING root fetch - processPackages [shdo]: Timeout reached during download
+[2024-04-03 00:11:53] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-04-03 00:11:53] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.0.8.tar.gz tmp/freegenius-0.0.9.tar.gz --markdown 20240403/f/freegenius/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 00:11:53] INFO root fetch - processPackages [shdo]: executing diffoscope
+[2024-04-03 00:11:53] INFO root fetch - processPackages [shdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shdo-0.0.3.tar.gz tmp/shdo-0.0.4.tar.gz --markdown 20240403/s/shdo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-03 00:11:53] INFO root fetch - processPackages [regis]: Downloading https://files.pythonhosted.org/packages/e0/25/74667bbd99d0acf4eb4064ce4d615ab4919fd700d07b132eea95030ea6ae/regis-0.1.9.tar.gz
+[2024-04-03 00:11:53] INFO root fetch - processPackages [neon-skill-stock]: Downloading https://files.pythonhosted.org/packages/b3/17/a7fee2ef925cc7b8bb654751fb432d5068daa2cd85a488e8d4388dc41e31/neon-skill-stock-1.0.1a2.tar.gz
+[2024-04-03 00:11:53] INFO root fetch - processPackages [fast-agave]: Downloading https://files.pythonhosted.org/packages/a1/b9/9e6ecc020a77e7843d135b6b022307632bce7238fcf17e41676ef3a26a02/fast_agave-0.9.0.dev1.tar.gz
+[2024-04-03 00:11:53] INFO root fetch - processPackages [deltachat-rpc-client]: Downloading https://files.pythonhosted.org/packages/d1/41/8dfcdb9954142a20939559cd2dc4852949e0a63caaef0a8d97d5e1988a55/deltachat-rpc-client-1.137.0.tar.gz
+[2024-04-03 00:11:53] WARNING root fetch - processPackages [esbmc-ai]: Timeout reached during download
+[2024-04-03 00:11:53] INFO root fetch - processPackages [esbmc-ai]: executing diffoscope
+[2024-04-03 00:11:53] INFO root fetch - processPackages [esbmc-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esbmc_ai-0.5.0.dev3.tar.gz tmp/esbmc_ai-0.5.0.dev4.tar.gz --markdown 20240403/e/esbmc-ai/0.5.0.dev3-0.5.0.dev4/diff.md --exclude *.pyd
+[2024-04-03 00:11:53] WARNING root fetch - processPackages [neon-skill-stock]: Timeout reached during download
+[2024-04-03 00:11:53] INFO root fetch - processPackages [neon-skill-stock]: executing diffoscope
+[2024-04-03 00:11:53] INFO root fetch - processPackages [neon-skill-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-stock-1.0.1a1.tar.gz tmp/neon-skill-stock-1.0.1a2.tar.gz --markdown 20240403/n/neon-skill-stock/1.0.1a1-1.0.1a2/diff.md --exclude *.pyd
+[2024-04-03 00:11:53] WARNING root fetch - processPackages [deltachat-rpc-client]: Timeout reached during download
+[2024-04-03 00:11:53] INFO root fetch - processPackages [deltachat-rpc-client]: executing diffoscope
+[2024-04-03 00:11:53] INFO root fetch - processPackages [deltachat-rpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltachat-rpc-client-1.136.6.tar.gz tmp/deltachat-rpc-client-1.137.0.tar.gz --markdown 20240403/d/deltachat-rpc-client/1.136.6-1.137.0/diff.md --exclude *.pyd
+[2024-04-03 00:11:53] WARNING root fetch - processPackages [regis]: Timeout reached during download
+[2024-04-03 00:11:53] INFO root fetch - processPackages [regis]: executing diffoscope
+[2024-04-03 00:11:53] INFO root fetch - processPackages [regis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regis-0.1.8.tar.gz tmp/regis-0.1.9.tar.gz --markdown 20240403/r/regis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 00:11:53] WARNING root fetch - processPackages [fast-agave]: Timeout reached during download
+[2024-04-03 00:11:53] INFO root fetch - processPackages [fast-agave]: executing diffoscope
+[2024-04-03 00:11:53] INFO root fetch - processPackages [fast-agave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_agave-0.9.0.dev0.tar.gz tmp/fast_agave-0.9.0.dev1.tar.gz --markdown 20240403/f/fast-agave/0.9.0.dev0-0.9.0.dev1/diff.md --exclude *.pyd
+[2024-04-03 00:11:53] INFO root fetch - processPackages [broad-babel]: Remove: archive file [/home/abi/fetcher/tmp/broad_babel-0.1.8.tar.gz]
+[2024-04-03 00:11:53] INFO root fetch - processPackages [broad-babel]: Remove: archive file [/home/abi/fetcher/tmp/broad_babel-0.1.9.tar.gz]
+[2024-04-03 00:11:53] INFO root fetch - main [MainThread]: End processing [broad-babel]: success
+[2024-04-03 00:11:53] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.8.tar.gz]
+[2024-04-03 00:11:53] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.9.tar.gz]
+[2024-04-03 00:11:53] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-04-03 00:11:53] INFO root fetch - processPackages [apitoolkit-pyramid]: Remove: archive file [/home/abi/fetcher/tmp/apitoolkit-pyramid-0.0.2.tar.gz]
+[2024-04-03 00:11:53] INFO root fetch - processPackages [apitoolkit-pyramid]: Remove: archive file [/home/abi/fetcher/tmp/apitoolkit-pyramid-0.1.2.tar.gz]
+[2024-04-03 00:11:53] INFO root fetch - main [MainThread]: End processing [apitoolkit-pyramid]: success
+[2024-04-03 00:11:53] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.0.3.tar.gz]
+[2024-04-03 00:11:53] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.0.4.tar.gz]
+[2024-04-03 00:11:53] INFO root fetch - main [MainThread]: End processing [shdo]: success
+[2024-04-03 00:11:54] INFO root fetch - processPackages [neon-skill-stock]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-stock-1.0.1a1.tar.gz]
+[2024-04-03 00:11:54] INFO root fetch - processPackages [neon-skill-stock]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-stock-1.0.1a2.tar.gz]
+[2024-04-03 00:11:54] INFO root fetch - main [MainThread]: End processing [neon-skill-stock]: success
+[2024-04-03 00:11:54] INFO root fetch - processPackages [deltachat-rpc-client]: Remove: archive file [/home/abi/fetcher/tmp/deltachat-rpc-client-1.136.6.tar.gz]
+[2024-04-03 00:11:54] INFO root fetch - processPackages [deltachat-rpc-client]: Remove: archive file [/home/abi/fetcher/tmp/deltachat-rpc-client-1.137.0.tar.gz]
+[2024-04-03 00:11:54] INFO root fetch - main [MainThread]: End processing [deltachat-rpc-client]: success
+[2024-04-03 00:11:54] INFO root fetch - processPackages [regis]: Remove: archive file [/home/abi/fetcher/tmp/regis-0.1.8.tar.gz]
+[2024-04-03 00:11:54] INFO root fetch - processPackages [regis]: Remove: archive file [/home/abi/fetcher/tmp/regis-0.1.9.tar.gz]
+[2024-04-03 00:11:54] INFO root fetch - main [MainThread]: End processing [regis]: success
+[2024-04-03 00:11:54] INFO root fetch - processPackages [fast-agave]: Remove: archive file [/home/abi/fetcher/tmp/fast_agave-0.9.0.dev0.tar.gz]
+[2024-04-03 00:11:54] INFO root fetch - processPackages [fast-agave]: Remove: archive file [/home/abi/fetcher/tmp/fast_agave-0.9.0.dev1.tar.gz]
+[2024-04-03 00:11:54] INFO root fetch - main [MainThread]: End processing [fast-agave]: success
+[2024-04-03 00:11:54] INFO root fetch - processPackages [esbmc-ai]: Remove: archive file [/home/abi/fetcher/tmp/esbmc_ai-0.5.0.dev3.tar.gz]
+[2024-04-03 00:11:54] INFO root fetch - processPackages [esbmc-ai]: Remove: archive file [/home/abi/fetcher/tmp/esbmc_ai-0.5.0.dev4.tar.gz]
+[2024-04-03 00:11:54] INFO root fetch - main [MainThread]: End processing [esbmc-ai]: success
+[2024-04-03 00:11:54] INFO root fetch - main [MainThread]: Store serial: [22592445]

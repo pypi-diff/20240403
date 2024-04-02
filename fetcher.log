@@ -661,3 +661,20 @@
 [2024-04-03 00:28:59] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
 [2024-04-03 00:28:59] INFO root fetch - main [MainThread]: End processing [burr]: success
 [2024-04-03 00:28:59] INFO root fetch - main [MainThread]: Store serial: [22592623]
+[2024-04-03 00:31:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592623]
+[2024-04-03 00:31:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 00:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: electrode-visualizer
+[2024-04-03 00:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wbtools
+[2024-04-03 00:31:07] INFO root fetch - processPackages [wbtools]: New version: [3.0.6] Old Version: [3.0.5]
+[2024-04-03 00:31:07] INFO root fetch - processPackages [wbtools]: Downloading https://files.pythonhosted.org/packages/a0/bd/29c257ccfe8272c62b2bf5d67f3378a76ade081d20d7ff7758bfba5935b5/wbtools-3.0.5.tar.gz
+[2024-04-03 00:31:07] WARNING root fetch - processPackages [electrode-visualizer]: Skipping, unable to determine old version
+[2024-04-03 00:31:07] INFO root fetch - main [MainThread]: End processing [electrode-visualizer] error
+[2024-04-03 00:31:08] WARNING root fetch - processPackages [wbtools]: Timeout reached during download
+[2024-04-03 00:31:08] INFO root fetch - processPackages [wbtools]: Downloading https://files.pythonhosted.org/packages/2c/9d/b4b4a175f5e92f87c5635300a6f4aec28dd470828230533a4c0233311ec4/wbtools-3.0.6.tar.gz
+[2024-04-03 00:31:08] WARNING root fetch - processPackages [wbtools]: Timeout reached during download
+[2024-04-03 00:31:08] INFO root fetch - processPackages [wbtools]: executing diffoscope
+[2024-04-03 00:31:08] INFO root fetch - processPackages [wbtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbtools-3.0.5.tar.gz tmp/wbtools-3.0.6.tar.gz --markdown 20240403/w/wbtools/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2024-04-03 00:31:09] INFO root fetch - processPackages [wbtools]: Remove: archive file [/home/abi/fetcher/tmp/wbtools-3.0.5.tar.gz]
+[2024-04-03 00:31:09] INFO root fetch - processPackages [wbtools]: Remove: archive file [/home/abi/fetcher/tmp/wbtools-3.0.6.tar.gz]
+[2024-04-03 00:31:09] INFO root fetch - main [MainThread]: End processing [wbtools]: success
+[2024-04-03 00:31:09] INFO root fetch - main [MainThread]: Store serial: [22592631]

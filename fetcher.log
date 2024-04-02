@@ -678,3 +678,33 @@
 [2024-04-03 00:31:09] INFO root fetch - processPackages [wbtools]: Remove: archive file [/home/abi/fetcher/tmp/wbtools-3.0.6.tar.gz]
 [2024-04-03 00:31:09] INFO root fetch - main [MainThread]: End processing [wbtools]: success
 [2024-04-03 00:31:09] INFO root fetch - main [MainThread]: Store serial: [22592631]
+[2024-04-03 00:33:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592631]
+[2024-04-03 00:33:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 00:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelpack
+[2024-04-03 00:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellpack
+[2024-04-03 00:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ftmscan-sdk
+[2024-04-03 00:33:17] INFO root fetch - processPackages [modelpack]: New version: [2.2.8] Old Version: [2.2.7.post90]
+[2024-04-03 00:33:17] INFO root fetch - processPackages [ftmscan-sdk]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-03 00:33:17] INFO root fetch - processPackages [cellpack]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-03 00:33:17] INFO root fetch - processPackages [modelpack]: Downloading https://files.pythonhosted.org/packages/4f/34/d67a29ae9c1758cdc2cc24396a73ff8be5e72be4012159ff1fb9f05fc0f9/modelpack-2.2.7.post90-cp39-cp39-win_amd64.whl
+[2024-04-03 00:33:17] WARNING root fetch - processPackages [modelpack]: Skipping package: exceeds size limit 69097094>=10485760
+[2024-04-03 00:33:17] INFO root fetch - main [MainThread]: End processing [modelpack] error
+[2024-04-03 00:33:17] INFO root fetch - processPackages [cellpack]: Downloading https://files.pythonhosted.org/packages/e7/e0/13477439367cfcbe3e29cd50169e7c69b4734fd589ae1bd2834f6576c95b/cellpack-1.0.7.tar.gz
+[2024-04-03 00:33:17] INFO root fetch - processPackages [ftmscan-sdk]: Downloading https://files.pythonhosted.org/packages/1b/fc/432353aed9406243eba86efa34ffe8aa610e48d990c27a9c1c494b42a9f1/ftmscan_sdk-0.5.0.tar.gz
+[2024-04-03 00:33:17] WARNING root fetch - processPackages [ftmscan-sdk]: Timeout reached during download
+[2024-04-03 00:33:17] WARNING root fetch - processPackages [cellpack]: Timeout reached during download
+[2024-04-03 00:33:18] INFO root fetch - processPackages [ftmscan-sdk]: Downloading https://files.pythonhosted.org/packages/ff/2a/89132ee62d32cc4c0fed5ac8b9c6dd8f1701ba15083b7c67776476b2090b/ftmscan_sdk-0.5.1.tar.gz
+[2024-04-03 00:33:18] INFO root fetch - processPackages [cellpack]: Downloading https://files.pythonhosted.org/packages/ab/bf/3485bfb950b2e5f5fb0760e75aa563f2bb66352d9e05e6d90daff4b55140/cellpack-1.0.8.tar.gz
+[2024-04-03 00:33:18] WARNING root fetch - processPackages [cellpack]: Timeout reached during download
+[2024-04-03 00:33:18] INFO root fetch - processPackages [cellpack]: executing diffoscope
+[2024-04-03 00:33:18] INFO root fetch - processPackages [cellpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellpack-1.0.7.tar.gz tmp/cellpack-1.0.8.tar.gz --markdown 20240403/c/cellpack/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2024-04-03 00:33:18] WARNING root fetch - processPackages [ftmscan-sdk]: Timeout reached during download
+[2024-04-03 00:33:18] INFO root fetch - processPackages [ftmscan-sdk]: executing diffoscope
+[2024-04-03 00:33:18] INFO root fetch - processPackages [ftmscan-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftmscan_sdk-0.5.0.tar.gz tmp/ftmscan_sdk-0.5.1.tar.gz --markdown 20240403/f/ftmscan-sdk/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2024-04-03 00:33:18] INFO root fetch - processPackages [ftmscan-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ftmscan_sdk-0.5.0.tar.gz]
+[2024-04-03 00:33:18] INFO root fetch - processPackages [ftmscan-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ftmscan_sdk-0.5.1.tar.gz]
+[2024-04-03 00:33:18] INFO root fetch - main [MainThread]: End processing [ftmscan-sdk]: success
+[2024-04-03 00:33:19] INFO root fetch - processPackages [cellpack]: Remove: archive file [/home/abi/fetcher/tmp/cellpack-1.0.7.tar.gz]
+[2024-04-03 00:33:19] INFO root fetch - processPackages [cellpack]: Remove: archive file [/home/abi/fetcher/tmp/cellpack-1.0.8.tar.gz]
+[2024-04-03 00:33:19] INFO root fetch - main [MainThread]: End processing [cellpack]: success
+[2024-04-03 00:33:19] INFO root fetch - main [MainThread]: Store serial: [22592648]

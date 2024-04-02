@@ -708,3 +708,28 @@
 [2024-04-03 00:33:19] INFO root fetch - processPackages [cellpack]: Remove: archive file [/home/abi/fetcher/tmp/cellpack-1.0.8.tar.gz]
 [2024-04-03 00:33:19] INFO root fetch - main [MainThread]: End processing [cellpack]: success
 [2024-04-03 00:33:19] INFO root fetch - main [MainThread]: Store serial: [22592648]
+[2024-04-03 00:35:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592648]
+[2024-04-03 00:35:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 00:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comet-maths
+[2024-04-03 00:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langgraph
+[2024-04-03 00:35:29] INFO root fetch - processPackages [comet-maths]: New version: [0.9] Old Version: [0.8]
+[2024-04-03 00:35:29] INFO root fetch - processPackages [comet-maths]: Downloading https://files.pythonhosted.org/packages/a0/9d/10de8a8610929b5e518ad469fbe5f79b5741949de43cb299129d8d099452/comet_maths-0.8.tar.gz
+[2024-04-03 00:35:29] INFO root fetch - processPackages [langgraph]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 00:35:29] WARNING root fetch - processPackages [comet-maths]: Timeout reached during download
+[2024-04-03 00:35:29] INFO root fetch - processPackages [comet-maths]: Downloading https://files.pythonhosted.org/packages/cf/a7/a9877e8a9b60f1dea120f60fa85520f52bf5d43e689e40c0cc4cc604c78f/comet_maths-0.9.tar.gz
+[2024-04-03 00:35:29] INFO root fetch - processPackages [langgraph]: Downloading https://files.pythonhosted.org/packages/c3/4c/9b4e9602b53407f902478465aed68d9de3c50e5d87e57689b587d47b3da7/langgraph-0.0.8.tar.gz
+[2024-04-03 00:35:29] WARNING root fetch - processPackages [comet-maths]: Timeout reached during download
+[2024-04-03 00:35:29] INFO root fetch - processPackages [comet-maths]: executing diffoscope
+[2024-04-03 00:35:29] INFO root fetch - processPackages [comet-maths]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_maths-0.8.tar.gz tmp/comet_maths-0.9.tar.gz --markdown 20240403/c/comet-maths/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-03 00:35:29] WARNING root fetch - processPackages [langgraph]: Timeout reached during download
+[2024-04-03 00:35:29] INFO root fetch - processPackages [langgraph]: Downloading https://files.pythonhosted.org/packages/f4/a0/daf7cdeb4d1bf5e82dbc320b0a09159087efca3e06f23971c0144e7114f0/langgraph-0.0.9.tar.gz
+[2024-04-03 00:35:29] WARNING root fetch - processPackages [langgraph]: Timeout reached during download
+[2024-04-03 00:35:29] INFO root fetch - processPackages [langgraph]: executing diffoscope
+[2024-04-03 00:35:29] INFO root fetch - processPackages [langgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langgraph-0.0.8.tar.gz tmp/langgraph-0.0.9.tar.gz --markdown 20240403/l/langgraph/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 00:35:30] INFO root fetch - processPackages [comet-maths]: Remove: archive file [/home/abi/fetcher/tmp/comet_maths-0.8.tar.gz]
+[2024-04-03 00:35:30] INFO root fetch - processPackages [comet-maths]: Remove: archive file [/home/abi/fetcher/tmp/comet_maths-0.9.tar.gz]
+[2024-04-03 00:35:30] INFO root fetch - main [MainThread]: End processing [comet-maths]: success
+[2024-04-03 00:35:30] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.8.tar.gz]
+[2024-04-03 00:35:30] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.9.tar.gz]
+[2024-04-03 00:35:30] INFO root fetch - main [MainThread]: End processing [langgraph]: success
+[2024-04-03 00:35:30] INFO root fetch - main [MainThread]: Store serial: [22592654]

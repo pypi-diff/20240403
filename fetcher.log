@@ -801,3 +801,58 @@
 [2024-04-03 00:39:50] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.3.9.tar.gz]
 [2024-04-03 00:39:50] INFO root fetch - main [MainThread]: End processing [landingai]: success
 [2024-04-03 00:39:50] INFO root fetch - main [MainThread]: Store serial: [22592677]
+[2024-04-03 00:41:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592677]
+[2024-04-03 00:41:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 00:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: embedpvp
+[2024-04-03 00:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-equinix
+[2024-04-03 00:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qai-hub-models
+[2024-04-03 00:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygo-tools
+[2024-04-03 00:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shdo
+[2024-04-03 00:41:59] INFO root fetch - processPackages [pulumi-equinix]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-03 00:41:59] INFO root fetch - processPackages [shdo]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-03 00:41:59] INFO root fetch - processPackages [qai-hub-models]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-03 00:41:59] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/d0/3b/99b1277fa5ae33513070b669c69e5060ff45c4f3aa4e9adc4e52baf0298b/shdo-0.0.5.tar.gz
+[2024-04-03 00:41:59] INFO root fetch - processPackages [pulumi-equinix]: Downloading https://files.pythonhosted.org/packages/b4/a3/f23c2c69eee31d797627ad0f890d4d9912fce28ca1c4553c1eefe8f50639/pulumi_equinix-0.7.2.tar.gz
+[2024-04-03 00:41:59] INFO root fetch - processPackages [pygo-tools]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-03 00:41:59] INFO root fetch - processPackages [embedpvp]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-03 00:41:59] WARNING root fetch - processPackages [shdo]: Timeout reached during download
+[2024-04-03 00:41:59] WARNING root fetch - processPackages [pulumi-equinix]: Timeout reached during download
+[2024-04-03 00:41:59] WARNING root fetch - processPackages [embedpvp]: fallback to get urls: [1.0.3]
+[2024-04-03 00:41:59] WARNING root fetch - processPackages [embedpvp]: None
+[2024-04-03 00:41:59] INFO root fetch - processPackages [pulumi-equinix]: Downloading https://files.pythonhosted.org/packages/9a/6c/939f4c300efaefed10e6aa9a0fb892e627f73147ff6c3486c9615a5db88b/pulumi_equinix-0.7.3.tar.gz
+[2024-04-03 00:41:59] WARNING root fetch - processPackages [embedpvp]: None
+[2024-04-03 00:41:59] INFO root fetch - processPackages [pygo-tools]: Downloading https://files.pythonhosted.org/packages/ba/38/171542b6791662d4a7a42e8d443f72b44ed742381ca58bbd97408fcd47e1/pygo-tools-0.1.4.tar.gz
+[2024-04-03 00:41:59] INFO root fetch - processPackages [qai-hub-models]: Downloading https://files.pythonhosted.org/packages/92/4a/acf49492cd0517331f2ca0671ed406545fb0010558aae75d709e4c220afd/qai_hub_models-0.4.0-py3-none-any.whl
+[2024-04-03 00:41:59] WARNING root fetch - processPackages [embedpvp]: unable to get url for both version [1.0.3]
+[2024-04-03 00:41:59] WARNING root fetch - processPackages [embedpvp]: None
+[2024-04-03 00:41:59] INFO root fetch - main [MainThread]: End processing [embedpvp] error
+[2024-04-03 00:41:59] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/0a/07/cf9a227e51bea94c254dd90ba6726cbe0deb98be1b8855455f7fd5731564/shdo-0.0.6.tar.gz
+[2024-04-03 00:41:59] WARNING root fetch - processPackages [pygo-tools]: Timeout reached during download
+[2024-04-03 00:41:59] WARNING root fetch - processPackages [pulumi-equinix]: Timeout reached during download
+[2024-04-03 00:41:59] INFO root fetch - processPackages [pulumi-equinix]: executing diffoscope
+[2024-04-03 00:41:59] INFO root fetch - processPackages [pulumi-equinix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_equinix-0.7.2.tar.gz tmp/pulumi_equinix-0.7.3.tar.gz --markdown 20240403/p/pulumi-equinix/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2024-04-03 00:41:59] WARNING root fetch - processPackages [shdo]: Timeout reached during download
+[2024-04-03 00:41:59] INFO root fetch - processPackages [shdo]: executing diffoscope
+[2024-04-03 00:41:59] INFO root fetch - processPackages [shdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shdo-0.0.5.tar.gz tmp/shdo-0.0.6.tar.gz --markdown 20240403/s/shdo/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-03 00:41:59] WARNING root fetch - processPackages [qai-hub-models]: Timeout reached during download
+[2024-04-03 00:42:00] INFO root fetch - processPackages [pygo-tools]: Downloading https://files.pythonhosted.org/packages/e4/a2/bf6cd21baa8a0735668efe2fdda5cdba21fb99096821642caa2b2252310c/pygo-tools-0.1.5.tar.gz
+[2024-04-03 00:42:00] INFO root fetch - processPackages [qai-hub-models]: Downloading https://files.pythonhosted.org/packages/ef/af/315980e894b73cadcc1d1e0a97174cc742eb664bc742e8fc60843bd7c91e/qai_hub_models-0.4.1-py3-none-any.whl
+[2024-04-03 00:42:00] WARNING root fetch - processPackages [pygo-tools]: Timeout reached during download
+[2024-04-03 00:42:00] INFO root fetch - processPackages [pygo-tools]: executing diffoscope
+[2024-04-03 00:42:00] INFO root fetch - processPackages [pygo-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygo-tools-0.1.4.tar.gz tmp/pygo-tools-0.1.5.tar.gz --markdown 20240403/p/pygo-tools/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-03 00:42:00] WARNING root fetch - processPackages [qai-hub-models]: Timeout reached during download
+[2024-04-03 00:42:00] INFO root fetch - processPackages [qai-hub-models]: executing diffoscope
+[2024-04-03 00:42:00] INFO root fetch - processPackages [qai-hub-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_hub_models-0.4.0-py3-none-any.whl.zip tmp/qai_hub_models-0.4.1-py3-none-any.whl.zip --markdown 20240403/q/qai-hub-models/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-03 00:42:00] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.0.5.tar.gz]
+[2024-04-03 00:42:00] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.0.6.tar.gz]
+[2024-04-03 00:42:00] INFO root fetch - main [MainThread]: End processing [shdo]: success
+[2024-04-03 00:42:00] INFO root fetch - processPackages [pygo-tools]: Remove: archive file [/home/abi/fetcher/tmp/pygo-tools-0.1.4.tar.gz]
+[2024-04-03 00:42:00] INFO root fetch - processPackages [pygo-tools]: Remove: archive file [/home/abi/fetcher/tmp/pygo-tools-0.1.5.tar.gz]
+[2024-04-03 00:42:00] INFO root fetch - main [MainThread]: End processing [pygo-tools]: success
+[2024-04-03 00:42:01] INFO root fetch - processPackages [pulumi-equinix]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_equinix-0.7.2.tar.gz]
+[2024-04-03 00:42:01] INFO root fetch - processPackages [pulumi-equinix]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_equinix-0.7.3.tar.gz]
+[2024-04-03 00:42:01] INFO root fetch - main [MainThread]: End processing [pulumi-equinix]: success
+[2024-04-03 00:42:04] INFO root fetch - processPackages [qai-hub-models]: Remove: archive file [/home/abi/fetcher/tmp/qai_hub_models-0.4.0-py3-none-any.whl.zip]
+[2024-04-03 00:42:04] INFO root fetch - processPackages [qai-hub-models]: Remove: archive file [/home/abi/fetcher/tmp/qai_hub_models-0.4.1-py3-none-any.whl.zip]
+[2024-04-03 00:42:04] INFO root fetch - main [MainThread]: End processing [qai-hub-models]: success
+[2024-04-03 00:42:04] INFO root fetch - main [MainThread]: Store serial: [22592690]

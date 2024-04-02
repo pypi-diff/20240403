@@ -2089,3 +2089,100 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 01:48:14] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240402234712-py3-none-any.whl.zip]
 [2024-04-03 01:48:14] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2024-04-03 01:48:14] INFO root fetch - main [MainThread]: Store serial: [22593078]
+[2024-04-03 01:50:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593078]
+[2024-04-03 01:50:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-03 01:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cirq-aqt
+[2024-04-03 01:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cirq-rigetti
+[2024-04-03 01:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirq-ionq
+[2024-04-03 01:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdoxy
+[2024-04-03 01:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-ft
+[2024-04-03 01:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drawpyo
+[2024-04-03 01:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirq-pasqal
+[2024-04-03 01:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytesdaq
+[2024-04-03 01:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: git-stats-report
+[2024-04-03 01:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyminerva
+[2024-04-03 01:50:23] INFO root fetch - processPackages [pytesdaq]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-04-03 01:50:23] WARNING root fetch - processPackages [drawpyo]: Skipping, unable to determine old version
+[2024-04-03 01:50:23] WARNING root fetch - processPackages [git-stats-report]: Skipping, unable to determine old version
+[2024-04-03 01:50:23] INFO root fetch - main [MainThread]: End processing [drawpyo] error
+[2024-04-03 01:50:23] INFO root fetch - main [MainThread]: End processing [git-stats-report] error
+[2024-04-03 01:50:23] INFO root fetch - processPackages [pytesdaq]: Downloading https://files.pythonhosted.org/packages/e9/c4/05f04713e1d0ee7cadc1afded6fbb48de78c6c586f1bfab764d6a0eaab28/pytesdaq-0.3.7.tar.gz
+[2024-04-03 01:50:23] INFO root fetch - processPackages [cirq-aqt]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 01:50:23] INFO root fetch - processPackages [cirq-ft]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 01:50:23] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 01:50:23] INFO root fetch - processPackages [mkdoxy]: New version: [1.2.0] Old Version: [1.1.7]
+[2024-04-03 01:50:23] WARNING root fetch - processPackages [pytesdaq]: Timeout reached during download
+[2024-04-03 01:50:23] INFO root fetch - processPackages [pyminerva]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-03 01:50:23] INFO root fetch - processPackages [cirq-ionq]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 01:50:23] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 01:50:23] INFO root fetch - processPackages [pytesdaq]: Downloading https://files.pythonhosted.org/packages/e2/cb/686be8f35708f07012cb14d8202c600f7782e82e62adee2c6c13344ec67a/pytesdaq-0.3.8.tar.gz
+[2024-04-03 01:50:23] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/01/8f/d89096f052f7e40d6d7c86c6c5c3f9ee2d7481242fbde2ae2aa3603e57e4/cirq_aqt-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 01:50:23] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/be/bd/4ba0f03b56e6c822cdbf91ed532098e0e8f178ee2401f2fc24718ae5286f/cirq_ft-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 01:50:23] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/75/d0/706bb404be4face9f29037aae700071958a852d7d48855ee0d1f7e509d43/cirq_pasqal-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 01:50:23] INFO root fetch - processPackages [mkdoxy]: Downloading https://files.pythonhosted.org/packages/e5/12/0c80e407f50bdaed5b60c0b361059e91601cbe90bf65cdfcb8504493d2fc/mkdoxy-1.1.7.tar.gz
+[2024-04-03 01:50:23] WARNING root fetch - processPackages [pytesdaq]: Timeout reached during download
+[2024-04-03 01:50:23] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/71/85/01e8f26ee3130cf86f9e4b898bf1c77b6edaa3ff18d78ab72ab3042c1c41/pyminerva-0.0.98.tar.gz
+[2024-04-03 01:50:23] INFO root fetch - processPackages [pytesdaq]: executing diffoscope
+[2024-04-03 01:50:23] INFO root fetch - processPackages [pytesdaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytesdaq-0.3.7.tar.gz tmp/pytesdaq-0.3.8.tar.gz --markdown 20240403/p/pytesdaq/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2024-04-03 01:50:23] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/56/cc/24cd2661b051f53b908d340672cd47ab8794f021fd99fed3306796117089/cirq_ionq-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 01:50:23] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/33/c4/0981613d0ce9ef36780b4f289a0a5624fa26b79cd27bace0f1f0939f8986/cirq_rigetti-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 01:50:23] WARNING root fetch - processPackages [cirq-aqt]: Timeout reached during download
+[2024-04-03 01:50:23] WARNING root fetch - processPackages [cirq-pasqal]: Timeout reached during download
+[2024-04-03 01:50:23] WARNING root fetch - processPackages [mkdoxy]: Timeout reached during download
+[2024-04-03 01:50:23] WARNING root fetch - processPackages [cirq-ft]: Timeout reached during download
+[2024-04-03 01:50:23] WARNING root fetch - processPackages [cirq-ionq]: Timeout reached during download
+[2024-04-03 01:50:23] WARNING root fetch - processPackages [cirq-rigetti]: Timeout reached during download
+[2024-04-03 01:50:23] WARNING root fetch - processPackages [pyminerva]: Timeout reached during download
+[2024-04-03 01:50:23] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/05/f3/2a90b4d4866719acd1a88df57eb73c7fd67e883994c7851b52103d2dfa7f/cirq_aqt-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 01:50:23] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/f0/5e/5841067620c2e77357d23d386e52a395d31e8438e2fc1c307c3e57d8f19a/cirq_pasqal-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 01:50:23] INFO root fetch - processPackages [mkdoxy]: Downloading https://files.pythonhosted.org/packages/61/2b/b602e5fcd3a9e0c331a874c58034ec5df6ecd15da11fd9596e77b2ef7150/mkdoxy-1.2.0.tar.gz
+[2024-04-03 01:50:24] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/31/b4/05506a9246e5a5c3a8044d077561f679d30a74057be64c9f1bb8760eec21/cirq_ft-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 01:50:24] WARNING root fetch - processPackages [cirq-aqt]: Timeout reached during download
+[2024-04-03 01:50:24] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2024-04-03 01:50:24] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq_aqt-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq-aqt/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 01:50:24] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/5c/9f/e4c292970d22afd26862645d336a542770e1c754204ad75f0e8e94be378f/cirq_ionq-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 01:50:24] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/f2/23/c2c1bb5fa35d98390e2448e5ad2bbded00ddd8e214365f8bc635dfa83394/cirq_rigetti-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 01:50:24] WARNING root fetch - processPackages [cirq-pasqal]: Timeout reached during download
+[2024-04-03 01:50:24] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2024-04-03 01:50:24] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq_pasqal-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq-pasqal/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 01:50:24] WARNING root fetch - processPackages [mkdoxy]: Timeout reached during download
+[2024-04-03 01:50:24] INFO root fetch - processPackages [mkdoxy]: executing diffoscope
+[2024-04-03 01:50:24] INFO root fetch - processPackages [mkdoxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdoxy-1.1.7.tar.gz tmp/mkdoxy-1.2.0.tar.gz --markdown 20240403/m/mkdoxy/1.1.7-1.2.0/diff.md --exclude *.pyd
+[2024-04-03 01:50:24] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/30/9b/396cf38441ad3c8ce48c213fff676d95f1f3f4feeb1b7dc8824277fe413e/pyminerva-0.0.99.tar.gz
+[2024-04-03 01:50:24] WARNING root fetch - processPackages [cirq-ft]: Timeout reached during download
+[2024-04-03 01:50:24] INFO root fetch - processPackages [cirq-ft]: executing diffoscope
+[2024-04-03 01:50:24] INFO root fetch - processPackages [cirq-ft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ft-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq_ft-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq-ft/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 01:50:24] WARNING root fetch - processPackages [cirq-ionq]: Timeout reached during download
+[2024-04-03 01:50:24] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2024-04-03 01:50:24] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq_ionq-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq-ionq/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 01:50:24] WARNING root fetch - processPackages [cirq-rigetti]: Timeout reached during download
+[2024-04-03 01:50:24] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2024-04-03 01:50:24] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq_rigetti-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq-rigetti/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 01:50:24] WARNING root fetch - processPackages [pyminerva]: Timeout reached during download
+[2024-04-03 01:50:24] INFO root fetch - processPackages [pyminerva]: executing diffoscope
+[2024-04-03 01:50:24] INFO root fetch - processPackages [pyminerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminerva-0.0.98.tar.gz tmp/pyminerva-0.0.99.tar.gz --markdown 20240403/p/pyminerva/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-03 01:50:24] INFO root fetch - processPackages [pytesdaq]: Remove: archive file [/home/abi/fetcher/tmp/pytesdaq-0.3.7.tar.gz]
+[2024-04-03 01:50:24] INFO root fetch - processPackages [pytesdaq]: Remove: archive file [/home/abi/fetcher/tmp/pytesdaq-0.3.8.tar.gz]
+[2024-04-03 01:50:24] INFO root fetch - main [MainThread]: End processing [pytesdaq]: success
+[2024-04-03 01:50:24] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 01:50:24] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 01:50:24] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2024-04-03 01:50:24] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 01:50:24] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 01:50:24] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2024-04-03 01:50:25] INFO root fetch - processPackages [mkdoxy]: Remove: archive file [/home/abi/fetcher/tmp/mkdoxy-1.1.7.tar.gz]
+[2024-04-03 01:50:25] INFO root fetch - processPackages [mkdoxy]: Remove: archive file [/home/abi/fetcher/tmp/mkdoxy-1.2.0.tar.gz]
+[2024-04-03 01:50:25] INFO root fetch - main [MainThread]: End processing [mkdoxy]: success
+[2024-04-03 01:50:25] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.98.tar.gz]
+[2024-04-03 01:50:25] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
+[2024-04-03 01:50:25] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
+[2024-04-03 01:50:25] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 01:50:25] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 01:50:25] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2024-04-03 01:50:25] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 01:50:25] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 01:50:25] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2024-04-03 01:50:25] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 01:50:25] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 01:50:25] INFO root fetch - main [MainThread]: End processing [cirq-ft]: success
+[2024-04-03 01:50:25] INFO root fetch - main [MainThread]: Store serial: [22593103]

@@ -903,3 +903,50 @@
 [2024-04-03 00:44:14] INFO root fetch - processPackages [great-expectations-cloud]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_cloud-0.0.9.dev0.tar.gz]
 [2024-04-03 00:44:14] INFO root fetch - main [MainThread]: End processing [great-expectations-cloud]: success
 [2024-04-03 00:44:14] INFO root fetch - main [MainThread]: Store serial: [22592702]
+[2024-04-03 00:46:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592702]
+[2024-04-03 00:46:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 00:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hltv-async-api
+[2024-04-03 00:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bt-test-interfaces
+[2024-04-03 00:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cityImage
+[2024-04-03 00:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-typomatic
+[2024-04-03 00:46:22] INFO root fetch - processPackages [hltv-async-api]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-03 00:46:22] INFO root fetch - processPackages [hltv-async-api]: Downloading https://files.pythonhosted.org/packages/51/4c/27562c021e6e230e05b01fcaf1d00c6e1a2f392a0ad30507ef760eed3b99/hltv_async_api-0.2.7.tar.gz
+[2024-04-03 00:46:22] INFO root fetch - processPackages [bt-test-interfaces]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-03 00:46:22] INFO root fetch - processPackages [django-typomatic]: New version: [2.5.0] Old Version: [2.4.2]
+[2024-04-03 00:46:22] INFO root fetch - processPackages [cityImage]: New version: [1.10] Old Version: [1.0]
+[2024-04-03 00:46:22] INFO root fetch - processPackages [django-typomatic]: Downloading https://files.pythonhosted.org/packages/56/b3/56ceef7820aea20b2271632751b9ab312401fe6e880856303d83859b8350/django-typomatic-2.4.2.tar.gz
+[2024-04-03 00:46:23] WARNING root fetch - processPackages [hltv-async-api]: Timeout reached during download
+[2024-04-03 00:46:23] INFO root fetch - processPackages [bt-test-interfaces]: Downloading https://files.pythonhosted.org/packages/73/b2/27a7169193077e962584f6dccc5e85bda6dd7c13146ae43d9ca319b12c36/bt-test-interfaces-0.0.5.tar.gz
+[2024-04-03 00:46:23] WARNING root fetch - processPackages [django-typomatic]: Timeout reached during download
+[2024-04-03 00:46:23] INFO root fetch - processPackages [cityImage]: Downloading https://files.pythonhosted.org/packages/0b/7b/bbbab15e4c08910c7ff457d1a6117290b192f835638a85127f5d8c375de3/cityImage-1.0.tar.gz
+[2024-04-03 00:46:23] INFO root fetch - processPackages [hltv-async-api]: Downloading https://files.pythonhosted.org/packages/65/56/71ff82640d999037888dbf0ca08e46a7f6b8a13270109cbbce0285d82246/hltv_async_api-0.2.8.tar.gz
+[2024-04-03 00:46:23] WARNING root fetch - processPackages [bt-test-interfaces]: Timeout reached during download
+[2024-04-03 00:46:23] INFO root fetch - processPackages [django-typomatic]: Downloading https://files.pythonhosted.org/packages/77/e2/20d7fcf19d4d2d9d289079b6064d46dd905d752cd3745d477585d1852217/django-typomatic-2.5.0.tar.gz
+[2024-04-03 00:46:23] WARNING root fetch - processPackages [hltv-async-api]: Timeout reached during download
+[2024-04-03 00:46:23] INFO root fetch - processPackages [hltv-async-api]: executing diffoscope
+[2024-04-03 00:46:23] INFO root fetch - processPackages [hltv-async-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hltv_async_api-0.2.7.tar.gz tmp/hltv_async_api-0.2.8.tar.gz --markdown 20240403/h/hltv-async-api/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2024-04-03 00:46:23] WARNING root fetch - processPackages [cityImage]: Timeout reached during download
+[2024-04-03 00:46:23] WARNING root fetch - processPackages [django-typomatic]: Timeout reached during download
+[2024-04-03 00:46:23] INFO root fetch - processPackages [django-typomatic]: executing diffoscope
+[2024-04-03 00:46:23] INFO root fetch - processPackages [django-typomatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-typomatic-2.4.2.tar.gz tmp/django-typomatic-2.5.0.tar.gz --markdown 20240403/d/django-typomatic/2.4.2-2.5.0/diff.md --exclude *.pyd
+[2024-04-03 00:46:23] INFO root fetch - processPackages [bt-test-interfaces]: Downloading https://files.pythonhosted.org/packages/68/f2/40051c11757ccca94d9fd3585d9f97d615ae58713e337095e8e11e4264a4/bt-test-interfaces-0.0.6.tar.gz
+[2024-04-03 00:46:23] INFO root fetch - processPackages [cityImage]: Downloading https://files.pythonhosted.org/packages/ab/82/59db9fc4b9e228f62418f409959c572a43622d0d4d7f2d5d123814f6f5b6/cityImage-1.10.tar.gz
+[2024-04-03 00:46:23] WARNING root fetch - processPackages [bt-test-interfaces]: Timeout reached during download
+[2024-04-03 00:46:23] INFO root fetch - processPackages [bt-test-interfaces]: executing diffoscope
+[2024-04-03 00:46:23] INFO root fetch - processPackages [bt-test-interfaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bt-test-interfaces-0.0.5.tar.gz tmp/bt-test-interfaces-0.0.6.tar.gz --markdown 20240403/b/bt-test-interfaces/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-03 00:46:23] WARNING root fetch - processPackages [cityImage]: Timeout reached during download
+[2024-04-03 00:46:23] INFO root fetch - processPackages [cityImage]: executing diffoscope
+[2024-04-03 00:46:23] INFO root fetch - processPackages [cityImage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cityImage-1.0.tar.gz tmp/cityImage-1.10.tar.gz --markdown 20240403/c/cityImage/1.0-1.10/diff.md --exclude *.pyd
+[2024-04-03 00:46:23] INFO root fetch - processPackages [hltv-async-api]: Remove: archive file [/home/abi/fetcher/tmp/hltv_async_api-0.2.7.tar.gz]
+[2024-04-03 00:46:23] INFO root fetch - processPackages [hltv-async-api]: Remove: archive file [/home/abi/fetcher/tmp/hltv_async_api-0.2.8.tar.gz]
+[2024-04-03 00:46:23] INFO root fetch - main [MainThread]: End processing [hltv-async-api]: success
+[2024-04-03 00:46:24] INFO root fetch - processPackages [django-typomatic]: Remove: archive file [/home/abi/fetcher/tmp/django-typomatic-2.4.2.tar.gz]
+[2024-04-03 00:46:24] INFO root fetch - processPackages [django-typomatic]: Remove: archive file [/home/abi/fetcher/tmp/django-typomatic-2.5.0.tar.gz]
+[2024-04-03 00:46:24] INFO root fetch - main [MainThread]: End processing [django-typomatic]: success
+[2024-04-03 00:46:24] INFO root fetch - processPackages [cityImage]: Remove: archive file [/home/abi/fetcher/tmp/cityImage-1.0.tar.gz]
+[2024-04-03 00:46:24] INFO root fetch - processPackages [cityImage]: Remove: archive file [/home/abi/fetcher/tmp/cityImage-1.10.tar.gz]
+[2024-04-03 00:46:24] INFO root fetch - main [MainThread]: End processing [cityImage]: success
+[2024-04-03 00:46:24] INFO root fetch - processPackages [bt-test-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/bt-test-interfaces-0.0.5.tar.gz]
+[2024-04-03 00:46:24] INFO root fetch - processPackages [bt-test-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/bt-test-interfaces-0.0.6.tar.gz]
+[2024-04-03 00:46:24] INFO root fetch - main [MainThread]: End processing [bt-test-interfaces]: success
+[2024-04-03 00:46:24] INFO root fetch - main [MainThread]: Store serial: [22592715]

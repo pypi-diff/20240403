@@ -856,3 +856,50 @@
 [2024-04-03 00:42:04] INFO root fetch - processPackages [qai-hub-models]: Remove: archive file [/home/abi/fetcher/tmp/qai_hub_models-0.4.1-py3-none-any.whl.zip]
 [2024-04-03 00:42:04] INFO root fetch - main [MainThread]: End processing [qai-hub-models]: success
 [2024-04-03 00:42:04] INFO root fetch - main [MainThread]: Store serial: [22592690]
+[2024-04-03 00:44:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592690]
+[2024-04-03 00:44:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 00:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hltv-async-api
+[2024-04-03 00:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: regis
+[2024-04-03 00:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ftmscan-sdk
+[2024-04-03 00:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: great-expectations-cloud
+[2024-04-03 00:44:12] INFO root fetch - processPackages [ftmscan-sdk]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-03 00:44:12] INFO root fetch - processPackages [hltv-async-api]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-03 00:44:13] INFO root fetch - processPackages [ftmscan-sdk]: Downloading https://files.pythonhosted.org/packages/ff/2a/89132ee62d32cc4c0fed5ac8b9c6dd8f1701ba15083b7c67776476b2090b/ftmscan_sdk-0.5.1.tar.gz
+[2024-04-03 00:44:13] INFO root fetch - processPackages [great-expectations-cloud]: New version: [0.0.9.dev0] Old Version: [0.0.8.dev0]
+[2024-04-03 00:44:13] INFO root fetch - processPackages [hltv-async-api]: Downloading https://files.pythonhosted.org/packages/04/0e/80d0ae405027737323d7faa9d1d00844e5583e83ef648c80f9fa1216d920/hltv_async_api-0.2.6.tar.gz
+[2024-04-03 00:44:13] INFO root fetch - processPackages [regis]: New version: [0.1.9] Old Version: [0.1.80]
+[2024-04-03 00:44:13] WARNING root fetch - processPackages [hltv-async-api]: Timeout reached during download
+[2024-04-03 00:44:13] WARNING root fetch - processPackages [ftmscan-sdk]: Timeout reached during download
+[2024-04-03 00:44:13] INFO root fetch - processPackages [great-expectations-cloud]: Downloading https://files.pythonhosted.org/packages/e3/be/472c036a77a8c28bb1bd08149d5079cb92b80ac054dc91a699d9b985fa39/great_expectations_cloud-0.0.8.dev0.tar.gz
+[2024-04-03 00:44:13] INFO root fetch - processPackages [regis]: Downloading https://files.pythonhosted.org/packages/53/c2/389c4fce807588fad54f721d4ae717b784d29498d8afc75c26db17ddbee0/regis-0.1.80.tar.gz
+[2024-04-03 00:44:13] WARNING root fetch - processPackages [great-expectations-cloud]: Timeout reached during download
+[2024-04-03 00:44:13] INFO root fetch - processPackages [hltv-async-api]: Downloading https://files.pythonhosted.org/packages/51/4c/27562c021e6e230e05b01fcaf1d00c6e1a2f392a0ad30507ef760eed3b99/hltv_async_api-0.2.7.tar.gz
+[2024-04-03 00:44:13] WARNING root fetch - processPackages [regis]: Timeout reached during download
+[2024-04-03 00:44:13] INFO root fetch - processPackages [ftmscan-sdk]: Downloading https://files.pythonhosted.org/packages/00/ce/6aeb16b9688138ecf0d6192d4e9d9b576737e1409f9ad236761a2ab296d6/ftmscan_sdk-0.5.2.tar.gz
+[2024-04-03 00:44:13] INFO root fetch - processPackages [regis]: Downloading https://files.pythonhosted.org/packages/e0/25/74667bbd99d0acf4eb4064ce4d615ab4919fd700d07b132eea95030ea6ae/regis-0.1.9.tar.gz
+[2024-04-03 00:44:13] WARNING root fetch - processPackages [hltv-async-api]: Timeout reached during download
+[2024-04-03 00:44:13] INFO root fetch - processPackages [hltv-async-api]: executing diffoscope
+[2024-04-03 00:44:13] INFO root fetch - processPackages [hltv-async-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hltv_async_api-0.2.6.tar.gz tmp/hltv_async_api-0.2.7.tar.gz --markdown 20240403/h/hltv-async-api/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-03 00:44:13] WARNING root fetch - processPackages [ftmscan-sdk]: Timeout reached during download
+[2024-04-03 00:44:13] INFO root fetch - processPackages [ftmscan-sdk]: executing diffoscope
+[2024-04-03 00:44:13] INFO root fetch - processPackages [ftmscan-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftmscan_sdk-0.5.1.tar.gz tmp/ftmscan_sdk-0.5.2.tar.gz --markdown 20240403/f/ftmscan-sdk/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2024-04-03 00:44:13] INFO root fetch - processPackages [great-expectations-cloud]: Downloading https://files.pythonhosted.org/packages/c9/f5/35627df1f8827d2788c4f85ad4885fd0238c6f1949e800d2372fc62111be/great_expectations_cloud-0.0.9.dev0.tar.gz
+[2024-04-03 00:44:13] WARNING root fetch - processPackages [regis]: Timeout reached during download
+[2024-04-03 00:44:13] INFO root fetch - processPackages [regis]: executing diffoscope
+[2024-04-03 00:44:13] INFO root fetch - processPackages [regis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regis-0.1.80.tar.gz tmp/regis-0.1.9.tar.gz --markdown 20240403/r/regis/0.1.80-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 00:44:13] WARNING root fetch - processPackages [great-expectations-cloud]: Timeout reached during download
+[2024-04-03 00:44:13] INFO root fetch - processPackages [great-expectations-cloud]: executing diffoscope
+[2024-04-03 00:44:13] INFO root fetch - processPackages [great-expectations-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_cloud-0.0.8.dev0.tar.gz tmp/great_expectations_cloud-0.0.9.dev0.tar.gz --markdown 20240403/g/great-expectations-cloud/0.0.8.dev0-0.0.9.dev0/diff.md --exclude *.pyd
+[2024-04-03 00:44:14] INFO root fetch - processPackages [hltv-async-api]: Remove: archive file [/home/abi/fetcher/tmp/hltv_async_api-0.2.6.tar.gz]
+[2024-04-03 00:44:14] INFO root fetch - processPackages [hltv-async-api]: Remove: archive file [/home/abi/fetcher/tmp/hltv_async_api-0.2.7.tar.gz]
+[2024-04-03 00:44:14] INFO root fetch - main [MainThread]: End processing [hltv-async-api]: success
+[2024-04-03 00:44:14] INFO root fetch - processPackages [ftmscan-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ftmscan_sdk-0.5.1.tar.gz]
+[2024-04-03 00:44:14] INFO root fetch - processPackages [ftmscan-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ftmscan_sdk-0.5.2.tar.gz]
+[2024-04-03 00:44:14] INFO root fetch - main [MainThread]: End processing [ftmscan-sdk]: success
+[2024-04-03 00:44:14] INFO root fetch - processPackages [regis]: Remove: archive file [/home/abi/fetcher/tmp/regis-0.1.80.tar.gz]
+[2024-04-03 00:44:14] INFO root fetch - processPackages [regis]: Remove: archive file [/home/abi/fetcher/tmp/regis-0.1.9.tar.gz]
+[2024-04-03 00:44:14] INFO root fetch - main [MainThread]: End processing [regis]: success
+[2024-04-03 00:44:14] INFO root fetch - processPackages [great-expectations-cloud]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_cloud-0.0.8.dev0.tar.gz]
+[2024-04-03 00:44:14] INFO root fetch - processPackages [great-expectations-cloud]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_cloud-0.0.9.dev0.tar.gz]
+[2024-04-03 00:44:14] INFO root fetch - main [MainThread]: End processing [great-expectations-cloud]: success
+[2024-04-03 00:44:14] INFO root fetch - main [MainThread]: Store serial: [22592702]

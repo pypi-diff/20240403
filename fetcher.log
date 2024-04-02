@@ -1908,3 +1908,28 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 01:37:20] INFO root fetch - processPackages [pytesdaq]: Remove: archive file [/home/abi/fetcher/tmp/pytesdaq-0.3.8.tar.gz]
 [2024-04-03 01:37:20] INFO root fetch - main [MainThread]: End processing [pytesdaq]: success
 [2024-04-03 01:37:20] INFO root fetch - main [MainThread]: Store serial: [22593028]
+[2024-04-03 01:39:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593028]
+[2024-04-03 01:39:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 01:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-skill-free-music-archive
+[2024-04-03 01:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wolta
+[2024-04-03 01:39:30] INFO root fetch - processPackages [neon-skill-free-music-archive]: New version: [1.0.1a2] Old Version: [1.0.1a1]
+[2024-04-03 01:39:30] INFO root fetch - processPackages [wolta]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-03 01:39:30] INFO root fetch - processPackages [neon-skill-free-music-archive]: Downloading https://files.pythonhosted.org/packages/d9/35/e87c0b6b64c1ca0b4de61077b0d903580696a305dac79af0972e3919aa8e/neon-skill-free_music_archive-1.0.1a1.tar.gz
+[2024-04-03 01:39:30] INFO root fetch - processPackages [wolta]: Downloading https://files.pythonhosted.org/packages/c0/d6/8640c149423cfca46a4a63a2cb0c285224eadbdee3b09de911b502d68d8a/wolta-0.1.2.tar.gz
+[2024-04-03 01:39:30] WARNING root fetch - processPackages [neon-skill-free-music-archive]: Timeout reached during download
+[2024-04-03 01:39:30] WARNING root fetch - processPackages [wolta]: Timeout reached during download
+[2024-04-03 01:39:30] INFO root fetch - processPackages [neon-skill-free-music-archive]: Downloading https://files.pythonhosted.org/packages/18/c9/9eb058a46c7dee62bfbd5d73e50e522fef958c005b51f4a3b01cbb52a7a4/neon-skill-free_music_archive-1.0.1a2.tar.gz
+[2024-04-03 01:39:30] WARNING root fetch - processPackages [neon-skill-free-music-archive]: Timeout reached during download
+[2024-04-03 01:39:30] INFO root fetch - processPackages [neon-skill-free-music-archive]: executing diffoscope
+[2024-04-03 01:39:30] INFO root fetch - processPackages [neon-skill-free-music-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-free_music_archive-1.0.1a1.tar.gz tmp/neon-skill-free_music_archive-1.0.1a2.tar.gz --markdown 20240403/n/neon-skill-free-music-archive/1.0.1a1-1.0.1a2/diff.md --exclude *.pyd
+[2024-04-03 01:39:30] INFO root fetch - processPackages [wolta]: Downloading https://files.pythonhosted.org/packages/2c/cc/e5dd3b893c8631a023c2fdb9bebd6677b1bf8639895388fc340dbddbc709/wolta-0.1.3.tar.gz
+[2024-04-03 01:39:31] WARNING root fetch - processPackages [wolta]: Timeout reached during download
+[2024-04-03 01:39:31] INFO root fetch - processPackages [wolta]: executing diffoscope
+[2024-04-03 01:39:31] INFO root fetch - processPackages [wolta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wolta-0.1.2.tar.gz tmp/wolta-0.1.3.tar.gz --markdown 20240403/w/wolta/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-03 01:39:31] INFO root fetch - processPackages [neon-skill-free-music-archive]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-free_music_archive-1.0.1a1.tar.gz]
+[2024-04-03 01:39:31] INFO root fetch - processPackages [neon-skill-free-music-archive]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-free_music_archive-1.0.1a2.tar.gz]
+[2024-04-03 01:39:31] INFO root fetch - main [MainThread]: End processing [neon-skill-free-music-archive]: success
+[2024-04-03 01:39:31] INFO root fetch - processPackages [wolta]: Remove: archive file [/home/abi/fetcher/tmp/wolta-0.1.2.tar.gz]
+[2024-04-03 01:39:31] INFO root fetch - processPackages [wolta]: Remove: archive file [/home/abi/fetcher/tmp/wolta-0.1.3.tar.gz]
+[2024-04-03 01:39:31] INFO root fetch - main [MainThread]: End processing [wolta]: success
+[2024-04-03 01:39:31] INFO root fetch - main [MainThread]: Store serial: [22593037]

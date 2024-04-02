@@ -2186,3 +2186,17 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 01:50:25] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.4.0.dev20240402234712-py3-none-any.whl.zip]
 [2024-04-03 01:50:25] INFO root fetch - main [MainThread]: End processing [cirq-ft]: success
 [2024-04-03 01:50:25] INFO root fetch - main [MainThread]: Store serial: [22593103]
+[2024-04-03 01:52:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593103]
+[2024-04-03 01:52:33] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-03 01:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fixpoint-sdk
+[2024-04-03 01:52:34] INFO root fetch - processPackages [fixpoint-sdk]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-03 01:52:34] INFO root fetch - processPackages [fixpoint-sdk]: Downloading https://files.pythonhosted.org/packages/f5/68/f790f4e8d33045f2cb3c8d11ca08df4d25ecb185b9e8329ec1b791e54381/fixpoint_sdk-0.3.0.tar.gz
+[2024-04-03 01:52:34] WARNING root fetch - processPackages [fixpoint-sdk]: Timeout reached during download
+[2024-04-03 01:52:34] INFO root fetch - processPackages [fixpoint-sdk]: Downloading https://files.pythonhosted.org/packages/45/31/560ed732602254d89eb008ffa902941ff794b69274e154497d6170eb8a51/fixpoint_sdk-0.4.0.tar.gz
+[2024-04-03 01:52:34] WARNING root fetch - processPackages [fixpoint-sdk]: Timeout reached during download
+[2024-04-03 01:52:34] INFO root fetch - processPackages [fixpoint-sdk]: executing diffoscope
+[2024-04-03 01:52:34] INFO root fetch - processPackages [fixpoint-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixpoint_sdk-0.3.0.tar.gz tmp/fixpoint_sdk-0.4.0.tar.gz --markdown 20240403/f/fixpoint-sdk/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-03 01:52:35] INFO root fetch - processPackages [fixpoint-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fixpoint_sdk-0.3.0.tar.gz]
+[2024-04-03 01:52:35] INFO root fetch - processPackages [fixpoint-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fixpoint_sdk-0.4.0.tar.gz]
+[2024-04-03 01:52:35] INFO root fetch - main [MainThread]: End processing [fixpoint-sdk]: success
+[2024-04-03 01:52:35] INFO root fetch - main [MainThread]: Store serial: [22593106]

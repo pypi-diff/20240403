@@ -261,3 +261,31 @@
 [2024-04-03 00:11:54] INFO root fetch - processPackages [esbmc-ai]: Remove: archive file [/home/abi/fetcher/tmp/esbmc_ai-0.5.0.dev4.tar.gz]
 [2024-04-03 00:11:54] INFO root fetch - main [MainThread]: End processing [esbmc-ai]: success
 [2024-04-03 00:11:54] INFO root fetch - main [MainThread]: Store serial: [22592445]
+[2024-04-03 00:13:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592445]
+[2024-04-03 00:14:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 00:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: srt-file-translator-bumble.zhou
+[2024-04-03 00:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: burr
+[2024-04-03 00:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skymantle-mock-data-forge
+[2024-04-03 00:14:03] INFO root fetch - processPackages [burr]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-03 00:14:03] INFO root fetch - processPackages [skymantle-mock-data-forge]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-03 00:14:03] WARNING root fetch - processPackages [srt-file-translator-bumble.zhou]: Skipping, unable to determine old version
+[2024-04-03 00:14:03] INFO root fetch - main [MainThread]: End processing [srt-file-translator-bumble.zhou] error
+[2024-04-03 00:14:03] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/87/83/f7356070de16e070dbc68373d02f5b3677c417c21359630b2007a8b027df/burr-0.8.1.tar.gz
+[2024-04-03 00:14:03] INFO root fetch - processPackages [skymantle-mock-data-forge]: Downloading https://files.pythonhosted.org/packages/39/40/bf86bb997541574cf0909094e603b8d708704da854f57f0a74036856a478/skymantle_mock_data_forge-0.3.0.tar.gz
+[2024-04-03 00:14:04] WARNING root fetch - processPackages [burr]: Timeout reached during download
+[2024-04-03 00:14:04] WARNING root fetch - processPackages [skymantle-mock-data-forge]: Timeout reached during download
+[2024-04-03 00:14:04] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/65/38/00b44d54c37f35813232167f5745ca37eac9ad13574e81e1f4e685acf5d5/burr-0.9.0.tar.gz
+[2024-04-03 00:14:04] INFO root fetch - processPackages [skymantle-mock-data-forge]: Downloading https://files.pythonhosted.org/packages/57/cf/25a4b3630e4fc7f5ec61d91bc245d7f36fe55c450f6132344cf7d428cf44/skymantle_mock_data_forge-0.4.0.tar.gz
+[2024-04-03 00:14:04] WARNING root fetch - processPackages [skymantle-mock-data-forge]: Timeout reached during download
+[2024-04-03 00:14:04] INFO root fetch - processPackages [skymantle-mock-data-forge]: executing diffoscope
+[2024-04-03 00:14:04] INFO root fetch - processPackages [skymantle-mock-data-forge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skymantle_mock_data_forge-0.3.0.tar.gz tmp/skymantle_mock_data_forge-0.4.0.tar.gz --markdown 20240403/s/skymantle-mock-data-forge/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-03 00:14:04] WARNING root fetch - processPackages [burr]: Timeout reached during download
+[2024-04-03 00:14:04] INFO root fetch - processPackages [burr]: executing diffoscope
+[2024-04-03 00:14:04] INFO root fetch - processPackages [burr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burr-0.8.1.tar.gz tmp/burr-0.9.0.tar.gz --markdown 20240403/b/burr/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 00:14:05] INFO root fetch - processPackages [skymantle-mock-data-forge]: Remove: archive file [/home/abi/fetcher/tmp/skymantle_mock_data_forge-0.3.0.tar.gz]
+[2024-04-03 00:14:05] INFO root fetch - processPackages [skymantle-mock-data-forge]: Remove: archive file [/home/abi/fetcher/tmp/skymantle_mock_data_forge-0.4.0.tar.gz]
+[2024-04-03 00:14:05] INFO root fetch - main [MainThread]: End processing [skymantle-mock-data-forge]: success
+[2024-04-03 00:14:41] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.8.1.tar.gz]
+[2024-04-03 00:14:41] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
+[2024-04-03 00:14:41] INFO root fetch - main [MainThread]: End processing [burr]: success
+[2024-04-03 00:14:41] INFO root fetch - main [MainThread]: Store serial: [22592456]

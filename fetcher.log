@@ -950,3 +950,97 @@
 [2024-04-03 00:46:24] INFO root fetch - processPackages [bt-test-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/bt-test-interfaces-0.0.6.tar.gz]
 [2024-04-03 00:46:24] INFO root fetch - main [MainThread]: End processing [bt-test-interfaces]: success
 [2024-04-03 00:46:24] INFO root fetch - main [MainThread]: Store serial: [22592715]
+[2024-04-03 00:48:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592715]
+[2024-04-03 00:48:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 00:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rummage
+[2024-04-03 00:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: danrerlib
+[2024-04-03 00:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaraco.site
+[2024-04-03 00:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: embedpvp
+[2024-04-03 00:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ftmscan-sdk
+[2024-04-03 00:48:33] INFO root fetch - processPackages [ftmscan-sdk]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-03 00:48:33] INFO root fetch - processPackages [embedpvp]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-03 00:48:33] WARNING root fetch - processPackages [embedpvp]: fallback to get urls: [1.0.3]
+[2024-04-03 00:48:33] INFO root fetch - processPackages [rummage]: New version: [4.9] Old Version: [4.8]
+[2024-04-03 00:48:33] INFO root fetch - processPackages [jaraco.site]: New version: [6.8.0] Old Version: [6.7.0]
+[2024-04-03 00:48:34] INFO root fetch - processPackages [ftmscan-sdk]: Downloading https://files.pythonhosted.org/packages/00/ce/6aeb16b9688138ecf0d6192d4e9d9b576737e1409f9ad236761a2ab296d6/ftmscan_sdk-0.5.2.tar.gz
+[2024-04-03 00:48:34] WARNING root fetch - processPackages [embedpvp]: None
+[2024-04-03 00:48:34] INFO root fetch - processPackages [danrerlib]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-03 00:48:34] WARNING root fetch - processPackages [ftmscan-sdk]: Timeout reached during download
+[2024-04-03 00:48:34] INFO root fetch - processPackages [rummage]: Downloading https://files.pythonhosted.org/packages/86/06/e901e277bc56a478f4f0e6667f2ae7170a24b73d32413e0d4acb3da6e5df/rummage-4.8.tar.gz
+[2024-04-03 00:48:34] INFO root fetch - processPackages [jaraco.site]: Downloading https://files.pythonhosted.org/packages/2c/4d/792276e63a3318be0b80eec6b24536e159b542108df6cf90b5105ecc3cb4/jaraco.site-6.7.0.tar.gz
+[2024-04-03 00:48:34] INFO root fetch - processPackages [danrerlib]: Downloading https://files.pythonhosted.org/packages/dd/95/8771f70b4d932ba641445fca03f4563980517341d7b4e254a704fccb5dc2/danrerlib-0.1.3.tar.gz
+[2024-04-03 00:48:34] WARNING root fetch - processPackages [danrerlib]: Skipping package: exceeds size limit 11349201>=10485760
+[2024-04-03 00:48:34] INFO root fetch - processPackages [ftmscan-sdk]: Downloading https://files.pythonhosted.org/packages/cb/e6/8fdc0052a2b5abb7af2ae931d436c9244c6226048581faa8e72121b5064d/ftmscan_sdk-0.5.3.tar.gz
+[2024-04-03 00:48:34] WARNING root fetch - processPackages [jaraco.site]: Timeout reached during download
+[2024-04-03 00:48:34] WARNING root fetch - processPackages [ftmscan-sdk]: Timeout reached during download
+[2024-04-03 00:48:34] INFO root fetch - processPackages [ftmscan-sdk]: executing diffoscope
+[2024-04-03 00:48:34] INFO root fetch - processPackages [ftmscan-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftmscan_sdk-0.5.2.tar.gz tmp/ftmscan_sdk-0.5.3.tar.gz --markdown 20240403/f/ftmscan-sdk/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2024-04-03 00:48:34] INFO root fetch - processPackages [jaraco.site]: Downloading https://files.pythonhosted.org/packages/71/48/f2e8e7d9cc5df9b5daf955e7cfda87d746b066c5e04b36665c33456a5e95/jaraco.site-6.8.0.tar.gz
+[2024-04-03 00:48:34] WARNING root fetch - processPackages [jaraco.site]: Timeout reached during download
+[2024-04-03 00:48:34] INFO root fetch - processPackages [jaraco.site]: executing diffoscope
+[2024-04-03 00:48:34] INFO root fetch - processPackages [jaraco.site]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.site-6.7.0.tar.gz tmp/jaraco.site-6.8.0.tar.gz --markdown 20240403/j/jaraco.site/6.7.0-6.8.0/diff.md --exclude *.pyd
+[2024-04-03 00:48:34] INFO root fetch - processPackages [ftmscan-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ftmscan_sdk-0.5.2.tar.gz]
+[2024-04-03 00:48:34] INFO root fetch - processPackages [ftmscan-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ftmscan_sdk-0.5.3.tar.gz]
+[2024-04-03 00:48:36] INFO root fetch - processPackages [jaraco.site]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.site-6.7.0.tar.gz]
+[2024-04-03 00:48:36] INFO root fetch - processPackages [jaraco.site]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.site-6.8.0.tar.gz]
+[2024-04-03 00:48:36] WARNING root fetch - processPackages [rummage]: Timeout reached during download
+[2024-04-03 00:48:36] INFO root fetch - processPackages [rummage]: Downloading https://files.pythonhosted.org/packages/f8/de/8ec8a0f980ee9a9a083cd1e15048c294dc7a9ee1dfce878428498bc2d483/rummage-4.9.tar.gz
+[2024-04-03 00:48:42] WARNING root fetch - processPackages [rummage]: Timeout reached during download
+[2024-04-03 00:48:42] INFO root fetch - processPackages [rummage]: executing diffoscope
+[2024-04-03 00:48:42] INFO root fetch - processPackages [rummage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rummage-4.8.tar.gz tmp/rummage-4.9.tar.gz --markdown 20240403/r/rummage/4.8-4.9/diff.md --exclude *.pyd
+[2024-04-03 00:48:44] INFO root fetch - processPackages [rummage]: Remove: archive file [/home/abi/fetcher/tmp/rummage-4.8.tar.gz]
+[2024-04-03 00:48:44] INFO root fetch - processPackages [rummage]: Remove: archive file [/home/abi/fetcher/tmp/rummage-4.9.tar.gz]
+[2024-04-03 00:50:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592715]
+[2024-04-03 00:50:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 00:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rummage
+[2024-04-03 00:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: danrerlib
+[2024-04-03 00:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaraco.site
+[2024-04-03 00:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: embedpvp
+[2024-04-03 00:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ftmscan-sdk
+[2024-04-03 00:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: solarwinds-apm
+[2024-04-03 00:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: danrerlib
+[2024-04-03 00:50:49] INFO root fetch - processPackages [danrerlib]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-03 00:50:49] INFO root fetch - processPackages [danrerlib]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-03 00:50:49] INFO root fetch - processPackages [ftmscan-sdk]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-03 00:50:49] WARNING root fetch - processPackages [embedpvp]: Skipping, unable to determine old version
+[2024-04-03 00:50:49] INFO root fetch - main [MainThread]: End processing [embedpvp] error
+[2024-04-03 00:50:49] INFO root fetch - processPackages [rummage]: New version: [4.9] Old Version: [4.8]
+[2024-04-03 00:50:49] INFO root fetch - processPackages [jaraco.site]: New version: [6.8.0] Old Version: [6.7.0]
+[2024-04-03 00:50:49] INFO root fetch - processPackages [danrerlib]: Downloading https://files.pythonhosted.org/packages/dd/95/8771f70b4d932ba641445fca03f4563980517341d7b4e254a704fccb5dc2/danrerlib-0.1.3.tar.gz
+[2024-04-03 00:50:49] INFO root fetch - processPackages [danrerlib]: Downloading https://files.pythonhosted.org/packages/dd/95/8771f70b4d932ba641445fca03f4563980517341d7b4e254a704fccb5dc2/danrerlib-0.1.3.tar.gz
+[2024-04-03 00:50:49] INFO root fetch - processPackages [rummage]: Downloading https://files.pythonhosted.org/packages/86/06/e901e277bc56a478f4f0e6667f2ae7170a24b73d32413e0d4acb3da6e5df/rummage-4.8.tar.gz
+[2024-04-03 00:50:49] INFO root fetch - processPackages [ftmscan-sdk]: Downloading https://files.pythonhosted.org/packages/cb/e6/8fdc0052a2b5abb7af2ae931d436c9244c6226048581faa8e72121b5064d/ftmscan_sdk-0.5.3.tar.gz
+[2024-04-03 00:50:49] INFO root fetch - processPackages [jaraco.site]: Downloading https://files.pythonhosted.org/packages/2c/4d/792276e63a3318be0b80eec6b24536e159b542108df6cf90b5105ecc3cb4/jaraco.site-6.7.0.tar.gz
+[2024-04-03 00:50:49] WARNING root fetch - processPackages [danrerlib]: Skipping package: exceeds size limit 11349201>=10485760
+[2024-04-03 00:50:49] INFO root fetch - main [MainThread]: End processing [danrerlib] error
+[2024-04-03 00:50:49] WARNING root fetch - processPackages [danrerlib]: Skipping package: exceeds size limit 11349201>=10485760
+[2024-04-03 00:50:49] INFO root fetch - main [MainThread]: End processing [danrerlib] error
+[2024-04-03 00:50:49] INFO root fetch - processPackages [solarwinds-apm]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-03 00:50:49] WARNING root fetch - processPackages [ftmscan-sdk]: Timeout reached during download
+[2024-04-03 00:50:49] WARNING root fetch - processPackages [jaraco.site]: Timeout reached during download
+[2024-04-03 00:50:49] INFO root fetch - processPackages [jaraco.site]: Downloading https://files.pythonhosted.org/packages/71/48/f2e8e7d9cc5df9b5daf955e7cfda87d746b066c5e04b36665c33456a5e95/jaraco.site-6.8.0.tar.gz
+[2024-04-03 00:50:49] INFO root fetch - processPackages [solarwinds-apm]: Downloading https://files.pythonhosted.org/packages/82/76/4aecdf62668f082b4347320313b0b91deb0ad1153cde38c1024fa1d079ff/solarwinds_apm-1.5.0.tar.gz
+[2024-04-03 00:50:49] INFO root fetch - processPackages [ftmscan-sdk]: Downloading https://files.pythonhosted.org/packages/dd/42/c9c3e7ec7eb75e0e40f7498d4db0c859ddce09627167eb0348f1a7c8281a/ftmscan_sdk-0.5.4.tar.gz
+[2024-04-03 00:50:49] WARNING root fetch - processPackages [solarwinds-apm]: Skipping package: exceeds size limit 28999561>=10485760
+[2024-04-03 00:50:49] INFO root fetch - main [MainThread]: End processing [solarwinds-apm] error
+[2024-04-03 00:50:50] WARNING root fetch - processPackages [rummage]: Timeout reached during download
+[2024-04-03 00:50:50] WARNING root fetch - processPackages [jaraco.site]: Timeout reached during download
+[2024-04-03 00:50:50] INFO root fetch - processPackages [jaraco.site]: executing diffoscope
+[2024-04-03 00:50:50] INFO root fetch - processPackages [jaraco.site]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.site-6.7.0.tar.gz tmp/jaraco.site-6.8.0.tar.gz --markdown 20240403/j/jaraco.site/6.7.0-6.8.0/diff.md --exclude *.pyd
+[2024-04-03 00:50:50] WARNING root fetch - processPackages [ftmscan-sdk]: Timeout reached during download
+[2024-04-03 00:50:50] INFO root fetch - processPackages [ftmscan-sdk]: executing diffoscope
+[2024-04-03 00:50:50] INFO root fetch - processPackages [ftmscan-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftmscan_sdk-0.5.3.tar.gz tmp/ftmscan_sdk-0.5.4.tar.gz --markdown 20240403/f/ftmscan-sdk/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2024-04-03 00:50:50] INFO root fetch - processPackages [rummage]: Downloading https://files.pythonhosted.org/packages/f8/de/8ec8a0f980ee9a9a083cd1e15048c294dc7a9ee1dfce878428498bc2d483/rummage-4.9.tar.gz
+[2024-04-03 00:50:50] WARNING root fetch - processPackages [rummage]: Timeout reached during download
+[2024-04-03 00:50:50] INFO root fetch - processPackages [rummage]: executing diffoscope
+[2024-04-03 00:50:50] INFO root fetch - processPackages [rummage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rummage-4.8.tar.gz tmp/rummage-4.9.tar.gz --markdown 20240403/r/rummage/4.8-4.9/diff.md --exclude *.pyd
+[2024-04-03 00:50:50] INFO root fetch - processPackages [ftmscan-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ftmscan_sdk-0.5.3.tar.gz]
+[2024-04-03 00:50:50] INFO root fetch - processPackages [ftmscan-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ftmscan_sdk-0.5.4.tar.gz]
+[2024-04-03 00:50:50] INFO root fetch - main [MainThread]: End processing [ftmscan-sdk]: success
+[2024-04-03 00:50:51] INFO root fetch - processPackages [jaraco.site]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.site-6.7.0.tar.gz]
+[2024-04-03 00:50:51] INFO root fetch - processPackages [jaraco.site]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.site-6.8.0.tar.gz]
+[2024-04-03 00:50:51] INFO root fetch - main [MainThread]: End processing [jaraco.site]: success
+[2024-04-03 00:50:52] INFO root fetch - processPackages [rummage]: Remove: archive file [/home/abi/fetcher/tmp/rummage-4.8.tar.gz]
+[2024-04-03 00:50:52] INFO root fetch - processPackages [rummage]: Remove: archive file [/home/abi/fetcher/tmp/rummage-4.9.tar.gz]
+[2024-04-03 00:50:52] INFO root fetch - main [MainThread]: End processing [rummage]: success
+[2024-04-03 00:50:52] INFO root fetch - main [MainThread]: Store serial: [22592746]

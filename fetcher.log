@@ -1869,3 +1869,17 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 01:33:00] INFO root fetch - processPackages [neon-skill-free-music-archive]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-free_music_archive-1.0.1a2.tar.gz]
 [2024-04-03 01:33:00] INFO root fetch - main [MainThread]: End processing [neon-skill-free-music-archive]: success
 [2024-04-03 01:33:00] INFO root fetch - main [MainThread]: Store serial: [22593020]
+[2024-04-03 01:35:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593020]
+[2024-04-03 01:35:09] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-03 01:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scahpy
+[2024-04-03 01:35:09] INFO root fetch - processPackages [scahpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 01:35:09] INFO root fetch - processPackages [scahpy]: Downloading https://files.pythonhosted.org/packages/d2/b5/d4037c67f1f91df4e50b26f4a4cf758f31e9a475350ece70135bb2a17a19/scahpy-0.0.8.tar.gz
+[2024-04-03 01:35:09] WARNING root fetch - processPackages [scahpy]: Timeout reached during download
+[2024-04-03 01:35:09] INFO root fetch - processPackages [scahpy]: Downloading https://files.pythonhosted.org/packages/e5/f7/310a056958ac504c4566b2e592d2fa3337cdfca7c006e7bd870a96a06776/scahpy-0.0.9.tar.gz
+[2024-04-03 01:35:10] WARNING root fetch - processPackages [scahpy]: Timeout reached during download
+[2024-04-03 01:35:10] INFO root fetch - processPackages [scahpy]: executing diffoscope
+[2024-04-03 01:35:10] INFO root fetch - processPackages [scahpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scahpy-0.0.8.tar.gz tmp/scahpy-0.0.9.tar.gz --markdown 20240403/s/scahpy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 01:35:10] INFO root fetch - processPackages [scahpy]: Remove: archive file [/home/abi/fetcher/tmp/scahpy-0.0.8.tar.gz]
+[2024-04-03 01:35:10] INFO root fetch - processPackages [scahpy]: Remove: archive file [/home/abi/fetcher/tmp/scahpy-0.0.9.tar.gz]
+[2024-04-03 01:35:10] INFO root fetch - main [MainThread]: End processing [scahpy]: success
+[2024-04-03 01:35:10] INFO root fetch - main [MainThread]: Store serial: [22593023]

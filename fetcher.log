@@ -1634,3 +1634,86 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 01:20:40] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a9.tar.gz]
 [2024-04-03 01:20:40] INFO root fetch - main [MainThread]: End processing [bauplan]: success
 [2024-04-03 01:20:40] INFO root fetch - main [MainThread]: Store serial: [22592957]
+[2024-04-03 01:23:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592957]
+[2024-04-03 01:23:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-03 01:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cbcmgr
+[2024-04-03 01:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-sdk
+[2024-04-03 01:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nectarallocationclient
+[2024-04-03 01:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: workos
+[2024-04-03 01:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transpara-sdk
+[2024-04-03 01:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: akhdefo-functions
+[2024-04-03 01:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hmtaiga
+[2024-04-03 01:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: burr
+[2024-04-03 01:23:12] INFO root fetch - processPackages [cbcmgr]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-03 01:23:12] WARNING root fetch - processPackages [hmtaiga]: Skipping, unable to determine old version
+[2024-04-03 01:23:12] INFO root fetch - main [MainThread]: End processing [hmtaiga] error
+[2024-04-03 01:23:12] INFO root fetch - processPackages [burr]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-03 01:23:13] INFO root fetch - processPackages [lusid-sdk]: New version: [2.0.96b0] Old Version: [2.0.90b0]
+[2024-04-03 01:23:13] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/96/59/8f83edf6892821224c2956fe0e4fdc0e0195ce2fab33465bb9076856431b/cbcmgr-2.2.8.tar.gz
+[2024-04-03 01:23:13] INFO root fetch - processPackages [nectarallocationclient]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-03 01:23:13] INFO root fetch - processPackages [transpara-sdk]: New version: [0.26.0] Old Version: [0.25.0]
+[2024-04-03 01:23:13] INFO root fetch - processPackages [akhdefo-functions]: New version: [2.4.28] Old Version: [2.4.27]
+[2024-04-03 01:23:13] INFO root fetch - processPackages [workos]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-04-03 01:23:13] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/f4/1b/decc10b66115dd2498625df6094dde867fd781fbd4fef934426474ebc9fe/lusid_sdk-2.0.90b0.tar.gz
+[2024-04-03 01:23:13] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/87/83/f7356070de16e070dbc68373d02f5b3677c417c21359630b2007a8b027df/burr-0.8.1.tar.gz
+[2024-04-03 01:23:13] WARNING root fetch - processPackages [cbcmgr]: Timeout reached during download
+[2024-04-03 01:23:13] INFO root fetch - processPackages [nectarallocationclient]: Downloading https://files.pythonhosted.org/packages/71/72/ac2cb71f2589aba7c54627d32fbc9deaed11a360ffafe40b1d3016143bd7/nectarallocationclient-1.8.0.tar.gz
+[2024-04-03 01:23:13] INFO root fetch - processPackages [transpara-sdk]: Downloading https://files.pythonhosted.org/packages/5b/81/9549733920a9a5c083fd5d52e974784b3ce47f5dc28cf55d6c9cccfbe2c3/transpara-sdk-0.25.0.tar.gz
+[2024-04-03 01:23:13] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/67/64/457361dba5eba5ba47c78661d68e9e4df76506658db791e9c1a1c1f8c492/cbcmgr-2.2.9.tar.gz
+[2024-04-03 01:23:13] INFO root fetch - processPackages [akhdefo-functions]: Downloading https://files.pythonhosted.org/packages/50/3c/c76213b0fe66e05c894ee9ceaa64cc0fde1f635ff372c7be7c1cd89d06f1/akhdefo_functions-2.4.27-py3-none-any.whl
+[2024-04-03 01:23:13] INFO root fetch - processPackages [workos]: Downloading https://files.pythonhosted.org/packages/69/23/3d43fbb10f6e190c506cd2fc00b9e29ad38ef1ceeacad75890430881b0a5/workos-4.0.0.tar.gz
+[2024-04-03 01:23:13] WARNING root fetch - processPackages [lusid-sdk]: Timeout reached during download
+[2024-04-03 01:23:13] WARNING root fetch - processPackages [transpara-sdk]: Timeout reached during download
+[2024-04-03 01:23:13] WARNING root fetch - processPackages [nectarallocationclient]: Timeout reached during download
+[2024-04-03 01:23:13] WARNING root fetch - processPackages [cbcmgr]: Timeout reached during download
+[2024-04-03 01:23:13] INFO root fetch - processPackages [cbcmgr]: executing diffoscope
+[2024-04-03 01:23:13] INFO root fetch - processPackages [cbcmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbcmgr-2.2.8.tar.gz tmp/cbcmgr-2.2.9.tar.gz --markdown 20240403/c/cbcmgr/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2024-04-03 01:23:13] WARNING root fetch - processPackages [akhdefo-functions]: Timeout reached during download
+[2024-04-03 01:23:13] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/79/bb/a00dd0006ca7cf9f5c9e9d6fb1a04a9f2b19a093e74becce026a1b0b4855/lusid_sdk-2.0.96b0.tar.gz
+[2024-04-03 01:23:13] WARNING root fetch - processPackages [workos]: Timeout reached during download
+[2024-04-03 01:23:13] WARNING root fetch - processPackages [burr]: Timeout reached during download
+[2024-04-03 01:23:13] INFO root fetch - processPackages [transpara-sdk]: Downloading https://files.pythonhosted.org/packages/a1/f8/3a3fcc0ccc5272db22d469baded720fb110e85e02e9d70f5ba70b1cd92f3/transpara-sdk-0.26.0.tar.gz
+[2024-04-03 01:23:13] INFO root fetch - processPackages [nectarallocationclient]: Downloading https://files.pythonhosted.org/packages/60/54/9c5348f00f39e6acb47c003812c3ef376afb82919bb384c30cb77904a24e/nectarallocationclient-1.9.0.tar.gz
+[2024-04-03 01:23:13] INFO root fetch - processPackages [akhdefo-functions]: Downloading https://files.pythonhosted.org/packages/6b/41/c98f5a6736625bd8acc4ba9c13a43435dca22ae36d1e5d4579f1ad88fcc1/akhdefo_functions-2.4.28-py3-none-any.whl
+[2024-04-03 01:23:13] WARNING root fetch - processPackages [lusid-sdk]: Timeout reached during download
+[2024-04-03 01:23:13] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-04-03 01:23:13] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.0.90b0.tar.gz tmp/lusid_sdk-2.0.96b0.tar.gz --markdown 20240403/l/lusid-sdk/2.0.90b0-2.0.96b0/diff.md --exclude *.pyd
+[2024-04-03 01:23:13] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/65/38/00b44d54c37f35813232167f5745ca37eac9ad13574e81e1f4e685acf5d5/burr-0.9.0.tar.gz
+[2024-04-03 01:23:13] INFO root fetch - processPackages [workos]: Downloading https://files.pythonhosted.org/packages/8b/15/0a3e36a78e9a17e55e0a4dd24e07dcdcf745e608c56b336190cc4a97e058/workos-4.1.0.tar.gz
+[2024-04-03 01:23:13] WARNING root fetch - processPackages [transpara-sdk]: Timeout reached during download
+[2024-04-03 01:23:13] INFO root fetch - processPackages [transpara-sdk]: executing diffoscope
+[2024-04-03 01:23:13] INFO root fetch - processPackages [transpara-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transpara-sdk-0.25.0.tar.gz tmp/transpara-sdk-0.26.0.tar.gz --markdown 20240403/t/transpara-sdk/0.25.0-0.26.0/diff.md --exclude *.pyd
+[2024-04-03 01:23:13] WARNING root fetch - processPackages [nectarallocationclient]: Timeout reached during download
+[2024-04-03 01:23:13] INFO root fetch - processPackages [nectarallocationclient]: executing diffoscope
+[2024-04-03 01:23:13] INFO root fetch - processPackages [nectarallocationclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nectarallocationclient-1.8.0.tar.gz tmp/nectarallocationclient-1.9.0.tar.gz --markdown 20240403/n/nectarallocationclient/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-03 01:23:13] WARNING root fetch - processPackages [akhdefo-functions]: Timeout reached during download
+[2024-04-03 01:23:13] INFO root fetch - processPackages [akhdefo-functions]: executing diffoscope
+[2024-04-03 01:23:13] INFO root fetch - processPackages [akhdefo-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akhdefo_functions-2.4.27-py3-none-any.whl.zip tmp/akhdefo_functions-2.4.28-py3-none-any.whl.zip --markdown 20240403/a/akhdefo-functions/2.4.27-2.4.28/diff.md --exclude *.pyd
+[2024-04-03 01:23:13] WARNING root fetch - processPackages [workos]: Timeout reached during download
+[2024-04-03 01:23:13] INFO root fetch - processPackages [workos]: executing diffoscope
+[2024-04-03 01:23:13] INFO root fetch - processPackages [workos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workos-4.0.0.tar.gz tmp/workos-4.1.0.tar.gz --markdown 20240403/w/workos/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2024-04-03 01:23:14] WARNING root fetch - processPackages [burr]: Timeout reached during download
+[2024-04-03 01:23:14] INFO root fetch - processPackages [burr]: executing diffoscope
+[2024-04-03 01:23:14] INFO root fetch - processPackages [burr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burr-0.8.1.tar.gz tmp/burr-0.9.0.tar.gz --markdown 20240403/b/burr/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 01:23:14] INFO root fetch - processPackages [transpara-sdk]: Remove: archive file [/home/abi/fetcher/tmp/transpara-sdk-0.25.0.tar.gz]
+[2024-04-03 01:23:14] INFO root fetch - processPackages [transpara-sdk]: Remove: archive file [/home/abi/fetcher/tmp/transpara-sdk-0.26.0.tar.gz]
+[2024-04-03 01:23:14] INFO root fetch - main [MainThread]: End processing [transpara-sdk]: success
+[2024-04-03 01:23:14] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-2.2.8.tar.gz]
+[2024-04-03 01:23:14] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-2.2.9.tar.gz]
+[2024-04-03 01:23:14] INFO root fetch - main [MainThread]: End processing [cbcmgr]: success
+[2024-04-03 01:23:14] INFO root fetch - processPackages [nectarallocationclient]: Remove: archive file [/home/abi/fetcher/tmp/nectarallocationclient-1.8.0.tar.gz]
+[2024-04-03 01:23:14] INFO root fetch - processPackages [nectarallocationclient]: Remove: archive file [/home/abi/fetcher/tmp/nectarallocationclient-1.9.0.tar.gz]
+[2024-04-03 01:23:14] INFO root fetch - main [MainThread]: End processing [nectarallocationclient]: success
+[2024-04-03 01:23:14] INFO root fetch - processPackages [akhdefo-functions]: Remove: archive file [/home/abi/fetcher/tmp/akhdefo_functions-2.4.27-py3-none-any.whl.zip]
+[2024-04-03 01:23:14] INFO root fetch - processPackages [akhdefo-functions]: Remove: archive file [/home/abi/fetcher/tmp/akhdefo_functions-2.4.28-py3-none-any.whl.zip]
+[2024-04-03 01:23:14] INFO root fetch - main [MainThread]: End processing [akhdefo-functions]: success
+[2024-04-03 01:23:14] INFO root fetch - processPackages [workos]: Remove: archive file [/home/abi/fetcher/tmp/workos-4.0.0.tar.gz]
+[2024-04-03 01:23:14] INFO root fetch - processPackages [workos]: Remove: archive file [/home/abi/fetcher/tmp/workos-4.1.0.tar.gz]
+[2024-04-03 01:23:14] INFO root fetch - main [MainThread]: End processing [workos]: success
+[2024-04-03 01:23:17] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.0.90b0.tar.gz]
+[2024-04-03 01:23:17] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.0.96b0.tar.gz]
+[2024-04-03 01:23:17] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-04-03 01:23:50] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.8.1.tar.gz]
+[2024-04-03 01:23:50] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
+[2024-04-03 01:23:50] INFO root fetch - main [MainThread]: End processing [burr]: success
+[2024-04-03 01:23:50] INFO root fetch - main [MainThread]: Store serial: [22592978]

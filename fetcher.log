@@ -755,3 +755,49 @@
 [2024-04-03 00:37:40] WARNING root fetch - processPackages [seismic-rna]: Skipping package: exceeds size limit 25833813>=10485760
 [2024-04-03 00:37:40] INFO root fetch - main [MainThread]: End processing [seismic-rna] error
 [2024-04-03 00:37:40] INFO root fetch - main [MainThread]: Store serial: [22592665]
+[2024-04-03 00:39:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592665]
+[2024-04-03 00:39:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 00:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: landingai
+[2024-04-03 00:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homeassistant
+[2024-04-03 00:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: owl-on-fhir
+[2024-04-03 00:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mhi-common
+[2024-04-03 00:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shdo
+[2024-04-03 00:39:48] INFO root fetch - processPackages [owl-on-fhir]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-03 00:39:48] INFO root fetch - processPackages [shdo]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-03 00:39:48] INFO root fetch - processPackages [homeassistant]: New version: [2024.4.0b7] Old Version: [2024.4.0b6]
+[2024-04-03 00:39:48] INFO root fetch - processPackages [owl-on-fhir]: Downloading https://files.pythonhosted.org/packages/83/96/ca2c6e28b7f93a7184341803cfa32609708389291a1f35a5df3d35e214c5/owl-on-fhir-1.1.1.tar.gz
+[2024-04-03 00:39:48] INFO root fetch - processPackages [landingai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-03 00:39:48] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/c5/1f/b1f706cd4abccaea84b07e5eede329e7c6f1e2adca5c62812c34c282b213/shdo-0.0.4.tar.gz
+[2024-04-03 00:39:48] INFO root fetch - processPackages [mhi-common]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-03 00:39:48] WARNING root fetch - processPackages [owl-on-fhir]: Skipping package: exceeds size limit 80687500>=10485760
+[2024-04-03 00:39:48] INFO root fetch - main [MainThread]: End processing [owl-on-fhir] error
+[2024-04-03 00:39:48] WARNING root fetch - processPackages [shdo]: Timeout reached during download
+[2024-04-03 00:39:48] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/8d/ad/04029c2671bef4b6ed225a638695ed44cdd5297bd4babffc8a8f006c53b7/homeassistant-2024.4.0b6.tar.gz
+[2024-04-03 00:39:48] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 20635827>=10485760
+[2024-04-03 00:39:48] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2024-04-03 00:39:48] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/19/59/324bae76d1decf1549cd258dc508243a0325813604d0e44128b16e984ad4/landingai-0.3.8.tar.gz
+[2024-04-03 00:39:48] INFO root fetch - processPackages [mhi-common]: Downloading https://files.pythonhosted.org/packages/e1/a8/d9a110e2b22982a7ad7f6ffad224ecc109cb13715237aabf230eca37e983/mhi_common-2.4.0-py3-none-any.whl
+[2024-04-03 00:39:49] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/d0/3b/99b1277fa5ae33513070b669c69e5060ff45c4f3aa4e9adc4e52baf0298b/shdo-0.0.5.tar.gz
+[2024-04-03 00:39:49] WARNING root fetch - processPackages [mhi-common]: Timeout reached during download
+[2024-04-03 00:39:49] WARNING root fetch - processPackages [landingai]: Timeout reached during download
+[2024-04-03 00:39:49] WARNING root fetch - processPackages [shdo]: Timeout reached during download
+[2024-04-03 00:39:49] INFO root fetch - processPackages [shdo]: executing diffoscope
+[2024-04-03 00:39:49] INFO root fetch - processPackages [shdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shdo-0.0.4.tar.gz tmp/shdo-0.0.5.tar.gz --markdown 20240403/s/shdo/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-03 00:39:49] INFO root fetch - processPackages [mhi-common]: Downloading https://files.pythonhosted.org/packages/66/27/103906147ecea70f0305fb855c4f94296c64666046106a1c5319207033bb/mhi_common-2.4.1-py3-none-any.whl
+[2024-04-03 00:39:49] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/16/b3/48422c26aff2f7c8c291c59652160a61b5344534a5a4eaae124e6e0faffa/landingai-0.3.9.tar.gz
+[2024-04-03 00:39:49] WARNING root fetch - processPackages [mhi-common]: Timeout reached during download
+[2024-04-03 00:39:49] INFO root fetch - processPackages [mhi-common]: executing diffoscope
+[2024-04-03 00:39:49] INFO root fetch - processPackages [mhi-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mhi_common-2.4.0-py3-none-any.whl.zip tmp/mhi_common-2.4.1-py3-none-any.whl.zip --markdown 20240403/m/mhi-common/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2024-04-03 00:39:49] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.0.4.tar.gz]
+[2024-04-03 00:39:49] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.0.5.tar.gz]
+[2024-04-03 00:39:49] INFO root fetch - main [MainThread]: End processing [shdo]: success
+[2024-04-03 00:39:49] WARNING root fetch - processPackages [landingai]: Timeout reached during download
+[2024-04-03 00:39:49] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2024-04-03 00:39:49] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.3.8.tar.gz tmp/landingai-0.3.9.tar.gz --markdown 20240403/l/landingai/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-03 00:39:50] INFO root fetch - processPackages [mhi-common]: Remove: archive file [/home/abi/fetcher/tmp/mhi_common-2.4.0-py3-none-any.whl.zip]
+[2024-04-03 00:39:50] INFO root fetch - processPackages [mhi-common]: Remove: archive file [/home/abi/fetcher/tmp/mhi_common-2.4.1-py3-none-any.whl.zip]
+[2024-04-03 00:39:50] INFO root fetch - main [MainThread]: End processing [mhi-common]: success
+[2024-04-03 00:39:50] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.3.8.tar.gz]
+[2024-04-03 00:39:50] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.3.9.tar.gz]
+[2024-04-03 00:39:50] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2024-04-03 00:39:50] INFO root fetch - main [MainThread]: Store serial: [22592677]

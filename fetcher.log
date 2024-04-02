@@ -81,3 +81,64 @@
 [2024-04-03 00:04:42] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
 [2024-04-03 00:04:42] INFO root fetch - main [MainThread]: End processing [burr]: success
 [2024-04-03 00:04:42] INFO root fetch - main [MainThread]: Store serial: [22592375]
+[2024-04-03 00:06:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592375]
+[2024-04-03 00:06:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 00:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skymantle-boto-buddy
+[2024-04-03 00:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-skill-spelling
+[2024-04-03 00:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: draupnir
+[2024-04-03 00:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modlee
+[2024-04-03 00:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: querypanda
+[2024-04-03 00:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quarkstudio
+[2024-04-03 00:06:53] INFO root fetch - processPackages [modlee]: New version: [0.0.1.post8] Old Version: [0.0.1.post7]
+[2024-04-03 00:06:53] INFO root fetch - processPackages [neon-skill-spelling]: New version: [1.0.1a2] Old Version: [1.0.1a1]
+[2024-04-03 00:06:53] INFO root fetch - processPackages [modlee]: Downloading https://files.pythonhosted.org/packages/f2/26/07470489ced47d45be931ebe54a28385eb1e9f5e0c7649fb68aa3bf4e2cb/modlee-0.0.1.post7-py3-none-any.whl
+[2024-04-03 00:06:53] INFO root fetch - processPackages [quarkstudio]: New version: [6.6.2.8] Old Version: [6.6.2.7]
+[2024-04-03 00:06:53] WARNING root fetch - processPackages [querypanda]: Skipping, unable to determine old version
+[2024-04-03 00:06:53] INFO root fetch - main [MainThread]: End processing [querypanda] error
+[2024-04-03 00:06:53] INFO root fetch - processPackages [skymantle-boto-buddy]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-03 00:06:53] INFO root fetch - processPackages [draupnir]: New version: [0.0.29] Old Version: [0.0.28]
+[2024-04-03 00:06:53] WARNING root fetch - processPackages [modlee]: Timeout reached during download
+[2024-04-03 00:06:53] INFO root fetch - processPackages [neon-skill-spelling]: Downloading https://files.pythonhosted.org/packages/34/1d/5f8d4a82d99f38d13eee3ed95110fe7cbd40eea7b4b5d6aa7bafc5e01803/neon-skill-spelling-1.0.1a1.tar.gz
+[2024-04-03 00:06:53] INFO root fetch - processPackages [draupnir]: Downloading https://files.pythonhosted.org/packages/ca/81/ad994c40bb018c494ea5e0fb50c37207494996bd9300ad6aafe7d09a83c8/draupnir-0.0.28.tar.gz
+[2024-04-03 00:06:53] INFO root fetch - processPackages [skymantle-boto-buddy]: Downloading https://files.pythonhosted.org/packages/ae/99/b3b33c89fb2f0f30751eb47dde1d3097e23855cc2ffd9bf2c48fc8bc4859/skymantle_boto_buddy-0.2.0.tar.gz
+[2024-04-03 00:06:53] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/6e/38/d7b2f077d8a714025db2b50b7bbeb16c44e219ced8618334d8f81c67a378/quarkstudio-6.6.2.7-cp312-none-win_amd64.whl
+[2024-04-03 00:06:53] WARNING root fetch - processPackages [neon-skill-spelling]: Timeout reached during download
+[2024-04-03 00:06:53] INFO root fetch - processPackages [modlee]: Downloading https://files.pythonhosted.org/packages/7c/5f/d50d4f69ce8b12e82d91268e7a73b1337544a9dab6c46bdc649bcaa9a68d/modlee-0.0.1.post8-py3-none-any.whl
+[2024-04-03 00:06:53] WARNING root fetch - processPackages [skymantle-boto-buddy]: Timeout reached during download
+[2024-04-03 00:06:53] WARNING root fetch - processPackages [modlee]: Timeout reached during download
+[2024-04-03 00:06:53] INFO root fetch - processPackages [modlee]: executing diffoscope
+[2024-04-03 00:06:53] INFO root fetch - processPackages [modlee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modlee-0.0.1.post7-py3-none-any.whl.zip tmp/modlee-0.0.1.post8-py3-none-any.whl.zip --markdown 20240403/m/modlee/0.0.1.post7-0.0.1.post8/diff.md --exclude *.pyd
+[2024-04-03 00:06:53] WARNING root fetch - processPackages [quarkstudio]: Timeout reached during download
+[2024-04-03 00:06:53] INFO root fetch - processPackages [neon-skill-spelling]: Downloading https://files.pythonhosted.org/packages/6a/95/fb8c40c00cc7923f7ecede44ccd4feb14e9fc5a2bb6871111faba384166c/neon-skill-spelling-1.0.1a2.tar.gz
+[2024-04-03 00:06:53] WARNING root fetch - processPackages [neon-skill-spelling]: Timeout reached during download
+[2024-04-03 00:06:53] INFO root fetch - processPackages [neon-skill-spelling]: executing diffoscope
+[2024-04-03 00:06:53] INFO root fetch - processPackages [neon-skill-spelling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-spelling-1.0.1a1.tar.gz tmp/neon-skill-spelling-1.0.1a2.tar.gz --markdown 20240403/n/neon-skill-spelling/1.0.1a1-1.0.1a2/diff.md --exclude *.pyd
+[2024-04-03 00:06:53] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/0f/de/15870e7c5c752bcd5bc4502ea69a432bb02fcaaa4c7454a7ed8505dd859d/quarkstudio-6.6.2.8-cp312-none-win_amd64.whl
+[2024-04-03 00:06:54] INFO root fetch - processPackages [skymantle-boto-buddy]: Downloading https://files.pythonhosted.org/packages/97/27/4ab24b2cd4a6412e8e00099059dbfced9bf062b2442cc0250643fb248030/skymantle_boto_buddy-0.3.0.tar.gz
+[2024-04-03 00:06:54] WARNING root fetch - processPackages [skymantle-boto-buddy]: Timeout reached during download
+[2024-04-03 00:06:54] INFO root fetch - processPackages [skymantle-boto-buddy]: executing diffoscope
+[2024-04-03 00:06:54] INFO root fetch - processPackages [skymantle-boto-buddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skymantle_boto_buddy-0.2.0.tar.gz tmp/skymantle_boto_buddy-0.3.0.tar.gz --markdown 20240403/s/skymantle-boto-buddy/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-03 00:06:54] WARNING root fetch - processPackages [quarkstudio]: Timeout reached during download
+[2024-04-03 00:06:54] INFO root fetch - processPackages [quarkstudio]: executing diffoscope
+[2024-04-03 00:06:54] INFO root fetch - processPackages [quarkstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarkstudio-6.6.2.7-cp312-none-win_amd64.whl.zip tmp/quarkstudio-6.6.2.8-cp312-none-win_amd64.whl.zip --markdown 20240403/q/quarkstudio/6.6.2.7-6.6.2.8/diff.md --exclude *.pyd
+[2024-04-03 00:06:54] INFO root fetch - processPackages [neon-skill-spelling]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-spelling-1.0.1a1.tar.gz]
+[2024-04-03 00:06:54] INFO root fetch - processPackages [neon-skill-spelling]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-spelling-1.0.1a2.tar.gz]
+[2024-04-03 00:06:54] INFO root fetch - main [MainThread]: End processing [neon-skill-spelling]: success
+[2024-04-03 00:06:54] WARNING root fetch - processPackages [draupnir]: Timeout reached during download
+[2024-04-03 00:06:54] INFO root fetch - processPackages [modlee]: Remove: archive file [/home/abi/fetcher/tmp/modlee-0.0.1.post7-py3-none-any.whl.zip]
+[2024-04-03 00:06:54] INFO root fetch - processPackages [modlee]: Remove: archive file [/home/abi/fetcher/tmp/modlee-0.0.1.post8-py3-none-any.whl.zip]
+[2024-04-03 00:06:54] INFO root fetch - main [MainThread]: End processing [modlee]: success
+[2024-04-03 00:06:54] INFO root fetch - processPackages [draupnir]: Downloading https://files.pythonhosted.org/packages/d4/a3/70acb697834037e6041b9503e32817958ac5a2f5da8c7f70ea8183b74c60/draupnir-0.0.29.tar.gz
+[2024-04-03 00:06:54] INFO root fetch - processPackages [skymantle-boto-buddy]: Remove: archive file [/home/abi/fetcher/tmp/skymantle_boto_buddy-0.2.0.tar.gz]
+[2024-04-03 00:06:54] INFO root fetch - processPackages [skymantle-boto-buddy]: Remove: archive file [/home/abi/fetcher/tmp/skymantle_boto_buddy-0.3.0.tar.gz]
+[2024-04-03 00:06:54] INFO root fetch - main [MainThread]: End processing [skymantle-boto-buddy]: success
+[2024-04-03 00:06:54] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.2.7-cp312-none-win_amd64.whl.zip]
+[2024-04-03 00:06:54] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.2.8-cp312-none-win_amd64.whl.zip]
+[2024-04-03 00:06:54] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
+[2024-04-03 00:06:55] WARNING root fetch - processPackages [draupnir]: Timeout reached during download
+[2024-04-03 00:06:55] INFO root fetch - processPackages [draupnir]: executing diffoscope
+[2024-04-03 00:06:55] INFO root fetch - processPackages [draupnir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draupnir-0.0.28.tar.gz tmp/draupnir-0.0.29.tar.gz --markdown 20240403/d/draupnir/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2024-04-03 00:06:57] INFO root fetch - processPackages [draupnir]: Remove: archive file [/home/abi/fetcher/tmp/draupnir-0.0.28.tar.gz]
+[2024-04-03 00:06:57] INFO root fetch - processPackages [draupnir]: Remove: archive file [/home/abi/fetcher/tmp/draupnir-0.0.29.tar.gz]
+[2024-04-03 00:06:57] INFO root fetch - main [MainThread]: End processing [draupnir]: success
+[2024-04-03 00:06:57] INFO root fetch - main [MainThread]: Store serial: [22592403]

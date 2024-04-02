@@ -452,3 +452,81 @@
 [2024-04-03 00:21:48] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
 [2024-04-03 00:21:48] INFO root fetch - main [MainThread]: End processing [burr]: success
 [2024-04-03 00:21:48] INFO root fetch - main [MainThread]: Store serial: [22592517]
+[2024-04-03 00:23:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592517]
+[2024-04-03 00:23:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 00:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wbtools
+[2024-04-03 00:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GoogleNb
+[2024-04-03 00:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GoogleNb
+[2024-04-03 00:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modlee
+[2024-04-03 00:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flywheel-bids
+[2024-04-03 00:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mixpeek
+[2024-04-03 00:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vios
+[2024-04-03 00:23:57] INFO root fetch - processPackages [vios]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-04-03 00:23:57] INFO root fetch - processPackages [modlee]: New version: [0.0.1.post9] Old Version: [0.0.1.post8]
+[2024-04-03 00:23:57] INFO root fetch - processPackages [wbtools]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-04-03 00:23:57] INFO root fetch - processPackages [GoogleNb]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-03 00:23:57] INFO root fetch - processPackages [GoogleNb]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-03 00:23:57] INFO root fetch - processPackages [mixpeek]: New version: [1.7] Old Version: [0.6.1]
+[2024-04-03 00:23:57] INFO root fetch - processPackages [flywheel-bids]: New version: [1.2.9] Old Version: [1.2.6]
+[2024-04-03 00:23:57] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/11/4c/c301a55872481c14ac14804ce67a0ec89cc5b277fb17e675b6e41945416f/vios-2.2.3-py3-none-any.whl
+[2024-04-03 00:23:57] INFO root fetch - processPackages [wbtools]: Downloading https://files.pythonhosted.org/packages/83/5e/6efd0376b580db71b897287cb25efabccb45383f2e12f396e0fe19c93c71/wbtools-3.0.4.tar.gz
+[2024-04-03 00:23:57] INFO root fetch - processPackages [modlee]: Downloading https://files.pythonhosted.org/packages/7c/5f/d50d4f69ce8b12e82d91268e7a73b1337544a9dab6c46bdc649bcaa9a68d/modlee-0.0.1.post8-py3-none-any.whl
+[2024-04-03 00:23:57] WARNING root fetch - processPackages [vios]: Timeout reached during download
+[2024-04-03 00:23:57] WARNING root fetch - processPackages [modlee]: Timeout reached during download
+[2024-04-03 00:23:57] WARNING root fetch - processPackages [wbtools]: Timeout reached during download
+[2024-04-03 00:23:57] INFO root fetch - processPackages [GoogleNb]: Downloading https://files.pythonhosted.org/packages/d9/67/37305de26454ea2814cb3ac52f2d54e9119b755356ec8e337caf565f181f/GoogleNb-0.0.1.tar.gz
+[2024-04-03 00:23:57] INFO root fetch - processPackages [GoogleNb]: Downloading https://files.pythonhosted.org/packages/d9/67/37305de26454ea2814cb3ac52f2d54e9119b755356ec8e337caf565f181f/GoogleNb-0.0.1.tar.gz
+[2024-04-03 00:23:57] INFO root fetch - processPackages [flywheel-bids]: Downloading https://files.pythonhosted.org/packages/dc/72/5745995229fed688c098652808a78c1ed8072df70443e7b364270de38742/flywheel_bids-1.2.6-py3-none-any.whl
+[2024-04-03 00:23:57] INFO root fetch - processPackages [mixpeek]: Downloading https://files.pythonhosted.org/packages/4d/d5/36a1a4e63a9c8a66deb4426b6b44133a00e094b80da75e8230a9ca3fc2e0/mixpeek-0.6.1.tar.gz
+[2024-04-03 00:23:57] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/2d/fd/3839864d6d08b7bba0a51b46aca6751e8f9e6da3a6e2297c48b982a5c3b3/vios-2.2.4-py3-none-any.whl
+[2024-04-03 00:23:57] INFO root fetch - processPackages [modlee]: Downloading https://files.pythonhosted.org/packages/95/1b/617f29e534ea2bef1e24c92932ed2e192366f1150eb7f9f83b5258ff96c4/modlee-0.0.1.post9-py3-none-any.whl
+[2024-04-03 00:23:57] INFO root fetch - processPackages [wbtools]: Downloading https://files.pythonhosted.org/packages/a0/bd/29c257ccfe8272c62b2bf5d67f3378a76ade081d20d7ff7758bfba5935b5/wbtools-3.0.5.tar.gz
+[2024-04-03 00:23:57] WARNING root fetch - processPackages [mixpeek]: Timeout reached during download
+[2024-04-03 00:23:57] WARNING root fetch - processPackages [GoogleNb]: Timeout reached during download
+[2024-04-03 00:23:57] WARNING root fetch - processPackages [GoogleNb]: Timeout reached during download
+[2024-04-03 00:23:57] WARNING root fetch - processPackages [vios]: Timeout reached during download
+[2024-04-03 00:23:57] INFO root fetch - processPackages [vios]: executing diffoscope
+[2024-04-03 00:23:57] INFO root fetch - processPackages [vios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vios-2.2.3-py3-none-any.whl.zip tmp/vios-2.2.4-py3-none-any.whl.zip --markdown 20240403/v/vios/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2024-04-03 00:23:57] WARNING root fetch - processPackages [modlee]: Timeout reached during download
+[2024-04-03 00:23:57] INFO root fetch - processPackages [modlee]: executing diffoscope
+[2024-04-03 00:23:57] INFO root fetch - processPackages [modlee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modlee-0.0.1.post8-py3-none-any.whl.zip tmp/modlee-0.0.1.post9-py3-none-any.whl.zip --markdown 20240403/m/modlee/0.0.1.post8-0.0.1.post9/diff.md --exclude *.pyd
+[2024-04-03 00:23:57] WARNING root fetch - processPackages [wbtools]: Timeout reached during download
+[2024-04-03 00:23:57] INFO root fetch - processPackages [wbtools]: executing diffoscope
+[2024-04-03 00:23:57] INFO root fetch - processPackages [wbtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbtools-3.0.4.tar.gz tmp/wbtools-3.0.5.tar.gz --markdown 20240403/w/wbtools/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2024-04-03 00:23:57] INFO root fetch - processPackages [mixpeek]: Downloading https://files.pythonhosted.org/packages/4e/28/65883295a5dbdc3f5d384b7bfe1a5dd6004d59f0fed02f20b02e32bd7646/mixpeek-1.7.tar.gz
+[2024-04-03 00:23:58] INFO root fetch - processPackages [GoogleNb]: Downloading https://files.pythonhosted.org/packages/7b/1c/b7b17f23b26389f405e0cac9320b5158c7fb103dbe1db95be274f6b3b99c/GoogleNb-0.0.2.tar.gz
+[2024-04-03 00:23:58] INFO root fetch - processPackages [GoogleNb]: Downloading https://files.pythonhosted.org/packages/7b/1c/b7b17f23b26389f405e0cac9320b5158c7fb103dbe1db95be274f6b3b99c/GoogleNb-0.0.2.tar.gz
+[2024-04-03 00:23:58] WARNING root fetch - processPackages [mixpeek]: Timeout reached during download
+[2024-04-03 00:23:58] INFO root fetch - processPackages [mixpeek]: executing diffoscope
+[2024-04-03 00:23:58] INFO root fetch - processPackages [mixpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixpeek-0.6.1.tar.gz tmp/mixpeek-1.7.tar.gz --markdown 20240403/m/mixpeek/0.6.1-1.7/diff.md --exclude *.pyd
+[2024-04-03 00:23:58] WARNING root fetch - processPackages [GoogleNb]: Timeout reached during download
+[2024-04-03 00:23:58] INFO root fetch - processPackages [GoogleNb]: executing diffoscope
+[2024-04-03 00:23:58] INFO root fetch - processPackages [GoogleNb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GoogleNb-0.0.1.tar.gz tmp/GoogleNb-0.0.2.tar.gz --markdown 20240403/G/GoogleNb/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-03 00:23:58] WARNING root fetch - processPackages [GoogleNb]: Timeout reached during download
+[2024-04-03 00:23:58] INFO root fetch - processPackages [GoogleNb]: executing diffoscope
+[2024-04-03 00:23:58] INFO root fetch - processPackages [GoogleNb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GoogleNb-0.0.1.tar.gz tmp/GoogleNb-0.0.2.tar.gz --markdown 20240403/G/GoogleNb/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-03 00:23:58] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.2.3-py3-none-any.whl.zip]
+[2024-04-03 00:23:58] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.2.4-py3-none-any.whl.zip]
+[2024-04-03 00:23:58] INFO root fetch - main [MainThread]: End processing [vios]: success
+[2024-04-03 00:23:58] INFO root fetch - processPackages [modlee]: Remove: archive file [/home/abi/fetcher/tmp/modlee-0.0.1.post8-py3-none-any.whl.zip]
+[2024-04-03 00:23:58] INFO root fetch - processPackages [modlee]: Remove: archive file [/home/abi/fetcher/tmp/modlee-0.0.1.post9-py3-none-any.whl.zip]
+[2024-04-03 00:23:58] INFO root fetch - main [MainThread]: End processing [modlee]: success
+[2024-04-03 00:23:58] INFO root fetch - processPackages [GoogleNb]: Remove: archive file [/home/abi/fetcher/tmp/GoogleNb-0.0.1.tar.gz]
+[2024-04-03 00:23:58] INFO root fetch - processPackages [GoogleNb]: Remove: archive file [/home/abi/fetcher/tmp/GoogleNb-0.0.2.tar.gz]
+[2024-04-03 00:23:58] INFO root fetch - main [MainThread]: End processing [GoogleNb]: success
+[2024-04-03 00:23:58] INFO root fetch - processPackages [wbtools]: Remove: archive file [/home/abi/fetcher/tmp/wbtools-3.0.4.tar.gz]
+[2024-04-03 00:23:58] INFO root fetch - processPackages [wbtools]: Remove: archive file [/home/abi/fetcher/tmp/wbtools-3.0.5.tar.gz]
+[2024-04-03 00:23:58] INFO root fetch - main [MainThread]: End processing [wbtools]: success
+[2024-04-03 00:23:58] INFO root fetch - processPackages [mixpeek]: Remove: archive file [/home/abi/fetcher/tmp/mixpeek-0.6.1.tar.gz]
+[2024-04-03 00:23:58] INFO root fetch - processPackages [mixpeek]: Remove: archive file [/home/abi/fetcher/tmp/mixpeek-1.7.tar.gz]
+[2024-04-03 00:23:58] INFO root fetch - main [MainThread]: End processing [mixpeek]: success
+[2024-04-03 00:23:58] INFO root fetch - main [MainThread]: End processing [GoogleNb]: success
+[2024-04-03 00:24:00] WARNING root fetch - processPackages [flywheel-bids]: Timeout reached during download
+[2024-04-03 00:24:01] INFO root fetch - processPackages [flywheel-bids]: Downloading https://files.pythonhosted.org/packages/4a/79/77f8d94fb1638d2f7629a46fa334d6f49ff65660fbd2272612941d27220b/flywheel_bids-1.2.9-py3-none-any.whl
+[2024-04-03 00:24:01] WARNING root fetch - processPackages [flywheel-bids]: Timeout reached during download
+[2024-04-03 00:24:01] INFO root fetch - processPackages [flywheel-bids]: executing diffoscope
+[2024-04-03 00:24:01] INFO root fetch - processPackages [flywheel-bids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flywheel_bids-1.2.6-py3-none-any.whl.zip tmp/flywheel_bids-1.2.9-py3-none-any.whl.zip --markdown 20240403/f/flywheel-bids/1.2.6-1.2.9/diff.md --exclude *.pyd
+[2024-04-03 00:24:02] INFO root fetch - processPackages [flywheel-bids]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_bids-1.2.6-py3-none-any.whl.zip]
+[2024-04-03 00:24:02] INFO root fetch - processPackages [flywheel-bids]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_bids-1.2.9-py3-none-any.whl.zip]
+[2024-04-03 00:24:02] INFO root fetch - main [MainThread]: End processing [flywheel-bids]: success
+[2024-04-03 00:24:02] INFO root fetch - main [MainThread]: Store serial: [22592537]

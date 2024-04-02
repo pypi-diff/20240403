@@ -1471,3 +1471,53 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 01:09:15] WARNING root fetch - processPackages [easysnowdata]: Skipping package: exceeds size limit 13040030>=10485760
 [2024-04-03 01:09:15] INFO root fetch - main [MainThread]: End processing [easysnowdata] error
 [2024-04-03 01:09:15] INFO root fetch - main [MainThread]: Store serial: [22592900]
+[2024-04-03 01:11:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592900]
+[2024-04-03 01:11:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 01:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chift
+[2024-04-03 01:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: databricks-genai
+[2024-04-03 01:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstra
+[2024-04-03 01:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chattertools
+[2024-04-03 01:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iiif-now
+[2024-04-03 01:11:25] INFO root fetch - processPackages [iiif-now]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-03 01:11:25] WARNING root fetch - processPackages [chattertools]: Skipping, unable to determine old version
+[2024-04-03 01:11:25] INFO root fetch - main [MainThread]: End processing [chattertools] error
+[2024-04-03 01:11:25] INFO root fetch - processPackages [databricks-genai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 01:11:25] INFO root fetch - processPackages [chift]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 01:11:25] INFO root fetch - processPackages [iiif-now]: Downloading https://files.pythonhosted.org/packages/1e/c2/80c3cc37889be236e86862aa58aa01979fcd83499def97978deabcb88b60/iiif_now-0.1.0.tar.gz
+[2024-04-03 01:11:25] INFO root fetch - processPackages [chift]: Downloading https://files.pythonhosted.org/packages/d6/6f/f1da36cb45e5a3602ca98d5a4c0a76c94eb87c20a7125c20982ab1f6276f/chift-0.1.8.tar.gz
+[2024-04-03 01:11:25] INFO root fetch - processPackages [databricks-genai]: Downloading https://files.pythonhosted.org/packages/fa/cd/a0a4876cb3c5adc177da1cc9194ba005c0fefe7709040037538b224bf6f1/databricks-genai-0.0.8.tar.gz
+[2024-04-03 01:11:25] WARNING root fetch - processPackages [iiif-now]: Timeout reached during download
+[2024-04-03 01:11:25] INFO root fetch - processPackages [abstra]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-04-03 01:11:25] WARNING root fetch - processPackages [chift]: Timeout reached during download
+[2024-04-03 01:11:25] WARNING root fetch - processPackages [databricks-genai]: Timeout reached during download
+[2024-04-03 01:11:25] INFO root fetch - processPackages [iiif-now]: Downloading https://files.pythonhosted.org/packages/53/a2/a3a73712bc868a0ac722143b1540875016f53aa1f77698aba0d5f0c56fbe/iiif_now-0.1.1.tar.gz
+[2024-04-03 01:11:25] INFO root fetch - processPackages [chift]: Downloading https://files.pythonhosted.org/packages/fc/05/9b76c39d5ab3132a9abb69c6da7f9490b9ff7f7bb7c38327921c92e9674f/chift-0.1.9.tar.gz
+[2024-04-03 01:11:25] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/51/04/e000ae9de7b8b360e06664b0a6e4c9ae821d6001234a6b4cc7dfc87482e6/abstra-2.6.0.tar.gz
+[2024-04-03 01:11:25] INFO root fetch - processPackages [databricks-genai]: Downloading https://files.pythonhosted.org/packages/62/c4/99c3657950f3b46bca19749708e4b4919b75c46e0983cfd45d903a10d4c6/databricks-genai-0.0.9.tar.gz
+[2024-04-03 01:11:25] WARNING root fetch - processPackages [iiif-now]: Timeout reached during download
+[2024-04-03 01:11:25] INFO root fetch - processPackages [iiif-now]: executing diffoscope
+[2024-04-03 01:11:25] INFO root fetch - processPackages [iiif-now]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iiif_now-0.1.0.tar.gz tmp/iiif_now-0.1.1.tar.gz --markdown 20240403/i/iiif-now/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-03 01:11:25] WARNING root fetch - processPackages [chift]: Timeout reached during download
+[2024-04-03 01:11:25] INFO root fetch - processPackages [chift]: executing diffoscope
+[2024-04-03 01:11:25] INFO root fetch - processPackages [chift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chift-0.1.8.tar.gz tmp/chift-0.1.9.tar.gz --markdown 20240403/c/chift/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 01:11:25] WARNING root fetch - processPackages [databricks-genai]: Timeout reached during download
+[2024-04-03 01:11:25] INFO root fetch - processPackages [databricks-genai]: executing diffoscope
+[2024-04-03 01:11:25] INFO root fetch - processPackages [databricks-genai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks-genai-0.0.8.tar.gz tmp/databricks-genai-0.0.9.tar.gz --markdown 20240403/d/databricks-genai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 01:11:26] WARNING root fetch - processPackages [abstra]: Timeout reached during download
+[2024-04-03 01:11:26] INFO root fetch - processPackages [iiif-now]: Remove: archive file [/home/abi/fetcher/tmp/iiif_now-0.1.0.tar.gz]
+[2024-04-03 01:11:26] INFO root fetch - processPackages [iiif-now]: Remove: archive file [/home/abi/fetcher/tmp/iiif_now-0.1.1.tar.gz]
+[2024-04-03 01:11:26] INFO root fetch - main [MainThread]: End processing [iiif-now]: success
+[2024-04-03 01:11:26] INFO root fetch - processPackages [chift]: Remove: archive file [/home/abi/fetcher/tmp/chift-0.1.8.tar.gz]
+[2024-04-03 01:11:26] INFO root fetch - processPackages [chift]: Remove: archive file [/home/abi/fetcher/tmp/chift-0.1.9.tar.gz]
+[2024-04-03 01:11:26] INFO root fetch - main [MainThread]: End processing [chift]: success
+[2024-04-03 01:11:26] INFO root fetch - processPackages [databricks-genai]: Remove: archive file [/home/abi/fetcher/tmp/databricks-genai-0.0.8.tar.gz]
+[2024-04-03 01:11:26] INFO root fetch - processPackages [databricks-genai]: Remove: archive file [/home/abi/fetcher/tmp/databricks-genai-0.0.9.tar.gz]
+[2024-04-03 01:11:26] INFO root fetch - main [MainThread]: End processing [databricks-genai]: success
+[2024-04-03 01:11:28] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/e8/12/83091cbc8fdb388fecba1f37d05bf2620004f3ec3e48c9fd53d5c8a87b7e/abstra-2.6.1.tar.gz
+[2024-04-03 01:11:31] WARNING root fetch - processPackages [abstra]: Timeout reached during download
+[2024-04-03 01:11:31] INFO root fetch - processPackages [abstra]: executing diffoscope
+[2024-04-03 01:11:31] INFO root fetch - processPackages [abstra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstra-2.6.0.tar.gz tmp/abstra-2.6.1.tar.gz --markdown 20240403/a/abstra/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2024-04-03 01:13:21] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-2.6.0.tar.gz]
+[2024-04-03 01:13:21] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-2.6.1.tar.gz]
+[2024-04-03 01:13:21] INFO root fetch - main [MainThread]: End processing [abstra]: success
+[2024-04-03 01:13:21] INFO root fetch - main [MainThread]: Store serial: [22592917]

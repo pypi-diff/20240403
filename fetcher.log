@@ -1833,3 +1833,22 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 01:28:41] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.33.tar.gz]
 [2024-04-03 01:28:41] INFO root fetch - main [MainThread]: End processing [pih]: success
 [2024-04-03 01:28:41] INFO root fetch - main [MainThread]: Store serial: [22593006]
+[2024-04-03 01:30:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593006]
+[2024-04-03 01:30:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lmwrapper
+[2024-04-03 01:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: warn-transformer
+[2024-04-03 01:30:49] INFO root fetch - processPackages [lmwrapper]: New version: [0.8.7.4] Old Version: [0.8.7.3]
+[2024-04-03 01:30:49] INFO root fetch - processPackages [lmwrapper]: Downloading https://files.pythonhosted.org/packages/03/76/6c564b7b4819df58dc77a913c0fe4760a35152dc47a6b40f36a08e1f6339/lmwrapper-0.8.7.3-py3-none-any.whl
+[2024-04-03 01:30:49] INFO root fetch - processPackages [warn-transformer]: New version: [1.3.99] Old Version: [1.3.98]
+[2024-04-03 01:30:49] WARNING root fetch - processPackages [lmwrapper]: Timeout reached during download
+[2024-04-03 01:30:49] INFO root fetch - processPackages [warn-transformer]: Downloading https://files.pythonhosted.org/packages/b8/99/d6c890a82a61166d1783e52251ba393e28b663b82ae80de85f67cf32c5e8/warn-transformer-1.3.98.tar.gz
+[2024-04-03 01:30:50] INFO root fetch - processPackages [lmwrapper]: Downloading https://files.pythonhosted.org/packages/69/40/54c14de78927610df7869801bec8a6b620f8efff4d0a43e5a2348dc417b4/lmwrapper-0.8.7.4.tar.gz
+[2024-04-03 01:30:50] WARNING root fetch - processPackages [lmwrapper]: Timeout reached during download
+[2024-04-03 01:30:50] INFO root fetch - processPackages [lmwrapper]: executing diffoscope
+[2024-04-03 01:30:50] INFO root fetch - processPackages [lmwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmwrapper-0.8.7.3-py3-none-any.whl.zip tmp/lmwrapper-0.8.7.4.tar.gz --markdown 20240403/l/lmwrapper/0.8.7.3-0.8.7.4/diff.md --exclude *.pyd
+[2024-04-03 01:30:50] WARNING root fetch - processPackages [warn-transformer]: Skipping package: exceeds size limit 25743623>=10485760
+[2024-04-03 01:30:50] INFO root fetch - main [MainThread]: End processing [warn-transformer] error
+[2024-04-03 01:30:50] INFO root fetch - processPackages [lmwrapper]: Remove: archive file [/home/abi/fetcher/tmp/lmwrapper-0.8.7.3-py3-none-any.whl.zip]
+[2024-04-03 01:30:50] INFO root fetch - processPackages [lmwrapper]: Remove: archive file [/home/abi/fetcher/tmp/lmwrapper-0.8.7.4.tar.gz]
+[2024-04-03 01:30:50] INFO root fetch - main [MainThread]: End processing [lmwrapper]: success
+[2024-04-03 01:30:50] INFO root fetch - main [MainThread]: Store serial: [22593012]

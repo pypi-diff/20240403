@@ -1105,3 +1105,23 @@
 [2024-04-03 00:55:13] INFO root fetch - processPackages [jaraco.site]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.site-6.8.1.tar.gz]
 [2024-04-03 00:55:13] INFO root fetch - main [MainThread]: End processing [jaraco.site]: success
 [2024-04-03 00:55:13] INFO root fetch - main [MainThread]: Store serial: [22592760]
+[2024-04-03 00:57:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592760]
+[2024-04-03 00:57:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 00:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elements-frameioclient
+[2024-04-03 00:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: holamundoplayer-pkg-Torreyesdev
+[2024-04-03 00:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modlee
+[2024-04-03 00:57:22] INFO root fetch - processPackages [modlee]: New version: [0.0.1.post9] Old Version: [0.0.1.post8]
+[2024-04-03 00:57:22] WARNING root fetch - processPackages [holamundoplayer-pkg-Torreyesdev]: Skipping, unable to determine old version
+[2024-04-03 00:57:22] INFO root fetch - main [MainThread]: End processing [holamundoplayer-pkg-Torreyesdev] error
+[2024-04-03 00:57:22] WARNING root fetch - processPackages [elements-frameioclient]: Skipping, unable to determine old version
+[2024-04-03 00:57:22] INFO root fetch - main [MainThread]: End processing [elements-frameioclient] error
+[2024-04-03 00:57:22] INFO root fetch - processPackages [modlee]: Downloading https://files.pythonhosted.org/packages/7c/5f/d50d4f69ce8b12e82d91268e7a73b1337544a9dab6c46bdc649bcaa9a68d/modlee-0.0.1.post8-py3-none-any.whl
+[2024-04-03 00:57:22] WARNING root fetch - processPackages [modlee]: Timeout reached during download
+[2024-04-03 00:57:22] INFO root fetch - processPackages [modlee]: Downloading https://files.pythonhosted.org/packages/95/1b/617f29e534ea2bef1e24c92932ed2e192366f1150eb7f9f83b5258ff96c4/modlee-0.0.1.post9-py3-none-any.whl
+[2024-04-03 00:57:22] WARNING root fetch - processPackages [modlee]: Timeout reached during download
+[2024-04-03 00:57:22] INFO root fetch - processPackages [modlee]: executing diffoscope
+[2024-04-03 00:57:22] INFO root fetch - processPackages [modlee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modlee-0.0.1.post8-py3-none-any.whl.zip tmp/modlee-0.0.1.post9-py3-none-any.whl.zip --markdown 20240403/m/modlee/0.0.1.post8-0.0.1.post9/diff.md --exclude *.pyd
+[2024-04-03 00:57:23] INFO root fetch - processPackages [modlee]: Remove: archive file [/home/abi/fetcher/tmp/modlee-0.0.1.post8-py3-none-any.whl.zip]
+[2024-04-03 00:57:23] INFO root fetch - processPackages [modlee]: Remove: archive file [/home/abi/fetcher/tmp/modlee-0.0.1.post9-py3-none-any.whl.zip]
+[2024-04-03 00:57:23] INFO root fetch - main [MainThread]: End processing [modlee]: success
+[2024-04-03 00:57:23] INFO root fetch - main [MainThread]: Store serial: [22592773]

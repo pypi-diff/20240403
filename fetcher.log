@@ -2022,3 +2022,70 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 01:46:01] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper-shippy-2.33.0.tar.gz]
 [2024-04-03 01:46:01] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
 [2024-04-03 01:46:01] INFO root fetch - main [MainThread]: Store serial: [22593064]
+[2024-04-03 01:48:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593064]
+[2024-04-03 01:48:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 01:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: megham
+[2024-04-03 01:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cirq-google
+[2024-04-03 01:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirq-web
+[2024-04-03 01:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq-core
+[2024-04-03 01:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: megham
+[2024-04-03 01:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cirq
+[2024-04-03 01:48:09] INFO root fetch - processPackages [megham]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-04-03 01:48:09] INFO root fetch - processPackages [megham]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-04-03 01:48:10] INFO root fetch - processPackages [megham]: Downloading https://files.pythonhosted.org/packages/2f/08/acbe7f42d65cad3ca8ac23919a0946b2768043abefeb757c5d49dcdf5c48/megham-0.6.1.tar.gz
+[2024-04-03 01:48:10] INFO root fetch - processPackages [megham]: Downloading https://files.pythonhosted.org/packages/2f/08/acbe7f42d65cad3ca8ac23919a0946b2768043abefeb757c5d49dcdf5c48/megham-0.6.1.tar.gz
+[2024-04-03 01:48:10] INFO root fetch - processPackages [cirq-web]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 01:48:10] INFO root fetch - processPackages [cirq-core]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 01:48:10] INFO root fetch - processPackages [cirq-google]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 01:48:10] WARNING root fetch - processPackages [megham]: Timeout reached during download
+[2024-04-03 01:48:10] WARNING root fetch - processPackages [megham]: Timeout reached during download
+[2024-04-03 01:48:10] INFO root fetch - processPackages [megham]: Downloading https://files.pythonhosted.org/packages/44/68/f84830f3ef6925137e2c7d051b44142ccc4105974d10075cb4024d6926e3/megham-0.7.0.tar.gz
+[2024-04-03 01:48:10] INFO root fetch - processPackages [megham]: Downloading https://files.pythonhosted.org/packages/44/68/f84830f3ef6925137e2c7d051b44142ccc4105974d10075cb4024d6926e3/megham-0.7.0.tar.gz
+[2024-04-03 01:48:10] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/63/52/9c935718e4b29aec07a97f563522adf9a2bac50999fb45c34ee20e08a738/cirq_web-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 01:48:10] WARNING root fetch - processPackages [megham]: Timeout reached during download
+[2024-04-03 01:48:10] INFO root fetch - processPackages [megham]: executing diffoscope
+[2024-04-03 01:48:10] INFO root fetch - processPackages [megham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megham-0.6.1.tar.gz tmp/megham-0.7.0.tar.gz --markdown 20240403/m/megham/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2024-04-03 01:48:10] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/dc/8e/99f617110713c328e8da02d40b383ab175a3ca3314b9e66e2ec953584b41/cirq_core-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 01:48:10] INFO root fetch - processPackages [cirq]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 01:48:10] WARNING root fetch - processPackages [megham]: Timeout reached during download
+[2024-04-03 01:48:10] INFO root fetch - processPackages [megham]: executing diffoscope
+[2024-04-03 01:48:10] INFO root fetch - processPackages [megham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megham-0.6.1.tar.gz tmp/megham-0.7.0.tar.gz --markdown 20240403/m/megham/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2024-04-03 01:48:10] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/16/5a/faf2e36f4d84381e08f2a1e87040c5189cf1bf086fd073eab6579b28ac7e/cirq_google-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 01:48:10] WARNING root fetch - processPackages [cirq-web]: Timeout reached during download
+[2024-04-03 01:48:10] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/28/50/a50f357bcc734fe9274e28034558a40eeaa80b7f41daff30268427b8f62c/cirq-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 01:48:10] WARNING root fetch - processPackages [cirq-google]: Timeout reached during download
+[2024-04-03 01:48:10] WARNING root fetch - processPackages [cirq-core]: Timeout reached during download
+[2024-04-03 01:48:10] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/b5/dc/297011a758fdb5aa1c75674616b8eaa57b136ffeffb6f55f4cb652126f73/cirq_web-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 01:48:10] WARNING root fetch - processPackages [cirq]: Timeout reached during download
+[2024-04-03 01:48:10] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/5d/a4/07a1b2489de1ee1499f57206aa9f19770ab93f55f0cf477b8c0779fb06cd/cirq_google-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 01:48:10] WARNING root fetch - processPackages [cirq-web]: Timeout reached during download
+[2024-04-03 01:48:10] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2024-04-03 01:48:10] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq_web-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq-web/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 01:48:10] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/ac/1e/28c3676d2b0e79fdc72d3578f106d7fa64048fb247a81e327481ee02f8c4/cirq_core-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 01:48:11] INFO root fetch - processPackages [megham]: Remove: archive file [/home/abi/fetcher/tmp/megham-0.6.1.tar.gz]
+[2024-04-03 01:48:11] INFO root fetch - processPackages [megham]: Remove: archive file [/home/abi/fetcher/tmp/megham-0.7.0.tar.gz]
+[2024-04-03 01:48:11] INFO root fetch - main [MainThread]: End processing [megham]: success
+[2024-04-03 01:48:11] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/dc/26/f430597129c88c955f1e6b8411813d6c4365d2f49a0d8783aa44b956d28b/cirq-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 01:48:11] WARNING root fetch - processPackages [cirq-google]: Timeout reached during download
+[2024-04-03 01:48:11] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2024-04-03 01:48:11] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq_google-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq-google/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 01:48:11] WARNING root fetch - processPackages [cirq-core]: Timeout reached during download
+[2024-04-03 01:48:11] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2024-04-03 01:48:11] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq_core-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq-core/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 01:48:11] INFO root fetch - main [MainThread]: End processing [megham]: success
+[2024-04-03 01:48:11] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 01:48:11] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 01:48:11] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2024-04-03 01:48:12] WARNING root fetch - processPackages [cirq]: Timeout reached during download
+[2024-04-03 01:48:12] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2024-04-03 01:48:12] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 01:48:12] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 01:48:12] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 01:48:12] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2024-04-03 01:48:12] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 01:48:12] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 01:48:12] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2024-04-03 01:48:14] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 01:48:14] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 01:48:14] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2024-04-03 01:48:14] INFO root fetch - main [MainThread]: Store serial: [22593078]

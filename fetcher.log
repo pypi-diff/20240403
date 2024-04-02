@@ -1044,3 +1044,17 @@
 [2024-04-03 00:50:52] INFO root fetch - processPackages [rummage]: Remove: archive file [/home/abi/fetcher/tmp/rummage-4.9.tar.gz]
 [2024-04-03 00:50:52] INFO root fetch - main [MainThread]: End processing [rummage]: success
 [2024-04-03 00:50:52] INFO root fetch - main [MainThread]: Store serial: [22592746]
+[2024-04-03 00:52:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592746]
+[2024-04-03 00:53:01] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-03 00:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaraco.site
+[2024-04-03 00:53:01] INFO root fetch - processPackages [jaraco.site]: New version: [6.8.0] Old Version: [6.7.0]
+[2024-04-03 00:53:01] INFO root fetch - processPackages [jaraco.site]: Downloading https://files.pythonhosted.org/packages/2c/4d/792276e63a3318be0b80eec6b24536e159b542108df6cf90b5105ecc3cb4/jaraco.site-6.7.0.tar.gz
+[2024-04-03 00:53:01] WARNING root fetch - processPackages [jaraco.site]: Timeout reached during download
+[2024-04-03 00:53:01] INFO root fetch - processPackages [jaraco.site]: Downloading https://files.pythonhosted.org/packages/71/48/f2e8e7d9cc5df9b5daf955e7cfda87d746b066c5e04b36665c33456a5e95/jaraco.site-6.8.0.tar.gz
+[2024-04-03 00:53:01] WARNING root fetch - processPackages [jaraco.site]: Timeout reached during download
+[2024-04-03 00:53:01] INFO root fetch - processPackages [jaraco.site]: executing diffoscope
+[2024-04-03 00:53:01] INFO root fetch - processPackages [jaraco.site]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.site-6.7.0.tar.gz tmp/jaraco.site-6.8.0.tar.gz --markdown 20240403/j/jaraco.site/6.7.0-6.8.0/diff.md --exclude *.pyd
+[2024-04-03 00:53:02] INFO root fetch - processPackages [jaraco.site]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.site-6.7.0.tar.gz]
+[2024-04-03 00:53:02] INFO root fetch - processPackages [jaraco.site]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.site-6.8.0.tar.gz]
+[2024-04-03 00:53:02] INFO root fetch - main [MainThread]: End processing [jaraco.site]: success
+[2024-04-03 00:53:02] INFO root fetch - main [MainThread]: Store serial: [22592749]

@@ -733,3 +733,25 @@
 [2024-04-03 00:35:30] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.9.tar.gz]
 [2024-04-03 00:35:30] INFO root fetch - main [MainThread]: End processing [langgraph]: success
 [2024-04-03 00:35:30] INFO root fetch - main [MainThread]: Store serial: [22592654]
+[2024-04-03 00:37:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592654]
+[2024-04-03 00:37:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 00:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: newsly-mailer
+[2024-04-03 00:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seismic-rna
+[2024-04-03 00:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ftmscan-sdk
+[2024-04-03 00:37:38] INFO root fetch - processPackages [ftmscan-sdk]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-03 00:37:38] INFO root fetch - processPackages [ftmscan-sdk]: Downloading https://files.pythonhosted.org/packages/1b/fc/432353aed9406243eba86efa34ffe8aa610e48d990c27a9c1c494b42a9f1/ftmscan_sdk-0.5.0.tar.gz
+[2024-04-03 00:37:38] INFO root fetch - processPackages [seismic-rna]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-03 00:37:38] WARNING root fetch - processPackages [newsly-mailer]: Skipping, unable to determine old version
+[2024-04-03 00:37:38] INFO root fetch - main [MainThread]: End processing [newsly-mailer] error
+[2024-04-03 00:37:39] WARNING root fetch - processPackages [ftmscan-sdk]: Timeout reached during download
+[2024-04-03 00:37:39] INFO root fetch - processPackages [ftmscan-sdk]: Downloading https://files.pythonhosted.org/packages/ff/2a/89132ee62d32cc4c0fed5ac8b9c6dd8f1701ba15083b7c67776476b2090b/ftmscan_sdk-0.5.1.tar.gz
+[2024-04-03 00:37:39] INFO root fetch - processPackages [seismic-rna]: Downloading https://files.pythonhosted.org/packages/53/f2/8420279ae686df28989f0588c8721f9d88b14d4957345c82135aa63930bd/seismic_rna-0.9.7.tar.gz
+[2024-04-03 00:37:39] WARNING root fetch - processPackages [ftmscan-sdk]: Timeout reached during download
+[2024-04-03 00:37:39] INFO root fetch - processPackages [ftmscan-sdk]: executing diffoscope
+[2024-04-03 00:37:39] INFO root fetch - processPackages [ftmscan-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftmscan_sdk-0.5.0.tar.gz tmp/ftmscan_sdk-0.5.1.tar.gz --markdown 20240403/f/ftmscan-sdk/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2024-04-03 00:37:39] INFO root fetch - processPackages [ftmscan-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ftmscan_sdk-0.5.0.tar.gz]
+[2024-04-03 00:37:39] INFO root fetch - processPackages [ftmscan-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ftmscan_sdk-0.5.1.tar.gz]
+[2024-04-03 00:37:39] INFO root fetch - main [MainThread]: End processing [ftmscan-sdk]: success
+[2024-04-03 00:37:40] WARNING root fetch - processPackages [seismic-rna]: Skipping package: exceeds size limit 25833813>=10485760
+[2024-04-03 00:37:40] INFO root fetch - main [MainThread]: End processing [seismic-rna] error
+[2024-04-03 00:37:40] INFO root fetch - main [MainThread]: Store serial: [22592665]

@@ -1969,3 +1969,28 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 01:41:41] INFO root fetch - processPackages [sklearn-viz]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_viz-0.3.1.tar.gz]
 [2024-04-03 01:41:41] INFO root fetch - main [MainThread]: End processing [sklearn-viz]: success
 [2024-04-03 01:41:41] INFO root fetch - main [MainThread]: Store serial: [22593047]
+[2024-04-03 01:43:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593047]
+[2024-04-03 01:43:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 01:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: latex-rubber
+[2024-04-03 01:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipxu
+[2024-04-03 01:43:49] INFO root fetch - processPackages [pipxu]: New version: [1.5] Old Version: [1.4]
+[2024-04-03 01:43:49] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/c1/c7/f1e44b862af6572998687bb03a7180c6ce0edeb5ca7bdeffd16f6b073a4f/pipxu-1.4.tar.gz
+[2024-04-03 01:43:49] INFO root fetch - processPackages [latex-rubber]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-04-03 01:43:50] WARNING root fetch - processPackages [pipxu]: Timeout reached during download
+[2024-04-03 01:43:50] INFO root fetch - processPackages [latex-rubber]: Downloading https://files.pythonhosted.org/packages/d4/a5/ad3b5979e41a0009c81b99246112e45c2fcff58e74024ebbafe7739d5914/latex-rubber-1.6.1.tar.gz
+[2024-04-03 01:43:50] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/09/10/bdf1f376565880c5d9b97809f31c3332e0139316b472b1d88f0293a2ff63/pipxu-1.5.tar.gz
+[2024-04-03 01:43:50] WARNING root fetch - processPackages [latex-rubber]: Timeout reached during download
+[2024-04-03 01:43:50] WARNING root fetch - processPackages [pipxu]: Timeout reached during download
+[2024-04-03 01:43:50] INFO root fetch - processPackages [pipxu]: executing diffoscope
+[2024-04-03 01:43:50] INFO root fetch - processPackages [pipxu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipxu-1.4.tar.gz tmp/pipxu-1.5.tar.gz --markdown 20240403/p/pipxu/1.4-1.5/diff.md --exclude *.pyd
+[2024-04-03 01:43:50] INFO root fetch - processPackages [latex-rubber]: Downloading https://files.pythonhosted.org/packages/85/14/8d8ef50d6004def628644a0f1e0acdb97978c6df14ebc07d1be95b8b379c/latex-rubber-1.6.2.tar.gz
+[2024-04-03 01:43:50] WARNING root fetch - processPackages [latex-rubber]: Timeout reached during download
+[2024-04-03 01:43:50] INFO root fetch - processPackages [latex-rubber]: executing diffoscope
+[2024-04-03 01:43:50] INFO root fetch - processPackages [latex-rubber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latex-rubber-1.6.1.tar.gz tmp/latex-rubber-1.6.2.tar.gz --markdown 20240403/l/latex-rubber/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2024-04-03 01:43:50] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.4.tar.gz]
+[2024-04-03 01:43:50] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.5.tar.gz]
+[2024-04-03 01:43:50] INFO root fetch - main [MainThread]: End processing [pipxu]: success
+[2024-04-03 01:43:51] INFO root fetch - processPackages [latex-rubber]: Remove: archive file [/home/abi/fetcher/tmp/latex-rubber-1.6.1.tar.gz]
+[2024-04-03 01:43:51] INFO root fetch - processPackages [latex-rubber]: Remove: archive file [/home/abi/fetcher/tmp/latex-rubber-1.6.2.tar.gz]
+[2024-04-03 01:43:51] INFO root fetch - main [MainThread]: End processing [latex-rubber]: success
+[2024-04-03 01:43:51] INFO root fetch - main [MainThread]: Store serial: [22593053]

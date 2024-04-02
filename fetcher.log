@@ -1521,3 +1521,72 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 01:13:21] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-2.6.1.tar.gz]
 [2024-04-03 01:13:21] INFO root fetch - main [MainThread]: End processing [abstra]: success
 [2024-04-03 01:13:21] INFO root fetch - main [MainThread]: Store serial: [22592917]
+[2024-04-03 01:15:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592917]
+[2024-04-03 01:15:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 01:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zrb
+[2024-04-03 01:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boxedfactory
+[2024-04-03 01:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantconnect-stubs
+[2024-04-03 01:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: punpy
+[2024-04-03 01:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-skill-weather
+[2024-04-03 01:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: google-cloud-firestore
+[2024-04-03 01:15:31] INFO root fetch - processPackages [punpy]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-03 01:15:31] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2024-04-03 01:15:31] INFO root fetch - processPackages [neon-skill-weather]: New version: [2.0.0] Old Version: [1.0.2a2]
+[2024-04-03 01:15:31] INFO root fetch - processPackages [punpy]: Downloading https://files.pythonhosted.org/packages/c1/c8/86ff83071bc1e95db8b78a4a2239e12bf25780e6ffa151a18eef36dd85ad/punpy-0.8.2.tar.gz
+[2024-04-03 01:15:31] INFO root fetch - processPackages [boxedfactory]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-03 01:15:31] INFO root fetch - processPackages [google-cloud-firestore]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 01:15:31] INFO root fetch - processPackages [zrb]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-03 01:15:31] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2024-04-03 01:15:31] WARNING root fetch - processPackages [punpy]: Timeout reached during download
+[2024-04-03 01:15:31] INFO root fetch - processPackages [neon-skill-weather]: Downloading https://files.pythonhosted.org/packages/4b/92/5a41ef5f7aa1c5ba0dc1b5c6eac87eef1c4d32c74cb7a3d2eef462dc3751/neon-skill-weather-1.0.2a2.tar.gz
+[2024-04-03 01:15:31] INFO root fetch - processPackages [boxedfactory]: Downloading https://files.pythonhosted.org/packages/2e/3c/74917fe9bf4746dceec97aab9548b9fffa2ba6fdcf12be4bf475c48f6f6c/boxedfactory-0.0.7.tar.gz
+[2024-04-03 01:15:31] INFO root fetch - processPackages [google-cloud-firestore]: Downloading https://files.pythonhosted.org/packages/ad/99/04ac7936f0ebdd5bf1f716819f8118d4a9940067b54632d90b49bf5ce47a/google-cloud-firestore-2.9.0.tar.gz
+[2024-04-03 01:15:31] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/32/39/a7e9fbbb7d0cb16c4ef2cdecfa0052b5b5059c4b0f8cd6cc390052054a0b/zrb-0.9.2.tar.gz
+[2024-04-03 01:15:31] INFO root fetch - processPackages [punpy]: Downloading https://files.pythonhosted.org/packages/07/a1/6bc6efae7b59b163afd98856c5b0c21b7c0b2953a0904bcb434db787bf68/punpy-0.9.0.tar.gz
+[2024-04-03 01:15:32] WARNING root fetch - processPackages [neon-skill-weather]: Timeout reached during download
+[2024-04-03 01:15:32] WARNING root fetch - processPackages [quantconnect-stubs]: Timeout reached during download
+[2024-04-03 01:15:32] WARNING root fetch - processPackages [boxedfactory]: Timeout reached during download
+[2024-04-03 01:15:32] WARNING root fetch - processPackages [punpy]: Timeout reached during download
+[2024-04-03 01:15:32] INFO root fetch - processPackages [punpy]: executing diffoscope
+[2024-04-03 01:15:32] INFO root fetch - processPackages [punpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punpy-0.8.2.tar.gz tmp/punpy-0.9.0.tar.gz --markdown 20240403/p/punpy/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 01:15:32] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2024-04-03 01:15:32] INFO root fetch - processPackages [neon-skill-weather]: Downloading https://files.pythonhosted.org/packages/fb/3e/c694d33f029d841b844dd7e31711d9cdf4538255e070975efe0a6fe6d28d/neon-skill-weather-2.0.0.tar.gz
+[2024-04-03 01:15:32] INFO root fetch - processPackages [boxedfactory]: Downloading https://files.pythonhosted.org/packages/db/84/654120932bbb70daaf8d11dec99ef25e174c66768fdc8559e2b74616c9d3/boxedfactory-0.0.8.tar.gz
+[2024-04-03 01:15:32] WARNING root fetch - processPackages [boxedfactory]: Timeout reached during download
+[2024-04-03 01:15:32] WARNING root fetch - processPackages [neon-skill-weather]: Timeout reached during download
+[2024-04-03 01:15:32] INFO root fetch - processPackages [boxedfactory]: executing diffoscope
+[2024-04-03 01:15:32] INFO root fetch - processPackages [boxedfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxedfactory-0.0.7.tar.gz tmp/boxedfactory-0.0.8.tar.gz --markdown 20240403/b/boxedfactory/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-03 01:15:32] INFO root fetch - processPackages [neon-skill-weather]: executing diffoscope
+[2024-04-03 01:15:32] INFO root fetch - processPackages [neon-skill-weather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-weather-1.0.2a2.tar.gz tmp/neon-skill-weather-2.0.0.tar.gz --markdown 20240403/n/neon-skill-weather/1.0.2a2-2.0.0/diff.md --exclude *.pyd
+[2024-04-03 01:15:32] WARNING root fetch - processPackages [quantconnect-stubs]: Timeout reached during download
+[2024-04-03 01:15:32] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2024-04-03 01:15:32] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20240403/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2024-04-03 01:15:32] WARNING root fetch - processPackages [google-cloud-firestore]: Timeout reached during download
+[2024-04-03 01:15:32] INFO root fetch - processPackages [google-cloud-firestore]: Downloading https://files.pythonhosted.org/packages/a9/9b/cafdc518fc88754b582d525af607a804a12955cec0ef23632817cf0baf3d/google-cloud-firestore-2.9.1.tar.gz
+[2024-04-03 01:15:32] INFO root fetch - processPackages [punpy]: Remove: archive file [/home/abi/fetcher/tmp/punpy-0.8.2.tar.gz]
+[2024-04-03 01:15:32] INFO root fetch - processPackages [punpy]: Remove: archive file [/home/abi/fetcher/tmp/punpy-0.9.0.tar.gz]
+[2024-04-03 01:15:32] INFO root fetch - main [MainThread]: End processing [punpy]: success
+[2024-04-03 01:15:32] WARNING root fetch - processPackages [google-cloud-firestore]: Timeout reached during download
+[2024-04-03 01:15:32] INFO root fetch - processPackages [google-cloud-firestore]: executing diffoscope
+[2024-04-03 01:15:32] INFO root fetch - processPackages [google-cloud-firestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-firestore-2.9.0.tar.gz tmp/google-cloud-firestore-2.9.1.tar.gz --markdown 20240403/g/google-cloud-firestore/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 01:15:32] WARNING root fetch - processPackages [zrb]: Timeout reached during download
+[2024-04-03 01:15:33] INFO root fetch - processPackages [boxedfactory]: Remove: archive file [/home/abi/fetcher/tmp/boxedfactory-0.0.7.tar.gz]
+[2024-04-03 01:15:33] INFO root fetch - processPackages [boxedfactory]: Remove: archive file [/home/abi/fetcher/tmp/boxedfactory-0.0.8.tar.gz]
+[2024-04-03 01:15:33] INFO root fetch - main [MainThread]: End processing [boxedfactory]: success
+[2024-04-03 01:15:33] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/f6/b9/43574b23dd1c57d67788b82511937efe23fc957250685ba62b6025db3166/zrb-0.9.3.tar.gz
+[2024-04-03 01:15:33] WARNING root fetch - processPackages [zrb]: Timeout reached during download
+[2024-04-03 01:15:33] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2024-04-03 01:15:33] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.9.2.tar.gz tmp/zrb-0.9.3.tar.gz --markdown 20240403/z/zrb/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-03 01:15:33] INFO root fetch - processPackages [neon-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-weather-1.0.2a2.tar.gz]
+[2024-04-03 01:15:33] INFO root fetch - processPackages [neon-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-weather-2.0.0.tar.gz]
+[2024-04-03 01:15:33] INFO root fetch - main [MainThread]: End processing [neon-skill-weather]: success
+[2024-04-03 01:15:34] INFO root fetch - processPackages [google-cloud-firestore]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-firestore-2.9.0.tar.gz]
+[2024-04-03 01:15:34] INFO root fetch - processPackages [google-cloud-firestore]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-firestore-2.9.1.tar.gz]
+[2024-04-03 01:15:34] INFO root fetch - main [MainThread]: End processing [google-cloud-firestore]: success
+[2024-04-03 01:15:35] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2024-04-03 01:15:35] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2024-04-03 01:15:35] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2024-04-03 01:15:38] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.9.2.tar.gz]
+[2024-04-03 01:15:38] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.9.3.tar.gz]
+[2024-04-03 01:15:38] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2024-04-03 01:15:38] INFO root fetch - main [MainThread]: Store serial: [22592935]

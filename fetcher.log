@@ -289,3 +289,61 @@
 [2024-04-03 00:14:41] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
 [2024-04-03 00:14:41] INFO root fetch - main [MainThread]: End processing [burr]: success
 [2024-04-03 00:14:41] INFO root fetch - main [MainThread]: Store serial: [22592456]
+[2024-04-03 00:16:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592456]
+[2024-04-03 00:16:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 00:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaserver-files-aws-s3
+[2024-04-03 00:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: regpredict
+[2024-04-03 00:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hebe-api
+[2024-04-03 00:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iceportal
+[2024-04-03 00:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: osml-model-runner
+[2024-04-03 00:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tree-sitter-hlsl
+[2024-04-03 00:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: evalplus
+[2024-04-03 00:16:49] WARNING root fetch - processPackages [tree-sitter-hlsl]: Skipping, unable to determine old version
+[2024-04-03 00:16:49] INFO root fetch - main [MainThread]: End processing [tree-sitter-hlsl] error
+[2024-04-03 00:16:49] INFO root fetch - processPackages [iceportal]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-04-03 00:16:49] INFO root fetch - processPackages [regpredict]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 00:16:49] INFO root fetch - processPackages [osml-model-runner]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-03 00:16:49] INFO root fetch - processPackages [evalplus]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-03 00:16:49] WARNING root fetch - processPackages [hebe-api]: Skipping, unable to determine old version
+[2024-04-03 00:16:49] INFO root fetch - main [MainThread]: End processing [hebe-api] error
+[2024-04-03 00:16:49] INFO root fetch - processPackages [heaserver-files-aws-s3]: New version: [1.1.0] Old Version: [1.0.8]
+[2024-04-03 00:16:50] INFO root fetch - processPackages [iceportal]: Downloading https://files.pythonhosted.org/packages/43/2d/8dbc047a80f4012a64188be54e0f7724824942ec5e36dd956bc9550b8a67/iceportal-1.1.2.tar.gz
+[2024-04-03 00:16:50] INFO root fetch - processPackages [osml-model-runner]: Downloading https://files.pythonhosted.org/packages/3f/ae/a3126262bd213e310b4a55a7ce45319c7f88a65833ac4a6537135eded66d/osml-model-runner-2.0.0.tar.gz
+[2024-04-03 00:16:50] INFO root fetch - processPackages [heaserver-files-aws-s3]: Downloading https://files.pythonhosted.org/packages/1f/54/cab52d54e95903698a83458a148e1395c760f6c681b8fc218cb4fad7d7a8/heaserver-files-aws-s3-1.0.8.tar.gz
+[2024-04-03 00:16:50] INFO root fetch - processPackages [regpredict]: Downloading https://files.pythonhosted.org/packages/0a/f5/db3a1fa69360930599889257d2545d57d75927c3650bf12743511ccef501/regpredict-0.0.8.tar.gz
+[2024-04-03 00:16:50] INFO root fetch - processPackages [evalplus]: Downloading https://files.pythonhosted.org/packages/4e/ce/3316b4bc335dbdf024a3e02b381e70094296dfdb60265df38429e600f456/evalplus-0.2.0.tar.gz
+[2024-04-03 00:16:50] WARNING root fetch - processPackages [iceportal]: Timeout reached during download
+[2024-04-03 00:16:50] WARNING root fetch - processPackages [osml-model-runner]: Timeout reached during download
+[2024-04-03 00:16:50] WARNING root fetch - processPackages [evalplus]: Timeout reached during download
+[2024-04-03 00:16:50] INFO root fetch - processPackages [iceportal]: Downloading https://files.pythonhosted.org/packages/c5/8d/5aa166cb8eadde4accb4db270dbb5d424d64c811e71e3f3857f1890470e5/iceportal-1.2.0.tar.gz
+[2024-04-03 00:16:50] INFO root fetch - processPackages [osml-model-runner]: Downloading https://files.pythonhosted.org/packages/1c/39/362d1eda73821caabf55048f93d4f98ff9c066ba4e3655f9b0ae70deffea/osml-model-runner-2.1.0.tar.gz
+[2024-04-03 00:16:50] WARNING root fetch - processPackages [iceportal]: Timeout reached during download
+[2024-04-03 00:16:50] INFO root fetch - processPackages [iceportal]: executing diffoscope
+[2024-04-03 00:16:50] INFO root fetch - processPackages [iceportal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iceportal-1.1.2.tar.gz tmp/iceportal-1.2.0.tar.gz --markdown 20240403/i/iceportal/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2024-04-03 00:16:50] INFO root fetch - processPackages [evalplus]: Downloading https://files.pythonhosted.org/packages/85/64/24895f26885a93c67ea714b7110a9fe172c3013600df831de103b5b55f58/evalplus-0.2.1.tar.gz
+[2024-04-03 00:16:50] WARNING root fetch - processPackages [osml-model-runner]: Timeout reached during download
+[2024-04-03 00:16:50] INFO root fetch - processPackages [osml-model-runner]: executing diffoscope
+[2024-04-03 00:16:50] INFO root fetch - processPackages [osml-model-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osml-model-runner-2.0.0.tar.gz tmp/osml-model-runner-2.1.0.tar.gz --markdown 20240403/o/osml-model-runner/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2024-04-03 00:16:50] WARNING root fetch - processPackages [heaserver-files-aws-s3]: Skipping package: exceeds size limit 18410466>=10485760
+[2024-04-03 00:16:50] INFO root fetch - main [MainThread]: End processing [heaserver-files-aws-s3] error
+[2024-04-03 00:16:50] WARNING root fetch - processPackages [regpredict]: Timeout reached during download
+[2024-04-03 00:16:50] WARNING root fetch - processPackages [evalplus]: Timeout reached during download
+[2024-04-03 00:16:50] INFO root fetch - processPackages [evalplus]: executing diffoscope
+[2024-04-03 00:16:50] INFO root fetch - processPackages [evalplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evalplus-0.2.0.tar.gz tmp/evalplus-0.2.1.tar.gz --markdown 20240403/e/evalplus/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-03 00:16:50] INFO root fetch - processPackages [regpredict]: Downloading https://files.pythonhosted.org/packages/f1/2d/99f43cff649258e263b708870c40897d0e236ed1fb5ad32bc7c7fde634ab/regpredict-0.0.9.tar.gz
+[2024-04-03 00:16:51] WARNING root fetch - processPackages [regpredict]: Timeout reached during download
+[2024-04-03 00:16:51] INFO root fetch - processPackages [regpredict]: executing diffoscope
+[2024-04-03 00:16:51] INFO root fetch - processPackages [regpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regpredict-0.0.8.tar.gz tmp/regpredict-0.0.9.tar.gz --markdown 20240403/r/regpredict/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 00:16:51] INFO root fetch - processPackages [iceportal]: Remove: archive file [/home/abi/fetcher/tmp/iceportal-1.1.2.tar.gz]
+[2024-04-03 00:16:51] INFO root fetch - processPackages [iceportal]: Remove: archive file [/home/abi/fetcher/tmp/iceportal-1.2.0.tar.gz]
+[2024-04-03 00:16:51] INFO root fetch - main [MainThread]: End processing [iceportal]: success
+[2024-04-03 00:16:51] INFO root fetch - processPackages [osml-model-runner]: Remove: archive file [/home/abi/fetcher/tmp/osml-model-runner-2.0.0.tar.gz]
+[2024-04-03 00:16:51] INFO root fetch - processPackages [osml-model-runner]: Remove: archive file [/home/abi/fetcher/tmp/osml-model-runner-2.1.0.tar.gz]
+[2024-04-03 00:16:51] INFO root fetch - main [MainThread]: End processing [osml-model-runner]: success
+[2024-04-03 00:16:51] INFO root fetch - processPackages [evalplus]: Remove: archive file [/home/abi/fetcher/tmp/evalplus-0.2.0.tar.gz]
+[2024-04-03 00:16:51] INFO root fetch - processPackages [evalplus]: Remove: archive file [/home/abi/fetcher/tmp/evalplus-0.2.1.tar.gz]
+[2024-04-03 00:16:51] INFO root fetch - main [MainThread]: End processing [evalplus]: success
+[2024-04-03 00:16:51] INFO root fetch - processPackages [regpredict]: Remove: archive file [/home/abi/fetcher/tmp/regpredict-0.0.8.tar.gz]
+[2024-04-03 00:16:51] INFO root fetch - processPackages [regpredict]: Remove: archive file [/home/abi/fetcher/tmp/regpredict-0.0.9.tar.gz]
+[2024-04-03 00:16:51] INFO root fetch - main [MainThread]: End processing [regpredict]: success
+[2024-04-03 00:16:51] INFO root fetch - main [MainThread]: Store serial: [22592488]

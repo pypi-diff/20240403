@@ -347,3 +347,61 @@
 [2024-04-03 00:16:51] INFO root fetch - processPackages [regpredict]: Remove: archive file [/home/abi/fetcher/tmp/regpredict-0.0.9.tar.gz]
 [2024-04-03 00:16:51] INFO root fetch - main [MainThread]: End processing [regpredict]: success
 [2024-04-03 00:16:51] INFO root fetch - main [MainThread]: Store serial: [22592488]
+[2024-04-03 00:18:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592488]
+[2024-04-03 00:19:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 00:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modlee
+[2024-04-03 00:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wbtools
+[2024-04-03 00:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wagtail-fedit
+[2024-04-03 00:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bia-ia
+[2024-04-03 00:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: momento-wire-types
+[2024-04-03 00:19:00] INFO root fetch - processPackages [modlee]: New version: [0.0.1.post9] Old Version: [0.0.1.post8]
+[2024-04-03 00:19:00] INFO root fetch - processPackages [momento-wire-types]: New version: [0.99.0] Old Version: [0.98.1]
+[2024-04-03 00:19:00] INFO root fetch - processPackages [bia-ia]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-03 00:19:00] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-03 00:19:00] INFO root fetch - processPackages [wbtools]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-04-03 00:19:00] INFO root fetch - processPackages [modlee]: Downloading https://files.pythonhosted.org/packages/7c/5f/d50d4f69ce8b12e82d91268e7a73b1337544a9dab6c46bdc649bcaa9a68d/modlee-0.0.1.post8-py3-none-any.whl
+[2024-04-03 00:19:00] INFO root fetch - processPackages [bia-ia]: Downloading https://files.pythonhosted.org/packages/7e/f5/55d92dcee8a33ce992b3bbb05f789c098435090416b352fafe9b210da205/bia-ia-0.0.2.tar.gz
+[2024-04-03 00:19:00] INFO root fetch - processPackages [momento-wire-types]: Downloading https://files.pythonhosted.org/packages/e4/46/0239df82cb6e9ffef5ee59019564c4485802b085aa41a571faefc8ebd223/momento_wire_types-0.98.1.tar.gz
+[2024-04-03 00:19:00] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/36/7b/d9647f5c6e98b8073556fb8c62e4c7d9dfd2b612b5f607f883d5aa784509/wagtail_fedit-1.0.8.tar.gz
+[2024-04-03 00:19:00] WARNING root fetch - processPackages [modlee]: Timeout reached during download
+[2024-04-03 00:19:00] INFO root fetch - processPackages [wbtools]: Downloading https://files.pythonhosted.org/packages/83/5e/6efd0376b580db71b897287cb25efabccb45383f2e12f396e0fe19c93c71/wbtools-3.0.4.tar.gz
+[2024-04-03 00:19:00] WARNING root fetch - processPackages [momento-wire-types]: Timeout reached during download
+[2024-04-03 00:19:00] WARNING root fetch - processPackages [wagtail-fedit]: Timeout reached during download
+[2024-04-03 00:19:00] WARNING root fetch - processPackages [bia-ia]: Timeout reached during download
+[2024-04-03 00:19:00] INFO root fetch - processPackages [momento-wire-types]: Downloading https://files.pythonhosted.org/packages/8e/77/73692d8207b35beda1e5b274d897b938a7de956cc301fe86b478cfeb5c26/momento_wire_types-0.99.0.tar.gz
+[2024-04-03 00:19:00] WARNING root fetch - processPackages [wbtools]: Timeout reached during download
+[2024-04-03 00:19:00] INFO root fetch - processPackages [modlee]: Downloading https://files.pythonhosted.org/packages/95/1b/617f29e534ea2bef1e24c92932ed2e192366f1150eb7f9f83b5258ff96c4/modlee-0.0.1.post9-py3-none-any.whl
+[2024-04-03 00:19:00] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/3b/45/4734851655dce81889a64711b7cc3cc3dfc51d102880cffa17e16280a1aa/wagtail_fedit-1.0.9.tar.gz
+[2024-04-03 00:19:00] INFO root fetch - processPackages [bia-ia]: Downloading https://files.pythonhosted.org/packages/24/06/da5dc6e15a4e1565b2c93db05f5353e188f0771e342fad76dbd1aada1b03/bia-ia-0.0.3.tar.gz
+[2024-04-03 00:19:01] WARNING root fetch - processPackages [momento-wire-types]: Timeout reached during download
+[2024-04-03 00:19:01] INFO root fetch - processPackages [momento-wire-types]: executing diffoscope
+[2024-04-03 00:19:01] INFO root fetch - processPackages [momento-wire-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momento_wire_types-0.98.1.tar.gz tmp/momento_wire_types-0.99.0.tar.gz --markdown 20240403/m/momento-wire-types/0.98.1-0.99.0/diff.md --exclude *.pyd
+[2024-04-03 00:19:01] WARNING root fetch - processPackages [modlee]: Timeout reached during download
+[2024-04-03 00:19:01] INFO root fetch - processPackages [modlee]: executing diffoscope
+[2024-04-03 00:19:01] INFO root fetch - processPackages [modlee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modlee-0.0.1.post8-py3-none-any.whl.zip tmp/modlee-0.0.1.post9-py3-none-any.whl.zip --markdown 20240403/m/modlee/0.0.1.post8-0.0.1.post9/diff.md --exclude *.pyd
+[2024-04-03 00:19:01] INFO root fetch - processPackages [wbtools]: Downloading https://files.pythonhosted.org/packages/a0/bd/29c257ccfe8272c62b2bf5d67f3378a76ade081d20d7ff7758bfba5935b5/wbtools-3.0.5.tar.gz
+[2024-04-03 00:19:01] WARNING root fetch - processPackages [wagtail-fedit]: Timeout reached during download
+[2024-04-03 00:19:01] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-04-03 00:19:01] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.0.8.tar.gz tmp/wagtail_fedit-1.0.9.tar.gz --markdown 20240403/w/wagtail-fedit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-03 00:19:01] WARNING root fetch - processPackages [bia-ia]: Timeout reached during download
+[2024-04-03 00:19:01] INFO root fetch - processPackages [bia-ia]: executing diffoscope
+[2024-04-03 00:19:01] INFO root fetch - processPackages [bia-ia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bia-ia-0.0.2.tar.gz tmp/bia-ia-0.0.3.tar.gz --markdown 20240403/b/bia-ia/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-03 00:19:01] WARNING root fetch - processPackages [wbtools]: Timeout reached during download
+[2024-04-03 00:19:01] INFO root fetch - processPackages [wbtools]: executing diffoscope
+[2024-04-03 00:19:01] INFO root fetch - processPackages [wbtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbtools-3.0.4.tar.gz tmp/wbtools-3.0.5.tar.gz --markdown 20240403/w/wbtools/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2024-04-03 00:19:01] INFO root fetch - processPackages [modlee]: Remove: archive file [/home/abi/fetcher/tmp/modlee-0.0.1.post8-py3-none-any.whl.zip]
+[2024-04-03 00:19:01] INFO root fetch - processPackages [modlee]: Remove: archive file [/home/abi/fetcher/tmp/modlee-0.0.1.post9-py3-none-any.whl.zip]
+[2024-04-03 00:19:01] INFO root fetch - main [MainThread]: End processing [modlee]: success
+[2024-04-03 00:19:01] INFO root fetch - processPackages [momento-wire-types]: Remove: archive file [/home/abi/fetcher/tmp/momento_wire_types-0.98.1.tar.gz]
+[2024-04-03 00:19:01] INFO root fetch - processPackages [momento-wire-types]: Remove: archive file [/home/abi/fetcher/tmp/momento_wire_types-0.99.0.tar.gz]
+[2024-04-03 00:19:01] INFO root fetch - main [MainThread]: End processing [momento-wire-types]: success
+[2024-04-03 00:19:01] INFO root fetch - processPackages [bia-ia]: Remove: archive file [/home/abi/fetcher/tmp/bia-ia-0.0.2.tar.gz]
+[2024-04-03 00:19:01] INFO root fetch - processPackages [bia-ia]: Remove: archive file [/home/abi/fetcher/tmp/bia-ia-0.0.3.tar.gz]
+[2024-04-03 00:19:01] INFO root fetch - main [MainThread]: End processing [bia-ia]: success
+[2024-04-03 00:19:02] INFO root fetch - processPackages [wbtools]: Remove: archive file [/home/abi/fetcher/tmp/wbtools-3.0.4.tar.gz]
+[2024-04-03 00:19:02] INFO root fetch - processPackages [wbtools]: Remove: archive file [/home/abi/fetcher/tmp/wbtools-3.0.5.tar.gz]
+[2024-04-03 00:19:02] INFO root fetch - main [MainThread]: End processing [wbtools]: success
+[2024-04-03 00:19:02] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.0.8.tar.gz]
+[2024-04-03 00:19:02] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.0.9.tar.gz]
+[2024-04-03 00:19:02] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-04-03 00:19:02] INFO root fetch - main [MainThread]: Store serial: [22592504]

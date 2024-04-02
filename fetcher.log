@@ -600,3 +600,64 @@
 [2024-04-03 00:26:12] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip]
 [2024-04-03 00:26:12] INFO root fetch - main [MainThread]: End processing [usearch]: success
 [2024-04-03 00:26:12] INFO root fetch - main [MainThread]: Store serial: [22592604]
+[2024-04-03 00:28:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592604]
+[2024-04-03 00:28:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 00:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-model-manager
+[2024-04-03 00:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QETpy
+[2024-04-03 00:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sajjad
+[2024-04-03 00:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mwot
+[2024-04-03 00:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: verysimpletest
+[2024-04-03 00:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: burr
+[2024-04-03 00:28:21] INFO root fetch - processPackages [sajjad]: New version: [2.0] Old Version: [1.9]
+[2024-04-03 00:28:21] INFO root fetch - processPackages [torch-model-manager]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-03 00:28:21] WARNING root fetch - processPackages [verysimpletest]: Skipping, unable to determine old version
+[2024-04-03 00:28:21] INFO root fetch - main [MainThread]: End processing [verysimpletest] error
+[2024-04-03 00:28:21] INFO root fetch - processPackages [burr]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-03 00:28:21] INFO root fetch - processPackages [sajjad]: Downloading https://files.pythonhosted.org/packages/f0/57/5a125d41b77ee0c03e385f2826ff459480d3234d549f92f7eb5dcea5b3b8/sajjad-1.9.tar.gz
+[2024-04-03 00:28:21] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/dc/50/5dc9310cb9fa599ad4d9c66ce3215a036bcddd57c14f9fa160df51aa22aa/torch-model-manager-0.0.2.tar.gz
+[2024-04-03 00:28:21] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/87/83/f7356070de16e070dbc68373d02f5b3677c417c21359630b2007a8b027df/burr-0.8.1.tar.gz
+[2024-04-03 00:28:21] INFO root fetch - processPackages [mwot]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-03 00:28:21] WARNING root fetch - processPackages [torch-model-manager]: Timeout reached during download
+[2024-04-03 00:28:21] WARNING root fetch - processPackages [sajjad]: Timeout reached during download
+[2024-04-03 00:28:22] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/bf/ed/abb108511efa6ff3be7b95686f26563ac10ec76055c4dba40b397b0052aa/torch-model-manager-0.0.3.tar.gz
+[2024-04-03 00:28:22] INFO root fetch - processPackages [mwot]: Downloading https://files.pythonhosted.org/packages/9a/71/9522b0235f8c93ab214963204dea751d46e25f0c4bd95f500e10096b14c6/mwot-0.1.0.tar.gz
+[2024-04-03 00:28:22] WARNING root fetch - processPackages [burr]: Timeout reached during download
+[2024-04-03 00:28:22] INFO root fetch - processPackages [QETpy]: New version: [1.6.8] Old Version: [1.6.7]
+[2024-04-03 00:28:22] INFO root fetch - processPackages [sajjad]: Downloading https://files.pythonhosted.org/packages/ca/f5/a21c8dc9eaded6c379c71abeadf55ecc83833d1f53e6f551498b9a30994c/sajjad-2.0.tar.gz
+[2024-04-03 00:28:22] WARNING root fetch - processPackages [torch-model-manager]: Timeout reached during download
+[2024-04-03 00:28:22] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-04-03 00:28:22] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-model-manager-0.0.2.tar.gz tmp/torch-model-manager-0.0.3.tar.gz --markdown 20240403/t/torch-model-manager/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-03 00:28:22] WARNING root fetch - processPackages [mwot]: Timeout reached during download
+[2024-04-03 00:28:22] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/65/38/00b44d54c37f35813232167f5745ca37eac9ad13574e81e1f4e685acf5d5/burr-0.9.0.tar.gz
+[2024-04-03 00:28:22] WARNING root fetch - processPackages [sajjad]: Timeout reached during download
+[2024-04-03 00:28:22] INFO root fetch - processPackages [sajjad]: executing diffoscope
+[2024-04-03 00:28:22] INFO root fetch - processPackages [sajjad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sajjad-1.9.tar.gz tmp/sajjad-2.0.tar.gz --markdown 20240403/s/sajjad/1.9-2.0/diff.md --exclude *.pyd
+[2024-04-03 00:28:22] INFO root fetch - processPackages [QETpy]: Downloading https://files.pythonhosted.org/packages/4f/46/f113ee551934e3b3725178bd665f29c90246bd734f8e96813f8ad24f0306/QETpy-1.6.7.tar.gz
+[2024-04-03 00:28:22] INFO root fetch - processPackages [mwot]: Downloading https://files.pythonhosted.org/packages/f4/41/625a170627c09de715a574ed11374170c7149a85550c86ae939c3de5a38f/mwot-0.1.1.tar.gz
+[2024-04-03 00:28:22] WARNING root fetch - processPackages [QETpy]: Timeout reached during download
+[2024-04-03 00:28:22] WARNING root fetch - processPackages [mwot]: Timeout reached during download
+[2024-04-03 00:28:22] WARNING root fetch - processPackages [burr]: Timeout reached during download
+[2024-04-03 00:28:22] INFO root fetch - processPackages [mwot]: executing diffoscope
+[2024-04-03 00:28:22] INFO root fetch - processPackages [mwot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwot-0.1.0.tar.gz tmp/mwot-0.1.1.tar.gz --markdown 20240403/m/mwot/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-03 00:28:22] INFO root fetch - processPackages [burr]: executing diffoscope
+[2024-04-03 00:28:22] INFO root fetch - processPackages [burr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burr-0.8.1.tar.gz tmp/burr-0.9.0.tar.gz --markdown 20240403/b/burr/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 00:28:22] INFO root fetch - processPackages [sajjad]: Remove: archive file [/home/abi/fetcher/tmp/sajjad-1.9.tar.gz]
+[2024-04-03 00:28:22] INFO root fetch - processPackages [sajjad]: Remove: archive file [/home/abi/fetcher/tmp/sajjad-2.0.tar.gz]
+[2024-04-03 00:28:22] INFO root fetch - main [MainThread]: End processing [sajjad]: success
+[2024-04-03 00:28:22] INFO root fetch - processPackages [QETpy]: Downloading https://files.pythonhosted.org/packages/cf/a3/31cd1cb06c1c45377ae30420a1fde80739e974ba3e9560346bb3ae21263e/QETpy-1.6.8.tar.gz
+[2024-04-03 00:28:22] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch-model-manager-0.0.2.tar.gz]
+[2024-04-03 00:28:22] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch-model-manager-0.0.3.tar.gz]
+[2024-04-03 00:28:22] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-04-03 00:28:22] WARNING root fetch - processPackages [QETpy]: Timeout reached during download
+[2024-04-03 00:28:22] INFO root fetch - processPackages [QETpy]: executing diffoscope
+[2024-04-03 00:28:22] INFO root fetch - processPackages [QETpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QETpy-1.6.7.tar.gz tmp/QETpy-1.6.8.tar.gz --markdown 20240403/Q/QETpy/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2024-04-03 00:28:23] INFO root fetch - processPackages [mwot]: Remove: archive file [/home/abi/fetcher/tmp/mwot-0.1.0.tar.gz]
+[2024-04-03 00:28:23] INFO root fetch - processPackages [mwot]: Remove: archive file [/home/abi/fetcher/tmp/mwot-0.1.1.tar.gz]
+[2024-04-03 00:28:23] INFO root fetch - main [MainThread]: End processing [mwot]: success
+[2024-04-03 00:28:23] INFO root fetch - processPackages [QETpy]: Remove: archive file [/home/abi/fetcher/tmp/QETpy-1.6.7.tar.gz]
+[2024-04-03 00:28:23] INFO root fetch - processPackages [QETpy]: Remove: archive file [/home/abi/fetcher/tmp/QETpy-1.6.8.tar.gz]
+[2024-04-03 00:28:23] INFO root fetch - main [MainThread]: End processing [QETpy]: success
+[2024-04-03 00:28:59] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.8.1.tar.gz]
+[2024-04-03 00:28:59] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
+[2024-04-03 00:28:59] INFO root fetch - main [MainThread]: End processing [burr]: success
+[2024-04-03 00:28:59] INFO root fetch - main [MainThread]: Store serial: [22592623]

@@ -530,3 +530,73 @@
 [2024-04-03 00:24:02] INFO root fetch - processPackages [flywheel-bids]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_bids-1.2.9-py3-none-any.whl.zip]
 [2024-04-03 00:24:02] INFO root fetch - main [MainThread]: End processing [flywheel-bids]: success
 [2024-04-03 00:24:02] INFO root fetch - main [MainThread]: Store serial: [22592537]
+[2024-04-03 00:26:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592537]
+[2024-04-03 00:26:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 00:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartleia
+[2024-04-03 00:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-manager
+[2024-04-03 00:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: usearch
+[2024-04-03 00:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: owl-on-fhir
+[2024-04-03 00:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pipen-poplog
+[2024-04-03 00:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysel-lang
+[2024-04-03 00:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bia-ia
+[2024-04-03 00:26:11] INFO root fetch - processPackages [torch-model-manager]: New version: [0.0.2] Old Version: [0.0.1.dev3]
+[2024-04-03 00:26:11] INFO root fetch - processPackages [pipen-poplog]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-03 00:26:11] INFO root fetch - processPackages [bia-ia]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-03 00:26:11] INFO root fetch - processPackages [usearch]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-03 00:26:11] INFO root fetch - processPackages [pipen-poplog]: Downloading https://files.pythonhosted.org/packages/38/14/9947cfc366303ab6daf7e26b45a101b03aed8c167c3aeb351d69a002e389/pipen_poplog-0.1.0.tar.gz
+[2024-04-03 00:26:11] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/0c/0b/0fd38d37a8250e697f0472d40a282851547bfa08b763b53bbe1e6512f182/torch-model-manager-0.0.1.dev3.tar.gz
+[2024-04-03 00:26:11] INFO root fetch - processPackages [smartleia]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-03 00:26:11] INFO root fetch - processPackages [pysel-lang]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-03 00:26:11] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/8b/43/c2558bc9415bc56b51c565ab35e885b8daff8ba0b8e920a001aa71f9fa44/usearch-2.9.1-cp39-cp39-win_amd64.whl
+[2024-04-03 00:26:11] INFO root fetch - processPackages [bia-ia]: Downloading https://files.pythonhosted.org/packages/24/06/da5dc6e15a4e1565b2c93db05f5353e188f0771e342fad76dbd1aada1b03/bia-ia-0.0.3.tar.gz
+[2024-04-03 00:26:11] WARNING root fetch - processPackages [pipen-poplog]: Timeout reached during download
+[2024-04-03 00:26:11] WARNING root fetch - processPackages [torch-model-manager]: Timeout reached during download
+[2024-04-03 00:26:11] INFO root fetch - processPackages [smartleia]: Downloading https://files.pythonhosted.org/packages/75/a6/c7ce51fdabaae9f365e7c254d2a24dbf9ecce526923f66ccd294061566ca/smartleia-1.0.1.tar.gz
+[2024-04-03 00:26:11] INFO root fetch - processPackages [pipen-poplog]: Downloading https://files.pythonhosted.org/packages/cb/fc/2a6b657d06ff607e3f5b9332195285db6367af9e11dcafc43abb2e718dbe/pipen_poplog-0.1.1.tar.gz
+[2024-04-03 00:26:11] WARNING root fetch - processPackages [usearch]: Timeout reached during download
+[2024-04-03 00:26:11] WARNING root fetch - processPackages [bia-ia]: Timeout reached during download
+[2024-04-03 00:26:11] INFO root fetch - processPackages [pysel-lang]: Downloading https://files.pythonhosted.org/packages/9d/18/de3e14ba452f1d304bf33fab89d83277d85b62d2b5eb40cbff5f70f5bbfe/pysel-lang-0.0.2.tar.gz
+[2024-04-03 00:26:11] INFO root fetch - processPackages [owl-on-fhir]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-03 00:26:11] WARNING root fetch - processPackages [pipen-poplog]: Timeout reached during download
+[2024-04-03 00:26:11] INFO root fetch - processPackages [pipen-poplog]: executing diffoscope
+[2024-04-03 00:26:11] INFO root fetch - processPackages [pipen-poplog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_poplog-0.1.0.tar.gz tmp/pipen_poplog-0.1.1.tar.gz --markdown 20240403/p/pipen-poplog/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-03 00:26:11] WARNING root fetch - processPackages [smartleia]: Timeout reached during download
+[2024-04-03 00:26:11] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/dc/50/5dc9310cb9fa599ad4d9c66ce3215a036bcddd57c14f9fa160df51aa22aa/torch-model-manager-0.0.2.tar.gz
+[2024-04-03 00:26:11] WARNING root fetch - processPackages [torch-model-manager]: Timeout reached during download
+[2024-04-03 00:26:11] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-04-03 00:26:11] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-model-manager-0.0.1.dev3.tar.gz tmp/torch-model-manager-0.0.2.tar.gz --markdown 20240403/t/torch-model-manager/0.0.1.dev3-0.0.2/diff.md --exclude *.pyd
+[2024-04-03 00:26:11] WARNING root fetch - processPackages [pysel-lang]: Timeout reached during download
+[2024-04-03 00:26:11] INFO root fetch - processPackages [smartleia]: Downloading https://files.pythonhosted.org/packages/4b/40/2b58bb63b5d8a2e1e85eb219c733230a69f3b0932b4ea7f1da18080720e6/smartleia-1.0.2.tar.gz
+[2024-04-03 00:26:11] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/d6/35/835356907691f8adc22f60e729aeeaeaef9b81bf07a96079c9ed33a94b4b/usearch-2.9.2-cp39-cp39-win_amd64.whl
+[2024-04-03 00:26:11] INFO root fetch - processPackages [owl-on-fhir]: Downloading https://files.pythonhosted.org/packages/83/96/ca2c6e28b7f93a7184341803cfa32609708389291a1f35a5df3d35e214c5/owl-on-fhir-1.1.1.tar.gz
+[2024-04-03 00:26:11] INFO root fetch - processPackages [bia-ia]: Downloading https://files.pythonhosted.org/packages/4f/77/cffdb5f9e4cc41e9767a3b03a28c20ae6d523c078fa8dd61d10fc4170452/bia-ia-0.0.4.tar.gz
+[2024-04-03 00:26:11] WARNING root fetch - processPackages [smartleia]: Timeout reached during download
+[2024-04-03 00:26:11] INFO root fetch - processPackages [smartleia]: executing diffoscope
+[2024-04-03 00:26:11] INFO root fetch - processPackages [smartleia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartleia-1.0.1.tar.gz tmp/smartleia-1.0.2.tar.gz --markdown 20240403/s/smartleia/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-03 00:26:11] WARNING root fetch - processPackages [usearch]: Timeout reached during download
+[2024-04-03 00:26:11] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2024-04-03 00:26:11] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20240403/u/usearch/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2024-04-03 00:26:11] INFO root fetch - processPackages [pysel-lang]: Downloading https://files.pythonhosted.org/packages/50/a7/15971595a0b17bf5d41fba8feb658506d9733e9a94fe99407faf250c75dd/pysel_lang-0.0.3-py3-none-any.whl
+[2024-04-03 00:26:12] WARNING root fetch - processPackages [pysel-lang]: Timeout reached during download
+[2024-04-03 00:26:12] INFO root fetch - processPackages [pysel-lang]: executing diffoscope
+[2024-04-03 00:26:12] INFO root fetch - processPackages [pysel-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysel-lang-0.0.2.tar.gz tmp/pysel_lang-0.0.3-py3-none-any.whl.zip --markdown 20240403/p/pysel-lang/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-03 00:26:12] INFO root fetch - processPackages [pipen-poplog]: Remove: archive file [/home/abi/fetcher/tmp/pipen_poplog-0.1.0.tar.gz]
+[2024-04-03 00:26:12] INFO root fetch - processPackages [pipen-poplog]: Remove: archive file [/home/abi/fetcher/tmp/pipen_poplog-0.1.1.tar.gz]
+[2024-04-03 00:26:12] INFO root fetch - main [MainThread]: End processing [pipen-poplog]: success
+[2024-04-03 00:26:12] WARNING root fetch - processPackages [owl-on-fhir]: Skipping package: exceeds size limit 80687500>=10485760
+[2024-04-03 00:26:12] INFO root fetch - main [MainThread]: End processing [owl-on-fhir] error
+[2024-04-03 00:26:12] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch-model-manager-0.0.1.dev3.tar.gz]
+[2024-04-03 00:26:12] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch-model-manager-0.0.2.tar.gz]
+[2024-04-03 00:26:12] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-04-03 00:26:12] INFO root fetch - processPackages [smartleia]: Remove: archive file [/home/abi/fetcher/tmp/smartleia-1.0.1.tar.gz]
+[2024-04-03 00:26:12] INFO root fetch - processPackages [smartleia]: Remove: archive file [/home/abi/fetcher/tmp/smartleia-1.0.2.tar.gz]
+[2024-04-03 00:26:12] INFO root fetch - main [MainThread]: End processing [smartleia]: success
+[2024-04-03 00:26:12] INFO root fetch - processPackages [pysel-lang]: Remove: archive file [/home/abi/fetcher/tmp/pysel-lang-0.0.2.tar.gz]
+[2024-04-03 00:26:12] INFO root fetch - processPackages [pysel-lang]: Remove: archive file [/home/abi/fetcher/tmp/pysel_lang-0.0.3-py3-none-any.whl.zip]
+[2024-04-03 00:26:12] INFO root fetch - main [MainThread]: End processing [pysel-lang]: success
+[2024-04-03 00:26:12] WARNING root fetch - processPackages [bia-ia]: Skipping package: exceeds size limit 16822498>=10485760
+[2024-04-03 00:26:12] INFO root fetch - main [MainThread]: End processing [bia-ia] error
+[2024-04-03 00:26:12] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-03 00:26:12] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-03 00:26:12] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2024-04-03 00:26:12] INFO root fetch - main [MainThread]: Store serial: [22592604]

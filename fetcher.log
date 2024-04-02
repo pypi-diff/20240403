@@ -1590,3 +1590,47 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 01:15:38] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.9.3.tar.gz]
 [2024-04-03 01:15:38] INFO root fetch - main [MainThread]: End processing [zrb]: success
 [2024-04-03 01:15:38] INFO root fetch - main [MainThread]: Store serial: [22592935]
+[2024-04-03 01:17:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592935]
+[2024-04-03 01:17:47] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-03 01:19:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22592935]
+[2024-04-03 01:19:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 01:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyautogen-experimental
+[2024-04-03 01:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bauplan
+[2024-04-03 01:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: burr
+[2024-04-03 01:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dagster-plus-cli
+[2024-04-03 01:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-skill-wikipedia
+[2024-04-03 01:19:53] INFO root fetch - processPackages [burr]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-03 01:19:53] WARNING root fetch - processPackages [pyautogen-experimental]: Skipping, unable to determine old version
+[2024-04-03 01:19:53] INFO root fetch - main [MainThread]: End processing [pyautogen-experimental] error
+[2024-04-03 01:19:53] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/87/83/f7356070de16e070dbc68373d02f5b3677c417c21359630b2007a8b027df/burr-0.8.1.tar.gz
+[2024-04-03 01:19:53] INFO root fetch - processPackages [bauplan]: New version: [0.0.3a9] Old Version: [0.0.3a80]
+[2024-04-03 01:19:54] WARNING root fetch - processPackages [dagster-plus-cli]: Skipping, unable to determine old version
+[2024-04-03 01:19:54] INFO root fetch - main [MainThread]: End processing [dagster-plus-cli] error
+[2024-04-03 01:19:54] INFO root fetch - processPackages [neon-skill-wikipedia]: New version: [1.0.2a2] Old Version: [1.0.2a1]
+[2024-04-03 01:19:54] WARNING root fetch - processPackages [burr]: Timeout reached during download
+[2024-04-03 01:19:54] INFO root fetch - processPackages [bauplan]: Downloading https://files.pythonhosted.org/packages/c6/a6/3f8ade03a7e229150a8a8dbe6345d8e52ef8a93aca2d87f74bdb4e2947f1/bauplan-0.0.3a80-py3-none-win_amd64.whl
+[2024-04-03 01:19:54] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/65/38/00b44d54c37f35813232167f5745ca37eac9ad13574e81e1f4e685acf5d5/burr-0.9.0.tar.gz
+[2024-04-03 01:19:54] INFO root fetch - processPackages [neon-skill-wikipedia]: Downloading https://files.pythonhosted.org/packages/03/f4/235461e8f01e5d851f5a947cb970899b770b5ee60086c3652d8ec0c1cea1/neon-skill-wikipedia-1.0.2a1.tar.gz
+[2024-04-03 01:19:54] WARNING root fetch - processPackages [neon-skill-wikipedia]: Timeout reached during download
+[2024-04-03 01:19:54] INFO root fetch - processPackages [neon-skill-wikipedia]: Downloading https://files.pythonhosted.org/packages/e1/33/9029b81c544d5001090d366e73ecbd4268b2014fc667c4edb1adeea0c8b9/neon-skill-wikipedia-1.0.2a2.tar.gz
+[2024-04-03 01:19:54] WARNING root fetch - processPackages [burr]: Timeout reached during download
+[2024-04-03 01:19:54] INFO root fetch - processPackages [burr]: executing diffoscope
+[2024-04-03 01:19:54] INFO root fetch - processPackages [burr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burr-0.8.1.tar.gz tmp/burr-0.9.0.tar.gz --markdown 20240403/b/burr/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 01:19:54] WARNING root fetch - processPackages [neon-skill-wikipedia]: Timeout reached during download
+[2024-04-03 01:19:54] INFO root fetch - processPackages [neon-skill-wikipedia]: executing diffoscope
+[2024-04-03 01:19:54] INFO root fetch - processPackages [neon-skill-wikipedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-wikipedia-1.0.2a1.tar.gz tmp/neon-skill-wikipedia-1.0.2a2.tar.gz --markdown 20240403/n/neon-skill-wikipedia/1.0.2a1-1.0.2a2/diff.md --exclude *.pyd
+[2024-04-03 01:19:55] INFO root fetch - processPackages [neon-skill-wikipedia]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-wikipedia-1.0.2a1.tar.gz]
+[2024-04-03 01:19:55] INFO root fetch - processPackages [neon-skill-wikipedia]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-wikipedia-1.0.2a2.tar.gz]
+[2024-04-03 01:19:55] INFO root fetch - main [MainThread]: End processing [neon-skill-wikipedia]: success
+[2024-04-03 01:20:12] WARNING root fetch - processPackages [bauplan]: Timeout reached during download
+[2024-04-03 01:20:12] INFO root fetch - processPackages [bauplan]: Downloading https://files.pythonhosted.org/packages/15/cb/726ad7134b75bc6cab5597ce06747430b4320f9b764bbfd50c6ddf62a15b/bauplan-0.0.3a9.tar.gz
+[2024-04-03 01:20:30] WARNING root fetch - processPackages [bauplan]: Timeout reached during download
+[2024-04-03 01:20:30] INFO root fetch - processPackages [bauplan]: executing diffoscope
+[2024-04-03 01:20:30] INFO root fetch - processPackages [bauplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bauplan-0.0.3a80-py3-none-win_amd64.whl.zip tmp/bauplan-0.0.3a9.tar.gz --markdown 20240403/b/bauplan/0.0.3a80-0.0.3a9/diff.md --exclude *.pyd
+[2024-04-03 01:20:31] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.8.1.tar.gz]
+[2024-04-03 01:20:31] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
+[2024-04-03 01:20:31] INFO root fetch - main [MainThread]: End processing [burr]: success
+[2024-04-03 01:20:40] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a80-py3-none-win_amd64.whl.zip]
+[2024-04-03 01:20:40] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a9.tar.gz]
+[2024-04-03 01:20:40] INFO root fetch - main [MainThread]: End processing [bauplan]: success
+[2024-04-03 01:20:40] INFO root fetch - main [MainThread]: Store serial: [22592957]

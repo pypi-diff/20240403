@@ -22468,3 +22468,61 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:50:24] INFO root fetch - processPackages [line-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/line-bot-sdk-3.9.0.tar.gz]
 [2024-04-03 08:50:24] INFO root fetch - main [MainThread]: End processing [line-bot-sdk]: success
 [2024-04-03 08:50:24] INFO root fetch - main [MainThread]: Store serial: [22599023]
+[2024-04-03 08:52:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599023]
+[2024-04-03 08:52:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 08:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai2-kit
+[2024-04-03 08:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-order-archive
+[2024-04-03 08:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biocartograph
+[2024-04-03 08:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mxwpy
+[2024-04-03 08:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdklabs.cdk-verified-permissions
+[2024-04-03 08:52:32] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2024-04-03 08:52:32] INFO root fetch - processPackages [biocartograph]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-03 08:52:32] INFO root fetch - processPackages [ai2-kit]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-03 08:52:32] INFO root fetch - processPackages [odoo-addon-sale-order-archive]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.6]
+[2024-04-03 08:52:32] INFO root fetch - processPackages [mxwpy]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-03 08:52:32] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: Downloading https://files.pythonhosted.org/packages/f7/94/8168361b10486399a02521e3ac0b8d3890b2c7e952869ec6e3c796ccbae4/cdklabs.cdk-verified-permissions-0.0.1a3.tar.gz
+[2024-04-03 08:52:33] INFO root fetch - processPackages [biocartograph]: Downloading https://files.pythonhosted.org/packages/26/7d/40f54f6e5b9cc1d5095e8b98fec26889f0449cb7db0e1b3a48b5a44a0918/biocartograph-0.8.1.tar.gz
+[2024-04-03 08:52:33] WARNING root fetch - processPackages [cdklabs.cdk-verified-permissions]: Timeout reached during download
+[2024-04-03 08:52:33] INFO root fetch - processPackages [odoo-addon-sale-order-archive]: Downloading https://files.pythonhosted.org/packages/8b/a5/5db640f6822a8d0dbe70e62ff3118d65a6c05e7da8f1a2cc2a61a3ccb005/odoo_addon_sale_order_archive-16.0.1.0.0.6-py3-none-any.whl
+[2024-04-03 08:52:33] INFO root fetch - processPackages [mxwpy]: Downloading https://files.pythonhosted.org/packages/aa/a8/238fc34e8bc2c0dd99a2f8bdd57119e880ee82edf2dbfb2d6cb055fe4be8/mxwpy-0.2.2.tar.gz
+[2024-04-03 08:52:33] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/2f/ac/f68fb35a03f26fbbf6dcc4c0484b2a2c730f858907b176791f95259979fa/ai2_kit-0.9.8.tar.gz
+[2024-04-03 08:52:33] WARNING root fetch - processPackages [odoo-addon-sale-order-archive]: Timeout reached during download
+[2024-04-03 08:52:33] WARNING root fetch - processPackages [mxwpy]: Timeout reached during download
+[2024-04-03 08:52:33] WARNING root fetch - processPackages [biocartograph]: Timeout reached during download
+[2024-04-03 08:52:33] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: Downloading https://files.pythonhosted.org/packages/fc/81/666fed18cec95478cd9fb853d25482d2c68679d111511c0830779c5a4645/cdklabs.cdk-verified-permissions-0.0.1a4.tar.gz
+[2024-04-03 08:52:33] WARNING root fetch - processPackages [ai2-kit]: Timeout reached during download
+[2024-04-03 08:52:33] INFO root fetch - processPackages [odoo-addon-sale-order-archive]: Downloading https://files.pythonhosted.org/packages/ea/c1/a4abbc3f37d6fa3d330211e1d8532f0ec538cbd228b0921b7d9e90a65791/odoo_addon_sale_order_archive-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-03 08:52:33] INFO root fetch - processPackages [mxwpy]: Downloading https://files.pythonhosted.org/packages/60/a5/ff5c4a98da1c4d82245f740cad723cf14052a372da8ec49edc7628e1d379/mxwpy-0.2.3.tar.gz
+[2024-04-03 08:52:33] WARNING root fetch - processPackages [cdklabs.cdk-verified-permissions]: Timeout reached during download
+[2024-04-03 08:52:33] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: executing diffoscope
+[2024-04-03 08:52:33] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-verified-permissions-0.0.1a3.tar.gz tmp/cdklabs.cdk-verified-permissions-0.0.1a4.tar.gz --markdown 20240403/c/cdklabs.cdk-verified-permissions/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2024-04-03 08:52:33] INFO root fetch - processPackages [biocartograph]: Downloading https://files.pythonhosted.org/packages/e6/22/731abcc80da1738d8e94e189d4e61f97461bf23e5d68671963bd7058e6e8/biocartograph-0.9.0.tar.gz
+[2024-04-03 08:52:33] WARNING root fetch - processPackages [odoo-addon-sale-order-archive]: Timeout reached during download
+[2024-04-03 08:52:33] INFO root fetch - processPackages [odoo-addon-sale-order-archive]: executing diffoscope
+[2024-04-03 08:52:33] INFO root fetch - processPackages [odoo-addon-sale-order-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_archive-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_sale_order_archive-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-sale-order-archive/16.0.1.0.0.6-17.0.1.0.0.2/diff.md --exclude *.pyd
+[2024-04-03 08:52:33] WARNING root fetch - processPackages [mxwpy]: Timeout reached during download
+[2024-04-03 08:52:33] INFO root fetch - processPackages [mxwpy]: executing diffoscope
+[2024-04-03 08:52:33] INFO root fetch - processPackages [mxwpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxwpy-0.2.2.tar.gz tmp/mxwpy-0.2.3.tar.gz --markdown 20240403/m/mxwpy/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-03 08:52:33] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/92/7d/d7c2c21a8ae2d8df9e79cbff8b4677c6171799dbb041ec440b5827feeea9/ai2_kit-0.9.9.tar.gz
+[2024-04-03 08:52:33] WARNING root fetch - processPackages [biocartograph]: Timeout reached during download
+[2024-04-03 08:52:33] INFO root fetch - processPackages [biocartograph]: executing diffoscope
+[2024-04-03 08:52:33] INFO root fetch - processPackages [biocartograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biocartograph-0.8.1.tar.gz tmp/biocartograph-0.9.0.tar.gz --markdown 20240403/b/biocartograph/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 08:52:33] WARNING root fetch - processPackages [ai2-kit]: Timeout reached during download
+[2024-04-03 08:52:33] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2024-04-03 08:52:33] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.9.8.tar.gz tmp/ai2_kit-0.9.9.tar.gz --markdown 20240403/a/ai2-kit/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-03 08:52:34] INFO root fetch - processPackages [odoo-addon-sale-order-archive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_archive-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-03 08:52:34] INFO root fetch - processPackages [odoo-addon-sale-order-archive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_archive-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-03 08:52:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-archive]: success
+[2024-04-03 08:52:34] INFO root fetch - processPackages [biocartograph]: Remove: archive file [/home/abi/fetcher/tmp/biocartograph-0.8.1.tar.gz]
+[2024-04-03 08:52:34] INFO root fetch - processPackages [biocartograph]: Remove: archive file [/home/abi/fetcher/tmp/biocartograph-0.9.0.tar.gz]
+[2024-04-03 08:52:34] INFO root fetch - main [MainThread]: End processing [biocartograph]: success
+[2024-04-03 08:52:34] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-verified-permissions-0.0.1a3.tar.gz]
+[2024-04-03 08:52:34] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-verified-permissions-0.0.1a4.tar.gz]
+[2024-04-03 08:52:34] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-verified-permissions]: success
+[2024-04-03 08:52:34] INFO root fetch - processPackages [mxwpy]: Remove: archive file [/home/abi/fetcher/tmp/mxwpy-0.2.2.tar.gz]
+[2024-04-03 08:52:34] INFO root fetch - processPackages [mxwpy]: Remove: archive file [/home/abi/fetcher/tmp/mxwpy-0.2.3.tar.gz]
+[2024-04-03 08:52:34] INFO root fetch - main [MainThread]: End processing [mxwpy]: success
+[2024-04-03 08:52:34] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.8.tar.gz]
+[2024-04-03 08:52:34] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.9.tar.gz]
+[2024-04-03 08:52:34] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2024-04-03 08:52:34] INFO root fetch - main [MainThread]: Store serial: [22599037]

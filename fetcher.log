@@ -3684,3 +3684,55 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 02:49:03] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-04-03 02:49:03] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-04-03 02:49:03] INFO root fetch - main [MainThread]: Store serial: [22593560]
+[2024-04-03 02:51:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593560]
+[2024-04-03 02:51:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 02:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emailbob-twingate
+[2024-04-03 02:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter-scatter
+[2024-04-03 02:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medor
+[2024-04-03 02:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pmxbot.webhooks
+[2024-04-03 02:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-layer-curl
+[2024-04-03 02:51:13] INFO root fetch - processPackages [medor]: New version: [0.0.1b4] Old Version: [0.0.1b3]
+[2024-04-03 02:51:13] INFO root fetch - processPackages [emailbob-twingate]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-03 02:51:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-03 02:51:13] INFO root fetch - processPackages [pmxbot.webhooks]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-03 02:51:13] INFO root fetch - processPackages [jupyter-scatter]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-03 02:51:13] INFO root fetch - processPackages [emailbob-twingate]: Downloading https://files.pythonhosted.org/packages/18/7e/a687c4e43fc45eff26972a197771eb8e92b254e0f58f3c4716278fe44500/emailbob_twingate-0.0.7.tar.gz
+[2024-04-03 02:51:13] INFO root fetch - processPackages [medor]: Downloading https://files.pythonhosted.org/packages/23/c0/a0ef346fdfd694c3ceb2ff32e1567361aac05c79400184640e07786d5129/medor-0.0.1b3.tar.gz
+[2024-04-03 02:51:13] WARNING root fetch - processPackages [medor]: Skipping package: exceeds size limit 16015917>=10485760
+[2024-04-03 02:51:13] INFO root fetch - main [MainThread]: End processing [medor] error
+[2024-04-03 02:51:13] WARNING root fetch - processPackages [emailbob-twingate]: Timeout reached during download
+[2024-04-03 02:51:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-04-03 02:51:13] INFO root fetch - processPackages [pmxbot.webhooks]: Downloading https://files.pythonhosted.org/packages/86/f5/2db20b733a08fc9773c06133be134b7f3cce45bf58fd36391cec148c674d/pmxbot.webhooks-1.4.0.tar.gz
+[2024-04-03 02:51:13] INFO root fetch - processPackages [jupyter-scatter]: Downloading https://files.pythonhosted.org/packages/52/d5/fdc26b2c812cb9385e85072bac02324d0ca1640b477dc79843e799450fac/jupyter-scatter-0.8.0.tar.gz
+[2024-04-03 02:51:13] INFO root fetch - processPackages [emailbob-twingate]: Downloading https://files.pythonhosted.org/packages/07/8d/c311d8169e9a874b9001ea68d0070a70b1baa5e11917d0e7cb8f6e9bdb6a/emailbob_twingate-0.0.9.tar.gz
+[2024-04-03 02:51:13] WARNING root fetch - processPackages [pmxbot.webhooks]: Timeout reached during download
+[2024-04-03 02:51:14] WARNING root fetch - processPackages [emailbob-twingate]: Timeout reached during download
+[2024-04-03 02:51:14] INFO root fetch - processPackages [emailbob-twingate]: executing diffoscope
+[2024-04-03 02:51:14] INFO root fetch - processPackages [emailbob-twingate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailbob_twingate-0.0.7.tar.gz tmp/emailbob_twingate-0.0.9.tar.gz --markdown 20240403/e/emailbob-twingate/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 02:51:14] WARNING root fetch - processPackages [cdk-lambda-layer-curl]: Timeout reached during download
+[2024-04-03 02:51:14] INFO root fetch - processPackages [pmxbot.webhooks]: Downloading https://files.pythonhosted.org/packages/b8/55/277a10e7ae7143e6dd887c0cec68c0e6e9441b2803fa03b5794148c89532/pmxbot.webhooks-1.5.0.tar.gz
+[2024-04-03 02:51:14] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-04-03 02:51:14] WARNING root fetch - processPackages [pmxbot.webhooks]: Timeout reached during download
+[2024-04-03 02:51:14] INFO root fetch - processPackages [pmxbot.webhooks]: executing diffoscope
+[2024-04-03 02:51:14] INFO root fetch - processPackages [pmxbot.webhooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmxbot.webhooks-1.4.0.tar.gz tmp/pmxbot.webhooks-1.5.0.tar.gz --markdown 20240403/p/pmxbot.webhooks/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2024-04-03 02:51:14] WARNING root fetch - processPackages [jupyter-scatter]: Timeout reached during download
+[2024-04-03 02:51:14] WARNING root fetch - processPackages [cdk-lambda-layer-curl]: Timeout reached during download
+[2024-04-03 02:51:14] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-04-03 02:51:14] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240403/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-03 02:51:14] INFO root fetch - processPackages [jupyter-scatter]: Downloading https://files.pythonhosted.org/packages/cd/a3/bab2feeb3c3ea460132cda34d75a2f6aac2e8c38ab82342eeae49bea3540/jupyter-scatter-0.9.0.tar.gz
+[2024-04-03 02:51:14] INFO root fetch - processPackages [emailbob-twingate]: Remove: archive file [/home/abi/fetcher/tmp/emailbob_twingate-0.0.7.tar.gz]
+[2024-04-03 02:51:14] INFO root fetch - processPackages [emailbob-twingate]: Remove: archive file [/home/abi/fetcher/tmp/emailbob_twingate-0.0.9.tar.gz]
+[2024-04-03 02:51:14] INFO root fetch - main [MainThread]: End processing [emailbob-twingate]: success
+[2024-04-03 02:51:14] WARNING root fetch - processPackages [jupyter-scatter]: Timeout reached during download
+[2024-04-03 02:51:14] INFO root fetch - processPackages [jupyter-scatter]: executing diffoscope
+[2024-04-03 02:51:14] INFO root fetch - processPackages [jupyter-scatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-scatter-0.8.0.tar.gz tmp/jupyter-scatter-0.9.0.tar.gz --markdown 20240403/j/jupyter-scatter/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 02:51:14] INFO root fetch - processPackages [pmxbot.webhooks]: Remove: archive file [/home/abi/fetcher/tmp/pmxbot.webhooks-1.4.0.tar.gz]
+[2024-04-03 02:51:14] INFO root fetch - processPackages [pmxbot.webhooks]: Remove: archive file [/home/abi/fetcher/tmp/pmxbot.webhooks-1.5.0.tar.gz]
+[2024-04-03 02:51:14] INFO root fetch - main [MainThread]: End processing [pmxbot.webhooks]: success
+[2024-04-03 02:51:15] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-04-03 02:51:15] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-04-03 02:51:15] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-04-03 02:51:25] INFO root fetch - processPackages [jupyter-scatter]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-scatter-0.8.0.tar.gz]
+[2024-04-03 02:51:25] INFO root fetch - processPackages [jupyter-scatter]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-scatter-0.9.0.tar.gz]
+[2024-04-03 02:51:25] INFO root fetch - main [MainThread]: End processing [jupyter-scatter]: success
+[2024-04-03 02:51:25] INFO root fetch - main [MainThread]: Store serial: [22593576]

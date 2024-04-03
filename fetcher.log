@@ -17070,3 +17070,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-bm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bm-3.0.999.tar.gz]
 [2024-04-03 06:20:41] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bm]: success
 [2024-04-03 06:20:41] INFO root fetch - main [MainThread]: Store serial: [22597433]
+[2024-04-03 06:22:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597433]
+[2024-04-03 06:22:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 06:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-bma
+[2024-04-03 06:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-bmeip
+[2024-04-03 06:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-bmlb
+[2024-04-03 06:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-bmvpc
+[2024-04-03 06:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-bpaas
+[2024-04-03 06:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: massivetools
+[2024-04-03 06:22:50] WARNING root fetch - processPackages [massivetools]: Skipping, unable to determine old version
+[2024-04-03 06:22:50] INFO root fetch - main [MainThread]: End processing [massivetools] error
+[2024-04-03 06:22:50] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:22:50] INFO root fetch - processPackages [tencentcloud-sdk-python-bmlb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:22:50] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:22:50] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:22:50] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:22:50] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: Downloading https://files.pythonhosted.org/packages/ba/08/5288d1f005c662185b74a01d4fa40c2b5da397a8627e4470151f0516f0d3/tencentcloud-sdk-python-bpaas-3.0.998.tar.gz
+[2024-04-03 06:22:50] INFO root fetch - processPackages [tencentcloud-sdk-python-bmlb]: Downloading https://files.pythonhosted.org/packages/d3/b2/14e22128fa27abcfabf5a351a3c3bee0a30ec0c7fcc4e0b994425e1b2e86/tencentcloud-sdk-python-bmlb-3.0.998.tar.gz
+[2024-04-03 06:22:50] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Downloading https://files.pythonhosted.org/packages/08/07/50b04234f7d2186c868c4a6240ec0fb207103b471734db3250e66b6e7305/tencentcloud-sdk-python-bmeip-3.0.998.tar.gz
+[2024-04-03 06:22:50] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: Downloading https://files.pythonhosted.org/packages/16/43/a6059ca02b533147e88c95803d08eaf023629ff25d9d025b7a976bd5ffea/tencentcloud-sdk-python-bmvpc-3.0.998.tar.gz
+[2024-04-03 06:22:50] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: Downloading https://files.pythonhosted.org/packages/1f/80/2087f8229c3800365b5ed599421f1c812aab22dc669fc5dde78dfc261b01/tencentcloud-sdk-python-bma-3.0.998.tar.gz
+[2024-04-03 06:22:50] WARNING root fetch - processPackages [tencentcloud-sdk-python-bpaas]: Timeout reached during download
+[2024-04-03 06:22:50] WARNING root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Timeout reached during download
+[2024-04-03 06:22:50] WARNING root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: Timeout reached during download
+[2024-04-03 06:22:50] WARNING root fetch - processPackages [tencentcloud-sdk-python-bma]: Timeout reached during download
+[2024-04-03 06:22:50] WARNING root fetch - processPackages [tencentcloud-sdk-python-bmlb]: Timeout reached during download
+[2024-04-03 06:22:51] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: Downloading https://files.pythonhosted.org/packages/ce/d8/cb2c79582a88e780fe8493cf8e6fd85dacc5448246de28fad7bb5a78df16/tencentcloud-sdk-python-bpaas-3.0.999.tar.gz
+[2024-04-03 06:22:51] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Downloading https://files.pythonhosted.org/packages/1c/95/2baff7d4f4c1eeffa5bbcf74973a379bf9f6f42b23817e5f891535ff3ff5/tencentcloud-sdk-python-bmeip-3.0.999.tar.gz
+[2024-04-03 06:22:51] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: Downloading https://files.pythonhosted.org/packages/85/ae/2990efac19f637cb27cdf5c21b2e1900c00bae800b413e03ac7129a7a112/tencentcloud-sdk-python-bmvpc-3.0.999.tar.gz
+[2024-04-03 06:22:51] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: Downloading https://files.pythonhosted.org/packages/c1/b8/8ea74081f4f187f0ea20a99d0462b7035a7032b675d1eca65b352280517c/tencentcloud-sdk-python-bma-3.0.999.tar.gz
+[2024-04-03 06:22:51] WARNING root fetch - processPackages [tencentcloud-sdk-python-bpaas]: Timeout reached during download
+[2024-04-03 06:22:51] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: executing diffoscope
+[2024-04-03 06:22:51] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bpaas-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bpaas-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-bpaas/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:22:51] INFO root fetch - processPackages [tencentcloud-sdk-python-bmlb]: Downloading https://files.pythonhosted.org/packages/e2/5f/4bd592a8aeef6729cda1cdf6f3188f79088e42ba4fa7ebe83e744a2abe10/tencentcloud-sdk-python-bmlb-3.0.999.tar.gz
+[2024-04-03 06:22:51] WARNING root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Timeout reached during download
+[2024-04-03 06:22:51] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: executing diffoscope
+[2024-04-03 06:22:51] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bmeip-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bmeip-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-bmeip/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:22:51] WARNING root fetch - processPackages [tencentcloud-sdk-python-bma]: Timeout reached during download
+[2024-04-03 06:22:51] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: executing diffoscope
+[2024-04-03 06:22:51] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bma-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bma-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-bma/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:22:51] WARNING root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: Timeout reached during download
+[2024-04-03 06:22:51] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: executing diffoscope
+[2024-04-03 06:22:51] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bmvpc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bmvpc-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-bmvpc/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:22:51] WARNING root fetch - processPackages [tencentcloud-sdk-python-bmlb]: Timeout reached during download
+[2024-04-03 06:22:51] INFO root fetch - processPackages [tencentcloud-sdk-python-bmlb]: executing diffoscope
+[2024-04-03 06:22:51] INFO root fetch - processPackages [tencentcloud-sdk-python-bmlb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bmlb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bmlb-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-bmlb/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:22:51] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bmeip-3.0.998.tar.gz]
+[2024-04-03 06:22:51] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bmeip-3.0.999.tar.gz]
+[2024-04-03 06:22:51] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bmeip]: success
+[2024-04-03 06:22:52] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bpaas-3.0.998.tar.gz]
+[2024-04-03 06:22:52] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bpaas-3.0.999.tar.gz]
+[2024-04-03 06:22:52] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bpaas]: success
+[2024-04-03 06:22:52] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bma-3.0.998.tar.gz]
+[2024-04-03 06:22:52] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bma-3.0.999.tar.gz]
+[2024-04-03 06:22:52] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bma]: success
+[2024-04-03 06:22:52] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bmvpc-3.0.998.tar.gz]
+[2024-04-03 06:22:52] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bmvpc-3.0.999.tar.gz]
+[2024-04-03 06:22:52] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bmvpc]: success
+[2024-04-03 06:22:52] INFO root fetch - processPackages [tencentcloud-sdk-python-bmlb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bmlb-3.0.998.tar.gz]
+[2024-04-03 06:22:52] INFO root fetch - processPackages [tencentcloud-sdk-python-bmlb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bmlb-3.0.999.tar.gz]
+[2024-04-03 06:22:52] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bmlb]: success
+[2024-04-03 06:22:52] INFO root fetch - main [MainThread]: Store serial: [22597451]

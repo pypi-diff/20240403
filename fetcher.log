@@ -15778,3 +15778,50 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 05:26:36] INFO root fetch - processPackages [bribrain]: Remove: archive file [/home/abi/fetcher/tmp/bribrain-1.0.1.tar.gz]
 [2024-04-03 05:26:36] INFO root fetch - main [MainThread]: End processing [bribrain]: success
 [2024-04-03 05:26:36] INFO root fetch - main [MainThread]: Store serial: [22597007]
+[2024-04-03 05:28:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597007]
+[2024-04-03 05:28:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 05:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyserilog
+[2024-04-03 05:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MobileInventoryCLI
+[2024-04-03 05:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyGrassClient
+[2024-04-03 05:28:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lantana
+[2024-04-03 05:28:45] INFO root fetch - processPackages [pyserilog]: New version: [0.1.1a4] Old Version: [0.1.1a1]
+[2024-04-03 05:28:45] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.40] Old Version: [0.4.39]
+[2024-04-03 05:28:45] INFO root fetch - processPackages [pyserilog]: Downloading https://files.pythonhosted.org/packages/3c/79/4c2ffce8b72fb445dfc89156307e055dd2686b3c07418ea1cda4db2318ad/pyserilog-0.1.1a1.tar.gz
+[2024-04-03 05:28:45] INFO root fetch - processPackages [PyGrassClient]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-04-03 05:28:45] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/99/24/41b432b0d571b08c652ff5229fc5a65f231a08d2e2977d0912e6307b53a5/MobileInventoryCLI-0.4.39.tar.gz
+[2024-04-03 05:28:45] INFO root fetch - processPackages [lantana]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-04-03 05:28:45] WARNING root fetch - processPackages [pyserilog]: Timeout reached during download
+[2024-04-03 05:28:45] WARNING root fetch - processPackages [MobileInventoryCLI]: Timeout reached during download
+[2024-04-03 05:28:45] INFO root fetch - processPackages [pyserilog]: Downloading https://files.pythonhosted.org/packages/bc/85/da553c8b8d1e652c266b43d113b5af6d61cb0d6f9e9b2673d8184138b184/pyserilog-0.1.1a4.tar.gz
+[2024-04-03 05:28:45] INFO root fetch - processPackages [PyGrassClient]: Downloading https://files.pythonhosted.org/packages/e8/24/2fc5aedb8d8d0096af9b13d373773831589baa4643958bf71dbf88f18179/PyGrassClient-2.0.5.tar.gz
+[2024-04-03 05:28:45] INFO root fetch - processPackages [lantana]: Downloading https://files.pythonhosted.org/packages/0e/67/32414c9e0b87f889155387144800afcd7b44cfc6a02e1c72164350257dc4/lantana-2.9.5.tar.gz
+[2024-04-03 05:28:45] WARNING root fetch - processPackages [pyserilog]: Timeout reached during download
+[2024-04-03 05:28:45] INFO root fetch - processPackages [pyserilog]: executing diffoscope
+[2024-04-03 05:28:45] INFO root fetch - processPackages [pyserilog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyserilog-0.1.1a1.tar.gz tmp/pyserilog-0.1.1a4.tar.gz --markdown 20240403/p/pyserilog/0.1.1a1-0.1.1a4/diff.md --exclude *.pyd
+[2024-04-03 05:28:45] WARNING root fetch - processPackages [PyGrassClient]: Timeout reached during download
+[2024-04-03 05:28:45] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/6b/b6/b81a91713d02a7b687265343114fac3ce4794a1ccf485daf918f39ee1fc0/MobileInventoryCLI-0.4.40.tar.gz
+[2024-04-03 05:28:46] WARNING root fetch - processPackages [lantana]: Timeout reached during download
+[2024-04-03 05:28:46] WARNING root fetch - processPackages [MobileInventoryCLI]: Timeout reached during download
+[2024-04-03 05:28:46] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-04-03 05:28:46] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.39.tar.gz tmp/MobileInventoryCLI-0.4.40.tar.gz --markdown 20240403/M/MobileInventoryCLI/0.4.39-0.4.40/diff.md --exclude *.pyd
+[2024-04-03 05:28:46] INFO root fetch - processPackages [PyGrassClient]: Downloading https://files.pythonhosted.org/packages/ae/5c/50ed1c34924ad606a704b493108c8c96420dfb4dce0e9e1fdc4b5a931d99/PyGrassClient-2.0.6.tar.gz
+[2024-04-03 05:28:46] WARNING root fetch - processPackages [PyGrassClient]: Timeout reached during download
+[2024-04-03 05:28:46] INFO root fetch - processPackages [PyGrassClient]: executing diffoscope
+[2024-04-03 05:28:46] INFO root fetch - processPackages [PyGrassClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGrassClient-2.0.5.tar.gz tmp/PyGrassClient-2.0.6.tar.gz --markdown 20240403/P/PyGrassClient/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2024-04-03 05:28:46] INFO root fetch - processPackages [lantana]: Downloading https://files.pythonhosted.org/packages/14/f3/3fb0598df849e8154c13f0eee3caa9256692c05ce7614650fb9fe29939c3/lantana-2.9.6.tar.gz
+[2024-04-03 05:28:46] INFO root fetch - processPackages [pyserilog]: Remove: archive file [/home/abi/fetcher/tmp/pyserilog-0.1.1a1.tar.gz]
+[2024-04-03 05:28:46] INFO root fetch - processPackages [pyserilog]: Remove: archive file [/home/abi/fetcher/tmp/pyserilog-0.1.1a4.tar.gz]
+[2024-04-03 05:28:46] INFO root fetch - main [MainThread]: End processing [pyserilog]: success
+[2024-04-03 05:28:46] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.39.tar.gz]
+[2024-04-03 05:28:46] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.40.tar.gz]
+[2024-04-03 05:28:46] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-04-03 05:28:46] WARNING root fetch - processPackages [lantana]: Timeout reached during download
+[2024-04-03 05:28:46] INFO root fetch - processPackages [lantana]: executing diffoscope
+[2024-04-03 05:28:46] INFO root fetch - processPackages [lantana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lantana-2.9.5.tar.gz tmp/lantana-2.9.6.tar.gz --markdown 20240403/l/lantana/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2024-04-03 05:28:46] INFO root fetch - processPackages [PyGrassClient]: Remove: archive file [/home/abi/fetcher/tmp/PyGrassClient-2.0.5.tar.gz]
+[2024-04-03 05:28:46] INFO root fetch - processPackages [PyGrassClient]: Remove: archive file [/home/abi/fetcher/tmp/PyGrassClient-2.0.6.tar.gz]
+[2024-04-03 05:28:46] INFO root fetch - main [MainThread]: End processing [PyGrassClient]: success
+[2024-04-03 05:28:47] INFO root fetch - processPackages [lantana]: Remove: archive file [/home/abi/fetcher/tmp/lantana-2.9.5.tar.gz]
+[2024-04-03 05:28:47] INFO root fetch - processPackages [lantana]: Remove: archive file [/home/abi/fetcher/tmp/lantana-2.9.6.tar.gz]
+[2024-04-03 05:28:47] INFO root fetch - main [MainThread]: End processing [lantana]: success
+[2024-04-03 05:28:47] INFO root fetch - main [MainThread]: Store serial: [22597016]

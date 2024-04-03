@@ -13751,3 +13751,28 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 04:02:05] INFO root fetch - processPackages [liminal-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/liminal_sdk_python-2024.4.0.tar.gz]
 [2024-04-03 04:02:05] INFO root fetch - main [MainThread]: End processing [liminal-sdk-python]: success
 [2024-04-03 04:02:05] INFO root fetch - main [MainThread]: Store serial: [22596370]
+[2024-04-03 04:04:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596370]
+[2024-04-03 04:04:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 04:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tko
+[2024-04-03 04:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: btrview
+[2024-04-03 04:04:13] INFO root fetch - processPackages [tko]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-03 04:04:14] INFO root fetch - processPackages [tko]: Downloading https://files.pythonhosted.org/packages/3e/2f/2da44d0c1decfe4bd99b5fe800342a0c33488925edc7054e20eae5f8b8dc/tko-0.3.3.tar.gz
+[2024-04-03 04:04:14] INFO root fetch - processPackages [btrview]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-03 04:04:14] WARNING root fetch - processPackages [tko]: Timeout reached during download
+[2024-04-03 04:04:14] INFO root fetch - processPackages [tko]: Downloading https://files.pythonhosted.org/packages/fc/00/3c6d2daf3330a5f449663fd916963efe866de02572c392e5bb9136eb7d70/tko-0.3.4.tar.gz
+[2024-04-03 04:04:14] INFO root fetch - processPackages [btrview]: Downloading https://files.pythonhosted.org/packages/a2/2f/d9147c571e6af00c98faeed09fa9e8a2833d70b74f972e160a4cad1c6a47/btrview-0.3.0.tar.gz
+[2024-04-03 04:04:14] WARNING root fetch - processPackages [tko]: Timeout reached during download
+[2024-04-03 04:04:14] INFO root fetch - processPackages [tko]: executing diffoscope
+[2024-04-03 04:04:14] INFO root fetch - processPackages [tko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tko-0.3.3.tar.gz tmp/tko-0.3.4.tar.gz --markdown 20240403/t/tko/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2024-04-03 04:04:14] WARNING root fetch - processPackages [btrview]: Timeout reached during download
+[2024-04-03 04:04:14] INFO root fetch - processPackages [btrview]: Downloading https://files.pythonhosted.org/packages/8b/0a/06e010a3edff4802936765ccf16592c8c81a54e50f4668d4a74161d61752/btrview-0.4.0.tar.gz
+[2024-04-03 04:04:14] WARNING root fetch - processPackages [btrview]: Timeout reached during download
+[2024-04-03 04:04:14] INFO root fetch - processPackages [btrview]: executing diffoscope
+[2024-04-03 04:04:14] INFO root fetch - processPackages [btrview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btrview-0.3.0.tar.gz tmp/btrview-0.4.0.tar.gz --markdown 20240403/b/btrview/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-03 04:04:14] INFO root fetch - processPackages [tko]: Remove: archive file [/home/abi/fetcher/tmp/tko-0.3.3.tar.gz]
+[2024-04-03 04:04:14] INFO root fetch - processPackages [tko]: Remove: archive file [/home/abi/fetcher/tmp/tko-0.3.4.tar.gz]
+[2024-04-03 04:04:14] INFO root fetch - main [MainThread]: End processing [tko]: success
+[2024-04-03 04:04:15] INFO root fetch - processPackages [btrview]: Remove: archive file [/home/abi/fetcher/tmp/btrview-0.3.0.tar.gz]
+[2024-04-03 04:04:15] INFO root fetch - processPackages [btrview]: Remove: archive file [/home/abi/fetcher/tmp/btrview-0.4.0.tar.gz]
+[2024-04-03 04:04:15] INFO root fetch - main [MainThread]: End processing [btrview]: success
+[2024-04-03 04:04:15] INFO root fetch - main [MainThread]: Store serial: [22596376]

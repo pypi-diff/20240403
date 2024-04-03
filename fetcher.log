@@ -16753,3 +16753,27 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:09:42] INFO root fetch - processPackages [full-calendar-component]: Remove: archive file [/home/abi/fetcher/tmp/full_calendar_component-0.0.3.tar.gz]
 [2024-04-03 06:09:42] INFO root fetch - main [MainThread]: End processing [full-calendar-component]: success
 [2024-04-03 06:09:42] INFO root fetch - main [MainThread]: Store serial: [22597313]
+[2024-04-03 06:11:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597313]
+[2024-04-03 06:11:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 06:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelpack
+[2024-04-03 06:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opendp
+[2024-04-03 06:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyminerva
+[2024-04-03 06:11:53] INFO root fetch - processPackages [modelpack]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-03 06:11:53] INFO root fetch - processPackages [opendp]: New version: [0.9.2b20240207001] Old Version: [0.9.2a20240401001]
+[2024-04-03 06:11:53] INFO root fetch - processPackages [pyminerva]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-03 06:11:53] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/7a/24/85f723cfbbff4eb6c069d38a022869735abb53cbd20c95630b8cb3d67cbe/opendp-0.9.2a20240401001-py3-none-any.whl
+[2024-04-03 06:11:53] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 36086237>=10485760
+[2024-04-03 06:11:53] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2024-04-03 06:11:53] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/71/85/01e8f26ee3130cf86f9e4b898bf1c77b6edaa3ff18d78ab72ab3042c1c41/pyminerva-0.0.98.tar.gz
+[2024-04-03 06:11:53] INFO root fetch - processPackages [modelpack]: Downloading https://files.pythonhosted.org/packages/59/25/a8cc59f8b986f035412ed646ab91def7ee443b6abd40f77551fbcd2dcb6e/modelpack-2.2.8-cp39-cp39-win_amd64.whl
+[2024-04-03 06:11:53] WARNING root fetch - processPackages [pyminerva]: Timeout reached during download
+[2024-04-03 06:11:53] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/30/9b/396cf38441ad3c8ce48c213fff676d95f1f3f4feeb1b7dc8824277fe413e/pyminerva-0.0.99.tar.gz
+[2024-04-03 06:11:53] WARNING root fetch - processPackages [modelpack]: Skipping package: exceeds size limit 69097011>=10485760
+[2024-04-03 06:11:53] INFO root fetch - main [MainThread]: End processing [modelpack] error
+[2024-04-03 06:11:53] WARNING root fetch - processPackages [pyminerva]: Timeout reached during download
+[2024-04-03 06:11:53] INFO root fetch - processPackages [pyminerva]: executing diffoscope
+[2024-04-03 06:11:53] INFO root fetch - processPackages [pyminerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminerva-0.0.98.tar.gz tmp/pyminerva-0.0.99.tar.gz --markdown 20240403/p/pyminerva/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-03 06:11:54] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.98.tar.gz]
+[2024-04-03 06:11:54] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
+[2024-04-03 06:11:54] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
+[2024-04-03 06:11:54] INFO root fetch - main [MainThread]: Store serial: [22597329]

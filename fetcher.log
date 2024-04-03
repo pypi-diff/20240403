@@ -21339,3 +21339,31 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:04:03] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
 [2024-04-03 08:04:03] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
 [2024-04-03 08:04:03] INFO root fetch - main [MainThread]: Store serial: [22598643]
+[2024-04-03 08:06:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598643]
+[2024-04-03 08:06:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 08:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythagoras
+[2024-04-03 08:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-rabbitmq
+[2024-04-03 08:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suql
+[2024-04-03 08:06:11] INFO root fetch - processPackages [pythagoras]: New version: [0.10.34] Old Version: [0.10.33]
+[2024-04-03 08:06:11] WARNING root fetch - processPackages [suql]: Skipping, unable to determine old version
+[2024-04-03 08:06:11] INFO root fetch - main [MainThread]: End processing [suql] error
+[2024-04-03 08:06:12] INFO root fetch - processPackages [pythagoras]: Downloading https://files.pythonhosted.org/packages/2b/d1/98f806f9f5e4a8577efc9f35cd111df9ec7c56c3cd161993257d0e5be3fe/pythagoras-0.10.33.tar.gz
+[2024-04-03 08:06:12] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1712123475] Old Version: [3.4.0a1711780809]
+[2024-04-03 08:06:12] WARNING root fetch - processPackages [pythagoras]: Timeout reached during download
+[2024-04-03 08:06:12] INFO root fetch - processPackages [pythagoras]: Downloading https://files.pythonhosted.org/packages/d0/c9/7147b16eaa139534a93c09099727d8f24e4aed640827e3fb2d146f79cc0c/pythagoras-0.10.34.tar.gz
+[2024-04-03 08:06:12] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/b0/a3/f1cbc0d1ed2b274a797fb37004aea2aaf389476606be3f2bfdd01c478300/pulumi_rabbitmq-3.4.0a1711780809.tar.gz
+[2024-04-03 08:06:12] WARNING root fetch - processPackages [pythagoras]: Timeout reached during download
+[2024-04-03 08:06:12] INFO root fetch - processPackages [pythagoras]: executing diffoscope
+[2024-04-03 08:06:12] INFO root fetch - processPackages [pythagoras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythagoras-0.10.33.tar.gz tmp/pythagoras-0.10.34.tar.gz --markdown 20240403/p/pythagoras/0.10.33-0.10.34/diff.md --exclude *.pyd
+[2024-04-03 08:06:12] WARNING root fetch - processPackages [pulumi-rabbitmq]: Timeout reached during download
+[2024-04-03 08:06:12] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/2a/c0/9ec286ef62b86752cf4b9ea1be8dae68c3fccc0bf641b0ba2dd656f5241b/pulumi_rabbitmq-3.4.0a1712123475.tar.gz
+[2024-04-03 08:06:12] WARNING root fetch - processPackages [pulumi-rabbitmq]: Timeout reached during download
+[2024-04-03 08:06:12] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2024-04-03 08:06:12] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1711780809.tar.gz tmp/pulumi_rabbitmq-3.4.0a1712123475.tar.gz --markdown 20240403/p/pulumi-rabbitmq/3.4.0a1711780809-3.4.0a1712123475/diff.md --exclude *.pyd
+[2024-04-03 08:06:13] INFO root fetch - processPackages [pythagoras]: Remove: archive file [/home/abi/fetcher/tmp/pythagoras-0.10.33.tar.gz]
+[2024-04-03 08:06:13] INFO root fetch - processPackages [pythagoras]: Remove: archive file [/home/abi/fetcher/tmp/pythagoras-0.10.34.tar.gz]
+[2024-04-03 08:06:13] INFO root fetch - main [MainThread]: End processing [pythagoras]: success
+[2024-04-03 08:06:13] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1711780809.tar.gz]
+[2024-04-03 08:06:13] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1712123475.tar.gz]
+[2024-04-03 08:06:13] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2024-04-03 08:06:13] INFO root fetch - main [MainThread]: Store serial: [22598653]

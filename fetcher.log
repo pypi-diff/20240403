@@ -23013,3 +23013,83 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 09:15:21] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
 [2024-04-03 09:15:21] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
 [2024-04-03 09:15:21] INFO root fetch - main [MainThread]: Store serial: [22599239]
+[2024-04-03 09:17:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599239]
+[2024-04-03 09:17:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 09:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dve-lumipy-testing
+[2024-04-03 09:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ggml-python
+[2024-04-03 09:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bycon
+[2024-04-03 09:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: semsis
+[2024-04-03 09:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: servicefoundry
+[2024-04-03 09:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: luminesce-sdk
+[2024-04-03 09:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: facebook-graphql-scraper
+[2024-04-03 09:17:30] INFO root fetch - processPackages [ggml-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 09:17:30] INFO root fetch - processPackages [facebook-graphql-scraper]: New version: [0.6] Old Version: [0.5]
+[2024-04-03 09:17:30] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-03 09:17:30] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-03 09:17:30] INFO root fetch - processPackages [semsis]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-03 09:17:30] INFO root fetch - processPackages [bycon]: New version: [1.6.5] Old Version: [1.6.3]
+[2024-04-03 09:17:30] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/a4/a6/72a3a1b75015aa10fc1a634df9de7395e5ee3098cc8a40b9ad52e9903308/ggml-python-0.0.8.tar.gz
+[2024-04-03 09:17:30] INFO root fetch - processPackages [servicefoundry]: New version: [0.9.9rc2] Old Version: [0.9.9rc1]
+[2024-04-03 09:17:30] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/4a/c4/15da184529d541065896d6fc08baeb0cf0cd8306dc7f581261291ee49d80/dve_lumipy_testing-0.1.998-py3-none-any.whl
+[2024-04-03 09:17:30] INFO root fetch - processPackages [facebook-graphql-scraper]: Downloading https://files.pythonhosted.org/packages/26/ea/9f35439dbed6f0fd32aebdf5da1481fde942971481c546505f58e5dce02a/facebook-graphql-scraper-0.5.tar.gz
+[2024-04-03 09:17:30] WARNING root fetch - processPackages [facebook-graphql-scraper]: Timeout reached during download
+[2024-04-03 09:17:30] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/b0/e8/2ccf396da07daad060fa8fd0fdedc93a528af1f5ba38b18bdc585f8caaac/luminesce_sdk-2.0.98.tar.gz
+[2024-04-03 09:17:30] WARNING root fetch - processPackages [ggml-python]: Timeout reached during download
+[2024-04-03 09:17:30] WARNING root fetch - processPackages [dve-lumipy-testing]: Timeout reached during download
+[2024-04-03 09:17:30] INFO root fetch - processPackages [semsis]: Downloading https://files.pythonhosted.org/packages/79/57/91f40cecc2a5009c1c39caf293329b81af931a1294084d1951edcc76c83d/semsis-0.1.1.tar.gz
+[2024-04-03 09:17:30] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/04/33/7468fc57e560e225812073b1a87808ae621c689fc7f7bd27034c65020bb7/bycon-1.6.3.tar.gz
+[2024-04-03 09:17:30] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/02/05/5016312c66b2c7a88f194b61f74c045e7449386ad8b2d1c5248a45a6094f/servicefoundry-0.9.9rc1.tar.gz
+[2024-04-03 09:17:30] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/a0/03/ddddac6caff850b83571ae83647e2da367b79168d84b90d423f01d4e12bc/ggml-python-0.0.9.tar.gz
+[2024-04-03 09:17:30] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/c4/37/ad6b4a98b1693f15c493b39fe5b70f5aa0561579d7d5b2d4c4eee74ad89a/dve_lumipy_testing-0.1.999-py3-none-any.whl
+[2024-04-03 09:17:30] WARNING root fetch - processPackages [luminesce-sdk]: Timeout reached during download
+[2024-04-03 09:17:30] INFO root fetch - processPackages [facebook-graphql-scraper]: Downloading https://files.pythonhosted.org/packages/cb/e9/d8719987f91d4e2383b1efd3f1925ae4a54908b12774beecc6dc12bd3616/facebook-graphql-scraper-0.6.tar.gz
+[2024-04-03 09:17:30] WARNING root fetch - processPackages [semsis]: Timeout reached during download
+[2024-04-03 09:17:30] WARNING root fetch - processPackages [facebook-graphql-scraper]: Timeout reached during download
+[2024-04-03 09:17:30] INFO root fetch - processPackages [facebook-graphql-scraper]: executing diffoscope
+[2024-04-03 09:17:30] INFO root fetch - processPackages [facebook-graphql-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facebook-graphql-scraper-0.5.tar.gz tmp/facebook-graphql-scraper-0.6.tar.gz --markdown 20240403/f/facebook-graphql-scraper/0.5-0.6/diff.md --exclude *.pyd
+[2024-04-03 09:17:30] WARNING root fetch - processPackages [bycon]: Timeout reached during download
+[2024-04-03 09:17:31] WARNING root fetch - processPackages [servicefoundry]: Timeout reached during download
+[2024-04-03 09:17:31] WARNING root fetch - processPackages [dve-lumipy-testing]: Timeout reached during download
+[2024-04-03 09:17:31] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-04-03 09:17:31] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip --markdown 20240403/d/dve-lumipy-testing/0.1.998-0.1.999/diff.md --exclude *.pyd
+[2024-04-03 09:17:31] WARNING root fetch - processPackages [ggml-python]: Timeout reached during download
+[2024-04-03 09:17:31] INFO root fetch - processPackages [ggml-python]: executing diffoscope
+[2024-04-03 09:17:31] INFO root fetch - processPackages [ggml-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggml-python-0.0.8.tar.gz tmp/ggml-python-0.0.9.tar.gz --markdown 20240403/g/ggml-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 09:17:31] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/c9/9b/db0c2a879c62744430a540a0acfc0d7be954c3b4cd53257bfbe0096890e5/luminesce_sdk-2.0.99.tar.gz
+[2024-04-03 09:17:31] INFO root fetch - processPackages [semsis]: Downloading https://files.pythonhosted.org/packages/22/cf/cf712b2e101befb3c22a34bc5a85f7408b54d4b6edf3f60f0ebc8a0b688e/semsis-0.1.2.tar.gz
+[2024-04-03 09:17:31] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/ea/e3/f0c546fedbcd51008cab8c5be49423e8835a3c903f072162390c2b952829/bycon-1.6.5.tar.gz
+[2024-04-03 09:17:31] WARNING root fetch - processPackages [luminesce-sdk]: Timeout reached during download
+[2024-04-03 09:17:31] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-04-03 09:17:31] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.0.98.tar.gz tmp/luminesce_sdk-2.0.99.tar.gz --markdown 20240403/l/luminesce-sdk/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-03 09:17:31] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/95/2d/4d48175602335d472c23250316e448a45d05e4002ce13dc0e65cd515514a/servicefoundry-0.9.9rc2.tar.gz
+[2024-04-03 09:17:31] WARNING root fetch - processPackages [semsis]: Timeout reached during download
+[2024-04-03 09:17:31] INFO root fetch - processPackages [semsis]: executing diffoscope
+[2024-04-03 09:17:31] INFO root fetch - processPackages [semsis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semsis-0.1.1.tar.gz tmp/semsis-0.1.2.tar.gz --markdown 20240403/s/semsis/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-03 09:17:31] WARNING root fetch - processPackages [bycon]: Timeout reached during download
+[2024-04-03 09:17:31] INFO root fetch - processPackages [bycon]: executing diffoscope
+[2024-04-03 09:17:31] INFO root fetch - processPackages [bycon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bycon-1.6.3.tar.gz tmp/bycon-1.6.5.tar.gz --markdown 20240403/b/bycon/1.6.3-1.6.5/diff.md --exclude *.pyd
+[2024-04-03 09:17:31] WARNING root fetch - processPackages [servicefoundry]: Timeout reached during download
+[2024-04-03 09:17:31] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2024-04-03 09:17:31] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.9.9rc1.tar.gz tmp/servicefoundry-0.9.9rc2.tar.gz --markdown 20240403/s/servicefoundry/0.9.9rc1-0.9.9rc2/diff.md --exclude *.pyd
+[2024-04-03 09:17:31] INFO root fetch - processPackages [facebook-graphql-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook-graphql-scraper-0.5.tar.gz]
+[2024-04-03 09:17:31] INFO root fetch - processPackages [facebook-graphql-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook-graphql-scraper-0.6.tar.gz]
+[2024-04-03 09:17:31] INFO root fetch - main [MainThread]: End processing [facebook-graphql-scraper]: success
+[2024-04-03 09:17:32] INFO root fetch - processPackages [semsis]: Remove: archive file [/home/abi/fetcher/tmp/semsis-0.1.1.tar.gz]
+[2024-04-03 09:17:32] INFO root fetch - processPackages [semsis]: Remove: archive file [/home/abi/fetcher/tmp/semsis-0.1.2.tar.gz]
+[2024-04-03 09:17:32] INFO root fetch - main [MainThread]: End processing [semsis]: success
+[2024-04-03 09:17:32] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.0.98.tar.gz]
+[2024-04-03 09:17:32] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.0.99.tar.gz]
+[2024-04-03 09:17:32] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-04-03 09:17:32] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc1.tar.gz]
+[2024-04-03 09:17:32] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc2.tar.gz]
+[2024-04-03 09:17:32] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2024-04-03 09:17:32] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip]
+[2024-04-03 09:17:32] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip]
+[2024-04-03 09:17:32] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-04-03 09:17:33] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.8.tar.gz]
+[2024-04-03 09:17:33] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.9.tar.gz]
+[2024-04-03 09:17:33] INFO root fetch - main [MainThread]: End processing [ggml-python]: success
+[2024-04-03 09:17:33] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.6.3.tar.gz]
+[2024-04-03 09:17:33] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.6.5.tar.gz]
+[2024-04-03 09:17:33] INFO root fetch - main [MainThread]: End processing [bycon]: success
+[2024-04-03 09:17:33] INFO root fetch - main [MainThread]: Store serial: [22599269]

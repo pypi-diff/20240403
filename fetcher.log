@@ -2857,3 +2857,72 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 02:16:25] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-04-03 02:16:25] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-04-03 02:16:25] INFO root fetch - main [MainThread]: Store serial: [22593295]
+[2024-04-03 02:18:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593295]
+[2024-04-03 02:18:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 02:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-03 02:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.appsync-utils
+[2024-04-03 02:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NNSOM
+[2024-04-03 02:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mo-sql-parsing
+[2024-04-03 02:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-gitlab-runner
+[2024-04-03 02:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-budibase
+[2024-04-03 02:18:33] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-03 02:18:33] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-03 02:18:33] INFO root fetch - processPackages [mo-sql-parsing]: New version: [9.499.24023] Old Version: [9.485.24016]
+[2024-04-03 02:18:33] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-04-03 02:18:33] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-04-03 02:18:33] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-03 02:18:33] INFO root fetch - processPackages [NNSOM]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-04-03 02:18:33] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-03 02:18:33] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-03 02:18:33] WARNING root fetch - processPackages [cdklabs.appsync-utils]: Timeout reached during download
+[2024-04-03 02:18:33] WARNING root fetch - processPackages [cdk-budibase]: Timeout reached during download
+[2024-04-03 02:18:33] INFO root fetch - processPackages [NNSOM]: Downloading https://files.pythonhosted.org/packages/0c/af/b7cc541e23522ef12fbb0995215fc260e3dee40d51eaeb336d3930152739/nnsom-1.3.6.tar.gz
+[2024-04-03 02:18:33] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/8a/fa/9ccfd878f981f1ecfb0c8eaaeb222732e122891f363567e7c711e25d76c7/mo_sql_parsing-9.485.24016-py2.py3-none-any.whl
+[2024-04-03 02:18:34] WARNING root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Timeout reached during download
+[2024-04-03 02:18:34] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-04-03 02:18:34] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-03 02:18:34] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-03 02:18:34] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-04-03 02:18:34] WARNING root fetch - processPackages [mo-sql-parsing]: Timeout reached during download
+[2024-04-03 02:18:34] WARNING root fetch - processPackages [NNSOM]: Timeout reached during download
+[2024-04-03 02:18:34] WARNING root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Timeout reached during download
+[2024-04-03 02:18:34] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-03 02:18:34] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240403/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-03 02:18:34] WARNING root fetch - processPackages [cdk-gitlab-runner]: Timeout reached during download
+[2024-04-03 02:18:34] WARNING root fetch - processPackages [cdk-budibase]: Timeout reached during download
+[2024-04-03 02:18:34] WARNING root fetch - processPackages [cdklabs.appsync-utils]: Timeout reached during download
+[2024-04-03 02:18:34] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-04-03 02:18:34] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240403/c/cdk-budibase/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-03 02:18:34] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-04-03 02:18:34] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240403/c/cdklabs.appsync-utils/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-03 02:18:34] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/99/fa/7f02cfe11454bb459df063edf47f37a575907ee3cb615b4b43519369e4b1/mo_sql_parsing-9.499.24023-py2.py3-none-any.whl
+[2024-04-03 02:18:34] INFO root fetch - processPackages [NNSOM]: Downloading https://files.pythonhosted.org/packages/28/c9/fa4c1e2a558caffdbcb6481b7b988d17dcda4849c9ca8b2470a7ca99fc91/nnsom-1.3.7.tar.gz
+[2024-04-03 02:18:34] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-03 02:18:34] WARNING root fetch - processPackages [mo-sql-parsing]: Timeout reached during download
+[2024-04-03 02:18:34] INFO root fetch - processPackages [mo-sql-parsing]: executing diffoscope
+[2024-04-03 02:18:34] INFO root fetch - processPackages [mo-sql-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql_parsing-9.485.24016-py2.py3-none-any.whl.zip tmp/mo_sql_parsing-9.499.24023-py2.py3-none-any.whl.zip --markdown 20240403/m/mo-sql-parsing/9.485.24016-9.499.24023/diff.md --exclude *.pyd
+[2024-04-03 02:18:34] WARNING root fetch - processPackages [NNSOM]: Timeout reached during download
+[2024-04-03 02:18:34] INFO root fetch - processPackages [NNSOM]: executing diffoscope
+[2024-04-03 02:18:34] INFO root fetch - processPackages [NNSOM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnsom-1.3.6.tar.gz tmp/nnsom-1.3.7.tar.gz --markdown 20240403/N/NNSOM/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2024-04-03 02:18:34] WARNING root fetch - processPackages [cdk-gitlab-runner]: Timeout reached during download
+[2024-04-03 02:18:34] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-03 02:18:34] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240403/c/cdk-gitlab-runner/2.2.98-2.2.99/diff.md --exclude *.pyd
+[2024-04-03 02:18:34] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-03 02:18:34] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-03 02:18:34] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-03 02:18:35] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-04-03 02:18:35] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-04-03 02:18:35] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-04-03 02:18:35] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-04-03 02:18:35] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-04-03 02:18:35] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-04-03 02:18:35] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.485.24016-py2.py3-none-any.whl.zip]
+[2024-04-03 02:18:35] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.499.24023-py2.py3-none-any.whl.zip]
+[2024-04-03 02:18:35] INFO root fetch - main [MainThread]: End processing [mo-sql-parsing]: success
+[2024-04-03 02:18:35] INFO root fetch - processPackages [NNSOM]: Remove: archive file [/home/abi/fetcher/tmp/nnsom-1.3.6.tar.gz]
+[2024-04-03 02:18:35] INFO root fetch - processPackages [NNSOM]: Remove: archive file [/home/abi/fetcher/tmp/nnsom-1.3.7.tar.gz]
+[2024-04-03 02:18:35] INFO root fetch - main [MainThread]: End processing [NNSOM]: success
+[2024-04-03 02:18:35] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-03 02:18:35] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-03 02:18:35] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-03 02:18:35] INFO root fetch - main [MainThread]: Store serial: [22593311]

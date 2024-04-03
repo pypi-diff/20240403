@@ -2278,3 +2278,190 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 02:01:56] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
 [2024-04-03 02:01:56] INFO root fetch - main [MainThread]: End processing [burr]: success
 [2024-04-03 02:01:56] INFO root fetch - main [MainThread]: Store serial: [22593123]
+[2024-04-03 02:04:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593123]
+[2024-04-03 02:04:05] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-04-03 02:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: google-api-python-client
+[2024-04-03 02:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: octostar-streamlit
+[2024-04-03 02:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirq
+[2024-04-03 02:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-skill-local-music
+[2024-04-03 02:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-ft
+[2024-04-03 02:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cirq-google
+[2024-04-03 02:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirq-rigetti
+[2024-04-03 02:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq-pasqal
+[2024-04-03 02:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cirq-aqt
+[2024-04-03 02:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Leonardo-Ai-SDK
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-ft]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-aqt]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-google]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/be/bd/4ba0f03b56e6c822cdbf91ed532098e0e8f178ee2401f2fc24718ae5286f/cirq_ft-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 02:04:06] INFO root fetch - processPackages [octostar-streamlit]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-03 02:04:06] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [5.3.0] Old Version: [5.2.6]
+[2024-04-03 02:04:06] INFO root fetch - processPackages [google-api-python-client]: New version: [2.99.0] Old Version: [2.98.0]
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/16/5a/faf2e36f4d84381e08f2a1e87040c5189cf1bf086fd073eab6579b28ac7e/cirq_google-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/01/8f/d89096f052f7e40d6d7c86c6c5c3f9ee2d7481242fbde2ae2aa3603e57e4/cirq_aqt-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/33/c4/0981613d0ce9ef36780b4f289a0a5624fa26b79cd27bace0f1f0939f8986/cirq_rigetti-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/75/d0/706bb404be4face9f29037aae700071958a852d7d48855ee0d1f7e509d43/cirq_pasqal-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/28/50/a50f357bcc734fe9274e28034558a40eeaa80b7f41daff30268427b8f62c/cirq-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 02:04:06] INFO root fetch - processPackages [neon-skill-local-music]: New version: [2.0.1a2] Old Version: [2.0.1a1]
+[2024-04-03 02:04:06] WARNING root fetch - processPackages [cirq-ft]: Timeout reached during download
+[2024-04-03 02:04:06] INFO root fetch - processPackages [octostar-streamlit]: Downloading https://files.pythonhosted.org/packages/21/57/c5739ea41a9d8a2134c26a10e790bb4617487c61e2f82ea316ce3b54f359/octostar_streamlit-0.1.0.tar.gz
+[2024-04-03 02:04:06] WARNING root fetch - processPackages [cirq-aqt]: Timeout reached during download
+[2024-04-03 02:04:06] INFO root fetch - processPackages [google-api-python-client]: Downloading https://files.pythonhosted.org/packages/67/71/292b30cae130a9d187619a5058671833733f9ef835252e67f88dbbcca9bf/google-api-python-client-2.98.0.tar.gz
+[2024-04-03 02:04:06] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/47/1a/f6aadb736dece9069a468953fa42aea606845da63b9a1dcf9d4c1039ce2b/Leonardo-Ai-SDK-5.2.6.tar.gz
+[2024-04-03 02:04:06] WARNING root fetch - processPackages [cirq]: Timeout reached during download
+[2024-04-03 02:04:06] WARNING root fetch - processPackages [cirq-rigetti]: Timeout reached during download
+[2024-04-03 02:04:06] WARNING root fetch - processPackages [cirq-pasqal]: Timeout reached during download
+[2024-04-03 02:04:06] WARNING root fetch - processPackages [cirq-google]: Timeout reached during download
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/31/b4/05506a9246e5a5c3a8044d077561f679d30a74057be64c9f1bb8760eec21/cirq_ft-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 02:04:06] WARNING root fetch - processPackages [octostar-streamlit]: Timeout reached during download
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/05/f3/2a90b4d4866719acd1a88df57eb73c7fd67e883994c7851b52103d2dfa7f/cirq_aqt-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 02:04:06] INFO root fetch - processPackages [neon-skill-local-music]: Downloading https://files.pythonhosted.org/packages/4b/53/653b16e5baed76f56035a04a242ab2120082707f6340c86a693882fa8759/neon-skill-local_music-2.0.1a1.tar.gz
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/f2/23/c2c1bb5fa35d98390e2448e5ad2bbded00ddd8e214365f8bc635dfa83394/cirq_rigetti-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/dc/26/f430597129c88c955f1e6b8411813d6c4365d2f49a0d8783aa44b956d28b/cirq-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/f0/5e/5841067620c2e77357d23d386e52a395d31e8438e2fc1c307c3e57d8f19a/cirq_pasqal-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 02:04:06] WARNING root fetch - processPackages [google-api-python-client]: Skipping package: exceeds size limit 11651975>=10485760
+[2024-04-03 02:04:06] INFO root fetch - processPackages [google-api-python-client]: Start processing: coiled
+[2024-04-03 02:04:06] INFO root fetch - main [MainThread]: End processing [google-api-python-client] error
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/5d/a4/07a1b2489de1ee1499f57206aa9f19770ab93f55f0cf477b8c0779fb06cd/cirq_google-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 02:04:06] WARNING root fetch - processPackages [Leonardo-Ai-SDK]: Timeout reached during download
+[2024-04-03 02:04:06] WARNING root fetch - processPackages [cirq-ft]: Timeout reached during download
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-ft]: executing diffoscope
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-ft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ft-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq_ft-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq-ft/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 02:04:06] WARNING root fetch - processPackages [neon-skill-local-music]: Timeout reached during download
+[2024-04-03 02:04:06] WARNING root fetch - processPackages [cirq-aqt]: Timeout reached during download
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq_aqt-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq-aqt/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 02:04:06] WARNING root fetch - processPackages [cirq]: Timeout reached during download
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 02:04:06] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-04-03 02:04:06] WARNING root fetch - processPackages [cirq-rigetti]: Timeout reached during download
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2024-04-03 02:04:06] WARNING root fetch - processPackages [cirq-pasqal]: Timeout reached during download
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq_rigetti-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq-rigetti/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2024-04-03 02:04:06] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq_pasqal-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq-pasqal/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 02:04:06] INFO root fetch - processPackages [octostar-streamlit]: Downloading https://files.pythonhosted.org/packages/43/34/962a71b947e547e4b4b5b09337d824d7df130943835ac69f3dd5b8263872/octostar_streamlit-0.1.1.tar.gz
+[2024-04-03 02:04:07] WARNING root fetch - processPackages [cirq-google]: Timeout reached during download
+[2024-04-03 02:04:07] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2024-04-03 02:04:07] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq_google-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq-google/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 02:04:07] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/25/eb/d39e88fe64d8c59e2f9ca8c32266a834d5d40b473bee60f7caf5b1e1ebc8/Leonardo-Ai-SDK-5.3.0.tar.gz
+[2024-04-03 02:04:07] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-04-03 02:04:07] INFO root fetch - processPackages [neon-skill-local-music]: Downloading https://files.pythonhosted.org/packages/bf/6d/4caa0d97566f6749b1e67a5df3815f6f1233d6fe1cea2a7bf37ceccfecaa/neon-skill-local_music-2.0.1a2.tar.gz
+[2024-04-03 02:04:07] WARNING root fetch - processPackages [octostar-streamlit]: Timeout reached during download
+[2024-04-03 02:04:07] INFO root fetch - processPackages [octostar-streamlit]: executing diffoscope
+[2024-04-03 02:04:07] INFO root fetch - processPackages [octostar-streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octostar_streamlit-0.1.0.tar.gz tmp/octostar_streamlit-0.1.1.tar.gz --markdown 20240403/o/octostar-streamlit/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-03 02:04:07] WARNING root fetch - processPackages [Leonardo-Ai-SDK]: Timeout reached during download
+[2024-04-03 02:04:07] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2024-04-03 02:04:07] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-5.2.6.tar.gz tmp/Leonardo-Ai-SDK-5.3.0.tar.gz --markdown 20240403/L/Leonardo-Ai-SDK/5.2.6-5.3.0/diff.md --exclude *.pyd
+[2024-04-03 02:04:07] WARNING root fetch - processPackages [coiled]: Timeout reached during download
+[2024-04-03 02:04:07] WARNING root fetch - processPackages [neon-skill-local-music]: Timeout reached during download
+[2024-04-03 02:04:07] INFO root fetch - processPackages [neon-skill-local-music]: executing diffoscope
+[2024-04-03 02:04:07] INFO root fetch - processPackages [neon-skill-local-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-local_music-2.0.1a1.tar.gz tmp/neon-skill-local_music-2.0.1a2.tar.gz --markdown 20240403/n/neon-skill-local-music/2.0.1a1-2.0.1a2/diff.md --exclude *.pyd
+[2024-04-03 02:04:07] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-04-03 02:04:07] WARNING root fetch - processPackages [coiled]: Timeout reached during download
+[2024-04-03 02:04:07] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-04-03 02:04:07] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240403/c/coiled/1.9.1.dev8-1.9.1.dev9/diff.md --exclude *.pyd
+[2024-04-03 02:04:07] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 02:04:07] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 02:04:07] INFO root fetch - processPackages [cirq]: Start processing: cirq-web
+[2024-04-03 02:04:07] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2024-04-03 02:04:07] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 02:04:07] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 02:04:07] INFO root fetch - processPackages [cirq-aqt]: Start processing: onnxscript
+[2024-04-03 02:04:07] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2024-04-03 02:04:07] INFO root fetch - processPackages [cirq-web]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 02:04:07] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240402] Old Version: [0.1.0.dev20240401]
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-ft]: Start processing: cirq-core
+[2024-04-03 02:04:08] INFO root fetch - main [MainThread]: End processing [cirq-ft]: success
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/63/52/9c935718e4b29aec07a97f563522adf9a2bac50999fb45c34ee20e08a738/cirq_web-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-pasqal]: Start processing: edk2-pytool-library
+[2024-04-03 02:04:08] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2024-04-03 02:04:08] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/b9/af/711940d308381f1f23b10c5f19289a7046f267474875b36c350ba475c2f2/onnxscript-0.1.0.dev20240401.tar.gz
+[2024-04-03 02:04:08] INFO root fetch - processPackages [octostar-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/octostar_streamlit-0.1.0.tar.gz]
+[2024-04-03 02:04:08] INFO root fetch - processPackages [octostar-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/octostar_streamlit-0.1.1.tar.gz]
+[2024-04-03 02:04:08] INFO root fetch - processPackages [octostar-streamlit]: Start processing: cirq-ionq
+[2024-04-03 02:04:08] INFO root fetch - main [MainThread]: End processing [octostar-streamlit]: success
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-core]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 02:04:08] INFO root fetch - processPackages [neon-skill-local-music]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-local_music-2.0.1a1.tar.gz]
+[2024-04-03 02:04:08] INFO root fetch - processPackages [neon-skill-local-music]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-local_music-2.0.1a2.tar.gz]
+[2024-04-03 02:04:08] INFO root fetch - processPackages [neon-skill-local-music]: Start processing: smartcar
+[2024-04-03 02:04:08] INFO root fetch - main [MainThread]: End processing [neon-skill-local-music]: success
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-ionq]: New version: [1.4.0.dev20240402234712] Old Version: [1.4.0.dev20240401232442]
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 02:04:08] WARNING root fetch - processPackages [cirq-web]: Timeout reached during download
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-rigetti]: Start processing: qutip-jax
+[2024-04-03 02:04:08] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2024-04-03 02:04:08] INFO root fetch - processPackages [edk2-pytool-library]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/dc/8e/99f617110713c328e8da02d40b383ab175a3ca3314b9e66e2ec953584b41/cirq_core-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 02:04:08] WARNING root fetch - processPackages [onnxscript]: Timeout reached during download
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/b5/dc/297011a758fdb5aa1c75674616b8eaa57b136ffeffb6f55f4cb652126f73/cirq_web-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 02:04:08] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/ce/35/03a54df46f10543ebf9c0d559f2f019ca96a90311f2bafefb7fd7af54f85/onnxscript-0.1.0.dev20240402.tar.gz
+[2024-04-03 02:04:08] WARNING root fetch - processPackages [qutip-jax]: Skipping, unable to determine old version
+[2024-04-03 02:04:08] INFO root fetch - main [MainThread]: End processing [qutip-jax] error
+[2024-04-03 02:04:08] INFO root fetch - processPackages [smartcar]: New version: [6.9.0] Old Version: [6.8.0]
+[2024-04-03 02:04:08] WARNING root fetch - processPackages [cirq-core]: Timeout reached during download
+[2024-04-03 02:04:08] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.2.6.tar.gz]
+[2024-04-03 02:04:08] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.0.tar.gz]
+[2024-04-03 02:04:08] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/56/cc/24cd2661b051f53b908d340672cd47ab8794f021fd99fed3306796117089/cirq_ionq-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-03 02:04:08] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-04-03 02:04:08] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-04-03 02:04:08] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-04-03 02:04:08] INFO root fetch - processPackages [edk2-pytool-library]: Downloading https://files.pythonhosted.org/packages/d3/dd/9e9968e75ee14ecf32974fd3d51b6ca06ed9a88b62d33e7d0f20fefcf7ab/edk2-pytool-library-0.9.1.tar.gz
+[2024-04-03 02:04:08] WARNING root fetch - processPackages [cirq-web]: Timeout reached during download
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq_web-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq-web/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 02:04:08] WARNING root fetch - processPackages [onnxscript]: Timeout reached during download
+[2024-04-03 02:04:08] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-04-03 02:04:08] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240401.tar.gz tmp/onnxscript-0.1.0.dev20240402.tar.gz --markdown 20240403/o/onnxscript/0.1.0.dev20240401-0.1.0.dev20240402/diff.md --exclude *.pyd
+[2024-04-03 02:04:08] WARNING root fetch - processPackages [cirq-ionq]: Timeout reached during download
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/ac/1e/28c3676d2b0e79fdc72d3578f106d7fa64048fb247a81e327481ee02f8c4/cirq_core-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/5c/9f/e4c292970d22afd26862645d336a542770e1c754204ad75f0e8e94be378f/cirq_ionq-1.4.0.dev20240402234712-py3-none-any.whl
+[2024-04-03 02:04:08] INFO root fetch - processPackages [smartcar]: Downloading https://files.pythonhosted.org/packages/fe/b4/f5badd19d475232ed1a4e99e20bea978292059f322a4b19b584e307a0757/smartcar-6.8.0.tar.gz
+[2024-04-03 02:04:08] WARNING root fetch - processPackages [cirq-ionq]: Timeout reached during download
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq_ionq-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq-ionq/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 02:04:08] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2024-04-03 02:04:08] WARNING root fetch - processPackages [smartcar]: Timeout reached during download
+[2024-04-03 02:04:08] WARNING root fetch - processPackages [cirq-core]: Timeout reached during download
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2024-04-03 02:04:08] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.4.0.dev20240401232442-py3-none-any.whl.zip tmp/cirq_core-1.4.0.dev20240402234712-py3-none-any.whl.zip --markdown 20240403/c/cirq-core/1.4.0.dev20240401232442-1.4.0.dev20240402234712/diff.md --exclude *.pyd
+[2024-04-03 02:04:09] INFO root fetch - processPackages [smartcar]: Downloading https://files.pythonhosted.org/packages/7c/6d/6b68aff997d27cfc25084eec8b4ea53642eb5824d640e3d2b4b0c46ce86c/smartcar-6.9.0.tar.gz
+[2024-04-03 02:04:09] WARNING root fetch - processPackages [smartcar]: Timeout reached during download
+[2024-04-03 02:04:09] INFO root fetch - processPackages [smartcar]: executing diffoscope
+[2024-04-03 02:04:09] INFO root fetch - processPackages [smartcar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartcar-6.8.0.tar.gz tmp/smartcar-6.9.0.tar.gz --markdown 20240403/s/smartcar/6.8.0-6.9.0/diff.md --exclude *.pyd
+[2024-04-03 02:04:09] WARNING root fetch - processPackages [edk2-pytool-library]: Timeout reached during download
+[2024-04-03 02:04:09] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 02:04:09] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 02:04:09] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2024-04-03 02:04:09] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 02:04:09] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 02:04:09] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2024-04-03 02:04:09] INFO root fetch - processPackages [edk2-pytool-library]: Downloading https://files.pythonhosted.org/packages/7f/fa/a8d82168bbf0f14262200294a783666dad1db51b6d6b037a46d1089f5afe/edk2-pytool-library-0.9.2.tar.gz
+[2024-04-03 02:04:09] WARNING root fetch - processPackages [edk2-pytool-library]: Timeout reached during download
+[2024-04-03 02:04:09] INFO root fetch - processPackages [edk2-pytool-library]: executing diffoscope
+[2024-04-03 02:04:09] INFO root fetch - processPackages [edk2-pytool-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edk2-pytool-library-0.9.1.tar.gz tmp/edk2-pytool-library-0.9.2.tar.gz --markdown 20240403/e/edk2-pytool-library/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2024-04-03 02:04:09] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240401.tar.gz]
+[2024-04-03 02:04:09] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240402.tar.gz]
+[2024-04-03 02:04:09] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-04-03 02:04:10] INFO root fetch - processPackages [smartcar]: Remove: archive file [/home/abi/fetcher/tmp/smartcar-6.8.0.tar.gz]
+[2024-04-03 02:04:10] INFO root fetch - processPackages [smartcar]: Remove: archive file [/home/abi/fetcher/tmp/smartcar-6.9.0.tar.gz]
+[2024-04-03 02:04:10] INFO root fetch - main [MainThread]: End processing [smartcar]: success
+[2024-04-03 02:04:10] INFO root fetch - processPackages [edk2-pytool-library]: Remove: archive file [/home/abi/fetcher/tmp/edk2-pytool-library-0.9.1.tar.gz]
+[2024-04-03 02:04:10] INFO root fetch - processPackages [edk2-pytool-library]: Remove: archive file [/home/abi/fetcher/tmp/edk2-pytool-library-0.9.2.tar.gz]
+[2024-04-03 02:04:10] INFO root fetch - main [MainThread]: End processing [edk2-pytool-library]: success
+[2024-04-03 02:04:12] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-03 02:04:12] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240402234712-py3-none-any.whl.zip]
+[2024-04-03 02:04:12] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2024-04-03 02:04:12] INFO root fetch - main [MainThread]: Store serial: [22593169]

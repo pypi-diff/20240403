@@ -21945,3 +21945,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:28:25] INFO root fetch - processPackages [gh-util]: Remove: archive file [/home/abi/fetcher/tmp/gh_util-0.1.9.tar.gz]
 [2024-04-03 08:28:25] INFO root fetch - main [MainThread]: End processing [gh-util]: success
 [2024-04-03 08:28:25] INFO root fetch - main [MainThread]: Store serial: [22598809]
+[2024-04-03 08:30:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598809]
+[2024-04-03 08:30:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 08:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywebasto
+[2024-04-03 08:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auth-token-django
+[2024-04-03 08:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bro
+[2024-04-03 08:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tap-pushbullet
+[2024-04-03 08:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: facebook-graphql-scraper
+[2024-04-03 08:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myuplink
+[2024-04-03 08:30:34] INFO root fetch - processPackages [pywebasto]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-03 08:30:34] INFO root fetch - processPackages [tap-pushbullet]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-03 08:30:34] INFO root fetch - processPackages [pywebasto]: Downloading https://files.pythonhosted.org/packages/97/08/cf106e0a0a14f0631bde4418621f0a04d316b54ff1e801a9328ce4f8a330/pywebasto-1.0.4.tar.gz
+[2024-04-03 08:30:34] INFO root fetch - processPackages [facebook-graphql-scraper]: New version: [0.5] Old Version: [0.4]
+[2024-04-03 08:30:34] INFO root fetch - processPackages [bro]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-03 08:30:34] INFO root fetch - processPackages [auth-token-django]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-03 08:30:34] INFO root fetch - processPackages [myuplink]: New version: [0.6.0rc3] Old Version: [0.6.0rc2]
+[2024-04-03 08:30:34] WARNING root fetch - processPackages [pywebasto]: Timeout reached during download
+[2024-04-03 08:30:34] INFO root fetch - processPackages [tap-pushbullet]: Downloading https://files.pythonhosted.org/packages/d9/6a/d91b0baabd991051dcb80e289168a424502944d15069bcd680730125d19c/tap_pushbullet-0.2.0.tar.gz
+[2024-04-03 08:30:34] INFO root fetch - processPackages [facebook-graphql-scraper]: Downloading https://files.pythonhosted.org/packages/a4/cb/e7f10ed50b26c8d526fd7c0651bf135f9145a383cad29018e44b26be4726/facebook-graphql-scraper-0.4.tar.gz
+[2024-04-03 08:30:34] INFO root fetch - processPackages [bro]: Downloading https://files.pythonhosted.org/packages/45/13/fa7ec584b29b664bde319d32c2fbdf031f91504298e89c377f4ef654f60d/bro-0.2.8.tar.gz
+[2024-04-03 08:30:34] INFO root fetch - processPackages [auth-token-django]: Downloading https://files.pythonhosted.org/packages/c7/e0/ff1f1f2980c34f57168ed525e9850780e0cbfd9633ad9fcb5d2e2f4c3cbd/auth-token-django-0.1.2.tar.gz
+[2024-04-03 08:30:34] INFO root fetch - processPackages [myuplink]: Downloading https://files.pythonhosted.org/packages/8c/af/d8ee694a6d6588f5329b4da22d0fdbfc3636c3d1cc3488daca6abb66ee4b/myuplink-0.6.0rc2.tar.gz
+[2024-04-03 08:30:34] WARNING root fetch - processPackages [tap-pushbullet]: Timeout reached during download
+[2024-04-03 08:30:34] INFO root fetch - processPackages [pywebasto]: Downloading https://files.pythonhosted.org/packages/58/71/6094a896674d29b6da938e1c9c44331dd3edcd5ac86206a1c3653cda5a6c/pywebasto-1.0.5.tar.gz
+[2024-04-03 08:30:34] WARNING root fetch - processPackages [facebook-graphql-scraper]: Timeout reached during download
+[2024-04-03 08:30:34] WARNING root fetch - processPackages [myuplink]: Timeout reached during download
+[2024-04-03 08:30:34] WARNING root fetch - processPackages [bro]: Timeout reached during download
+[2024-04-03 08:30:34] WARNING root fetch - processPackages [pywebasto]: Timeout reached during download
+[2024-04-03 08:30:34] INFO root fetch - processPackages [tap-pushbullet]: Downloading https://files.pythonhosted.org/packages/8d/11/6a4d2875cffa3d2fe885a5818dac0a162686e0599fc58c39e2a611355efe/tap_pushbullet-0.2.1.tar.gz
+[2024-04-03 08:30:34] INFO root fetch - processPackages [pywebasto]: executing diffoscope
+[2024-04-03 08:30:34] INFO root fetch - processPackages [pywebasto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywebasto-1.0.4.tar.gz tmp/pywebasto-1.0.5.tar.gz --markdown 20240403/p/pywebasto/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-03 08:30:34] WARNING root fetch - processPackages [auth-token-django]: Timeout reached during download
+[2024-04-03 08:30:34] INFO root fetch - processPackages [facebook-graphql-scraper]: Downloading https://files.pythonhosted.org/packages/26/ea/9f35439dbed6f0fd32aebdf5da1481fde942971481c546505f58e5dce02a/facebook-graphql-scraper-0.5.tar.gz
+[2024-04-03 08:30:34] INFO root fetch - processPackages [myuplink]: Downloading https://files.pythonhosted.org/packages/77/29/85cc60aa24c09a7794197341d8fa1281b5d16f4736f3abba19a725157455/myuplink-0.6.0rc3.tar.gz
+[2024-04-03 08:30:34] WARNING root fetch - processPackages [tap-pushbullet]: Timeout reached during download
+[2024-04-03 08:30:34] INFO root fetch - processPackages [tap-pushbullet]: executing diffoscope
+[2024-04-03 08:30:34] INFO root fetch - processPackages [tap-pushbullet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_pushbullet-0.2.0.tar.gz tmp/tap_pushbullet-0.2.1.tar.gz --markdown 20240403/t/tap-pushbullet/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-03 08:30:34] INFO root fetch - processPackages [auth-token-django]: Downloading https://files.pythonhosted.org/packages/e8/17/56e36fd38288aa42e63ba805b26e61820960069ef73c749c67f098c0a581/auth-token-django-0.2.0.tar.gz
+[2024-04-03 08:30:34] WARNING root fetch - processPackages [myuplink]: Timeout reached during download
+[2024-04-03 08:30:34] INFO root fetch - processPackages [bro]: Downloading https://files.pythonhosted.org/packages/13/88/99a82bc78591cf49bff63966be5abea3e13e690b59b009625f5b735c2d8e/bro-0.2.9.tar.gz
+[2024-04-03 08:30:34] INFO root fetch - processPackages [myuplink]: executing diffoscope
+[2024-04-03 08:30:34] WARNING root fetch - processPackages [facebook-graphql-scraper]: Timeout reached during download
+[2024-04-03 08:30:34] INFO root fetch - processPackages [myuplink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myuplink-0.6.0rc2.tar.gz tmp/myuplink-0.6.0rc3.tar.gz --markdown 20240403/m/myuplink/0.6.0rc2-0.6.0rc3/diff.md --exclude *.pyd
+[2024-04-03 08:30:34] INFO root fetch - processPackages [facebook-graphql-scraper]: executing diffoscope
+[2024-04-03 08:30:34] INFO root fetch - processPackages [facebook-graphql-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facebook-graphql-scraper-0.4.tar.gz tmp/facebook-graphql-scraper-0.5.tar.gz --markdown 20240403/f/facebook-graphql-scraper/0.4-0.5/diff.md --exclude *.pyd
+[2024-04-03 08:30:34] WARNING root fetch - processPackages [auth-token-django]: Timeout reached during download
+[2024-04-03 08:30:34] INFO root fetch - processPackages [auth-token-django]: executing diffoscope
+[2024-04-03 08:30:34] INFO root fetch - processPackages [auth-token-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth-token-django-0.1.2.tar.gz tmp/auth-token-django-0.2.0.tar.gz --markdown 20240403/a/auth-token-django/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2024-04-03 08:30:35] WARNING root fetch - processPackages [bro]: Timeout reached during download
+[2024-04-03 08:30:35] INFO root fetch - processPackages [bro]: executing diffoscope
+[2024-04-03 08:30:35] INFO root fetch - processPackages [bro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bro-0.2.8.tar.gz tmp/bro-0.2.9.tar.gz --markdown 20240403/b/bro/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-03 08:30:35] INFO root fetch - processPackages [pywebasto]: Remove: archive file [/home/abi/fetcher/tmp/pywebasto-1.0.4.tar.gz]
+[2024-04-03 08:30:35] INFO root fetch - processPackages [pywebasto]: Remove: archive file [/home/abi/fetcher/tmp/pywebasto-1.0.5.tar.gz]
+[2024-04-03 08:30:35] INFO root fetch - main [MainThread]: End processing [pywebasto]: success
+[2024-04-03 08:30:35] INFO root fetch - processPackages [tap-pushbullet]: Remove: archive file [/home/abi/fetcher/tmp/tap_pushbullet-0.2.0.tar.gz]
+[2024-04-03 08:30:35] INFO root fetch - processPackages [tap-pushbullet]: Remove: archive file [/home/abi/fetcher/tmp/tap_pushbullet-0.2.1.tar.gz]
+[2024-04-03 08:30:35] INFO root fetch - main [MainThread]: End processing [tap-pushbullet]: success
+[2024-04-03 08:30:35] INFO root fetch - processPackages [facebook-graphql-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook-graphql-scraper-0.4.tar.gz]
+[2024-04-03 08:30:35] INFO root fetch - processPackages [facebook-graphql-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook-graphql-scraper-0.5.tar.gz]
+[2024-04-03 08:30:35] INFO root fetch - main [MainThread]: End processing [facebook-graphql-scraper]: success
+[2024-04-03 08:30:35] INFO root fetch - processPackages [myuplink]: Remove: archive file [/home/abi/fetcher/tmp/myuplink-0.6.0rc2.tar.gz]
+[2024-04-03 08:30:35] INFO root fetch - processPackages [myuplink]: Remove: archive file [/home/abi/fetcher/tmp/myuplink-0.6.0rc3.tar.gz]
+[2024-04-03 08:30:35] INFO root fetch - main [MainThread]: End processing [myuplink]: success
+[2024-04-03 08:30:35] INFO root fetch - processPackages [auth-token-django]: Remove: archive file [/home/abi/fetcher/tmp/auth-token-django-0.1.2.tar.gz]
+[2024-04-03 08:30:35] INFO root fetch - processPackages [auth-token-django]: Remove: archive file [/home/abi/fetcher/tmp/auth-token-django-0.2.0.tar.gz]
+[2024-04-03 08:30:35] INFO root fetch - main [MainThread]: End processing [auth-token-django]: success
+[2024-04-03 08:30:35] INFO root fetch - processPackages [bro]: Remove: archive file [/home/abi/fetcher/tmp/bro-0.2.8.tar.gz]
+[2024-04-03 08:30:35] INFO root fetch - processPackages [bro]: Remove: archive file [/home/abi/fetcher/tmp/bro-0.2.9.tar.gz]
+[2024-04-03 08:30:35] INFO root fetch - main [MainThread]: End processing [bro]: success
+[2024-04-03 08:30:35] INFO root fetch - main [MainThread]: Store serial: [22598828]

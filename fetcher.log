@@ -16549,3 +16549,127 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:04:52] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.2.tar.gz]
 [2024-04-03 06:04:52] INFO root fetch - main [MainThread]: End processing [not1mm]: success
 [2024-04-03 06:04:52] INFO root fetch - main [MainThread]: Store serial: [22597264]
+[2024-04-03 06:06:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597264]
+[2024-04-03 06:07:01] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-03 06:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-document-page
+[2024-04-03 06:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shellserver
+[2024-04-03 06:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-knowledge
+[2024-04-03 06:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chromedriver-binary
+[2024-04-03 06:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyAthena
+[2024-04-03 06:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-diffsinger
+[2024-04-03 06:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MobileInventoryCLI
+[2024-04-03 06:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyqqq
+[2024-04-03 06:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python
+[2024-04-03 06:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-aa
+[2024-04-03 06:07:02] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: New version: [16.0.20240328.1] Old Version: [16.0.20240206.0]
+[2024-04-03 06:07:02] INFO root fetch - processPackages [odoo-addon-document-page]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.0.2]
+[2024-04-03 06:07:02] INFO root fetch - processPackages [pyqqq]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-03 06:07:02] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-03 06:07:02] INFO root fetch - processPackages [shellserver]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-03 06:07:02] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.42] Old Version: [0.4.41]
+[2024-04-03 06:07:02] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: Downloading https://files.pythonhosted.org/packages/43/9f/b9f06039f139ee85f236347f0987251e19bc3e57957abdd4c5a32feff081/odoo_addons_oca_knowledge-16.0.20240206.0-py3-none-any.whl
+[2024-04-03 06:07:02] INFO root fetch - processPackages [odoo-addon-document-page]: Downloading https://files.pythonhosted.org/packages/6f/27/c1375d0a13257fb81b1b40dae0928076c0c830efbf2db9339dab4d1dceea/odoo_addon_document_page-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-03 06:07:02] INFO root fetch - processPackages [PyAthena]: New version: [3.6.0] Old Version: [3.5.1]
+[2024-04-03 06:07:02] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-03 06:07:02] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/9e/ec/add8f2fa983552de52d5beb564d5163c224814f1d07ae21aeb03036fa673/pyqqq-0.6.1.tar.gz
+[2024-04-03 06:07:02] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:07:02] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/d7/84/2b5128d60fb2a830ef7d665a716b239dfc23445cea91e1acd61ce5c4b137/MobileInventoryCLI-0.4.41.tar.gz
+[2024-04-03 06:07:02] INFO root fetch - processPackages [tencentcloud-sdk-python]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:07:02] INFO root fetch - processPackages [shellserver]: Downloading https://files.pythonhosted.org/packages/8b/80/a62b47f1cf058538730dfcd7ab1670e79fcb30a1336d6ee74cf7fa6350bd/shellserver-0.1.0.tar.gz
+[2024-04-03 06:07:02] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: Downloading https://files.pythonhosted.org/packages/5d/e3/70a53ccd4253c364fde721c9091a0d07b0cafa9c92938dbfd0f9c81462be/nonebot_plugin_diffsinger-0.1.0.tar.gz
+[2024-04-03 06:07:02] WARNING root fetch - processPackages [odoo-addons-oca-knowledge]: Timeout reached during download
+[2024-04-03 06:07:02] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-03 06:07:02] WARNING root fetch - processPackages [pyqqq]: Timeout reached during download
+[2024-04-03 06:07:02] WARNING root fetch - processPackages [shellserver]: Timeout reached during download
+[2024-04-03 06:07:02] WARNING root fetch - processPackages [MobileInventoryCLI]: Timeout reached during download
+[2024-04-03 06:07:02] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: Downloading https://files.pythonhosted.org/packages/fd/8e/69e546cfdc57707d716399c6e90773784ed09aeeff0883344c3b82e3b29f/odoo_addons_oca_knowledge-16.0.20240328.1-py3-none-any.whl
+[2024-04-03 06:07:02] WARNING root fetch - processPackages [nonebot-plugin-diffsinger]: Timeout reached during download
+[2024-04-03 06:07:02] WARNING root fetch - processPackages [odoo-addon-document-page]: Timeout reached during download
+[2024-04-03 06:07:02] INFO root fetch - processPackages [PyAthena]: Downloading https://files.pythonhosted.org/packages/05/b0/a86d4563c55e89245cc3ae61ac9204054dc98f2cfb33895ae4c901b00b1c/pyathena-3.5.1.tar.gz
+[2024-04-03 06:07:02] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Downloading https://files.pythonhosted.org/packages/a2/4c/3c7c6150a011e32b81b38a92f8897a5c6ee494b584fd6090858e85489c02/tencentcloud-sdk-python-aa-3.0.998.tar.gz
+[2024-04-03 06:07:02] WARNING root fetch - processPackages [chromedriver-binary]: Timeout reached during download
+[2024-04-03 06:07:02] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/0e/49/d3deea1dbe9eed3d486f850eab70b665bc903e06042c7b39c19585e01b6a/tencentcloud-sdk-python-3.0.998.tar.gz
+[2024-04-03 06:07:02] INFO root fetch - processPackages [shellserver]: Downloading https://files.pythonhosted.org/packages/57/71/899a4ae73eb5b1fb9024616719dc099dc49fce79c11822d3c03641bf0bcf/shellserver-0.1.1.tar.gz
+[2024-04-03 06:07:02] WARNING root fetch - processPackages [odoo-addons-oca-knowledge]: Timeout reached during download
+[2024-04-03 06:07:02] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: executing diffoscope
+[2024-04-03 06:07:02] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_knowledge-16.0.20240206.0-py3-none-any.whl.zip tmp/odoo_addons_oca_knowledge-16.0.20240328.1-py3-none-any.whl.zip --markdown 20240403/o/odoo-addons-oca-knowledge/16.0.20240206.0-16.0.20240328.1/diff.md --exclude *.pyd
+[2024-04-03 06:07:02] INFO root fetch - processPackages [odoo-addon-document-page]: Downloading https://files.pythonhosted.org/packages/3c/d0/9a049969aebfdc447b29ceca952b4a142cb2898491710555b8e7d054a182/odoo_addon_document_page-17.0.1.1.0-py3-none-any.whl
+[2024-04-03 06:07:02] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/02/81/fdfd81fa0dc26157eff3ef20bf3afa8275db9fe4a04484ea54342ea408ee/pyqqq-0.6.2.tar.gz
+[2024-04-03 06:07:02] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-03 06:07:02] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/ce/8a/ae21b5835017f1490f2114eff30bb40a268b36b630edc6177dd209dca9d0/MobileInventoryCLI-0.4.42.tar.gz
+[2024-04-03 06:07:02] WARNING root fetch - processPackages [PyAthena]: Timeout reached during download
+[2024-04-03 06:07:02] WARNING root fetch - processPackages [shellserver]: Timeout reached during download
+[2024-04-03 06:07:02] INFO root fetch - processPackages [shellserver]: executing diffoscope
+[2024-04-03 06:07:02] INFO root fetch - processPackages [shellserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellserver-0.1.0.tar.gz tmp/shellserver-0.1.1.tar.gz --markdown 20240403/s/shellserver/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-03 06:07:02] WARNING root fetch - processPackages [pyqqq]: Timeout reached during download
+[2024-04-03 06:07:02] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-03 06:07:02] WARNING root fetch - processPackages [chromedriver-binary]: Timeout reached during download
+[2024-04-03 06:07:02] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.6.1.tar.gz tmp/pyqqq-0.6.2.tar.gz --markdown 20240403/p/pyqqq/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2024-04-03 06:07:02] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-03 06:07:02] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240403/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2024-04-03 06:07:02] WARNING root fetch - processPackages [odoo-addon-document-page]: Timeout reached during download
+[2024-04-03 06:07:02] INFO root fetch - processPackages [odoo-addon-document-page]: executing diffoscope
+[2024-04-03 06:07:02] INFO root fetch - processPackages [odoo-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_document_page-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-document-page/17.0.1.0.0.2-17.0.1.1.0/diff.md --exclude *.pyd
+[2024-04-03 06:07:02] WARNING root fetch - processPackages [MobileInventoryCLI]: Timeout reached during download
+[2024-04-03 06:07:02] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-04-03 06:07:02] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.41.tar.gz tmp/MobileInventoryCLI-0.4.42.tar.gz --markdown 20240403/M/MobileInventoryCLI/0.4.41-0.4.42/diff.md --exclude *.pyd
+[2024-04-03 06:07:02] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: Downloading https://files.pythonhosted.org/packages/e9/1b/072d5de8c3f02cb7feeae33c00a5390b318d5a03838707d208653c1fcf40/nonebot_plugin_diffsinger-0.1.1.tar.gz
+[2024-04-03 06:07:02] INFO root fetch - processPackages [PyAthena]: Downloading https://files.pythonhosted.org/packages/9d/3b/7c17c7beb442da0fd7bf85666d9a64fc574730c17f8c1eb918bd2f09648d/pyathena-3.6.0.tar.gz
+[2024-04-03 06:07:02] WARNING root fetch - processPackages [tencentcloud-sdk-python-aa]: Timeout reached during download
+[2024-04-03 06:07:03] WARNING root fetch - processPackages [nonebot-plugin-diffsinger]: Timeout reached during download
+[2024-04-03 06:07:03] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: executing diffoscope
+[2024-04-03 06:07:03] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_diffsinger-0.1.0.tar.gz tmp/nonebot_plugin_diffsinger-0.1.1.tar.gz --markdown 20240403/n/nonebot-plugin-diffsinger/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-03 06:07:03] WARNING root fetch - processPackages [PyAthena]: Timeout reached during download
+[2024-04-03 06:07:03] INFO root fetch - processPackages [PyAthena]: executing diffoscope
+[2024-04-03 06:07:03] INFO root fetch - processPackages [PyAthena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyathena-3.5.1.tar.gz tmp/pyathena-3.6.0.tar.gz --markdown 20240403/P/PyAthena/3.5.1-3.6.0/diff.md --exclude *.pyd
+[2024-04-03 06:07:03] WARNING root fetch - processPackages [tencentcloud-sdk-python]: Timeout reached during download
+[2024-04-03 06:07:03] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Downloading https://files.pythonhosted.org/packages/4c/d6/5bd523bd521bb045390dcbe68344c43369604ab7a14166596994e4a2a42f/tencentcloud-sdk-python-aa-3.0.999.tar.gz
+[2024-04-03 06:07:03] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/72/eb/b7f20f227c30beeb1298a5013dbd98cf616d9c321398cf216c1b15940a8b/tencentcloud-sdk-python-3.0.999.tar.gz
+[2024-04-03 06:07:03] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_knowledge-16.0.20240206.0-py3-none-any.whl.zip]
+[2024-04-03 06:07:03] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_knowledge-16.0.20240328.1-py3-none-any.whl.zip]
+[2024-04-03 06:07:03] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: Start processing: threadmem
+[2024-04-03 06:07:03] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-knowledge]: success
+[2024-04-03 06:07:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-aa]: Timeout reached during download
+[2024-04-03 06:07:03] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: executing diffoscope
+[2024-04-03 06:07:03] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-aa-3.0.998.tar.gz tmp/tencentcloud-sdk-python-aa-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-aa/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:07:03] INFO root fetch - processPackages [threadmem]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-03 06:07:03] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.6.1.tar.gz]
+[2024-04-03 06:07:03] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.6.2.tar.gz]
+[2024-04-03 06:07:03] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-03 06:07:03] INFO root fetch - processPackages [threadmem]: Downloading https://files.pythonhosted.org/packages/d1/30/a9cf7f0975ba0079eb4b0074823ecadf7175a720835daa0dfe3c4994eb7a/threadmem-0.2.8.tar.gz
+[2024-04-03 06:07:03] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-04-03 06:07:03] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-04-03 06:07:03] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-03 06:07:03] WARNING root fetch - processPackages [threadmem]: Timeout reached during download
+[2024-04-03 06:07:03] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_diffsinger-0.1.0.tar.gz]
+[2024-04-03 06:07:03] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_diffsinger-0.1.1.tar.gz]
+[2024-04-03 06:07:03] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-diffsinger]: success
+[2024-04-03 06:07:03] INFO root fetch - processPackages [shellserver]: Remove: archive file [/home/abi/fetcher/tmp/shellserver-0.1.0.tar.gz]
+[2024-04-03 06:07:03] INFO root fetch - processPackages [shellserver]: Remove: archive file [/home/abi/fetcher/tmp/shellserver-0.1.1.tar.gz]
+[2024-04-03 06:07:03] INFO root fetch - main [MainThread]: End processing [shellserver]: success
+[2024-04-03 06:07:03] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.41.tar.gz]
+[2024-04-03 06:07:03] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.42.tar.gz]
+[2024-04-03 06:07:03] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-04-03 06:07:04] INFO root fetch - processPackages [PyAthena]: Remove: archive file [/home/abi/fetcher/tmp/pyathena-3.5.1.tar.gz]
+[2024-04-03 06:07:04] INFO root fetch - processPackages [PyAthena]: Remove: archive file [/home/abi/fetcher/tmp/pyathena-3.6.0.tar.gz]
+[2024-04-03 06:07:04] INFO root fetch - main [MainThread]: End processing [PyAthena]: success
+[2024-04-03 06:07:04] INFO root fetch - processPackages [odoo-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-03 06:07:04] INFO root fetch - processPackages [odoo-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-03 06:07:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page]: success
+[2024-04-03 06:07:04] INFO root fetch - processPackages [threadmem]: Downloading https://files.pythonhosted.org/packages/87/25/85a9dacfcff4df9fa520c1badc3111f837a0e83a4abc57ead714a4c4b42b/threadmem-0.2.9.tar.gz
+[2024-04-03 06:07:04] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aa-3.0.998.tar.gz]
+[2024-04-03 06:07:04] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aa-3.0.999.tar.gz]
+[2024-04-03 06:07:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-aa]: success
+[2024-04-03 06:07:04] WARNING root fetch - processPackages [threadmem]: Timeout reached during download
+[2024-04-03 06:07:04] INFO root fetch - processPackages [threadmem]: executing diffoscope
+[2024-04-03 06:07:04] INFO root fetch - processPackages [threadmem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threadmem-0.2.8.tar.gz tmp/threadmem-0.2.9.tar.gz --markdown 20240403/t/threadmem/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-03 06:07:04] WARNING root fetch - processPackages [tencentcloud-sdk-python]: Timeout reached during download
+[2024-04-03 06:07:04] INFO root fetch - processPackages [tencentcloud-sdk-python]: executing diffoscope
+[2024-04-03 06:07:04] INFO root fetch - processPackages [tencentcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-3.0.998.tar.gz tmp/tencentcloud-sdk-python-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:07:04] INFO root fetch - processPackages [threadmem]: Remove: archive file [/home/abi/fetcher/tmp/threadmem-0.2.8.tar.gz]
+[2024-04-03 06:07:04] INFO root fetch - processPackages [threadmem]: Remove: archive file [/home/abi/fetcher/tmp/threadmem-0.2.9.tar.gz]
+[2024-04-03 06:07:04] INFO root fetch - main [MainThread]: End processing [threadmem]: success
+[2024-04-03 06:07:15] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.998.tar.gz]
+[2024-04-03 06:07:15] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.999.tar.gz]
+[2024-04-03 06:07:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
+[2024-04-03 06:07:15] INFO root fetch - main [MainThread]: Store serial: [22597292]

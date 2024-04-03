@@ -20274,3 +20274,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 07:29:07] INFO root fetch - processPackages [cerc-hub]: Remove: archive file [/home/abi/fetcher/tmp/cerc-hub-0.1.9.7.tar.gz]
 [2024-04-03 07:29:07] INFO root fetch - main [MainThread]: End processing [cerc-hub]: success
 [2024-04-03 07:29:07] INFO root fetch - main [MainThread]: Store serial: [22598328]
+[2024-04-03 07:31:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598328]
+[2024-04-03 07:31:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 07:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: traisms
+[2024-04-03 07:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlatom
+[2024-04-03 07:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: midvoxio
+[2024-04-03 07:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sleipnirgroup-jormungandr
+[2024-04-03 07:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-repair-refurbish
+[2024-04-03 07:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-repair-security
+[2024-04-03 07:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-repair-type-refurbish
+[2024-04-03 07:31:16] INFO root fetch - processPackages [traisms]: New version: [0.1.0] Old Version: [0.0.7]
+[2024-04-03 07:31:16] INFO root fetch - processPackages [midvoxio]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-03 07:31:16] INFO root fetch - processPackages [traisms]: Downloading https://files.pythonhosted.org/packages/40/56/c3de75b8cdd41788a5cffe3cee1b68fb337b9519143374a3d87ac0504e57/traisms-0.0.7.tar.gz
+[2024-04-03 07:31:16] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-04-03 07:31:16] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-04-03 07:31:16] INFO root fetch - processPackages [mlatom]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-04-03 07:31:16] INFO root fetch - processPackages [odoo-addon-repair-security]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-04-03 07:31:16] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-04-03 07:31:16] WARNING root fetch - processPackages [traisms]: Timeout reached during download
+[2024-04-03 07:31:16] INFO root fetch - processPackages [traisms]: Downloading https://files.pythonhosted.org/packages/ed/4f/24ae353c329dd1a3665dedce6a74877db3ed3ac0b16c502b9f662f4b0127/traisms-0.1.0.tar.gz
+[2024-04-03 07:31:16] INFO root fetch - processPackages [midvoxio]: Downloading https://files.pythonhosted.org/packages/3a/df/c5a5d8160815d008a6991fa8a79501f30a1990680ac0a9b1156838b75ef8/midvoxio-0.1.4.tar.gz
+[2024-04-03 07:31:16] INFO root fetch - processPackages [mlatom]: Downloading https://files.pythonhosted.org/packages/f8/c4/3686617422faed58e93c9156c3cf133817dabdc75ee570020955da7e0b7a/mlatom-3.2.0.tar.gz
+[2024-04-03 07:31:16] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: Downloading https://files.pythonhosted.org/packages/58/09/7a50b1a124225de2300d8fff67e6beaddc8b7d4bdd8da501ac39ef740357/odoo_addon_repair_refurbish-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-03 07:31:16] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-04-03 07:31:16] INFO root fetch - processPackages [odoo-addon-repair-security]: Downloading https://files.pythonhosted.org/packages/7b/ed/fb7a38503880caf2f85ce66f6c08319ec35e9010145ca99e81e9e08e0911/odoo_addon_repair_security-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-03 07:31:16] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: Downloading https://files.pythonhosted.org/packages/4b/41/5ba637f1884f6488b0a905def3ac971f6ed23fb435555c4ae078a9a1c3c3/odoo_addon_repair_type_refurbish-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-03 07:31:16] WARNING root fetch - processPackages [mlatom]: Skipping package: exceeds size limit 51217114>=10485760
+[2024-04-03 07:31:16] INFO root fetch - main [MainThread]: End processing [mlatom] error
+[2024-04-03 07:31:16] WARNING root fetch - processPackages [traisms]: Timeout reached during download
+[2024-04-03 07:31:16] INFO root fetch - processPackages [traisms]: executing diffoscope
+[2024-04-03 07:31:16] INFO root fetch - processPackages [traisms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traisms-0.0.7.tar.gz tmp/traisms-0.1.0.tar.gz --markdown 20240403/t/traisms/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2024-04-03 07:31:16] WARNING root fetch - processPackages [midvoxio]: Timeout reached during download
+[2024-04-03 07:31:16] WARNING root fetch - processPackages [odoo-addon-repair-refurbish]: Timeout reached during download
+[2024-04-03 07:31:16] WARNING root fetch - processPackages [odoo-addon-repair-security]: Timeout reached during download
+[2024-04-03 07:31:16] WARNING root fetch - processPackages [odoo-addon-repair-type-refurbish]: Timeout reached during download
+[2024-04-03 07:31:16] WARNING root fetch - processPackages [sleipnirgroup-jormungandr]: Timeout reached during download
+[2024-04-03 07:31:16] INFO root fetch - processPackages [midvoxio]: Downloading https://files.pythonhosted.org/packages/97/84/b203947963f408b59b645c9d977ef6f83fbea3d9383ddb59aaadd2dd261b/midvoxio-0.1.5.tar.gz
+[2024-04-03 07:31:16] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: Downloading https://files.pythonhosted.org/packages/4c/73/16198d1b59e5f5b16012eef3eb9e4107eeee864fb6ca5e30cb3888038b14/odoo_addon_repair_refurbish-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-03 07:31:16] INFO root fetch - processPackages [odoo-addon-repair-security]: Downloading https://files.pythonhosted.org/packages/7c/c8/11c2153352a3a2493e97cd59c314bf14c5ce5246ee2b4fe3d5d3c2867a89/odoo_addon_repair_security-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-03 07:31:16] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: Downloading https://files.pythonhosted.org/packages/20/09/a40fddd7aec3537259ccc81fef4966ed49167956ec37b406940e4b452b3b/odoo_addon_repair_type_refurbish-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-03 07:31:16] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-04-03 07:31:16] WARNING root fetch - processPackages [midvoxio]: Timeout reached during download
+[2024-04-03 07:31:16] INFO root fetch - processPackages [midvoxio]: executing diffoscope
+[2024-04-03 07:31:16] INFO root fetch - processPackages [midvoxio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midvoxio-0.1.4.tar.gz tmp/midvoxio-0.1.5.tar.gz --markdown 20240403/m/midvoxio/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-03 07:31:16] WARNING root fetch - processPackages [odoo-addon-repair-refurbish]: Timeout reached during download
+[2024-04-03 07:31:16] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: executing diffoscope
+[2024-04-03 07:31:16] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_repair_refurbish-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_repair_refurbish-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-repair-refurbish/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2024-04-03 07:31:17] WARNING root fetch - processPackages [sleipnirgroup-jormungandr]: Timeout reached during download
+[2024-04-03 07:31:17] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-03 07:31:17] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240403/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/diff.md --exclude *.pyd
+[2024-04-03 07:31:17] INFO root fetch - processPackages [traisms]: Remove: archive file [/home/abi/fetcher/tmp/traisms-0.0.7.tar.gz]
+[2024-04-03 07:31:17] INFO root fetch - processPackages [traisms]: Remove: archive file [/home/abi/fetcher/tmp/traisms-0.1.0.tar.gz]
+[2024-04-03 07:31:17] INFO root fetch - main [MainThread]: End processing [traisms]: success
+[2024-04-03 07:31:17] WARNING root fetch - processPackages [odoo-addon-repair-security]: Timeout reached during download
+[2024-04-03 07:31:17] INFO root fetch - processPackages [odoo-addon-repair-security]: executing diffoscope
+[2024-04-03 07:31:17] INFO root fetch - processPackages [odoo-addon-repair-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_repair_security-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_repair_security-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-repair-security/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-03 07:31:17] WARNING root fetch - processPackages [odoo-addon-repair-type-refurbish]: Timeout reached during download
+[2024-04-03 07:31:17] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: executing diffoscope
+[2024-04-03 07:31:17] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_repair_type_refurbish-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_repair_type_refurbish-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-repair-type-refurbish/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2024-04-03 07:31:17] INFO root fetch - processPackages [midvoxio]: Remove: archive file [/home/abi/fetcher/tmp/midvoxio-0.1.4.tar.gz]
+[2024-04-03 07:31:17] INFO root fetch - processPackages [midvoxio]: Remove: archive file [/home/abi/fetcher/tmp/midvoxio-0.1.5.tar.gz]
+[2024-04-03 07:31:17] INFO root fetch - main [MainThread]: End processing [midvoxio]: success
+[2024-04-03 07:31:17] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_refurbish-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-03 07:31:17] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_refurbish-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-03 07:31:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-repair-refurbish]: success
+[2024-04-03 07:31:17] INFO root fetch - processPackages [odoo-addon-repair-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_security-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-03 07:31:17] INFO root fetch - processPackages [odoo-addon-repair-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_security-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-03 07:31:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-repair-security]: success
+[2024-04-03 07:31:17] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-04-03 07:31:17] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-04-03 07:31:17] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-03 07:31:18] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_type_refurbish-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-03 07:31:18] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_type_refurbish-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-03 07:31:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-repair-type-refurbish]: success
+[2024-04-03 07:31:18] INFO root fetch - main [MainThread]: Store serial: [22598357]

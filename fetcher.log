@@ -14144,3 +14144,53 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 04:24:35] INFO root fetch - processPackages [esphome-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/esphome-dashboard-20240403.0.tar.gz]
 [2024-04-03 04:24:35] INFO root fetch - main [MainThread]: End processing [esphome-dashboard]: success
 [2024-04-03 04:24:35] INFO root fetch - main [MainThread]: Store serial: [22596486]
+[2024-04-03 04:26:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596486]
+[2024-04-03 04:26:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 04:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py2docfx
+[2024-04-03 04:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: verus
+[2024-04-03 04:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qleegss
+[2024-04-03 04:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paibox
+[2024-04-03 04:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ollama-downloads
+[2024-04-03 04:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llama-index-vector-stores-neptune
+[2024-04-03 04:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: doubled
+[2024-04-03 04:26:46] INFO root fetch - processPackages [py2docfx]: New version: [0.1.2rc1669458] Old Version: [0.1.2rc1669367]
+[2024-04-03 04:26:46] INFO root fetch - processPackages [qleegss]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 04:26:46] WARNING root fetch - processPackages [llama-index-vector-stores-neptune]: Skipping, unable to determine old version
+[2024-04-03 04:26:46] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-neptune] error
+[2024-04-03 04:26:46] INFO root fetch - processPackages [paibox]: New version: [1.0.0b1] Old Version: [1.0.0a7]
+[2024-04-03 04:26:46] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/c6/37/ca66c6a18d3da3c193ff9b2094c5d3b638ce9e3c3d6c372b4f3301e064e1/py2docfx-0.1.2rc1669367-py3-none-any.whl
+[2024-04-03 04:26:46] WARNING root fetch - processPackages [doubled]: Skipping, unable to determine old version
+[2024-04-03 04:26:46] INFO root fetch - main [MainThread]: End processing [doubled] error
+[2024-04-03 04:26:46] WARNING root fetch - processPackages [verus]: Skipping, unable to determine old version
+[2024-04-03 04:26:46] INFO root fetch - main [MainThread]: End processing [verus] error
+[2024-04-03 04:26:46] INFO root fetch - processPackages [ollama-downloads]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-03 04:26:46] WARNING root fetch - processPackages [py2docfx]: Timeout reached during download
+[2024-04-03 04:26:47] INFO root fetch - processPackages [qleegss]: Downloading https://files.pythonhosted.org/packages/06/1e/3ca6e311e0a7d815c65771d58053745632e0a11ad74e83e01770fdf7c2f7/qleegss-0.0.8.tar.gz
+[2024-04-03 04:26:47] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/65/c9/161f7928fab6e8779ab2b1eb2ef8d9f9ea60e9a943adb265715bf6997391/py2docfx-0.1.2rc1669458-py3-none-any.whl
+[2024-04-03 04:26:47] INFO root fetch - processPackages [paibox]: Downloading https://files.pythonhosted.org/packages/44/b2/cbf8003612e464fef90fa568e17406bf960791d5fa1c672861a76d7300a0/paibox-1.0.0a7.tar.gz
+[2024-04-03 04:26:47] INFO root fetch - processPackages [ollama-downloads]: Downloading https://files.pythonhosted.org/packages/84/f5/11201ad5559d5049efdf0398fe16af6d947e2bf2949defb2ce308f86f559/ollama_downloads-0.1.1.tar.gz
+[2024-04-03 04:26:47] WARNING root fetch - processPackages [qleegss]: Skipping package: exceeds size limit 20058685>=10485760
+[2024-04-03 04:26:47] INFO root fetch - main [MainThread]: End processing [qleegss] error
+[2024-04-03 04:26:47] WARNING root fetch - processPackages [ollama-downloads]: Timeout reached during download
+[2024-04-03 04:26:47] WARNING root fetch - processPackages [py2docfx]: Timeout reached during download
+[2024-04-03 04:26:47] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-03 04:26:47] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.2rc1669367-py3-none-any.whl.zip tmp/py2docfx-0.1.2rc1669458-py3-none-any.whl.zip --markdown 20240403/p/py2docfx/0.1.2rc1669367-0.1.2rc1669458/diff.md --exclude *.pyd
+[2024-04-03 04:26:47] WARNING root fetch - processPackages [paibox]: Timeout reached during download
+[2024-04-03 04:26:47] INFO root fetch - processPackages [ollama-downloads]: Downloading https://files.pythonhosted.org/packages/c6/d9/6f2c50264743828b1a0de6e0c6b0af4ba4c6c7dce8a64b7f5fa330ddd388/ollama_downloads-0.1.2.tar.gz
+[2024-04-03 04:26:47] INFO root fetch - processPackages [paibox]: Downloading https://files.pythonhosted.org/packages/c5/9d/335708375fba42b5b4a583b56dc7d81f12954f9af12c8c5ce68e1601862a/paibox-1.0.0b1.tar.gz
+[2024-04-03 04:26:47] WARNING root fetch - processPackages [ollama-downloads]: Timeout reached during download
+[2024-04-03 04:26:47] INFO root fetch - processPackages [ollama-downloads]: executing diffoscope
+[2024-04-03 04:26:47] INFO root fetch - processPackages [ollama-downloads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ollama_downloads-0.1.1.tar.gz tmp/ollama_downloads-0.1.2.tar.gz --markdown 20240403/o/ollama-downloads/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-03 04:26:47] WARNING root fetch - processPackages [paibox]: Timeout reached during download
+[2024-04-03 04:26:47] INFO root fetch - processPackages [paibox]: executing diffoscope
+[2024-04-03 04:26:47] INFO root fetch - processPackages [paibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paibox-1.0.0a7.tar.gz tmp/paibox-1.0.0b1.tar.gz --markdown 20240403/p/paibox/1.0.0a7-1.0.0b1/diff.md --exclude *.pyd
+[2024-04-03 04:26:47] INFO root fetch - processPackages [ollama-downloads]: Remove: archive file [/home/abi/fetcher/tmp/ollama_downloads-0.1.1.tar.gz]
+[2024-04-03 04:26:47] INFO root fetch - processPackages [ollama-downloads]: Remove: archive file [/home/abi/fetcher/tmp/ollama_downloads-0.1.2.tar.gz]
+[2024-04-03 04:26:47] INFO root fetch - main [MainThread]: End processing [ollama-downloads]: success
+[2024-04-03 04:26:48] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.2rc1669367-py3-none-any.whl.zip]
+[2024-04-03 04:26:48] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.2rc1669458-py3-none-any.whl.zip]
+[2024-04-03 04:26:48] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-03 04:26:48] INFO root fetch - processPackages [paibox]: Remove: archive file [/home/abi/fetcher/tmp/paibox-1.0.0a7.tar.gz]
+[2024-04-03 04:26:48] INFO root fetch - processPackages [paibox]: Remove: archive file [/home/abi/fetcher/tmp/paibox-1.0.0b1.tar.gz]
+[2024-04-03 04:26:48] INFO root fetch - main [MainThread]: End processing [paibox]: success
+[2024-04-03 04:26:48] INFO root fetch - main [MainThread]: Store serial: [22596513]

@@ -15129,3 +15129,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 04:57:43] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.0rc1.tar.gz]
 [2024-04-03 04:57:43] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
 [2024-04-03 04:57:43] INFO root fetch - main [MainThread]: Store serial: [22596815]
+[2024-04-03 04:59:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596815]
+[2024-04-03 04:59:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 04:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mystring
+[2024-04-03 04:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shipyard-templates
+[2024-04-03 04:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tulona
+[2024-04-03 04:59:52] INFO root fetch - processPackages [mystring]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-03 04:59:52] INFO root fetch - processPackages [tulona]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-03 04:59:52] INFO root fetch - processPackages [shipyard-templates]: New version: [0.8.1a0] Old Version: [0.8.0a2]
+[2024-04-03 04:59:52] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/88/05/d0d140db04c0b270b7380359ce66dc3b26477e6b13a36cd8ced2e0442041/mystring-0.2.98-py3-none-any.whl
+[2024-04-03 04:59:52] WARNING root fetch - processPackages [mystring]: Timeout reached during download
+[2024-04-03 04:59:53] INFO root fetch - processPackages [tulona]: Downloading https://files.pythonhosted.org/packages/32/44/16b7804a0d9c5e3313d3a4b7e75a4638945202e1e0b70baab9b85e40a21c/tulona-0.1.1.tar.gz
+[2024-04-03 04:59:53] INFO root fetch - processPackages [shipyard-templates]: Downloading https://files.pythonhosted.org/packages/2f/6c/cd6723c9473f1497c2e208ac982f98dbd57573fafcda2ab81f84d79f8c20/shipyard_templates-0.8.0a2.tar.gz
+[2024-04-03 04:59:53] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/fa/f7/968c4dde1769f6b1b7f54bedafe67abf4ae2c5ff261eaed5f05032e85e87/mystring-0.2.99-py3-none-any.whl
+[2024-04-03 04:59:53] WARNING root fetch - processPackages [tulona]: Timeout reached during download
+[2024-04-03 04:59:53] WARNING root fetch - processPackages [shipyard-templates]: Timeout reached during download
+[2024-04-03 04:59:53] WARNING root fetch - processPackages [mystring]: Timeout reached during download
+[2024-04-03 04:59:53] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2024-04-03 04:59:53] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.2.98-py3-none-any.whl.zip tmp/mystring-0.2.99-py3-none-any.whl.zip --markdown 20240403/m/mystring/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2024-04-03 04:59:53] INFO root fetch - processPackages [tulona]: Downloading https://files.pythonhosted.org/packages/87/06/d230194f783165049d36674ee3c1607ae75f308743db1ac7b90ccd4c0da1/tulona-0.2.0.tar.gz
+[2024-04-03 04:59:53] INFO root fetch - processPackages [shipyard-templates]: Downloading https://files.pythonhosted.org/packages/7b/b6/a0e10d78fc2ff3ba99038b5ad92adc45652d9d034369a4d5a468bbb86426/shipyard_templates-0.8.1a0.tar.gz
+[2024-04-03 04:59:53] WARNING root fetch - processPackages [tulona]: Timeout reached during download
+[2024-04-03 04:59:53] INFO root fetch - processPackages [tulona]: executing diffoscope
+[2024-04-03 04:59:53] INFO root fetch - processPackages [tulona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tulona-0.1.1.tar.gz tmp/tulona-0.2.0.tar.gz --markdown 20240403/t/tulona/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2024-04-03 04:59:53] WARNING root fetch - processPackages [shipyard-templates]: Timeout reached during download
+[2024-04-03 04:59:53] INFO root fetch - processPackages [shipyard-templates]: executing diffoscope
+[2024-04-03 04:59:53] INFO root fetch - processPackages [shipyard-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_templates-0.8.0a2.tar.gz tmp/shipyard_templates-0.8.1a0.tar.gz --markdown 20240403/s/shipyard-templates/0.8.0a2-0.8.1a0/diff.md --exclude *.pyd
+[2024-04-03 04:59:53] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.98-py3-none-any.whl.zip]
+[2024-04-03 04:59:53] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.99-py3-none-any.whl.zip]
+[2024-04-03 04:59:53] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2024-04-03 04:59:54] INFO root fetch - processPackages [shipyard-templates]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_templates-0.8.0a2.tar.gz]
+[2024-04-03 04:59:54] INFO root fetch - processPackages [shipyard-templates]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_templates-0.8.1a0.tar.gz]
+[2024-04-03 04:59:54] INFO root fetch - main [MainThread]: End processing [shipyard-templates]: success
+[2024-04-03 04:59:54] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.1.1.tar.gz]
+[2024-04-03 04:59:54] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.2.0.tar.gz]
+[2024-04-03 04:59:54] INFO root fetch - main [MainThread]: End processing [tulona]: success
+[2024-04-03 04:59:54] INFO root fetch - main [MainThread]: Store serial: [22596823]

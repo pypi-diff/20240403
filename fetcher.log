@@ -16263,3 +16263,37 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 05:54:48] WARNING root fetch - processPackages [facebook-graphql-scraper]: Skipping, unable to determine old version
 [2024-04-03 05:54:48] INFO root fetch - main [MainThread]: End processing [facebook-graphql-scraper] error
 [2024-04-03 05:54:48] INFO root fetch - main [MainThread]: Store serial: [22597158]
+[2024-04-03 05:56:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597158]
+[2024-04-03 05:56:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 05:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipedream-utils
+[2024-04-03 05:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trieve-py-client
+[2024-04-03 05:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clap-detector
+[2024-04-03 05:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: basin3d
+[2024-04-03 05:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dir2prompt
+[2024-04-03 05:56:56] WARNING root fetch - processPackages [trieve-py-client]: Skipping, unable to determine old version
+[2024-04-03 05:56:56] WARNING root fetch - processPackages [clap-detector]: Skipping, unable to determine old version
+[2024-04-03 05:56:56] INFO root fetch - main [MainThread]: End processing [trieve-py-client] error
+[2024-04-03 05:56:56] INFO root fetch - main [MainThread]: End processing [clap-detector] error
+[2024-04-03 05:56:56] INFO root fetch - processPackages [pipedream-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 05:56:56] INFO root fetch - processPackages [basin3d]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-03 05:56:56] WARNING root fetch - processPackages [dir2prompt]: Skipping, unable to determine old version
+[2024-04-03 05:56:56] INFO root fetch - main [MainThread]: End processing [dir2prompt] error
+[2024-04-03 05:56:57] INFO root fetch - processPackages [pipedream-utils]: Downloading https://files.pythonhosted.org/packages/71/57/de522689229a5c82465b75249b9865d6930324fbf69bc9b486ed7c26332d/pipedream-utils-0.0.8.tar.gz
+[2024-04-03 05:56:57] INFO root fetch - processPackages [basin3d]: Downloading https://files.pythonhosted.org/packages/6d/86/de646bede934974dc1d1a2a57b1bb1fa14ca310faea2fb3a52ddab1d78f4/basin3d-1.0.2.tar.gz
+[2024-04-03 05:56:57] WARNING root fetch - processPackages [pipedream-utils]: Timeout reached during download
+[2024-04-03 05:56:57] WARNING root fetch - processPackages [basin3d]: Timeout reached during download
+[2024-04-03 05:56:57] INFO root fetch - processPackages [pipedream-utils]: Downloading https://files.pythonhosted.org/packages/c0/67/54e0d7715f6645bb97ffead63ab639f5a64faf7bb2a21c9eaf20c6f12e5e/pipedream-utils-0.0.9.tar.gz
+[2024-04-03 05:56:57] WARNING root fetch - processPackages [pipedream-utils]: Timeout reached during download
+[2024-04-03 05:56:57] INFO root fetch - processPackages [pipedream-utils]: executing diffoscope
+[2024-04-03 05:56:57] INFO root fetch - processPackages [pipedream-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipedream-utils-0.0.8.tar.gz tmp/pipedream-utils-0.0.9.tar.gz --markdown 20240403/p/pipedream-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 05:56:57] INFO root fetch - processPackages [basin3d]: Downloading https://files.pythonhosted.org/packages/e5/57/deaa0435f435c3fb238ec8a443ea35f3abfdfbbac127dc30555d5d8d4488/basin3d-1.0.3.tar.gz
+[2024-04-03 05:56:57] WARNING root fetch - processPackages [basin3d]: Timeout reached during download
+[2024-04-03 05:56:57] INFO root fetch - processPackages [basin3d]: executing diffoscope
+[2024-04-03 05:56:57] INFO root fetch - processPackages [basin3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basin3d-1.0.2.tar.gz tmp/basin3d-1.0.3.tar.gz --markdown 20240403/b/basin3d/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-03 05:56:57] INFO root fetch - processPackages [pipedream-utils]: Remove: archive file [/home/abi/fetcher/tmp/pipedream-utils-0.0.8.tar.gz]
+[2024-04-03 05:56:57] INFO root fetch - processPackages [pipedream-utils]: Remove: archive file [/home/abi/fetcher/tmp/pipedream-utils-0.0.9.tar.gz]
+[2024-04-03 05:56:57] INFO root fetch - main [MainThread]: End processing [pipedream-utils]: success
+[2024-04-03 05:56:58] INFO root fetch - processPackages [basin3d]: Remove: archive file [/home/abi/fetcher/tmp/basin3d-1.0.2.tar.gz]
+[2024-04-03 05:56:58] INFO root fetch - processPackages [basin3d]: Remove: archive file [/home/abi/fetcher/tmp/basin3d-1.0.3.tar.gz]
+[2024-04-03 05:56:58] INFO root fetch - main [MainThread]: End processing [basin3d]: success
+[2024-04-03 05:56:58] INFO root fetch - main [MainThread]: Store serial: [22597173]

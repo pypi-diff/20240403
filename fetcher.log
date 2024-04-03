@@ -20348,3 +20348,86 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 07:31:18] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_type_refurbish-16.0.1.0.0.3-py3-none-any.whl.zip]
 [2024-04-03 07:31:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-repair-type-refurbish]: success
 [2024-04-03 07:31:18] INFO root fetch - main [MainThread]: Store serial: [22598357]
+[2024-04-03 07:33:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598357]
+[2024-04-03 07:33:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-03 07:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-repair-type-refurbish
+[2024-04-03 07:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidai
+[2024-04-03 07:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tcss
+[2024-04-03 07:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-ocr-api20210707-py2
+[2024-04-03 07:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyqqq
+[2024-04-03 07:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-ocr-api20210707
+[2024-04-03 07:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-tdcpg
+[2024-04-03 07:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyscreeps-arena
+[2024-04-03 07:33:27] INFO root fetch - processPackages [pyqqq]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-03 07:33:27] INFO root fetch - processPackages [pyscreeps-arena]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-03 07:33:27] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-04-03 07:33:27] INFO root fetch - processPackages [alibabacloud-ocr-api20210707]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-04-03 07:33:27] INFO root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-04-03 07:33:27] WARNING root fetch - processPackages [rapidai]: Skipping, unable to determine old version
+[2024-04-03 07:33:27] INFO root fetch - main [MainThread]: End processing [rapidai] error
+[2024-04-03 07:33:27] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:33:27] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/02/81/fdfd81fa0dc26157eff3ef20bf3afa8275db9fe4a04484ea54342ea408ee/pyqqq-0.6.2.tar.gz
+[2024-04-03 07:33:27] INFO root fetch - processPackages [alibabacloud-ocr-api20210707]: Downloading https://files.pythonhosted.org/packages/27/57/a1b9d7957263c1c2c9c8e4bcd199c0eda47b27af46cd622278eb08fe0f64/alibabacloud_ocr-api20210707-2.0.6.tar.gz
+[2024-04-03 07:33:27] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: Downloading https://files.pythonhosted.org/packages/4b/41/5ba637f1884f6488b0a905def3ac971f6ed23fb435555c4ae078a9a1c3c3/odoo_addon_repair_type_refurbish-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-03 07:33:27] INFO root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: Downloading https://files.pythonhosted.org/packages/fe/cc/c45a5cd31b744ba16190e0bc700e153aa1525c99b6ac399ecbba706bdd0d/alibabacloud_ocr-api20210707_py2-2.0.6.tar.gz
+[2024-04-03 07:33:27] INFO root fetch - processPackages [pyscreeps-arena]: Downloading https://files.pythonhosted.org/packages/66/e1/ae27b2b5f14e679d5919a09bb097def7644eb8fb90db4bbac3ab5e81c137/pyscreeps-arena-0.1.5.tar.gz
+[2024-04-03 07:33:27] WARNING root fetch - processPackages [pyqqq]: Timeout reached during download
+[2024-04-03 07:33:27] WARNING root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: Timeout reached during download
+[2024-04-03 07:33:27] WARNING root fetch - processPackages [alibabacloud-ocr-api20210707]: Timeout reached during download
+[2024-04-03 07:33:27] WARNING root fetch - processPackages [odoo-addon-repair-type-refurbish]: Timeout reached during download
+[2024-04-03 07:33:27] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: Downloading https://files.pythonhosted.org/packages/4d/a3/6182b96f50dff842ec614b7b7057a2bb2f2fec574dcc9e8fc524a5719894/tencentcloud-sdk-python-tcss-3.0.998.tar.gz
+[2024-04-03 07:33:27] WARNING root fetch - processPackages [pyscreeps-arena]: Timeout reached during download
+[2024-04-03 07:33:27] INFO root fetch - processPackages [alibabacloud-ocr-api20210707]: Downloading https://files.pythonhosted.org/packages/7d/1a/f4ef5e41267f54e6db6574923bfed310cf10ce6838390880790dcd3a872d/alibabacloud_ocr-api20210707-2.0.7.tar.gz
+[2024-04-03 07:33:27] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: Downloading https://files.pythonhosted.org/packages/20/09/a40fddd7aec3537259ccc81fef4966ed49167956ec37b406940e4b452b3b/odoo_addon_repair_type_refurbish-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-03 07:33:27] INFO root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: Downloading https://files.pythonhosted.org/packages/73/a8/3e1c3a4ba4745d379abe753219c8c30e0a165bd84cc84151fa60599c3403/alibabacloud_ocr-api20210707_py2-2.0.7.tar.gz
+[2024-04-03 07:33:27] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:33:27] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/c2/49/921237106ce25c237ff2a256e617c8a4b0d8aed37f13ad0bd4ea987f0b03/pyqqq-0.6.3.tar.gz
+[2024-04-03 07:33:27] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcss]: Timeout reached during download
+[2024-04-03 07:33:27] WARNING root fetch - processPackages [alibabacloud-ocr-api20210707]: Timeout reached during download
+[2024-04-03 07:33:27] INFO root fetch - processPackages [alibabacloud-ocr-api20210707]: executing diffoscope
+[2024-04-03 07:33:27] INFO root fetch - processPackages [alibabacloud-ocr-api20210707]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ocr-api20210707-2.0.6.tar.gz tmp/alibabacloud_ocr-api20210707-2.0.7.tar.gz --markdown 20240403/a/alibabacloud-ocr-api20210707/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2024-04-03 07:33:27] WARNING root fetch - processPackages [odoo-addon-repair-type-refurbish]: Timeout reached during download
+[2024-04-03 07:33:27] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: executing diffoscope
+[2024-04-03 07:33:27] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_repair_type_refurbish-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_repair_type_refurbish-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-repair-type-refurbish/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2024-04-03 07:33:27] WARNING root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: Timeout reached during download
+[2024-04-03 07:33:27] INFO root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: executing diffoscope
+[2024-04-03 07:33:27] INFO root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ocr-api20210707_py2-2.0.6.tar.gz tmp/alibabacloud_ocr-api20210707_py2-2.0.7.tar.gz --markdown 20240403/a/alibabacloud-ocr-api20210707-py2/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2024-04-03 07:33:27] INFO root fetch - processPackages [pyscreeps-arena]: Downloading https://files.pythonhosted.org/packages/cc/62/3fe28216883df25b3bf9abf8bf0ade001aea9513d6de642b651ccc2d9418/pyscreeps-arena-0.1.6.tar.gz
+[2024-04-03 07:33:27] WARNING root fetch - processPackages [pyqqq]: Timeout reached during download
+[2024-04-03 07:33:27] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-03 07:33:27] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.6.2.tar.gz tmp/pyqqq-0.6.3.tar.gz --markdown 20240403/p/pyqqq/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2024-04-03 07:33:28] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: Downloading https://files.pythonhosted.org/packages/3c/ba/836fcf33b0dae525b6a6584231131cc3779434bfc42e80a8e6e3d6a45caa/tencentcloud-sdk-python-tdcpg-3.0.998.tar.gz
+[2024-04-03 07:33:28] WARNING root fetch - processPackages [pyscreeps-arena]: Timeout reached during download
+[2024-04-03 07:33:28] INFO root fetch - processPackages [pyscreeps-arena]: executing diffoscope
+[2024-04-03 07:33:28] INFO root fetch - processPackages [pyscreeps-arena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscreeps-arena-0.1.5.tar.gz tmp/pyscreeps-arena-0.1.6.tar.gz --markdown 20240403/p/pyscreeps-arena/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-03 07:33:28] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: Downloading https://files.pythonhosted.org/packages/60/ec/d37b2deb37f58692022118f9652da4944dbaecedfb22d312ca480517c2e9/tencentcloud-sdk-python-tcss-3.0.999.tar.gz
+[2024-04-03 07:33:28] WARNING root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: Timeout reached during download
+[2024-04-03 07:33:28] WARNING root fetch - processPackages [tencentcloud-sdk-python-tcss]: Timeout reached during download
+[2024-04-03 07:33:28] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: executing diffoscope
+[2024-04-03 07:33:28] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcss-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcss-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-tcss/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:33:28] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: Downloading https://files.pythonhosted.org/packages/95/3a/d924e31813cc9362f27605b853c56abd46dc24ae528344cf9c18f7bf989d/tencentcloud-sdk-python-tdcpg-3.0.999.tar.gz
+[2024-04-03 07:33:28] WARNING root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: Timeout reached during download
+[2024-04-03 07:33:28] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: executing diffoscope
+[2024-04-03 07:33:28] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tdcpg-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tdcpg-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-tdcpg/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:33:28] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_type_refurbish-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-03 07:33:28] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_type_refurbish-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-03 07:33:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-repair-type-refurbish]: success
+[2024-04-03 07:33:28] INFO root fetch - processPackages [alibabacloud-ocr-api20210707]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ocr-api20210707-2.0.6.tar.gz]
+[2024-04-03 07:33:28] INFO root fetch - processPackages [alibabacloud-ocr-api20210707]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ocr-api20210707-2.0.7.tar.gz]
+[2024-04-03 07:33:28] INFO root fetch - main [MainThread]: End processing [alibabacloud-ocr-api20210707]: success
+[2024-04-03 07:33:28] INFO root fetch - processPackages [pyscreeps-arena]: Remove: archive file [/home/abi/fetcher/tmp/pyscreeps-arena-0.1.5.tar.gz]
+[2024-04-03 07:33:28] INFO root fetch - processPackages [pyscreeps-arena]: Remove: archive file [/home/abi/fetcher/tmp/pyscreeps-arena-0.1.6.tar.gz]
+[2024-04-03 07:33:28] INFO root fetch - main [MainThread]: End processing [pyscreeps-arena]: success
+[2024-04-03 07:33:28] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.6.2.tar.gz]
+[2024-04-03 07:33:28] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.6.3.tar.gz]
+[2024-04-03 07:33:28] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-03 07:33:28] INFO root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ocr-api20210707_py2-2.0.6.tar.gz]
+[2024-04-03 07:33:28] INFO root fetch - processPackages [alibabacloud-ocr-api20210707-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ocr-api20210707_py2-2.0.7.tar.gz]
+[2024-04-03 07:33:28] INFO root fetch - main [MainThread]: End processing [alibabacloud-ocr-api20210707-py2]: success
+[2024-04-03 07:33:29] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcss-3.0.998.tar.gz]
+[2024-04-03 07:33:29] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcss-3.0.999.tar.gz]
+[2024-04-03 07:33:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcss]: success
+[2024-04-03 07:33:29] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tdcpg-3.0.998.tar.gz]
+[2024-04-03 07:33:29] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tdcpg-3.0.999.tar.gz]
+[2024-04-03 07:33:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tdcpg]: success
+[2024-04-03 07:33:29] INFO root fetch - main [MainThread]: Store serial: [22598378]

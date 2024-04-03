@@ -14365,3 +14365,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 04:35:32] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.2.9.tar.gz]
 [2024-04-03 04:35:32] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
 [2024-04-03 04:35:32] INFO root fetch - main [MainThread]: Store serial: [22596583]
+[2024-04-03 04:37:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596583]
+[2024-04-03 04:37:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 04:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: git-stats-report
+[2024-04-03 04:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: signalrcore-deng
+[2024-04-03 04:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simlify
+[2024-04-03 04:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lmdeploy
+[2024-04-03 04:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypandasikko030
+[2024-04-03 04:37:41] WARNING root fetch - processPackages [simlify]: Skipping, unable to determine old version
+[2024-04-03 04:37:41] INFO root fetch - main [MainThread]: End processing [simlify] error
+[2024-04-03 04:37:41] INFO root fetch - processPackages [git-stats-report]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-03 04:37:41] INFO root fetch - processPackages [git-stats-report]: Downloading https://files.pythonhosted.org/packages/16/20/85fe36a21eadc60bb0fc2cf3017c6864022b928624b11943c0ea60dac5bf/git-stats-report-0.1.2.tar.gz
+[2024-04-03 04:37:41] WARNING root fetch - processPackages [mypandasikko030]: Skipping, unable to determine old version
+[2024-04-03 04:37:41] INFO root fetch - main [MainThread]: End processing [mypandasikko030] error
+[2024-04-03 04:37:41] INFO root fetch - processPackages [signalrcore-deng]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-03 04:37:41] INFO root fetch - processPackages [lmdeploy]: New version: [0.3.0] Old Version: [0.2.6]
+[2024-04-03 04:37:41] WARNING root fetch - processPackages [git-stats-report]: Timeout reached during download
+[2024-04-03 04:37:41] INFO root fetch - processPackages [git-stats-report]: Downloading https://files.pythonhosted.org/packages/48/4b/6c1356f44a0d389303b6e33a3c790e2c135e51c0f41fd96f22ed2679a9d2/git-stats-report-0.1.3.tar.gz
+[2024-04-03 04:37:41] INFO root fetch - processPackages [signalrcore-deng]: Downloading https://files.pythonhosted.org/packages/ac/8f/0894ccf6a9a8525e5cf871b5adc69ffc44cc1820f4e3cb2460fe65fe8c57/signalrcore-deng-0.9.2.tar.gz
+[2024-04-03 04:37:41] INFO root fetch - processPackages [lmdeploy]: Downloading https://files.pythonhosted.org/packages/01/ef/ce10cefec954c0e2223fe1ed2d0cc28de7156f15a580ef307fac176dc93c/lmdeploy-0.2.6-cp39-cp39-win_amd64.whl
+[2024-04-03 04:37:41] WARNING root fetch - processPackages [git-stats-report]: Timeout reached during download
+[2024-04-03 04:37:41] INFO root fetch - processPackages [git-stats-report]: executing diffoscope
+[2024-04-03 04:37:41] INFO root fetch - processPackages [git-stats-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-stats-report-0.1.2.tar.gz tmp/git-stats-report-0.1.3.tar.gz --markdown 20240403/g/git-stats-report/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-03 04:37:41] WARNING root fetch - processPackages [signalrcore-deng]: Timeout reached during download
+[2024-04-03 04:37:41] WARNING root fetch - processPackages [lmdeploy]: Skipping package: exceeds size limit 64051217>=10485760
+[2024-04-03 04:37:41] INFO root fetch - main [MainThread]: End processing [lmdeploy] error
+[2024-04-03 04:37:41] INFO root fetch - processPackages [signalrcore-deng]: Downloading https://files.pythonhosted.org/packages/96/4a/0db827f296ce92aa3d47848ef91ac8b843a919574373732f56d55b12c1e5/signalrcore-deng-0.9.3.tar.gz
+[2024-04-03 04:37:41] WARNING root fetch - processPackages [signalrcore-deng]: Timeout reached during download
+[2024-04-03 04:37:41] INFO root fetch - processPackages [signalrcore-deng]: executing diffoscope
+[2024-04-03 04:37:41] INFO root fetch - processPackages [signalrcore-deng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signalrcore-deng-0.9.2.tar.gz tmp/signalrcore-deng-0.9.3.tar.gz --markdown 20240403/s/signalrcore-deng/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-03 04:37:42] INFO root fetch - processPackages [git-stats-report]: Remove: archive file [/home/abi/fetcher/tmp/git-stats-report-0.1.2.tar.gz]
+[2024-04-03 04:37:42] INFO root fetch - processPackages [git-stats-report]: Remove: archive file [/home/abi/fetcher/tmp/git-stats-report-0.1.3.tar.gz]
+[2024-04-03 04:37:42] INFO root fetch - main [MainThread]: End processing [git-stats-report]: success
+[2024-04-03 04:37:42] INFO root fetch - processPackages [signalrcore-deng]: Remove: archive file [/home/abi/fetcher/tmp/signalrcore-deng-0.9.2.tar.gz]
+[2024-04-03 04:37:42] INFO root fetch - processPackages [signalrcore-deng]: Remove: archive file [/home/abi/fetcher/tmp/signalrcore-deng-0.9.3.tar.gz]
+[2024-04-03 04:37:42] INFO root fetch - main [MainThread]: End processing [signalrcore-deng]: success
+[2024-04-03 04:37:42] INFO root fetch - main [MainThread]: Store serial: [22596604]

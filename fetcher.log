@@ -22805,3 +22805,20 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 09:04:10] INFO root fetch - processPackages [logger-36]: Remove: archive file [/home/abi/fetcher/tmp/logger-36-2024.5.tar.gz]
 [2024-04-03 09:04:10] INFO root fetch - main [MainThread]: End processing [logger-36]: success
 [2024-04-03 09:04:10] INFO root fetch - main [MainThread]: Store serial: [22599175]
+[2024-04-03 09:06:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599175]
+[2024-04-03 09:06:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 09:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyGeneEnrich
+[2024-04-03 09:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hdl-registers
+[2024-04-03 09:06:19] WARNING root fetch - processPackages [pyGeneEnrich]: Skipping, unable to determine old version
+[2024-04-03 09:06:19] INFO root fetch - main [MainThread]: End processing [pyGeneEnrich] error
+[2024-04-03 09:06:19] INFO root fetch - processPackages [hdl-registers]: New version: [5.1.3] Old Version: [5.1.2]
+[2024-04-03 09:06:20] INFO root fetch - processPackages [hdl-registers]: Downloading https://files.pythonhosted.org/packages/c5/2b/79ee638fb2028d4e5934642581ec1f65dbc8171c790e0069091fea7c514f/hdl_registers-5.1.2.tar.gz
+[2024-04-03 09:06:20] WARNING root fetch - processPackages [hdl-registers]: Timeout reached during download
+[2024-04-03 09:06:20] INFO root fetch - processPackages [hdl-registers]: Downloading https://files.pythonhosted.org/packages/9d/40/087044900e4785f3485335f2b83cb58ca8b02ec042b4c47ae4e4ba963895/hdl_registers-5.1.3.tar.gz
+[2024-04-03 09:06:20] WARNING root fetch - processPackages [hdl-registers]: Timeout reached during download
+[2024-04-03 09:06:20] INFO root fetch - processPackages [hdl-registers]: executing diffoscope
+[2024-04-03 09:06:20] INFO root fetch - processPackages [hdl-registers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdl_registers-5.1.2.tar.gz tmp/hdl_registers-5.1.3.tar.gz --markdown 20240403/h/hdl-registers/5.1.2-5.1.3/diff.md --exclude *.pyd
+[2024-04-03 09:06:21] INFO root fetch - processPackages [hdl-registers]: Remove: archive file [/home/abi/fetcher/tmp/hdl_registers-5.1.2.tar.gz]
+[2024-04-03 09:06:21] INFO root fetch - processPackages [hdl-registers]: Remove: archive file [/home/abi/fetcher/tmp/hdl_registers-5.1.3.tar.gz]
+[2024-04-03 09:06:21] INFO root fetch - main [MainThread]: End processing [hdl-registers]: success
+[2024-04-03 09:06:21] INFO root fetch - main [MainThread]: Store serial: [22599187]

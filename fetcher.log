@@ -15758,3 +15758,23 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 05:24:26] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
 [2024-04-03 05:24:26] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
 [2024-04-03 05:24:26] INFO root fetch - main [MainThread]: Store serial: [22596996]
+[2024-04-03 05:26:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596996]
+[2024-04-03 05:26:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 05:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qapp-qiskit
+[2024-04-03 05:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bribrain
+[2024-04-03 05:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shipyard-portable
+[2024-04-03 05:26:35] WARNING root fetch - processPackages [qapp-qiskit]: Skipping, unable to determine old version
+[2024-04-03 05:26:35] WARNING root fetch - processPackages [shipyard-portable]: Skipping, unable to determine old version
+[2024-04-03 05:26:35] INFO root fetch - main [MainThread]: End processing [qapp-qiskit] error
+[2024-04-03 05:26:35] INFO root fetch - main [MainThread]: End processing [shipyard-portable] error
+[2024-04-03 05:26:35] INFO root fetch - processPackages [bribrain]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-03 05:26:35] INFO root fetch - processPackages [bribrain]: Downloading https://files.pythonhosted.org/packages/f0/52/a1af720ef34a2c46e27756286059ae3db959d7ec7ca4254f567bec353530/bribrain-1.0.0.tar.gz
+[2024-04-03 05:26:35] WARNING root fetch - processPackages [bribrain]: Timeout reached during download
+[2024-04-03 05:26:35] INFO root fetch - processPackages [bribrain]: Downloading https://files.pythonhosted.org/packages/5b/0d/c77aeee08e6e1f8362846f05cf72c3431f1a96b8bf5c8d3f2ef6a79c8706/bribrain-1.0.1.tar.gz
+[2024-04-03 05:26:36] WARNING root fetch - processPackages [bribrain]: Timeout reached during download
+[2024-04-03 05:26:36] INFO root fetch - processPackages [bribrain]: executing diffoscope
+[2024-04-03 05:26:36] INFO root fetch - processPackages [bribrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bribrain-1.0.0.tar.gz tmp/bribrain-1.0.1.tar.gz --markdown 20240403/b/bribrain/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-03 05:26:36] INFO root fetch - processPackages [bribrain]: Remove: archive file [/home/abi/fetcher/tmp/bribrain-1.0.0.tar.gz]
+[2024-04-03 05:26:36] INFO root fetch - processPackages [bribrain]: Remove: archive file [/home/abi/fetcher/tmp/bribrain-1.0.1.tar.gz]
+[2024-04-03 05:26:36] INFO root fetch - main [MainThread]: End processing [bribrain]: success
+[2024-04-03 05:26:36] INFO root fetch - main [MainThread]: Store serial: [22597007]

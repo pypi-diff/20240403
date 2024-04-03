@@ -22620,3 +22620,53 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:57:05] INFO root fetch - processPackages [ai-butler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai_butler_sdk-0.4.8.tar.gz]
 [2024-04-03 08:57:05] INFO root fetch - main [MainThread]: End processing [ai-butler-sdk]: success
 [2024-04-03 08:57:05] INFO root fetch - main [MainThread]: Store serial: [22599074]
+[2024-04-03 08:59:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599074]
+[2024-04-03 08:59:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 08:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fate-flow
+[2024-04-03 08:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-nightly
+[2024-04-03 08:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bpm-ai-inference
+[2024-04-03 08:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-bridge
+[2024-04-03 08:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django_bocor_ds
+[2024-04-03 08:59:14] INFO root fetch - processPackages [python-bridge]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-03 08:59:15] WARNING root fetch - processPackages [bpm-ai-inference]: Skipping, unable to determine old version
+[2024-04-03 08:59:15] INFO root fetch - main [MainThread]: End processing [bpm-ai-inference] error
+[2024-04-03 08:59:15] INFO root fetch - processPackages [fate-flow]: New version: [2.1.0] Old Version: [2.0.0b0]
+[2024-04-03 08:59:15] INFO root fetch - processPackages [django_bocor_ds]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-03 08:59:15] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/8b/96/fc6fadaef452295e4d6d753471eff7e5f54863a16a855e133d69d3cab261/python-bridge-0.0.4.tar.gz
+[2024-04-03 08:59:15] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.32.3.dev20240402] Old Version: [1.32.3.dev20240331]
+[2024-04-03 08:59:15] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-03 08:59:15] INFO root fetch - processPackages [django_bocor_ds]: Downloading https://files.pythonhosted.org/packages/61/91/482a4241d37656e192d5f56e9c6681484ee9c1dfb43c98cfe566635692f2/django_bocor_ds-2.0.2.tar.gz
+[2024-04-03 08:59:15] INFO root fetch - processPackages [fate-flow]: Downloading https://files.pythonhosted.org/packages/66/d1/9c82ee2637dd37cb97f23b37d4a5b7337fe3690310f0935ce8609d3ca086/fate_flow-2.0.0b0.tar.gz
+[2024-04-03 08:59:15] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/13/43/6b2d5b847ee406228394dbb8754a4f72a92a3561bb4fc85210ed23114b2b/streamlit-nightly-1.32.3.dev20240331.tar.gz
+[2024-04-03 08:59:15] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/81/43/d21e7381ea4f8482d7cc328913597a8b22e82b6a13315c62c369c51eb9e7/python-bridge-0.0.5.tar.gz
+[2024-04-03 08:59:15] WARNING root fetch - processPackages [fate-flow]: Timeout reached during download
+[2024-04-03 08:59:15] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-03 08:59:15] INFO root fetch - processPackages [python-bridge]: executing diffoscope
+[2024-04-03 08:59:15] INFO root fetch - processPackages [python-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bridge-0.0.4.tar.gz tmp/python-bridge-0.0.5.tar.gz --markdown 20240403/p/python-bridge/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-03 08:59:15] INFO root fetch - processPackages [fate-flow]: Downloading https://files.pythonhosted.org/packages/6b/bb/03cf104f63e9a1068118c6131616958fda55d956eb4c12e59af4134e6626/fate_flow-2.1.0.tar.gz
+[2024-04-03 08:59:15] WARNING root fetch - processPackages [streamlit-nightly]: Timeout reached during download
+[2024-04-03 08:59:15] WARNING root fetch - processPackages [fate-flow]: Timeout reached during download
+[2024-04-03 08:59:15] INFO root fetch - processPackages [fate-flow]: executing diffoscope
+[2024-04-03 08:59:15] INFO root fetch - processPackages [fate-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fate_flow-2.0.0b0.tar.gz tmp/fate_flow-2.1.0.tar.gz --markdown 20240403/f/fate-flow/2.0.0b0-2.1.0/diff.md --exclude *.pyd
+[2024-04-03 08:59:15] WARNING root fetch - processPackages [django_bocor_ds]: Timeout reached during download
+[2024-04-03 08:59:15] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/50/04/27dc6372699fbbd10cc4e759152cc770e5075b9a40e15cd45b6f42a1c5d8/streamlit-nightly-1.32.3.dev20240402.tar.gz
+[2024-04-03 08:59:16] INFO root fetch - processPackages [django_bocor_ds]: Downloading https://files.pythonhosted.org/packages/5d/e1/c7a9f1a2aebc477dffb6de4c4ec194162879f36ba829101574e2cc534392/django_bocor_ds-2.0.3.tar.gz
+[2024-04-03 08:59:16] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.4.tar.gz]
+[2024-04-03 08:59:16] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.5.tar.gz]
+[2024-04-03 08:59:16] INFO root fetch - main [MainThread]: End processing [python-bridge]: success
+[2024-04-03 08:59:16] WARNING root fetch - processPackages [streamlit-nightly]: Timeout reached during download
+[2024-04-03 08:59:16] WARNING root fetch - processPackages [django_bocor_ds]: Timeout reached during download
+[2024-04-03 08:59:16] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-04-03 08:59:16] INFO root fetch - processPackages [django_bocor_ds]: executing diffoscope
+[2024-04-03 08:59:16] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.32.3.dev20240331.tar.gz tmp/streamlit-nightly-1.32.3.dev20240402.tar.gz --markdown 20240403/s/streamlit-nightly/1.32.3.dev20240331-1.32.3.dev20240402/diff.md --exclude *.pyd
+[2024-04-03 08:59:16] INFO root fetch - processPackages [django_bocor_ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_bocor_ds-2.0.2.tar.gz tmp/django_bocor_ds-2.0.3.tar.gz --markdown 20240403/d/django_bocor_ds/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2024-04-03 08:59:17] INFO root fetch - processPackages [fate-flow]: Remove: archive file [/home/abi/fetcher/tmp/fate_flow-2.0.0b0.tar.gz]
+[2024-04-03 08:59:17] INFO root fetch - processPackages [fate-flow]: Remove: archive file [/home/abi/fetcher/tmp/fate_flow-2.1.0.tar.gz]
+[2024-04-03 08:59:17] INFO root fetch - main [MainThread]: End processing [fate-flow]: success
+[2024-04-03 08:59:18] INFO root fetch - processPackages [django_bocor_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_bocor_ds-2.0.2.tar.gz]
+[2024-04-03 08:59:18] INFO root fetch - processPackages [django_bocor_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_bocor_ds-2.0.3.tar.gz]
+[2024-04-03 08:59:18] INFO root fetch - main [MainThread]: End processing [django_bocor_ds]: success
+[2024-04-03 08:59:45] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.32.3.dev20240331.tar.gz]
+[2024-04-03 08:59:45] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.32.3.dev20240402.tar.gz]
+[2024-04-03 08:59:45] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-04-03 08:59:45] INFO root fetch - main [MainThread]: Store serial: [22599091]

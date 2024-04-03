@@ -19872,3 +19872,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 07:22:26] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-04-03 07:22:26] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-04-03 07:22:26] INFO root fetch - main [MainThread]: Store serial: [22598220]
+[2024-04-03 07:24:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598220]
+[2024-04-03 07:24:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-03 07:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-project-task-pull-request
+[2024-04-03 07:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-sms
+[2024-04-03 07:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-soe
+[2024-04-03 07:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-solar
+[2024-04-03 07:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-sqlserver
+[2024-04-03 07:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neurosym
+[2024-04-03 07:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-ssa
+[2024-04-03 07:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-purchase-comment-template
+[2024-04-03 07:24:35] INFO root fetch - processPackages [odoo-addon-project-task-pull-request]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-04-03 07:24:35] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-04-03 07:24:35] INFO root fetch - processPackages [tencentcloud-sdk-python-sqlserver]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:24:35] INFO root fetch - processPackages [neurosym]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 07:24:35] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:24:35] INFO root fetch - processPackages [tencentcloud-sdk-python-ssa]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:24:35] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:24:36] INFO root fetch - processPackages [odoo-addon-project-task-pull-request]: Downloading https://files.pythonhosted.org/packages/8b/47/41d8e7545bbbcb0e1cb633deb968276304379aa526a29ec676a92fdfd441/odoo_addon_project_task_pull_request-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-solar]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:24:36] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: Downloading https://files.pythonhosted.org/packages/37/b5/c356d0fa249a4dfbcc215328cdc97f03d6eb3df81fa9013b7da9582af722/odoo_addon_purchase_comment_template-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-03 07:24:36] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/66/87/42efcd2dada44045cddbcc64177bfa822d2cd1915ad9f075c81d65cdd137/neurosym-0.0.8.tar.gz
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-sqlserver]: Downloading https://files.pythonhosted.org/packages/b1/6d/d5d83514290f6f5c677c0bbc2faf94ec64743305dfb978ccddbf15585d94/tencentcloud-sdk-python-sqlserver-3.0.998.tar.gz
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: Downloading https://files.pythonhosted.org/packages/f3/a1/74d3000985ebfb51033fefbeee38bd89d536f6ba740e38fc76f82ddb711b/tencentcloud-sdk-python-soe-3.0.998.tar.gz
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: Downloading https://files.pythonhosted.org/packages/cc/be/a0073f44484dd37666dbfe673eb566fb6021747d91fa22cd6b97e679a0bb/tencentcloud-sdk-python-sms-3.0.998.tar.gz
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-ssa]: Downloading https://files.pythonhosted.org/packages/66/41/bcd8cb80b1f56f8da992801ae9273de9c55605de4a428787c2835ccf9081/tencentcloud-sdk-python-ssa-3.0.998.tar.gz
+[2024-04-03 07:24:36] WARNING root fetch - processPackages [tencentcloud-sdk-python-sqlserver]: Timeout reached during download
+[2024-04-03 07:24:36] WARNING root fetch - processPackages [odoo-addon-purchase-comment-template]: Timeout reached during download
+[2024-04-03 07:24:36] WARNING root fetch - processPackages [neurosym]: Timeout reached during download
+[2024-04-03 07:24:36] WARNING root fetch - processPackages [tencentcloud-sdk-python-soe]: Timeout reached during download
+[2024-04-03 07:24:36] WARNING root fetch - processPackages [odoo-addon-project-task-pull-request]: Timeout reached during download
+[2024-04-03 07:24:36] WARNING root fetch - processPackages [tencentcloud-sdk-python-sms]: Timeout reached during download
+[2024-04-03 07:24:36] WARNING root fetch - processPackages [tencentcloud-sdk-python-ssa]: Timeout reached during download
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-solar]: Downloading https://files.pythonhosted.org/packages/bc/b6/5c349cd00b785a244c850a0147abb052434563e11dda2aff1c5b0ac49aa6/tencentcloud-sdk-python-solar-3.0.998.tar.gz
+[2024-04-03 07:24:36] WARNING root fetch - processPackages [tencentcloud-sdk-python-solar]: Timeout reached during download
+[2024-04-03 07:24:36] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: Downloading https://files.pythonhosted.org/packages/7b/d2/10571c9088f2016996f7bcd0ebea7bbd58b89bac7fa0c7fc4271de0031e4/odoo_addon_purchase_comment_template-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-03 07:24:36] INFO root fetch - processPackages [odoo-addon-project-task-pull-request]: Downloading https://files.pythonhosted.org/packages/06/dd/009ce447ef5994df1883d1eb9ba9e460336bba560039ca798db39c92b441/odoo_addon_project_task_pull_request-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-sqlserver]: Downloading https://files.pythonhosted.org/packages/68/9a/7d61431790d28d6c4b20ab3c34966f4b234043354b6054e457beab9aeb64/tencentcloud-sdk-python-sqlserver-3.0.999.tar.gz
+[2024-04-03 07:24:36] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/b3/d9/0fd09f28366b6afe07c9b07022c327cfcb05f4c54ad12dc10fcb86d94884/neurosym-0.0.9.tar.gz
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: Downloading https://files.pythonhosted.org/packages/48/0c/4c342dee4b6eb84564a070a5446e7e1f19eae79c97f3fe3808495b5d70a6/tencentcloud-sdk-python-soe-3.0.999.tar.gz
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-ssa]: Downloading https://files.pythonhosted.org/packages/54/c7/45e78dc4bf209c634b83e14e0632a4b21c85e71049f309540b1f281c9602/tencentcloud-sdk-python-ssa-3.0.999.tar.gz
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: Downloading https://files.pythonhosted.org/packages/8c/4a/d2ba3aee1f575afb2c32eac6c58328b57732522cdcda6e867ce1862f4110/tencentcloud-sdk-python-sms-3.0.999.tar.gz
+[2024-04-03 07:24:36] WARNING root fetch - processPackages [odoo-addon-purchase-comment-template]: Timeout reached during download
+[2024-04-03 07:24:36] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: executing diffoscope
+[2024-04-03 07:24:36] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_comment_template-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_comment_template-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-purchase-comment-template/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-03 07:24:36] WARNING root fetch - processPackages [odoo-addon-project-task-pull-request]: Timeout reached during download
+[2024-04-03 07:24:36] INFO root fetch - processPackages [odoo-addon-project-task-pull-request]: executing diffoscope
+[2024-04-03 07:24:36] INFO root fetch - processPackages [odoo-addon-project-task-pull-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_task_pull_request-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_project_task_pull_request-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-project-task-pull-request/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-solar]: Downloading https://files.pythonhosted.org/packages/63/78/526a3fd2b6413207aa937a1d9bb08c211093bb2a3c3b4cdfdfcdf754a97a/tencentcloud-sdk-python-solar-3.0.999.tar.gz
+[2024-04-03 07:24:36] WARNING root fetch - processPackages [neurosym]: Timeout reached during download
+[2024-04-03 07:24:36] INFO root fetch - processPackages [neurosym]: executing diffoscope
+[2024-04-03 07:24:36] INFO root fetch - processPackages [neurosym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurosym-0.0.8.tar.gz tmp/neurosym-0.0.9.tar.gz --markdown 20240403/n/neurosym/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 07:24:36] WARNING root fetch - processPackages [tencentcloud-sdk-python-soe]: Timeout reached during download
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: executing diffoscope
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-soe-3.0.998.tar.gz tmp/tencentcloud-sdk-python-soe-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-soe/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:24:36] WARNING root fetch - processPackages [tencentcloud-sdk-python-sqlserver]: Timeout reached during download
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-sqlserver]: executing diffoscope
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-sqlserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-sqlserver-3.0.998.tar.gz tmp/tencentcloud-sdk-python-sqlserver-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-sqlserver/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:24:36] WARNING root fetch - processPackages [tencentcloud-sdk-python-sms]: Timeout reached during download
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: executing diffoscope
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-sms-3.0.998.tar.gz tmp/tencentcloud-sdk-python-sms-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-sms/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:24:36] WARNING root fetch - processPackages [tencentcloud-sdk-python-ssa]: Timeout reached during download
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-ssa]: executing diffoscope
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-ssa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ssa-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ssa-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-ssa/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:24:36] WARNING root fetch - processPackages [tencentcloud-sdk-python-solar]: Timeout reached during download
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-solar]: executing diffoscope
+[2024-04-03 07:24:36] INFO root fetch - processPackages [tencentcloud-sdk-python-solar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-solar-3.0.998.tar.gz tmp/tencentcloud-sdk-python-solar-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-solar/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:24:37] INFO root fetch - processPackages [odoo-addon-project-task-pull-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_task_pull_request-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-03 07:24:37] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_comment_template-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-03 07:24:37] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_comment_template-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-03 07:24:37] INFO root fetch - processPackages [odoo-addon-project-task-pull-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_task_pull_request-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-03 07:24:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-comment-template]: success
+[2024-04-03 07:24:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-task-pull-request]: success
+[2024-04-03 07:24:37] INFO root fetch - processPackages [tencentcloud-sdk-python-solar]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-solar-3.0.998.tar.gz]
+[2024-04-03 07:24:37] INFO root fetch - processPackages [tencentcloud-sdk-python-solar]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-solar-3.0.999.tar.gz]
+[2024-04-03 07:24:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-solar]: success
+[2024-04-03 07:24:37] INFO root fetch - processPackages [tencentcloud-sdk-python-ssa]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ssa-3.0.998.tar.gz]
+[2024-04-03 07:24:37] INFO root fetch - processPackages [tencentcloud-sdk-python-ssa]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ssa-3.0.999.tar.gz]
+[2024-04-03 07:24:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ssa]: success
+[2024-04-03 07:24:37] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-sms-3.0.998.tar.gz]
+[2024-04-03 07:24:37] INFO root fetch - processPackages [tencentcloud-sdk-python-sms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-sms-3.0.999.tar.gz]
+[2024-04-03 07:24:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-sms]: success
+[2024-04-03 07:24:37] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.8.tar.gz]
+[2024-04-03 07:24:37] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.9.tar.gz]
+[2024-04-03 07:24:37] INFO root fetch - main [MainThread]: End processing [neurosym]: success
+[2024-04-03 07:24:37] INFO root fetch - processPackages [tencentcloud-sdk-python-sqlserver]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-sqlserver-3.0.998.tar.gz]
+[2024-04-03 07:24:37] INFO root fetch - processPackages [tencentcloud-sdk-python-sqlserver]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-sqlserver-3.0.999.tar.gz]
+[2024-04-03 07:24:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-sqlserver]: success
+[2024-04-03 07:24:38] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-soe-3.0.998.tar.gz]
+[2024-04-03 07:24:38] INFO root fetch - processPackages [tencentcloud-sdk-python-soe]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-soe-3.0.999.tar.gz]
+[2024-04-03 07:24:38] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-soe]: success
+[2024-04-03 07:24:38] INFO root fetch - main [MainThread]: Store serial: [22598241]

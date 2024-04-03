@@ -22426,3 +22426,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:48:12] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-16.0.2.8.0-py3-none-any.whl.zip]
 [2024-04-03 08:48:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
 [2024-04-03 08:48:12] INFO root fetch - main [MainThread]: Store serial: [22599004]
+[2024-04-03 08:50:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599004]
+[2024-04-03 08:50:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 08:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aixblock-tools
+[2024-04-03 08:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: line-bot-sdk
+[2024-04-03 08:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-encryption
+[2024-04-03 08:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aixblock-ml
+[2024-04-03 08:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rahavard
+[2024-04-03 08:50:21] WARNING root fetch - processPackages [aixblock-ml]: Skipping, unable to determine old version
+[2024-04-03 08:50:21] INFO root fetch - main [MainThread]: End processing [aixblock-ml] error
+[2024-04-03 08:50:21] WARNING root fetch - processPackages [aixblock-tools]: Skipping, unable to determine old version
+[2024-04-03 08:50:21] INFO root fetch - main [MainThread]: End processing [aixblock-tools] error
+[2024-04-03 08:50:21] INFO root fetch - processPackages [rahavard]: New version: [0.0.9] Old Version: [0.0.10]
+[2024-04-03 08:50:21] INFO root fetch - processPackages [line-bot-sdk]: New version: [3.9.0] Old Version: [3.8.1]
+[2024-04-03 08:50:21] INFO root fetch - processPackages [django-encryption]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-03 08:50:21] INFO root fetch - processPackages [rahavard]: Downloading https://files.pythonhosted.org/packages/2d/4d/5ed17731e56b720f5b43de15838dcf36564b268caf111ec9e5afce950c09/rahavard-0.0.10.tar.gz
+[2024-04-03 08:50:21] INFO root fetch - processPackages [django-encryption]: Downloading https://files.pythonhosted.org/packages/0a/42/6d2637ff91b53729dbe07fd5875ab4b7cd70785b41649c6fe49c305b7d86/django_encryption-0.3.8.tar.gz
+[2024-04-03 08:50:21] INFO root fetch - processPackages [line-bot-sdk]: Downloading https://files.pythonhosted.org/packages/82/49/cb62eb3d463daa25c5f38b537495149a56cd06013842bfb65712fb6b11f9/line-bot-sdk-3.8.1.tar.gz
+[2024-04-03 08:50:21] WARNING root fetch - processPackages [django-encryption]: Timeout reached during download
+[2024-04-03 08:50:21] WARNING root fetch - processPackages [rahavard]: Timeout reached during download
+[2024-04-03 08:50:21] WARNING root fetch - processPackages [line-bot-sdk]: Timeout reached during download
+[2024-04-03 08:50:21] INFO root fetch - processPackages [django-encryption]: Downloading https://files.pythonhosted.org/packages/d6/e4/f7445367494b97c1e53299960d6a90be9d25b39ff40e8fd4389479d650a9/django_encryption-0.3.9.tar.gz
+[2024-04-03 08:50:21] INFO root fetch - processPackages [rahavard]: Downloading https://files.pythonhosted.org/packages/66/07/6477aa0e4d97de27a844828a75d1ff22e2dfb9e3dd094489ca589dfe63bf/rahavard-0.0.9.tar.gz
+[2024-04-03 08:50:21] INFO root fetch - processPackages [line-bot-sdk]: Downloading https://files.pythonhosted.org/packages/44/a0/2740186a3a599ee69dfcb245fad5e76c881462097e75e219d5dc6b8967df/line-bot-sdk-3.9.0.tar.gz
+[2024-04-03 08:50:21] WARNING root fetch - processPackages [django-encryption]: Timeout reached during download
+[2024-04-03 08:50:21] INFO root fetch - processPackages [django-encryption]: executing diffoscope
+[2024-04-03 08:50:21] INFO root fetch - processPackages [django-encryption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_encryption-0.3.8.tar.gz tmp/django_encryption-0.3.9.tar.gz --markdown 20240403/d/django-encryption/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-03 08:50:21] WARNING root fetch - processPackages [rahavard]: Timeout reached during download
+[2024-04-03 08:50:21] INFO root fetch - processPackages [rahavard]: executing diffoscope
+[2024-04-03 08:50:21] INFO root fetch - processPackages [rahavard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rahavard-0.0.10.tar.gz tmp/rahavard-0.0.9.tar.gz --markdown 20240403/r/rahavard/0.0.10-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 08:50:22] WARNING root fetch - processPackages [line-bot-sdk]: Timeout reached during download
+[2024-04-03 08:50:22] INFO root fetch - processPackages [line-bot-sdk]: executing diffoscope
+[2024-04-03 08:50:22] INFO root fetch - processPackages [line-bot-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/line-bot-sdk-3.8.1.tar.gz tmp/line-bot-sdk-3.9.0.tar.gz --markdown 20240403/l/line-bot-sdk/3.8.1-3.9.0/diff.md --exclude *.pyd
+[2024-04-03 08:50:22] INFO root fetch - processPackages [django-encryption]: Remove: archive file [/home/abi/fetcher/tmp/django_encryption-0.3.8.tar.gz]
+[2024-04-03 08:50:22] INFO root fetch - processPackages [django-encryption]: Remove: archive file [/home/abi/fetcher/tmp/django_encryption-0.3.9.tar.gz]
+[2024-04-03 08:50:22] INFO root fetch - main [MainThread]: End processing [django-encryption]: success
+[2024-04-03 08:50:22] INFO root fetch - processPackages [rahavard]: Remove: archive file [/home/abi/fetcher/tmp/rahavard-0.0.10.tar.gz]
+[2024-04-03 08:50:22] INFO root fetch - processPackages [rahavard]: Remove: archive file [/home/abi/fetcher/tmp/rahavard-0.0.9.tar.gz]
+[2024-04-03 08:50:22] INFO root fetch - main [MainThread]: End processing [rahavard]: success
+[2024-04-03 08:50:24] INFO root fetch - processPackages [line-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/line-bot-sdk-3.8.1.tar.gz]
+[2024-04-03 08:50:24] INFO root fetch - processPackages [line-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/line-bot-sdk-3.9.0.tar.gz]
+[2024-04-03 08:50:24] INFO root fetch - main [MainThread]: End processing [line-bot-sdk]: success
+[2024-04-03 08:50:24] INFO root fetch - main [MainThread]: Store serial: [22599023]

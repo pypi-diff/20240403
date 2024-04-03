@@ -14968,3 +14968,55 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 04:51:09] INFO root fetch - processPackages [pi-base]: Remove: archive file [/home/abi/fetcher/tmp/pi_base-0.0.9.tar.gz]
 [2024-04-03 04:51:09] INFO root fetch - main [MainThread]: End processing [pi-base]: success
 [2024-04-03 04:51:09] INFO root fetch - main [MainThread]: Store serial: [22596765]
+[2024-04-03 04:53:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596765]
+[2024-04-03 04:53:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 04:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: componentize-py
+[2024-04-03 04:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dashvector
+[2024-04-03 04:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rlbot-flatbuffers
+[2024-04-03 04:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: data-annalist
+[2024-04-03 04:53:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spaceone-api
+[2024-04-03 04:53:18] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-04-03 04:53:18] INFO root fetch - processPackages [rlbot-flatbuffers]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-03 04:53:18] INFO root fetch - processPackages [dashvector]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-03 04:53:18] INFO root fetch - processPackages [data-annalist]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-03 04:53:18] INFO root fetch - processPackages [componentize-py]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-03 04:53:18] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-04-03 04:53:19] WARNING root fetch - processPackages [spaceone-api]: Timeout reached during download
+[2024-04-03 04:53:19] INFO root fetch - processPackages [rlbot-flatbuffers]: Downloading https://files.pythonhosted.org/packages/5e/3d/08b07236f8b93e6be4af9d8541cd4305f1e3af3933d6a55694b237af41f6/rlbot_flatbuffers-0.3.0.tar.gz
+[2024-04-03 04:53:19] INFO root fetch - processPackages [dashvector]: Downloading https://files.pythonhosted.org/packages/7f/2c/521d9fa310539747275d4c8ccd90c6a2481f505eb516f31182ee6c3c6795/dashvector-1.0.8.tar.gz
+[2024-04-03 04:53:19] INFO root fetch - processPackages [data-annalist]: Downloading https://files.pythonhosted.org/packages/5d/2f/a741765aead58d1d7673b104f2ed4e4dfb358a600cb8bd120d76f4a978ef/data-annalist-0.4.2.tar.gz
+[2024-04-03 04:53:19] INFO root fetch - processPackages [componentize-py]: Downloading https://files.pythonhosted.org/packages/2c/0d/acaf87c2a9dbfcceedb25cf7685b55667f2419c858384669b489c92b6ae8/componentize_py-0.9.1-cp37-abi3-win_amd64.whl
+[2024-04-03 04:53:19] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-04-03 04:53:19] WARNING root fetch - processPackages [dashvector]: Timeout reached during download
+[2024-04-03 04:53:19] WARNING root fetch - processPackages [data-annalist]: Timeout reached during download
+[2024-04-03 04:53:19] WARNING root fetch - processPackages [spaceone-api]: Timeout reached during download
+[2024-04-03 04:53:19] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-04-03 04:53:19] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240403/s/spaceone-api/2.0.dev78-2.0.dev89/diff.md --exclude *.pyd
+[2024-04-03 04:53:19] INFO root fetch - processPackages [data-annalist]: Downloading https://files.pythonhosted.org/packages/b7/c5/4d6b7a365b7418c3d1687207d141aed0841e57bae23c739405a0590bfe2a/data-annalist-0.4.3.tar.gz
+[2024-04-03 04:53:19] INFO root fetch - processPackages [dashvector]: Downloading https://files.pythonhosted.org/packages/a9/27/af5ceaf229d519db8e47ae75ab19c3ef24e8e19cc06143427a4480a18f47/dashvector-1.0.9.tar.gz
+[2024-04-03 04:53:19] WARNING root fetch - processPackages [data-annalist]: Timeout reached during download
+[2024-04-03 04:53:19] INFO root fetch - processPackages [data-annalist]: executing diffoscope
+[2024-04-03 04:53:19] INFO root fetch - processPackages [data-annalist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-annalist-0.4.2.tar.gz tmp/data-annalist-0.4.3.tar.gz --markdown 20240403/d/data-annalist/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2024-04-03 04:53:19] WARNING root fetch - processPackages [componentize-py]: Skipping package: exceeds size limit 35416521>=10485760
+[2024-04-03 04:53:19] INFO root fetch - main [MainThread]: End processing [componentize-py] error
+[2024-04-03 04:53:19] WARNING root fetch - processPackages [dashvector]: Timeout reached during download
+[2024-04-03 04:53:19] INFO root fetch - processPackages [dashvector]: executing diffoscope
+[2024-04-03 04:53:19] INFO root fetch - processPackages [dashvector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashvector-1.0.8.tar.gz tmp/dashvector-1.0.9.tar.gz --markdown 20240403/d/dashvector/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-03 04:53:19] WARNING root fetch - processPackages [rlbot-flatbuffers]: Timeout reached during download
+[2024-04-03 04:53:20] INFO root fetch - processPackages [rlbot-flatbuffers]: Downloading https://files.pythonhosted.org/packages/e6/3a/d2abaa181ec9787b2865579e76680b87ae34edb1a212db33f33775c313c2/rlbot_flatbuffers-0.3.1.tar.gz
+[2024-04-03 04:53:20] INFO root fetch - processPackages [data-annalist]: Remove: archive file [/home/abi/fetcher/tmp/data-annalist-0.4.2.tar.gz]
+[2024-04-03 04:53:20] INFO root fetch - processPackages [data-annalist]: Remove: archive file [/home/abi/fetcher/tmp/data-annalist-0.4.3.tar.gz]
+[2024-04-03 04:53:20] INFO root fetch - main [MainThread]: End processing [data-annalist]: success
+[2024-04-03 04:53:20] WARNING root fetch - processPackages [rlbot-flatbuffers]: Timeout reached during download
+[2024-04-03 04:53:20] INFO root fetch - processPackages [rlbot-flatbuffers]: executing diffoscope
+[2024-04-03 04:53:20] INFO root fetch - processPackages [rlbot-flatbuffers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlbot_flatbuffers-0.3.0.tar.gz tmp/rlbot_flatbuffers-0.3.1.tar.gz --markdown 20240403/r/rlbot-flatbuffers/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-03 04:53:20] INFO root fetch - processPackages [dashvector]: Remove: archive file [/home/abi/fetcher/tmp/dashvector-1.0.8.tar.gz]
+[2024-04-03 04:53:20] INFO root fetch - processPackages [dashvector]: Remove: archive file [/home/abi/fetcher/tmp/dashvector-1.0.9.tar.gz]
+[2024-04-03 04:53:20] INFO root fetch - main [MainThread]: End processing [dashvector]: success
+[2024-04-03 04:53:20] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-04-03 04:53:20] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-04-03 04:53:20] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-04-03 04:53:21] INFO root fetch - processPackages [rlbot-flatbuffers]: Remove: archive file [/home/abi/fetcher/tmp/rlbot_flatbuffers-0.3.0.tar.gz]
+[2024-04-03 04:53:21] INFO root fetch - processPackages [rlbot-flatbuffers]: Remove: archive file [/home/abi/fetcher/tmp/rlbot_flatbuffers-0.3.1.tar.gz]
+[2024-04-03 04:53:21] INFO root fetch - main [MainThread]: End processing [rlbot-flatbuffers]: success
+[2024-04-03 04:53:21] INFO root fetch - main [MainThread]: Store serial: [22596785]

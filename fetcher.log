@@ -21707,3 +21707,61 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:19:40] INFO root fetch - processPackages [scml]: Remove: archive file [/home/abi/fetcher/tmp/scml-0.7.4.tar.gz]
 [2024-04-03 08:19:40] INFO root fetch - main [MainThread]: End processing [scml]: success
 [2024-04-03 08:19:40] INFO root fetch - main [MainThread]: Store serial: [22598748]
+[2024-04-03 08:21:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598748]
+[2024-04-03 08:21:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 08:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cycleops
+[2024-04-03 08:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: defect-detection
+[2024-04-03 08:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vsco-download
+[2024-04-03 08:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-picking-partner-note
+[2024-04-03 08:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libbs
+[2024-04-03 08:21:49] INFO root fetch - processPackages [defect-detection]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-03 08:21:49] INFO root fetch - processPackages [cycleops]: New version: [0.6.1] Old Version: [0.5.0]
+[2024-04-03 08:21:49] INFO root fetch - processPackages [vsco-download]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-03 08:21:49] INFO root fetch - processPackages [libbs]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-03 08:21:49] INFO root fetch - processPackages [cycleops]: Downloading https://files.pythonhosted.org/packages/25/25/d1ecd879fb32a0f6c25458332941b4475ad8a27097caf61d940030074a11/cycleops-0.5.0.tar.gz
+[2024-04-03 08:21:49] INFO root fetch - processPackages [odoo-addon-stock-picking-partner-note]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2024-04-03 08:21:49] INFO root fetch - processPackages [defect-detection]: Downloading https://files.pythonhosted.org/packages/e0/56/07568a26035f4cce20f3f098efea4f9bb3b44f2ea136091c2cd657139adc/defect_detection-0.1.0.tar.gz
+[2024-04-03 08:21:50] WARNING root fetch - processPackages [cycleops]: Timeout reached during download
+[2024-04-03 08:21:50] INFO root fetch - processPackages [vsco-download]: Downloading https://files.pythonhosted.org/packages/69/4d/78a48ac22db8fe5318fb499d2a487b7ef2e5bc16fe9341afde0863ee1c00/vsco_download-0.0.1.tar.gz
+[2024-04-03 08:21:50] INFO root fetch - processPackages [libbs]: Downloading https://files.pythonhosted.org/packages/64/37/9d9b40b25527e7b52dd2d55666c77e7502368af44693663bdcda48c0a3cf/libbs-1.2.0.tar.gz
+[2024-04-03 08:21:50] WARNING root fetch - processPackages [defect-detection]: Timeout reached during download
+[2024-04-03 08:21:50] INFO root fetch - processPackages [cycleops]: Downloading https://files.pythonhosted.org/packages/36/4f/99c900d4f35a3c1bc4437d4e20b28a571c0ecaadcbb9a7ee7772f619db13/cycleops-0.6.1.tar.gz
+[2024-04-03 08:21:50] INFO root fetch - processPackages [odoo-addon-stock-picking-partner-note]: Downloading https://files.pythonhosted.org/packages/bb/fd/08c252f8fd266fbbae5edc9ac39dda04cac72dafa30d8462d18a0dabb9d0/odoo_addon_stock_picking_partner_note-16.0.1.1.0.1-py3-none-any.whl
+[2024-04-03 08:21:50] WARNING root fetch - processPackages [vsco-download]: Timeout reached during download
+[2024-04-03 08:21:50] WARNING root fetch - processPackages [cycleops]: Timeout reached during download
+[2024-04-03 08:21:50] WARNING root fetch - processPackages [libbs]: Timeout reached during download
+[2024-04-03 08:21:50] INFO root fetch - processPackages [cycleops]: executing diffoscope
+[2024-04-03 08:21:50] INFO root fetch - processPackages [cycleops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycleops-0.5.0.tar.gz tmp/cycleops-0.6.1.tar.gz --markdown 20240403/c/cycleops/0.5.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-03 08:21:50] WARNING root fetch - processPackages [odoo-addon-stock-picking-partner-note]: Timeout reached during download
+[2024-04-03 08:21:50] INFO root fetch - processPackages [defect-detection]: Downloading https://files.pythonhosted.org/packages/a9/9f/6753b2347b4832b239edc6fcb1c49e050f27e1bf58bab521ad088e42983b/defect_detection-0.2.0.tar.gz
+[2024-04-03 08:21:50] INFO root fetch - processPackages [vsco-download]: Downloading https://files.pythonhosted.org/packages/44/44/37eae0bcd7b06779f083581c0b9107b55810b70532ed0b202343a75bbeab/vsco_download-0.0.2.tar.gz
+[2024-04-03 08:21:50] INFO root fetch - processPackages [libbs]: Downloading https://files.pythonhosted.org/packages/85/cb/b6c8fc9782f0a594906b0371dfb027fd653aec9707cc223208100dd15f6b/libbs-1.2.1.tar.gz
+[2024-04-03 08:21:50] WARNING root fetch - processPackages [defect-detection]: Timeout reached during download
+[2024-04-03 08:21:50] INFO root fetch - processPackages [defect-detection]: executing diffoscope
+[2024-04-03 08:21:50] INFO root fetch - processPackages [defect-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defect_detection-0.1.0.tar.gz tmp/defect_detection-0.2.0.tar.gz --markdown 20240403/d/defect-detection/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-03 08:21:50] INFO root fetch - processPackages [odoo-addon-stock-picking-partner-note]: Downloading https://files.pythonhosted.org/packages/c8/92/e50a3d0b7b813c1caa44be82802d1d512ae89a5e422e707d1288f8bdc0bf/odoo_addon_stock_picking_partner_note-16.0.1.1.0.2-py3-none-any.whl
+[2024-04-03 08:21:50] WARNING root fetch - processPackages [vsco-download]: Timeout reached during download
+[2024-04-03 08:21:50] INFO root fetch - processPackages [vsco-download]: executing diffoscope
+[2024-04-03 08:21:50] INFO root fetch - processPackages [vsco-download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsco_download-0.0.1.tar.gz tmp/vsco_download-0.0.2.tar.gz --markdown 20240403/v/vsco-download/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-03 08:21:50] WARNING root fetch - processPackages [odoo-addon-stock-picking-partner-note]: Timeout reached during download
+[2024-04-03 08:21:50] WARNING root fetch - processPackages [libbs]: Timeout reached during download
+[2024-04-03 08:21:50] INFO root fetch - processPackages [odoo-addon-stock-picking-partner-note]: executing diffoscope
+[2024-04-03 08:21:50] INFO root fetch - processPackages [odoo-addon-stock-picking-partner-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_partner_note-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_partner_note-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-stock-picking-partner-note/16.0.1.1.0.1-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2024-04-03 08:21:50] INFO root fetch - processPackages [libbs]: executing diffoscope
+[2024-04-03 08:21:50] INFO root fetch - processPackages [libbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libbs-1.2.0.tar.gz tmp/libbs-1.2.1.tar.gz --markdown 20240403/l/libbs/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2024-04-03 08:21:50] INFO root fetch - processPackages [cycleops]: Remove: archive file [/home/abi/fetcher/tmp/cycleops-0.5.0.tar.gz]
+[2024-04-03 08:21:50] INFO root fetch - processPackages [cycleops]: Remove: archive file [/home/abi/fetcher/tmp/cycleops-0.6.1.tar.gz]
+[2024-04-03 08:21:50] INFO root fetch - main [MainThread]: End processing [cycleops]: success
+[2024-04-03 08:21:51] INFO root fetch - processPackages [vsco-download]: Remove: archive file [/home/abi/fetcher/tmp/vsco_download-0.0.1.tar.gz]
+[2024-04-03 08:21:51] INFO root fetch - processPackages [vsco-download]: Remove: archive file [/home/abi/fetcher/tmp/vsco_download-0.0.2.tar.gz]
+[2024-04-03 08:21:51] INFO root fetch - main [MainThread]: End processing [vsco-download]: success
+[2024-04-03 08:21:51] INFO root fetch - processPackages [defect-detection]: Remove: archive file [/home/abi/fetcher/tmp/defect_detection-0.1.0.tar.gz]
+[2024-04-03 08:21:51] INFO root fetch - processPackages [defect-detection]: Remove: archive file [/home/abi/fetcher/tmp/defect_detection-0.2.0.tar.gz]
+[2024-04-03 08:21:51] INFO root fetch - main [MainThread]: End processing [defect-detection]: success
+[2024-04-03 08:21:51] INFO root fetch - processPackages [odoo-addon-stock-picking-partner-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_partner_note-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-03 08:21:51] INFO root fetch - processPackages [odoo-addon-stock-picking-partner-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_partner_note-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-04-03 08:21:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-partner-note]: success
+[2024-04-03 08:21:51] INFO root fetch - processPackages [libbs]: Remove: archive file [/home/abi/fetcher/tmp/libbs-1.2.0.tar.gz]
+[2024-04-03 08:21:51] INFO root fetch - processPackages [libbs]: Remove: archive file [/home/abi/fetcher/tmp/libbs-1.2.1.tar.gz]
+[2024-04-03 08:21:51] INFO root fetch - main [MainThread]: End processing [libbs]: success
+[2024-04-03 08:21:51] INFO root fetch - main [MainThread]: Store serial: [22598764]

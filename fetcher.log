@@ -13782,3 +13782,53 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 04:06:23] WARNING root fetch - processPackages [patchwork-cli]: Skipping, unable to determine old version
 [2024-04-03 04:06:23] INFO root fetch - main [MainThread]: End processing [patchwork-cli] error
 [2024-04-03 04:06:23] INFO root fetch - main [MainThread]: Store serial: [22596379]
+[2024-04-03 04:08:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596379]
+[2024-04-03 04:08:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 04:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metaphor-connectors
+[2024-04-03 04:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qapp-qiskit
+[2024-04-03 04:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-ssi-service
+[2024-04-03 04:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-service-quotation
+[2024-04-03 04:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mdof
+[2024-04-03 04:08:32] INFO root fetch - processPackages [mdof]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 04:08:32] INFO root fetch - processPackages [mdof]: Downloading https://files.pythonhosted.org/packages/eb/55/97f0d727678e18173a72ce5e5812aa6c37282e5e854df44957ecc41d7ad9/mdof-0.0.8.tar.gz
+[2024-04-03 04:08:32] INFO root fetch - processPackages [odoo14-addon-ssi-service]: New version: [14.0.2.3.0] Old Version: [14.0.2.2.0]
+[2024-04-03 04:08:32] WARNING root fetch - processPackages [qapp-qiskit]: Skipping, unable to determine old version
+[2024-04-03 04:08:32] INFO root fetch - main [MainThread]: End processing [qapp-qiskit] error
+[2024-04-03 04:08:32] INFO root fetch - processPackages [odoo14-addon-ssi-service-quotation]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.2.dev1]
+[2024-04-03 04:08:32] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-03 04:08:32] WARNING root fetch - processPackages [mdof]: Timeout reached during download
+[2024-04-03 04:08:32] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2024-04-03 04:08:32] INFO root fetch - processPackages [mdof]: Downloading https://files.pythonhosted.org/packages/9e/84/d2a6f45668139927aecb88a92cccd7c0884c48914ab06aecf0deef91356a/mdof-0.0.9.tar.gz
+[2024-04-03 04:08:32] INFO root fetch - processPackages [odoo14-addon-ssi-service]: Downloading https://files.pythonhosted.org/packages/0c/61/2d48f90577840711c00c2210bc21d63c434f3476ed8d5bca43f63b77a120/odoo14_addon_ssi_service-14.0.2.2.0-py3-none-any.whl
+[2024-04-03 04:08:32] INFO root fetch - processPackages [odoo14-addon-ssi-service-quotation]: Downloading https://files.pythonhosted.org/packages/06/e4/55cbbc71ce8b12c91bc60a3ded137edf3fbc364781242b6c0ac05f6781e4/odoo14_addon_ssi_service_quotation-14.0.1.8.2.dev1-py3-none-any.whl
+[2024-04-03 04:08:32] WARNING root fetch - processPackages [metaphor-connectors]: Timeout reached during download
+[2024-04-03 04:08:32] WARNING root fetch - processPackages [mdof]: Timeout reached during download
+[2024-04-03 04:08:32] INFO root fetch - processPackages [mdof]: executing diffoscope
+[2024-04-03 04:08:32] INFO root fetch - processPackages [mdof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdof-0.0.8.tar.gz tmp/mdof-0.0.9.tar.gz --markdown 20240403/m/mdof/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 04:08:32] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2024-04-03 04:08:32] WARNING root fetch - processPackages [odoo14-addon-ssi-service-quotation]: Timeout reached during download
+[2024-04-03 04:08:32] WARNING root fetch - processPackages [odoo14-addon-ssi-service]: Timeout reached during download
+[2024-04-03 04:08:32] WARNING root fetch - processPackages [metaphor-connectors]: Timeout reached during download
+[2024-04-03 04:08:32] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2024-04-03 04:08:32] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20240403/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-03 04:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-service-quotation]: Downloading https://files.pythonhosted.org/packages/16/26/9ae8dcb749bb29df03a321955ec3bea933721342242c858909d06b109c40/odoo14_addon_ssi_service_quotation-14.0.1.9.0-py3-none-any.whl
+[2024-04-03 04:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-service]: Downloading https://files.pythonhosted.org/packages/40/6f/02e302cb5a6d1c3e4484857bfc284720b933e657b8ad00ac8c04c4fa2c97/odoo14_addon_ssi_service-14.0.2.3.0-py3-none-any.whl
+[2024-04-03 04:08:33] WARNING root fetch - processPackages [odoo14-addon-ssi-service-quotation]: Timeout reached during download
+[2024-04-03 04:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-service-quotation]: executing diffoscope
+[2024-04-03 04:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-service-quotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_service_quotation-14.0.1.8.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_ssi_service_quotation-14.0.1.9.0-py3-none-any.whl.zip --markdown 20240403/o/odoo14-addon-ssi-service-quotation/14.0.1.8.2.dev1-14.0.1.9.0/diff.md --exclude *.pyd
+[2024-04-03 04:08:33] WARNING root fetch - processPackages [odoo14-addon-ssi-service]: Timeout reached during download
+[2024-04-03 04:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-service]: executing diffoscope
+[2024-04-03 04:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_service-14.0.2.2.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_service-14.0.2.3.0-py3-none-any.whl.zip --markdown 20240403/o/odoo14-addon-ssi-service/14.0.2.2.0-14.0.2.3.0/diff.md --exclude *.pyd
+[2024-04-03 04:08:33] INFO root fetch - processPackages [mdof]: Remove: archive file [/home/abi/fetcher/tmp/mdof-0.0.8.tar.gz]
+[2024-04-03 04:08:33] INFO root fetch - processPackages [mdof]: Remove: archive file [/home/abi/fetcher/tmp/mdof-0.0.9.tar.gz]
+[2024-04-03 04:08:33] INFO root fetch - main [MainThread]: End processing [mdof]: success
+[2024-04-03 04:08:33] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2024-04-03 04:08:33] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2024-04-03 04:08:33] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2024-04-03 04:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-service-quotation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_service_quotation-14.0.1.8.2.dev1-py3-none-any.whl.zip]
+[2024-04-03 04:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-service-quotation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_service_quotation-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-03 04:08:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-service-quotation]: success
+[2024-04-03 04:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_service-14.0.2.2.0-py3-none-any.whl.zip]
+[2024-04-03 04:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_service-14.0.2.3.0-py3-none-any.whl.zip]
+[2024-04-03 04:08:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-service]: success
+[2024-04-03 04:08:33] INFO root fetch - main [MainThread]: Store serial: [22596394]

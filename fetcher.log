@@ -23226,3 +23226,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 09:24:08] INFO root fetch - processPackages [odoo-addon-web-tree-dynamic-colored-field]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_tree_dynamic_colored_field-17.0.1.0.0.2-py3-none-any.whl.zip]
 [2024-04-03 09:24:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-tree-dynamic-colored-field]: success
 [2024-04-03 09:24:08] INFO root fetch - main [MainThread]: Store serial: [22599317]
+[2024-04-03 09:26:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599317]
+[2024-04-03 09:26:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 09:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botasaurus-server
+[2024-04-03 09:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tuxtrigger
+[2024-04-03 09:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mecha
+[2024-04-03 09:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beartype
+[2024-04-03 09:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kili
+[2024-04-03 09:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aixblock-converter
+[2024-04-03 09:26:17] INFO root fetch - processPackages [botasaurus-server]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-03 09:26:17] WARNING root fetch - processPackages [aixblock-converter]: Skipping, unable to determine old version
+[2024-04-03 09:26:17] INFO root fetch - main [MainThread]: End processing [aixblock-converter] error
+[2024-04-03 09:26:17] INFO root fetch - processPackages [beartype]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-03 09:26:17] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/f0/29/6236cf00c97e9e74fa0c4e7fb1f7ef957e52111b705e85e89defe4ec7de6/botasaurus_server-4.0.8.tar.gz
+[2024-04-03 09:26:17] INFO root fetch - processPackages [tuxtrigger]: New version: [0.8.1] Old Version: [0.7.0]
+[2024-04-03 09:26:17] INFO root fetch - processPackages [beartype]: Downloading https://files.pythonhosted.org/packages/6b/c7/a73fbaa2f2abc1120e6d16cfb89cdb6f7ea3ba8e715dbc324ac1aafe7b4b/beartype-0.9.0.tar.gz
+[2024-04-03 09:26:17] INFO root fetch - processPackages [kili]: New version: [2.99.0] Old Version: [2.98.0]
+[2024-04-03 09:26:17] INFO root fetch - processPackages [mecha]: New version: [0.92.0] Old Version: [0.91.3]
+[2024-04-03 09:26:17] WARNING root fetch - processPackages [botasaurus-server]: Timeout reached during download
+[2024-04-03 09:26:17] WARNING root fetch - processPackages [beartype]: Timeout reached during download
+[2024-04-03 09:26:17] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/03/11/ef707a7fce8129a4d151622283f54a8d7ab9c844defd6f5f294b0bac1632/botasaurus_server-4.0.9.tar.gz
+[2024-04-03 09:26:17] INFO root fetch - processPackages [tuxtrigger]: Downloading https://files.pythonhosted.org/packages/42/d5/2781463ca716591f3bcf85d978ee9b5800efe699b1fbd9f064e2d59cacc3/tuxtrigger-0.7.0.tar.gz
+[2024-04-03 09:26:17] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/82/1a/9d8d62f4db71c0c98f2af8101e21f42133a2335a53ea5acb86d49e0afcce/kili-2.98.0.tar.gz
+[2024-04-03 09:26:17] INFO root fetch - processPackages [mecha]: Downloading https://files.pythonhosted.org/packages/21/0d/ef91d96a0dc5d574b79ed4248fc5d72080c759a1f051b26dc8c985dabf43/mecha-0.91.3.tar.gz
+[2024-04-03 09:26:17] INFO root fetch - processPackages [beartype]: Downloading https://files.pythonhosted.org/packages/ef/16/11a1509d5cd7f3760101edda30f66b28367f2793178bea57745733e92076/beartype-0.9.1.tar.gz
+[2024-04-03 09:26:17] WARNING root fetch - processPackages [kili]: Timeout reached during download
+[2024-04-03 09:26:17] WARNING root fetch - processPackages [botasaurus-server]: Timeout reached during download
+[2024-04-03 09:26:17] INFO root fetch - processPackages [botasaurus-server]: executing diffoscope
+[2024-04-03 09:26:17] INFO root fetch - processPackages [botasaurus-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_server-4.0.8.tar.gz tmp/botasaurus_server-4.0.9.tar.gz --markdown 20240403/b/botasaurus-server/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2024-04-03 09:26:17] WARNING root fetch - processPackages [mecha]: Timeout reached during download
+[2024-04-03 09:26:17] WARNING root fetch - processPackages [tuxtrigger]: Timeout reached during download
+[2024-04-03 09:26:17] WARNING root fetch - processPackages [beartype]: Timeout reached during download
+[2024-04-03 09:26:17] INFO root fetch - processPackages [mecha]: Downloading https://files.pythonhosted.org/packages/64/50/d87eba292a82a901931792586c5292529bc50296787e121708c8cc8ce404/mecha-0.92.0.tar.gz
+[2024-04-03 09:26:17] INFO root fetch - processPackages [beartype]: executing diffoscope
+[2024-04-03 09:26:17] INFO root fetch - processPackages [beartype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beartype-0.9.0.tar.gz tmp/beartype-0.9.1.tar.gz --markdown 20240403/b/beartype/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-03 09:26:17] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/29/0e/34477795c404b4be48b4e400c823732c9e2857d5f305bbbdbc8203e0ec17/kili-2.99.0.tar.gz
+[2024-04-03 09:26:17] INFO root fetch - processPackages [tuxtrigger]: Downloading https://files.pythonhosted.org/packages/35/cb/c7984cd9e9c1f89551c6dc0fe145537fc0eb8e5fc903178d193b61d2e95c/tuxtrigger-0.8.1.tar.gz
+[2024-04-03 09:26:17] WARNING root fetch - processPackages [kili]: Timeout reached during download
+[2024-04-03 09:26:17] INFO root fetch - processPackages [kili]: executing diffoscope
+[2024-04-03 09:26:17] INFO root fetch - processPackages [kili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kili-2.98.0.tar.gz tmp/kili-2.99.0.tar.gz --markdown 20240403/k/kili/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2024-04-03 09:26:18] WARNING root fetch - processPackages [mecha]: Timeout reached during download
+[2024-04-03 09:26:18] INFO root fetch - processPackages [mecha]: executing diffoscope
+[2024-04-03 09:26:18] INFO root fetch - processPackages [mecha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecha-0.91.3.tar.gz tmp/mecha-0.92.0.tar.gz --markdown 20240403/m/mecha/0.91.3-0.92.0/diff.md --exclude *.pyd
+[2024-04-03 09:26:18] WARNING root fetch - processPackages [tuxtrigger]: Timeout reached during download
+[2024-04-03 09:26:18] INFO root fetch - processPackages [tuxtrigger]: executing diffoscope
+[2024-04-03 09:26:18] INFO root fetch - processPackages [tuxtrigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxtrigger-0.7.0.tar.gz tmp/tuxtrigger-0.8.1.tar.gz --markdown 20240403/t/tuxtrigger/0.7.0-0.8.1/diff.md --exclude *.pyd
+[2024-04-03 09:26:18] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.8.tar.gz]
+[2024-04-03 09:26:18] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.9.tar.gz]
+[2024-04-03 09:26:18] INFO root fetch - main [MainThread]: End processing [botasaurus-server]: success
+[2024-04-03 09:26:18] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.98.0.tar.gz]
+[2024-04-03 09:26:18] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.99.0.tar.gz]
+[2024-04-03 09:26:18] INFO root fetch - main [MainThread]: End processing [kili]: success
+[2024-04-03 09:26:18] INFO root fetch - processPackages [mecha]: Remove: archive file [/home/abi/fetcher/tmp/mecha-0.91.3.tar.gz]
+[2024-04-03 09:26:18] INFO root fetch - processPackages [mecha]: Remove: archive file [/home/abi/fetcher/tmp/mecha-0.92.0.tar.gz]
+[2024-04-03 09:26:18] INFO root fetch - main [MainThread]: End processing [mecha]: success
+[2024-04-03 09:26:19] INFO root fetch - processPackages [tuxtrigger]: Remove: archive file [/home/abi/fetcher/tmp/tuxtrigger-0.7.0.tar.gz]
+[2024-04-03 09:26:19] INFO root fetch - processPackages [tuxtrigger]: Remove: archive file [/home/abi/fetcher/tmp/tuxtrigger-0.8.1.tar.gz]
+[2024-04-03 09:26:19] INFO root fetch - main [MainThread]: End processing [tuxtrigger]: success
+[2024-04-03 09:26:19] INFO root fetch - processPackages [beartype]: Remove: archive file [/home/abi/fetcher/tmp/beartype-0.9.0.tar.gz]
+[2024-04-03 09:26:19] INFO root fetch - processPackages [beartype]: Remove: archive file [/home/abi/fetcher/tmp/beartype-0.9.1.tar.gz]
+[2024-04-03 09:26:19] INFO root fetch - main [MainThread]: End processing [beartype]: success
+[2024-04-03 09:26:19] INFO root fetch - main [MainThread]: Store serial: [22599334]

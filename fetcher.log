@@ -22916,3 +22916,31 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 09:11:00] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-1.6.1.tar.gz]
 [2024-04-03 09:11:00] INFO root fetch - main [MainThread]: End processing [erlab]: success
 [2024-04-03 09:11:00] INFO root fetch - main [MainThread]: Store serial: [22599211]
+[2024-04-03 09:13:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599211]
+[2024-04-03 09:13:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 09:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arxiv-search-assistant
+[2024-04-03 09:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qalx-orcaflex
+[2024-04-03 09:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-module-gcp-bigquery
+[2024-04-03 09:13:09] INFO root fetch - processPackages [xia-module-gcp-bigquery]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-03 09:13:09] INFO root fetch - processPackages [qalx-orcaflex]: New version: [0.2.9a1] Old Version: [0.2.9a0]
+[2024-04-03 09:13:09] INFO root fetch - processPackages [xia-module-gcp-bigquery]: Downloading https://files.pythonhosted.org/packages/98/64/5acdc7b97ad648c746ffd1420f667a8008cff2d66691dd2521f84059c9a0/xia-module-gcp-bigquery-0.0.1.tar.gz
+[2024-04-03 09:13:09] WARNING root fetch - processPackages [arxiv-search-assistant]: Skipping, unable to determine old version
+[2024-04-03 09:13:09] INFO root fetch - main [MainThread]: End processing [arxiv-search-assistant] error
+[2024-04-03 09:13:09] INFO root fetch - processPackages [qalx-orcaflex]: Downloading https://files.pythonhosted.org/packages/91/d4/95a7d958ac337db8729c7b0d9f268a062312731dbf855dc33bd69ebfec43/qalx_orcaflex-0.2.9a0.tar.gz
+[2024-04-03 09:13:09] WARNING root fetch - processPackages [xia-module-gcp-bigquery]: Timeout reached during download
+[2024-04-03 09:13:09] WARNING root fetch - processPackages [qalx-orcaflex]: Timeout reached during download
+[2024-04-03 09:13:09] INFO root fetch - processPackages [xia-module-gcp-bigquery]: Downloading https://files.pythonhosted.org/packages/87/1c/9513363570c7d186f22e9c85fc25af0a97283a51a370eec3869d55e9b1f8/xia-module-gcp-bigquery-0.0.2.tar.gz
+[2024-04-03 09:13:09] INFO root fetch - processPackages [qalx-orcaflex]: Downloading https://files.pythonhosted.org/packages/85/90/5359721dc1c2ce396ecbc180b15c9abfeddebf17ca258edc85d5a26c5137/qalx_orcaflex-0.2.9a1.tar.gz
+[2024-04-03 09:13:09] WARNING root fetch - processPackages [xia-module-gcp-bigquery]: Timeout reached during download
+[2024-04-03 09:13:09] INFO root fetch - processPackages [xia-module-gcp-bigquery]: executing diffoscope
+[2024-04-03 09:13:09] INFO root fetch - processPackages [xia-module-gcp-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia-module-gcp-bigquery-0.0.1.tar.gz tmp/xia-module-gcp-bigquery-0.0.2.tar.gz --markdown 20240403/x/xia-module-gcp-bigquery/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-03 09:13:09] WARNING root fetch - processPackages [qalx-orcaflex]: Timeout reached during download
+[2024-04-03 09:13:09] INFO root fetch - processPackages [qalx-orcaflex]: executing diffoscope
+[2024-04-03 09:13:09] INFO root fetch - processPackages [qalx-orcaflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qalx_orcaflex-0.2.9a0.tar.gz tmp/qalx_orcaflex-0.2.9a1.tar.gz --markdown 20240403/q/qalx-orcaflex/0.2.9a0-0.2.9a1/diff.md --exclude *.pyd
+[2024-04-03 09:13:10] INFO root fetch - processPackages [xia-module-gcp-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/xia-module-gcp-bigquery-0.0.1.tar.gz]
+[2024-04-03 09:13:10] INFO root fetch - processPackages [xia-module-gcp-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/xia-module-gcp-bigquery-0.0.2.tar.gz]
+[2024-04-03 09:13:10] INFO root fetch - main [MainThread]: End processing [xia-module-gcp-bigquery]: success
+[2024-04-03 09:13:10] INFO root fetch - processPackages [qalx-orcaflex]: Remove: archive file [/home/abi/fetcher/tmp/qalx_orcaflex-0.2.9a0.tar.gz]
+[2024-04-03 09:13:10] INFO root fetch - processPackages [qalx-orcaflex]: Remove: archive file [/home/abi/fetcher/tmp/qalx_orcaflex-0.2.9a1.tar.gz]
+[2024-04-03 09:13:10] INFO root fetch - main [MainThread]: End processing [qalx-orcaflex]: success
+[2024-04-03 09:13:10] INFO root fetch - main [MainThread]: Store serial: [22599221]

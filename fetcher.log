@@ -2625,3 +2625,83 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 02:09:16] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
 [2024-04-03 02:09:16] INFO root fetch - main [MainThread]: End processing [burr]: success
 [2024-04-03 02:09:16] INFO root fetch - main [MainThread]: Store serial: [22593230]
+[2024-04-03 02:11:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593230]
+[2024-04-03 02:11:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 02:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2024-04-03 02:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-parsing
+[2024-04-03 02:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fixpoint-sdk
+[2024-04-03 02:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotify-web-downloader
+[2024-04-03 02:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-common
+[2024-04-03 02:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: burr
+[2024-04-03 02:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openbb-nightly
+[2024-04-03 02:11:26] INFO root fetch - processPackages [spotify-web-downloader]: New version: [1.6.1] Old Version: [1.6]
+[2024-04-03 02:11:26] INFO root fetch - processPackages [fixpoint-sdk]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-03 02:11:26] INFO root fetch - processPackages [burr]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-03 02:11:26] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.6.dev202404020009] Old Version: [4.1.5.dev202404010010]
+[2024-04-03 02:11:26] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-03 02:11:26] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-04-03 02:11:26] INFO root fetch - processPackages [mo-parsing]: New version: [8.6.21337] Old Version: [8.581.24094]
+[2024-04-03 02:11:26] INFO root fetch - processPackages [spotify-web-downloader]: Downloading https://files.pythonhosted.org/packages/c3/40/9eff09d170ea9ea1635f6804f6852f31b03e718c65542aa9b1b91093f0b9/spotify_web_downloader-1.6.tar.gz
+[2024-04-03 02:11:26] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/da/21/65ba7b026ed08b22d9803563bdc37565e3698406a19002278c1b55218301/openbb_nightly-4.1.5.dev202404010010.tar.gz
+[2024-04-03 02:11:26] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/87/83/f7356070de16e070dbc68373d02f5b3677c417c21359630b2007a8b027df/burr-0.8.1.tar.gz
+[2024-04-03 02:11:26] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-04-03 02:11:26] WARNING root fetch - processPackages [spotify-web-downloader]: Timeout reached during download
+[2024-04-03 02:11:26] INFO root fetch - processPackages [fixpoint-sdk]: Downloading https://files.pythonhosted.org/packages/f5/68/f790f4e8d33045f2cb3c8d11ca08df4d25ecb185b9e8329ec1b791e54381/fixpoint_sdk-0.3.0.tar.gz
+[2024-04-03 02:11:26] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-03 02:11:26] WARNING root fetch - processPackages [coiled]: Timeout reached during download
+[2024-04-03 02:11:26] INFO root fetch - processPackages [mo-parsing]: Downloading https://files.pythonhosted.org/packages/44/fe/c1ee1f9410474d34b3218d695684c0d993a7c1f9f00c06dd8b11cece224c/mo-parsing-8.581.24094.tar.gz
+[2024-04-03 02:11:26] WARNING root fetch - processPackages [fixpoint-sdk]: Timeout reached during download
+[2024-04-03 02:11:26] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-04-03 02:11:26] INFO root fetch - processPackages [spotify-web-downloader]: Downloading https://files.pythonhosted.org/packages/c1/36/ef4f902150fa2e7a6151591af7500cbd9830cf2939eb0cb7593b8866e826/spotify_web_downloader-1.6.1.tar.gz
+[2024-04-03 02:11:26] WARNING root fetch - processPackages [openbb-nightly]: Timeout reached during download
+[2024-04-03 02:11:26] WARNING root fetch - processPackages [burr]: Timeout reached during download
+[2024-04-03 02:11:26] WARNING root fetch - processPackages [mo-parsing]: Timeout reached during download
+[2024-04-03 02:11:26] INFO root fetch - processPackages [fixpoint-sdk]: Downloading https://files.pythonhosted.org/packages/45/31/560ed732602254d89eb008ffa902941ff794b69274e154497d6170eb8a51/fixpoint_sdk-0.4.0.tar.gz
+[2024-04-03 02:11:26] WARNING root fetch - processPackages [coiled]: Timeout reached during download
+[2024-04-03 02:11:26] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-04-03 02:11:26] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240403/c/coiled/1.9.1.dev8-1.9.1.dev9/diff.md --exclude *.pyd
+[2024-04-03 02:11:26] WARNING root fetch - processPackages [spotify-web-downloader]: Timeout reached during download
+[2024-04-03 02:11:26] INFO root fetch - processPackages [spotify-web-downloader]: executing diffoscope
+[2024-04-03 02:11:26] INFO root fetch - processPackages [spotify-web-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_web_downloader-1.6.tar.gz tmp/spotify_web_downloader-1.6.1.tar.gz --markdown 20240403/s/spotify-web-downloader/1.6-1.6.1/diff.md --exclude *.pyd
+[2024-04-03 02:11:26] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/a7/0e/2ca7d4a67c2fd3d7d1d39b7b705b82c09eb19c90ca05cdd861d28fe258a2/openbb_nightly-4.1.6.dev202404020009.tar.gz
+[2024-04-03 02:11:26] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/65/38/00b44d54c37f35813232167f5745ca37eac9ad13574e81e1f4e685acf5d5/burr-0.9.0.tar.gz
+[2024-04-03 02:11:26] WARNING root fetch - processPackages [fixpoint-sdk]: Timeout reached during download
+[2024-04-03 02:11:26] INFO root fetch - processPackages [fixpoint-sdk]: executing diffoscope
+[2024-04-03 02:11:26] INFO root fetch - processPackages [fixpoint-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixpoint_sdk-0.3.0.tar.gz tmp/fixpoint_sdk-0.4.0.tar.gz --markdown 20240403/f/fixpoint-sdk/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-03 02:11:27] INFO root fetch - processPackages [mo-parsing]: Downloading https://files.pythonhosted.org/packages/f5/1a/82201993fe48978b96bd30729e1d7c8097d4513168689bc51790c6a20d90/mo-parsing-8.6.21337.tar.gz
+[2024-04-03 02:11:27] WARNING root fetch - processPackages [mo-parsing]: Timeout reached during download
+[2024-04-03 02:11:27] INFO root fetch - processPackages [mo-parsing]: executing diffoscope
+[2024-04-03 02:11:27] INFO root fetch - processPackages [mo-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-parsing-8.581.24094.tar.gz tmp/mo-parsing-8.6.21337.tar.gz --markdown 20240403/m/mo-parsing/8.581.24094-8.6.21337/diff.md --exclude *.pyd
+[2024-04-03 02:11:27] WARNING root fetch - processPackages [burr]: Timeout reached during download
+[2024-04-03 02:11:27] INFO root fetch - processPackages [burr]: executing diffoscope
+[2024-04-03 02:11:27] INFO root fetch - processPackages [burr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burr-0.8.1.tar.gz tmp/burr-0.9.0.tar.gz --markdown 20240403/b/burr/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 02:11:27] WARNING root fetch - processPackages [openbb-nightly]: Timeout reached during download
+[2024-04-03 02:11:27] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-03 02:11:27] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.5.dev202404010010.tar.gz tmp/openbb_nightly-4.1.6.dev202404020009.tar.gz --markdown 20240403/o/openbb-nightly/4.1.5.dev202404010010-4.1.6.dev202404020009/diff.md --exclude *.pyd
+[2024-04-03 02:11:27] WARNING root fetch - processPackages [cdk-common]: Timeout reached during download
+[2024-04-03 02:11:27] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-03 02:11:27] INFO root fetch - processPackages [spotify-web-downloader]: Remove: archive file [/home/abi/fetcher/tmp/spotify_web_downloader-1.6.tar.gz]
+[2024-04-03 02:11:27] INFO root fetch - processPackages [spotify-web-downloader]: Remove: archive file [/home/abi/fetcher/tmp/spotify_web_downloader-1.6.1.tar.gz]
+[2024-04-03 02:11:27] INFO root fetch - main [MainThread]: End processing [spotify-web-downloader]: success
+[2024-04-03 02:11:27] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-04-03 02:11:27] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-04-03 02:11:27] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-04-03 02:11:27] INFO root fetch - processPackages [fixpoint-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fixpoint_sdk-0.3.0.tar.gz]
+[2024-04-03 02:11:27] INFO root fetch - processPackages [fixpoint-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fixpoint_sdk-0.4.0.tar.gz]
+[2024-04-03 02:11:27] INFO root fetch - main [MainThread]: End processing [fixpoint-sdk]: success
+[2024-04-03 02:11:27] WARNING root fetch - processPackages [cdk-common]: Timeout reached during download
+[2024-04-03 02:11:27] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-03 02:11:27] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240403/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-03 02:11:28] INFO root fetch - processPackages [mo-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo-parsing-8.581.24094.tar.gz]
+[2024-04-03 02:11:28] INFO root fetch - processPackages [mo-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo-parsing-8.6.21337.tar.gz]
+[2024-04-03 02:11:28] INFO root fetch - main [MainThread]: End processing [mo-parsing]: success
+[2024-04-03 02:11:28] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-03 02:11:28] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-03 02:11:28] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-03 02:11:30] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.5.dev202404010010.tar.gz]
+[2024-04-03 02:11:30] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404020009.tar.gz]
+[2024-04-03 02:11:30] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-03 02:12:03] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.8.1.tar.gz]
+[2024-04-03 02:12:03] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
+[2024-04-03 02:12:03] INFO root fetch - main [MainThread]: End processing [burr]: success
+[2024-04-03 02:12:03] INFO root fetch - main [MainThread]: Store serial: [22593251]

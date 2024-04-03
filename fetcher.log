@@ -17538,3 +17538,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:38:30] INFO root fetch - processPackages [tencentcloud-sdk-python-cfs]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cfs-3.0.999.tar.gz]
 [2024-04-03 06:38:30] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cfs]: success
 [2024-04-03 06:38:30] INFO root fetch - main [MainThread]: Store serial: [22597571]
+[2024-04-03 06:40:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597571]
+[2024-04-03 06:40:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-03 06:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-ckafka
+[2024-04-03 06:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-clb
+[2024-04-03 06:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-bridge
+[2024-04-03 06:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clap-detector
+[2024-04-03 06:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-cloudhsm
+[2024-04-03 06:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-cloudstudio
+[2024-04-03 06:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-cls
+[2024-04-03 06:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-cme
+[2024-04-03 06:40:39] INFO root fetch - processPackages [python-bridge]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-03 06:40:39] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/a2/d1/f45befb254c83b558aa731ae4a69ad424969d0748bd1aff0b0c9c9017700/python-bridge-0.0.3.tar.gz
+[2024-04-03 06:40:39] INFO root fetch - processPackages [clap-detector]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-03 06:40:39] INFO root fetch - processPackages [tencentcloud-sdk-python-cls]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:40:39] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudstudio]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:40:39] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:40:39] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:40:39] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudhsm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:40:39] INFO root fetch - processPackages [tencentcloud-sdk-python-cme]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:40:39] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-03 06:40:39] INFO root fetch - processPackages [clap-detector]: Downloading https://files.pythonhosted.org/packages/6f/ce/1ce311f7437525e10701b147bc40e54f0919c95f5363c16b327201bca9c0/clap-detector-2.0.2.tar.gz
+[2024-04-03 06:40:39] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudstudio]: Downloading https://files.pythonhosted.org/packages/cb/89/bd78d078e047ea86d809bb43a67d6d7e9db641285704b7fc0de1b1407363/tencentcloud-sdk-python-cloudstudio-3.0.998.tar.gz
+[2024-04-03 06:40:39] INFO root fetch - processPackages [tencentcloud-sdk-python-cls]: Downloading https://files.pythonhosted.org/packages/bf/cd/680b70bba5d199849ae7b76c8e7d1f14ac7b72fa05d5f6e6039aa77f5c6b/tencentcloud-sdk-python-cls-3.0.998.tar.gz
+[2024-04-03 06:40:39] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: Downloading https://files.pythonhosted.org/packages/5c/a8/c9e431108bceb4b256fb62fab1e9e73096b8cfd37a5a4c8c2f642281d45a/tencentcloud-sdk-python-ckafka-3.0.998.tar.gz
+[2024-04-03 06:40:39] INFO root fetch - processPackages [tencentcloud-sdk-python-cme]: Downloading https://files.pythonhosted.org/packages/01/65/a087bb9834ad9041f9a0eaf70acc636e3625de2e3464d9f59440222627ff/tencentcloud-sdk-python-cme-3.0.998.tar.gz
+[2024-04-03 06:40:39] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: Downloading https://files.pythonhosted.org/packages/28/c1/4c296457864a2bbf34593032a54ed497f3593fe2f7b9929b2c6cc6b10daa/tencentcloud-sdk-python-clb-3.0.998.tar.gz
+[2024-04-03 06:40:39] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudhsm]: Downloading https://files.pythonhosted.org/packages/33/0e/e0d66b9d52df32de5af3fac47782338544c8c594120e699b0f263feea64c/tencentcloud-sdk-python-cloudhsm-3.0.998.tar.gz
+[2024-04-03 06:40:39] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/8b/96/fc6fadaef452295e4d6d753471eff7e5f54863a16a855e133d69d3cab261/python-bridge-0.0.4.tar.gz
+[2024-04-03 06:40:39] WARNING root fetch - processPackages [clap-detector]: Timeout reached during download
+[2024-04-03 06:40:39] WARNING root fetch - processPackages [tencentcloud-sdk-python-cloudstudio]: Timeout reached during download
+[2024-04-03 06:40:39] WARNING root fetch - processPackages [tencentcloud-sdk-python-cls]: Timeout reached during download
+[2024-04-03 06:40:39] WARNING root fetch - processPackages [tencentcloud-sdk-python-cme]: Timeout reached during download
+[2024-04-03 06:40:39] WARNING root fetch - processPackages [tencentcloud-sdk-python-cloudhsm]: Timeout reached during download
+[2024-04-03 06:40:39] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-03 06:40:39] INFO root fetch - processPackages [python-bridge]: executing diffoscope
+[2024-04-03 06:40:39] INFO root fetch - processPackages [python-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bridge-0.0.3.tar.gz tmp/python-bridge-0.0.4.tar.gz --markdown 20240403/p/python-bridge/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-03 06:40:39] WARNING root fetch - processPackages [tencentcloud-sdk-python-ckafka]: Timeout reached during download
+[2024-04-03 06:40:39] WARNING root fetch - processPackages [tencentcloud-sdk-python-clb]: Timeout reached during download
+[2024-04-03 06:40:39] INFO root fetch - processPackages [clap-detector]: Downloading https://files.pythonhosted.org/packages/a9/9f/84bcb0319ef68982a2310e6f65d2440a0122fb9d39b9de00db90aaca0547/clap-detector-2.0.3.tar.gz
+[2024-04-03 06:40:39] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudstudio]: Downloading https://files.pythonhosted.org/packages/5c/5d/997c93db648576d63f0ea79aa62a46dfb485a72454af7decea14809e28d8/tencentcloud-sdk-python-cloudstudio-3.0.999.tar.gz
+[2024-04-03 06:40:39] INFO root fetch - processPackages [tencentcloud-sdk-python-cls]: Downloading https://files.pythonhosted.org/packages/e9/e1/d3b836642642fff8508abb92fa2e847dded1898fc7efa4eb72d07e46637c/tencentcloud-sdk-python-cls-3.0.999.tar.gz
+[2024-04-03 06:40:39] INFO root fetch - processPackages [tencentcloud-sdk-python-cme]: Downloading https://files.pythonhosted.org/packages/cb/f2/6b10fd6ddabb0b789d608eaf3637784c798a4290db17de5248ab85461a13/tencentcloud-sdk-python-cme-3.0.999.tar.gz
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudhsm]: Downloading https://files.pythonhosted.org/packages/d0/bf/d801109a102e7a2a50d2a18cbb0fe865261b8ab38637bf813d5cac9e6dbd/tencentcloud-sdk-python-cloudhsm-3.0.999.tar.gz
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: Downloading https://files.pythonhosted.org/packages/95/46/3850ce6ac7e5f7ee55b2baf27c3f6afe65568dfc979889096072257991e7/tencentcloud-sdk-python-clb-3.0.999.tar.gz
+[2024-04-03 06:40:40] WARNING root fetch - processPackages [tencentcloud-sdk-python-cloudstudio]: Timeout reached during download
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudstudio]: executing diffoscope
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cloudstudio-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cloudstudio-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-cloudstudio/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: Downloading https://files.pythonhosted.org/packages/0e/31/976d1eb34715453dbfffb20889e590f1b80473d05f80d1683580df34b090/tencentcloud-sdk-python-ckafka-3.0.999.tar.gz
+[2024-04-03 06:40:40] WARNING root fetch - processPackages [clap-detector]: Timeout reached during download
+[2024-04-03 06:40:40] INFO root fetch - processPackages [clap-detector]: executing diffoscope
+[2024-04-03 06:40:40] INFO root fetch - processPackages [clap-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clap-detector-2.0.2.tar.gz tmp/clap-detector-2.0.3.tar.gz --markdown 20240403/c/clap-detector/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2024-04-03 06:40:40] WARNING root fetch - processPackages [tencentcloud-sdk-python-cls]: Timeout reached during download
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cls]: executing diffoscope
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cls-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cls-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-cls/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:40:40] WARNING root fetch - processPackages [tencentcloud-sdk-python-cme]: Timeout reached during download
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cme]: executing diffoscope
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cme-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cme-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-cme/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:40:40] WARNING root fetch - processPackages [tencentcloud-sdk-python-cloudhsm]: Timeout reached during download
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudhsm]: executing diffoscope
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudhsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cloudhsm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cloudhsm-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-cloudhsm/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:40:40] WARNING root fetch - processPackages [tencentcloud-sdk-python-clb]: Timeout reached during download
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: executing diffoscope
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-clb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-clb-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-clb/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:40:40] WARNING root fetch - processPackages [tencentcloud-sdk-python-ckafka]: Timeout reached during download
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: executing diffoscope
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ckafka-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ckafka-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-ckafka/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:40:40] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.3.tar.gz]
+[2024-04-03 06:40:40] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.4.tar.gz]
+[2024-04-03 06:40:40] INFO root fetch - main [MainThread]: End processing [python-bridge]: success
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudstudio]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cloudstudio-3.0.998.tar.gz]
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudstudio]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cloudstudio-3.0.999.tar.gz]
+[2024-04-03 06:40:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cloudstudio]: success
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cls]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cls-3.0.998.tar.gz]
+[2024-04-03 06:40:40] INFO root fetch - processPackages [tencentcloud-sdk-python-cls]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cls-3.0.999.tar.gz]
+[2024-04-03 06:40:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cls]: success
+[2024-04-03 06:40:40] INFO root fetch - processPackages [clap-detector]: Remove: archive file [/home/abi/fetcher/tmp/clap-detector-2.0.2.tar.gz]
+[2024-04-03 06:40:40] INFO root fetch - processPackages [clap-detector]: Remove: archive file [/home/abi/fetcher/tmp/clap-detector-2.0.3.tar.gz]
+[2024-04-03 06:40:40] INFO root fetch - main [MainThread]: End processing [clap-detector]: success
+[2024-04-03 06:40:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cme]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cme-3.0.998.tar.gz]
+[2024-04-03 06:40:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cme]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cme-3.0.999.tar.gz]
+[2024-04-03 06:40:41] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cme]: success
+[2024-04-03 06:40:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudhsm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cloudhsm-3.0.998.tar.gz]
+[2024-04-03 06:40:41] INFO root fetch - processPackages [tencentcloud-sdk-python-cloudhsm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cloudhsm-3.0.999.tar.gz]
+[2024-04-03 06:40:41] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cloudhsm]: success
+[2024-04-03 06:40:41] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ckafka-3.0.998.tar.gz]
+[2024-04-03 06:40:41] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ckafka-3.0.999.tar.gz]
+[2024-04-03 06:40:41] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ckafka]: success
+[2024-04-03 06:40:41] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-clb-3.0.998.tar.gz]
+[2024-04-03 06:40:41] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-clb-3.0.999.tar.gz]
+[2024-04-03 06:40:41] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-clb]: success
+[2024-04-03 06:40:41] INFO root fetch - main [MainThread]: Store serial: [22597598]

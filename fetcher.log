@@ -16951,3 +16951,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:16:16] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.4.3.tar.gz]
 [2024-04-03 06:16:16] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2024-04-03 06:16:16] INFO root fetch - main [MainThread]: Store serial: [22597400]
+[2024-04-03 06:18:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597400]
+[2024-04-03 06:18:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 06:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-asw
+[2024-04-03 06:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-autoscaling
+[2024-04-03 06:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: surfkit
+[2024-04-03 06:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-CIAM
+[2024-04-03 06:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-batch
+[2024-04-03 06:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-bda
+[2024-04-03 06:18:25] INFO root fetch - processPackages [surfkit]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-03 06:18:25] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:18:25] INFO root fetch - processPackages [python-CIAM]: New version: [1.2] Old Version: [1.1.2]
+[2024-04-03 06:18:25] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/3d/59/37247e9700beb92c535abe7f125bd6ecb9750157c5effe2b9b5f61ab78c5/surfkit-0.1.1.tar.gz
+[2024-04-03 06:18:25] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: Downloading https://files.pythonhosted.org/packages/1f/71/b84e13bec8adb269790f659dea3e500fdaa0f94e439a1ec89ad96b75460f/tencentcloud-sdk-python-asw-3.0.998.tar.gz
+[2024-04-03 06:18:25] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:18:25] INFO root fetch - processPackages [tencentcloud-sdk-python-autoscaling]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:18:25] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:18:25] WARNING root fetch - processPackages [surfkit]: Timeout reached during download
+[2024-04-03 06:18:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-asw]: Timeout reached during download
+[2024-04-03 06:18:25] INFO root fetch - processPackages [python-CIAM]: Downloading https://files.pythonhosted.org/packages/97/da/055495a91f7eea1c389cb431b0fbefc210b518e538628dd195de4573bfae/python-CIAM-1.1.2.tar.gz
+[2024-04-03 06:18:25] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: Downloading https://files.pythonhosted.org/packages/a1/f6/ba1d634736ab5a2a47260f5e3f03c23b6c3dea00e5853d415ebc2e82b180/tencentcloud-sdk-python-asw-3.0.999.tar.gz
+[2024-04-03 06:18:25] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: Downloading https://files.pythonhosted.org/packages/d4/3c/0d418abfac1039841ba0a6e74bba770b8a062b81b6d40a2c40d604c9ea01/tencentcloud-sdk-python-bda-3.0.998.tar.gz
+[2024-04-03 06:18:25] INFO root fetch - processPackages [tencentcloud-sdk-python-autoscaling]: Downloading https://files.pythonhosted.org/packages/9e/42/cfc06e0d7c212cf8b42bbb155327c557179d36aff35e7c76704ce5b09c07/tencentcloud-sdk-python-autoscaling-3.0.998.tar.gz
+[2024-04-03 06:18:25] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: Downloading https://files.pythonhosted.org/packages/84/2c/212f86ff53168584fed4fd51300747ef6f235f1dc886a9d7deb92aec4188/tencentcloud-sdk-python-batch-3.0.998.tar.gz
+[2024-04-03 06:18:25] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/8a/13/664484b5276cb4c1627c4011a0079669879ae9b78b4c4b66b51e1286e916/surfkit-0.1.2.tar.gz
+[2024-04-03 06:18:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-asw]: Timeout reached during download
+[2024-04-03 06:18:25] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: executing diffoscope
+[2024-04-03 06:18:25] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-asw-3.0.998.tar.gz tmp/tencentcloud-sdk-python-asw-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-asw/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:18:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-bda]: Timeout reached during download
+[2024-04-03 06:18:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-autoscaling]: Timeout reached during download
+[2024-04-03 06:18:25] WARNING root fetch - processPackages [python-CIAM]: Timeout reached during download
+[2024-04-03 06:18:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-batch]: Timeout reached during download
+[2024-04-03 06:18:25] WARNING root fetch - processPackages [surfkit]: Timeout reached during download
+[2024-04-03 06:18:25] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-03 06:18:25] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.1.tar.gz tmp/surfkit-0.1.2.tar.gz --markdown 20240403/s/surfkit/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-03 06:18:26] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: Downloading https://files.pythonhosted.org/packages/53/52/59484777d14af766b1e3906a5fbf026829acf3b6ae015166f4cfcba754c4/tencentcloud-sdk-python-bda-3.0.999.tar.gz
+[2024-04-03 06:18:26] INFO root fetch - processPackages [python-CIAM]: Downloading https://files.pythonhosted.org/packages/78/d1/5f222011deb96393b64f08da7ffbda597e01d74f757444cf6104967fc676/python-CIAM-1.2.tar.gz
+[2024-04-03 06:18:26] INFO root fetch - processPackages [tencentcloud-sdk-python-autoscaling]: Downloading https://files.pythonhosted.org/packages/a9/9f/f2ad0087ca6859606f8a04332745a6af99a3609e9035ec358ee986c8a49b/tencentcloud-sdk-python-autoscaling-3.0.999.tar.gz
+[2024-04-03 06:18:26] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: Downloading https://files.pythonhosted.org/packages/ba/0a/fa9126fbd657ceeafa5d044c9bff15dbde88a1d5970d7c57d980a9fbd8a5/tencentcloud-sdk-python-batch-3.0.999.tar.gz
+[2024-04-03 06:18:26] WARNING root fetch - processPackages [tencentcloud-sdk-python-bda]: Timeout reached during download
+[2024-04-03 06:18:26] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: executing diffoscope
+[2024-04-03 06:18:26] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bda-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bda-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-bda/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:18:26] WARNING root fetch - processPackages [tencentcloud-sdk-python-autoscaling]: Timeout reached during download
+[2024-04-03 06:18:26] INFO root fetch - processPackages [tencentcloud-sdk-python-autoscaling]: executing diffoscope
+[2024-04-03 06:18:26] INFO root fetch - processPackages [tencentcloud-sdk-python-autoscaling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-autoscaling-3.0.998.tar.gz tmp/tencentcloud-sdk-python-autoscaling-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-autoscaling/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:18:26] WARNING root fetch - processPackages [python-CIAM]: Timeout reached during download
+[2024-04-03 06:18:26] INFO root fetch - processPackages [python-CIAM]: executing diffoscope
+[2024-04-03 06:18:26] INFO root fetch - processPackages [python-CIAM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-CIAM-1.1.2.tar.gz tmp/python-CIAM-1.2.tar.gz --markdown 20240403/p/python-CIAM/1.1.2-1.2/diff.md --exclude *.pyd
+[2024-04-03 06:18:26] WARNING root fetch - processPackages [tencentcloud-sdk-python-batch]: Timeout reached during download
+[2024-04-03 06:18:26] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: executing diffoscope
+[2024-04-03 06:18:26] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-batch-3.0.998.tar.gz tmp/tencentcloud-sdk-python-batch-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-batch/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:18:26] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-asw-3.0.998.tar.gz]
+[2024-04-03 06:18:26] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-asw-3.0.999.tar.gz]
+[2024-04-03 06:18:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-asw]: success
+[2024-04-03 06:18:26] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.1.tar.gz]
+[2024-04-03 06:18:26] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.2.tar.gz]
+[2024-04-03 06:18:26] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-03 06:18:26] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bda-3.0.998.tar.gz]
+[2024-04-03 06:18:26] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bda-3.0.999.tar.gz]
+[2024-04-03 06:18:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bda]: success
+[2024-04-03 06:18:26] INFO root fetch - processPackages [tencentcloud-sdk-python-autoscaling]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-autoscaling-3.0.998.tar.gz]
+[2024-04-03 06:18:26] INFO root fetch - processPackages [tencentcloud-sdk-python-autoscaling]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-autoscaling-3.0.999.tar.gz]
+[2024-04-03 06:18:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-autoscaling]: success
+[2024-04-03 06:18:27] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-batch-3.0.998.tar.gz]
+[2024-04-03 06:18:27] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-batch-3.0.999.tar.gz]
+[2024-04-03 06:18:27] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-batch]: success
+[2024-04-03 06:18:30] INFO root fetch - processPackages [python-CIAM]: Remove: archive file [/home/abi/fetcher/tmp/python-CIAM-1.1.2.tar.gz]
+[2024-04-03 06:18:30] INFO root fetch - processPackages [python-CIAM]: Remove: archive file [/home/abi/fetcher/tmp/python-CIAM-1.2.tar.gz]
+[2024-04-03 06:18:30] INFO root fetch - main [MainThread]: End processing [python-CIAM]: success
+[2024-04-03 06:18:30] INFO root fetch - main [MainThread]: Store serial: [22597418]

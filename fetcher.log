@@ -22014,3 +22014,31 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:30:35] INFO root fetch - processPackages [bro]: Remove: archive file [/home/abi/fetcher/tmp/bro-0.2.9.tar.gz]
 [2024-04-03 08:30:35] INFO root fetch - main [MainThread]: End processing [bro]: success
 [2024-04-03 08:30:35] INFO root fetch - main [MainThread]: Store serial: [22598828]
+[2024-04-03 08:32:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598828]
+[2024-04-03 08:32:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 08:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ScandEval
+[2024-04-03 08:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leeselab-project-creator
+[2024-04-03 08:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccpcli
+[2024-04-03 08:32:44] INFO root fetch - processPackages [ccpcli]: New version: [0.2] Old Version: [0.1]
+[2024-04-03 08:32:44] INFO root fetch - processPackages [ScandEval]: New version: [9.3.2] Old Version: [9.3.1]
+[2024-04-03 08:32:44] WARNING root fetch - processPackages [leeselab-project-creator]: Skipping, unable to determine old version
+[2024-04-03 08:32:44] INFO root fetch - main [MainThread]: End processing [leeselab-project-creator] error
+[2024-04-03 08:32:44] INFO root fetch - processPackages [ScandEval]: Downloading https://files.pythonhosted.org/packages/ee/1d/f04ad91701880b6ece18b6dce0caca026be1f6d1bbb49eb2db32c933f987/scandeval-9.3.1.tar.gz
+[2024-04-03 08:32:44] INFO root fetch - processPackages [ccpcli]: Downloading https://files.pythonhosted.org/packages/81/3b/95b2d9564ab3216b32b013d1355c0b23f9f729a6566189c7e718dedf0e29/ccpcli-0.1.tar.gz
+[2024-04-03 08:32:44] WARNING root fetch - processPackages [ScandEval]: Timeout reached during download
+[2024-04-03 08:32:45] INFO root fetch - processPackages [ScandEval]: Downloading https://files.pythonhosted.org/packages/18/e1/ce531d2876fb3980872277d0a0139d7a77365dec9e7eee8507928057b89e/scandeval-9.3.2.tar.gz
+[2024-04-03 08:32:45] WARNING root fetch - processPackages [ccpcli]: Timeout reached during download
+[2024-04-03 08:32:45] WARNING root fetch - processPackages [ScandEval]: Timeout reached during download
+[2024-04-03 08:32:45] INFO root fetch - processPackages [ScandEval]: executing diffoscope
+[2024-04-03 08:32:45] INFO root fetch - processPackages [ScandEval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scandeval-9.3.1.tar.gz tmp/scandeval-9.3.2.tar.gz --markdown 20240403/S/ScandEval/9.3.1-9.3.2/diff.md --exclude *.pyd
+[2024-04-03 08:32:45] INFO root fetch - processPackages [ccpcli]: Downloading https://files.pythonhosted.org/packages/19/41/7cf0bb1a1eb1b1d8e5ca7e17a7098df4692f124fa16cb24e88ffc2b3618e/ccpcli-0.2.tar.gz
+[2024-04-03 08:32:45] WARNING root fetch - processPackages [ccpcli]: Timeout reached during download
+[2024-04-03 08:32:45] INFO root fetch - processPackages [ccpcli]: executing diffoscope
+[2024-04-03 08:32:45] INFO root fetch - processPackages [ccpcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpcli-0.1.tar.gz tmp/ccpcli-0.2.tar.gz --markdown 20240403/c/ccpcli/0.1-0.2/diff.md --exclude *.pyd
+[2024-04-03 08:32:45] INFO root fetch - processPackages [ccpcli]: Remove: archive file [/home/abi/fetcher/tmp/ccpcli-0.1.tar.gz]
+[2024-04-03 08:32:45] INFO root fetch - processPackages [ccpcli]: Remove: archive file [/home/abi/fetcher/tmp/ccpcli-0.2.tar.gz]
+[2024-04-03 08:32:45] INFO root fetch - main [MainThread]: End processing [ccpcli]: success
+[2024-04-03 08:32:46] INFO root fetch - processPackages [ScandEval]: Remove: archive file [/home/abi/fetcher/tmp/scandeval-9.3.1.tar.gz]
+[2024-04-03 08:32:46] INFO root fetch - processPackages [ScandEval]: Remove: archive file [/home/abi/fetcher/tmp/scandeval-9.3.2.tar.gz]
+[2024-04-03 08:32:46] INFO root fetch - main [MainThread]: End processing [ScandEval]: success
+[2024-04-03 08:32:46] INFO root fetch - main [MainThread]: Store serial: [22598839]

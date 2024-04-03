@@ -21652,3 +21652,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:15:18] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240402.tar.gz]
 [2024-04-03 08:15:18] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
 [2024-04-03 08:15:18] INFO root fetch - main [MainThread]: Store serial: [22598733]
+[2024-04-03 08:17:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598733]
+[2024-04-03 08:17:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 08:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codex
+[2024-04-03 08:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-quant-safe-inventory
+[2024-04-03 08:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamjoy
+[2024-04-03 08:17:28] INFO root fetch - processPackages [streamjoy]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-03 08:17:28] INFO root fetch - processPackages [streamjoy]: Downloading https://files.pythonhosted.org/packages/25/38/043ed10678ea7da584d50213c58a1d8d78175678b55f72b8b140980d6b86/streamjoy-0.0.2.tar.gz
+[2024-04-03 08:17:28] INFO root fetch - processPackages [odoo-addon-stock-quant-safe-inventory]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-04-03 08:17:28] INFO root fetch - processPackages [codex]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-03 08:17:28] WARNING root fetch - processPackages [streamjoy]: Timeout reached during download
+[2024-04-03 08:17:28] INFO root fetch - processPackages [odoo-addon-stock-quant-safe-inventory]: Downloading https://files.pythonhosted.org/packages/d4/31/58cdbf53c6c64ea2de5f78a6676757f4a8dd0118b5a702c7f34387956c40/odoo_addon_stock_quant_safe_inventory-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-03 08:17:28] INFO root fetch - processPackages [streamjoy]: Downloading https://files.pythonhosted.org/packages/a9/93/febd1d6de2802a04eb9531a96d43fafcdc7fd21ccf47e3dd28d19af05d75/streamjoy-0.0.3.tar.gz
+[2024-04-03 08:17:28] INFO root fetch - processPackages [codex]: Downloading https://files.pythonhosted.org/packages/0c/6f/7c4b25c7a3f59e29de3052fd98dcb78a9ee044406464991bc45a1fd4a48f/codex-1.5.8.tar.gz
+[2024-04-03 08:17:28] WARNING root fetch - processPackages [odoo-addon-stock-quant-safe-inventory]: Timeout reached during download
+[2024-04-03 08:17:28] WARNING root fetch - processPackages [streamjoy]: Timeout reached during download
+[2024-04-03 08:17:28] INFO root fetch - processPackages [streamjoy]: executing diffoscope
+[2024-04-03 08:17:28] INFO root fetch - processPackages [streamjoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamjoy-0.0.2.tar.gz tmp/streamjoy-0.0.3.tar.gz --markdown 20240403/s/streamjoy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-03 08:17:28] WARNING root fetch - processPackages [codex]: Skipping package: exceeds size limit 18232846>=10485760
+[2024-04-03 08:17:28] INFO root fetch - main [MainThread]: End processing [codex] error
+[2024-04-03 08:17:28] INFO root fetch - processPackages [odoo-addon-stock-quant-safe-inventory]: Downloading https://files.pythonhosted.org/packages/12/de/29a73529f7b5b21291a8663a44d4758e2920b8406b191076bc246c01be5b/odoo_addon_stock_quant_safe_inventory-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-03 08:17:28] WARNING root fetch - processPackages [odoo-addon-stock-quant-safe-inventory]: Timeout reached during download
+[2024-04-03 08:17:28] INFO root fetch - processPackages [odoo-addon-stock-quant-safe-inventory]: executing diffoscope
+[2024-04-03 08:17:28] INFO root fetch - processPackages [odoo-addon-stock-quant-safe-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_quant_safe_inventory-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_quant_safe_inventory-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-stock-quant-safe-inventory/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2024-04-03 08:17:29] INFO root fetch - processPackages [streamjoy]: Remove: archive file [/home/abi/fetcher/tmp/streamjoy-0.0.2.tar.gz]
+[2024-04-03 08:17:29] INFO root fetch - processPackages [streamjoy]: Remove: archive file [/home/abi/fetcher/tmp/streamjoy-0.0.3.tar.gz]
+[2024-04-03 08:17:29] INFO root fetch - main [MainThread]: End processing [streamjoy]: success
+[2024-04-03 08:17:29] INFO root fetch - processPackages [odoo-addon-stock-quant-safe-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_quant_safe_inventory-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-03 08:17:29] INFO root fetch - processPackages [odoo-addon-stock-quant-safe-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_quant_safe_inventory-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-03 08:17:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-quant-safe-inventory]: success
+[2024-04-03 08:17:29] INFO root fetch - main [MainThread]: Store serial: [22598742]

@@ -19091,3 +19091,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 07:07:04] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.9.tar.gz]
 [2024-04-03 07:07:04] INFO root fetch - main [MainThread]: End processing [genomeshader]: success
 [2024-04-03 07:07:04] INFO root fetch - main [MainThread]: Store serial: [22598009]
+[2024-04-03 07:09:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598009]
+[2024-04-03 07:09:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-market
+[2024-04-03 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-memcached
+[2024-04-03 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-mgobe
+[2024-04-03 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-mmps
+[2024-04-03 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyload
+[2024-04-03 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: esrt
+[2024-04-03 07:09:13] INFO root fetch - processPackages [esrt]: New version: [1.23.0] Old Version: [1.21.0]
+[2024-04-03 07:09:13] INFO root fetch - processPackages [esrt]: Downloading https://files.pythonhosted.org/packages/52/e6/5151dfdfe81ebef29b6899569e493a01a9b6ea6a8a2d50d7a6124812b697/esrt-1.21.0.tar.gz
+[2024-04-03 07:09:13] INFO root fetch - processPackages [hyload]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-04-03 07:09:13] INFO root fetch - processPackages [tencentcloud-sdk-python-market]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:09:13] INFO root fetch - processPackages [tencentcloud-sdk-python-memcached]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:09:13] INFO root fetch - processPackages [tencentcloud-sdk-python-mgobe]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:09:13] INFO root fetch - processPackages [tencentcloud-sdk-python-mmps]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:09:13] WARNING root fetch - processPackages [esrt]: Timeout reached during download
+[2024-04-03 07:09:13] INFO root fetch - processPackages [esrt]: Downloading https://files.pythonhosted.org/packages/39/40/f413456594dfbbff42f21fa2bb68fb62895898b7d596780da037885d803d/esrt-1.23.0.tar.gz
+[2024-04-03 07:09:13] INFO root fetch - processPackages [hyload]: Downloading https://files.pythonhosted.org/packages/c5/07/b3e41c3c8c14a7ed250d56dc179ecd0fdf21389e51783d5b885817293090/hyload-0.3.2-py3-none-any.whl
+[2024-04-03 07:09:13] INFO root fetch - processPackages [tencentcloud-sdk-python-market]: Downloading https://files.pythonhosted.org/packages/12/a8/fbdff8cf80b338873328583bb631efb83f12aa5caf71cc26abf5053980f7/tencentcloud-sdk-python-market-3.0.998.tar.gz
+[2024-04-03 07:09:13] INFO root fetch - processPackages [tencentcloud-sdk-python-memcached]: Downloading https://files.pythonhosted.org/packages/6c/e5/14a71599872981f46ff6ce3193dcdcbe1d567101b42230ec653238115730/tencentcloud-sdk-python-memcached-3.0.998.tar.gz
+[2024-04-03 07:09:13] INFO root fetch - processPackages [tencentcloud-sdk-python-mgobe]: Downloading https://files.pythonhosted.org/packages/8b/c4/9084630885c7ff147a07d07818efd37b6f9a43492047633b077a149354ab/tencentcloud-sdk-python-mgobe-3.0.998.tar.gz
+[2024-04-03 07:09:13] INFO root fetch - processPackages [tencentcloud-sdk-python-mmps]: Downloading https://files.pythonhosted.org/packages/56/6c/a5f955119c5f1f26645a369a26aa0c2e4efcda04b84145a2e88716b05ad8/tencentcloud-sdk-python-mmps-3.0.998.tar.gz
+[2024-04-03 07:09:13] WARNING root fetch - processPackages [esrt]: Timeout reached during download
+[2024-04-03 07:09:13] INFO root fetch - processPackages [esrt]: executing diffoscope
+[2024-04-03 07:09:13] INFO root fetch - processPackages [esrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esrt-1.21.0.tar.gz tmp/esrt-1.23.0.tar.gz --markdown 20240403/e/esrt/1.21.0-1.23.0/diff.md --exclude *.pyd
+[2024-04-03 07:09:13] WARNING root fetch - processPackages [tencentcloud-sdk-python-market]: Timeout reached during download
+[2024-04-03 07:09:13] WARNING root fetch - processPackages [hyload]: Timeout reached during download
+[2024-04-03 07:09:13] WARNING root fetch - processPackages [tencentcloud-sdk-python-memcached]: Timeout reached during download
+[2024-04-03 07:09:13] WARNING root fetch - processPackages [tencentcloud-sdk-python-mgobe]: Timeout reached during download
+[2024-04-03 07:09:13] WARNING root fetch - processPackages [tencentcloud-sdk-python-mmps]: Timeout reached during download
+[2024-04-03 07:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-market]: Downloading https://files.pythonhosted.org/packages/87/1f/e943537b563854b559cb0cd980f2d5243430a48df3fa4fa480da34d14d30/tencentcloud-sdk-python-market-3.0.999.tar.gz
+[2024-04-03 07:09:14] INFO root fetch - processPackages [hyload]: Downloading https://files.pythonhosted.org/packages/b4/9b/33133d6b60b4cf4e933aba1bd58e4f576d6bf671fff3ad680bc09c4321df/hyload-0.4.0-py3-none-any.whl
+[2024-04-03 07:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-memcached]: Downloading https://files.pythonhosted.org/packages/74/19/ace663ae6902d8823e874e1eeaa287f64f9dd34aa84e77a23f276e1a4faf/tencentcloud-sdk-python-memcached-3.0.999.tar.gz
+[2024-04-03 07:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mmps]: Downloading https://files.pythonhosted.org/packages/e5/cb/36a54b1e7bde41587fb04f5d57e93458b7a9cdc49b199363bdc791ed819e/tencentcloud-sdk-python-mmps-3.0.999.tar.gz
+[2024-04-03 07:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mgobe]: Downloading https://files.pythonhosted.org/packages/f3/3a/8c9c31ece3a105657484ac53f47b23f757c8f36a1d224a0a93ef4ebbe627/tencentcloud-sdk-python-mgobe-3.0.999.tar.gz
+[2024-04-03 07:09:14] WARNING root fetch - processPackages [tencentcloud-sdk-python-market]: Timeout reached during download
+[2024-04-03 07:09:14] WARNING root fetch - processPackages [hyload]: Timeout reached during download
+[2024-04-03 07:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-market]: executing diffoscope
+[2024-04-03 07:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-market]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-market-3.0.998.tar.gz tmp/tencentcloud-sdk-python-market-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-market/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:09:14] INFO root fetch - processPackages [hyload]: executing diffoscope
+[2024-04-03 07:09:14] INFO root fetch - processPackages [hyload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyload-0.3.2-py3-none-any.whl.zip tmp/hyload-0.4.0-py3-none-any.whl.zip --markdown 20240403/h/hyload/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2024-04-03 07:09:14] WARNING root fetch - processPackages [tencentcloud-sdk-python-memcached]: Timeout reached during download
+[2024-04-03 07:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-memcached]: executing diffoscope
+[2024-04-03 07:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-memcached]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-memcached-3.0.998.tar.gz tmp/tencentcloud-sdk-python-memcached-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-memcached/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:09:14] WARNING root fetch - processPackages [tencentcloud-sdk-python-mmps]: Timeout reached during download
+[2024-04-03 07:09:14] WARNING root fetch - processPackages [tencentcloud-sdk-python-mgobe]: Timeout reached during download
+[2024-04-03 07:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mmps]: executing diffoscope
+[2024-04-03 07:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mmps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mmps-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mmps-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-mmps/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mgobe]: executing diffoscope
+[2024-04-03 07:09:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mgobe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mgobe-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mgobe-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-mgobe/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:09:14] INFO root fetch - processPackages [esrt]: Remove: archive file [/home/abi/fetcher/tmp/esrt-1.21.0.tar.gz]
+[2024-04-03 07:09:14] INFO root fetch - processPackages [esrt]: Remove: archive file [/home/abi/fetcher/tmp/esrt-1.23.0.tar.gz]
+[2024-04-03 07:09:14] INFO root fetch - main [MainThread]: End processing [esrt]: success
+[2024-04-03 07:09:15] INFO root fetch - processPackages [tencentcloud-sdk-python-memcached]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-memcached-3.0.998.tar.gz]
+[2024-04-03 07:09:15] INFO root fetch - processPackages [tencentcloud-sdk-python-memcached]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-memcached-3.0.999.tar.gz]
+[2024-04-03 07:09:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-memcached]: success
+[2024-04-03 07:09:15] INFO root fetch - processPackages [tencentcloud-sdk-python-market]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-market-3.0.998.tar.gz]
+[2024-04-03 07:09:15] INFO root fetch - processPackages [tencentcloud-sdk-python-market]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-market-3.0.999.tar.gz]
+[2024-04-03 07:09:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-market]: success
+[2024-04-03 07:09:15] INFO root fetch - processPackages [tencentcloud-sdk-python-mmps]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mmps-3.0.998.tar.gz]
+[2024-04-03 07:09:15] INFO root fetch - processPackages [tencentcloud-sdk-python-mmps]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mmps-3.0.999.tar.gz]
+[2024-04-03 07:09:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mmps]: success
+[2024-04-03 07:09:15] INFO root fetch - processPackages [tencentcloud-sdk-python-mgobe]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mgobe-3.0.998.tar.gz]
+[2024-04-03 07:09:15] INFO root fetch - processPackages [tencentcloud-sdk-python-mgobe]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mgobe-3.0.999.tar.gz]
+[2024-04-03 07:09:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mgobe]: success
+[2024-04-03 07:09:15] INFO root fetch - processPackages [hyload]: Remove: archive file [/home/abi/fetcher/tmp/hyload-0.3.2-py3-none-any.whl.zip]
+[2024-04-03 07:09:15] INFO root fetch - processPackages [hyload]: Remove: archive file [/home/abi/fetcher/tmp/hyload-0.4.0-py3-none-any.whl.zip]
+[2024-04-03 07:09:15] INFO root fetch - main [MainThread]: End processing [hyload]: success
+[2024-04-03 07:09:15] INFO root fetch - main [MainThread]: Store serial: [22598027]

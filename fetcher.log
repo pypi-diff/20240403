@@ -16232,3 +16232,28 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 05:50:29] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
 [2024-04-03 05:50:29] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
 [2024-04-03 05:50:29] INFO root fetch - main [MainThread]: Store serial: [22597149]
+[2024-04-03 05:52:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597149]
+[2024-04-03 05:52:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 05:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chittorgarh-client
+[2024-04-03 05:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tg-flask-sse-common
+[2024-04-03 05:52:38] INFO root fetch - processPackages [tg-flask-sse-common]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-03 05:52:38] INFO root fetch - processPackages [chittorgarh-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-03 05:52:38] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/2d/5d/6aa33b95b5a5adc465e5e5fd17e954fec77cfbb18e025901f6027602dcb7/tg_flask_sse_common-2.0.2.tar.gz
+[2024-04-03 05:52:38] WARNING root fetch - processPackages [tg-flask-sse-common]: Timeout reached during download
+[2024-04-03 05:52:38] INFO root fetch - processPackages [chittorgarh-client]: Downloading https://files.pythonhosted.org/packages/7a/a5/763311ef5b7671d7d7d796aa5c7cde0ebac51eb76ea86c48fdbaead3cb6c/chittorgarh_client-1.0.8.tar.gz
+[2024-04-03 05:52:38] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/42/2e/ea58ab7d1d03a1013fdd1a6322109c56b9e348dda1011420b00141471a58/tg_flask_sse_common-2.0.3.tar.gz
+[2024-04-03 05:52:38] WARNING root fetch - processPackages [chittorgarh-client]: Timeout reached during download
+[2024-04-03 05:52:38] WARNING root fetch - processPackages [tg-flask-sse-common]: Timeout reached during download
+[2024-04-03 05:52:38] INFO root fetch - processPackages [tg-flask-sse-common]: executing diffoscope
+[2024-04-03 05:52:38] INFO root fetch - processPackages [tg-flask-sse-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_flask_sse_common-2.0.2.tar.gz tmp/tg_flask_sse_common-2.0.3.tar.gz --markdown 20240403/t/tg-flask-sse-common/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2024-04-03 05:52:38] INFO root fetch - processPackages [chittorgarh-client]: Downloading https://files.pythonhosted.org/packages/56/3e/fc317ea00053937e692f624fe70a95f6d6c6f22d64c13d62f0ac7fe66b7d/chittorgarh_client-1.0.9.tar.gz
+[2024-04-03 05:52:38] WARNING root fetch - processPackages [chittorgarh-client]: Timeout reached during download
+[2024-04-03 05:52:38] INFO root fetch - processPackages [chittorgarh-client]: executing diffoscope
+[2024-04-03 05:52:38] INFO root fetch - processPackages [chittorgarh-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chittorgarh_client-1.0.8.tar.gz tmp/chittorgarh_client-1.0.9.tar.gz --markdown 20240403/c/chittorgarh-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-03 05:52:39] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-2.0.2.tar.gz]
+[2024-04-03 05:52:39] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-2.0.3.tar.gz]
+[2024-04-03 05:52:39] INFO root fetch - main [MainThread]: End processing [tg-flask-sse-common]: success
+[2024-04-03 05:52:39] INFO root fetch - processPackages [chittorgarh-client]: Remove: archive file [/home/abi/fetcher/tmp/chittorgarh_client-1.0.8.tar.gz]
+[2024-04-03 05:52:39] INFO root fetch - processPackages [chittorgarh-client]: Remove: archive file [/home/abi/fetcher/tmp/chittorgarh_client-1.0.9.tar.gz]
+[2024-04-03 05:52:39] INFO root fetch - main [MainThread]: End processing [chittorgarh-client]: success
+[2024-04-03 05:52:39] INFO root fetch - main [MainThread]: Store serial: [22597155]

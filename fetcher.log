@@ -22042,3 +22042,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:32:46] INFO root fetch - processPackages [ScandEval]: Remove: archive file [/home/abi/fetcher/tmp/scandeval-9.3.2.tar.gz]
 [2024-04-03 08:32:46] INFO root fetch - main [MainThread]: End processing [ScandEval]: success
 [2024-04-03 08:32:46] INFO root fetch - main [MainThread]: Store serial: [22598839]
+[2024-04-03 08:34:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598839]
+[2024-04-03 08:34:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 08:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libro
+[2024-04-03 08:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tracking-lib
+[2024-04-03 08:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drag-ai
+[2024-04-03 08:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aio-scrapy
+[2024-04-03 08:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: facebook-graphql-scraper
+[2024-04-03 08:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auth-token-django
+[2024-04-03 08:34:54] INFO root fetch - processPackages [tracking-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 08:34:54] INFO root fetch - processPackages [auth-token-django]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-03 08:34:54] INFO root fetch - processPackages [facebook-graphql-scraper]: New version: [0.5] Old Version: [0.4]
+[2024-04-03 08:34:54] WARNING root fetch - processPackages [drag-ai]: Skipping, unable to determine old version
+[2024-04-03 08:34:54] INFO root fetch - main [MainThread]: End processing [drag-ai] error
+[2024-04-03 08:34:54] INFO root fetch - processPackages [aio-scrapy]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-03 08:34:54] INFO root fetch - processPackages [libro]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-03 08:34:55] INFO root fetch - processPackages [auth-token-django]: Downloading https://files.pythonhosted.org/packages/c7/e0/ff1f1f2980c34f57168ed525e9850780e0cbfd9633ad9fcb5d2e2f4c3cbd/auth-token-django-0.1.2.tar.gz
+[2024-04-03 08:34:55] INFO root fetch - processPackages [facebook-graphql-scraper]: Downloading https://files.pythonhosted.org/packages/a4/cb/e7f10ed50b26c8d526fd7c0651bf135f9145a383cad29018e44b26be4726/facebook-graphql-scraper-0.4.tar.gz
+[2024-04-03 08:34:55] INFO root fetch - processPackages [tracking-lib]: Downloading https://files.pythonhosted.org/packages/91/95/1ef5ec083eb678959925543aaa2e9b75712a055100310a31b08e36bbad46/tracking_lib-0.1.8.tar.gz
+[2024-04-03 08:34:55] WARNING root fetch - processPackages [tracking-lib]: Timeout reached during download
+[2024-04-03 08:34:55] WARNING root fetch - processPackages [facebook-graphql-scraper]: Timeout reached during download
+[2024-04-03 08:34:55] WARNING root fetch - processPackages [auth-token-django]: Timeout reached during download
+[2024-04-03 08:34:55] INFO root fetch - processPackages [facebook-graphql-scraper]: Downloading https://files.pythonhosted.org/packages/26/ea/9f35439dbed6f0fd32aebdf5da1481fde942971481c546505f58e5dce02a/facebook-graphql-scraper-0.5.tar.gz
+[2024-04-03 08:34:55] INFO root fetch - processPackages [libro]: Downloading https://files.pythonhosted.org/packages/5c/25/c03e3c3630d645668eccd2dc11c3b12396e48843db0dd45e3da918d412de/libro-0.1.1.tar.gz
+[2024-04-03 08:34:55] INFO root fetch - processPackages [aio-scrapy]: Downloading https://files.pythonhosted.org/packages/78/64/48daf062024e9785833b2ca56cf49c195a6f369d99e4e62c7dbc86657259/aio-scrapy-2.0.8.tar.gz
+[2024-04-03 08:34:55] INFO root fetch - processPackages [auth-token-django]: Downloading https://files.pythonhosted.org/packages/e8/17/56e36fd38288aa42e63ba805b26e61820960069ef73c749c67f098c0a581/auth-token-django-0.2.0.tar.gz
+[2024-04-03 08:34:55] INFO root fetch - processPackages [tracking-lib]: Downloading https://files.pythonhosted.org/packages/5b/10/d49a9313bd82173c43c2ff349da8b1726dd89eb90c4fe9aee184c56ef64c/tracking_lib-0.1.9.tar.gz
+[2024-04-03 08:34:55] WARNING root fetch - processPackages [facebook-graphql-scraper]: Timeout reached during download
+[2024-04-03 08:34:55] INFO root fetch - processPackages [facebook-graphql-scraper]: executing diffoscope
+[2024-04-03 08:34:55] INFO root fetch - processPackages [facebook-graphql-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facebook-graphql-scraper-0.4.tar.gz tmp/facebook-graphql-scraper-0.5.tar.gz --markdown 20240403/f/facebook-graphql-scraper/0.4-0.5/diff.md --exclude *.pyd
+[2024-04-03 08:34:55] WARNING root fetch - processPackages [auth-token-django]: Timeout reached during download
+[2024-04-03 08:34:55] INFO root fetch - processPackages [auth-token-django]: executing diffoscope
+[2024-04-03 08:34:55] INFO root fetch - processPackages [auth-token-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth-token-django-0.1.2.tar.gz tmp/auth-token-django-0.2.0.tar.gz --markdown 20240403/a/auth-token-django/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2024-04-03 08:34:55] WARNING root fetch - processPackages [tracking-lib]: Timeout reached during download
+[2024-04-03 08:34:55] INFO root fetch - processPackages [tracking-lib]: executing diffoscope
+[2024-04-03 08:34:55] INFO root fetch - processPackages [tracking-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracking_lib-0.1.8.tar.gz tmp/tracking_lib-0.1.9.tar.gz --markdown 20240403/t/tracking-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 08:34:55] WARNING root fetch - processPackages [aio-scrapy]: Timeout reached during download
+[2024-04-03 08:34:55] INFO root fetch - processPackages [aio-scrapy]: Downloading https://files.pythonhosted.org/packages/3e/22/27a96954581547da170aad459072e69ec5d15ce4c3717ad0ce564bf112b3/aio-scrapy-2.0.9.tar.gz
+[2024-04-03 08:34:55] WARNING root fetch - processPackages [aio-scrapy]: Timeout reached during download
+[2024-04-03 08:34:55] INFO root fetch - processPackages [aio-scrapy]: executing diffoscope
+[2024-04-03 08:34:55] INFO root fetch - processPackages [aio-scrapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio-scrapy-2.0.8.tar.gz tmp/aio-scrapy-2.0.9.tar.gz --markdown 20240403/a/aio-scrapy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-03 08:34:56] INFO root fetch - processPackages [facebook-graphql-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook-graphql-scraper-0.4.tar.gz]
+[2024-04-03 08:34:56] INFO root fetch - processPackages [facebook-graphql-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook-graphql-scraper-0.5.tar.gz]
+[2024-04-03 08:34:56] INFO root fetch - main [MainThread]: End processing [facebook-graphql-scraper]: success
+[2024-04-03 08:34:56] INFO root fetch - processPackages [tracking-lib]: Remove: archive file [/home/abi/fetcher/tmp/tracking_lib-0.1.8.tar.gz]
+[2024-04-03 08:34:56] INFO root fetch - processPackages [tracking-lib]: Remove: archive file [/home/abi/fetcher/tmp/tracking_lib-0.1.9.tar.gz]
+[2024-04-03 08:34:56] INFO root fetch - main [MainThread]: End processing [tracking-lib]: success
+[2024-04-03 08:34:56] WARNING root fetch - processPackages [libro]: Timeout reached during download
+[2024-04-03 08:34:56] INFO root fetch - processPackages [auth-token-django]: Remove: archive file [/home/abi/fetcher/tmp/auth-token-django-0.1.2.tar.gz]
+[2024-04-03 08:34:56] INFO root fetch - processPackages [auth-token-django]: Remove: archive file [/home/abi/fetcher/tmp/auth-token-django-0.2.0.tar.gz]
+[2024-04-03 08:34:56] INFO root fetch - main [MainThread]: End processing [auth-token-django]: success
+[2024-04-03 08:34:56] INFO root fetch - processPackages [libro]: Downloading https://files.pythonhosted.org/packages/2a/4e/008852e52c488fb100a35aac6cabdb61e0085d1763905a2ef0193b6cd488/libro-0.1.2.tar.gz
+[2024-04-03 08:34:56] INFO root fetch - processPackages [aio-scrapy]: Remove: archive file [/home/abi/fetcher/tmp/aio-scrapy-2.0.8.tar.gz]
+[2024-04-03 08:34:56] INFO root fetch - processPackages [aio-scrapy]: Remove: archive file [/home/abi/fetcher/tmp/aio-scrapy-2.0.9.tar.gz]
+[2024-04-03 08:34:56] INFO root fetch - main [MainThread]: End processing [aio-scrapy]: success
+[2024-04-03 08:34:57] WARNING root fetch - processPackages [libro]: Timeout reached during download
+[2024-04-03 08:34:57] INFO root fetch - processPackages [libro]: executing diffoscope
+[2024-04-03 08:34:57] INFO root fetch - processPackages [libro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libro-0.1.1.tar.gz tmp/libro-0.1.2.tar.gz --markdown 20240403/l/libro/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-03 08:35:00] INFO root fetch - processPackages [libro]: Remove: archive file [/home/abi/fetcher/tmp/libro-0.1.1.tar.gz]
+[2024-04-03 08:35:00] INFO root fetch - processPackages [libro]: Remove: archive file [/home/abi/fetcher/tmp/libro-0.1.2.tar.gz]
+[2024-04-03 08:35:00] INFO root fetch - main [MainThread]: End processing [libro]: success
+[2024-04-03 08:35:00] INFO root fetch - main [MainThread]: Store serial: [22598860]

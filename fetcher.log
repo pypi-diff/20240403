@@ -16023,3 +16023,61 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 05:39:41] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.9.tar.gz]
 [2024-04-03 05:39:41] INFO root fetch - main [MainThread]: End processing [sawsi]: success
 [2024-04-03 05:39:41] INFO root fetch - main [MainThread]: Store serial: [22597086]
+[2024-04-03 05:41:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597086]
+[2024-04-03 05:41:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 05:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cipherspy
+[2024-04-03 05:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gink
+[2024-04-03 05:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tg-flask-sse-common
+[2024-04-03 05:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smaht-submitr
+[2024-04-03 05:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bc-sus-columnvalidation
+[2024-04-03 05:41:50] INFO root fetch - processPackages [tg-flask-sse-common]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-03 05:41:50] INFO root fetch - processPackages [bc-sus-columnvalidation]: New version: [0.9.2.7] Old Version: [0.9.2.5]
+[2024-04-03 05:41:50] INFO root fetch - processPackages [smaht-submitr]: New version: [0.7.0.1b9] Old Version: [0.7.0.1b72]
+[2024-04-03 05:41:50] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/04/99/66059c996308517aa7300070c376d96da65cf00eab64af4b28a0bf1ae5e1/tg_flask_sse_common-2.0.0.tar.gz
+[2024-04-03 05:41:50] INFO root fetch - processPackages [bc-sus-columnvalidation]: Downloading https://files.pythonhosted.org/packages/d7/7d/a987d4f1a6d478c4aa90575350b4669cfdbbb122b2b536b9aff9551f6f55/bc_sus_columnvalidation-0.9.2.5.tar.gz
+[2024-04-03 05:41:50] INFO root fetch - processPackages [cipherspy]: New version: [0.3.1] Old Version: [0.2.0]
+[2024-04-03 05:41:50] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/0d/92/b3b812d2b940a0a42a70486504e75a749f250df4377b346241d8777f8d18/smaht_submitr-0.7.0.1b72.tar.gz
+[2024-04-03 05:41:50] INFO root fetch - processPackages [gink]: New version: [0.20240403.1712115567] Old Version: [0.20240401.1711930006]
+[2024-04-03 05:41:50] WARNING root fetch - processPackages [bc-sus-columnvalidation]: Timeout reached during download
+[2024-04-03 05:41:50] WARNING root fetch - processPackages [tg-flask-sse-common]: Timeout reached during download
+[2024-04-03 05:41:50] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-03 05:41:51] INFO root fetch - processPackages [bc-sus-columnvalidation]: Downloading https://files.pythonhosted.org/packages/2d/b3/0bcf0aea4eaaee63f775b14eefbb6238b606eb29664c0b7f38acfe733505/bc_sus_columnvalidation-0.9.2.7.tar.gz
+[2024-04-03 05:41:51] INFO root fetch - processPackages [cipherspy]: Downloading https://files.pythonhosted.org/packages/5f/d4/d9b814e8927c97f538addfab9a7033f462eaeb5e854be194258b0610ac83/cipherspy-0.2.0.tar.gz
+[2024-04-03 05:41:51] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/ff/84/cead0681f1d3b22d8c2cc55c431321aa00039b758129671d6e752101a732/smaht_submitr-0.7.0.1b9.tar.gz
+[2024-04-03 05:41:51] INFO root fetch - processPackages [gink]: Downloading https://files.pythonhosted.org/packages/49/59/09e447818eaf0d2b88936e227d9ed00ca26fbc0ca7acb891fb6ba54a0a05/gink-0.20240401.1711930006.tar.gz
+[2024-04-03 05:41:51] WARNING root fetch - processPackages [cipherspy]: Timeout reached during download
+[2024-04-03 05:41:51] WARNING root fetch - processPackages [bc-sus-columnvalidation]: Timeout reached during download
+[2024-04-03 05:41:51] INFO root fetch - processPackages [bc-sus-columnvalidation]: executing diffoscope
+[2024-04-03 05:41:51] INFO root fetch - processPackages [bc-sus-columnvalidation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc_sus_columnvalidation-0.9.2.5.tar.gz tmp/bc_sus_columnvalidation-0.9.2.7.tar.gz --markdown 20240403/b/bc-sus-columnvalidation/0.9.2.5-0.9.2.7/diff.md --exclude *.pyd
+[2024-04-03 05:41:51] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/9e/6b/2c28b8cfe7514974bc50f7490c02ae010e058ce3de37e6ce25d26b29a05e/tg_flask_sse_common-2.0.1.tar.gz
+[2024-04-03 05:41:51] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-03 05:41:51] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-03 05:41:51] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.7.0.1b72.tar.gz tmp/smaht_submitr-0.7.0.1b9.tar.gz --markdown 20240403/s/smaht-submitr/0.7.0.1b72-0.7.0.1b9/diff.md --exclude *.pyd
+[2024-04-03 05:41:51] WARNING root fetch - processPackages [gink]: Timeout reached during download
+[2024-04-03 05:41:51] WARNING root fetch - processPackages [tg-flask-sse-common]: Timeout reached during download
+[2024-04-03 05:41:51] INFO root fetch - processPackages [tg-flask-sse-common]: executing diffoscope
+[2024-04-03 05:41:51] INFO root fetch - processPackages [tg-flask-sse-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_flask_sse_common-2.0.0.tar.gz tmp/tg_flask_sse_common-2.0.1.tar.gz --markdown 20240403/t/tg-flask-sse-common/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2024-04-03 05:41:51] INFO root fetch - processPackages [cipherspy]: Downloading https://files.pythonhosted.org/packages/4f/23/c9326f1a91873505f05baeba1715e6300c0adefea2cf861600535a60ce2b/cipherspy-0.3.1.tar.gz
+[2024-04-03 05:41:51] INFO root fetch - processPackages [gink]: Downloading https://files.pythonhosted.org/packages/9a/12/fe3704c32bd05bebef3470dec899a6938b9e929d14326cd6e2b1618bb73b/gink-0.20240403.1712115567.tar.gz
+[2024-04-03 05:41:51] WARNING root fetch - processPackages [cipherspy]: Timeout reached during download
+[2024-04-03 05:41:51] INFO root fetch - processPackages [cipherspy]: executing diffoscope
+[2024-04-03 05:41:51] INFO root fetch - processPackages [cipherspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cipherspy-0.2.0.tar.gz tmp/cipherspy-0.3.1.tar.gz --markdown 20240403/c/cipherspy/0.2.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-03 05:41:51] WARNING root fetch - processPackages [gink]: Timeout reached during download
+[2024-04-03 05:41:51] INFO root fetch - processPackages [gink]: executing diffoscope
+[2024-04-03 05:41:51] INFO root fetch - processPackages [gink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gink-0.20240401.1711930006.tar.gz tmp/gink-0.20240403.1712115567.tar.gz --markdown 20240403/g/gink/0.20240401.1711930006-0.20240403.1712115567/diff.md --exclude *.pyd
+[2024-04-03 05:41:51] INFO root fetch - processPackages [bc-sus-columnvalidation]: Remove: archive file [/home/abi/fetcher/tmp/bc_sus_columnvalidation-0.9.2.5.tar.gz]
+[2024-04-03 05:41:51] INFO root fetch - processPackages [bc-sus-columnvalidation]: Remove: archive file [/home/abi/fetcher/tmp/bc_sus_columnvalidation-0.9.2.7.tar.gz]
+[2024-04-03 05:41:51] INFO root fetch - main [MainThread]: End processing [bc-sus-columnvalidation]: success
+[2024-04-03 05:41:51] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-2.0.0.tar.gz]
+[2024-04-03 05:41:51] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-2.0.1.tar.gz]
+[2024-04-03 05:41:51] INFO root fetch - main [MainThread]: End processing [tg-flask-sse-common]: success
+[2024-04-03 05:41:52] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.7.0.1b72.tar.gz]
+[2024-04-03 05:41:52] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.7.0.1b9.tar.gz]
+[2024-04-03 05:41:52] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-03 05:41:52] INFO root fetch - processPackages [cipherspy]: Remove: archive file [/home/abi/fetcher/tmp/cipherspy-0.2.0.tar.gz]
+[2024-04-03 05:41:52] INFO root fetch - processPackages [cipherspy]: Remove: archive file [/home/abi/fetcher/tmp/cipherspy-0.3.1.tar.gz]
+[2024-04-03 05:41:52] INFO root fetch - main [MainThread]: End processing [cipherspy]: success
+[2024-04-03 05:41:52] INFO root fetch - processPackages [gink]: Remove: archive file [/home/abi/fetcher/tmp/gink-0.20240401.1711930006.tar.gz]
+[2024-04-03 05:41:52] INFO root fetch - processPackages [gink]: Remove: archive file [/home/abi/fetcher/tmp/gink-0.20240403.1712115567.tar.gz]
+[2024-04-03 05:41:52] INFO root fetch - main [MainThread]: End processing [gink]: success
+[2024-04-03 05:41:52] INFO root fetch - main [MainThread]: Store serial: [22597101]

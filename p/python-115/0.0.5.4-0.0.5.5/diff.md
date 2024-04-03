@@ -1,0 +1,223 @@
+# Comparing `tmp/python_115-0.0.5.4.tar.gz` & `tmp/python_115-0.0.5.5.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "python_115-0.0.5.4.tar", max compression
++gzip compressed data, was "python_115-0.0.5.5.tar", max compression
+```
+
+## Comparing `python_115-0.0.5.4.tar` & `python_115-0.0.5.5.tar`
+
+### file list
+
+```diff
+@@ -1,25 +1,25 @@
+--rwxr-xr-x   0        0        0     1100 2023-10-11 13:48:41.987287 python_115-0.0.5.4/LICENSE
+--rw-r--r--   0        0        0   256072 2024-04-03 06:35:19.651313 python_115-0.0.5.4/p115/__init__.py
+--rw-r--r--   0        0        0       64 2023-12-07 13:04:33.452726 python_115-0.0.5.4/p115/__main__.py
+--rw-r--r--   0        0        0      179 2023-12-22 08:44:22.766732 python_115-0.0.5.4/p115/exception.py
+--rw-r--r--   0        0        0        0 2024-01-30 04:55:37.590943 python_115-0.0.5.4/p115/py.typed
+--rw-r--r--   0        0        0       87 2023-12-19 14:25:03.149217 python_115-0.0.5.4/p115/util/__init__.py
+--rw-r--r--   0        0        0     4329 2023-11-24 07:50:22.455279 python_115-0.0.5.4/p115/util/_init_mimetypes.py
+--rw-r--r--   0        0        0      360 2024-02-08 06:48:55.081770 python_115-0.0.5.4/p115/util/args.py
+--rw-r--r--   0        0        0     7920 2023-12-14 11:02:29.316261 python_115-0.0.5.4/p115/util/cipher.py
+--rw-r--r--   0        0        0     5671 2024-04-03 04:46:18.484632 python_115-0.0.5.4/p115/util/concurrent.py
+--rw-r--r--   0        0        0    12120 2024-04-03 04:46:18.485585 python_115-0.0.5.4/p115/util/download.py
+--rw-r--r--   0        0        0    15103 2024-04-03 05:18:09.304611 python_115-0.0.5.4/p115/util/file.py
+--rw-r--r--   0        0        0     4507 2023-12-08 06:07:31.193403 python_115-0.0.5.4/p115/util/hash.py
+--rw-r--r--   0        0        0    10070 2024-01-12 05:37:18.775493 python_115-0.0.5.4/p115/util/ignore.py
+--rw-r--r--   0        0        0     2822 2024-02-13 03:37:52.593362 python_115-0.0.5.4/p115/util/iter.py
+--rw-r--r--   0        0        0     4562 2024-01-16 05:10:10.057134 python_115-0.0.5.4/p115/util/path.py
+--rw-r--r--   0        0        0     1794 2024-01-15 14:50:38.503730 python_115-0.0.5.4/p115/util/property.py
+--rw-r--r--   0        0        0     3190 2024-01-29 10:59:02.879730 python_115-0.0.5.4/p115/util/response.py
+--rw-r--r--   0        0        0     6122 2024-01-15 15:35:49.895519 python_115-0.0.5.4/p115/util/retry.py
+--rw-r--r--   0        0        0     6785 2024-02-09 07:54:09.097617 python_115-0.0.5.4/p115/util/text.py
+--rw-r--r--   0        0        0       43 2024-04-03 05:08:27.538028 python_115-0.0.5.4/p115/util/upload.py
+--rw-r--r--   0        0        0    10029 2024-01-29 10:52:22.271824 python_115-0.0.5.4/p115/util/urlopen.py
+--rw-r--r--   0        0        0     1272 2024-04-03 06:36:29.551065 python_115-0.0.5.4/pyproject.toml
+--rw-r--r--   0        0        0    34641 2024-01-05 10:56:58.191328 python_115-0.0.5.4/readme.md
+--rw-r--r--   0        0        0    35896 1970-01-01 00:00:00.000000 python_115-0.0.5.4/PKG-INFO
++-rwxr-xr-x   0        0        0     1100 2023-10-11 13:48:41.987287 python_115-0.0.5.5/LICENSE
++-rw-r--r--   0        0        0   256104 2024-04-03 06:38:28.788226 python_115-0.0.5.5/p115/__init__.py
++-rw-r--r--   0        0        0       64 2023-12-07 13:04:33.452726 python_115-0.0.5.5/p115/__main__.py
++-rw-r--r--   0        0        0      179 2023-12-22 08:44:22.766732 python_115-0.0.5.5/p115/exception.py
++-rw-r--r--   0        0        0        0 2024-01-30 04:55:37.590943 python_115-0.0.5.5/p115/py.typed
++-rw-r--r--   0        0        0       87 2023-12-19 14:25:03.149217 python_115-0.0.5.5/p115/util/__init__.py
++-rw-r--r--   0        0        0     4329 2023-11-24 07:50:22.455279 python_115-0.0.5.5/p115/util/_init_mimetypes.py
++-rw-r--r--   0        0        0      360 2024-02-08 06:48:55.081770 python_115-0.0.5.5/p115/util/args.py
++-rw-r--r--   0        0        0     7920 2023-12-14 11:02:29.316261 python_115-0.0.5.5/p115/util/cipher.py
++-rw-r--r--   0        0        0     5671 2024-04-03 04:46:18.484632 python_115-0.0.5.5/p115/util/concurrent.py
++-rw-r--r--   0        0        0    12120 2024-04-03 04:46:18.485585 python_115-0.0.5.5/p115/util/download.py
++-rw-r--r--   0        0        0    15103 2024-04-03 05:18:09.304611 python_115-0.0.5.5/p115/util/file.py
++-rw-r--r--   0        0        0     4507 2023-12-08 06:07:31.193403 python_115-0.0.5.5/p115/util/hash.py
++-rw-r--r--   0        0        0    10070 2024-01-12 05:37:18.775493 python_115-0.0.5.5/p115/util/ignore.py
++-rw-r--r--   0        0        0     2822 2024-02-13 03:37:52.593362 python_115-0.0.5.5/p115/util/iter.py
++-rw-r--r--   0        0        0     4562 2024-01-16 05:10:10.057134 python_115-0.0.5.5/p115/util/path.py
++-rw-r--r--   0        0        0     1794 2024-01-15 14:50:38.503730 python_115-0.0.5.5/p115/util/property.py
++-rw-r--r--   0        0        0     3190 2024-01-29 10:59:02.879730 python_115-0.0.5.5/p115/util/response.py
++-rw-r--r--   0        0        0     6122 2024-01-15 15:35:49.895519 python_115-0.0.5.5/p115/util/retry.py
++-rw-r--r--   0        0        0     6785 2024-02-09 07:54:09.097617 python_115-0.0.5.5/p115/util/text.py
++-rw-r--r--   0        0        0       43 2024-04-03 05:08:27.538028 python_115-0.0.5.5/p115/util/upload.py
++-rw-r--r--   0        0        0    10029 2024-01-29 10:52:22.271824 python_115-0.0.5.5/p115/util/urlopen.py
++-rw-r--r--   0        0        0     1272 2024-04-03 06:40:25.808404 python_115-0.0.5.5/pyproject.toml
++-rw-r--r--   0        0        0    34641 2024-01-05 10:56:58.191328 python_115-0.0.5.5/readme.md
++-rw-r--r--   0        0        0    35896 1970-01-01 00:00:00.000000 python_115-0.0.5.5/PKG-INFO
+```
+
+### Comparing `python_115-0.0.5.4/LICENSE` & `python_115-0.0.5.5/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.5.4/p115/__init__.py` & `python_115-0.0.5.5/p115/__init__.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -7036,15 +7036,15 @@
+                     next_marker = data["next_marker"]
+             t = self.id_to_children[id] = tuple(iterdir())
+             self.id_to_attr.update((attr["id"], attr) for attr in t)
+             return iter(t)
+ 
+ 
+ class P115Offline:
+-    __slots__ = "client",
++    __slots__ = ("client", "_sign_time")
+ 
+     def __init__(self, /, client: P115Client):
+         self.client = client
+ 
+     def __contains__(self, hash: str, /) -> bool:
+         return any(item["info_hash"] == hash for item in self)
+ 
+@@ -7068,24 +7068,23 @@
+         module = cls.__module__
+         name = cls.__qualname__
+         if module != "__main__":
+             name = module + "." + name
+         return f"<{name}(client={self.client!r}) at {hex(id(self))}>"
+ 
+     @property
+-    def sign_time(self, /):
+-        ns = self.__dict__
++    def sign_time(self, /) -> MappingProxyType:
+         try:
+-            sign_time = ns["sign_time"]
++            sign_time = self._sign_time
+             if time() - sign_time["time"] < 30 * 60:
+                 return sign_time
+-        except KeyError:
++        except AttributeError:
+             pass
+         info = check_response(self.client.offline_info())
+-        sign_time = ns["sign_time"] = {"sign": info["sign"], "time": info["time"]}
++        sign_time = self._sign_time = MappingProxyType({"sign": info["sign"], "time": info["time"]})
+         return sign_time
+ 
+     def add(
+         self, 
+         urls: str | Iterable[str], 
+         /, 
+         pid: Optional[int] = None,
+```
+
+### Comparing `python_115-0.0.5.4/p115/util/_init_mimetypes.py` & `python_115-0.0.5.5/p115/util/_init_mimetypes.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.5.4/p115/util/cipher.py` & `python_115-0.0.5.5/p115/util/cipher.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.5.4/p115/util/concurrent.py` & `python_115-0.0.5.5/p115/util/concurrent.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.5.4/p115/util/download.py` & `python_115-0.0.5.5/p115/util/download.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.5.4/p115/util/file.py` & `python_115-0.0.5.5/p115/util/file.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.5.4/p115/util/hash.py` & `python_115-0.0.5.5/p115/util/hash.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.5.4/p115/util/ignore.py` & `python_115-0.0.5.5/p115/util/ignore.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.5.4/p115/util/iter.py` & `python_115-0.0.5.5/p115/util/iter.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.5.4/p115/util/path.py` & `python_115-0.0.5.5/p115/util/path.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.5.4/p115/util/property.py` & `python_115-0.0.5.5/p115/util/property.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.5.4/p115/util/response.py` & `python_115-0.0.5.5/p115/util/response.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.5.4/p115/util/retry.py` & `python_115-0.0.5.5/p115/util/retry.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.5.4/p115/util/text.py` & `python_115-0.0.5.5/p115/util/text.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.5.4/p115/util/urlopen.py` & `python_115-0.0.5.5/p115/util/urlopen.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.5.4/pyproject.toml` & `python_115-0.0.5.5/pyproject.toml`
+
+ * *Files 7% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ [tool.poetry]
+ name = "python-115"
+-version = "0.0.5.4"
++version = "0.0.5.5"
+ description = "Python wrapper for 115 webdisk."
+ authors = ["ChenyangGao <wosiwujm@gmail.com>"]
+ license = "MIT"
+ readme = "readme.md"
+ homepage = "https://github.com/ChenyangGao/web-mount-packs/tree/main/python-115-client"
+ repository = "https://github.com/ChenyangGao/web-mount-packs/tree/main/python-115-client"
+ keywords = ["nas", "115"]
+```
+
+### Comparing `python_115-0.0.5.4/readme.md` & `python_115-0.0.5.5/readme.md`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.5.4/PKG-INFO` & `python_115-0.0.5.5/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: python-115
+-Version: 0.0.5.4
++Version: 0.0.5.5
+ Summary: Python wrapper for 115 webdisk.
+ Home-page: https://github.com/ChenyangGao/web-mount-packs/tree/main/python-115-client
+ License: MIT
+ Keywords: nas,115
+ Author: ChenyangGao
+ Author-email: wosiwujm@gmail.com
+ Requires-Python: >=3.11,<4.0
+```
+

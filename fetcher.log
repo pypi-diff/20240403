@@ -17020,3 +17020,53 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:18:30] INFO root fetch - processPackages [python-CIAM]: Remove: archive file [/home/abi/fetcher/tmp/python-CIAM-1.2.tar.gz]
 [2024-04-03 06:18:30] INFO root fetch - main [MainThread]: End processing [python-CIAM]: success
 [2024-04-03 06:18:30] INFO root fetch - main [MainThread]: Store serial: [22597418]
+[2024-04-03 06:20:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597418]
+[2024-04-03 06:20:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 06:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyscreeps-arena
+[2024-04-03 06:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-billing
+[2024-04-03 06:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-bizlive
+[2024-04-03 06:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-bm
+[2024-04-03 06:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nava
+[2024-04-03 06:20:39] WARNING root fetch - processPackages [pyscreeps-arena]: Skipping, unable to determine old version
+[2024-04-03 06:20:39] INFO root fetch - main [MainThread]: End processing [pyscreeps-arena] error
+[2024-04-03 06:20:39] INFO root fetch - processPackages [nava]: New version: [0.5] Old Version: [0.4]
+[2024-04-03 06:20:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bizlive]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:20:39] INFO root fetch - processPackages [tencentcloud-sdk-python-billing]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:20:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:20:39] INFO root fetch - processPackages [nava]: Downloading https://files.pythonhosted.org/packages/e4/9e/69bbc697f445c6b37294944ae7811353603a223222b13f3a9d9a9808ea78/nava-0.4.tar.gz
+[2024-04-03 06:20:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bizlive]: Downloading https://files.pythonhosted.org/packages/f0/fb/9666e12a7b0210a916d6bed6d603dafd691565341960731fbbcb1388bb5f/tencentcloud-sdk-python-bizlive-3.0.998.tar.gz
+[2024-04-03 06:20:39] INFO root fetch - processPackages [tencentcloud-sdk-python-billing]: Downloading https://files.pythonhosted.org/packages/84/e4/85a88d223d519658897f3c75e894534ff07512c95041bb5f7ef666edff77/tencentcloud-sdk-python-billing-3.0.998.tar.gz
+[2024-04-03 06:20:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bm]: Downloading https://files.pythonhosted.org/packages/94/d9/1ce43443df2566a69abbe8f6f90ff3c9989425fd2d5fdcf6983d59124824/tencentcloud-sdk-python-bm-3.0.998.tar.gz
+[2024-04-03 06:20:39] WARNING root fetch - processPackages [nava]: Timeout reached during download
+[2024-04-03 06:20:40] WARNING root fetch - processPackages [tencentcloud-sdk-python-bizlive]: Timeout reached during download
+[2024-04-03 06:20:40] WARNING root fetch - processPackages [tencentcloud-sdk-python-billing]: Timeout reached during download
+[2024-04-03 06:20:40] WARNING root fetch - processPackages [tencentcloud-sdk-python-bm]: Timeout reached during download
+[2024-04-03 06:20:40] INFO root fetch - processPackages [nava]: Downloading https://files.pythonhosted.org/packages/45/32/e5d9e4867436289511ee00950db4048dd3282709b7a54653d376559379aa/nava-0.5.tar.gz
+[2024-04-03 06:20:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bizlive]: Downloading https://files.pythonhosted.org/packages/ae/b7/7ae3a22bc90573884d7622720542fe50c64e6a17e12f710ef0973e159616/tencentcloud-sdk-python-bizlive-3.0.999.tar.gz
+[2024-04-03 06:20:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bm]: Downloading https://files.pythonhosted.org/packages/fa/fe/f49e20c052380b9804454af018c23280cff7f66a1c8ceaa458f744521e92/tencentcloud-sdk-python-bm-3.0.999.tar.gz
+[2024-04-03 06:20:40] INFO root fetch - processPackages [tencentcloud-sdk-python-billing]: Downloading https://files.pythonhosted.org/packages/51/b5/9dcb2f4ac38782d1f315cff1713441abbb4d8b14c2ae002870b191ee3214/tencentcloud-sdk-python-billing-3.0.999.tar.gz
+[2024-04-03 06:20:40] WARNING root fetch - processPackages [tencentcloud-sdk-python-bizlive]: Timeout reached during download
+[2024-04-03 06:20:40] WARNING root fetch - processPackages [nava]: Timeout reached during download
+[2024-04-03 06:20:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bizlive]: executing diffoscope
+[2024-04-03 06:20:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bizlive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bizlive-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bizlive-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-bizlive/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:20:40] INFO root fetch - processPackages [nava]: executing diffoscope
+[2024-04-03 06:20:40] INFO root fetch - processPackages [nava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nava-0.4.tar.gz tmp/nava-0.5.tar.gz --markdown 20240403/n/nava/0.4-0.5/diff.md --exclude *.pyd
+[2024-04-03 06:20:40] WARNING root fetch - processPackages [tencentcloud-sdk-python-billing]: Timeout reached during download
+[2024-04-03 06:20:40] INFO root fetch - processPackages [tencentcloud-sdk-python-billing]: executing diffoscope
+[2024-04-03 06:20:40] INFO root fetch - processPackages [tencentcloud-sdk-python-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-billing-3.0.998.tar.gz tmp/tencentcloud-sdk-python-billing-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-billing/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:20:40] WARNING root fetch - processPackages [tencentcloud-sdk-python-bm]: Timeout reached during download
+[2024-04-03 06:20:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bm]: executing diffoscope
+[2024-04-03 06:20:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bm-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-bm/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:20:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bizlive]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bizlive-3.0.998.tar.gz]
+[2024-04-03 06:20:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bizlive]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bizlive-3.0.999.tar.gz]
+[2024-04-03 06:20:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bizlive]: success
+[2024-04-03 06:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-billing]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-billing-3.0.998.tar.gz]
+[2024-04-03 06:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-billing]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-billing-3.0.999.tar.gz]
+[2024-04-03 06:20:41] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-billing]: success
+[2024-04-03 06:20:41] INFO root fetch - processPackages [nava]: Remove: archive file [/home/abi/fetcher/tmp/nava-0.4.tar.gz]
+[2024-04-03 06:20:41] INFO root fetch - processPackages [nava]: Remove: archive file [/home/abi/fetcher/tmp/nava-0.5.tar.gz]
+[2024-04-03 06:20:41] INFO root fetch - main [MainThread]: End processing [nava]: success
+[2024-04-03 06:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-bm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bm-3.0.998.tar.gz]
+[2024-04-03 06:20:41] INFO root fetch - processPackages [tencentcloud-sdk-python-bm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bm-3.0.999.tar.gz]
+[2024-04-03 06:20:41] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bm]: success
+[2024-04-03 06:20:41] INFO root fetch - main [MainThread]: Store serial: [22597433]

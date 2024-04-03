@@ -13654,3 +13654,42 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 03:55:34] INFO root fetch - processPackages [automonisaur]: Remove: archive file [/home/abi/fetcher/tmp/automonisaur-0.5.0.tar.gz]
 [2024-04-03 03:55:34] INFO root fetch - main [MainThread]: End processing [automonisaur]: success
 [2024-04-03 03:55:34] INFO root fetch - main [MainThread]: Store serial: [22596341]
+[2024-04-03 03:57:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596341]
+[2024-04-03 03:57:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 03:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py2docfx
+[2024-04-03 03:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: happyrobot
+[2024-04-03 03:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automonisaur
+[2024-04-03 03:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypipy
+[2024-04-03 03:57:43] WARNING root fetch - processPackages [pypipy]: Skipping, unable to determine old version
+[2024-04-03 03:57:43] INFO root fetch - main [MainThread]: End processing [pypipy] error
+[2024-04-03 03:57:43] INFO root fetch - processPackages [automonisaur]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-03 03:57:43] INFO root fetch - processPackages [automonisaur]: Downloading https://files.pythonhosted.org/packages/34/36/111e39fdcb3966f02901e85b3add354ebcbff7464676477766aea63d60a7/automonisaur-0.4.2.tar.gz
+[2024-04-03 03:57:43] INFO root fetch - processPackages [happyrobot]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-03 03:57:43] INFO root fetch - processPackages [py2docfx]: New version: [0.1.2rc1669458] Old Version: [0.1.2rc1669367]
+[2024-04-03 03:57:43] WARNING root fetch - processPackages [automonisaur]: Timeout reached during download
+[2024-04-03 03:57:43] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/c6/37/ca66c6a18d3da3c193ff9b2094c5d3b638ce9e3c3d6c372b4f3301e064e1/py2docfx-0.1.2rc1669367-py3-none-any.whl
+[2024-04-03 03:57:43] INFO root fetch - processPackages [happyrobot]: Downloading https://files.pythonhosted.org/packages/a9/7d/0f2369de0346eea95668c8db4a5df32b72a12486480d2fed4f043a39306a/happyrobot-0.2.1.tar.gz
+[2024-04-03 03:57:43] INFO root fetch - processPackages [automonisaur]: Downloading https://files.pythonhosted.org/packages/69/70/ce5e6a128a6eaae6aa21014128d714c1513f217a560def1c4790590d2abe/automonisaur-0.5.0.tar.gz
+[2024-04-03 03:57:43] WARNING root fetch - processPackages [py2docfx]: Timeout reached during download
+[2024-04-03 03:57:43] WARNING root fetch - processPackages [automonisaur]: Timeout reached during download
+[2024-04-03 03:57:43] INFO root fetch - processPackages [automonisaur]: executing diffoscope
+[2024-04-03 03:57:43] INFO root fetch - processPackages [automonisaur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automonisaur-0.4.2.tar.gz tmp/automonisaur-0.5.0.tar.gz --markdown 20240403/a/automonisaur/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2024-04-03 03:57:43] WARNING root fetch - processPackages [happyrobot]: Timeout reached during download
+[2024-04-03 03:57:43] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/65/c9/161f7928fab6e8779ab2b1eb2ef8d9f9ea60e9a943adb265715bf6997391/py2docfx-0.1.2rc1669458-py3-none-any.whl
+[2024-04-03 03:57:43] INFO root fetch - processPackages [happyrobot]: Downloading https://files.pythonhosted.org/packages/5c/63/cdfdce5ade357432d3c4a619454e9bbe3d42494d2930a07e1ae824348bc0/happyrobot-0.2.2.tar.gz
+[2024-04-03 03:57:43] WARNING root fetch - processPackages [happyrobot]: Timeout reached during download
+[2024-04-03 03:57:43] WARNING root fetch - processPackages [py2docfx]: Timeout reached during download
+[2024-04-03 03:57:43] INFO root fetch - processPackages [happyrobot]: executing diffoscope
+[2024-04-03 03:57:43] INFO root fetch - processPackages [happyrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/happyrobot-0.2.1.tar.gz tmp/happyrobot-0.2.2.tar.gz --markdown 20240403/h/happyrobot/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-03 03:57:43] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-03 03:57:43] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.2rc1669367-py3-none-any.whl.zip tmp/py2docfx-0.1.2rc1669458-py3-none-any.whl.zip --markdown 20240403/p/py2docfx/0.1.2rc1669367-0.1.2rc1669458/diff.md --exclude *.pyd
+[2024-04-03 03:57:44] INFO root fetch - processPackages [happyrobot]: Remove: archive file [/home/abi/fetcher/tmp/happyrobot-0.2.1.tar.gz]
+[2024-04-03 03:57:44] INFO root fetch - processPackages [happyrobot]: Remove: archive file [/home/abi/fetcher/tmp/happyrobot-0.2.2.tar.gz]
+[2024-04-03 03:57:44] INFO root fetch - main [MainThread]: End processing [happyrobot]: success
+[2024-04-03 03:57:44] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.2rc1669367-py3-none-any.whl.zip]
+[2024-04-03 03:57:44] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.2rc1669458-py3-none-any.whl.zip]
+[2024-04-03 03:57:44] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-03 03:57:44] INFO root fetch - processPackages [automonisaur]: Remove: archive file [/home/abi/fetcher/tmp/automonisaur-0.4.2.tar.gz]
+[2024-04-03 03:57:44] INFO root fetch - processPackages [automonisaur]: Remove: archive file [/home/abi/fetcher/tmp/automonisaur-0.5.0.tar.gz]
+[2024-04-03 03:57:44] INFO root fetch - main [MainThread]: End processing [automonisaur]: success
+[2024-04-03 03:57:44] INFO root fetch - main [MainThread]: Store serial: [22596351]

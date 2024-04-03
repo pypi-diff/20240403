@@ -21522,3 +21522,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:10:54] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240402.tar.gz]
 [2024-04-03 08:10:54] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-04-03 08:10:54] INFO root fetch - main [MainThread]: Store serial: [22598696]
+[2024-04-03 08:12:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598696]
+[2024-04-03 08:13:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 08:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MyLLM
+[2024-04-03 08:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: embeddings-explorer
+[2024-04-03 08:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-shipment-advice
+[2024-04-03 08:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mycalcdonga
+[2024-04-03 08:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-splunk
+[2024-04-03 08:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyconfig-extension
+[2024-04-03 08:13:03] INFO root fetch - processPackages [pyconfig-extension]: New version: [0.1.0a1] Old Version: [0.0.1]
+[2024-04-03 08:13:03] INFO root fetch - processPackages [pyconfig-extension]: Downloading https://files.pythonhosted.org/packages/ae/8c/19645c7137be3fcd17246834aa84ab0269452c33e9eb4504e5395f589bb2/pyconfig_extension-0.0.1.tar.gz
+[2024-04-03 08:13:03] INFO root fetch - processPackages [odoo-addon-shipment-advice]: New version: [16.0.1.4.0.2] Old Version: [16.0.1.4.0.1]
+[2024-04-03 08:13:03] INFO root fetch - processPackages [embeddings-explorer]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-03 08:13:03] WARNING root fetch - processPackages [mycalcdonga]: Skipping, unable to determine old version
+[2024-04-03 08:13:03] INFO root fetch - main [MainThread]: End processing [mycalcdonga] error
+[2024-04-03 08:13:03] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1712123812] Old Version: [1.3.0a1711781621]
+[2024-04-03 08:13:03] INFO root fetch - processPackages [MyLLM]: New version: [4.7.7] Old Version: [4.7.6]
+[2024-04-03 08:13:03] WARNING root fetch - processPackages [pyconfig-extension]: Timeout reached during download
+[2024-04-03 08:13:03] INFO root fetch - processPackages [pyconfig-extension]: Downloading https://files.pythonhosted.org/packages/30/04/10b6874bb3a36b47ce692723003b15310e97b2fd9db81ae250b898d8dc8e/pyconfig_extension-0.1.0a1-py3-none-any.whl
+[2024-04-03 08:13:03] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Downloading https://files.pythonhosted.org/packages/c7/b1/d947a71be54ea9130ebac2bed5322980c5e124abf8076fa0d286e0ad2e87/odoo_addon_shipment_advice-16.0.1.4.0.1-py3-none-any.whl
+[2024-04-03 08:13:03] INFO root fetch - processPackages [embeddings-explorer]: Downloading https://files.pythonhosted.org/packages/9d/79/28de80bce109b16477613d2fcdd79c6deac99357f8772822b3905f16266e/embeddings_explorer-0.1.0.tar.gz
+[2024-04-03 08:13:03] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/d9/23/63d67792123f9d17c46c816343717acb56a2197dfd40a902956998dc26ab/myllm-4.7.6.tar.gz
+[2024-04-03 08:13:03] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/c7/7f/d0275d417d6b4dabc2b9bba674d9a3cde23667076cada1c52c70050027bc/pulumi_splunk-1.3.0a1711781621.tar.gz
+[2024-04-03 08:13:04] WARNING root fetch - processPackages [pyconfig-extension]: Timeout reached during download
+[2024-04-03 08:13:04] INFO root fetch - processPackages [pyconfig-extension]: executing diffoscope
+[2024-04-03 08:13:04] INFO root fetch - processPackages [pyconfig-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconfig_extension-0.0.1.tar.gz tmp/pyconfig_extension-0.1.0a1-py3-none-any.whl.zip --markdown 20240403/p/pyconfig-extension/0.0.1-0.1.0a1/diff.md --exclude *.pyd
+[2024-04-03 08:13:04] WARNING root fetch - processPackages [odoo-addon-shipment-advice]: Timeout reached during download
+[2024-04-03 08:13:04] WARNING root fetch - processPackages [MyLLM]: Timeout reached during download
+[2024-04-03 08:13:04] WARNING root fetch - processPackages [pulumi-splunk]: Timeout reached during download
+[2024-04-03 08:13:04] WARNING root fetch - processPackages [embeddings-explorer]: Timeout reached during download
+[2024-04-03 08:13:04] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Downloading https://files.pythonhosted.org/packages/6c/10/adbac724912fd280bf5311dc8ab12d92947e26fa94f51c2eeab734bb5161/odoo_addon_shipment_advice-16.0.1.4.0.2-py3-none-any.whl
+[2024-04-03 08:13:04] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/f1/7c/548574b9ac440f92b2c6e0947013b071a4457b4b36d956f5ff16b256384a/myllm-4.7.7.tar.gz
+[2024-04-03 08:13:04] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/80/e3/0a8a91a99bf37e1831ca106e2188f1316e69904c6af5f80ca451b5bb4f34/pulumi_splunk-1.3.0a1712123812.tar.gz
+[2024-04-03 08:13:04] INFO root fetch - processPackages [embeddings-explorer]: Downloading https://files.pythonhosted.org/packages/4f/ec/2f88f66f50e0edd90b7893edd2e4529da09363b6d180fbb1f3d29b73e6c2/embeddings_explorer-0.1.2.tar.gz
+[2024-04-03 08:13:04] WARNING root fetch - processPackages [odoo-addon-shipment-advice]: Timeout reached during download
+[2024-04-03 08:13:04] INFO root fetch - processPackages [odoo-addon-shipment-advice]: executing diffoscope
+[2024-04-03 08:13:04] INFO root fetch - processPackages [odoo-addon-shipment-advice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_shipment_advice-16.0.1.4.0.1-py3-none-any.whl.zip tmp/odoo_addon_shipment_advice-16.0.1.4.0.2-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-shipment-advice/16.0.1.4.0.1-16.0.1.4.0.2/diff.md --exclude *.pyd
+[2024-04-03 08:13:04] WARNING root fetch - processPackages [MyLLM]: Timeout reached during download
+[2024-04-03 08:13:04] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-04-03 08:13:04] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.7.6.tar.gz tmp/myllm-4.7.7.tar.gz --markdown 20240403/M/MyLLM/4.7.6-4.7.7/diff.md --exclude *.pyd
+[2024-04-03 08:13:04] WARNING root fetch - processPackages [embeddings-explorer]: Timeout reached during download
+[2024-04-03 08:13:04] INFO root fetch - processPackages [embeddings-explorer]: executing diffoscope
+[2024-04-03 08:13:04] INFO root fetch - processPackages [embeddings-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embeddings_explorer-0.1.0.tar.gz tmp/embeddings_explorer-0.1.2.tar.gz --markdown 20240403/e/embeddings-explorer/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2024-04-03 08:13:04] WARNING root fetch - processPackages [pulumi-splunk]: Timeout reached during download
+[2024-04-03 08:13:04] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2024-04-03 08:13:04] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1711781621.tar.gz tmp/pulumi_splunk-1.3.0a1712123812.tar.gz --markdown 20240403/p/pulumi-splunk/1.3.0a1711781621-1.3.0a1712123812/diff.md --exclude *.pyd
+[2024-04-03 08:13:04] INFO root fetch - processPackages [pyconfig-extension]: Remove: archive file [/home/abi/fetcher/tmp/pyconfig_extension-0.0.1.tar.gz]
+[2024-04-03 08:13:04] INFO root fetch - processPackages [pyconfig-extension]: Remove: archive file [/home/abi/fetcher/tmp/pyconfig_extension-0.1.0a1-py3-none-any.whl.zip]
+[2024-04-03 08:13:04] INFO root fetch - main [MainThread]: End processing [pyconfig-extension]: success
+[2024-04-03 08:13:04] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.7.6.tar.gz]
+[2024-04-03 08:13:04] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.7.7.tar.gz]
+[2024-04-03 08:13:04] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-04-03 08:13:05] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shipment_advice-16.0.1.4.0.1-py3-none-any.whl.zip]
+[2024-04-03 08:13:05] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shipment_advice-16.0.1.4.0.2-py3-none-any.whl.zip]
+[2024-04-03 08:13:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-shipment-advice]: success
+[2024-04-03 08:13:05] INFO root fetch - processPackages [embeddings-explorer]: Remove: archive file [/home/abi/fetcher/tmp/embeddings_explorer-0.1.0.tar.gz]
+[2024-04-03 08:13:05] INFO root fetch - processPackages [embeddings-explorer]: Remove: archive file [/home/abi/fetcher/tmp/embeddings_explorer-0.1.2.tar.gz]
+[2024-04-03 08:13:05] INFO root fetch - main [MainThread]: End processing [embeddings-explorer]: success
+[2024-04-03 08:13:05] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1711781621.tar.gz]
+[2024-04-03 08:13:05] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1712123812.tar.gz]
+[2024-04-03 08:13:05] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2024-04-03 08:13:05] INFO root fetch - main [MainThread]: Store serial: [22598714]

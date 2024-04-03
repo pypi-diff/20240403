@@ -21583,3 +21583,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:13:05] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1712123812.tar.gz]
 [2024-04-03 08:13:05] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
 [2024-04-03 08:13:05] INFO root fetch - main [MainThread]: Store serial: [22598714]
+[2024-04-03 08:15:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598714]
+[2024-04-03 08:15:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqqq
+[2024-04-03 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py2docfx
+[2024-04-03 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cycleops
+[2024-04-03 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fake-bpy-module-latest
+[2024-04-03 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fake-bpy-module
+[2024-04-03 08:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bitnet
+[2024-04-03 08:15:14] INFO root fetch - processPackages [bitnet]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-03 08:15:14] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240402] Old Version: [20240401]
+[2024-04-03 08:15:14] INFO root fetch - processPackages [pyqqq]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-03 08:15:14] INFO root fetch - processPackages [py2docfx]: New version: [0.1.2rc1679015] Old Version: [0.1.2rc1669458]
+[2024-04-03 08:15:14] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240402] Old Version: [20240401]
+[2024-04-03 08:15:14] INFO root fetch - processPackages [bitnet]: Downloading https://files.pythonhosted.org/packages/b2/bc/b66cc30a45f9f25a62f595df0ef37840ef184e0e0d8dfb8fa5d786120636/bitnet-0.2.1.tar.gz
+[2024-04-03 08:15:14] INFO root fetch - processPackages [cycleops]: New version: [0.6.1] Old Version: [0.5.0]
+[2024-04-03 08:15:14] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/b1/4b/68fff2c3daa0fb3e41b4fbcc289ed1832ab8b68250a3b72b69dc6d33de71/fake-bpy-module-20240401.tar.gz
+[2024-04-03 08:15:14] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/25/62/5ab6ed7232532a42bfc9a41a460b7120757e4b609e3a8270d3b82564a15b/fake-bpy-module-latest-20240401.tar.gz
+[2024-04-03 08:15:14] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/65/c9/161f7928fab6e8779ab2b1eb2ef8d9f9ea60e9a943adb265715bf6997391/py2docfx-0.1.2rc1669458-py3-none-any.whl
+[2024-04-03 08:15:14] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/c2/49/921237106ce25c237ff2a256e617c8a4b0d8aed37f13ad0bd4ea987f0b03/pyqqq-0.6.3.tar.gz
+[2024-04-03 08:15:14] WARNING root fetch - processPackages [bitnet]: Timeout reached during download
+[2024-04-03 08:15:14] INFO root fetch - processPackages [bitnet]: Downloading https://files.pythonhosted.org/packages/53/64/33bb44774acf9fdde70cbb9c32420f3a352f6ee526c68365430769ecc5f7/bitnet-0.2.2-py3-none-any.whl
+[2024-04-03 08:15:14] WARNING root fetch - processPackages [py2docfx]: Timeout reached during download
+[2024-04-03 08:15:14] INFO root fetch - processPackages [cycleops]: Downloading https://files.pythonhosted.org/packages/25/25/d1ecd879fb32a0f6c25458332941b4475ad8a27097caf61d940030074a11/cycleops-0.5.0.tar.gz
+[2024-04-03 08:15:14] WARNING root fetch - processPackages [pyqqq]: Timeout reached during download
+[2024-04-03 08:15:14] WARNING root fetch - processPackages [fake-bpy-module]: Timeout reached during download
+[2024-04-03 08:15:14] WARNING root fetch - processPackages [fake-bpy-module-latest]: Timeout reached during download
+[2024-04-03 08:15:14] WARNING root fetch - processPackages [bitnet]: Timeout reached during download
+[2024-04-03 08:15:14] INFO root fetch - processPackages [bitnet]: executing diffoscope
+[2024-04-03 08:15:14] INFO root fetch - processPackages [bitnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitnet-0.2.1.tar.gz tmp/bitnet-0.2.2-py3-none-any.whl.zip --markdown 20240403/b/bitnet/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-03 08:15:14] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/1f/30/751db0129bd7610bf81ed12ba68cb2dd0385067071562f5f40e2fb68d747/fake-bpy-module-20240402.tar.gz
+[2024-04-03 08:15:14] WARNING root fetch - processPackages [cycleops]: Timeout reached during download
+[2024-04-03 08:15:14] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/81/1d/d623821eeda85daf7aee56b90ee54c95a5a0161bc446592cfd4a21e6deda/py2docfx-0.1.2rc1679015-py3-none-any.whl
+[2024-04-03 08:15:14] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/72/38/837cc1acd57f68575077e081787e264551207c44f1c8ecd4b7f5ac3054be/pyqqq-0.6.4.tar.gz
+[2024-04-03 08:15:14] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/b2/c7/d8f95e578195374bf33bc3ee6474eb7a873b304600afc7b0c5ddc2873adc/fake-bpy-module-latest-20240402.tar.gz
+[2024-04-03 08:15:14] WARNING root fetch - processPackages [fake-bpy-module]: Timeout reached during download
+[2024-04-03 08:15:14] WARNING root fetch - processPackages [py2docfx]: Timeout reached during download
+[2024-04-03 08:15:14] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-04-03 08:15:14] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-20240401.tar.gz tmp/fake-bpy-module-20240402.tar.gz --markdown 20240403/f/fake-bpy-module/20240401-20240402/diff.md --exclude *.pyd
+[2024-04-03 08:15:14] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-03 08:15:14] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.2rc1669458-py3-none-any.whl.zip tmp/py2docfx-0.1.2rc1679015-py3-none-any.whl.zip --markdown 20240403/p/py2docfx/0.1.2rc1669458-0.1.2rc1679015/diff.md --exclude *.pyd
+[2024-04-03 08:15:14] INFO root fetch - processPackages [cycleops]: Downloading https://files.pythonhosted.org/packages/36/4f/99c900d4f35a3c1bc4437d4e20b28a571c0ecaadcbb9a7ee7772f619db13/cycleops-0.6.1.tar.gz
+[2024-04-03 08:15:14] WARNING root fetch - processPackages [pyqqq]: Timeout reached during download
+[2024-04-03 08:15:14] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-03 08:15:14] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.6.3.tar.gz tmp/pyqqq-0.6.4.tar.gz --markdown 20240403/p/pyqqq/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2024-04-03 08:15:14] WARNING root fetch - processPackages [cycleops]: Timeout reached during download
+[2024-04-03 08:15:14] INFO root fetch - processPackages [cycleops]: executing diffoscope
+[2024-04-03 08:15:14] INFO root fetch - processPackages [cycleops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycleops-0.5.0.tar.gz tmp/cycleops-0.6.1.tar.gz --markdown 20240403/c/cycleops/0.5.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-03 08:15:14] WARNING root fetch - processPackages [fake-bpy-module-latest]: Timeout reached during download
+[2024-04-03 08:15:14] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-04-03 08:15:14] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20240401.tar.gz tmp/fake-bpy-module-latest-20240402.tar.gz --markdown 20240403/f/fake-bpy-module-latest/20240401-20240402/diff.md --exclude *.pyd
+[2024-04-03 08:15:15] INFO root fetch - processPackages [bitnet]: Remove: archive file [/home/abi/fetcher/tmp/bitnet-0.2.1.tar.gz]
+[2024-04-03 08:15:15] INFO root fetch - processPackages [bitnet]: Remove: archive file [/home/abi/fetcher/tmp/bitnet-0.2.2-py3-none-any.whl.zip]
+[2024-04-03 08:15:15] INFO root fetch - main [MainThread]: End processing [bitnet]: success
+[2024-04-03 08:15:15] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.6.3.tar.gz]
+[2024-04-03 08:15:15] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.6.4.tar.gz]
+[2024-04-03 08:15:15] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-03 08:15:15] INFO root fetch - processPackages [cycleops]: Remove: archive file [/home/abi/fetcher/tmp/cycleops-0.5.0.tar.gz]
+[2024-04-03 08:15:15] INFO root fetch - processPackages [cycleops]: Remove: archive file [/home/abi/fetcher/tmp/cycleops-0.6.1.tar.gz]
+[2024-04-03 08:15:15] INFO root fetch - main [MainThread]: End processing [cycleops]: success
+[2024-04-03 08:15:15] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.2rc1669458-py3-none-any.whl.zip]
+[2024-04-03 08:15:15] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.2rc1679015-py3-none-any.whl.zip]
+[2024-04-03 08:15:15] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-03 08:15:18] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240401.tar.gz]
+[2024-04-03 08:15:18] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240402.tar.gz]
+[2024-04-03 08:15:18] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-04-03 08:15:18] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240401.tar.gz]
+[2024-04-03 08:15:18] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240402.tar.gz]
+[2024-04-03 08:15:18] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-04-03 08:15:18] INFO root fetch - main [MainThread]: Store serial: [22598733]

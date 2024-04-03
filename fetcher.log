@@ -17629,3 +17629,61 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:40:41] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-clb-3.0.999.tar.gz]
 [2024-04-03 06:40:41] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-clb]: success
 [2024-04-03 06:40:41] INFO root fetch - main [MainThread]: Store serial: [22597598]
+[2024-04-03 06:42:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597598]
+[2024-04-03 06:42:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 06:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-cmq
+[2024-04-03 06:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-cms
+[2024-04-03 06:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elasticsearch-ir-evaluator
+[2024-04-03 06:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pe
+[2024-04-03 06:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: test-tele
+[2024-04-03 06:42:50] INFO root fetch - processPackages [elasticsearch-ir-evaluator]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-03 06:42:50] INFO root fetch - processPackages [pe]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-03 06:42:50] INFO root fetch - processPackages [test-tele]: New version: [0.0.4.9.8.14] Old Version: [0.0.4.9.8.13]
+[2024-04-03 06:42:50] INFO root fetch - processPackages [tencentcloud-sdk-python-cmq]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:42:50] INFO root fetch - processPackages [tencentcloud-sdk-python-cms]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:42:50] INFO root fetch - processPackages [test-tele]: Downloading https://files.pythonhosted.org/packages/96/72/6eb3b871745172ab5c519195aa91bb000c675069cf153d6fe81191eb176b/test_tele-0.0.4.9.8.13.tar.gz
+[2024-04-03 06:42:50] INFO root fetch - processPackages [pe]: Downloading https://files.pythonhosted.org/packages/2a/84/f690b2fd9442d96760bed658ede0614d89f8d5df29b2485f9a51cca0fc35/pe-0.5.1.tar.gz
+[2024-04-03 06:42:50] INFO root fetch - processPackages [elasticsearch-ir-evaluator]: Downloading https://files.pythonhosted.org/packages/0b/e9/9d08424739315e8cdea74ad9581c900895258b989b4945ddc49e2d55de57/elasticsearch_ir_evaluator-0.4.3.tar.gz
+[2024-04-03 06:42:50] INFO root fetch - processPackages [tencentcloud-sdk-python-cmq]: Downloading https://files.pythonhosted.org/packages/5b/ff/b8310ccfe274e17e942b96c85d1c59b2fc4c41ab04a71a85a5b8f05e5926/tencentcloud-sdk-python-cmq-3.0.998.tar.gz
+[2024-04-03 06:42:50] INFO root fetch - processPackages [tencentcloud-sdk-python-cms]: Downloading https://files.pythonhosted.org/packages/6f/4d/514be34747b29033e1acaccb51887ce0db9506b57a6efbc3da62acda8a20/tencentcloud-sdk-python-cms-3.0.998.tar.gz
+[2024-04-03 06:42:50] WARNING root fetch - processPackages [elasticsearch-ir-evaluator]: Timeout reached during download
+[2024-04-03 06:42:50] WARNING root fetch - processPackages [test-tele]: Timeout reached during download
+[2024-04-03 06:42:50] WARNING root fetch - processPackages [tencentcloud-sdk-python-cmq]: Timeout reached during download
+[2024-04-03 06:42:50] WARNING root fetch - processPackages [pe]: Timeout reached during download
+[2024-04-03 06:42:50] WARNING root fetch - processPackages [tencentcloud-sdk-python-cms]: Timeout reached during download
+[2024-04-03 06:42:50] INFO root fetch - processPackages [elasticsearch-ir-evaluator]: Downloading https://files.pythonhosted.org/packages/7f/89/2944c3bbc2bfbfb3736c285673b68c6bebeece4df098b2b867e80f028529/elasticsearch_ir_evaluator-0.4.4.tar.gz
+[2024-04-03 06:42:50] INFO root fetch - processPackages [test-tele]: Downloading https://files.pythonhosted.org/packages/7f/95/75ebc4ad12855ef995cbd0a7995c2c06351d291a702e2808754489d39698/test_tele-0.0.4.9.8.14.tar.gz
+[2024-04-03 06:42:50] INFO root fetch - processPackages [pe]: Downloading https://files.pythonhosted.org/packages/7c/6c/0e364a719797f5d6a25246aab636464ddc0c3cbe048deb0562fcb29fd38b/pe-0.5.2.tar.gz
+[2024-04-03 06:42:50] INFO root fetch - processPackages [tencentcloud-sdk-python-cmq]: Downloading https://files.pythonhosted.org/packages/ea/8b/b015948c6105ebf4975e1ffa04c48775521247f73ba3360e991054e80d8c/tencentcloud-sdk-python-cmq-3.0.999.tar.gz
+[2024-04-03 06:42:50] WARNING root fetch - processPackages [elasticsearch-ir-evaluator]: Timeout reached during download
+[2024-04-03 06:42:50] INFO root fetch - processPackages [elasticsearch-ir-evaluator]: executing diffoscope
+[2024-04-03 06:42:50] INFO root fetch - processPackages [elasticsearch-ir-evaluator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticsearch_ir_evaluator-0.4.3.tar.gz tmp/elasticsearch_ir_evaluator-0.4.4.tar.gz --markdown 20240403/e/elasticsearch-ir-evaluator/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2024-04-03 06:42:50] INFO root fetch - processPackages [tencentcloud-sdk-python-cms]: Downloading https://files.pythonhosted.org/packages/ef/f3/5d0bc763a07ae35ae961d8c4e137e2d440f5fa8d6e3562168ac1f9a6f461/tencentcloud-sdk-python-cms-3.0.999.tar.gz
+[2024-04-03 06:42:50] WARNING root fetch - processPackages [tencentcloud-sdk-python-cmq]: Timeout reached during download
+[2024-04-03 06:42:50] INFO root fetch - processPackages [tencentcloud-sdk-python-cmq]: executing diffoscope
+[2024-04-03 06:42:50] INFO root fetch - processPackages [tencentcloud-sdk-python-cmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cmq-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cmq-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-cmq/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:42:50] WARNING root fetch - processPackages [test-tele]: Timeout reached during download
+[2024-04-03 06:42:50] INFO root fetch - processPackages [test-tele]: executing diffoscope
+[2024-04-03 06:42:50] INFO root fetch - processPackages [test-tele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_tele-0.0.4.9.8.13.tar.gz tmp/test_tele-0.0.4.9.8.14.tar.gz --markdown 20240403/t/test-tele/0.0.4.9.8.13-0.0.4.9.8.14/diff.md --exclude *.pyd
+[2024-04-03 06:42:50] WARNING root fetch - processPackages [pe]: Timeout reached during download
+[2024-04-03 06:42:50] INFO root fetch - processPackages [pe]: executing diffoscope
+[2024-04-03 06:42:50] INFO root fetch - processPackages [pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pe-0.5.1.tar.gz tmp/pe-0.5.2.tar.gz --markdown 20240403/p/pe/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2024-04-03 06:42:50] WARNING root fetch - processPackages [tencentcloud-sdk-python-cms]: Timeout reached during download
+[2024-04-03 06:42:50] INFO root fetch - processPackages [tencentcloud-sdk-python-cms]: executing diffoscope
+[2024-04-03 06:42:50] INFO root fetch - processPackages [tencentcloud-sdk-python-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cms-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cms-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-cms/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:42:51] INFO root fetch - processPackages [elasticsearch-ir-evaluator]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_ir_evaluator-0.4.3.tar.gz]
+[2024-04-03 06:42:51] INFO root fetch - processPackages [elasticsearch-ir-evaluator]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_ir_evaluator-0.4.4.tar.gz]
+[2024-04-03 06:42:51] INFO root fetch - main [MainThread]: End processing [elasticsearch-ir-evaluator]: success
+[2024-04-03 06:42:51] INFO root fetch - processPackages [tencentcloud-sdk-python-cmq]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cmq-3.0.998.tar.gz]
+[2024-04-03 06:42:51] INFO root fetch - processPackages [tencentcloud-sdk-python-cmq]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cmq-3.0.999.tar.gz]
+[2024-04-03 06:42:51] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cmq]: success
+[2024-04-03 06:42:51] INFO root fetch - processPackages [tencentcloud-sdk-python-cms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cms-3.0.998.tar.gz]
+[2024-04-03 06:42:51] INFO root fetch - processPackages [tencentcloud-sdk-python-cms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cms-3.0.999.tar.gz]
+[2024-04-03 06:42:51] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cms]: success
+[2024-04-03 06:42:51] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.8.13.tar.gz]
+[2024-04-03 06:42:51] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.8.14.tar.gz]
+[2024-04-03 06:42:51] INFO root fetch - main [MainThread]: End processing [test-tele]: success
+[2024-04-03 06:42:52] INFO root fetch - processPackages [pe]: Remove: archive file [/home/abi/fetcher/tmp/pe-0.5.1.tar.gz]
+[2024-04-03 06:42:52] INFO root fetch - processPackages [pe]: Remove: archive file [/home/abi/fetcher/tmp/pe-0.5.2.tar.gz]
+[2024-04-03 06:42:52] INFO root fetch - main [MainThread]: End processing [pe]: success
+[2024-04-03 06:42:52] INFO root fetch - main [MainThread]: Store serial: [22597633]

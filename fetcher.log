@@ -19381,3 +19381,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 07:15:48] INFO root fetch - processPackages [py7za]: Remove: archive file [/home/abi/fetcher/tmp/py7za-0.3.2.tar.gz]
 [2024-04-03 07:15:48] INFO root fetch - main [MainThread]: End processing [py7za]: success
 [2024-04-03 07:15:48] INFO root fetch - main [MainThread]: Store serial: [22598089]
+[2024-04-03 07:17:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598089]
+[2024-04-03 07:17:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-03 07:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-product-packaging-level
+[2024-04-03 07:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SimpleJsonConfigParser
+[2024-04-03 07:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tg-flask-sse-common
+[2024-04-03 07:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-product-pricelist-alternative
+[2024-04-03 07:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-ms
+[2024-04-03 07:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-msp
+[2024-04-03 07:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llama-cpp-agent
+[2024-04-03 07:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-mvj
+[2024-04-03 07:17:57] INFO root fetch - processPackages [SimpleJsonConfigParser]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-03 07:17:57] INFO root fetch - processPackages [tg-flask-sse-common]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-04-03 07:17:57] INFO root fetch - processPackages [llama-cpp-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 07:17:57] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/25/95/91db77b4572b6c42caf50baa7ae801753c9dad20fefe885262cca62c70ea/tg_flask_sse_common-2.0.5.tar.gz
+[2024-04-03 07:17:57] INFO root fetch - processPackages [odoo-addon-product-pricelist-alternative]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-04-03 07:17:57] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/b1/dc/cf0fbb161c3d3c231fcd4737a8f55f4183bbbf8030ccb12b79a20348556e/llama-cpp-agent-0.0.8.tar.gz
+[2024-04-03 07:17:57] INFO root fetch - processPackages [odoo-addon-product-packaging-level]: New version: [16.0.1.2.0.3] Old Version: [16.0.1.2.0.2]
+[2024-04-03 07:17:57] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:17:57] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:17:57] INFO root fetch - processPackages [SimpleJsonConfigParser]: Downloading https://files.pythonhosted.org/packages/e1/89/764ea1589d14a51f5d4610881153106faa7eb2a066112541a78aad142d8c/SimpleJsonConfigParser-0.0.1.tar.gz
+[2024-04-03 07:17:57] WARNING root fetch - processPackages [tg-flask-sse-common]: Timeout reached during download
+[2024-04-03 07:17:57] WARNING root fetch - processPackages [llama-cpp-agent]: Timeout reached during download
+[2024-04-03 07:17:57] INFO root fetch - processPackages [odoo-addon-product-pricelist-alternative]: Downloading https://files.pythonhosted.org/packages/aa/94/71575423c9eb02dc39005e9c91b031a54cb1a025a0fc5ca2b17bede6e472/odoo_addon_product_pricelist_alternative-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-03 07:17:57] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/72/d2/fe669d324be099dc10673e05fdedaa55577529de265f254f94bf2c1eca23/llama-cpp-agent-0.0.9.tar.gz
+[2024-04-03 07:17:57] INFO root fetch - processPackages [odoo-addon-product-packaging-level]: Downloading https://files.pythonhosted.org/packages/06/10/19bff6743ce49e4b0ebcb3fce7387c5c53133b6e37f7e8aaada7c42d3622/odoo_addon_product_packaging_level-16.0.1.2.0.2-py3-none-any.whl
+[2024-04-03 07:17:57] WARNING root fetch - processPackages [SimpleJsonConfigParser]: Timeout reached during download
+[2024-04-03 07:17:57] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:17:57] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: Downloading https://files.pythonhosted.org/packages/4a/4a/dba9a441d0d468ac4ac91d2bf6f8d215782ed43ce2bb85301ed87e213ff7/tencentcloud-sdk-python-msp-3.0.998.tar.gz
+[2024-04-03 07:17:57] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: Downloading https://files.pythonhosted.org/packages/d0/e2/4880d252a2e324328e499669fecbcb1abcd99ec79a950369d7937252ef07/tencentcloud-sdk-python-ms-3.0.998.tar.gz
+[2024-04-03 07:17:57] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/6f/10/ec9a39ed43cc8e69360fd53f7c1b63a05c5f120e255125b0616001558e4a/tg_flask_sse_common-2.0.6.tar.gz
+[2024-04-03 07:17:57] WARNING root fetch - processPackages [odoo-addon-product-pricelist-alternative]: Timeout reached during download
+[2024-04-03 07:17:57] WARNING root fetch - processPackages [llama-cpp-agent]: Timeout reached during download
+[2024-04-03 07:17:57] INFO root fetch - processPackages [llama-cpp-agent]: executing diffoscope
+[2024-04-03 07:17:57] INFO root fetch - processPackages [llama-cpp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama-cpp-agent-0.0.8.tar.gz tmp/llama-cpp-agent-0.0.9.tar.gz --markdown 20240403/l/llama-cpp-agent/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 07:17:57] WARNING root fetch - processPackages [odoo-addon-product-packaging-level]: Timeout reached during download
+[2024-04-03 07:17:57] WARNING root fetch - processPackages [tencentcloud-sdk-python-msp]: Timeout reached during download
+[2024-04-03 07:17:57] WARNING root fetch - processPackages [tencentcloud-sdk-python-ms]: Timeout reached during download
+[2024-04-03 07:17:57] INFO root fetch - processPackages [SimpleJsonConfigParser]: Downloading https://files.pythonhosted.org/packages/d4/a5/b626086d43c744679f52852f4b6dcbc040e78691a8fb25b37d0b4b31311b/SimpleJsonConfigParser-0.0.2.tar.gz
+[2024-04-03 07:17:58] WARNING root fetch - processPackages [tg-flask-sse-common]: Timeout reached during download
+[2024-04-03 07:17:58] INFO root fetch - processPackages [tg-flask-sse-common]: executing diffoscope
+[2024-04-03 07:17:58] INFO root fetch - processPackages [tg-flask-sse-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_flask_sse_common-2.0.5.tar.gz tmp/tg_flask_sse_common-2.0.6.tar.gz --markdown 20240403/t/tg-flask-sse-common/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2024-04-03 07:17:58] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Downloading https://files.pythonhosted.org/packages/3c/cd/a545700530aee9bc5907dadac4cb46848ff8f7aa74caba6eb8345a882808/tencentcloud-sdk-python-mvj-3.0.998.tar.gz
+[2024-04-03 07:17:58] INFO root fetch - processPackages [odoo-addon-product-pricelist-alternative]: Downloading https://files.pythonhosted.org/packages/ec/63/b77c28ff6defba804b481811835973c5429a09cd1cbcb79fa76fb2de744a/odoo_addon_product_pricelist_alternative-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-03 07:17:58] INFO root fetch - processPackages [odoo-addon-product-packaging-level]: Downloading https://files.pythonhosted.org/packages/9f/c8/31b27ce86c76bcd6a48cd0897ee6be1335bd9d72bfc425bea590f205f404/odoo_addon_product_packaging_level-16.0.1.2.0.3-py3-none-any.whl
+[2024-04-03 07:17:58] WARNING root fetch - processPackages [SimpleJsonConfigParser]: Timeout reached during download
+[2024-04-03 07:17:58] INFO root fetch - processPackages [SimpleJsonConfigParser]: executing diffoscope
+[2024-04-03 07:17:58] INFO root fetch - processPackages [SimpleJsonConfigParser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleJsonConfigParser-0.0.1.tar.gz tmp/SimpleJsonConfigParser-0.0.2.tar.gz --markdown 20240403/S/SimpleJsonConfigParser/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-03 07:17:58] WARNING root fetch - processPackages [tencentcloud-sdk-python-mvj]: Timeout reached during download
+[2024-04-03 07:17:58] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: Downloading https://files.pythonhosted.org/packages/f9/41/084521dc5d9ee234d4155d0b75dbd6a1364c659b8d9d6f3d051e4f8f91d7/tencentcloud-sdk-python-ms-3.0.999.tar.gz
+[2024-04-03 07:17:58] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: Downloading https://files.pythonhosted.org/packages/42/0e/4c65162bf147d10ca9caf55a27898d93b9ee01b6fd503fc4bfcb15c68f4e/tencentcloud-sdk-python-msp-3.0.999.tar.gz
+[2024-04-03 07:17:58] WARNING root fetch - processPackages [odoo-addon-product-pricelist-alternative]: Timeout reached during download
+[2024-04-03 07:17:58] INFO root fetch - processPackages [odoo-addon-product-pricelist-alternative]: executing diffoscope
+[2024-04-03 07:17:58] INFO root fetch - processPackages [odoo-addon-product-pricelist-alternative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_pricelist_alternative-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_pricelist_alternative-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-product-pricelist-alternative/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-03 07:17:58] WARNING root fetch - processPackages [odoo-addon-product-packaging-level]: Timeout reached during download
+[2024-04-03 07:17:58] INFO root fetch - processPackages [odoo-addon-product-packaging-level]: executing diffoscope
+[2024-04-03 07:17:58] INFO root fetch - processPackages [odoo-addon-product-packaging-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_packaging_level-16.0.1.2.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_packaging_level-16.0.1.2.0.3-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-product-packaging-level/16.0.1.2.0.2-16.0.1.2.0.3/diff.md --exclude *.pyd
+[2024-04-03 07:17:58] WARNING root fetch - processPackages [tencentcloud-sdk-python-ms]: Timeout reached during download
+[2024-04-03 07:17:58] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: executing diffoscope
+[2024-04-03 07:17:58] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ms-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ms-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-ms/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:17:58] WARNING root fetch - processPackages [tencentcloud-sdk-python-msp]: Timeout reached during download
+[2024-04-03 07:17:58] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: executing diffoscope
+[2024-04-03 07:17:58] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-msp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-msp-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-msp/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:17:58] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Downloading https://files.pythonhosted.org/packages/83/20/c591399e8d1e7051d1881a38515f56f6cccf1995e68c7a59e55c0d18456e/tencentcloud-sdk-python-mvj-3.0.999.tar.gz
+[2024-04-03 07:17:58] WARNING root fetch - processPackages [tencentcloud-sdk-python-mvj]: Timeout reached during download
+[2024-04-03 07:17:58] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: executing diffoscope
+[2024-04-03 07:17:58] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mvj-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mvj-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-mvj/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:17:58] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.8.tar.gz]
+[2024-04-03 07:17:58] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.9.tar.gz]
+[2024-04-03 07:17:58] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
+[2024-04-03 07:17:58] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-2.0.5.tar.gz]
+[2024-04-03 07:17:58] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-2.0.6.tar.gz]
+[2024-04-03 07:17:58] INFO root fetch - main [MainThread]: End processing [tg-flask-sse-common]: success
+[2024-04-03 07:17:58] INFO root fetch - processPackages [SimpleJsonConfigParser]: Remove: archive file [/home/abi/fetcher/tmp/SimpleJsonConfigParser-0.0.1.tar.gz]
+[2024-04-03 07:17:58] INFO root fetch - processPackages [SimpleJsonConfigParser]: Remove: archive file [/home/abi/fetcher/tmp/SimpleJsonConfigParser-0.0.2.tar.gz]
+[2024-04-03 07:17:58] INFO root fetch - main [MainThread]: End processing [SimpleJsonConfigParser]: success
+[2024-04-03 07:17:59] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ms-3.0.998.tar.gz]
+[2024-04-03 07:17:59] INFO root fetch - processPackages [tencentcloud-sdk-python-ms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ms-3.0.999.tar.gz]
+[2024-04-03 07:17:59] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ms]: success
+[2024-04-03 07:17:59] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-msp-3.0.998.tar.gz]
+[2024-04-03 07:17:59] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-msp-3.0.999.tar.gz]
+[2024-04-03 07:17:59] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-msp]: success
+[2024-04-03 07:17:59] INFO root fetch - processPackages [odoo-addon-product-pricelist-alternative]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_alternative-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-03 07:17:59] INFO root fetch - processPackages [odoo-addon-product-pricelist-alternative]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_alternative-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-03 07:17:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-pricelist-alternative]: success
+[2024-04-03 07:17:59] INFO root fetch - processPackages [odoo-addon-product-packaging-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_packaging_level-16.0.1.2.0.2-py3-none-any.whl.zip]
+[2024-04-03 07:17:59] INFO root fetch - processPackages [odoo-addon-product-packaging-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_packaging_level-16.0.1.2.0.3-py3-none-any.whl.zip]
+[2024-04-03 07:17:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-packaging-level]: success
+[2024-04-03 07:17:59] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mvj-3.0.998.tar.gz]
+[2024-04-03 07:17:59] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mvj-3.0.999.tar.gz]
+[2024-04-03 07:17:59] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mvj]: success
+[2024-04-03 07:17:59] INFO root fetch - main [MainThread]: Store serial: [22598108]

@@ -15555,3 +15555,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 05:15:41] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz]
 [2024-04-03 05:15:41] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
 [2024-04-03 05:15:41] INFO root fetch - main [MainThread]: Store serial: [22596939]
+[2024-04-03 05:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596939]
+[2024-04-03 05:17:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 05:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: item-matching
+[2024-04-03 05:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-be-cooperator
+[2024-04-03 05:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azure-template
+[2024-04-03 05:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msr
+[2024-04-03 05:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: outerr2html
+[2024-04-03 05:17:51] INFO root fetch - processPackages [item-matching]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 05:17:51] WARNING root fetch - processPackages [msr]: Skipping, unable to determine old version
+[2024-04-03 05:17:51] INFO root fetch - main [MainThread]: End processing [msr] error
+[2024-04-03 05:17:51] WARNING root fetch - processPackages [outerr2html]: Skipping, unable to determine old version
+[2024-04-03 05:17:51] INFO root fetch - main [MainThread]: End processing [outerr2html] error
+[2024-04-03 05:17:51] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/c1/eb/6af9341e91340108c6bd813fdbaf99df20b024ef720ba95fd98f5f9b1e67/item_matching-0.0.8.tar.gz
+[2024-04-03 05:17:51] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator]: New version: [16.0.1.2.0.5] Old Version: [16.0.1.2.0.3]
+[2024-04-03 05:17:51] INFO root fetch - processPackages [azure-template]: New version: [0.1.0b971103] Old Version: [0.1.0b954542]
+[2024-04-03 05:17:51] WARNING root fetch - processPackages [item-matching]: Timeout reached during download
+[2024-04-03 05:17:51] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator]: Downloading https://files.pythonhosted.org/packages/c4/df/881210b741b87ddf910c212e4360b9d96b84b3ad78a194fb706858fe79ee/odoo_addon_l10n_be_cooperator-16.0.1.2.0.3-py3-none-any.whl
+[2024-04-03 05:17:51] INFO root fetch - processPackages [azure-template]: Downloading https://files.pythonhosted.org/packages/82/04/b1cf5ee1227ca7899decd531cd1521ea523ed4cbdc8ce0e3d7e58ca8331c/azure-template-0.1.0b954542.zip
+[2024-04-03 05:17:51] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/d6/27/06995957de9e3e2dc832d765e63268da03fc82c05f5e99df1fad645a8853/item_matching-0.0.9.tar.gz
+[2024-04-03 05:17:51] WARNING root fetch - processPackages [odoo-addon-l10n-be-cooperator]: Timeout reached during download
+[2024-04-03 05:17:51] WARNING root fetch - processPackages [item-matching]: Timeout reached during download
+[2024-04-03 05:17:51] INFO root fetch - processPackages [item-matching]: executing diffoscope
+[2024-04-03 05:17:51] INFO root fetch - processPackages [item-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/item_matching-0.0.8.tar.gz tmp/item_matching-0.0.9.tar.gz --markdown 20240403/i/item-matching/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 05:17:51] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator]: Downloading https://files.pythonhosted.org/packages/14/6a/0115f3acf74dce49dc1c66f33f8ac1399b02ba1b87a5eda0bc0711f04be1/odoo_addon_l10n_be_cooperator-16.0.1.2.0.5-py3-none-any.whl
+[2024-04-03 05:17:52] WARNING root fetch - processPackages [odoo-addon-l10n-be-cooperator]: Timeout reached during download
+[2024-04-03 05:17:52] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator]: executing diffoscope
+[2024-04-03 05:17:52] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_be_cooperator-16.0.1.2.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_be_cooperator-16.0.1.2.0.5-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-l10n-be-cooperator/16.0.1.2.0.3-16.0.1.2.0.5/diff.md --exclude *.pyd
+[2024-04-03 05:17:52] WARNING root fetch - processPackages [azure-template]: Timeout reached during download
+[2024-04-03 05:17:52] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.8.tar.gz]
+[2024-04-03 05:17:52] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.9.tar.gz]
+[2024-04-03 05:17:52] INFO root fetch - main [MainThread]: End processing [item-matching]: success
+[2024-04-03 05:17:52] INFO root fetch - processPackages [azure-template]: Downloading https://files.pythonhosted.org/packages/a3/ab/51e8db029e6b46655758882e5ee630afbf245243726a418c4125d2ae7e4e/azure-template-0.1.0b971103.zip
+[2024-04-03 05:17:52] WARNING root fetch - processPackages [azure-template]: Timeout reached during download
+[2024-04-03 05:17:52] INFO root fetch - processPackages [azure-template]: executing diffoscope
+[2024-04-03 05:17:52] INFO root fetch - processPackages [azure-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-template-0.1.0b954542.zip tmp/azure-template-0.1.0b971103.zip --markdown 20240403/a/azure-template/0.1.0b954542-0.1.0b971103/diff.md --exclude *.pyd
+[2024-04-03 05:17:52] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_cooperator-16.0.1.2.0.3-py3-none-any.whl.zip]
+[2024-04-03 05:17:52] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_cooperator-16.0.1.2.0.5-py3-none-any.whl.zip]
+[2024-04-03 05:17:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-be-cooperator]: success
+[2024-04-03 05:17:53] INFO root fetch - processPackages [azure-template]: Remove: archive file [/home/abi/fetcher/tmp/azure-template-0.1.0b954542.zip]
+[2024-04-03 05:17:53] INFO root fetch - processPackages [azure-template]: Remove: archive file [/home/abi/fetcher/tmp/azure-template-0.1.0b971103.zip]
+[2024-04-03 05:17:53] INFO root fetch - main [MainThread]: End processing [azure-template]: success
+[2024-04-03 05:17:53] INFO root fetch - main [MainThread]: Store serial: [22596950]

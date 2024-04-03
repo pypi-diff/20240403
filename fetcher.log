@@ -20715,3 +20715,61 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 07:40:03] INFO root fetch - processPackages [tencentcloud-sdk-python-tke]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tke-3.0.999.tar.gz]
 [2024-04-03 07:40:03] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tke]: success
 [2024-04-03 07:40:03] INFO root fetch - main [MainThread]: Store serial: [22598451]
+[2024-04-03 07:42:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598451]
+[2024-04-03 07:42:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 07:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-tmt
+[2024-04-03 07:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tourism
+[2024-04-03 07:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-trdp
+[2024-04-03 07:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SimpleJsonConfigParser
+[2024-04-03 07:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iotiumlib
+[2024-04-03 07:42:12] INFO root fetch - processPackages [SimpleJsonConfigParser]: New version: [1.0.0] Old Version: [0.0.3]
+[2024-04-03 07:42:12] INFO root fetch - processPackages [SimpleJsonConfigParser]: Downloading https://files.pythonhosted.org/packages/a5/5f/7911f7cfda4ff7285d77cee059576977a0ec4fffd6399c6b32830bfbccd8/SimpleJsonConfigParser-0.0.3.tar.gz
+[2024-04-03 07:42:12] INFO root fetch - processPackages [iotiumlib]: New version: [24.3.20] Old Version: [24.2.29]
+[2024-04-03 07:42:12] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:42:12] INFO root fetch - processPackages [tencentcloud-sdk-python-tourism]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:42:12] INFO root fetch - processPackages [tencentcloud-sdk-python-tmt]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:42:12] WARNING root fetch - processPackages [SimpleJsonConfigParser]: Timeout reached during download
+[2024-04-03 07:42:13] INFO root fetch - processPackages [iotiumlib]: Downloading https://files.pythonhosted.org/packages/09/89/02e603e385c6486df9d1cea6b2c028538def1db224b6ba9365536c03c8dc/iotiumlib-24.2.29.tar.gz
+[2024-04-03 07:42:13] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: Downloading https://files.pythonhosted.org/packages/8b/08/330d599d162baa091a3100d927ff1110f125a01c2dfeeaec10a6b97e4899/tencentcloud-sdk-python-trdp-3.0.998.tar.gz
+[2024-04-03 07:42:13] INFO root fetch - processPackages [tencentcloud-sdk-python-tourism]: Downloading https://files.pythonhosted.org/packages/85/52/50719542f0cd0ebd71fac60a553c6e8f4a4e455a6fda5f0a83705125bb00/tencentcloud-sdk-python-tourism-3.0.998.tar.gz
+[2024-04-03 07:42:13] INFO root fetch - processPackages [tencentcloud-sdk-python-tmt]: Downloading https://files.pythonhosted.org/packages/8e/ac/885fed72474233664f28cdfee7d22c07213fdaef5b1d6d9ad5b842be40d6/tencentcloud-sdk-python-tmt-3.0.998.tar.gz
+[2024-04-03 07:42:13] INFO root fetch - processPackages [SimpleJsonConfigParser]: Downloading https://files.pythonhosted.org/packages/92/25/3035748e3a79d94d5aaadfe9d5395a4a3fb54a911503f88e1623b02569b1/SimpleJsonConfigParser-1.0.0.tar.gz
+[2024-04-03 07:42:13] WARNING root fetch - processPackages [iotiumlib]: Timeout reached during download
+[2024-04-03 07:42:13] WARNING root fetch - processPackages [tencentcloud-sdk-python-trdp]: Timeout reached during download
+[2024-04-03 07:42:13] WARNING root fetch - processPackages [tencentcloud-sdk-python-tourism]: Timeout reached during download
+[2024-04-03 07:42:13] WARNING root fetch - processPackages [tencentcloud-sdk-python-tmt]: Timeout reached during download
+[2024-04-03 07:42:13] WARNING root fetch - processPackages [SimpleJsonConfigParser]: Timeout reached during download
+[2024-04-03 07:42:13] INFO root fetch - processPackages [SimpleJsonConfigParser]: executing diffoscope
+[2024-04-03 07:42:13] INFO root fetch - processPackages [SimpleJsonConfigParser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleJsonConfigParser-0.0.3.tar.gz tmp/SimpleJsonConfigParser-1.0.0.tar.gz --markdown 20240403/S/SimpleJsonConfigParser/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2024-04-03 07:42:13] INFO root fetch - processPackages [iotiumlib]: Downloading https://files.pythonhosted.org/packages/22/40/30df356e42deab9d44e7e7dbac4a5aaff153747b0e679a7fc787f485c653/iotiumlib-24.3.20.tar.gz
+[2024-04-03 07:42:13] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: Downloading https://files.pythonhosted.org/packages/08/0e/f94c3719e6277997d51dd27d0683b1a86456f29bd3cc044ab044331acd73/tencentcloud-sdk-python-trdp-3.0.999.tar.gz
+[2024-04-03 07:42:13] INFO root fetch - processPackages [tencentcloud-sdk-python-tourism]: Downloading https://files.pythonhosted.org/packages/24/4e/76052de59636a667c1e0c0a664b90c6aaf91a319343a6f137913d0d1d0c9/tencentcloud-sdk-python-tourism-3.0.999.tar.gz
+[2024-04-03 07:42:13] INFO root fetch - processPackages [tencentcloud-sdk-python-tmt]: Downloading https://files.pythonhosted.org/packages/4d/57/8cb33f142c7fb8120334390962047cf01e9d5facfc1fa158a8f8741601d6/tencentcloud-sdk-python-tmt-3.0.999.tar.gz
+[2024-04-03 07:42:13] WARNING root fetch - processPackages [tencentcloud-sdk-python-trdp]: Timeout reached during download
+[2024-04-03 07:42:13] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: executing diffoscope
+[2024-04-03 07:42:13] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-trdp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-trdp-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-trdp/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:42:13] WARNING root fetch - processPackages [tencentcloud-sdk-python-tmt]: Timeout reached during download
+[2024-04-03 07:42:13] INFO root fetch - processPackages [tencentcloud-sdk-python-tmt]: executing diffoscope
+[2024-04-03 07:42:13] INFO root fetch - processPackages [tencentcloud-sdk-python-tmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tmt-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tmt-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-tmt/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:42:13] WARNING root fetch - processPackages [tencentcloud-sdk-python-tourism]: Timeout reached during download
+[2024-04-03 07:42:13] INFO root fetch - processPackages [tencentcloud-sdk-python-tourism]: executing diffoscope
+[2024-04-03 07:42:13] INFO root fetch - processPackages [tencentcloud-sdk-python-tourism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tourism-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tourism-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-tourism/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:42:13] WARNING root fetch - processPackages [iotiumlib]: Timeout reached during download
+[2024-04-03 07:42:13] INFO root fetch - processPackages [iotiumlib]: executing diffoscope
+[2024-04-03 07:42:13] INFO root fetch - processPackages [iotiumlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotiumlib-24.2.29.tar.gz tmp/iotiumlib-24.3.20.tar.gz --markdown 20240403/i/iotiumlib/24.2.29-24.3.20/diff.md --exclude *.pyd
+[2024-04-03 07:42:13] INFO root fetch - processPackages [SimpleJsonConfigParser]: Remove: archive file [/home/abi/fetcher/tmp/SimpleJsonConfigParser-0.0.3.tar.gz]
+[2024-04-03 07:42:13] INFO root fetch - processPackages [SimpleJsonConfigParser]: Remove: archive file [/home/abi/fetcher/tmp/SimpleJsonConfigParser-1.0.0.tar.gz]
+[2024-04-03 07:42:13] INFO root fetch - main [MainThread]: End processing [SimpleJsonConfigParser]: success
+[2024-04-03 07:42:14] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-trdp-3.0.998.tar.gz]
+[2024-04-03 07:42:14] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-trdp-3.0.999.tar.gz]
+[2024-04-03 07:42:14] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-trdp]: success
+[2024-04-03 07:42:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tourism]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tourism-3.0.998.tar.gz]
+[2024-04-03 07:42:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tourism]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tourism-3.0.999.tar.gz]
+[2024-04-03 07:42:14] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tourism]: success
+[2024-04-03 07:42:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tmt]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tmt-3.0.998.tar.gz]
+[2024-04-03 07:42:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tmt]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tmt-3.0.999.tar.gz]
+[2024-04-03 07:42:14] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tmt]: success
+[2024-04-03 07:42:14] INFO root fetch - processPackages [iotiumlib]: Remove: archive file [/home/abi/fetcher/tmp/iotiumlib-24.2.29.tar.gz]
+[2024-04-03 07:42:14] INFO root fetch - processPackages [iotiumlib]: Remove: archive file [/home/abi/fetcher/tmp/iotiumlib-24.3.20.tar.gz]
+[2024-04-03 07:42:14] INFO root fetch - main [MainThread]: End processing [iotiumlib]: success
+[2024-04-03 07:42:14] INFO root fetch - main [MainThread]: Store serial: [22598463]

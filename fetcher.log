@@ -22360,3 +22360,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:46:00] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2373.0.tar.gz]
 [2024-04-03 08:46:00] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
 [2024-04-03 08:46:00] INFO root fetch - main [MainThread]: Store serial: [22598983]
+[2024-04-03 08:48:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598983]
+[2024-04-03 08:48:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 08:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tracking-lib
+[2024-04-03 08:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mysql-compare
+[2024-04-03 08:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aixblock-converter
+[2024-04-03 08:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ping-multi-ext
+[2024-04-03 08:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-contract
+[2024-04-03 08:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fcs-core-model-engine
+[2024-04-03 08:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-contract-variable-quantity
+[2024-04-03 08:48:09] INFO root fetch - processPackages [tracking-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 08:48:09] INFO root fetch - processPackages [tracking-lib]: Downloading https://files.pythonhosted.org/packages/91/95/1ef5ec083eb678959925543aaa2e9b75712a055100310a31b08e36bbad46/tracking_lib-0.1.8.tar.gz
+[2024-04-03 08:48:09] WARNING root fetch - processPackages [aixblock-converter]: Skipping, unable to determine old version
+[2024-04-03 08:48:09] INFO root fetch - main [MainThread]: End processing [aixblock-converter] error
+[2024-04-03 08:48:09] INFO root fetch - processPackages [ping-multi-ext]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-03 08:48:09] INFO root fetch - processPackages [mysql-compare]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-03 08:48:09] INFO root fetch - processPackages [fcs-core-model-engine]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-03 08:48:09] INFO root fetch - processPackages [odoo-addon-contract]: New version: [16.0.2.8.0] Old Version: [16.0.2.7.0]
+[2024-04-03 08:48:09] INFO root fetch - processPackages [odoo-addon-contract-variable-quantity]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.2]
+[2024-04-03 08:48:09] WARNING root fetch - processPackages [tracking-lib]: Timeout reached during download
+[2024-04-03 08:48:10] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/46/95/e4484e8b101b899e8d82b255bb0ac0eede32caa1943643cd6cd4c01dcef9/odoo_addon_contract-16.0.2.7.0-py3-none-any.whl
+[2024-04-03 08:48:10] INFO root fetch - processPackages [tracking-lib]: Downloading https://files.pythonhosted.org/packages/5b/10/d49a9313bd82173c43c2ff349da8b1726dd89eb90c4fe9aee184c56ef64c/tracking_lib-0.1.9.tar.gz
+[2024-04-03 08:48:10] INFO root fetch - processPackages [ping-multi-ext]: Downloading https://files.pythonhosted.org/packages/53/12/d10676de4b19e5055b58dac68b63bb69bda3806dbdd42bce15c11f173b08/ping-multi-ext-1.0.8.tar.gz
+[2024-04-03 08:48:10] INFO root fetch - processPackages [odoo-addon-contract-variable-quantity]: Downloading https://files.pythonhosted.org/packages/6c/3f/9e12e722675faabd1bcf23e38d20c63ffbe091b7810690a28b66df31755f/odoo_addon_contract_variable_quantity-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-03 08:48:10] INFO root fetch - processPackages [mysql-compare]: Downloading https://files.pythonhosted.org/packages/b0/a9/b948ffa278910b8fd86299b1d9581d53424d179e07a907b51cce532c45b8/mysql-compare-0.2.8.tar.gz
+[2024-04-03 08:48:10] INFO root fetch - processPackages [fcs-core-model-engine]: Downloading https://files.pythonhosted.org/packages/6d/1b/503f0b9e8d442ee167cd4bac4b00422200d8e32ea02d85e48097a2f4a7d2/fcs_core_model_engine-0.5.0-py3-none-win_amd64.whl
+[2024-04-03 08:48:10] WARNING root fetch - processPackages [tracking-lib]: Timeout reached during download
+[2024-04-03 08:48:10] INFO root fetch - processPackages [tracking-lib]: executing diffoscope
+[2024-04-03 08:48:10] INFO root fetch - processPackages [tracking-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracking_lib-0.1.8.tar.gz tmp/tracking_lib-0.1.9.tar.gz --markdown 20240403/t/tracking-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 08:48:10] WARNING root fetch - processPackages [ping-multi-ext]: Timeout reached during download
+[2024-04-03 08:48:10] WARNING root fetch - processPackages [fcs-core-model-engine]: Skipping package: exceeds size limit 25201187>=10485760
+[2024-04-03 08:48:10] INFO root fetch - main [MainThread]: End processing [fcs-core-model-engine] error
+[2024-04-03 08:48:10] WARNING root fetch - processPackages [odoo-addon-contract-variable-quantity]: Timeout reached during download
+[2024-04-03 08:48:10] WARNING root fetch - processPackages [mysql-compare]: Timeout reached during download
+[2024-04-03 08:48:10] WARNING root fetch - processPackages [odoo-addon-contract]: Timeout reached during download
+[2024-04-03 08:48:10] INFO root fetch - processPackages [ping-multi-ext]: Downloading https://files.pythonhosted.org/packages/af/d2/cf16588e99ce169db87a70b3bca7cb265de045d2d580ddca85248acd8c4d/ping-multi-ext-1.0.9.tar.gz
+[2024-04-03 08:48:10] INFO root fetch - processPackages [odoo-addon-contract-variable-quantity]: Downloading https://files.pythonhosted.org/packages/e9/2d/577dc31aa5a626c98858a46618f1124a99b1261db09097fab05aad237348/odoo_addon_contract_variable_quantity-16.0.1.1.0-py3-none-any.whl
+[2024-04-03 08:48:10] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/47/6b/654956d3f0426af15a536ac9ec327c3fc170531a3ebf723113c1f3a98d6f/odoo_addon_contract-16.0.2.8.0-py3-none-any.whl
+[2024-04-03 08:48:10] INFO root fetch - processPackages [mysql-compare]: Downloading https://files.pythonhosted.org/packages/f4/ec/e1e4c8bf19c39b76e565554550368a429d467a0fee74573dcc638c950a0a/mysql-compare-0.2.9.tar.gz
+[2024-04-03 08:48:10] WARNING root fetch - processPackages [ping-multi-ext]: Timeout reached during download
+[2024-04-03 08:48:10] INFO root fetch - processPackages [ping-multi-ext]: executing diffoscope
+[2024-04-03 08:48:10] INFO root fetch - processPackages [ping-multi-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ping-multi-ext-1.0.8.tar.gz tmp/ping-multi-ext-1.0.9.tar.gz --markdown 20240403/p/ping-multi-ext/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-03 08:48:10] WARNING root fetch - processPackages [mysql-compare]: Timeout reached during download
+[2024-04-03 08:48:10] INFO root fetch - processPackages [mysql-compare]: executing diffoscope
+[2024-04-03 08:48:10] INFO root fetch - processPackages [mysql-compare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql-compare-0.2.8.tar.gz tmp/mysql-compare-0.2.9.tar.gz --markdown 20240403/m/mysql-compare/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-03 08:48:10] WARNING root fetch - processPackages [odoo-addon-contract-variable-quantity]: Timeout reached during download
+[2024-04-03 08:48:10] INFO root fetch - processPackages [odoo-addon-contract-variable-quantity]: executing diffoscope
+[2024-04-03 08:48:10] INFO root fetch - processPackages [odoo-addon-contract-variable-quantity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract_variable_quantity-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_contract_variable_quantity-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-contract-variable-quantity/16.0.1.0.0.2-16.0.1.1.0/diff.md --exclude *.pyd
+[2024-04-03 08:48:10] WARNING root fetch - processPackages [odoo-addon-contract]: Timeout reached during download
+[2024-04-03 08:48:10] INFO root fetch - processPackages [odoo-addon-contract]: executing diffoscope
+[2024-04-03 08:48:10] INFO root fetch - processPackages [odoo-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract-16.0.2.7.0-py3-none-any.whl.zip tmp/odoo_addon_contract-16.0.2.8.0-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-contract/16.0.2.7.0-16.0.2.8.0/diff.md --exclude *.pyd
+[2024-04-03 08:48:10] INFO root fetch - processPackages [tracking-lib]: Remove: archive file [/home/abi/fetcher/tmp/tracking_lib-0.1.8.tar.gz]
+[2024-04-03 08:48:10] INFO root fetch - processPackages [tracking-lib]: Remove: archive file [/home/abi/fetcher/tmp/tracking_lib-0.1.9.tar.gz]
+[2024-04-03 08:48:10] INFO root fetch - main [MainThread]: End processing [tracking-lib]: success
+[2024-04-03 08:48:11] INFO root fetch - processPackages [ping-multi-ext]: Remove: archive file [/home/abi/fetcher/tmp/ping-multi-ext-1.0.8.tar.gz]
+[2024-04-03 08:48:11] INFO root fetch - processPackages [ping-multi-ext]: Remove: archive file [/home/abi/fetcher/tmp/ping-multi-ext-1.0.9.tar.gz]
+[2024-04-03 08:48:11] INFO root fetch - main [MainThread]: End processing [ping-multi-ext]: success
+[2024-04-03 08:48:11] INFO root fetch - processPackages [mysql-compare]: Remove: archive file [/home/abi/fetcher/tmp/mysql-compare-0.2.8.tar.gz]
+[2024-04-03 08:48:11] INFO root fetch - processPackages [mysql-compare]: Remove: archive file [/home/abi/fetcher/tmp/mysql-compare-0.2.9.tar.gz]
+[2024-04-03 08:48:11] INFO root fetch - main [MainThread]: End processing [mysql-compare]: success
+[2024-04-03 08:48:11] INFO root fetch - processPackages [odoo-addon-contract-variable-quantity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract_variable_quantity-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-03 08:48:11] INFO root fetch - processPackages [odoo-addon-contract-variable-quantity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract_variable_quantity-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-03 08:48:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract-variable-quantity]: success
+[2024-04-03 08:48:12] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-16.0.2.7.0-py3-none-any.whl.zip]
+[2024-04-03 08:48:12] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-16.0.2.8.0-py3-none-any.whl.zip]
+[2024-04-03 08:48:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
+[2024-04-03 08:48:12] INFO root fetch - main [MainThread]: Store serial: [22599004]

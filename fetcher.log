@@ -23129,3 +23129,50 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 09:19:44] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.0.2.tar.gz]
 [2024-04-03 09:19:44] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
 [2024-04-03 09:19:44] INFO root fetch - main [MainThread]: Store serial: [22599284]
+[2024-04-03 09:21:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599284]
+[2024-04-03 09:21:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 09:21:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seven-cloudapp-frame
+[2024-04-03 09:21:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfate
+[2024-04-03 09:21:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: substrate
+[2024-04-03 09:21:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djelm
+[2024-04-03 09:21:53] INFO root fetch - processPackages [substrate]: New version: [120240403.0.1] Old Version: [120240315.0.1]
+[2024-04-03 09:21:53] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-03 09:21:53] INFO root fetch - processPackages [pyfate]: New version: [2.1.0] Old Version: [2.0.0b0]
+[2024-04-03 09:21:53] INFO root fetch - processPackages [substrate]: Downloading https://files.pythonhosted.org/packages/ad/b1/dbee7c972d49bb11558e5953062c3a3ef5dc30d5b4c38ebd92cc2c9e1f10/substrate-120240315.0.1.tar.gz
+[2024-04-03 09:21:53] INFO root fetch - processPackages [djelm]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-03 09:21:53] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-04-03 09:21:53] WARNING root fetch - processPackages [substrate]: Timeout reached during download
+[2024-04-03 09:21:53] INFO root fetch - processPackages [pyfate]: Downloading https://files.pythonhosted.org/packages/f5/d2/61a7f0658a7bd221559630566df7b159038a3847d5433da76be315fb0ea0/pyfate-2.0.0b0.tar.gz
+[2024-04-03 09:21:53] WARNING root fetch - processPackages [seven-cloudapp-frame]: Timeout reached during download
+[2024-04-03 09:21:53] INFO root fetch - processPackages [substrate]: Downloading https://files.pythonhosted.org/packages/88/04/2ff0043e6bb21940d2a4849ca23df61b056ea3678297f290cae454e3cc56/substrate-120240403.0.1.tar.gz
+[2024-04-03 09:21:53] INFO root fetch - processPackages [djelm]: Downloading https://files.pythonhosted.org/packages/84/44/3ffa8026504c757389047f4729cf79cde42f072c7a31795af71a452b9931/djelm-0.6.0.tar.gz
+[2024-04-03 09:21:53] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-04-03 09:21:53] WARNING root fetch - processPackages [substrate]: Timeout reached during download
+[2024-04-03 09:21:53] INFO root fetch - processPackages [substrate]: executing diffoscope
+[2024-04-03 09:21:53] INFO root fetch - processPackages [substrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrate-120240315.0.1.tar.gz tmp/substrate-120240403.0.1.tar.gz --markdown 20240403/s/substrate/120240315.0.1-120240403.0.1/diff.md --exclude *.pyd
+[2024-04-03 09:21:53] WARNING root fetch - processPackages [djelm]: Timeout reached during download
+[2024-04-03 09:21:53] WARNING root fetch - processPackages [pyfate]: Timeout reached during download
+[2024-04-03 09:21:53] WARNING root fetch - processPackages [seven-cloudapp-frame]: Timeout reached during download
+[2024-04-03 09:21:53] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-04-03 09:21:53] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240403/s/seven-cloudapp-frame/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-03 09:21:54] INFO root fetch - processPackages [pyfate]: Downloading https://files.pythonhosted.org/packages/82/83/74b6086458336e35623fc795b53ab4c82a2b7646b050c3c4b7a68a0be857/pyfate-2.1.0.tar.gz
+[2024-04-03 09:21:54] INFO root fetch - processPackages [djelm]: Downloading https://files.pythonhosted.org/packages/58/25/2b3ac470122ec3829575f5be737d9082e304ea6b16accd48e9aef58a6b24/djelm-0.7.0.tar.gz
+[2024-04-03 09:21:54] WARNING root fetch - processPackages [pyfate]: Timeout reached during download
+[2024-04-03 09:21:54] INFO root fetch - processPackages [pyfate]: executing diffoscope
+[2024-04-03 09:21:54] INFO root fetch - processPackages [pyfate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfate-2.0.0b0.tar.gz tmp/pyfate-2.1.0.tar.gz --markdown 20240403/p/pyfate/2.0.0b0-2.1.0/diff.md --exclude *.pyd
+[2024-04-03 09:21:54] INFO root fetch - processPackages [substrate]: Remove: archive file [/home/abi/fetcher/tmp/substrate-120240315.0.1.tar.gz]
+[2024-04-03 09:21:54] INFO root fetch - processPackages [substrate]: Remove: archive file [/home/abi/fetcher/tmp/substrate-120240403.0.1.tar.gz]
+[2024-04-03 09:21:54] INFO root fetch - main [MainThread]: End processing [substrate]: success
+[2024-04-03 09:21:54] WARNING root fetch - processPackages [djelm]: Timeout reached during download
+[2024-04-03 09:21:54] INFO root fetch - processPackages [djelm]: executing diffoscope
+[2024-04-03 09:21:54] INFO root fetch - processPackages [djelm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djelm-0.6.0.tar.gz tmp/djelm-0.7.0.tar.gz --markdown 20240403/d/djelm/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2024-04-03 09:21:55] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-04-03 09:21:55] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-04-03 09:21:55] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-04-03 09:21:55] INFO root fetch - processPackages [djelm]: Remove: archive file [/home/abi/fetcher/tmp/djelm-0.6.0.tar.gz]
+[2024-04-03 09:21:55] INFO root fetch - processPackages [djelm]: Remove: archive file [/home/abi/fetcher/tmp/djelm-0.7.0.tar.gz]
+[2024-04-03 09:21:55] INFO root fetch - main [MainThread]: End processing [djelm]: success
+[2024-04-03 09:21:56] INFO root fetch - processPackages [pyfate]: Remove: archive file [/home/abi/fetcher/tmp/pyfate-2.0.0b0.tar.gz]
+[2024-04-03 09:21:56] INFO root fetch - processPackages [pyfate]: Remove: archive file [/home/abi/fetcher/tmp/pyfate-2.1.0.tar.gz]
+[2024-04-03 09:21:56] INFO root fetch - main [MainThread]: End processing [pyfate]: success
+[2024-04-03 09:21:56] INFO root fetch - main [MainThread]: Store serial: [22599301]

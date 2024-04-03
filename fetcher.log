@@ -2534,3 +2534,94 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 02:06:24] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240402.404.tar.gz]
 [2024-04-03 02:06:24] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-04-03 02:06:24] INFO root fetch - main [MainThread]: Store serial: [22593206]
+[2024-04-03 02:08:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593206]
+[2024-04-03 02:08:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-03 02:08:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-dev
+[2024-04-03 02:08:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxutils-nightly
+[2024-04-03 02:08:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: burr
+[2024-04-03 02:08:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sentralify
+[2024-04-03 02:08:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyminerva
+[2024-04-03 02:08:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neuropacs
+[2024-04-03 02:08:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-skill-update
+[2024-04-03 02:08:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaraco.site
+[2024-04-03 02:08:38] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240402] Old Version: [0.0.8.dev20240401]
+[2024-04-03 02:08:38] INFO root fetch - processPackages [jaraco.site]: New version: [6.8.2] Old Version: [6.8.1]
+[2024-04-03 02:08:38] INFO root fetch - processPackages [burr]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-03 02:08:38] INFO root fetch - processPackages [neuropacs]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-04-03 02:08:38] INFO root fetch - processPackages [sbcli-dev]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-03 02:08:38] INFO root fetch - processPackages [pyminerva]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-03 02:08:38] INFO root fetch - processPackages [neon-skill-update]: New version: [2.1.3a4] Old Version: [2.1.3a3]
+[2024-04-03 02:08:38] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/21/c3/48195bb102c828148aef4ed4926f8508f2c6543a5eede2c721f7efaa520c/jaxutils-nightly-0.0.8.dev20240401.tar.gz
+[2024-04-03 02:08:38] INFO root fetch - processPackages [jaraco.site]: Downloading https://files.pythonhosted.org/packages/de/7f/b05f72efec61172500a8e2106b2d2373cfecb412b7404c6b81f6d30edf7d/jaraco.site-6.8.1.tar.gz
+[2024-04-03 02:08:38] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/87/83/f7356070de16e070dbc68373d02f5b3677c417c21359630b2007a8b027df/burr-0.8.1.tar.gz
+[2024-04-03 02:08:38] INFO root fetch - processPackages [sentralify]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-03 02:08:38] INFO root fetch - processPackages [neuropacs]: Downloading https://files.pythonhosted.org/packages/12/5e/d63c26a9893af8db7bd80e8b0051344ff1505ae325507e8cfac056be3088/neuropacs-1.6.3.tar.gz
+[2024-04-03 02:08:38] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/3b/36/a15203a55ae72cfb95cfae78bc31ebd49e9e8deb8479b74a7197038ee42a/sbcli-dev-2.0.0.zip
+[2024-04-03 02:08:38] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/71/85/01e8f26ee3130cf86f9e4b898bf1c77b6edaa3ff18d78ab72ab3042c1c41/pyminerva-0.0.98.tar.gz
+[2024-04-03 02:08:38] WARNING root fetch - processPackages [jaxutils-nightly]: Timeout reached during download
+[2024-04-03 02:08:38] WARNING root fetch - processPackages [neuropacs]: Timeout reached during download
+[2024-04-03 02:08:38] INFO root fetch - processPackages [neon-skill-update]: Downloading https://files.pythonhosted.org/packages/10/51/fe7c0041e8b0fd98297df2457b1ef62ae94e35eff5306562465f3605a90a/neon-skill-update-2.1.3a3.tar.gz
+[2024-04-03 02:08:38] WARNING root fetch - processPackages [pyminerva]: Timeout reached during download
+[2024-04-03 02:08:38] WARNING root fetch - processPackages [sbcli-dev]: Timeout reached during download
+[2024-04-03 02:08:38] WARNING root fetch - processPackages [jaraco.site]: Timeout reached during download
+[2024-04-03 02:08:38] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/93/4a/0b7ff8564f605f7dd532ddc7c47baef59c97069cd6edb75502e7533cd4de/jaxutils-nightly-0.0.8.dev20240402.tar.gz
+[2024-04-03 02:08:38] INFO root fetch - processPackages [sentralify]: Downloading https://files.pythonhosted.org/packages/e5/8b/ae3beaa8c60ceafbebad028cd516d1c59782ecf4057e816468d1fa3099e0/sentralify-1.2.1.tar.gz
+[2024-04-03 02:08:38] WARNING root fetch - processPackages [neon-skill-update]: Timeout reached during download
+[2024-04-03 02:08:38] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/30/9b/396cf38441ad3c8ce48c213fff676d95f1f3f4feeb1b7dc8824277fe413e/pyminerva-0.0.99.tar.gz
+[2024-04-03 02:08:39] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/54/af/8e60768924a1fddc143b530f2f8a2a01dd4ebdfd49d1107dff2cc1a2ee97/sbcli-dev-2.0.1.zip
+[2024-04-03 02:08:39] INFO root fetch - processPackages [neuropacs]: Downloading https://files.pythonhosted.org/packages/02/b9/45e575f56dbc8c80f2a31f794c981bc09274a10a171daf8356156ff4207d/neuropacs-1.6.4.tar.gz
+[2024-04-03 02:08:39] WARNING root fetch - processPackages [jaxutils-nightly]: Timeout reached during download
+[2024-04-03 02:08:39] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-04-03 02:08:39] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240401.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240402.tar.gz --markdown 20240403/j/jaxutils-nightly/0.0.8.dev20240401-0.0.8.dev20240402/diff.md --exclude *.pyd
+[2024-04-03 02:08:39] WARNING root fetch - processPackages [sentralify]: Timeout reached during download
+[2024-04-03 02:08:39] WARNING root fetch - processPackages [burr]: Timeout reached during download
+[2024-04-03 02:08:39] INFO root fetch - processPackages [jaraco.site]: Downloading https://files.pythonhosted.org/packages/85/d8/06c799e6c42ca4e8fe2e7182dc9c3368813734c22e87b339dc1e55a0f7e0/jaraco.site-6.8.2.tar.gz
+[2024-04-03 02:08:39] WARNING root fetch - processPackages [pyminerva]: Timeout reached during download
+[2024-04-03 02:08:39] INFO root fetch - processPackages [pyminerva]: executing diffoscope
+[2024-04-03 02:08:39] INFO root fetch - processPackages [pyminerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminerva-0.0.98.tar.gz tmp/pyminerva-0.0.99.tar.gz --markdown 20240403/p/pyminerva/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-03 02:08:39] WARNING root fetch - processPackages [neuropacs]: Timeout reached during download
+[2024-04-03 02:08:39] INFO root fetch - processPackages [neuropacs]: executing diffoscope
+[2024-04-03 02:08:39] INFO root fetch - processPackages [neuropacs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuropacs-1.6.3.tar.gz tmp/neuropacs-1.6.4.tar.gz --markdown 20240403/n/neuropacs/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2024-04-03 02:08:39] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/65/38/00b44d54c37f35813232167f5745ca37eac9ad13574e81e1f4e685acf5d5/burr-0.9.0.tar.gz
+[2024-04-03 02:08:39] INFO root fetch - processPackages [neon-skill-update]: Downloading https://files.pythonhosted.org/packages/0b/46/ce6779fe2fb596445bed67f3473b4e0f5cb98f7ea5caf170d633eb71b888/neon-skill-update-2.1.3a4.tar.gz
+[2024-04-03 02:08:39] WARNING root fetch - processPackages [sbcli-dev]: Timeout reached during download
+[2024-04-03 02:08:39] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-04-03 02:08:39] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-dev-2.0.0.zip tmp/sbcli-dev-2.0.1.zip --markdown 20240403/s/sbcli-dev/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2024-04-03 02:08:39] WARNING root fetch - processPackages [jaraco.site]: Timeout reached during download
+[2024-04-03 02:08:39] INFO root fetch - processPackages [jaraco.site]: executing diffoscope
+[2024-04-03 02:08:39] INFO root fetch - processPackages [jaraco.site]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.site-6.8.1.tar.gz tmp/jaraco.site-6.8.2.tar.gz --markdown 20240403/j/jaraco.site/6.8.1-6.8.2/diff.md --exclude *.pyd
+[2024-04-03 02:08:39] INFO root fetch - processPackages [sentralify]: Downloading https://files.pythonhosted.org/packages/2e/19/1a86d81f301193133418e83f3191561fbc0b792ad7c7a605f527bf19cf5c/sentralify-1.2.2.tar.gz
+[2024-04-03 02:08:39] WARNING root fetch - processPackages [neon-skill-update]: Timeout reached during download
+[2024-04-03 02:08:39] INFO root fetch - processPackages [neon-skill-update]: executing diffoscope
+[2024-04-03 02:08:39] INFO root fetch - processPackages [neon-skill-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-update-2.1.3a3.tar.gz tmp/neon-skill-update-2.1.3a4.tar.gz --markdown 20240403/n/neon-skill-update/2.1.3a3-2.1.3a4/diff.md --exclude *.pyd
+[2024-04-03 02:08:39] WARNING root fetch - processPackages [sentralify]: Timeout reached during download
+[2024-04-03 02:08:39] INFO root fetch - processPackages [sentralify]: executing diffoscope
+[2024-04-03 02:08:39] INFO root fetch - processPackages [sentralify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentralify-1.2.1.tar.gz tmp/sentralify-1.2.2.tar.gz --markdown 20240403/s/sentralify/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2024-04-03 02:08:39] WARNING root fetch - processPackages [burr]: Timeout reached during download
+[2024-04-03 02:08:39] INFO root fetch - processPackages [burr]: executing diffoscope
+[2024-04-03 02:08:39] INFO root fetch - processPackages [burr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burr-0.8.1.tar.gz tmp/burr-0.9.0.tar.gz --markdown 20240403/b/burr/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 02:08:39] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.98.tar.gz]
+[2024-04-03 02:08:39] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
+[2024-04-03 02:08:39] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
+[2024-04-03 02:08:39] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240401.tar.gz]
+[2024-04-03 02:08:39] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240402.tar.gz]
+[2024-04-03 02:08:39] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-04-03 02:08:40] INFO root fetch - processPackages [neuropacs]: Remove: archive file [/home/abi/fetcher/tmp/neuropacs-1.6.3.tar.gz]
+[2024-04-03 02:08:40] INFO root fetch - processPackages [neuropacs]: Remove: archive file [/home/abi/fetcher/tmp/neuropacs-1.6.4.tar.gz]
+[2024-04-03 02:08:40] INFO root fetch - main [MainThread]: End processing [neuropacs]: success
+[2024-04-03 02:08:40] INFO root fetch - processPackages [neon-skill-update]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-update-2.1.3a3.tar.gz]
+[2024-04-03 02:08:40] INFO root fetch - processPackages [neon-skill-update]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-update-2.1.3a4.tar.gz]
+[2024-04-03 02:08:40] INFO root fetch - main [MainThread]: End processing [neon-skill-update]: success
+[2024-04-03 02:08:40] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-dev-2.0.0.zip]
+[2024-04-03 02:08:40] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-dev-2.0.1.zip]
+[2024-04-03 02:08:40] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-04-03 02:08:40] INFO root fetch - processPackages [sentralify]: Remove: archive file [/home/abi/fetcher/tmp/sentralify-1.2.1.tar.gz]
+[2024-04-03 02:08:40] INFO root fetch - processPackages [sentralify]: Remove: archive file [/home/abi/fetcher/tmp/sentralify-1.2.2.tar.gz]
+[2024-04-03 02:08:40] INFO root fetch - main [MainThread]: End processing [sentralify]: success
+[2024-04-03 02:08:40] INFO root fetch - processPackages [jaraco.site]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.site-6.8.1.tar.gz]
+[2024-04-03 02:08:40] INFO root fetch - processPackages [jaraco.site]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.site-6.8.2.tar.gz]
+[2024-04-03 02:08:40] INFO root fetch - main [MainThread]: End processing [jaraco.site]: success
+[2024-04-03 02:09:16] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.8.1.tar.gz]
+[2024-04-03 02:09:16] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
+[2024-04-03 02:09:16] INFO root fetch - main [MainThread]: End processing [burr]: success
+[2024-04-03 02:09:16] INFO root fetch - main [MainThread]: Store serial: [22593230]

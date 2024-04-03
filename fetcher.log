@@ -16130,3 +16130,105 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 05:48:18] INFO root fetch - processPackages [wttch-train-helper]: Remove: archive file [/home/abi/fetcher/tmp/wttch-train-helper-0.0.9.tar.gz]
 [2024-04-03 05:48:18] INFO root fetch - main [MainThread]: End processing [wttch-train-helper]: success
 [2024-04-03 05:48:18] INFO root fetch - main [MainThread]: Store serial: [22597125]
+[2024-04-03 05:50:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597125]
+[2024-04-03 05:50:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-03 05:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hmtaiga
+[2024-04-03 05:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: injected-utils
+[2024-04-03 05:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spark-ai-python
+[2024-04-03 05:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: manukaclient
+[2024-04-03 05:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dolbaram
+[2024-04-03 05:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-helpdesk-mgmt
+[2024-04-03 05:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-helpdesk-mgmt
+[2024-04-03 05:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scripture-phaser
+[2024-04-03 05:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-helpdesk-mgmt
+[2024-04-03 05:50:27] INFO root fetch - processPackages [dolbaram]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-03 05:50:27] INFO root fetch - processPackages [hmtaiga]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-03 05:50:27] INFO root fetch - processPackages [dolbaram]: Downloading https://files.pythonhosted.org/packages/2c/67/9cf6c25e2ebcd2d256ef95acfc6985b0480d71d1a7be886379e3dff207d3/dolbaram-0.2.4.tar.gz
+[2024-04-03 05:50:27] INFO root fetch - processPackages [injected-utils]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-03 05:50:27] INFO root fetch - processPackages [hmtaiga]: Downloading https://files.pythonhosted.org/packages/30/38/5120c2c54025c198671cadae95bb872efda4291a200e275e631eaffa4e38/hmtaiga-0.1.3.tar.gz
+[2024-04-03 05:50:27] INFO root fetch - processPackages [spark-ai-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-03 05:50:27] INFO root fetch - processPackages [scripture-phaser]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-03 05:50:27] INFO root fetch - processPackages [manukaclient]: New version: [1.1.0] Old Version: [0.7.1]
+[2024-04-03 05:50:27] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: New version: [14.0.2.9.1.dev6] Old Version: [14.0.2.9.1.dev5]
+[2024-04-03 05:50:27] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.2.2.0.8] Old Version: [16.0.2.2.0.7]
+[2024-04-03 05:50:27] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: New version: [12.0.1.9.1.99.dev9] Old Version: [12.0.1.9.1.99.dev7]
+[2024-04-03 05:50:27] WARNING root fetch - processPackages [dolbaram]: Timeout reached during download
+[2024-04-03 05:50:27] WARNING root fetch - processPackages [hmtaiga]: Timeout reached during download
+[2024-04-03 05:50:27] INFO root fetch - processPackages [injected-utils]: Downloading https://files.pythonhosted.org/packages/19/cd/5d5567920b2e4369cb52d677d51f7233cfc00be046cacc7c899e4cf1ce1d/injected_utils-0.1.5.tar.gz
+[2024-04-03 05:50:27] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/f4/fb/add24d391c9e74bdc54b217e18d2a6003fb4db73d26fd757acf24fc284b0/spark_ai_python-0.3.8.tar.gz
+[2024-04-03 05:50:27] INFO root fetch - processPackages [manukaclient]: Downloading https://files.pythonhosted.org/packages/40/c1/40f1222a7c626653fd44be82f83a4591cb379af9d1614e261cd4d4ae633f/manukaclient-0.7.1.tar.gz
+[2024-04-03 05:50:27] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/46/d9/b9ab4ef2748b28d97cd8f1eb01af20819ac1fb4314f3a5dfb66ab4ea52b2/odoo_addon_helpdesk_mgmt-16.0.2.2.0.7-py3-none-any.whl
+[2024-04-03 05:50:27] INFO root fetch - processPackages [scripture-phaser]: Downloading https://files.pythonhosted.org/packages/07/fa/3ecdcf75ef7e3ffc8be5e7d45d0fbd04b35c47c99b580ccd6172c61a563a/scripture_phaser-1.2.0.tar.gz
+[2024-04-03 05:50:27] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/59/ba/833846e37f8cc6d7e7cf40886534d78bda51ac159ef20fb8242ddee4176c/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev7-py3-none-any.whl
+[2024-04-03 05:50:27] INFO root fetch - processPackages [hmtaiga]: Downloading https://files.pythonhosted.org/packages/7d/60/73bb5034276959fbf87b653788fdf39be5e071ab412c980058f03d9adec7/hmtaiga-0.1.4.tar.gz
+[2024-04-03 05:50:27] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/b1/38/4b75975869d917a86b1699095d04a9b059c4716a5b0788e911a4bcc17651/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl
+[2024-04-03 05:50:27] INFO root fetch - processPackages [dolbaram]: Downloading https://files.pythonhosted.org/packages/50/22/3278312541ffa2f5a847db11c2d498d31a11b1554190e3557d30b268bcb8/dolbaram-0.2.5.tar.gz
+[2024-04-03 05:50:27] WARNING root fetch - processPackages [injected-utils]: Timeout reached during download
+[2024-04-03 05:50:27] WARNING root fetch - processPackages [spark-ai-python]: Timeout reached during download
+[2024-04-03 05:50:27] WARNING root fetch - processPackages [manukaclient]: Timeout reached during download
+[2024-04-03 05:50:27] WARNING root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Timeout reached during download
+[2024-04-03 05:50:27] WARNING root fetch - processPackages [scripture-phaser]: Timeout reached during download
+[2024-04-03 05:50:27] WARNING root fetch - processPackages [hmtaiga]: Timeout reached during download
+[2024-04-03 05:50:27] INFO root fetch - processPackages [hmtaiga]: executing diffoscope
+[2024-04-03 05:50:27] INFO root fetch - processPackages [hmtaiga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmtaiga-0.1.3.tar.gz tmp/hmtaiga-0.1.4.tar.gz --markdown 20240403/h/hmtaiga/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-03 05:50:27] WARNING root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: Timeout reached during download
+[2024-04-03 05:50:27] WARNING root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Timeout reached during download
+[2024-04-03 05:50:27] WARNING root fetch - processPackages [dolbaram]: Timeout reached during download
+[2024-04-03 05:50:27] INFO root fetch - processPackages [injected-utils]: Downloading https://files.pythonhosted.org/packages/be/d4/0bd0fd7ed4ea2d1843a8738deb84bd6e62b577f931e046194fa1b0f202e4/injected_utils-0.1.6.tar.gz
+[2024-04-03 05:50:27] INFO root fetch - processPackages [dolbaram]: executing diffoscope
+[2024-04-03 05:50:27] INFO root fetch - processPackages [dolbaram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolbaram-0.2.4.tar.gz tmp/dolbaram-0.2.5.tar.gz --markdown 20240403/d/dolbaram/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-03 05:50:27] INFO root fetch - processPackages [manukaclient]: Downloading https://files.pythonhosted.org/packages/e0/d5/9973fa3941b57b7ba17092b32e4c07427e50502cd31f7568515a58622098/manukaclient-1.1.0.tar.gz
+[2024-04-03 05:50:28] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/9c/8f/839a31dcb40a663647214e2c2a849dd29aba055b051276318cae0b879c67/spark_ai_python-0.3.9.tar.gz
+[2024-04-03 05:50:28] INFO root fetch - processPackages [scripture-phaser]: Downloading https://files.pythonhosted.org/packages/8a/8e/f85065fb0f361262113078bc3901e5408902a4ec2021f1c7e215c101763b/scripture_phaser-1.2.1.tar.gz
+[2024-04-03 05:50:28] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/ec/5a/6dcf41aec1c90ec57c026289332604190821df121368e89f661586207216/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev9-py3-none-any.whl
+[2024-04-03 05:50:28] WARNING root fetch - processPackages [injected-utils]: Timeout reached during download
+[2024-04-03 05:50:28] INFO root fetch - processPackages [injected-utils]: executing diffoscope
+[2024-04-03 05:50:28] INFO root fetch - processPackages [injected-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/injected_utils-0.1.5.tar.gz tmp/injected_utils-0.1.6.tar.gz --markdown 20240403/i/injected-utils/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-03 05:50:28] WARNING root fetch - processPackages [manukaclient]: Timeout reached during download
+[2024-04-03 05:50:28] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/d7/78/98d41e46b809fea6d59b3d084399ad90800b6eac86cdef51a200e5a9777b/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl
+[2024-04-03 05:50:28] INFO root fetch - processPackages [manukaclient]: executing diffoscope
+[2024-04-03 05:50:28] INFO root fetch - processPackages [manukaclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manukaclient-0.7.1.tar.gz tmp/manukaclient-1.1.0.tar.gz --markdown 20240403/m/manukaclient/0.7.1-1.1.0/diff.md --exclude *.pyd
+[2024-04-03 05:50:28] WARNING root fetch - processPackages [spark-ai-python]: Timeout reached during download
+[2024-04-03 05:50:28] INFO root fetch - processPackages [spark-ai-python]: executing diffoscope
+[2024-04-03 05:50:28] INFO root fetch - processPackages [spark-ai-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_ai_python-0.3.8.tar.gz tmp/spark_ai_python-0.3.9.tar.gz --markdown 20240403/s/spark-ai-python/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-03 05:50:28] WARNING root fetch - processPackages [scripture-phaser]: Timeout reached during download
+[2024-04-03 05:50:28] INFO root fetch - processPackages [scripture-phaser]: executing diffoscope
+[2024-04-03 05:50:28] INFO root fetch - processPackages [scripture-phaser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scripture_phaser-1.2.0.tar.gz tmp/scripture_phaser-1.2.1.tar.gz --markdown 20240403/s/scripture-phaser/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2024-04-03 05:50:28] WARNING root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: Timeout reached during download
+[2024-04-03 05:50:28] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: executing diffoscope
+[2024-04-03 05:50:28] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev9-py3-none-any.whl.zip --markdown 20240403/o/odoo12-addon-helpdesk-mgmt/12.0.1.9.1.99.dev7-12.0.1.9.1.99.dev9/diff.md --exclude *.pyd
+[2024-04-03 05:50:28] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/fa/fe/0933f9a6fe74fff50e5697611775f529c7d039d9e1b1d281fed8268042b1/odoo_addon_helpdesk_mgmt-16.0.2.2.0.8-py3-none-any.whl
+[2024-04-03 05:50:28] WARNING root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Timeout reached during download
+[2024-04-03 05:50:28] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: executing diffoscope
+[2024-04-03 05:50:28] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl.zip --markdown 20240403/o/odoo14-addon-helpdesk-mgmt/14.0.2.9.1.dev5-14.0.2.9.1.dev6/diff.md --exclude *.pyd
+[2024-04-03 05:50:28] WARNING root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Timeout reached during download
+[2024-04-03 05:50:28] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2024-04-03 05:50:28] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.0.7-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.0.8-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-helpdesk-mgmt/16.0.2.2.0.7-16.0.2.2.0.8/diff.md --exclude *.pyd
+[2024-04-03 05:50:28] INFO root fetch - processPackages [hmtaiga]: Remove: archive file [/home/abi/fetcher/tmp/hmtaiga-0.1.3.tar.gz]
+[2024-04-03 05:50:28] INFO root fetch - processPackages [hmtaiga]: Remove: archive file [/home/abi/fetcher/tmp/hmtaiga-0.1.4.tar.gz]
+[2024-04-03 05:50:28] INFO root fetch - main [MainThread]: End processing [hmtaiga]: success
+[2024-04-03 05:50:28] INFO root fetch - processPackages [dolbaram]: Remove: archive file [/home/abi/fetcher/tmp/dolbaram-0.2.4.tar.gz]
+[2024-04-03 05:50:28] INFO root fetch - processPackages [dolbaram]: Remove: archive file [/home/abi/fetcher/tmp/dolbaram-0.2.5.tar.gz]
+[2024-04-03 05:50:28] INFO root fetch - main [MainThread]: End processing [dolbaram]: success
+[2024-04-03 05:50:28] INFO root fetch - processPackages [injected-utils]: Remove: archive file [/home/abi/fetcher/tmp/injected_utils-0.1.5.tar.gz]
+[2024-04-03 05:50:28] INFO root fetch - processPackages [injected-utils]: Remove: archive file [/home/abi/fetcher/tmp/injected_utils-0.1.6.tar.gz]
+[2024-04-03 05:50:28] INFO root fetch - main [MainThread]: End processing [injected-utils]: success
+[2024-04-03 05:50:28] INFO root fetch - processPackages [manukaclient]: Remove: archive file [/home/abi/fetcher/tmp/manukaclient-0.7.1.tar.gz]
+[2024-04-03 05:50:28] INFO root fetch - processPackages [manukaclient]: Remove: archive file [/home/abi/fetcher/tmp/manukaclient-1.1.0.tar.gz]
+[2024-04-03 05:50:28] INFO root fetch - main [MainThread]: End processing [manukaclient]: success
+[2024-04-03 05:50:29] INFO root fetch - processPackages [scripture-phaser]: Remove: archive file [/home/abi/fetcher/tmp/scripture_phaser-1.2.0.tar.gz]
+[2024-04-03 05:50:29] INFO root fetch - processPackages [scripture-phaser]: Remove: archive file [/home/abi/fetcher/tmp/scripture_phaser-1.2.1.tar.gz]
+[2024-04-03 05:50:29] INFO root fetch - main [MainThread]: End processing [scripture-phaser]: success
+[2024-04-03 05:50:29] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev7-py3-none-any.whl.zip]
+[2024-04-03 05:50:29] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev9-py3-none-any.whl.zip]
+[2024-04-03 05:50:29] INFO root fetch - main [MainThread]: End processing [odoo12-addon-helpdesk-mgmt]: success
+[2024-04-03 05:50:29] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl.zip]
+[2024-04-03 05:50:29] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl.zip]
+[2024-04-03 05:50:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt]: success
+[2024-04-03 05:50:29] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.0.7-py3-none-any.whl.zip]
+[2024-04-03 05:50:29] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.0.8-py3-none-any.whl.zip]
+[2024-04-03 05:50:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2024-04-03 05:50:29] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.8.tar.gz]
+[2024-04-03 05:50:29] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
+[2024-04-03 05:50:29] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
+[2024-04-03 05:50:29] INFO root fetch - main [MainThread]: Store serial: [22597149]

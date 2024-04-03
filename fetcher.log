@@ -14047,3 +14047,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 04:19:28] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240403.tar.gz]
 [2024-04-03 04:19:28] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-04-03 04:19:28] INFO root fetch - main [MainThread]: Store serial: [22596442]
+[2024-04-03 04:21:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596442]
+[2024-04-03 04:21:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 04:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deltachat-rpc-server
+[2024-04-03 04:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finhack
+[2024-04-03 04:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-03 04:21:37] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.11a1712103012] Old Version: [0.0.11a1712023704]
+[2024-04-03 04:21:38] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/eb/84/40feda2c48a49496d5df35689210bd6af79e1c99882ab241a7225cd55fc0/pulumi_kubernetes_the_hard_way-0.0.11a1712023704.tar.gz
+[2024-04-03 04:21:38] INFO root fetch - processPackages [finhack]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2024-04-03 04:21:38] INFO root fetch - processPackages [deltachat-rpc-server]: New version: [1.137.1] Old Version: [1.136.6]
+[2024-04-03 04:21:38] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-03 04:21:38] INFO root fetch - processPackages [finhack]: Downloading https://files.pythonhosted.org/packages/ed/73/588cb8aee9c792cb1399cd1246bb74b8933afa3d3fff9e1565fe8cfdd9cd/finhack-0.0.2.dev8.tar.gz
+[2024-04-03 04:21:38] INFO root fetch - processPackages [deltachat-rpc-server]: Downloading https://files.pythonhosted.org/packages/83/93/57af39f896db8ac5b7f0575b5515b29b55e00d53b85446c4a9a318b2927d/deltachat-rpc-server-1.136.6.tar.gz
+[2024-04-03 04:21:38] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/07/1e/02ac85a3a362552b3dca8221dc1483689c5d20c50323c8413ddd669ba211/pulumi_kubernetes_the_hard_way-0.0.11a1712103012.tar.gz
+[2024-04-03 04:21:38] WARNING root fetch - processPackages [deltachat-rpc-server]: Timeout reached during download
+[2024-04-03 04:21:38] WARNING root fetch - processPackages [finhack]: Timeout reached during download
+[2024-04-03 04:21:38] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-03 04:21:38] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-03 04:21:38] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712023704.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712103012.tar.gz --markdown 20240403/p/pulumi-kubernetes-the-hard-way/0.0.11a1712023704-0.0.11a1712103012/diff.md --exclude *.pyd
+[2024-04-03 04:21:38] INFO root fetch - processPackages [finhack]: Downloading https://files.pythonhosted.org/packages/c8/99/dbc8805fdaccec1761ff34f1364fd20bbe93b647d8d180bf7e58daa03a72/finhack-0.0.2.dev9.tar.gz
+[2024-04-03 04:21:38] INFO root fetch - processPackages [deltachat-rpc-server]: Downloading https://files.pythonhosted.org/packages/27/b5/d520c8a234e5eebfce218af64fd3b3bb1d2d70aad52982a499ace4c285ed/deltachat-rpc-server-1.137.1.tar.gz
+[2024-04-03 04:21:38] WARNING root fetch - processPackages [deltachat-rpc-server]: Timeout reached during download
+[2024-04-03 04:21:38] INFO root fetch - processPackages [deltachat-rpc-server]: executing diffoscope
+[2024-04-03 04:21:38] INFO root fetch - processPackages [deltachat-rpc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltachat-rpc-server-1.136.6.tar.gz tmp/deltachat-rpc-server-1.137.1.tar.gz --markdown 20240403/d/deltachat-rpc-server/1.136.6-1.137.1/diff.md --exclude *.pyd
+[2024-04-03 04:21:38] WARNING root fetch - processPackages [finhack]: Timeout reached during download
+[2024-04-03 04:21:38] INFO root fetch - processPackages [finhack]: executing diffoscope
+[2024-04-03 04:21:38] INFO root fetch - processPackages [finhack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finhack-0.0.2.dev8.tar.gz tmp/finhack-0.0.2.dev9.tar.gz --markdown 20240403/f/finhack/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2024-04-03 04:21:39] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712023704.tar.gz]
+[2024-04-03 04:21:39] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712103012.tar.gz]
+[2024-04-03 04:21:39] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-03 04:21:39] INFO root fetch - processPackages [deltachat-rpc-server]: Remove: archive file [/home/abi/fetcher/tmp/deltachat-rpc-server-1.136.6.tar.gz]
+[2024-04-03 04:21:39] INFO root fetch - processPackages [deltachat-rpc-server]: Remove: archive file [/home/abi/fetcher/tmp/deltachat-rpc-server-1.137.1.tar.gz]
+[2024-04-03 04:21:39] INFO root fetch - main [MainThread]: End processing [deltachat-rpc-server]: success
+[2024-04-03 04:21:39] INFO root fetch - processPackages [finhack]: Remove: archive file [/home/abi/fetcher/tmp/finhack-0.0.2.dev8.tar.gz]
+[2024-04-03 04:21:39] INFO root fetch - processPackages [finhack]: Remove: archive file [/home/abi/fetcher/tmp/finhack-0.0.2.dev9.tar.gz]
+[2024-04-03 04:21:39] INFO root fetch - main [MainThread]: End processing [finhack]: success
+[2024-04-03 04:21:39] INFO root fetch - main [MainThread]: Store serial: [22596458]

@@ -21076,3 +21076,19 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 07:46:39] INFO root fetch - processPackages [zhmc-prometheus-exporter]: Remove: archive file [/home/abi/fetcher/tmp/zhmc_prometheus_exporter-1.5.2.tar.gz]
 [2024-04-03 07:46:39] INFO root fetch - main [MainThread]: End processing [zhmc-prometheus-exporter]: success
 [2024-04-03 07:46:39] INFO root fetch - main [MainThread]: Store serial: [22598543]
+[2024-04-03 07:48:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598543]
+[2024-04-03 07:48:48] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-03 07:50:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598543]
+[2024-04-03 07:50:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-03 07:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xtuner
+[2024-04-03 07:50:53] INFO root fetch - processPackages [xtuner]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 07:50:53] INFO root fetch - processPackages [xtuner]: Downloading https://files.pythonhosted.org/packages/c6/10/2f97ae0d02c3082613c8da4a17b235558248f6d108c215225b27416c9ce0/xtuner-0.1.8.tar.gz
+[2024-04-03 07:50:53] WARNING root fetch - processPackages [xtuner]: Timeout reached during download
+[2024-04-03 07:50:54] INFO root fetch - processPackages [xtuner]: Downloading https://files.pythonhosted.org/packages/93/b5/551c4955f58e3e118a1bbb5ef107ff05d96e8c355a4502722257495e4ac1/xtuner-0.1.9.tar.gz
+[2024-04-03 07:50:54] WARNING root fetch - processPackages [xtuner]: Timeout reached during download
+[2024-04-03 07:50:54] INFO root fetch - processPackages [xtuner]: executing diffoscope
+[2024-04-03 07:50:54] INFO root fetch - processPackages [xtuner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtuner-0.1.8.tar.gz tmp/xtuner-0.1.9.tar.gz --markdown 20240403/x/xtuner/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 07:50:56] INFO root fetch - processPackages [xtuner]: Remove: archive file [/home/abi/fetcher/tmp/xtuner-0.1.8.tar.gz]
+[2024-04-03 07:50:56] INFO root fetch - processPackages [xtuner]: Remove: archive file [/home/abi/fetcher/tmp/xtuner-0.1.9.tar.gz]
+[2024-04-03 07:50:56] INFO root fetch - main [MainThread]: End processing [xtuner]: success
+[2024-04-03 07:50:56] INFO root fetch - main [MainThread]: Store serial: [22598550]

@@ -15719,3 +15719,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 05:22:15] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nightly-3.2.0.dev2024040203.tar.gz]
 [2024-04-03 05:22:15] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-04-03 05:22:15] INFO root fetch - main [MainThread]: Store serial: [22596981]
+[2024-04-03 05:24:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596981]
+[2024-04-03 05:24:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 05:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SimpleJsonConfigParser
+[2024-04-03 05:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genflowly-lambda-utils
+[2024-04-03 05:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rcquant-sdk
+[2024-04-03 05:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stego-lsb
+[2024-04-03 05:24:25] INFO root fetch - processPackages [genflowly-lambda-utils]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-03 05:24:25] WARNING root fetch - processPackages [SimpleJsonConfigParser]: Skipping, unable to determine old version
+[2024-04-03 05:24:25] INFO root fetch - main [MainThread]: End processing [SimpleJsonConfigParser] error
+[2024-04-03 05:24:25] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 05:24:25] INFO root fetch - processPackages [stego-lsb]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-03 05:24:25] INFO root fetch - processPackages [genflowly-lambda-utils]: Downloading https://files.pythonhosted.org/packages/65/df/c4c059ff8f0a7c1ddbbf5a8fde3342dc6cb125e944fb824811a8b5ab383d/genflowly-lambda-utils-0.0.1.tar.gz
+[2024-04-03 05:24:25] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-04-03 05:24:25] INFO root fetch - processPackages [stego-lsb]: Downloading https://files.pythonhosted.org/packages/c3/13/9ed61087206cc9d81819869bcc8c039e8dc9f7be16435c87202c0d821e6c/stego-lsb-1.6.0.tar.gz
+[2024-04-03 05:24:25] WARNING root fetch - processPackages [genflowly-lambda-utils]: Timeout reached during download
+[2024-04-03 05:24:25] WARNING root fetch - processPackages [rcquant-sdk]: Timeout reached during download
+[2024-04-03 05:24:25] WARNING root fetch - processPackages [stego-lsb]: Timeout reached during download
+[2024-04-03 05:24:25] INFO root fetch - processPackages [genflowly-lambda-utils]: Downloading https://files.pythonhosted.org/packages/c1/95/65f43ad87c453fb7d52352fab853a609ab41060d043881fd9b9e6cdc7861/genflowly-lambda-utils-0.0.2.tar.gz
+[2024-04-03 05:24:25] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-04-03 05:24:25] WARNING root fetch - processPackages [genflowly-lambda-utils]: Timeout reached during download
+[2024-04-03 05:24:25] INFO root fetch - processPackages [genflowly-lambda-utils]: executing diffoscope
+[2024-04-03 05:24:25] INFO root fetch - processPackages [genflowly-lambda-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genflowly-lambda-utils-0.0.1.tar.gz tmp/genflowly-lambda-utils-0.0.2.tar.gz --markdown 20240403/g/genflowly-lambda-utils/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-03 05:24:25] INFO root fetch - processPackages [stego-lsb]: Downloading https://files.pythonhosted.org/packages/1d/90/fcf6e339c2b7d713f020b9ce017ec3fad725b2d972b663291c2204eacb4d/stego-lsb-1.6.1.tar.gz
+[2024-04-03 05:24:25] WARNING root fetch - processPackages [rcquant-sdk]: Timeout reached during download
+[2024-04-03 05:24:25] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-04-03 05:24:25] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240403/r/rcquant-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 05:24:25] WARNING root fetch - processPackages [stego-lsb]: Timeout reached during download
+[2024-04-03 05:24:25] INFO root fetch - processPackages [stego-lsb]: executing diffoscope
+[2024-04-03 05:24:25] INFO root fetch - processPackages [stego-lsb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stego-lsb-1.6.0.tar.gz tmp/stego-lsb-1.6.1.tar.gz --markdown 20240403/s/stego-lsb/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2024-04-03 05:24:26] INFO root fetch - processPackages [genflowly-lambda-utils]: Remove: archive file [/home/abi/fetcher/tmp/genflowly-lambda-utils-0.0.1.tar.gz]
+[2024-04-03 05:24:26] INFO root fetch - processPackages [genflowly-lambda-utils]: Remove: archive file [/home/abi/fetcher/tmp/genflowly-lambda-utils-0.0.2.tar.gz]
+[2024-04-03 05:24:26] INFO root fetch - main [MainThread]: End processing [genflowly-lambda-utils]: success
+[2024-04-03 05:24:26] INFO root fetch - processPackages [stego-lsb]: Remove: archive file [/home/abi/fetcher/tmp/stego-lsb-1.6.0.tar.gz]
+[2024-04-03 05:24:26] INFO root fetch - processPackages [stego-lsb]: Remove: archive file [/home/abi/fetcher/tmp/stego-lsb-1.6.1.tar.gz]
+[2024-04-03 05:24:26] INFO root fetch - main [MainThread]: End processing [stego-lsb]: success
+[2024-04-03 05:24:26] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-04-03 05:24:26] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-04-03 05:24:26] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-04-03 05:24:26] INFO root fetch - main [MainThread]: Store serial: [22596996]

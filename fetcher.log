@@ -16673,3 +16673,83 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:07:15] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.999.tar.gz]
 [2024-04-03 06:07:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
 [2024-04-03 06:07:15] INFO root fetch - main [MainThread]: Store serial: [22597292]
+[2024-04-03 06:09:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597292]
+[2024-04-03 06:09:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 06:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-aai
+[2024-04-03 06:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-acp
+[2024-04-03 06:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: full-calendar-component
+[2024-04-03 06:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-advisor
+[2024-04-03 06:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-af
+[2024-04-03 06:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-afc
+[2024-04-03 06:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-aiart
+[2024-04-03 06:09:24] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:09:24] INFO root fetch - processPackages [full-calendar-component]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-03 06:09:24] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:09:24] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:09:24] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:09:24] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:09:24] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:09:24] INFO root fetch - processPackages [full-calendar-component]: Downloading https://files.pythonhosted.org/packages/10/b3/2404195cec77a7119a2f0e4b24ba8c1b702f5d1eb5bcb97407bed40a891b/full_calendar_component-0.0.2.tar.gz
+[2024-04-03 06:09:24] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Downloading https://files.pythonhosted.org/packages/32/cd/310dfc1b231f91094eb0b66ffda3518b9dbf6487688b2fc420db4ddd4fc0/tencentcloud-sdk-python-af-3.0.998.tar.gz
+[2024-04-03 06:09:24] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Downloading https://files.pythonhosted.org/packages/d9/da/d6c3e80c69119d355325a9658fcf1603a84db706d3ea862cee488eecd718/tencentcloud-sdk-python-acp-3.0.998.tar.gz
+[2024-04-03 06:09:24] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Downloading https://files.pythonhosted.org/packages/99/fd/89c30befef9f12ad92625fd8181dc608e8da914c10981b6de726e95411d1/tencentcloud-sdk-python-advisor-3.0.998.tar.gz
+[2024-04-03 06:09:24] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Downloading https://files.pythonhosted.org/packages/64/9b/cafb1e8bbf3f513628efd435d89fdcf1fe80a0bd888b32c50acffdd5b277/tencentcloud-sdk-python-aai-3.0.998.tar.gz
+[2024-04-03 06:09:24] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: Downloading https://files.pythonhosted.org/packages/1b/3d/892a4b732429616efd25890577528a4c8f6facb60a0b958e414356c826f1/tencentcloud-sdk-python-afc-3.0.998.tar.gz
+[2024-04-03 06:09:24] WARNING root fetch - processPackages [tencentcloud-sdk-python-acp]: Timeout reached during download
+[2024-04-03 06:09:24] WARNING root fetch - processPackages [tencentcloud-sdk-python-aai]: Timeout reached during download
+[2024-04-03 06:09:24] WARNING root fetch - processPackages [tencentcloud-sdk-python-advisor]: Timeout reached during download
+[2024-04-03 06:09:24] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: Downloading https://files.pythonhosted.org/packages/6f/f3/1c1ff6933fbe6e5f6f5d9f21462ef2d10d1b5798d76c1a460157b513de2a/tencentcloud-sdk-python-aiart-3.0.998.tar.gz
+[2024-04-03 06:09:24] WARNING root fetch - processPackages [full-calendar-component]: Timeout reached during download
+[2024-04-03 06:09:24] WARNING root fetch - processPackages [tencentcloud-sdk-python-af]: Timeout reached during download
+[2024-04-03 06:09:24] WARNING root fetch - processPackages [tencentcloud-sdk-python-afc]: Timeout reached during download
+[2024-04-03 06:09:24] WARNING root fetch - processPackages [tencentcloud-sdk-python-aiart]: Timeout reached during download
+[2024-04-03 06:09:24] INFO root fetch - processPackages [full-calendar-component]: Downloading https://files.pythonhosted.org/packages/2c/1a/4554d6410ab42a396be014aedee771e702ded2880c2f4c789ca0c31c40f2/full_calendar_component-0.0.3.tar.gz
+[2024-04-03 06:09:24] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Downloading https://files.pythonhosted.org/packages/bf/47/f0af650651378b58199eb8911b24039f4e9ab6aac0574141aeb1f7de1b73/tencentcloud-sdk-python-acp-3.0.999.tar.gz
+[2024-04-03 06:09:24] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Downloading https://files.pythonhosted.org/packages/c3/af/0edc99ca0ec65ae386d0bbdffe9147c9d3d488acec8ed620c99082453f8f/tencentcloud-sdk-python-aai-3.0.999.tar.gz
+[2024-04-03 06:09:24] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Downloading https://files.pythonhosted.org/packages/71/fa/79e79aea4e2b7227439b7553c3d43a4ba081ba3c2c74ca7a6f0557769c00/tencentcloud-sdk-python-advisor-3.0.999.tar.gz
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Downloading https://files.pythonhosted.org/packages/60/87/c3400c845a32edea1a82597849385ca49c7a5b2913971888ed1f05e8e32f/tencentcloud-sdk-python-af-3.0.999.tar.gz
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: Downloading https://files.pythonhosted.org/packages/8d/3c/1c15761ec6f3ecaa67c88459d131c53be2ccf755263244bd16397c1ae3e8/tencentcloud-sdk-python-afc-3.0.999.tar.gz
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: Downloading https://files.pythonhosted.org/packages/e2/96/4956127b5f951ebbc42171d45c0a075fe8e3ed8147f616796fa637e626f3/tencentcloud-sdk-python-aiart-3.0.999.tar.gz
+[2024-04-03 06:09:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-aai]: Timeout reached during download
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: executing diffoscope
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-aai-3.0.998.tar.gz tmp/tencentcloud-sdk-python-aai-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-aai/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:09:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-acp]: Timeout reached during download
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: executing diffoscope
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-acp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-acp-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-acp/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:09:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-advisor]: Timeout reached during download
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: executing diffoscope
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-advisor-3.0.998.tar.gz tmp/tencentcloud-sdk-python-advisor-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-advisor/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:09:25] WARNING root fetch - processPackages [full-calendar-component]: Timeout reached during download
+[2024-04-03 06:09:25] INFO root fetch - processPackages [full-calendar-component]: executing diffoscope
+[2024-04-03 06:09:25] INFO root fetch - processPackages [full-calendar-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/full_calendar_component-0.0.2.tar.gz tmp/full_calendar_component-0.0.3.tar.gz --markdown 20240403/f/full-calendar-component/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-03 06:09:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-af]: Timeout reached during download
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: executing diffoscope
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-af-3.0.998.tar.gz tmp/tencentcloud-sdk-python-af-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-af/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:09:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-afc]: Timeout reached during download
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: executing diffoscope
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-afc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-afc-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-afc/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:09:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-aiart]: Timeout reached during download
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: executing diffoscope
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-aiart-3.0.998.tar.gz tmp/tencentcloud-sdk-python-aiart-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-aiart/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-acp-3.0.998.tar.gz]
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-acp-3.0.999.tar.gz]
+[2024-04-03 06:09:25] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-acp]: success
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aai-3.0.998.tar.gz]
+[2024-04-03 06:09:25] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aai-3.0.999.tar.gz]
+[2024-04-03 06:09:25] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-aai]: success
+[2024-04-03 06:09:26] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-af-3.0.998.tar.gz]
+[2024-04-03 06:09:26] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-af-3.0.999.tar.gz]
+[2024-04-03 06:09:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-af]: success
+[2024-04-03 06:09:26] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-afc-3.0.998.tar.gz]
+[2024-04-03 06:09:26] INFO root fetch - processPackages [tencentcloud-sdk-python-afc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-afc-3.0.999.tar.gz]
+[2024-04-03 06:09:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-afc]: success
+[2024-04-03 06:09:26] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aiart-3.0.998.tar.gz]
+[2024-04-03 06:09:26] INFO root fetch - processPackages [tencentcloud-sdk-python-aiart]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aiart-3.0.999.tar.gz]
+[2024-04-03 06:09:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-aiart]: success
+[2024-04-03 06:09:26] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-advisor-3.0.998.tar.gz]
+[2024-04-03 06:09:26] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-advisor-3.0.999.tar.gz]
+[2024-04-03 06:09:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-advisor]: success
+[2024-04-03 06:09:42] INFO root fetch - processPackages [full-calendar-component]: Remove: archive file [/home/abi/fetcher/tmp/full_calendar_component-0.0.2.tar.gz]
+[2024-04-03 06:09:42] INFO root fetch - processPackages [full-calendar-component]: Remove: archive file [/home/abi/fetcher/tmp/full_calendar_component-0.0.3.tar.gz]
+[2024-04-03 06:09:42] INFO root fetch - main [MainThread]: End processing [full-calendar-component]: success
+[2024-04-03 06:09:42] INFO root fetch - main [MainThread]: Store serial: [22597313]

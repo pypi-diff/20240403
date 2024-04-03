@@ -17687,3 +17687,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:42:52] INFO root fetch - processPackages [pe]: Remove: archive file [/home/abi/fetcher/tmp/pe-0.5.2.tar.gz]
 [2024-04-03 06:42:52] INFO root fetch - main [MainThread]: End processing [pe]: success
 [2024-04-03 06:42:52] INFO root fetch - main [MainThread]: Store serial: [22597633]
+[2024-04-03 06:44:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597633]
+[2024-04-03 06:45:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 06:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hspf-utils
+[2024-04-03 06:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-common
+[2024-04-03 06:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-config
+[2024-04-03 06:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-cpdp
+[2024-04-03 06:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-cr
+[2024-04-03 06:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ethereum-etl
+[2024-04-03 06:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-csxg
+[2024-04-03 06:45:01] INFO root fetch - processPackages [ethereum-etl]: New version: [2.4.1] Old Version: [2.3.1]
+[2024-04-03 06:45:01] INFO root fetch - processPackages [hspf-utils]: New version: [6.0.8] Old Version: [6.0.7]
+[2024-04-03 06:45:01] INFO root fetch - processPackages [tencentcloud-sdk-python-config]: New version: [3.0.1122] Old Version: [3.0.1121]
+[2024-04-03 06:45:01] INFO root fetch - processPackages [tencentcloud-sdk-python-cr]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:45:01] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:45:01] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:45:01] INFO root fetch - processPackages [ethereum-etl]: Downloading https://files.pythonhosted.org/packages/c3/48/4b07a76c82ac30d9747c0e14a81fc2da824fe5f7ca518d1960a1ffb9c49a/ethereum-etl-2.3.1.tar.gz
+[2024-04-03 06:45:01] INFO root fetch - processPackages [tencentcloud-sdk-python-csxg]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:45:01] INFO root fetch - processPackages [hspf-utils]: Downloading https://files.pythonhosted.org/packages/0b/4a/d47b21740a2447aebab65adfc7518421a7ed9239cdedce668dc3672a1053/hspf_utils-6.0.7.tar.gz
+[2024-04-03 06:45:01] INFO root fetch - processPackages [tencentcloud-sdk-python-config]: Downloading https://files.pythonhosted.org/packages/85/65/0f1ee73b4def3a8b68b6b735daa25fc79c9e5e4b8d4f7966f045d250545a/tencentcloud-sdk-python-config-3.0.1121.tar.gz
+[2024-04-03 06:45:01] INFO root fetch - processPackages [tencentcloud-sdk-python-cr]: Downloading https://files.pythonhosted.org/packages/87/55/01b1f5a31f90d49d68ab76af5ac399f81fb08144cdc65934536143aec1e4/tencentcloud-sdk-python-cr-3.0.998.tar.gz
+[2024-04-03 06:45:01] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: Downloading https://files.pythonhosted.org/packages/e5/0e/13dca54618e22539fd82eed1ff19adc5c2ce4011dcb4362ac3e8975cbe49/tencentcloud-sdk-python-cpdp-3.0.998.tar.gz
+[2024-04-03 06:45:01] WARNING root fetch - processPackages [hspf-utils]: Skipping package: exceeds size limit 17002650>=10485760
+[2024-04-03 06:45:01] INFO root fetch - main [MainThread]: End processing [hspf-utils] error
+[2024-04-03 06:45:01] WARNING root fetch - processPackages [ethereum-etl]: Timeout reached during download
+[2024-04-03 06:45:01] WARNING root fetch - processPackages [tencentcloud-sdk-python-cr]: Timeout reached during download
+[2024-04-03 06:45:01] WARNING root fetch - processPackages [tencentcloud-sdk-python-config]: Timeout reached during download
+[2024-04-03 06:45:01] WARNING root fetch - processPackages [tencentcloud-sdk-python-cpdp]: Timeout reached during download
+[2024-04-03 06:45:01] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: Downloading https://files.pythonhosted.org/packages/e1/1c/59773b8e6448f536fc8c76fdb8a269fbbbb302f7f44071c7aa2e1bd60946/tencentcloud-sdk-python-common-3.0.998.tar.gz
+[2024-04-03 06:45:01] INFO root fetch - processPackages [tencentcloud-sdk-python-csxg]: Downloading https://files.pythonhosted.org/packages/b2/d0/52109f639b6b7438df900753d4a8bad670b3149c58f5a8a5ea79d8915576/tencentcloud-sdk-python-csxg-3.0.998.tar.gz
+[2024-04-03 06:45:01] WARNING root fetch - processPackages [tencentcloud-sdk-python-common]: Timeout reached during download
+[2024-04-03 06:45:01] INFO root fetch - processPackages [ethereum-etl]: Downloading https://files.pythonhosted.org/packages/86/93/826044d249dfdba08af743fc17110927a6e7f7979624544d3b5088860fbf/ethereum-etl-2.4.1.tar.gz
+[2024-04-03 06:45:01] WARNING root fetch - processPackages [tencentcloud-sdk-python-csxg]: Timeout reached during download
+[2024-04-03 06:45:01] INFO root fetch - processPackages [tencentcloud-sdk-python-config]: Downloading https://files.pythonhosted.org/packages/b0/16/aad68adb9d762596980b68b281b24ed68f2c35a92c60efdbf7e12970d933/tencentcloud-sdk-python-config-3.0.1122.tar.gz
+[2024-04-03 06:45:01] INFO root fetch - processPackages [tencentcloud-sdk-python-cr]: Downloading https://files.pythonhosted.org/packages/ba/19/0cb6c0c987b173b5884cd63c517cf80733cef7e6de71f708b9e44097b127/tencentcloud-sdk-python-cr-3.0.999.tar.gz
+[2024-04-03 06:45:01] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: Downloading https://files.pythonhosted.org/packages/d4/b0/6da7e8026ebf857c7e2ff488c0129ad05fb903864c4b924dad115771b8fe/tencentcloud-sdk-python-cpdp-3.0.999.tar.gz
+[2024-04-03 06:45:02] WARNING root fetch - processPackages [tencentcloud-sdk-python-config]: Timeout reached during download
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-config]: executing diffoscope
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-config-3.0.1121.tar.gz tmp/tencentcloud-sdk-python-config-3.0.1122.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-config/3.0.1121-3.0.1122/diff.md --exclude *.pyd
+[2024-04-03 06:45:02] WARNING root fetch - processPackages [ethereum-etl]: Timeout reached during download
+[2024-04-03 06:45:02] INFO root fetch - processPackages [ethereum-etl]: executing diffoscope
+[2024-04-03 06:45:02] INFO root fetch - processPackages [ethereum-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethereum-etl-2.3.1.tar.gz tmp/ethereum-etl-2.4.1.tar.gz --markdown 20240403/e/ethereum-etl/2.3.1-2.4.1/diff.md --exclude *.pyd
+[2024-04-03 06:45:02] WARNING root fetch - processPackages [tencentcloud-sdk-python-cr]: Timeout reached during download
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-cr]: executing diffoscope
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-cr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cr-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cr-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-cr/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: Downloading https://files.pythonhosted.org/packages/ff/e2/06dd8939f4e7173972aad2e7aa36cb8ed49d2f81b69a1869659fbbd09cc8/tencentcloud-sdk-python-common-3.0.999.tar.gz
+[2024-04-03 06:45:02] WARNING root fetch - processPackages [tencentcloud-sdk-python-cpdp]: Timeout reached during download
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: executing diffoscope
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cpdp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cpdp-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-cpdp/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-csxg]: Downloading https://files.pythonhosted.org/packages/81/f9/b7a3f80a676540656122caf00dec37a751a5275eb1c79d3f8342ce8e4782/tencentcloud-sdk-python-csxg-3.0.999.tar.gz
+[2024-04-03 06:45:02] WARNING root fetch - processPackages [tencentcloud-sdk-python-common]: Timeout reached during download
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: executing diffoscope
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-common-3.0.998.tar.gz tmp/tencentcloud-sdk-python-common-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-common/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:45:02] WARNING root fetch - processPackages [tencentcloud-sdk-python-csxg]: Timeout reached during download
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-csxg]: executing diffoscope
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-csxg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-csxg-3.0.998.tar.gz tmp/tencentcloud-sdk-python-csxg-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-csxg/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-config]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-config-3.0.1121.tar.gz]
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-config]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-config-3.0.1122.tar.gz]
+[2024-04-03 06:45:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-config]: success
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-common-3.0.998.tar.gz]
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-common]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-common-3.0.999.tar.gz]
+[2024-04-03 06:45:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-common]: success
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cpdp-3.0.998.tar.gz]
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-cpdp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cpdp-3.0.999.tar.gz]
+[2024-04-03 06:45:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cpdp]: success
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-cr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cr-3.0.998.tar.gz]
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-cr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cr-3.0.999.tar.gz]
+[2024-04-03 06:45:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cr]: success
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-csxg]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-csxg-3.0.998.tar.gz]
+[2024-04-03 06:45:02] INFO root fetch - processPackages [tencentcloud-sdk-python-csxg]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-csxg-3.0.999.tar.gz]
+[2024-04-03 06:45:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-csxg]: success
+[2024-04-03 06:45:03] INFO root fetch - processPackages [ethereum-etl]: Remove: archive file [/home/abi/fetcher/tmp/ethereum-etl-2.3.1.tar.gz]
+[2024-04-03 06:45:03] INFO root fetch - processPackages [ethereum-etl]: Remove: archive file [/home/abi/fetcher/tmp/ethereum-etl-2.4.1.tar.gz]
+[2024-04-03 06:45:03] INFO root fetch - main [MainThread]: End processing [ethereum-etl]: success
+[2024-04-03 06:45:03] INFO root fetch - main [MainThread]: Store serial: [22597653]

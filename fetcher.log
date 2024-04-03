@@ -13410,3 +13410,42 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 03:42:27] INFO root fetch - processPackages [yarn-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/yarn_dev_tools-2.0.1.tar.gz]
 [2024-04-03 03:42:27] INFO root fetch - main [MainThread]: End processing [yarn-dev-tools]: success
 [2024-04-03 03:42:27] INFO root fetch - main [MainThread]: Store serial: [22596257]
+[2024-04-03 03:44:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596257]
+[2024-04-03 03:44:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 03:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: git-stats-report
+[2024-04-03 03:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leeset
+[2024-04-03 03:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-bridge
+[2024-04-03 03:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qteasy
+[2024-04-03 03:44:36] INFO root fetch - processPackages [python-bridge]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-03 03:44:36] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/8c/59/94690f41940c302973bfed60557558a71aa64e482969939339225cddae3e/python-bridge-0.0.2.tar.gz
+[2024-04-03 03:44:36] INFO root fetch - processPackages [git-stats-report]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-03 03:44:36] WARNING root fetch - processPackages [leeset]: Skipping, unable to determine old version
+[2024-04-03 03:44:36] INFO root fetch - main [MainThread]: End processing [leeset] error
+[2024-04-03 03:44:36] INFO root fetch - processPackages [qteasy]: New version: [1.1.7] Old Version: [1.1.4]
+[2024-04-03 03:44:36] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-03 03:44:36] INFO root fetch - processPackages [git-stats-report]: Downloading https://files.pythonhosted.org/packages/16/20/85fe36a21eadc60bb0fc2cf3017c6864022b928624b11943c0ea60dac5bf/git-stats-report-0.1.2.tar.gz
+[2024-04-03 03:44:36] INFO root fetch - processPackages [qteasy]: Downloading https://files.pythonhosted.org/packages/12/eb/cee1e6c8147d86c3c8c2d273ab06d8d75192640ff290f63a167908fe81b4/qteasy-1.1.4.tar.gz
+[2024-04-03 03:44:36] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/a2/d1/f45befb254c83b558aa731ae4a69ad424969d0748bd1aff0b0c9c9017700/python-bridge-0.0.3.tar.gz
+[2024-04-03 03:44:36] WARNING root fetch - processPackages [git-stats-report]: Timeout reached during download
+[2024-04-03 03:44:36] WARNING root fetch - processPackages [python-bridge]: Timeout reached during download
+[2024-04-03 03:44:36] INFO root fetch - processPackages [python-bridge]: executing diffoscope
+[2024-04-03 03:44:36] INFO root fetch - processPackages [python-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bridge-0.0.2.tar.gz tmp/python-bridge-0.0.3.tar.gz --markdown 20240403/p/python-bridge/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-03 03:44:36] WARNING root fetch - processPackages [qteasy]: Timeout reached during download
+[2024-04-03 03:44:36] INFO root fetch - processPackages [git-stats-report]: Downloading https://files.pythonhosted.org/packages/48/4b/6c1356f44a0d389303b6e33a3c790e2c135e51c0f41fd96f22ed2679a9d2/git-stats-report-0.1.3.tar.gz
+[2024-04-03 03:44:36] WARNING root fetch - processPackages [git-stats-report]: Timeout reached during download
+[2024-04-03 03:44:36] INFO root fetch - processPackages [git-stats-report]: executing diffoscope
+[2024-04-03 03:44:36] INFO root fetch - processPackages [git-stats-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-stats-report-0.1.2.tar.gz tmp/git-stats-report-0.1.3.tar.gz --markdown 20240403/g/git-stats-report/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-03 03:44:37] INFO root fetch - processPackages [qteasy]: Downloading https://files.pythonhosted.org/packages/cb/2e/cbf3178080bdbdad0c7b3cd03bb0d2be44b4adf6876dbff9b6fe1102b2db/qteasy-1.1.7.tar.gz
+[2024-04-03 03:44:37] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.2.tar.gz]
+[2024-04-03 03:44:37] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.3.tar.gz]
+[2024-04-03 03:44:37] INFO root fetch - main [MainThread]: End processing [python-bridge]: success
+[2024-04-03 03:44:37] INFO root fetch - processPackages [git-stats-report]: Remove: archive file [/home/abi/fetcher/tmp/git-stats-report-0.1.2.tar.gz]
+[2024-04-03 03:44:37] INFO root fetch - processPackages [git-stats-report]: Remove: archive file [/home/abi/fetcher/tmp/git-stats-report-0.1.3.tar.gz]
+[2024-04-03 03:44:37] INFO root fetch - main [MainThread]: End processing [git-stats-report]: success
+[2024-04-03 03:44:38] WARNING root fetch - processPackages [qteasy]: Timeout reached during download
+[2024-04-03 03:44:38] INFO root fetch - processPackages [qteasy]: executing diffoscope
+[2024-04-03 03:44:38] INFO root fetch - processPackages [qteasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qteasy-1.1.4.tar.gz tmp/qteasy-1.1.7.tar.gz --markdown 20240403/q/qteasy/1.1.4-1.1.7/diff.md --exclude *.pyd
+[2024-04-03 03:44:39] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.1.4.tar.gz]
+[2024-04-03 03:44:39] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.1.7.tar.gz]
+[2024-04-03 03:44:39] INFO root fetch - main [MainThread]: End processing [qteasy]: success
+[2024-04-03 03:44:39] INFO root fetch - main [MainThread]: Store serial: [22596268]

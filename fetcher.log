@@ -16777,3 +16777,108 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:11:54] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
 [2024-04-03 06:11:54] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
 [2024-04-03 06:11:54] INFO root fetch - main [MainThread]: Store serial: [22597329]
+[2024-04-03 06:13:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597329]
+[2024-04-03 06:14:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-03 06:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taskara
+[2024-04-03 06:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyscreeps-arena
+[2024-04-03 06:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-ame
+[2024-04-03 06:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-ams
+[2024-04-03 06:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dir2prompt
+[2024-04-03 06:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-anicloud
+[2024-04-03 06:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-antiddos
+[2024-04-03 06:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-apcas
+[2024-04-03 06:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-ape
+[2024-04-03 06:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-api
+[2024-04-03 06:14:02] INFO root fetch - processPackages [taskara]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-03 06:14:02] INFO root fetch - processPackages [dir2prompt]: New version: [2024.4.2] Old Version: [1.0.2]
+[2024-04-03 06:14:02] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/a4/c9/28b92ca124ba1dd982c1efe88b68454318d83783e2d80fdf873d3ea9c2a8/taskara-0.1.3.tar.gz
+[2024-04-03 06:14:02] WARNING root fetch - processPackages [pyscreeps-arena]: Skipping, unable to determine old version
+[2024-04-03 06:14:02] INFO root fetch - main [MainThread]: End processing [pyscreeps-arena] error
+[2024-04-03 06:14:02] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:14:02] INFO root fetch - processPackages [tencentcloud-sdk-python-anicloud]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:14:02] INFO root fetch - processPackages [tencentcloud-sdk-python-ape]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:14:02] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:14:02] INFO root fetch - processPackages [tencentcloud-sdk-python-apcas]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:14:02] INFO root fetch - processPackages [tencentcloud-sdk-python-api]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:14:02] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:14:02] INFO root fetch - processPackages [dir2prompt]: Downloading https://files.pythonhosted.org/packages/cb/22/b1cf2da1ca02c87ef862c97ba659bf7bfbe595b1533dadbc0ef559620cf1/dir2prompt-1.0.2.tar.gz
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [taskara]: Timeout reached during download
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: Downloading https://files.pythonhosted.org/packages/bf/16/558220ca5e828c75e2356a538633628fb60f5da0bf4f48af92c9fb8f1b35/tencentcloud-sdk-python-ams-3.0.998.tar.gz
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [dir2prompt]: Timeout reached during download
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-anicloud]: Downloading https://files.pythonhosted.org/packages/35/58/20e668cf12382f3f9215f3dd202162da7d160a7395b6ba08d5ff13579bf0/tencentcloud-sdk-python-anicloud-3.0.998.tar.gz
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ape]: Downloading https://files.pythonhosted.org/packages/f3/f2/ad6195e2794ae33206f0c2a617629ba7543e7988772c2eedeff3234db00e/tencentcloud-sdk-python-ape-3.0.998.tar.gz
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-apcas]: Downloading https://files.pythonhosted.org/packages/70/25/72f29f848651bad61b10811ae8b3f89251817f93481fa59d1919f41e456b/tencentcloud-sdk-python-apcas-3.0.998.tar.gz
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Downloading https://files.pythonhosted.org/packages/bd/8f/492a4e3bec01e9d7b462e51f1d373044c502f31a2d6a8783d62e87af6017/tencentcloud-sdk-python-antiddos-3.0.998.tar.gz
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-api]: Downloading https://files.pythonhosted.org/packages/4f/e3/4849ee40d8beed88776cc1aebc33ffaa730a28e5dcc6012aaec603d234a5/tencentcloud-sdk-python-api-3.0.998.tar.gz
+[2024-04-03 06:14:03] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/e0/29/0f547a2a2f54e9b34c734b24c5e9fd94de5279e7fef8115cfd2c8bac7d55/taskara-0.1.4.tar.gz
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: Downloading https://files.pythonhosted.org/packages/13/a7/cd4744c8322ce953518d00c96a9266d48d63a1126add51148a4d0d4c8e04/tencentcloud-sdk-python-ame-3.0.998.tar.gz
+[2024-04-03 06:14:03] INFO root fetch - processPackages [dir2prompt]: Downloading https://files.pythonhosted.org/packages/1e/77/417986884676eb6e209194803020c1b9d317a71e8ade13b88b7ce4e8d3c2/dir2prompt-2024.4.2.tar.gz
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-ams]: Timeout reached during download
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-ape]: Timeout reached during download
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [taskara]: Timeout reached during download
+[2024-04-03 06:14:03] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-04-03 06:14:03] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.3.tar.gz tmp/taskara-0.1.4.tar.gz --markdown 20240403/t/taskara/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Timeout reached during download
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-api]: Timeout reached during download
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [dir2prompt]: Timeout reached during download
+[2024-04-03 06:14:03] INFO root fetch - processPackages [dir2prompt]: executing diffoscope
+[2024-04-03 06:14:03] INFO root fetch - processPackages [dir2prompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dir2prompt-1.0.2.tar.gz tmp/dir2prompt-2024.4.2.tar.gz --markdown 20240403/d/dir2prompt/1.0.2-2024.4.2/diff.md --exclude *.pyd
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-anicloud]: Timeout reached during download
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-ame]: Timeout reached during download
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-apcas]: Timeout reached during download
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: Downloading https://files.pythonhosted.org/packages/ea/06/91a225cbf84182dc3d5f6efbbfef0dc92dd65197f8cb818a1b390700ca7c/tencentcloud-sdk-python-ams-3.0.999.tar.gz
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ape]: Downloading https://files.pythonhosted.org/packages/d8/9f/071a601befa960e1ee23cee15b34ddd917f56b26dc6c92392899acc48428/tencentcloud-sdk-python-ape-3.0.999.tar.gz
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Downloading https://files.pythonhosted.org/packages/9d/e4/a777e9f4db7ac45b5926bef649a5223599a471f158305584ece9ed520325/tencentcloud-sdk-python-antiddos-3.0.999.tar.gz
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-api]: Downloading https://files.pythonhosted.org/packages/61/15/a4ea13ac582a1dc027cb21084719578e6488a5e465fcfac22dbef0583460/tencentcloud-sdk-python-api-3.0.999.tar.gz
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: Downloading https://files.pythonhosted.org/packages/b9/49/4b1e853c13ae996691188ababc25350864b53a71d496ab249a841ee6651b/tencentcloud-sdk-python-ame-3.0.999.tar.gz
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-apcas]: Downloading https://files.pythonhosted.org/packages/6b/3d/4f6e1b4a5e63718ccebeaedfb9c6b81e8defb6bdd0814fd37f1c462045b1/tencentcloud-sdk-python-apcas-3.0.999.tar.gz
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-anicloud]: Downloading https://files.pythonhosted.org/packages/a3/37/408b30d5cceb744af41ed1cab3e1deb061683e79b2a799ec7cc3a6f3edb9/tencentcloud-sdk-python-anicloud-3.0.999.tar.gz
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-ape]: Timeout reached during download
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ape]: executing diffoscope
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ape-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ape-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-ape/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-ams]: Timeout reached during download
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: executing diffoscope
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ams-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ams-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-ams/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-api]: Timeout reached during download
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-api]: executing diffoscope
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-api-3.0.998.tar.gz tmp/tencentcloud-sdk-python-api-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-api/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Timeout reached during download
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: executing diffoscope
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-antiddos-3.0.998.tar.gz tmp/tencentcloud-sdk-python-antiddos-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-antiddos/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-apcas]: Timeout reached during download
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-apcas]: executing diffoscope
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-apcas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-apcas-3.0.998.tar.gz tmp/tencentcloud-sdk-python-apcas-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-apcas/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-anicloud]: Timeout reached during download
+[2024-04-03 06:14:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-ame]: Timeout reached during download
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-anicloud]: executing diffoscope
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-anicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-anicloud-3.0.998.tar.gz tmp/tencentcloud-sdk-python-anicloud-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-anicloud/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: executing diffoscope
+[2024-04-03 06:14:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ame-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ame-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-ame/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:14:04] INFO root fetch - processPackages [dir2prompt]: Remove: archive file [/home/abi/fetcher/tmp/dir2prompt-1.0.2.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - processPackages [dir2prompt]: Remove: archive file [/home/abi/fetcher/tmp/dir2prompt-2024.4.2.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - main [MainThread]: End processing [dir2prompt]: success
+[2024-04-03 06:14:04] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.3.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.4.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-04-03 06:14:04] INFO root fetch - processPackages [tencentcloud-sdk-python-ape]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ape-3.0.998.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - processPackages [tencentcloud-sdk-python-ape]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ape-3.0.999.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ape]: success
+[2024-04-03 06:14:04] INFO root fetch - processPackages [tencentcloud-sdk-python-api]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-api-3.0.998.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - processPackages [tencentcloud-sdk-python-api]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-api-3.0.999.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-api]: success
+[2024-04-03 06:14:04] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ams-3.0.998.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - processPackages [tencentcloud-sdk-python-ams]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ams-3.0.999.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ams]: success
+[2024-04-03 06:14:04] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-antiddos-3.0.998.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - processPackages [tencentcloud-sdk-python-antiddos]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-antiddos-3.0.999.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-antiddos]: success
+[2024-04-03 06:14:04] INFO root fetch - processPackages [tencentcloud-sdk-python-apcas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-apcas-3.0.998.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - processPackages [tencentcloud-sdk-python-apcas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-apcas-3.0.999.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-apcas]: success
+[2024-04-03 06:14:04] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ame-3.0.998.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - processPackages [tencentcloud-sdk-python-ame]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ame-3.0.999.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ame]: success
+[2024-04-03 06:14:04] INFO root fetch - processPackages [tencentcloud-sdk-python-anicloud]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-anicloud-3.0.998.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - processPackages [tencentcloud-sdk-python-anicloud]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-anicloud-3.0.999.tar.gz]
+[2024-04-03 06:14:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-anicloud]: success
+[2024-04-03 06:14:04] INFO root fetch - main [MainThread]: Store serial: [22597362]

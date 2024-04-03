@@ -15165,3 +15165,28 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 04:59:54] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.2.0.tar.gz]
 [2024-04-03 04:59:54] INFO root fetch - main [MainThread]: End processing [tulona]: success
 [2024-04-03 04:59:54] INFO root fetch - main [MainThread]: Store serial: [22596823]
+[2024-04-03 05:01:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596823]
+[2024-04-03 05:02:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 05:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: item-matching
+[2024-04-03 05:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ithaca-py
+[2024-04-03 05:02:02] INFO root fetch - processPackages [ithaca-py]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-04-03 05:02:02] INFO root fetch - processPackages [item-matching]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 05:02:03] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/c1/eb/6af9341e91340108c6bd813fdbaf99df20b024ef720ba95fd98f5f9b1e67/item_matching-0.0.8.tar.gz
+[2024-04-03 05:02:03] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/9d/e4/c4db7c794801ccab4fa4d95a431e9a03e34fdf6a02cf866335383251fea9/ithaca_py-0.1.2.tar.gz
+[2024-04-03 05:02:03] WARNING root fetch - processPackages [item-matching]: Timeout reached during download
+[2024-04-03 05:02:03] WARNING root fetch - processPackages [ithaca-py]: Timeout reached during download
+[2024-04-03 05:02:03] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/74/89/b5b503dcc78d6c2e1d89cf8292830027b6fd3318479251a5f8cb6f964fe7/ithaca_py-0.1.4.tar.gz
+[2024-04-03 05:02:03] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/d6/27/06995957de9e3e2dc832d765e63268da03fc82c05f5e99df1fad645a8853/item_matching-0.0.9.tar.gz
+[2024-04-03 05:02:03] WARNING root fetch - processPackages [item-matching]: Timeout reached during download
+[2024-04-03 05:02:03] INFO root fetch - processPackages [item-matching]: executing diffoscope
+[2024-04-03 05:02:03] INFO root fetch - processPackages [item-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/item_matching-0.0.8.tar.gz tmp/item_matching-0.0.9.tar.gz --markdown 20240403/i/item-matching/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 05:02:03] WARNING root fetch - processPackages [ithaca-py]: Timeout reached during download
+[2024-04-03 05:02:03] INFO root fetch - processPackages [ithaca-py]: executing diffoscope
+[2024-04-03 05:02:03] INFO root fetch - processPackages [ithaca-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ithaca_py-0.1.2.tar.gz tmp/ithaca_py-0.1.4.tar.gz --markdown 20240403/i/ithaca-py/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2024-04-03 05:02:04] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.8.tar.gz]
+[2024-04-03 05:02:04] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.9.tar.gz]
+[2024-04-03 05:02:04] INFO root fetch - main [MainThread]: End processing [item-matching]: success
+[2024-04-03 05:02:04] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.1.2.tar.gz]
+[2024-04-03 05:02:04] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.1.4.tar.gz]
+[2024-04-03 05:02:04] INFO root fetch - main [MainThread]: End processing [ithaca-py]: success
+[2024-04-03 05:02:04] INFO root fetch - main [MainThread]: Store serial: [22596829]

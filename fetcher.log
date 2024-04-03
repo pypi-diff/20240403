@@ -21092,3 +21092,50 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 07:50:56] INFO root fetch - processPackages [xtuner]: Remove: archive file [/home/abi/fetcher/tmp/xtuner-0.1.9.tar.gz]
 [2024-04-03 07:50:56] INFO root fetch - main [MainThread]: End processing [xtuner]: success
 [2024-04-03 07:50:56] INFO root fetch - main [MainThread]: Store serial: [22598550]
+[2024-04-03 07:52:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598550]
+[2024-04-03 07:53:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 07:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metagpt
+[2024-04-03 07:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-connector-elasticsearch
+[2024-04-03 07:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kong
+[2024-04-03 07:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uniswap-v3-liquidity-pool-simulator
+[2024-04-03 07:53:05] INFO root fetch - processPackages [metagpt]: New version: [0.8.0] Old Version: [0.7.7]
+[2024-04-03 07:53:05] INFO root fetch - processPackages [odoo-addon-connector-elasticsearch]: New version: [16.0.0.0.4.2] Old Version: [16.0.0.0.4.1]
+[2024-04-03 07:53:05] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1712122682] Old Version: [4.6.0a1711778177]
+[2024-04-03 07:53:05] INFO root fetch - processPackages [metagpt]: Downloading https://files.pythonhosted.org/packages/bc/22/732a40ccd2da1164e5ce0b4e57fbf6ac530aae1e390fa475673cf862fb64/metagpt-0.7.7.tar.gz
+[2024-04-03 07:53:05] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-03 07:53:05] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/a9/4c/1f62471243a7fbb3a49fa988c66c7873803c031723f19cd62b2ca606afd2/pulumi_kong-4.6.0a1711778177.tar.gz
+[2024-04-03 07:53:05] INFO root fetch - processPackages [odoo-addon-connector-elasticsearch]: Downloading https://files.pythonhosted.org/packages/3f/68/362c9c40b1b877875fcd1cfc2531bf595210b8a906ea48a44feb29f28b83/odoo_addon_connector_elasticsearch-16.0.0.0.4.1-py3-none-any.whl
+[2024-04-03 07:53:05] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Downloading https://files.pythonhosted.org/packages/e6/ed/b08f28a47c474318f49451a864f4e74cff36af16d319fd209c3c82a82c5a/uniswap_v3_liquidity_pool_simulator-0.3.0.tar.gz
+[2024-04-03 07:53:05] WARNING root fetch - processPackages [metagpt]: Timeout reached during download
+[2024-04-03 07:53:05] WARNING root fetch - processPackages [pulumi-kong]: Timeout reached during download
+[2024-04-03 07:53:05] INFO root fetch - processPackages [metagpt]: Downloading https://files.pythonhosted.org/packages/df/3f/3e5660691bfc3f6396f1ee7ad2c616e544dd4765866150acc3dc1861b53b/metagpt-0.8.0.tar.gz
+[2024-04-03 07:53:05] WARNING root fetch - processPackages [odoo-addon-connector-elasticsearch]: Timeout reached during download
+[2024-04-03 07:53:05] WARNING root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Timeout reached during download
+[2024-04-03 07:53:05] WARNING root fetch - processPackages [metagpt]: Timeout reached during download
+[2024-04-03 07:53:05] INFO root fetch - processPackages [metagpt]: executing diffoscope
+[2024-04-03 07:53:05] INFO root fetch - processPackages [metagpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metagpt-0.7.7.tar.gz tmp/metagpt-0.8.0.tar.gz --markdown 20240403/m/metagpt/0.7.7-0.8.0/diff.md --exclude *.pyd
+[2024-04-03 07:53:05] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/e8/b3/3663d82befb1904b4071ce32f46b7636a58b9f9bc16714f97ab23a34f845/pulumi_kong-4.6.0a1712122682.tar.gz
+[2024-04-03 07:53:05] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Downloading https://files.pythonhosted.org/packages/f4/ff/ed61e17ea90d75db123673f0ab95c2360028bcdf8e339858fa7a09083f4a/uniswap_v3_liquidity_pool_simulator-0.3.1.tar.gz
+[2024-04-03 07:53:05] INFO root fetch - processPackages [odoo-addon-connector-elasticsearch]: Downloading https://files.pythonhosted.org/packages/3a/c2/4596bf35442135a6292c0b15bf4d6ba85a1350930945714e87e693ef0de7/odoo_addon_connector_elasticsearch-16.0.0.0.4.2-py3-none-any.whl
+[2024-04-03 07:53:05] WARNING root fetch - processPackages [odoo-addon-connector-elasticsearch]: Timeout reached during download
+[2024-04-03 07:53:05] INFO root fetch - processPackages [odoo-addon-connector-elasticsearch]: executing diffoscope
+[2024-04-03 07:53:05] INFO root fetch - processPackages [odoo-addon-connector-elasticsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_connector_elasticsearch-16.0.0.0.4.1-py3-none-any.whl.zip tmp/odoo_addon_connector_elasticsearch-16.0.0.0.4.2-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-connector-elasticsearch/16.0.0.0.4.1-16.0.0.0.4.2/diff.md --exclude *.pyd
+[2024-04-03 07:53:05] WARNING root fetch - processPackages [pulumi-kong]: Timeout reached during download
+[2024-04-03 07:53:05] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2024-04-03 07:53:05] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1711778177.tar.gz tmp/pulumi_kong-4.6.0a1712122682.tar.gz --markdown 20240403/p/pulumi-kong/4.6.0a1711778177-4.6.0a1712122682/diff.md --exclude *.pyd
+[2024-04-03 07:53:05] WARNING root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Timeout reached during download
+[2024-04-03 07:53:05] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: executing diffoscope
+[2024-04-03 07:53:05] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniswap_v3_liquidity_pool_simulator-0.3.0.tar.gz tmp/uniswap_v3_liquidity_pool_simulator-0.3.1.tar.gz --markdown 20240403/u/uniswap-v3-liquidity-pool-simulator/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-03 07:53:06] INFO root fetch - processPackages [odoo-addon-connector-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector_elasticsearch-16.0.0.0.4.1-py3-none-any.whl.zip]
+[2024-04-03 07:53:06] INFO root fetch - processPackages [odoo-addon-connector-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector_elasticsearch-16.0.0.0.4.2-py3-none-any.whl.zip]
+[2024-04-03 07:53:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-connector-elasticsearch]: success
+[2024-04-03 07:53:06] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Remove: archive file [/home/abi/fetcher/tmp/uniswap_v3_liquidity_pool_simulator-0.3.0.tar.gz]
+[2024-04-03 07:53:06] INFO root fetch - processPackages [uniswap-v3-liquidity-pool-simulator]: Remove: archive file [/home/abi/fetcher/tmp/uniswap_v3_liquidity_pool_simulator-0.3.1.tar.gz]
+[2024-04-03 07:53:06] INFO root fetch - main [MainThread]: End processing [uniswap-v3-liquidity-pool-simulator]: success
+[2024-04-03 07:53:06] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1711778177.tar.gz]
+[2024-04-03 07:53:06] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1712122682.tar.gz]
+[2024-04-03 07:53:06] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2024-04-03 07:53:07] INFO root fetch - processPackages [metagpt]: Remove: archive file [/home/abi/fetcher/tmp/metagpt-0.7.7.tar.gz]
+[2024-04-03 07:53:07] INFO root fetch - processPackages [metagpt]: Remove: archive file [/home/abi/fetcher/tmp/metagpt-0.8.0.tar.gz]
+[2024-04-03 07:53:07] INFO root fetch - main [MainThread]: End processing [metagpt]: success
+[2024-04-03 07:53:07] INFO root fetch - main [MainThread]: Store serial: [22598570]

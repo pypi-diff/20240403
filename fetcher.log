@@ -21164,3 +21164,86 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 07:55:17] INFO root fetch - processPackages [pythagoras]: Remove: archive file [/home/abi/fetcher/tmp/pythagoras-0.10.34.tar.gz]
 [2024-04-03 07:55:17] INFO root fetch - main [MainThread]: End processing [pythagoras]: success
 [2024-04-03 07:55:17] INFO root fetch - main [MainThread]: Store serial: [22598575]
+[2024-04-03 07:57:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598575]
+[2024-04-03 07:57:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-03 07:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: 2024calc
+[2024-04-03 07:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ithaca-py
+[2024-04-03 07:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangorestframework-admin
+[2024-04-03 07:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djangorestframework-util
+[2024-04-03 07:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: negmas
+[2024-04-03 07:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-mysql
+[2024-04-03 07:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: didabox
+[2024-04-03 07:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: surforama
+[2024-04-03 07:57:26] INFO root fetch - processPackages [ithaca-py]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-04-03 07:57:26] INFO root fetch - processPackages [didabox]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-03 07:57:26] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/9d/e4/c4db7c794801ccab4fa4d95a431e9a03e34fdf6a02cf866335383251fea9/ithaca_py-0.1.2.tar.gz
+[2024-04-03 07:57:26] INFO root fetch - processPackages [negmas]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-03 07:57:26] WARNING root fetch - processPackages [2024calc]: Skipping, unable to determine old version
+[2024-04-03 07:57:26] INFO root fetch - main [MainThread]: End processing [2024calc] error
+[2024-04-03 07:57:26] INFO root fetch - processPackages [djangorestframework-util]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-03 07:57:26] INFO root fetch - processPackages [djangorestframework-admin]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-03 07:57:26] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.3.0a1712122937] Old Version: [3.3.0a1711779254]
+[2024-04-03 07:57:26] INFO root fetch - processPackages [surforama]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-03 07:57:26] INFO root fetch - processPackages [didabox]: Downloading https://files.pythonhosted.org/packages/89/d2/11b1cb2e46fda57ba7106ba87613f410c62781c7be80b7fb25a15fb0127d/didabox-2.3.0.tar.gz
+[2024-04-03 07:57:26] WARNING root fetch - processPackages [ithaca-py]: Timeout reached during download
+[2024-04-03 07:57:26] INFO root fetch - processPackages [djangorestframework-admin]: Downloading https://files.pythonhosted.org/packages/ed/bb/0d7ccb8523eed3cc7fd35d4f7aa759edbbca616afe11c7ccaaed4fdbc68a/djangorestframework-admin-0.0.6.tar.gz
+[2024-04-03 07:57:26] INFO root fetch - processPackages [djangorestframework-util]: Downloading https://files.pythonhosted.org/packages/b3/5e/847548fde549d46a466380839509d0af667c3885a1c3a88ea9e485870461/djangorestframework-util-0.0.6.tar.gz
+[2024-04-03 07:57:26] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/15/0c/2c1d5fa67820539f19f3b6422bc64a1e672f67240576516602738131871b/pulumi_mysql-3.3.0a1711779254.tar.gz
+[2024-04-03 07:57:26] INFO root fetch - processPackages [negmas]: Downloading https://files.pythonhosted.org/packages/7e/53/7b09f55cab8ce7355078c43b5974e49669949f096cc7540e09b3c7ecb30c/negmas-0.9.7.tar.gz
+[2024-04-03 07:57:26] INFO root fetch - processPackages [surforama]: Downloading https://files.pythonhosted.org/packages/af/e0/0bc2daba5818060ee9c86116a8e27be64dc57aa45f86ef30d56737aee0e8/surforama-0.0.6.tar.gz
+[2024-04-03 07:57:27] WARNING root fetch - processPackages [didabox]: Timeout reached during download
+[2024-04-03 07:57:27] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/74/89/b5b503dcc78d6c2e1d89cf8292830027b6fd3318479251a5f8cb6f964fe7/ithaca_py-0.1.4.tar.gz
+[2024-04-03 07:57:27] WARNING root fetch - processPackages [djangorestframework-admin]: Timeout reached during download
+[2024-04-03 07:57:27] WARNING root fetch - processPackages [pulumi-mysql]: Timeout reached during download
+[2024-04-03 07:57:27] WARNING root fetch - processPackages [ithaca-py]: Timeout reached during download
+[2024-04-03 07:57:27] INFO root fetch - processPackages [ithaca-py]: executing diffoscope
+[2024-04-03 07:57:27] INFO root fetch - processPackages [ithaca-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ithaca_py-0.1.2.tar.gz tmp/ithaca_py-0.1.4.tar.gz --markdown 20240403/i/ithaca-py/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2024-04-03 07:57:27] WARNING root fetch - processPackages [negmas]: Timeout reached during download
+[2024-04-03 07:57:27] WARNING root fetch - processPackages [djangorestframework-util]: Timeout reached during download
+[2024-04-03 07:57:27] INFO root fetch - processPackages [didabox]: Downloading https://files.pythonhosted.org/packages/63/63/07f2923479faeb64ccbff07970a44dbbf7cb89c1bb7f11b683f04b225af6/didabox-2.4.0.tar.gz
+[2024-04-03 07:57:27] INFO root fetch - processPackages [djangorestframework-admin]: Downloading https://files.pythonhosted.org/packages/73/87/986cdba591c40b26240e683755d14ac3867bd599050fefd72939557838b0/djangorestframework-admin-0.0.7.tar.gz
+[2024-04-03 07:57:27] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/45/cc/7f2aed3c980195f86062829f90bf6b81a4f3cd869ed9bef02030b67a6d8a/pulumi_mysql-3.3.0a1712122937.tar.gz
+[2024-04-03 07:57:27] INFO root fetch - processPackages [djangorestframework-util]: Downloading https://files.pythonhosted.org/packages/3a/7b/d3640b9643d456ebd2d3db983586d05ffe26c51d72954478b999fc099317/djangorestframework-util-0.0.7.tar.gz
+[2024-04-03 07:57:27] WARNING root fetch - processPackages [surforama]: Timeout reached during download
+[2024-04-03 07:57:27] WARNING root fetch - processPackages [djangorestframework-admin]: Timeout reached during download
+[2024-04-03 07:57:27] INFO root fetch - processPackages [negmas]: Downloading https://files.pythonhosted.org/packages/b4/78/d40938b19d85dddea58e8fe11a4d16397d9662f8b9a737af3b43f0e76785/negmas-0.9.8.tar.gz
+[2024-04-03 07:57:27] INFO root fetch - processPackages [djangorestframework-admin]: executing diffoscope
+[2024-04-03 07:57:27] INFO root fetch - processPackages [djangorestframework-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestframework-admin-0.0.6.tar.gz tmp/djangorestframework-admin-0.0.7.tar.gz --markdown 20240403/d/djangorestframework-admin/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-03 07:57:27] WARNING root fetch - processPackages [didabox]: Timeout reached during download
+[2024-04-03 07:57:27] INFO root fetch - processPackages [didabox]: executing diffoscope
+[2024-04-03 07:57:27] INFO root fetch - processPackages [didabox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/didabox-2.3.0.tar.gz tmp/didabox-2.4.0.tar.gz --markdown 20240403/d/didabox/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2024-04-03 07:57:27] WARNING root fetch - processPackages [djangorestframework-util]: Timeout reached during download
+[2024-04-03 07:57:27] INFO root fetch - processPackages [djangorestframework-util]: executing diffoscope
+[2024-04-03 07:57:27] INFO root fetch - processPackages [djangorestframework-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestframework-util-0.0.6.tar.gz tmp/djangorestframework-util-0.0.7.tar.gz --markdown 20240403/d/djangorestframework-util/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-03 07:57:27] WARNING root fetch - processPackages [pulumi-mysql]: Timeout reached during download
+[2024-04-03 07:57:27] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2024-04-03 07:57:27] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.3.0a1711779254.tar.gz tmp/pulumi_mysql-3.3.0a1712122937.tar.gz --markdown 20240403/p/pulumi-mysql/3.3.0a1711779254-3.3.0a1712122937/diff.md --exclude *.pyd
+[2024-04-03 07:57:27] WARNING root fetch - processPackages [negmas]: Timeout reached during download
+[2024-04-03 07:57:27] INFO root fetch - processPackages [negmas]: executing diffoscope
+[2024-04-03 07:57:27] INFO root fetch - processPackages [negmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/negmas-0.9.7.tar.gz tmp/negmas-0.9.8.tar.gz --markdown 20240403/n/negmas/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2024-04-03 07:57:27] INFO root fetch - processPackages [surforama]: Downloading https://files.pythonhosted.org/packages/ba/4f/a13ab946659cfec53576d48afb25b7e7565df63989e077b326943bd4d40b/surforama-0.0.7.tar.gz
+[2024-04-03 07:57:27] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.1.2.tar.gz]
+[2024-04-03 07:57:27] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.1.4.tar.gz]
+[2024-04-03 07:57:27] INFO root fetch - main [MainThread]: End processing [ithaca-py]: success
+[2024-04-03 07:57:28] INFO root fetch - processPackages [didabox]: Remove: archive file [/home/abi/fetcher/tmp/didabox-2.3.0.tar.gz]
+[2024-04-03 07:57:28] INFO root fetch - processPackages [didabox]: Remove: archive file [/home/abi/fetcher/tmp/didabox-2.4.0.tar.gz]
+[2024-04-03 07:57:28] INFO root fetch - main [MainThread]: End processing [didabox]: success
+[2024-04-03 07:57:28] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1711779254.tar.gz]
+[2024-04-03 07:57:28] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1712122937.tar.gz]
+[2024-04-03 07:57:28] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2024-04-03 07:57:28] INFO root fetch - processPackages [djangorestframework-util]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-util-0.0.6.tar.gz]
+[2024-04-03 07:57:28] INFO root fetch - processPackages [djangorestframework-util]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-util-0.0.7.tar.gz]
+[2024-04-03 07:57:28] INFO root fetch - main [MainThread]: End processing [djangorestframework-util]: success
+[2024-04-03 07:57:28] INFO root fetch - processPackages [djangorestframework-admin]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-admin-0.0.6.tar.gz]
+[2024-04-03 07:57:28] INFO root fetch - processPackages [djangorestframework-admin]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-admin-0.0.7.tar.gz]
+[2024-04-03 07:57:28] INFO root fetch - main [MainThread]: End processing [djangorestframework-admin]: success
+[2024-04-03 07:57:28] WARNING root fetch - processPackages [surforama]: Timeout reached during download
+[2024-04-03 07:57:28] INFO root fetch - processPackages [surforama]: executing diffoscope
+[2024-04-03 07:57:28] INFO root fetch - processPackages [surforama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surforama-0.0.6.tar.gz tmp/surforama-0.0.7.tar.gz --markdown 20240403/s/surforama/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-03 07:57:29] INFO root fetch - processPackages [surforama]: Remove: archive file [/home/abi/fetcher/tmp/surforama-0.0.6.tar.gz]
+[2024-04-03 07:57:29] INFO root fetch - processPackages [surforama]: Remove: archive file [/home/abi/fetcher/tmp/surforama-0.0.7.tar.gz]
+[2024-04-03 07:57:29] INFO root fetch - main [MainThread]: End processing [surforama]: success
+[2024-04-03 07:57:29] INFO root fetch - processPackages [negmas]: Remove: archive file [/home/abi/fetcher/tmp/negmas-0.9.7.tar.gz]
+[2024-04-03 07:57:29] INFO root fetch - processPackages [negmas]: Remove: archive file [/home/abi/fetcher/tmp/negmas-0.9.8.tar.gz]
+[2024-04-03 07:57:29] INFO root fetch - main [MainThread]: End processing [negmas]: success
+[2024-04-03 07:57:29] INFO root fetch - main [MainThread]: Store serial: [22598600]

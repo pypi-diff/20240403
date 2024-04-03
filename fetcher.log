@@ -3204,3 +3204,50 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 02:27:20] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.5.tar.gz]
 [2024-04-03 02:27:20] INFO root fetch - main [MainThread]: End processing [featureform]: success
 [2024-04-03 02:27:20] INFO root fetch - main [MainThread]: Store serial: [22593389]
+[2024-04-03 02:29:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593389]
+[2024-04-03 02:29:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 02:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-aurora-globaldatabase
+[2024-04-03 02:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-sql-parsing
+[2024-04-03 02:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ladybug-geometry
+[2024-04-03 02:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aeppl-nightly
+[2024-04-03 02:29:29] INFO root fetch - processPackages [mo-sql-parsing]: New version: [9.499.24023] Old Version: [9.485.24016]
+[2024-04-03 02:29:29] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240402] Old Version: [0.1.5.dev20240401]
+[2024-04-03 02:29:29] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-03 02:29:29] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/8a/fa/9ccfd878f981f1ecfb0c8eaaeb222732e122891f363567e7c711e25d76c7/mo_sql_parsing-9.485.24016-py2.py3-none-any.whl
+[2024-04-03 02:29:29] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/37/03/c272a9c73d5aee6fcde8348a0c531aa31f43a4251e530289436a97195bce/aeppl-nightly-0.1.5.dev20240401.tar.gz
+[2024-04-03 02:29:29] INFO root fetch - processPackages [ladybug-geometry]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-03 02:29:29] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-03 02:29:29] WARNING root fetch - processPackages [mo-sql-parsing]: Timeout reached during download
+[2024-04-03 02:29:29] WARNING root fetch - processPackages [cdk-aurora-globaldatabase]: Timeout reached during download
+[2024-04-03 02:29:29] INFO root fetch - processPackages [ladybug-geometry]: Downloading https://files.pythonhosted.org/packages/73/b9/eb0d232df800d6e5dfa1247520f85cfb316c1f1c0f1fa86404231a512779/ladybug-geometry-1.8.1.tar.gz
+[2024-04-03 02:29:29] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/99/fa/7f02cfe11454bb459df063edf47f37a575907ee3cb615b4b43519369e4b1/mo_sql_parsing-9.499.24023-py2.py3-none-any.whl
+[2024-04-03 02:29:29] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-03 02:29:29] WARNING root fetch - processPackages [aeppl-nightly]: Timeout reached during download
+[2024-04-03 02:29:29] WARNING root fetch - processPackages [ladybug-geometry]: Timeout reached during download
+[2024-04-03 02:29:29] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/37/9e/d223bf9c7f415694e9aa418fc0611a8dea2c6900ce912341ca4b6bd32d3d/aeppl-nightly-0.1.5.dev20240402.tar.gz
+[2024-04-03 02:29:29] WARNING root fetch - processPackages [mo-sql-parsing]: Timeout reached during download
+[2024-04-03 02:29:29] INFO root fetch - processPackages [mo-sql-parsing]: executing diffoscope
+[2024-04-03 02:29:29] INFO root fetch - processPackages [mo-sql-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql_parsing-9.485.24016-py2.py3-none-any.whl.zip tmp/mo_sql_parsing-9.499.24023-py2.py3-none-any.whl.zip --markdown 20240403/m/mo-sql-parsing/9.485.24016-9.499.24023/diff.md --exclude *.pyd
+[2024-04-03 02:29:29] WARNING root fetch - processPackages [cdk-aurora-globaldatabase]: Timeout reached during download
+[2024-04-03 02:29:29] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-03 02:29:29] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240403/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2024-04-03 02:29:29] WARNING root fetch - processPackages [aeppl-nightly]: Timeout reached during download
+[2024-04-03 02:29:29] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-03 02:29:29] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20240401.tar.gz tmp/aeppl-nightly-0.1.5.dev20240402.tar.gz --markdown 20240403/a/aeppl-nightly/0.1.5.dev20240401-0.1.5.dev20240402/diff.md --exclude *.pyd
+[2024-04-03 02:29:29] INFO root fetch - processPackages [ladybug-geometry]: Downloading https://files.pythonhosted.org/packages/1d/6e/0f64e45efb187aa1304e9685bee2042ef1bd0a00daba0172bf39aadfa2b6/ladybug-geometry-1.9.0.tar.gz
+[2024-04-03 02:29:30] WARNING root fetch - processPackages [ladybug-geometry]: Timeout reached during download
+[2024-04-03 02:29:30] INFO root fetch - processPackages [ladybug-geometry]: executing diffoscope
+[2024-04-03 02:29:30] INFO root fetch - processPackages [ladybug-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-geometry-1.8.1.tar.gz tmp/ladybug-geometry-1.9.0.tar.gz --markdown 20240403/l/ladybug-geometry/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2024-04-03 02:29:30] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.485.24016-py2.py3-none-any.whl.zip]
+[2024-04-03 02:29:30] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.499.24023-py2.py3-none-any.whl.zip]
+[2024-04-03 02:29:30] INFO root fetch - main [MainThread]: End processing [mo-sql-parsing]: success
+[2024-04-03 02:29:30] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-03 02:29:30] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-03 02:29:30] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-03 02:29:30] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240401.tar.gz]
+[2024-04-03 02:29:30] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240402.tar.gz]
+[2024-04-03 02:29:30] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-03 02:29:31] INFO root fetch - processPackages [ladybug-geometry]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-1.8.1.tar.gz]
+[2024-04-03 02:29:31] INFO root fetch - processPackages [ladybug-geometry]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-1.9.0.tar.gz]
+[2024-04-03 02:29:31] INFO root fetch - main [MainThread]: End processing [ladybug-geometry]: success
+[2024-04-03 02:29:31] INFO root fetch - main [MainThread]: Store serial: [22593403]

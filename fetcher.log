@@ -17331,3 +17331,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:31:54] INFO root fetch - processPackages [qutip]: Remove: archive file [/home/abi/fetcher/tmp/qutip-5.0.1.tar.gz]
 [2024-04-03 06:31:54] INFO root fetch - main [MainThread]: End processing [qutip]: success
 [2024-04-03 06:31:54] INFO root fetch - main [MainThread]: Store serial: [22597523]
+[2024-04-03 06:33:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597523]
+[2024-04-03 06:34:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 06:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-cdwdoris
+[2024-04-03 06:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-cdwpg
+[2024-04-03 06:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xnode
+[2024-04-03 06:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-diffsinger
+[2024-04-03 06:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agptools
+[2024-04-03 06:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pi-base
+[2024-04-03 06:34:03] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-03 06:34:03] INFO root fetch - processPackages [pi-base]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 06:34:03] INFO root fetch - processPackages [xnode]: New version: [1.0.0] Old Version: [0.2.1]
+[2024-04-03 06:34:03] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 06:34:03] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: Downloading https://files.pythonhosted.org/packages/e9/1b/072d5de8c3f02cb7feeae33c00a5390b318d5a03838707d208653c1fcf40/nonebot_plugin_diffsinger-0.1.1.tar.gz
+[2024-04-03 06:34:03] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwdoris]: New version: [3.0.1122] Old Version: [3.0.1121]
+[2024-04-03 06:34:03] INFO root fetch - processPackages [pi-base]: Downloading https://files.pythonhosted.org/packages/f0/cb/b07dab97659dfc797921084f58555c37e45c096bbc848ecb4b349c5a03f2/pi_base-0.0.8.tar.gz
+[2024-04-03 06:34:03] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwpg]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:34:04] WARNING root fetch - processPackages [nonebot-plugin-diffsinger]: Timeout reached during download
+[2024-04-03 06:34:04] INFO root fetch - processPackages [xnode]: Downloading https://files.pythonhosted.org/packages/ae/82/cc59e74393a80e67fa0e258aaf009fef659e5ffb89a1bd567d5929777403/xnode-0.2.1.tar.gz
+[2024-04-03 06:34:04] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-04-03 06:34:04] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwdoris]: Downloading https://files.pythonhosted.org/packages/67/1f/c5709d23d6466ca7225a6933360f12716d7bb15821ff54c21433bc2afc32/tencentcloud-sdk-python-cdwdoris-3.0.1121.tar.gz
+[2024-04-03 06:34:04] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwpg]: Downloading https://files.pythonhosted.org/packages/ce/85/aa9ab96b35a3d6840d14a9f64c5231c248ea02859d60156ad324bcfdf82b/tencentcloud-sdk-python-cdwpg-3.0.998.tar.gz
+[2024-04-03 06:34:04] WARNING root fetch - processPackages [xnode]: Timeout reached during download
+[2024-04-03 06:34:04] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: Downloading https://files.pythonhosted.org/packages/24/80/7739be490b431f9f04f96ae43b5af616803c96a3206ba824022d9554d124/nonebot_plugin_diffsinger-0.1.2.tar.gz
+[2024-04-03 06:34:04] WARNING root fetch - processPackages [agptools]: Timeout reached during download
+[2024-04-03 06:34:04] WARNING root fetch - processPackages [tencentcloud-sdk-python-cdwpg]: Timeout reached during download
+[2024-04-03 06:34:04] WARNING root fetch - processPackages [pi-base]: Timeout reached during download
+[2024-04-03 06:34:04] WARNING root fetch - processPackages [tencentcloud-sdk-python-cdwdoris]: Timeout reached during download
+[2024-04-03 06:34:04] WARNING root fetch - processPackages [nonebot-plugin-diffsinger]: Timeout reached during download
+[2024-04-03 06:34:04] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: executing diffoscope
+[2024-04-03 06:34:04] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_diffsinger-0.1.1.tar.gz tmp/nonebot_plugin_diffsinger-0.1.2.tar.gz --markdown 20240403/n/nonebot-plugin-diffsinger/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-03 06:34:04] INFO root fetch - processPackages [xnode]: Downloading https://files.pythonhosted.org/packages/a0/2c/e98b1c38eb9e3d7666df155fc638810cb4b6528a5e3fb0e5c743b1b7db4a/xnode-1.0.0.tar.gz
+[2024-04-03 06:34:04] INFO root fetch - processPackages [pi-base]: Downloading https://files.pythonhosted.org/packages/3b/75/c838ac8ad9d2188333f4cdc0352f9977ab5929df366dbc89a4e19076f81b/pi_base-0.0.9.tar.gz
+[2024-04-03 06:34:04] WARNING root fetch - processPackages [xnode]: Timeout reached during download
+[2024-04-03 06:34:04] INFO root fetch - processPackages [xnode]: executing diffoscope
+[2024-04-03 06:34:04] INFO root fetch - processPackages [xnode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnode-0.2.1.tar.gz tmp/xnode-1.0.0.tar.gz --markdown 20240403/x/xnode/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2024-04-03 06:34:04] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwdoris]: Downloading https://files.pythonhosted.org/packages/61/01/1c8da543794e0851f2ee8c30af5cd5a8280e6aaa0c8a3c1c8620d8dccf32/tencentcloud-sdk-python-cdwdoris-3.0.1122.tar.gz
+[2024-04-03 06:34:04] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwpg]: Downloading https://files.pythonhosted.org/packages/42/2d/9b02d3ab7ade762d87ccdfa8dd6d55aa45fe23303584e2a2790d26d49d91/tencentcloud-sdk-python-cdwpg-3.0.999.tar.gz
+[2024-04-03 06:34:04] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-04-03 06:34:04] WARNING root fetch - processPackages [tencentcloud-sdk-python-cdwdoris]: Timeout reached during download
+[2024-04-03 06:34:04] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwdoris]: executing diffoscope
+[2024-04-03 06:34:04] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwdoris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cdwdoris-3.0.1121.tar.gz tmp/tencentcloud-sdk-python-cdwdoris-3.0.1122.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-cdwdoris/3.0.1121-3.0.1122/diff.md --exclude *.pyd
+[2024-04-03 06:34:04] WARNING root fetch - processPackages [tencentcloud-sdk-python-cdwpg]: Timeout reached during download
+[2024-04-03 06:34:04] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwpg]: executing diffoscope
+[2024-04-03 06:34:04] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cdwpg-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cdwpg-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-cdwpg/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:34:04] WARNING root fetch - processPackages [agptools]: Timeout reached during download
+[2024-04-03 06:34:04] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-04-03 06:34:04] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240403/a/agptools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 06:34:04] WARNING root fetch - processPackages [pi-base]: Timeout reached during download
+[2024-04-03 06:34:04] INFO root fetch - processPackages [pi-base]: executing diffoscope
+[2024-04-03 06:34:04] INFO root fetch - processPackages [pi-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pi_base-0.0.8.tar.gz tmp/pi_base-0.0.9.tar.gz --markdown 20240403/p/pi-base/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 06:34:05] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_diffsinger-0.1.1.tar.gz]
+[2024-04-03 06:34:05] INFO root fetch - processPackages [nonebot-plugin-diffsinger]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_diffsinger-0.1.2.tar.gz]
+[2024-04-03 06:34:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-diffsinger]: success
+[2024-04-03 06:34:05] INFO root fetch - processPackages [xnode]: Remove: archive file [/home/abi/fetcher/tmp/xnode-0.2.1.tar.gz]
+[2024-04-03 06:34:05] INFO root fetch - processPackages [xnode]: Remove: archive file [/home/abi/fetcher/tmp/xnode-1.0.0.tar.gz]
+[2024-04-03 06:34:05] INFO root fetch - main [MainThread]: End processing [xnode]: success
+[2024-04-03 06:34:05] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwdoris]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cdwdoris-3.0.1121.tar.gz]
+[2024-04-03 06:34:05] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwdoris]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cdwdoris-3.0.1122.tar.gz]
+[2024-04-03 06:34:05] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cdwdoris]: success
+[2024-04-03 06:34:05] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-03 06:34:05] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-03 06:34:05] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-04-03 06:34:05] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwpg]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cdwpg-3.0.998.tar.gz]
+[2024-04-03 06:34:05] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwpg]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cdwpg-3.0.999.tar.gz]
+[2024-04-03 06:34:05] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cdwpg]: success
+[2024-04-03 06:34:05] INFO root fetch - processPackages [pi-base]: Remove: archive file [/home/abi/fetcher/tmp/pi_base-0.0.8.tar.gz]
+[2024-04-03 06:34:05] INFO root fetch - processPackages [pi-base]: Remove: archive file [/home/abi/fetcher/tmp/pi_base-0.0.9.tar.gz]
+[2024-04-03 06:34:05] INFO root fetch - main [MainThread]: End processing [pi-base]: success
+[2024-04-03 06:34:05] INFO root fetch - main [MainThread]: Store serial: [22597538]

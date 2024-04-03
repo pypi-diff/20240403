@@ -22869,3 +22869,50 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 09:08:31] INFO root fetch - processPackages [premai]: Remove: archive file [/home/abi/fetcher/tmp/premai-0.3.9.tar.gz]
 [2024-04-03 09:08:31] INFO root fetch - main [MainThread]: End processing [premai]: success
 [2024-04-03 09:08:31] INFO root fetch - main [MainThread]: Store serial: [22599199]
+[2024-04-03 09:10:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599199]
+[2024-04-03 09:10:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 09:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: erlab
+[2024-04-03 09:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: microdata-tools
+[2024-04-03 09:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-module-gcp-bigquery
+[2024-04-03 09:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: froggius
+[2024-04-03 09:10:40] INFO root fetch - processPackages [erlab]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-03 09:10:40] INFO root fetch - processPackages [froggius]: New version: [0.1.4.post2] Old Version: [0.1.4.post1]
+[2024-04-03 09:10:40] INFO root fetch - processPackages [xia-module-gcp-bigquery]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-03 09:10:40] INFO root fetch - processPackages [microdata-tools]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-03 09:10:40] INFO root fetch - processPackages [froggius]: Downloading https://files.pythonhosted.org/packages/e5/4a/97202aff2782ced4a302f7b26208959e83c31a968d68ab6bcbbb6062d1bd/froggius-0.1.4.post1.tar.gz
+[2024-04-03 09:10:40] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/d8/08/b5450f8b8fe06b42d26c7e8ae4efeb619f5e665cdb5c766a878f3f35be58/erlab-1.6.0.tar.gz
+[2024-04-03 09:10:41] WARNING root fetch - processPackages [froggius]: Timeout reached during download
+[2024-04-03 09:10:41] INFO root fetch - processPackages [xia-module-gcp-bigquery]: Downloading https://files.pythonhosted.org/packages/98/64/5acdc7b97ad648c746ffd1420f667a8008cff2d66691dd2521f84059c9a0/xia-module-gcp-bigquery-0.0.1.tar.gz
+[2024-04-03 09:10:41] INFO root fetch - processPackages [microdata-tools]: Downloading https://files.pythonhosted.org/packages/25/3f/0890aa28d934c49f15258d124f262332fe3ecfac877e0b49b91b63b74520/microdata_tools-0.9.0.tar.gz
+[2024-04-03 09:10:41] WARNING root fetch - processPackages [xia-module-gcp-bigquery]: Timeout reached during download
+[2024-04-03 09:10:41] WARNING root fetch - processPackages [microdata-tools]: Timeout reached during download
+[2024-04-03 09:10:41] INFO root fetch - processPackages [froggius]: Downloading https://files.pythonhosted.org/packages/cc/c6/d846de3d8e7a78c592a4dfd70cc10fa8a2766066cd62affdc053c565b554/froggius-0.1.4.post2.tar.gz
+[2024-04-03 09:10:41] WARNING root fetch - processPackages [erlab]: Timeout reached during download
+[2024-04-03 09:10:41] WARNING root fetch - processPackages [froggius]: Timeout reached during download
+[2024-04-03 09:10:41] INFO root fetch - processPackages [froggius]: executing diffoscope
+[2024-04-03 09:10:41] INFO root fetch - processPackages [froggius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/froggius-0.1.4.post1.tar.gz tmp/froggius-0.1.4.post2.tar.gz --markdown 20240403/f/froggius/0.1.4.post1-0.1.4.post2/diff.md --exclude *.pyd
+[2024-04-03 09:10:41] INFO root fetch - processPackages [xia-module-gcp-bigquery]: Downloading https://files.pythonhosted.org/packages/87/1c/9513363570c7d186f22e9c85fc25af0a97283a51a370eec3869d55e9b1f8/xia-module-gcp-bigquery-0.0.2.tar.gz
+[2024-04-03 09:10:41] INFO root fetch - processPackages [microdata-tools]: Downloading https://files.pythonhosted.org/packages/ee/6a/f591fa90f15b48b1226089d2c142433db80b8c63b6727ea5c6d591a91c2f/microdata_tools-0.9.1.tar.gz
+[2024-04-03 09:10:41] WARNING root fetch - processPackages [xia-module-gcp-bigquery]: Timeout reached during download
+[2024-04-03 09:10:41] INFO root fetch - processPackages [xia-module-gcp-bigquery]: executing diffoscope
+[2024-04-03 09:10:41] INFO root fetch - processPackages [xia-module-gcp-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia-module-gcp-bigquery-0.0.1.tar.gz tmp/xia-module-gcp-bigquery-0.0.2.tar.gz --markdown 20240403/x/xia-module-gcp-bigquery/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-03 09:10:41] WARNING root fetch - processPackages [microdata-tools]: Timeout reached during download
+[2024-04-03 09:10:41] INFO root fetch - processPackages [microdata-tools]: executing diffoscope
+[2024-04-03 09:10:41] INFO root fetch - processPackages [microdata-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microdata_tools-0.9.0.tar.gz tmp/microdata_tools-0.9.1.tar.gz --markdown 20240403/m/microdata-tools/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-03 09:10:41] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/f6/92/bb52afaeb1cc842591e860f80d74586bf0e6561b9b6aa198ca5c572f094e/erlab-1.6.1.tar.gz
+[2024-04-03 09:10:42] WARNING root fetch - processPackages [erlab]: Timeout reached during download
+[2024-04-03 09:10:42] INFO root fetch - processPackages [froggius]: Remove: archive file [/home/abi/fetcher/tmp/froggius-0.1.4.post1.tar.gz]
+[2024-04-03 09:10:42] INFO root fetch - processPackages [froggius]: Remove: archive file [/home/abi/fetcher/tmp/froggius-0.1.4.post2.tar.gz]
+[2024-04-03 09:10:42] INFO root fetch - processPackages [erlab]: executing diffoscope
+[2024-04-03 09:10:42] INFO root fetch - main [MainThread]: End processing [froggius]: success
+[2024-04-03 09:10:42] INFO root fetch - processPackages [erlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlab-1.6.0.tar.gz tmp/erlab-1.6.1.tar.gz --markdown 20240403/e/erlab/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2024-04-03 09:10:42] INFO root fetch - processPackages [microdata-tools]: Remove: archive file [/home/abi/fetcher/tmp/microdata_tools-0.9.0.tar.gz]
+[2024-04-03 09:10:42] INFO root fetch - processPackages [microdata-tools]: Remove: archive file [/home/abi/fetcher/tmp/microdata_tools-0.9.1.tar.gz]
+[2024-04-03 09:10:42] INFO root fetch - main [MainThread]: End processing [microdata-tools]: success
+[2024-04-03 09:10:42] INFO root fetch - processPackages [xia-module-gcp-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/xia-module-gcp-bigquery-0.0.1.tar.gz]
+[2024-04-03 09:10:42] INFO root fetch - processPackages [xia-module-gcp-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/xia-module-gcp-bigquery-0.0.2.tar.gz]
+[2024-04-03 09:10:42] INFO root fetch - main [MainThread]: End processing [xia-module-gcp-bigquery]: success
+[2024-04-03 09:11:00] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-1.6.0.tar.gz]
+[2024-04-03 09:11:00] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-1.6.1.tar.gz]
+[2024-04-03 09:11:00] INFO root fetch - main [MainThread]: End processing [erlab]: success
+[2024-04-03 09:11:00] INFO root fetch - main [MainThread]: Store serial: [22599211]

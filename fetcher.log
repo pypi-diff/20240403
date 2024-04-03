@@ -13693,3 +13693,22 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 03:57:44] INFO root fetch - processPackages [automonisaur]: Remove: archive file [/home/abi/fetcher/tmp/automonisaur-0.5.0.tar.gz]
 [2024-04-03 03:57:44] INFO root fetch - main [MainThread]: End processing [automonisaur]: success
 [2024-04-03 03:57:44] INFO root fetch - main [MainThread]: Store serial: [22596351]
+[2024-04-03 03:59:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596351]
+[2024-04-03 03:59:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 03:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-pdk
+[2024-04-03 03:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onlyuserclient
+[2024-04-03 03:59:53] INFO root fetch - processPackages [aws-pdk]: New version: [0.23.9] Old Version: [0.23.8]
+[2024-04-03 03:59:53] INFO root fetch - processPackages [aws-pdk]: Downloading https://files.pythonhosted.org/packages/5d/b0/7ec23c8fbfb3411ad6ea5d191c68ce62b3e49ac7172e49cc9cc2ab9489f2/aws_pdk-0.23.8.tar.gz
+[2024-04-03 03:59:53] INFO root fetch - processPackages [onlyuserclient]: New version: [1.2.9.dev0] Old Version: [1.2.9]
+[2024-04-03 03:59:53] WARNING root fetch - processPackages [aws-pdk]: Skipping package: exceeds size limit 23534896>=10485760
+[2024-04-03 03:59:53] INFO root fetch - main [MainThread]: End processing [aws-pdk] error
+[2024-04-03 03:59:53] INFO root fetch - processPackages [onlyuserclient]: Downloading https://files.pythonhosted.org/packages/4d/47/3ada66bc02bc3a28585dbc74ed8426eebffb404fdaf26584c037c6ad4f32/onlyuserclient-1.2.9-py3-none-any.whl
+[2024-04-03 03:59:53] WARNING root fetch - processPackages [onlyuserclient]: Timeout reached during download
+[2024-04-03 03:59:54] INFO root fetch - processPackages [onlyuserclient]: Downloading https://files.pythonhosted.org/packages/0d/43/5ff7e7790d3b81c1f4abcb988101604018f8060be88ce189e9864de9cdb5/onlyuserclient-1.2.9.dev0-py3-none-any.whl
+[2024-04-03 03:59:54] WARNING root fetch - processPackages [onlyuserclient]: Timeout reached during download
+[2024-04-03 03:59:54] INFO root fetch - processPackages [onlyuserclient]: executing diffoscope
+[2024-04-03 03:59:54] INFO root fetch - processPackages [onlyuserclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onlyuserclient-1.2.9-py3-none-any.whl.zip tmp/onlyuserclient-1.2.9.dev0-py3-none-any.whl.zip --markdown 20240403/o/onlyuserclient/1.2.9-1.2.9.dev0/diff.md --exclude *.pyd
+[2024-04-03 03:59:54] INFO root fetch - processPackages [onlyuserclient]: Remove: archive file [/home/abi/fetcher/tmp/onlyuserclient-1.2.9-py3-none-any.whl.zip]
+[2024-04-03 03:59:54] INFO root fetch - processPackages [onlyuserclient]: Remove: archive file [/home/abi/fetcher/tmp/onlyuserclient-1.2.9.dev0-py3-none-any.whl.zip]
+[2024-04-03 03:59:54] INFO root fetch - main [MainThread]: End processing [onlyuserclient]: success
+[2024-04-03 03:59:54] INFO root fetch - main [MainThread]: Store serial: [22596356]

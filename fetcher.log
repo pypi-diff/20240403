@@ -14312,3 +14312,56 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 04:33:21] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.5.9.tar.gz]
 [2024-04-03 04:33:21] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2024-04-03 04:33:21] INFO root fetch - main [MainThread]: Store serial: [22596563]
+[2024-04-03 04:35:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596563]
+[2024-04-03 04:35:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 04:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: se0kcalc2024
+[2024-04-03 04:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ns-asphalt9
+[2024-04-03 04:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whattoread
+[2024-04-03 04:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-multicurrency-revaluation
+[2024-04-03 04:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-03 04:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cyberdrop-dl
+[2024-04-03 04:35:30] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.11a1712110895] Old Version: [0.0.11a1712110396]
+[2024-04-03 04:35:30] WARNING root fetch - processPackages [se0kcalc2024]: Skipping, unable to determine old version
+[2024-04-03 04:35:30] INFO root fetch - main [MainThread]: End processing [se0kcalc2024] error
+[2024-04-03 04:35:30] INFO root fetch - processPackages [odoo-addon-account-multicurrency-revaluation]: New version: [16.0.1.0.1.5] Old Version: [16.0.1.0.1.4]
+[2024-04-03 04:35:30] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/a1/4e/b480da947b52567db958b65cc665950b70e013dec414c1b09171a0c17af9/pulumi_kubernetes_the_hard_way-0.0.11a1712110396.tar.gz
+[2024-04-03 04:35:30] WARNING root fetch - processPackages [whattoread]: Skipping, unable to determine old version
+[2024-04-03 04:35:30] INFO root fetch - main [MainThread]: End processing [whattoread] error
+[2024-04-03 04:35:30] INFO root fetch - processPackages [ns-asphalt9]: New version: [3.1.7] Old Version: [3.1.6]
+[2024-04-03 04:35:30] INFO root fetch - processPackages [cyberdrop-dl]: New version: [5.2.9] Old Version: [5.2.8]
+[2024-04-03 04:35:30] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-03 04:35:31] INFO root fetch - processPackages [odoo-addon-account-multicurrency-revaluation]: Downloading https://files.pythonhosted.org/packages/a7/4f/59b7076bcb3830bbeef4e5b2639ddcfa800e5e582373cc26a14d63d0fa04/odoo_addon_account_multicurrency_revaluation-16.0.1.0.1.4-py3-none-any.whl
+[2024-04-03 04:35:31] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/f0/cb/560862b8f403c101af3bcb651241cbdf042d9bead6e12649ffca841a471a/ns_asphalt9-3.1.6.tar.gz
+[2024-04-03 04:35:31] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/d0/4d/1bcce6fd4b01edc3088927c67c6a1f036da4325e2d64f9023ffc785bf41f/cyberdrop_dl-5.2.8.tar.gz
+[2024-04-03 04:35:31] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/c3/76/d60dc96fad529748f204eba1f0f6c28e2416cc8f9c796dc29ca068a5663f/pulumi_kubernetes_the_hard_way-0.0.11a1712110895.tar.gz
+[2024-04-03 04:35:31] WARNING root fetch - processPackages [odoo-addon-account-multicurrency-revaluation]: Timeout reached during download
+[2024-04-03 04:35:31] WARNING root fetch - processPackages [ns-asphalt9]: Timeout reached during download
+[2024-04-03 04:35:31] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-03 04:35:31] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-03 04:35:31] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712110396.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712110895.tar.gz --markdown 20240403/p/pulumi-kubernetes-the-hard-way/0.0.11a1712110396-0.0.11a1712110895/diff.md --exclude *.pyd
+[2024-04-03 04:35:31] WARNING root fetch - processPackages [cyberdrop-dl]: Timeout reached during download
+[2024-04-03 04:35:31] INFO root fetch - processPackages [odoo-addon-account-multicurrency-revaluation]: Downloading https://files.pythonhosted.org/packages/02/e7/80970000d3c2ca192b2c24600dc42941a1b6f284038291ac98e59c2d9610/odoo_addon_account_multicurrency_revaluation-16.0.1.0.1.5-py3-none-any.whl
+[2024-04-03 04:35:31] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/70/20/f22e04dfeb9d590695c7ad5717bb26a6ac77e63ff03a453bca0040e326e1/ns_asphalt9-3.1.7.tar.gz
+[2024-04-03 04:35:31] WARNING root fetch - processPackages [odoo-addon-account-multicurrency-revaluation]: Timeout reached during download
+[2024-04-03 04:35:31] INFO root fetch - processPackages [odoo-addon-account-multicurrency-revaluation]: executing diffoscope
+[2024-04-03 04:35:31] INFO root fetch - processPackages [odoo-addon-account-multicurrency-revaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_multicurrency_revaluation-16.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_account_multicurrency_revaluation-16.0.1.0.1.5-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-account-multicurrency-revaluation/16.0.1.0.1.4-16.0.1.0.1.5/diff.md --exclude *.pyd
+[2024-04-03 04:35:31] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/a7/7a/092028b397178a9db79ef8faa65d75bf211ee19118810447fad4b661a628/cyberdrop_dl-5.2.9.tar.gz
+[2024-04-03 04:35:31] WARNING root fetch - processPackages [ns-asphalt9]: Timeout reached during download
+[2024-04-03 04:35:31] INFO root fetch - processPackages [ns-asphalt9]: executing diffoscope
+[2024-04-03 04:35:31] INFO root fetch - processPackages [ns-asphalt9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_asphalt9-3.1.6.tar.gz tmp/ns_asphalt9-3.1.7.tar.gz --markdown 20240403/n/ns-asphalt9/3.1.6-3.1.7/diff.md --exclude *.pyd
+[2024-04-03 04:35:31] WARNING root fetch - processPackages [cyberdrop-dl]: Timeout reached during download
+[2024-04-03 04:35:31] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2024-04-03 04:35:31] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop_dl-5.2.8.tar.gz tmp/cyberdrop_dl-5.2.9.tar.gz --markdown 20240403/c/cyberdrop-dl/5.2.8-5.2.9/diff.md --exclude *.pyd
+[2024-04-03 04:35:31] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712110396.tar.gz]
+[2024-04-03 04:35:31] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712110895.tar.gz]
+[2024-04-03 04:35:31] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-03 04:35:32] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-3.1.6.tar.gz]
+[2024-04-03 04:35:32] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-3.1.7.tar.gz]
+[2024-04-03 04:35:32] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
+[2024-04-03 04:35:32] INFO root fetch - processPackages [odoo-addon-account-multicurrency-revaluation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_multicurrency_revaluation-16.0.1.0.1.4-py3-none-any.whl.zip]
+[2024-04-03 04:35:32] INFO root fetch - processPackages [odoo-addon-account-multicurrency-revaluation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_multicurrency_revaluation-16.0.1.0.1.5-py3-none-any.whl.zip]
+[2024-04-03 04:35:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-multicurrency-revaluation]: success
+[2024-04-03 04:35:32] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.2.8.tar.gz]
+[2024-04-03 04:35:32] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.2.9.tar.gz]
+[2024-04-03 04:35:32] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2024-04-03 04:35:32] INFO root fetch - main [MainThread]: Store serial: [22596583]

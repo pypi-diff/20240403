@@ -22244,3 +22244,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:41:37] INFO root fetch - processPackages [mplhep]: Remove: archive file [/home/abi/fetcher/tmp/mplhep-0.3.9.tar.gz]
 [2024-04-03 08:41:37] INFO root fetch - main [MainThread]: End processing [mplhep]: success
 [2024-04-03 08:41:37] INFO root fetch - main [MainThread]: Store serial: [22598952]
+[2024-04-03 08:43:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598952]
+[2024-04-03 08:43:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 08:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lmcloud
+[2024-04-03 08:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-release-channel
+[2024-04-03 08:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: educommon
+[2024-04-03 08:43:46] INFO root fetch - processPackages [lmcloud]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-03 08:43:46] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/d3/94/fde8ef1f71f0ec75c2ba3a1249b8f52ece088c8f2b19ef0e928e7f8ff94e/lmcloud-1.1.6.tar.gz
+[2024-04-03 08:43:46] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: New version: [16.0.2.9.0] Old Version: [16.0.2.8.0]
+[2024-04-03 08:43:46] INFO root fetch - processPackages [educommon]: New version: [3.9.4] Old Version: [3.9.3]
+[2024-04-03 08:43:46] WARNING root fetch - processPackages [lmcloud]: Timeout reached during download
+[2024-04-03 08:43:46] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/82/55/ad5acd67d0edfee03e44bd97285e21088bf2bc0eecb47828d859a843e339/lmcloud-1.1.7.tar.gz
+[2024-04-03 08:43:46] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/52/92/1be60c2efa4c10575b7009ede41d26825460eb5beff77911075273d79984/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl
+[2024-04-03 08:43:46] INFO root fetch - processPackages [educommon]: Downloading https://files.pythonhosted.org/packages/d3/7e/2a8fc9dbe6a5eb33e6aa621cd0c1b5dc0594ba0fc1e35c9c04b20d53e4b3/educommon-3.9.3.tar.gz
+[2024-04-03 08:43:46] WARNING root fetch - processPackages [lmcloud]: Timeout reached during download
+[2024-04-03 08:43:46] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2024-04-03 08:43:46] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-1.1.6.tar.gz tmp/lmcloud-1.1.7.tar.gz --markdown 20240403/l/lmcloud/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2024-04-03 08:43:46] WARNING root fetch - processPackages [odoo-addon-stock-release-channel]: Timeout reached during download
+[2024-04-03 08:43:46] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/72/34/26d64f89ea9154c50e7429fb00f1b20a5649bfdcd36647026241b8137389/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl
+[2024-04-03 08:43:46] WARNING root fetch - processPackages [educommon]: Timeout reached during download
+[2024-04-03 08:43:47] WARNING root fetch - processPackages [odoo-addon-stock-release-channel]: Timeout reached during download
+[2024-04-03 08:43:47] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: executing diffoscope
+[2024-04-03 08:43:47] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl.zip tmp/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-stock-release-channel/16.0.2.8.0-16.0.2.9.0/diff.md --exclude *.pyd
+[2024-04-03 08:43:47] INFO root fetch - processPackages [educommon]: Downloading https://files.pythonhosted.org/packages/d9/98/a251149efc8ea5a4e049000575c339d1cf96377533b6cc81aeb61ddba598/educommon-3.9.4.tar.gz
+[2024-04-03 08:43:47] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-1.1.6.tar.gz]
+[2024-04-03 08:43:47] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-1.1.7.tar.gz]
+[2024-04-03 08:43:47] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2024-04-03 08:43:47] WARNING root fetch - processPackages [educommon]: Timeout reached during download
+[2024-04-03 08:43:47] INFO root fetch - processPackages [educommon]: executing diffoscope
+[2024-04-03 08:43:47] INFO root fetch - processPackages [educommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/educommon-3.9.3.tar.gz tmp/educommon-3.9.4.tar.gz --markdown 20240403/e/educommon/3.9.3-3.9.4/diff.md --exclude *.pyd
+[2024-04-03 08:43:47] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl.zip]
+[2024-04-03 08:43:47] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl.zip]
+[2024-04-03 08:43:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel]: success
+[2024-04-03 08:43:48] INFO root fetch - processPackages [educommon]: Remove: archive file [/home/abi/fetcher/tmp/educommon-3.9.3.tar.gz]
+[2024-04-03 08:43:48] INFO root fetch - processPackages [educommon]: Remove: archive file [/home/abi/fetcher/tmp/educommon-3.9.4.tar.gz]
+[2024-04-03 08:43:48] INFO root fetch - main [MainThread]: End processing [educommon]: success
+[2024-04-03 08:43:48] INFO root fetch - main [MainThread]: Store serial: [22598960]

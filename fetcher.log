@@ -18028,3 +18028,237 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:47:17] INFO root fetch - processPackages [odoo14-addon-mgmtsystem-nonconformity-hr]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mgmtsystem_nonconformity_hr-14.0.1.0.1.dev9-py3-none-any.whl.zip]
 [2024-04-03 06:47:17] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mgmtsystem-nonconformity-hr]: success
 [2024-04-03 06:47:17] INFO root fetch - main [MainThread]: Store serial: [22597708]
+[2024-04-03 06:49:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597708]
+[2024-04-03 06:49:26] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2024-04-03 06:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-dbdc
+[2024-04-03 06:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-115
+[2024-04-03 06:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-dc
+[2024-04-03 06:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-dcdb
+[2024-04-03 06:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-dlc
+[2024-04-03 06:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-mgmtsystem-hazard-risk
+[2024-04-03 06:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-dnspod
+[2024-04-03 06:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-mgmtsystem-hazard
+[2024-04-03 06:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-mgmtsystem-nonconformity-product
+[2024-04-03 06:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-domain
+[2024-04-03 06:49:26] INFO root fetch - processPackages [python-115]: New version: [0.0.5.1] Old Version: [0.0.5]
+[2024-04-03 06:49:26] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/42/77/94765787e509a51b62c542eb33eecb23fb944f1d8c92947a988c5c6c0575/python_115-0.0.5.tar.gz
+[2024-04-03 06:49:26] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-product]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2024-04-03 06:49:26] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:49:26] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-04-03 06:49:26] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-04-03 06:49:26] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:49:26] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dnspod]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-domain]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [python-115]: Timeout reached during download
+[2024-04-03 06:49:27] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-product]: Downloading https://files.pythonhosted.org/packages/b4/31/e8c91c3108476c4ff274f2310a998423fe8a1d419cbcbc7208ff14a8f642/odoo_addon_mgmtsystem_nonconformity_product-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: Downloading https://files.pythonhosted.org/packages/77/26/882302093c37af75b0bbd2eba6bd2a31eaf1070d14829fd8a5663bfabbed/tencentcloud-sdk-python-dlc-3.0.998.tar.gz
+[2024-04-03 06:49:27] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: Downloading https://files.pythonhosted.org/packages/41/56/0313a735834a9d65e9291c8bfcdffaf3e555be70f46b27c7d1cbb7944eab/odoo_addon_mgmtsystem_hazard-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: Downloading https://files.pythonhosted.org/packages/ed/29/ca7e68855be7a02cbc8ef9ceb58e86640b00732dd503c4f80ff3ccb1d214/tencentcloud-sdk-python-dc-3.0.998.tar.gz
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-product]: Timeout reached during download
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-domain]: Downloading https://files.pythonhosted.org/packages/e2/6a/2f36d4619fa0ea57eec22769415aec0bb3847d096b268f0c1084025779d2/tencentcloud-sdk-python-domain-3.0.998.tar.gz
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: Downloading https://files.pythonhosted.org/packages/1e/84/e6447d63875295fa993392beae63077aeb98badcb7bf94337b76c1516fb0/tencentcloud-sdk-python-dcdb-3.0.998.tar.gz
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dnspod]: Downloading https://files.pythonhosted.org/packages/52/25/f296756e1a12cd84f6f3be1f0b5d9db1d8c1f09c47e4c162fc8213e4fd2d/tencentcloud-sdk-python-dnspod-3.0.998.tar.gz
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: Downloading https://files.pythonhosted.org/packages/d1/87/a3c242dcbc3177d28a091f094ca58a9c94c9232317262e2a132f178885ec/tencentcloud-sdk-python-dbdc-3.0.998.tar.gz
+[2024-04-03 06:49:27] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/c3/31/d531ffb5fd1792781983591bc83419cc081f5810aa075baa8cbf57c6e58a/python_115-0.0.5.1.tar.gz
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [tencentcloud-sdk-python-dlc]: Timeout reached during download
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: Timeout reached during download
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [tencentcloud-sdk-python-dc]: Timeout reached during download
+[2024-04-03 06:49:27] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-product]: Downloading https://files.pythonhosted.org/packages/1c/25/2facf6e9ef4705a28c684a39984fb8232368781a8585b5c41a9d5d93ac30/odoo_addon_mgmtsystem_nonconformity_product-16.0.1.0.0.6-py3-none-any.whl
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [tencentcloud-sdk-python-domain]: Timeout reached during download
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [tencentcloud-sdk-python-dbdc]: Timeout reached during download
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [tencentcloud-sdk-python-dcdb]: Timeout reached during download
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [python-115]: Timeout reached during download
+[2024-04-03 06:49:27] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-04-03 06:49:27] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.5.tar.gz tmp/python_115-0.0.5.1.tar.gz --markdown 20240403/p/python-115/0.0.5-0.0.5.1/diff.md --exclude *.pyd
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [tencentcloud-sdk-python-dnspod]: Timeout reached during download
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: Downloading https://files.pythonhosted.org/packages/b7/d8/f75b5b755a1f360078e9fa445d2acd7bb3fe3eb14d4a2def5ae250f05faa/tencentcloud-sdk-python-dlc-3.0.999.tar.gz
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-product]: Timeout reached during download
+[2024-04-03 06:49:27] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-product]: executing diffoscope
+[2024-04-03 06:49:27] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_nonconformity_product-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_nonconformity_product-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-mgmtsystem-nonconformity-product/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2024-04-03 06:49:27] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: Downloading https://files.pythonhosted.org/packages/6c/e3/f077ebcc5baae36c49e626ea67db779fa59960fb04b7738481cda05399cc/odoo_addon_mgmtsystem_hazard-16.0.1.0.0.9-py3-none-any.whl
+[2024-04-03 06:49:27] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: Downloading https://files.pythonhosted.org/packages/f6/e5/b02f2cac984ca5813eb41d0c1465e55479421958be9c7af94bd637f5e1fe/odoo_addon_mgmtsystem_hazard_risk-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: Downloading https://files.pythonhosted.org/packages/09/c2/094e68550d2dcb79d9fb117edbfe476c341a1f7e340b77814f965597b6a9/tencentcloud-sdk-python-dc-3.0.999.tar.gz
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-domain]: Downloading https://files.pythonhosted.org/packages/33/56/05b42a08253b3f919b7dbb1462b60657ea3bbc8990e17befd8990a34bd43/tencentcloud-sdk-python-domain-3.0.999.tar.gz
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: Downloading https://files.pythonhosted.org/packages/ae/d3/7f97324dfd9f8d25d79d40674754fbea75c89a0ac071908a4144e1f43b5d/tencentcloud-sdk-python-dbdc-3.0.999.tar.gz
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [tencentcloud-sdk-python-dlc]: Timeout reached during download
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: executing diffoscope
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dlc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dlc-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-dlc/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: Downloading https://files.pythonhosted.org/packages/57/78/20bd5c842526739c8595b5a11bedf4c9a88cbd40a3f78e93b51c52e65a8d/tencentcloud-sdk-python-dcdb-3.0.999.tar.gz
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dnspod]: Downloading https://files.pythonhosted.org/packages/67/e4/421c9e3795354a4680f9952edd2da07fa9373103cbf6c4551348a0ffd594/tencentcloud-sdk-python-dnspod-3.0.999.tar.gz
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [tencentcloud-sdk-python-dc]: Timeout reached during download
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: executing diffoscope
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dc-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-dc/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: Timeout reached during download
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: Timeout reached during download
+[2024-04-03 06:49:27] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: executing diffoscope
+[2024-04-03 06:49:27] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_hazard-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_hazard-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-mgmtsystem-hazard/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [tencentcloud-sdk-python-dbdc]: Timeout reached during download
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: executing diffoscope
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dbdc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dbdc-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-dbdc/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [tencentcloud-sdk-python-domain]: Timeout reached during download
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-domain]: executing diffoscope
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-domain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-domain-3.0.998.tar.gz tmp/tencentcloud-sdk-python-domain-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-domain/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:49:27] WARNING root fetch - processPackages [tencentcloud-sdk-python-dcdb]: Timeout reached during download
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: executing diffoscope
+[2024-04-03 06:49:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dcdb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dcdb-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-dcdb/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:49:28] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: Downloading https://files.pythonhosted.org/packages/f9/fb/c5d9a9d2c5463cb6ccd25282e6306cb3f9ef0ed3ff58c526c38932a8021e/odoo_addon_mgmtsystem_hazard_risk-16.0.1.0.0.9-py3-none-any.whl
+[2024-04-03 06:49:28] WARNING root fetch - processPackages [tencentcloud-sdk-python-dnspod]: Timeout reached during download
+[2024-04-03 06:49:28] INFO root fetch - processPackages [tencentcloud-sdk-python-dnspod]: executing diffoscope
+[2024-04-03 06:49:28] INFO root fetch - processPackages [tencentcloud-sdk-python-dnspod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dnspod-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dnspod-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-dnspod/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:49:28] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: Timeout reached during download
+[2024-04-03 06:49:28] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: executing diffoscope
+[2024-04-03 06:49:28] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_hazard_risk-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_hazard_risk-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-mgmtsystem-hazard-risk/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2024-04-03 06:49:28] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.5.tar.gz]
+[2024-04-03 06:49:28] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.5.1.tar.gz]
+[2024-04-03 06:49:28] INFO root fetch - processPackages [python-115]: Start processing: odoo-addon-mgmtsystem-nonconformity-hazard
+[2024-04-03 06:49:28] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-04-03 06:49:28] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hazard]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-04-03 06:49:28] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dlc-3.0.998.tar.gz]
+[2024-04-03 06:49:28] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dlc-3.0.999.tar.gz]
+[2024-04-03 06:49:28] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: Start processing: tencentcloud-sdk-python-drm
+[2024-04-03 06:49:28] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dlc]: success
+[2024-04-03 06:49:28] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_nonconformity_product-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-03 06:49:28] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_nonconformity_product-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-03 06:49:28] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-product]: Start processing: odoo-addon-mgmtsystem-nonconformity-mrp
+[2024-04-03 06:49:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-nonconformity-product]: success
+[2024-04-03 06:49:28] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dc-3.0.998.tar.gz]
+[2024-04-03 06:49:28] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dc-3.0.999.tar.gz]
+[2024-04-03 06:49:28] INFO root fetch - processPackages [tencentcloud-sdk-python-dc]: Start processing: tencentcloud-sdk-python-ds
+[2024-04-03 06:49:28] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dc]: success
+[2024-04-03 06:49:28] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-mrp]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-04-03 06:49:28] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hazard]: Downloading https://files.pythonhosted.org/packages/bc/c6/ff6cd4e21313f9759617648cd4c04bef21bbcc86a1e5da7f90b0ec27bfcf/odoo_addon_mgmtsystem_nonconformity_hazard-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-03 06:49:28] INFO root fetch - processPackages [tencentcloud-sdk-python-domain]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-domain-3.0.998.tar.gz]
+[2024-04-03 06:49:28] INFO root fetch - processPackages [tencentcloud-sdk-python-domain]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-domain-3.0.999.tar.gz]
+[2024-04-03 06:49:28] INFO root fetch - processPackages [tencentcloud-sdk-python-domain]: Start processing: odoo-addon-mgmtsystem-nonconformity-maintenance-equipment
+[2024-04-03 06:49:28] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-domain]: success
+[2024-04-03 06:49:28] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:49:28] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:49:28] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dbdc-3.0.998.tar.gz]
+[2024-04-03 06:49:28] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dbdc-3.0.999.tar.gz]
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-dbdc]: Start processing: tencentcloud-sdk-python-dsgc
+[2024-04-03 06:49:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dbdc]: success
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-dnspod]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dnspod-3.0.998.tar.gz]
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-dnspod]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dnspod-3.0.999.tar.gz]
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-dnspod]: Start processing: odoo-addon-mgmtsystem-nonconformity-hr
+[2024-04-03 06:49:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dnspod]: success
+[2024-04-03 06:49:29] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hazard]: Timeout reached during download
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-maintenance-equipment]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dcdb-3.0.998.tar.gz]
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dcdb-3.0.999.tar.gz]
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: Start processing: tencentcloud-sdk-python-dtf
+[2024-04-03 06:49:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dcdb]: success
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-mrp]: Downloading https://files.pythonhosted.org/packages/24/81/de1abe1e9cd6842dd2dc613c7d2e731220d9f72733f9a67b71e724abc764/odoo_addon_mgmtsystem_nonconformity_mrp-16.0.1.0.0.7-py3-none-any.whl
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_hazard-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_hazard-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: Start processing: tencentcloud-sdk-python-dts
+[2024-04-03 06:49:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-hazard]: success
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hr]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-dsgc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: Downloading https://files.pythonhosted.org/packages/9f/1f/dc2bf0022737868f77480ee972a0e6bc49c48a9754da59121c0e75b5d676/tencentcloud-sdk-python-drm-3.0.998.tar.gz
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_hazard_risk-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_hazard_risk-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: Start processing: odoo-addon-mgmtsystem-hazard-risk
+[2024-04-03 06:49:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-hazard-risk]: success
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: Downloading https://files.pythonhosted.org/packages/d5/7b/e1c5912e257601b45179d07960d71d4f3f012fb5985ea587f5f6b59b4cf0/tencentcloud-sdk-python-ds-3.0.998.tar.gz
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hazard]: Downloading https://files.pythonhosted.org/packages/29/78/288814ecd8b94d82fa1c41b126d09aebea7581dba70d4bf560b3dd8bca4f/odoo_addon_mgmtsystem_nonconformity_hazard-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-03 06:49:29] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-mrp]: Timeout reached during download
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-maintenance-equipment]: Downloading https://files.pythonhosted.org/packages/97/43/16ef9e46e80d2d7694c48e036a74429d49632de17e3f5e3cd42adb598f58/odoo_addon_mgmtsystem_nonconformity_maintenance_equipment-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:49:29] WARNING root fetch - processPackages [tencentcloud-sdk-python-drm]: Timeout reached during download
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-dtf]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:49:29] WARNING root fetch - processPackages [tencentcloud-sdk-python-ds]: Timeout reached during download
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: Downloading https://files.pythonhosted.org/packages/f6/e5/b02f2cac984ca5813eb41d0c1465e55479421958be9c7af94bd637f5e1fe/odoo_addon_mgmtsystem_hazard_risk-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hr]: Downloading https://files.pythonhosted.org/packages/89/5a/e73ea737e8635191fa8be2e185d11f59657c42b12eaad8d207417de1bbbd/odoo_addon_mgmtsystem_nonconformity_hr-16.0.1.0.0.7-py3-none-any.whl
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-dsgc]: Downloading https://files.pythonhosted.org/packages/96/66/bc5045a40ffc3a10b91e786eaa7e179259f016c09c57bf3ecdab4adc8470/tencentcloud-sdk-python-dsgc-3.0.998.tar.gz
+[2024-04-03 06:49:29] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-maintenance-equipment]: Timeout reached during download
+[2024-04-03 06:49:29] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hazard]: Timeout reached during download
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hazard]: executing diffoscope
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hazard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_nonconformity_hazard-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_nonconformity_hazard-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-mgmtsystem-nonconformity-hazard/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-mrp]: Downloading https://files.pythonhosted.org/packages/2b/21/6555d4add21819d79414cb33c2bdfa92939ff84d2212ba2d40dbe0a18031/odoo_addon_mgmtsystem_nonconformity_mrp-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-03 06:49:29] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: Timeout reached during download
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: Downloading https://files.pythonhosted.org/packages/4a/1a/5dd907dee74e20bf39d5db280e103168c55c947cf813d600daae1bc108c1/tencentcloud-sdk-python-dts-3.0.998.tar.gz
+[2024-04-03 06:49:29] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hr]: Timeout reached during download
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: Downloading https://files.pythonhosted.org/packages/94/e3/d2be169f0030f47e065c061e98142fe559270e2f01674c69028e157c8d30/tencentcloud-sdk-python-drm-3.0.999.tar.gz
+[2024-04-03 06:49:29] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-mrp]: Timeout reached during download
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-mrp]: executing diffoscope
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-mrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_nonconformity_mrp-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_nonconformity_mrp-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-mgmtsystem-nonconformity-mrp/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2024-04-03 06:49:29] WARNING root fetch - processPackages [tencentcloud-sdk-python-dsgc]: Timeout reached during download
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-dtf]: Downloading https://files.pythonhosted.org/packages/bd/53/751df27729979c3f7afbeb82ef5527b49eabfe5eaa437b5cb01b6d21fc62/tencentcloud-sdk-python-dtf-3.0.998.tar.gz
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: Downloading https://files.pythonhosted.org/packages/c9/d3/b481377063f6403fd6affbd0e6053483de117ae598805d34d141a4edde26/tencentcloud-sdk-python-ds-3.0.999.tar.gz
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-maintenance-equipment]: Downloading https://files.pythonhosted.org/packages/b9/55/eb9906043975afc9a5dddd52c8c4c1bf0411631dc3b6488c1136d7a39d36/odoo_addon_mgmtsystem_nonconformity_maintenance_equipment-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: Downloading https://files.pythonhosted.org/packages/f9/fb/c5d9a9d2c5463cb6ccd25282e6306cb3f9ef0ed3ff58c526c38932a8021e/odoo_addon_mgmtsystem_hazard_risk-16.0.1.0.0.9-py3-none-any.whl
+[2024-04-03 06:49:29] WARNING root fetch - processPackages [tencentcloud-sdk-python-drm]: Timeout reached during download
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: executing diffoscope
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-drm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-drm-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-drm/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:49:29] WARNING root fetch - processPackages [tencentcloud-sdk-python-dts]: Timeout reached during download
+[2024-04-03 06:49:29] WARNING root fetch - processPackages [tencentcloud-sdk-python-dtf]: Timeout reached during download
+[2024-04-03 06:49:29] WARNING root fetch - processPackages [tencentcloud-sdk-python-ds]: Timeout reached during download
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: executing diffoscope
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ds-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ds-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-ds/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:49:29] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-maintenance-equipment]: Timeout reached during download
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-maintenance-equipment]: executing diffoscope
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-maintenance-equipment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_nonconformity_maintenance_equipment-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_nonconformity_maintenance_equipment-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-mgmtsystem-nonconformity-maintenance-equipment/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hr]: Downloading https://files.pythonhosted.org/packages/88/9e/1aaa1f8541d4821c43c8ea79925fbb545eae7eabe5b176a921b2d703d75b/odoo_addon_mgmtsystem_nonconformity_hr-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-03 06:49:29] INFO root fetch - processPackages [tencentcloud-sdk-python-dsgc]: Downloading https://files.pythonhosted.org/packages/7b/36/33e7d5c491826ccbbed42ef51bd72e7d5bfa8246bf47c78ef18541939a40/tencentcloud-sdk-python-dsgc-3.0.999.tar.gz
+[2024-04-03 06:49:29] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: Timeout reached during download
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: executing diffoscope
+[2024-04-03 06:49:29] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_hazard_risk-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_hazard_risk-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-mgmtsystem-hazard-risk/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2024-04-03 06:49:30] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hr]: Timeout reached during download
+[2024-04-03 06:49:30] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hr]: executing diffoscope
+[2024-04-03 06:49:30] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_nonconformity_hr-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_nonconformity_hr-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-mgmtsystem-nonconformity-hr/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2024-04-03 06:49:30] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: Downloading https://files.pythonhosted.org/packages/bc/e5/7d258615513da1febfbe7125f1af94ffc876684b6c5aa2992e5a483d5608/tencentcloud-sdk-python-dts-3.0.999.tar.gz
+[2024-04-03 06:49:30] INFO root fetch - processPackages [tencentcloud-sdk-python-dtf]: Downloading https://files.pythonhosted.org/packages/fa/ce/02ddf349bb494924db9421f5baa48b685a3c104a7f2b87367cd4504686f2/tencentcloud-sdk-python-dtf-3.0.999.tar.gz
+[2024-04-03 06:49:30] WARNING root fetch - processPackages [tencentcloud-sdk-python-dsgc]: Timeout reached during download
+[2024-04-03 06:49:30] INFO root fetch - processPackages [tencentcloud-sdk-python-dsgc]: executing diffoscope
+[2024-04-03 06:49:30] INFO root fetch - processPackages [tencentcloud-sdk-python-dsgc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dsgc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dsgc-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-dsgc/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:49:30] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hazard]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_nonconformity_hazard-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-03 06:49:30] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hazard]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_nonconformity_hazard-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-03 06:49:30] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hazard]: Start processing: odoo-addon-mgmtsystem-hazard
+[2024-04-03 06:49:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-nonconformity-hazard]: success
+[2024-04-03 06:49:30] WARNING root fetch - processPackages [tencentcloud-sdk-python-dts]: Timeout reached during download
+[2024-04-03 06:49:30] WARNING root fetch - processPackages [tencentcloud-sdk-python-dtf]: Timeout reached during download
+[2024-04-03 06:49:30] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: executing diffoscope
+[2024-04-03 06:49:30] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dts-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dts-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-dts/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:49:30] INFO root fetch - processPackages [tencentcloud-sdk-python-dtf]: executing diffoscope
+[2024-04-03 06:49:30] INFO root fetch - processPackages [tencentcloud-sdk-python-dtf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dtf-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dtf-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-dtf/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:49:30] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-04-03 06:49:30] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: Downloading https://files.pythonhosted.org/packages/41/56/0313a735834a9d65e9291c8bfcdffaf3e555be70f46b27c7d1cbb7944eab/odoo_addon_mgmtsystem_hazard-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-03 06:49:30] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: Timeout reached during download
+[2024-04-03 06:49:30] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-mrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_nonconformity_mrp-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-03 06:49:30] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-mrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_nonconformity_mrp-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-03 06:49:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-nonconformity-mrp]: success
+[2024-04-03 06:49:30] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: Downloading https://files.pythonhosted.org/packages/6c/e3/f077ebcc5baae36c49e626ea67db779fa59960fb04b7738481cda05399cc/odoo_addon_mgmtsystem_hazard-16.0.1.0.0.9-py3-none-any.whl
+[2024-04-03 06:49:30] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-drm-3.0.998.tar.gz]
+[2024-04-03 06:49:30] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-drm-3.0.999.tar.gz]
+[2024-04-03 06:49:30] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-drm]: success
+[2024-04-03 06:49:30] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ds-3.0.998.tar.gz]
+[2024-04-03 06:49:30] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ds-3.0.999.tar.gz]
+[2024-04-03 06:49:30] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ds]: success
+[2024-04-03 06:49:30] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-maintenance-equipment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_nonconformity_maintenance_equipment-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-03 06:49:30] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-maintenance-equipment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_nonconformity_maintenance_equipment-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-03 06:49:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-nonconformity-maintenance-equipment]: success
+[2024-04-03 06:49:30] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: Timeout reached during download
+[2024-04-03 06:49:30] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: executing diffoscope
+[2024-04-03 06:49:30] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_hazard-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_hazard-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-mgmtsystem-hazard/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2024-04-03 06:49:30] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_hazard_risk-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-03 06:49:30] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_hazard_risk-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-03 06:49:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-hazard-risk]: success
+[2024-04-03 06:49:31] INFO root fetch - processPackages [tencentcloud-sdk-python-dsgc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dsgc-3.0.998.tar.gz]
+[2024-04-03 06:49:31] INFO root fetch - processPackages [tencentcloud-sdk-python-dsgc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dsgc-3.0.999.tar.gz]
+[2024-04-03 06:49:31] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dsgc]: success
+[2024-04-03 06:49:31] INFO root fetch - processPackages [tencentcloud-sdk-python-dtf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dtf-3.0.998.tar.gz]
+[2024-04-03 06:49:31] INFO root fetch - processPackages [tencentcloud-sdk-python-dtf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dtf-3.0.999.tar.gz]
+[2024-04-03 06:49:31] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dtf]: success
+[2024-04-03 06:49:31] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dts-3.0.998.tar.gz]
+[2024-04-03 06:49:31] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dts-3.0.999.tar.gz]
+[2024-04-03 06:49:31] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dts]: success
+[2024-04-03 06:49:31] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hr]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_nonconformity_hr-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-03 06:49:31] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-hr]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_nonconformity_hr-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-03 06:49:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-nonconformity-hr]: success
+[2024-04-03 06:49:31] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_hazard-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-03 06:49:31] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_hazard-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-03 06:49:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-hazard]: success
+[2024-04-03 06:49:31] INFO root fetch - main [MainThread]: Store serial: [22597764]

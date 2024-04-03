@@ -22722,3 +22722,86 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 09:01:59] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-04-03 09:01:59] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-04-03 09:01:59] INFO root fetch - main [MainThread]: Store serial: [22599147]
+[2024-04-03 09:04:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599147]
+[2024-04-03 09:04:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-03 09:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RTSAI
+[2024-04-03 09:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqio-nightly
+[2024-04-03 09:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: url-matcher
+[2024-04-03 09:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mysql-compare
+[2024-04-03 09:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volcano-base
+[2024-04-03 09:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: logger-36
+[2024-04-03 09:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: helldivers-2-api
+[2024-04-03 09:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ctfer-io-pulumi-ctfd
+[2024-04-03 09:04:08] INFO root fetch - processPackages [RTSAI]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-03 09:04:08] INFO root fetch - processPackages [ctfer-io-pulumi-ctfd]: New version: [0.1.22] Old Version: [0.1.21]
+[2024-04-03 09:04:08] INFO root fetch - processPackages [mysql-compare]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-03 09:04:08] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-04-03 09:04:08] INFO root fetch - processPackages [RTSAI]: Downloading https://files.pythonhosted.org/packages/f6/30/de730d6914365d7fd4a3f22e0dec65f8a53d670213c891157178710cc228/RTSAI-0.1.4.tar.gz
+[2024-04-03 09:04:08] WARNING root fetch - processPackages [helldivers-2-api]: Skipping, unable to determine old version
+[2024-04-03 09:04:08] INFO root fetch - main [MainThread]: End processing [helldivers-2-api] error
+[2024-04-03 09:04:08] INFO root fetch - processPackages [logger-36]: New version: [2024.5] Old Version: [2024.4]
+[2024-04-03 09:04:08] INFO root fetch - processPackages [url-matcher]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-03 09:04:08] INFO root fetch - processPackages [ctfer-io-pulumi-ctfd]: Downloading https://files.pythonhosted.org/packages/ab/70/b585c168a9f4199bd19ee99caf4951593af14544cef1dc25a5cd604cafaa/ctfer-io_pulumi-ctfd-0.1.21.tar.gz
+[2024-04-03 09:04:08] INFO root fetch - processPackages [mysql-compare]: Downloading https://files.pythonhosted.org/packages/b0/a9/b948ffa278910b8fd86299b1d9581d53424d179e07a907b51cce532c45b8/mysql-compare-0.2.8.tar.gz
+[2024-04-03 09:04:08] INFO root fetch - processPackages [volcano-base]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-04-03 09:04:08] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-04-03 09:04:08] WARNING root fetch - processPackages [mysql-compare]: Timeout reached during download
+[2024-04-03 09:04:08] WARNING root fetch - processPackages [ctfer-io-pulumi-ctfd]: Timeout reached during download
+[2024-04-03 09:04:08] WARNING root fetch - processPackages [RTSAI]: Timeout reached during download
+[2024-04-03 09:04:08] WARNING root fetch - processPackages [seqio-nightly]: Timeout reached during download
+[2024-04-03 09:04:09] INFO root fetch - processPackages [logger-36]: Downloading https://files.pythonhosted.org/packages/87/48/2455707b2fad9f7a154a6f4ed8f2663f905626e53fe50e93d6f80912cd9c/logger-36-2024.4.tar.gz
+[2024-04-03 09:04:09] INFO root fetch - processPackages [url-matcher]: Downloading https://files.pythonhosted.org/packages/c0/6e/2e66d01ca255e7e6982006830a989ee44951bcb834e5e8fc38703415ba01/url-matcher-0.3.0.tar.gz
+[2024-04-03 09:04:09] INFO root fetch - processPackages [mysql-compare]: Downloading https://files.pythonhosted.org/packages/f4/ec/e1e4c8bf19c39b76e565554550368a429d467a0fee74573dcc638c950a0a/mysql-compare-0.2.9.tar.gz
+[2024-04-03 09:04:09] INFO root fetch - processPackages [volcano-base]: Downloading https://files.pythonhosted.org/packages/22/8b/678f3673efee7ac0ba0952974fb7495feebb5a0953d0c0a5d54e3f294821/volcano_base-1.8.1.tar.gz
+[2024-04-03 09:04:09] INFO root fetch - processPackages [ctfer-io-pulumi-ctfd]: Downloading https://files.pythonhosted.org/packages/41/2a/0bfba5c6bd4ac17900310be90ee311f6f8ccb39c2cadfd74110b82eeec56/ctfer-io_pulumi-ctfd-0.1.22.tar.gz
+[2024-04-03 09:04:09] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-04-03 09:04:09] INFO root fetch - processPackages [RTSAI]: Downloading https://files.pythonhosted.org/packages/30/d0/4664935109b43e56f316dab2453ae95ef7fab3b137921b7855533ba408de/RTSAI-0.1.5.tar.gz
+[2024-04-03 09:04:09] WARNING root fetch - processPackages [logger-36]: Timeout reached during download
+[2024-04-03 09:04:09] WARNING root fetch - processPackages [mysql-compare]: Timeout reached during download
+[2024-04-03 09:04:09] INFO root fetch - processPackages [mysql-compare]: executing diffoscope
+[2024-04-03 09:04:09] INFO root fetch - processPackages [mysql-compare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql-compare-0.2.8.tar.gz tmp/mysql-compare-0.2.9.tar.gz --markdown 20240403/m/mysql-compare/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-03 09:04:09] WARNING root fetch - processPackages [volcano-base]: Timeout reached during download
+[2024-04-03 09:04:09] WARNING root fetch - processPackages [ctfer-io-pulumi-ctfd]: Timeout reached during download
+[2024-04-03 09:04:09] INFO root fetch - processPackages [ctfer-io-pulumi-ctfd]: executing diffoscope
+[2024-04-03 09:04:09] INFO root fetch - processPackages [ctfer-io-pulumi-ctfd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctfer-io_pulumi-ctfd-0.1.21.tar.gz tmp/ctfer-io_pulumi-ctfd-0.1.22.tar.gz --markdown 20240403/c/ctfer-io-pulumi-ctfd/0.1.21-0.1.22/diff.md --exclude *.pyd
+[2024-04-03 09:04:09] WARNING root fetch - processPackages [url-matcher]: Timeout reached during download
+[2024-04-03 09:04:09] WARNING root fetch - processPackages [RTSAI]: Timeout reached during download
+[2024-04-03 09:04:09] INFO root fetch - processPackages [RTSAI]: executing diffoscope
+[2024-04-03 09:04:09] INFO root fetch - processPackages [RTSAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RTSAI-0.1.4.tar.gz tmp/RTSAI-0.1.5.tar.gz --markdown 20240403/R/RTSAI/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-03 09:04:09] WARNING root fetch - processPackages [seqio-nightly]: Timeout reached during download
+[2024-04-03 09:04:09] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-04-03 09:04:09] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240403/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2024-04-03 09:04:09] INFO root fetch - processPackages [logger-36]: Downloading https://files.pythonhosted.org/packages/56/5b/bd5c30b1a154898333a1a70e283a49389c4cb6d46e575cbb6c4e1441a597/logger-36-2024.5.tar.gz
+[2024-04-03 09:04:09] INFO root fetch - processPackages [volcano-base]: Downloading https://files.pythonhosted.org/packages/e2/28/e2ed5039bb1c4c157f5395d359b580f5d35d2e86d4ef02c9ce696529ff2b/volcano_base-1.8.2.tar.gz
+[2024-04-03 09:04:09] INFO root fetch - processPackages [url-matcher]: Downloading https://files.pythonhosted.org/packages/10/06/e954e37f93a2c296e314399f8d87ea034c2bc6773b5c5063126a339c7348/url-matcher-0.4.0.tar.gz
+[2024-04-03 09:04:09] WARNING root fetch - processPackages [logger-36]: Timeout reached during download
+[2024-04-03 09:04:09] INFO root fetch - processPackages [logger-36]: executing diffoscope
+[2024-04-03 09:04:09] INFO root fetch - processPackages [logger-36]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-36-2024.4.tar.gz tmp/logger-36-2024.5.tar.gz --markdown 20240403/l/logger-36/2024.4-2024.5/diff.md --exclude *.pyd
+[2024-04-03 09:04:09] WARNING root fetch - processPackages [url-matcher]: Timeout reached during download
+[2024-04-03 09:04:09] INFO root fetch - processPackages [url-matcher]: executing diffoscope
+[2024-04-03 09:04:09] INFO root fetch - processPackages [url-matcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/url-matcher-0.3.0.tar.gz tmp/url-matcher-0.4.0.tar.gz --markdown 20240403/u/url-matcher/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-03 09:04:09] WARNING root fetch - processPackages [volcano-base]: Timeout reached during download
+[2024-04-03 09:04:09] INFO root fetch - processPackages [volcano-base]: executing diffoscope
+[2024-04-03 09:04:09] INFO root fetch - processPackages [volcano-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcano_base-1.8.1.tar.gz tmp/volcano_base-1.8.2.tar.gz --markdown 20240403/v/volcano-base/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2024-04-03 09:04:09] INFO root fetch - processPackages [ctfer-io-pulumi-ctfd]: Remove: archive file [/home/abi/fetcher/tmp/ctfer-io_pulumi-ctfd-0.1.21.tar.gz]
+[2024-04-03 09:04:09] INFO root fetch - processPackages [ctfer-io-pulumi-ctfd]: Remove: archive file [/home/abi/fetcher/tmp/ctfer-io_pulumi-ctfd-0.1.22.tar.gz]
+[2024-04-03 09:04:09] INFO root fetch - main [MainThread]: End processing [ctfer-io-pulumi-ctfd]: success
+[2024-04-03 09:04:09] INFO root fetch - processPackages [mysql-compare]: Remove: archive file [/home/abi/fetcher/tmp/mysql-compare-0.2.8.tar.gz]
+[2024-04-03 09:04:09] INFO root fetch - processPackages [mysql-compare]: Remove: archive file [/home/abi/fetcher/tmp/mysql-compare-0.2.9.tar.gz]
+[2024-04-03 09:04:09] INFO root fetch - main [MainThread]: End processing [mysql-compare]: success
+[2024-04-03 09:04:10] INFO root fetch - processPackages [RTSAI]: Remove: archive file [/home/abi/fetcher/tmp/RTSAI-0.1.4.tar.gz]
+[2024-04-03 09:04:10] INFO root fetch - processPackages [RTSAI]: Remove: archive file [/home/abi/fetcher/tmp/RTSAI-0.1.5.tar.gz]
+[2024-04-03 09:04:10] INFO root fetch - main [MainThread]: End processing [RTSAI]: success
+[2024-04-03 09:04:10] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-04-03 09:04:10] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-04-03 09:04:10] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-04-03 09:04:10] INFO root fetch - processPackages [url-matcher]: Remove: archive file [/home/abi/fetcher/tmp/url-matcher-0.3.0.tar.gz]
+[2024-04-03 09:04:10] INFO root fetch - processPackages [url-matcher]: Remove: archive file [/home/abi/fetcher/tmp/url-matcher-0.4.0.tar.gz]
+[2024-04-03 09:04:10] INFO root fetch - main [MainThread]: End processing [url-matcher]: success
+[2024-04-03 09:04:10] INFO root fetch - processPackages [volcano-base]: Remove: archive file [/home/abi/fetcher/tmp/volcano_base-1.8.1.tar.gz]
+[2024-04-03 09:04:10] INFO root fetch - processPackages [volcano-base]: Remove: archive file [/home/abi/fetcher/tmp/volcano_base-1.8.2.tar.gz]
+[2024-04-03 09:04:10] INFO root fetch - main [MainThread]: End processing [volcano-base]: success
+[2024-04-03 09:04:10] INFO root fetch - processPackages [logger-36]: Remove: archive file [/home/abi/fetcher/tmp/logger-36-2024.4.tar.gz]
+[2024-04-03 09:04:10] INFO root fetch - processPackages [logger-36]: Remove: archive file [/home/abi/fetcher/tmp/logger-36-2024.5.tar.gz]
+[2024-04-03 09:04:10] INFO root fetch - main [MainThread]: End processing [logger-36]: success
+[2024-04-03 09:04:10] INFO root fetch - main [MainThread]: Store serial: [22599175]

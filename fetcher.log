@@ -17131,3 +17131,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:22:52] INFO root fetch - processPackages [tencentcloud-sdk-python-bmlb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bmlb-3.0.999.tar.gz]
 [2024-04-03 06:22:52] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bmlb]: success
 [2024-04-03 06:22:52] INFO root fetch - main [MainThread]: Store serial: [22597451]
+[2024-04-03 06:24:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597451]
+[2024-04-03 06:25:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 06:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-bsca
+[2024-04-03 06:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vxutils
+[2024-04-03 06:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-btoe
+[2024-04-03 06:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-cam
+[2024-04-03 06:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-captcha
+[2024-04-03 06:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-car
+[2024-04-03 06:25:01] INFO root fetch - processPackages [vxutils]: New version: [20240402] Old Version: [20240401]
+[2024-04-03 06:25:01] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:25:01] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:25:01] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:25:01] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:25:01] INFO root fetch - processPackages [vxutils]: Downloading https://files.pythonhosted.org/packages/57/45/929f169d7a4c648c35a448c94643bebaf411ca7b0d1b225baed0b86ca880/vxutils-20240401.tar.gz
+[2024-04-03 06:25:01] INFO root fetch - processPackages [tencentcloud-sdk-python-btoe]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:25:01] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: Downloading https://files.pythonhosted.org/packages/69/4e/d0a3879609e7a4d9d3890b22f5d0f5585b619a03e7add31851d306705ffe/tencentcloud-sdk-python-bsca-3.0.998.tar.gz
+[2024-04-03 06:25:01] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: Downloading https://files.pythonhosted.org/packages/56/97/1c0589929a3174688c889854f9ee635d38da62e7522d4052f8a71151f909/tencentcloud-sdk-python-car-3.0.998.tar.gz
+[2024-04-03 06:25:01] WARNING root fetch - processPackages [vxutils]: Timeout reached during download
+[2024-04-03 06:25:01] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: Downloading https://files.pythonhosted.org/packages/ae/e6/7a9eb0c4db8fa547e907729443d6b3993a7fd2778ed144f2af07bbee6a70/tencentcloud-sdk-python-captcha-3.0.998.tar.gz
+[2024-04-03 06:25:01] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: Downloading https://files.pythonhosted.org/packages/dc/04/9bad55be1475c34688a89d6805905ad3e6b133db0124cd15e4bc4e710aaa/tencentcloud-sdk-python-cam-3.0.998.tar.gz
+[2024-04-03 06:25:01] WARNING root fetch - processPackages [tencentcloud-sdk-python-bsca]: Timeout reached during download
+[2024-04-03 06:25:01] INFO root fetch - processPackages [tencentcloud-sdk-python-btoe]: Downloading https://files.pythonhosted.org/packages/e2/26/02ff04e31c5fcaeef9419f24ddad474c14fb5a32cfe083af14bad9b286bc/tencentcloud-sdk-python-btoe-3.0.998.tar.gz
+[2024-04-03 06:25:01] WARNING root fetch - processPackages [tencentcloud-sdk-python-car]: Timeout reached during download
+[2024-04-03 06:25:01] WARNING root fetch - processPackages [tencentcloud-sdk-python-cam]: Timeout reached during download
+[2024-04-03 06:25:01] INFO root fetch - processPackages [vxutils]: Downloading https://files.pythonhosted.org/packages/b2/42/0bd2b718017f4110b8935f27b32906cb3821b8ccd931321b9d934e220c83/vxutils-20240402.tar.gz
+[2024-04-03 06:25:01] WARNING root fetch - processPackages [tencentcloud-sdk-python-captcha]: Timeout reached during download
+[2024-04-03 06:25:01] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: Downloading https://files.pythonhosted.org/packages/35/c9/69d7f04299fc69976200c975a91bcf8c06a0d9f6d08c90e00d579ff64287/tencentcloud-sdk-python-bsca-3.0.999.tar.gz
+[2024-04-03 06:25:01] WARNING root fetch - processPackages [tencentcloud-sdk-python-btoe]: Timeout reached during download
+[2024-04-03 06:25:01] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: Downloading https://files.pythonhosted.org/packages/93/01/2def16a7eab8df891bb5296d8f2326a7587a9c93f69477f6d35b5d5431fa/tencentcloud-sdk-python-car-3.0.999.tar.gz
+[2024-04-03 06:25:01] WARNING root fetch - processPackages [vxutils]: Timeout reached during download
+[2024-04-03 06:25:01] INFO root fetch - processPackages [vxutils]: executing diffoscope
+[2024-04-03 06:25:01] INFO root fetch - processPackages [vxutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vxutils-20240401.tar.gz tmp/vxutils-20240402.tar.gz --markdown 20240403/v/vxutils/20240401-20240402/diff.md --exclude *.pyd
+[2024-04-03 06:25:01] WARNING root fetch - processPackages [tencentcloud-sdk-python-bsca]: Timeout reached during download
+[2024-04-03 06:25:01] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: executing diffoscope
+[2024-04-03 06:25:01] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bsca-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bsca-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-bsca/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:25:01] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: Downloading https://files.pythonhosted.org/packages/4e/6f/33a1b2a6f858c70fcac237f86a2734efcec706266cdf4f0a2ac456f7bca0/tencentcloud-sdk-python-cam-3.0.999.tar.gz
+[2024-04-03 06:25:02] WARNING root fetch - processPackages [tencentcloud-sdk-python-car]: Timeout reached during download
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: executing diffoscope
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-car-3.0.998.tar.gz tmp/tencentcloud-sdk-python-car-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-car/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: Downloading https://files.pythonhosted.org/packages/88/bb/b879fd89d2cb6bbf8b0af4c7f29d8a15dca4711cb5a90cbc69000ac5a2c3/tencentcloud-sdk-python-captcha-3.0.999.tar.gz
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-btoe]: Downloading https://files.pythonhosted.org/packages/ab/f0/d4e6e8884589e4d58b04912bd3212e5b34eb71418deb82a2ce1e52c3b868/tencentcloud-sdk-python-btoe-3.0.999.tar.gz
+[2024-04-03 06:25:02] WARNING root fetch - processPackages [tencentcloud-sdk-python-cam]: Timeout reached during download
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: executing diffoscope
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cam-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cam-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-cam/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:25:02] WARNING root fetch - processPackages [tencentcloud-sdk-python-captcha]: Timeout reached during download
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: executing diffoscope
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-captcha-3.0.998.tar.gz tmp/tencentcloud-sdk-python-captcha-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-captcha/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:25:02] WARNING root fetch - processPackages [tencentcloud-sdk-python-btoe]: Timeout reached during download
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-btoe]: executing diffoscope
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-btoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-btoe-3.0.998.tar.gz tmp/tencentcloud-sdk-python-btoe-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-btoe/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:25:02] INFO root fetch - processPackages [vxutils]: Remove: archive file [/home/abi/fetcher/tmp/vxutils-20240401.tar.gz]
+[2024-04-03 06:25:02] INFO root fetch - processPackages [vxutils]: Remove: archive file [/home/abi/fetcher/tmp/vxutils-20240402.tar.gz]
+[2024-04-03 06:25:02] INFO root fetch - main [MainThread]: End processing [vxutils]: success
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bsca-3.0.998.tar.gz]
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bsca-3.0.999.tar.gz]
+[2024-04-03 06:25:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bsca]: success
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-car-3.0.998.tar.gz]
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-car]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-car-3.0.999.tar.gz]
+[2024-04-03 06:25:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-car]: success
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cam-3.0.998.tar.gz]
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cam-3.0.999.tar.gz]
+[2024-04-03 06:25:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cam]: success
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-captcha-3.0.998.tar.gz]
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-captcha]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-captcha-3.0.999.tar.gz]
+[2024-04-03 06:25:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-captcha]: success
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-btoe]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-btoe-3.0.998.tar.gz]
+[2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-btoe]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-btoe-3.0.999.tar.gz]
+[2024-04-03 06:25:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-btoe]: success
+[2024-04-03 06:25:02] INFO root fetch - main [MainThread]: Store serial: [22597469]

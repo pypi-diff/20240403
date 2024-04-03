@@ -17200,3 +17200,34 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:25:02] INFO root fetch - processPackages [tencentcloud-sdk-python-btoe]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-btoe-3.0.999.tar.gz]
 [2024-04-03 06:25:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-btoe]: success
 [2024-04-03 06:25:02] INFO root fetch - main [MainThread]: Store serial: [22597469]
+[2024-04-03 06:27:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597469]
+[2024-04-03 06:27:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 06:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clap-detector
+[2024-04-03 06:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: precli
+[2024-04-03 06:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantplay
+[2024-04-03 06:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SimpleJsonConfigParser
+[2024-04-03 06:27:12] WARNING root fetch - processPackages [clap-detector]: Skipping, unable to determine old version
+[2024-04-03 06:27:12] INFO root fetch - main [MainThread]: End processing [clap-detector] error
+[2024-04-03 06:27:12] INFO root fetch - processPackages [precli]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-03 06:27:12] WARNING root fetch - processPackages [SimpleJsonConfigParser]: Skipping, unable to determine old version
+[2024-04-03 06:27:12] INFO root fetch - main [MainThread]: End processing [SimpleJsonConfigParser] error
+[2024-04-03 06:27:12] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-03 06:27:12] INFO root fetch - processPackages [precli]: Downloading https://files.pythonhosted.org/packages/0d/eb/dbc0017d0b444eeff009b824fedf05d1b8a5340636fec821d8d5c7b6753c/precli-0.4.3.tar.gz
+[2024-04-03 06:27:12] WARNING root fetch - processPackages [precli]: Timeout reached during download
+[2024-04-03 06:27:12] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-03 06:27:12] INFO root fetch - processPackages [precli]: Downloading https://files.pythonhosted.org/packages/90/71/20d91381893b90fd5c07aab46ac2abfe36921d8fb76a90d5963331fb4b5a/precli-0.4.4.tar.gz
+[2024-04-03 06:27:12] WARNING root fetch - processPackages [quantplay]: Timeout reached during download
+[2024-04-03 06:27:12] WARNING root fetch - processPackages [precli]: Timeout reached during download
+[2024-04-03 06:27:12] INFO root fetch - processPackages [precli]: executing diffoscope
+[2024-04-03 06:27:12] INFO root fetch - processPackages [precli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/precli-0.4.3.tar.gz tmp/precli-0.4.4.tar.gz --markdown 20240403/p/precli/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2024-04-03 06:27:12] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-03 06:27:12] WARNING root fetch - processPackages [quantplay]: Timeout reached during download
+[2024-04-03 06:27:12] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-03 06:27:12] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240403/q/quantplay/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2024-04-03 06:27:13] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-03 06:27:13] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-03 06:27:13] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-03 06:27:13] INFO root fetch - processPackages [precli]: Remove: archive file [/home/abi/fetcher/tmp/precli-0.4.3.tar.gz]
+[2024-04-03 06:27:13] INFO root fetch - processPackages [precli]: Remove: archive file [/home/abi/fetcher/tmp/precli-0.4.4.tar.gz]
+[2024-04-03 06:27:13] INFO root fetch - main [MainThread]: End processing [precli]: success
+[2024-04-03 06:27:13] INFO root fetch - main [MainThread]: Store serial: [22597481]

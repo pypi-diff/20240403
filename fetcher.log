@@ -21139,3 +21139,28 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 07:53:07] INFO root fetch - processPackages [metagpt]: Remove: archive file [/home/abi/fetcher/tmp/metagpt-0.8.0.tar.gz]
 [2024-04-03 07:53:07] INFO root fetch - main [MainThread]: End processing [metagpt]: success
 [2024-04-03 07:53:07] INFO root fetch - main [MainThread]: Store serial: [22598570]
+[2024-04-03 07:55:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598570]
+[2024-04-03 07:55:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 07:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: v3-liquidity-pool-simulator
+[2024-04-03 07:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythagoras
+[2024-04-03 07:55:16] INFO root fetch - processPackages [v3-liquidity-pool-simulator]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-03 07:55:16] INFO root fetch - processPackages [pythagoras]: New version: [0.10.34] Old Version: [0.10.33]
+[2024-04-03 07:55:16] INFO root fetch - processPackages [v3-liquidity-pool-simulator]: Downloading https://files.pythonhosted.org/packages/c5/98/a8baacdafcc8d5274b2cdb3d5c0861a175a245dec0cdcd70897b5cfca8e1/v3_liquidity_pool_simulator-0.2.0.tar.gz
+[2024-04-03 07:55:16] INFO root fetch - processPackages [pythagoras]: Downloading https://files.pythonhosted.org/packages/2b/d1/98f806f9f5e4a8577efc9f35cd111df9ec7c56c3cd161993257d0e5be3fe/pythagoras-0.10.33.tar.gz
+[2024-04-03 07:55:16] WARNING root fetch - processPackages [v3-liquidity-pool-simulator]: Timeout reached during download
+[2024-04-03 07:55:16] WARNING root fetch - processPackages [pythagoras]: Timeout reached during download
+[2024-04-03 07:55:16] INFO root fetch - processPackages [v3-liquidity-pool-simulator]: Downloading https://files.pythonhosted.org/packages/cc/ff/bdc37b3d78f17da17fcbd4b88d4a782486cdedb1f520e4f8852414f2e370/v3_liquidity_pool_simulator-0.2.1.tar.gz
+[2024-04-03 07:55:16] INFO root fetch - processPackages [pythagoras]: Downloading https://files.pythonhosted.org/packages/d0/c9/7147b16eaa139534a93c09099727d8f24e4aed640827e3fb2d146f79cc0c/pythagoras-0.10.34.tar.gz
+[2024-04-03 07:55:16] WARNING root fetch - processPackages [v3-liquidity-pool-simulator]: Timeout reached during download
+[2024-04-03 07:55:16] INFO root fetch - processPackages [v3-liquidity-pool-simulator]: executing diffoscope
+[2024-04-03 07:55:16] INFO root fetch - processPackages [v3-liquidity-pool-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v3_liquidity_pool_simulator-0.2.0.tar.gz tmp/v3_liquidity_pool_simulator-0.2.1.tar.gz --markdown 20240403/v/v3-liquidity-pool-simulator/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-03 07:55:16] WARNING root fetch - processPackages [pythagoras]: Timeout reached during download
+[2024-04-03 07:55:16] INFO root fetch - processPackages [pythagoras]: executing diffoscope
+[2024-04-03 07:55:16] INFO root fetch - processPackages [pythagoras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythagoras-0.10.33.tar.gz tmp/pythagoras-0.10.34.tar.gz --markdown 20240403/p/pythagoras/0.10.33-0.10.34/diff.md --exclude *.pyd
+[2024-04-03 07:55:17] INFO root fetch - processPackages [v3-liquidity-pool-simulator]: Remove: archive file [/home/abi/fetcher/tmp/v3_liquidity_pool_simulator-0.2.0.tar.gz]
+[2024-04-03 07:55:17] INFO root fetch - processPackages [v3-liquidity-pool-simulator]: Remove: archive file [/home/abi/fetcher/tmp/v3_liquidity_pool_simulator-0.2.1.tar.gz]
+[2024-04-03 07:55:17] INFO root fetch - main [MainThread]: End processing [v3-liquidity-pool-simulator]: success
+[2024-04-03 07:55:17] INFO root fetch - processPackages [pythagoras]: Remove: archive file [/home/abi/fetcher/tmp/pythagoras-0.10.33.tar.gz]
+[2024-04-03 07:55:17] INFO root fetch - processPackages [pythagoras]: Remove: archive file [/home/abi/fetcher/tmp/pythagoras-0.10.34.tar.gz]
+[2024-04-03 07:55:17] INFO root fetch - main [MainThread]: End processing [pythagoras]: success
+[2024-04-03 07:55:17] INFO root fetch - main [MainThread]: Store serial: [22598575]

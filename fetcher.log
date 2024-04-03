@@ -13449,3 +13449,22 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 03:44:39] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.1.7.tar.gz]
 [2024-04-03 03:44:39] INFO root fetch - main [MainThread]: End processing [qteasy]: success
 [2024-04-03 03:44:39] INFO root fetch - main [MainThread]: Store serial: [22596268]
+[2024-04-03 03:46:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596268]
+[2024-04-03 03:46:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 03:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qteasy
+[2024-04-03 03:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rp
+[2024-04-03 03:46:48] INFO root fetch - processPackages [qteasy]: New version: [1.1.7] Old Version: [1.1.4]
+[2024-04-03 03:46:48] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-03 03:46:48] INFO root fetch - processPackages [qteasy]: Downloading https://files.pythonhosted.org/packages/12/eb/cee1e6c8147d86c3c8c2d273ab06d8d75192640ff290f63a167908fe81b4/qteasy-1.1.4.tar.gz
+[2024-04-03 03:46:48] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-04-03 03:46:48] WARNING root fetch - processPackages [qteasy]: Timeout reached during download
+[2024-04-03 03:46:48] INFO root fetch - processPackages [qteasy]: Downloading https://files.pythonhosted.org/packages/cb/2e/cbf3178080bdbdad0c7b3cd03bb0d2be44b4adf6876dbff9b6fe1102b2db/qteasy-1.1.7.tar.gz
+[2024-04-03 03:46:48] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-04-03 03:46:48] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-04-03 03:46:48] WARNING root fetch - processPackages [qteasy]: Timeout reached during download
+[2024-04-03 03:46:48] INFO root fetch - processPackages [qteasy]: executing diffoscope
+[2024-04-03 03:46:48] INFO root fetch - processPackages [qteasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qteasy-1.1.4.tar.gz tmp/qteasy-1.1.7.tar.gz --markdown 20240403/q/qteasy/1.1.4-1.1.7/diff.md --exclude *.pyd
+[2024-04-03 03:46:49] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.1.4.tar.gz]
+[2024-04-03 03:46:49] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.1.7.tar.gz]
+[2024-04-03 03:46:49] INFO root fetch - main [MainThread]: End processing [qteasy]: success
+[2024-04-03 03:46:49] INFO root fetch - main [MainThread]: Store serial: [22596274]

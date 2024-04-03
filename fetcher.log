@@ -13776,3 +13776,9 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 04:04:15] INFO root fetch - processPackages [btrview]: Remove: archive file [/home/abi/fetcher/tmp/btrview-0.4.0.tar.gz]
 [2024-04-03 04:04:15] INFO root fetch - main [MainThread]: End processing [btrview]: success
 [2024-04-03 04:04:15] INFO root fetch - main [MainThread]: Store serial: [22596376]
+[2024-04-03 04:06:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596376]
+[2024-04-03 04:06:23] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-03 04:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: patchwork-cli
+[2024-04-03 04:06:23] WARNING root fetch - processPackages [patchwork-cli]: Skipping, unable to determine old version
+[2024-04-03 04:06:23] INFO root fetch - main [MainThread]: End processing [patchwork-cli] error
+[2024-04-03 04:06:23] INFO root fetch - main [MainThread]: Store serial: [22596379]

@@ -3424,3 +3424,20 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 02:36:51] WARNING root fetch - processPackages [mountaineer]: Skipping package: exceeds size limit 23736759>=10485760
 [2024-04-03 02:36:51] INFO root fetch - main [MainThread]: End processing [mountaineer] error
 [2024-04-03 02:36:51] INFO root fetch - main [MainThread]: Store serial: [22593458]
+[2024-04-03 02:38:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593458]
+[2024-04-03 02:38:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 02:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shipyard-mode
+[2024-04-03 02:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pemdas
+[2024-04-03 02:38:59] INFO root fetch - processPackages [shipyard-mode]: New version: [0.1.1a0] Old Version: [0.1.1]
+[2024-04-03 02:38:59] WARNING root fetch - processPackages [pemdas]: Skipping, unable to determine old version
+[2024-04-03 02:38:59] INFO root fetch - main [MainThread]: End processing [pemdas] error
+[2024-04-03 02:39:00] INFO root fetch - processPackages [shipyard-mode]: Downloading https://files.pythonhosted.org/packages/be/b2/2aa2a3e504b7d07269d8ce82a61958411e670f6411c8feb4db0db7165dc7/shipyard_mode-0.1.1.tar.gz
+[2024-04-03 02:39:00] WARNING root fetch - processPackages [shipyard-mode]: Timeout reached during download
+[2024-04-03 02:39:00] INFO root fetch - processPackages [shipyard-mode]: Downloading https://files.pythonhosted.org/packages/a0/2a/a648ac022c33374a1a4112ea051c7c77f81ecac5162936092a21b373c4d5/shipyard_mode-0.1.1a0.tar.gz
+[2024-04-03 02:39:00] WARNING root fetch - processPackages [shipyard-mode]: Timeout reached during download
+[2024-04-03 02:39:00] INFO root fetch - processPackages [shipyard-mode]: executing diffoscope
+[2024-04-03 02:39:00] INFO root fetch - processPackages [shipyard-mode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_mode-0.1.1.tar.gz tmp/shipyard_mode-0.1.1a0.tar.gz --markdown 20240403/s/shipyard-mode/0.1.1-0.1.1a0/diff.md --exclude *.pyd
+[2024-04-03 02:39:01] INFO root fetch - processPackages [shipyard-mode]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_mode-0.1.1.tar.gz]
+[2024-04-03 02:39:01] INFO root fetch - processPackages [shipyard-mode]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_mode-0.1.1a0.tar.gz]
+[2024-04-03 02:39:01] INFO root fetch - main [MainThread]: End processing [shipyard-mode]: success
+[2024-04-03 02:39:01] INFO root fetch - main [MainThread]: Store serial: [22593474]

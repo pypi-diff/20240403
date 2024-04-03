@@ -23717,3 +23717,28 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 09:32:58] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a0.tar.gz]
 [2024-04-03 09:32:58] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
 [2024-04-03 09:32:58] INFO root fetch - main [MainThread]: Store serial: [22599447]
+[2024-04-03 09:35:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599447]
+[2024-04-03 09:35:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 09:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: urllib3-future
+[2024-04-03 09:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: intel-sgx-ra
+[2024-04-03 09:35:08] INFO root fetch - processPackages [urllib3-future]: New version: [2.7.902] Old Version: [2.7.901]
+[2024-04-03 09:35:08] INFO root fetch - processPackages [intel-sgx-ra]: New version: [2.2a3] Old Version: [2.2a2]
+[2024-04-03 09:35:08] INFO root fetch - processPackages [intel-sgx-ra]: Downloading https://files.pythonhosted.org/packages/1b/00/189a46a11d70c31f0b75dfe7191f3834eb01221a5a80eeb24c34a6a77fd5/intel_sgx_ra-2.2a2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-03 09:35:08] INFO root fetch - processPackages [urllib3-future]: Downloading https://files.pythonhosted.org/packages/39/4a/8ddd6533582c23bc3f9d026842c5a501d19158f81ab0431cb9364252fd38/urllib3_future-2.7.901.tar.gz
+[2024-04-03 09:35:08] WARNING root fetch - processPackages [urllib3-future]: Timeout reached during download
+[2024-04-03 09:35:08] WARNING root fetch - processPackages [intel-sgx-ra]: Timeout reached during download
+[2024-04-03 09:35:08] INFO root fetch - processPackages [urllib3-future]: Downloading https://files.pythonhosted.org/packages/12/b6/c80c2c99d973434a91d7951f1551125c3552cb7a02f5968c431c430a9b63/urllib3_future-2.7.902.tar.gz
+[2024-04-03 09:35:08] INFO root fetch - processPackages [intel-sgx-ra]: Downloading https://files.pythonhosted.org/packages/8d/8a/98a62ac5fa4d6dd85dae3018d20177a7ccb8e2a481922e95da1d08d96984/intel_sgx_ra-2.2a3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-03 09:35:09] WARNING root fetch - processPackages [urllib3-future]: Timeout reached during download
+[2024-04-03 09:35:09] INFO root fetch - processPackages [urllib3-future]: executing diffoscope
+[2024-04-03 09:35:09] INFO root fetch - processPackages [urllib3-future]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urllib3_future-2.7.901.tar.gz tmp/urllib3_future-2.7.902.tar.gz --markdown 20240403/u/urllib3-future/2.7.901-2.7.902/diff.md --exclude *.pyd
+[2024-04-03 09:35:09] WARNING root fetch - processPackages [intel-sgx-ra]: Timeout reached during download
+[2024-04-03 09:35:09] INFO root fetch - processPackages [intel-sgx-ra]: executing diffoscope
+[2024-04-03 09:35:09] INFO root fetch - processPackages [intel-sgx-ra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intel_sgx_ra-2.2a2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/intel_sgx_ra-2.2a3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240403/i/intel-sgx-ra/2.2a2-2.2a3/diff.md --exclude *.pyd
+[2024-04-03 09:35:09] INFO root fetch - processPackages [intel-sgx-ra]: Remove: archive file [/home/abi/fetcher/tmp/intel_sgx_ra-2.2a2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-03 09:35:09] INFO root fetch - processPackages [intel-sgx-ra]: Remove: archive file [/home/abi/fetcher/tmp/intel_sgx_ra-2.2a3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-03 09:35:09] INFO root fetch - main [MainThread]: End processing [intel-sgx-ra]: success
+[2024-04-03 09:35:10] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.901.tar.gz]
+[2024-04-03 09:35:10] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.902.tar.gz]
+[2024-04-03 09:35:10] INFO root fetch - main [MainThread]: End processing [urllib3-future]: success
+[2024-04-03 09:35:10] INFO root fetch - main [MainThread]: Store serial: [22599463]

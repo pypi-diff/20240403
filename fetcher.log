@@ -21297,3 +21297,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:01:52] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.9.tar.gz]
 [2024-04-03 08:01:52] INFO root fetch - main [MainThread]: End processing [ggml-python]: success
 [2024-04-03 08:01:52] INFO root fetch - main [MainThread]: Store serial: [22598610]
+[2024-04-03 08:03:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598610]
+[2024-04-03 08:04:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 08:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esrt
+[2024-04-03 08:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calcse0k
+[2024-04-03 08:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentry-relay
+[2024-04-03 08:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sleipnirgroup-jormungandr
+[2024-04-03 08:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: esrt
+[2024-04-03 08:04:01] INFO root fetch - processPackages [esrt]: New version: [1.25.0] Old Version: [1.24.0]
+[2024-04-03 08:04:01] INFO root fetch - processPackages [esrt]: New version: [1.25.0] Old Version: [1.24.0]
+[2024-04-03 08:04:01] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-04-03 08:04:01] INFO root fetch - processPackages [esrt]: Downloading https://files.pythonhosted.org/packages/dc/0f/d7b647feb274922df2c8ce04c547bb1327e75f7a635903af3668f2c56567/esrt-1.24.0.tar.gz
+[2024-04-03 08:04:01] WARNING root fetch - processPackages [calcse0k]: Skipping, unable to determine old version
+[2024-04-03 08:04:01] INFO root fetch - main [MainThread]: End processing [calcse0k] error
+[2024-04-03 08:04:02] INFO root fetch - processPackages [esrt]: Downloading https://files.pythonhosted.org/packages/dc/0f/d7b647feb274922df2c8ce04c547bb1327e75f7a635903af3668f2c56567/esrt-1.24.0.tar.gz
+[2024-04-03 08:04:02] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-04-03 08:04:02] INFO root fetch - processPackages [sentry-relay]: New version: [1.1.4] Old Version: [0.8.9]
+[2024-04-03 08:04:02] WARNING root fetch - processPackages [esrt]: Timeout reached during download
+[2024-04-03 08:04:02] WARNING root fetch - processPackages [esrt]: Timeout reached during download
+[2024-04-03 08:04:02] WARNING root fetch - processPackages [sleipnirgroup-jormungandr]: Timeout reached during download
+[2024-04-03 08:04:02] INFO root fetch - processPackages [esrt]: Downloading https://files.pythonhosted.org/packages/c2/6d/e956ed559d8c071feec1bed3db470d658d341ebe183caa31ee1f20c2d358/esrt-1.25.0.tar.gz
+[2024-04-03 08:04:02] INFO root fetch - processPackages [esrt]: Downloading https://files.pythonhosted.org/packages/c2/6d/e956ed559d8c071feec1bed3db470d658d341ebe183caa31ee1f20c2d358/esrt-1.25.0.tar.gz
+[2024-04-03 08:04:02] INFO root fetch - processPackages [sentry-relay]: Downloading https://files.pythonhosted.org/packages/f6/e5/aa1ba95a9654dbeaec6ebc0fd3b439b4c7c406d9ef0b9592002f1e90b6eb/sentry-relay-0.8.9.zip
+[2024-04-03 08:04:02] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-04-03 08:04:02] WARNING root fetch - processPackages [esrt]: Timeout reached during download
+[2024-04-03 08:04:02] INFO root fetch - processPackages [esrt]: executing diffoscope
+[2024-04-03 08:04:02] INFO root fetch - processPackages [esrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esrt-1.24.0.tar.gz tmp/esrt-1.25.0.tar.gz --markdown 20240403/e/esrt/1.24.0-1.25.0/diff.md --exclude *.pyd
+[2024-04-03 08:04:02] WARNING root fetch - processPackages [esrt]: Timeout reached during download
+[2024-04-03 08:04:02] INFO root fetch - processPackages [esrt]: executing diffoscope
+[2024-04-03 08:04:02] INFO root fetch - processPackages [esrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esrt-1.24.0.tar.gz tmp/esrt-1.25.0.tar.gz --markdown 20240403/e/esrt/1.24.0-1.25.0/diff.md --exclude *.pyd
+[2024-04-03 08:04:02] WARNING root fetch - processPackages [sleipnirgroup-jormungandr]: Timeout reached during download
+[2024-04-03 08:04:02] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-03 08:04:02] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240403/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/diff.md --exclude *.pyd
+[2024-04-03 08:04:02] WARNING root fetch - processPackages [sentry-relay]: Skipping package: exceeds size limit 31231225>=10485760
+[2024-04-03 08:04:02] INFO root fetch - main [MainThread]: End processing [sentry-relay] error
+[2024-04-03 08:04:03] INFO root fetch - processPackages [esrt]: Remove: archive file [/home/abi/fetcher/tmp/esrt-1.24.0.tar.gz]
+[2024-04-03 08:04:03] INFO root fetch - processPackages [esrt]: Remove: archive file [/home/abi/fetcher/tmp/esrt-1.25.0.tar.gz]
+[2024-04-03 08:04:03] INFO root fetch - main [MainThread]: End processing [esrt]: success
+[2024-04-03 08:04:03] INFO root fetch - main [MainThread]: End processing [esrt]: success
+[2024-04-03 08:04:03] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-04-03 08:04:03] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-04-03 08:04:03] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-03 08:04:03] INFO root fetch - main [MainThread]: Store serial: [22598643]

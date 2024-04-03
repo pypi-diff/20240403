@@ -21834,3 +21834,75 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:24:02] INFO root fetch - processPackages [almirah]: Remove: archive file [/home/abi/fetcher/tmp/almirah-0.2.0.tar.gz]
 [2024-04-03 08:24:02] INFO root fetch - main [MainThread]: End processing [almirah]: success
 [2024-04-03 08:24:02] INFO root fetch - main [MainThread]: Store serial: [22598777]
+[2024-04-03 08:26:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598777]
+[2024-04-03 08:26:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 08:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: almirah
+[2024-04-03 08:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anl
+[2024-04-03 08:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neurosym
+[2024-04-03 08:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dongamycalc
+[2024-04-03 08:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azapy
+[2024-04-03 08:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: binsync
+[2024-04-03 08:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cpop
+[2024-04-03 08:26:11] INFO root fetch - processPackages [neurosym]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 08:26:11] INFO root fetch - processPackages [cpop]: New version: [28.3.0] Old Version: [28.2.2]
+[2024-04-03 08:26:11] INFO root fetch - processPackages [almirah]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-03 08:26:11] INFO root fetch - processPackages [binsync]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-04-03 08:26:11] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/66/87/42efcd2dada44045cddbcc64177bfa822d2cd1915ad9f075c81d65cdd137/neurosym-0.0.8.tar.gz
+[2024-04-03 08:26:11] INFO root fetch - processPackages [azapy]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-03 08:26:11] WARNING root fetch - processPackages [dongamycalc]: Skipping, unable to determine old version
+[2024-04-03 08:26:11] INFO root fetch - processPackages [anl]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 08:26:11] INFO root fetch - main [MainThread]: End processing [dongamycalc] error
+[2024-04-03 08:26:11] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/d2/d1/d77e8fa5cd354dc33a1d4d4593fc3842fe5b371b8f7ddc084f4d0129db3c/cpop-28.2.2.tar.gz
+[2024-04-03 08:26:11] INFO root fetch - processPackages [almirah]: Downloading https://files.pythonhosted.org/packages/06/03/d7bff075e9e85055dbac6a0957e835cd8044fb8cd1d97a93c1d471e5492c/almirah-0.1.0.tar.gz
+[2024-04-03 08:26:11] WARNING root fetch - processPackages [neurosym]: Timeout reached during download
+[2024-04-03 08:26:11] WARNING root fetch - processPackages [almirah]: Timeout reached during download
+[2024-04-03 08:26:11] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/b3/d9/0fd09f28366b6afe07c9b07022c327cfcb05f4c54ad12dc10fcb86d94884/neurosym-0.0.9.tar.gz
+[2024-04-03 08:26:11] INFO root fetch - processPackages [almirah]: Downloading https://files.pythonhosted.org/packages/c5/e5/c218625621b371d8aa29b239c6edb98cdb73892285f26cdeb0064b2cc036/almirah-0.2.0.tar.gz
+[2024-04-03 08:26:11] WARNING root fetch - processPackages [cpop]: Timeout reached during download
+[2024-04-03 08:26:11] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/fd/01/ea047a326a513abd4f7c79e4ac6f487ffff1e2314378e0091b54fd11c34f/binsync-4.1.0.tar.gz
+[2024-04-03 08:26:11] WARNING root fetch - processPackages [neurosym]: Timeout reached during download
+[2024-04-03 08:26:11] INFO root fetch - processPackages [neurosym]: executing diffoscope
+[2024-04-03 08:26:11] INFO root fetch - processPackages [neurosym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurosym-0.0.8.tar.gz tmp/neurosym-0.0.9.tar.gz --markdown 20240403/n/neurosym/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 08:26:11] WARNING root fetch - processPackages [almirah]: Timeout reached during download
+[2024-04-03 08:26:11] INFO root fetch - processPackages [almirah]: executing diffoscope
+[2024-04-03 08:26:11] INFO root fetch - processPackages [almirah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almirah-0.1.0.tar.gz tmp/almirah-0.2.0.tar.gz --markdown 20240403/a/almirah/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-03 08:26:11] INFO root fetch - processPackages [azapy]: Downloading https://files.pythonhosted.org/packages/75/6d/9a550c50922d199161a19194bc8a9f2cbb8d3389e1043c6aaf310ad6ea90/azapy-1.2.3.tar.gz
+[2024-04-03 08:26:11] INFO root fetch - processPackages [anl]: Downloading https://files.pythonhosted.org/packages/91/b2/ae0550242c2a49b7cb465062dc9cb279c58c13958cdaa450ac1f892b9c66/anl-0.1.8.tar.gz
+[2024-04-03 08:26:11] WARNING root fetch - processPackages [binsync]: Timeout reached during download
+[2024-04-03 08:26:11] WARNING root fetch - processPackages [azapy]: Timeout reached during download
+[2024-04-03 08:26:11] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/69/1f/3887e794a9a8e0da6bb1251ddc0513415d8fdcd01eb47da983ca67ecaf6e/cpop-28.3.0.tar.gz
+[2024-04-03 08:26:11] WARNING root fetch - processPackages [anl]: Timeout reached during download
+[2024-04-03 08:26:11] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/48/11/4a1f76aa6bc734a3cb034a3699fc2c47501b3b91897e2fc49b693b822e69/binsync-4.1.1.tar.gz
+[2024-04-03 08:26:11] WARNING root fetch - processPackages [cpop]: Timeout reached during download
+[2024-04-03 08:26:11] INFO root fetch - processPackages [cpop]: executing diffoscope
+[2024-04-03 08:26:11] INFO root fetch - processPackages [cpop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpop-28.2.2.tar.gz tmp/cpop-28.3.0.tar.gz --markdown 20240403/c/cpop/28.2.2-28.3.0/diff.md --exclude *.pyd
+[2024-04-03 08:26:11] INFO root fetch - processPackages [azapy]: Downloading https://files.pythonhosted.org/packages/13/45/ebb8b93ea5b4a0c1ed360a3e09c6b92061e776b5af04c38c1c2f02142eaa/azapy-1.2.4.tar.gz
+[2024-04-03 08:26:12] WARNING root fetch - processPackages [binsync]: Timeout reached during download
+[2024-04-03 08:26:12] INFO root fetch - processPackages [binsync]: executing diffoscope
+[2024-04-03 08:26:12] INFO root fetch - processPackages [binsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binsync-4.1.0.tar.gz tmp/binsync-4.1.1.tar.gz --markdown 20240403/b/binsync/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2024-04-03 08:26:12] INFO root fetch - processPackages [anl]: Downloading https://files.pythonhosted.org/packages/a3/7b/92ff331c9a551556596176d840b0ab950c92a895edd2746524abf2f34771/anl-0.1.9.tar.gz
+[2024-04-03 08:26:12] WARNING root fetch - processPackages [azapy]: Timeout reached during download
+[2024-04-03 08:26:12] INFO root fetch - processPackages [azapy]: executing diffoscope
+[2024-04-03 08:26:12] INFO root fetch - processPackages [azapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azapy-1.2.3.tar.gz tmp/azapy-1.2.4.tar.gz --markdown 20240403/a/azapy/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2024-04-03 08:26:12] WARNING root fetch - processPackages [anl]: Timeout reached during download
+[2024-04-03 08:26:12] INFO root fetch - processPackages [anl]: executing diffoscope
+[2024-04-03 08:26:12] INFO root fetch - processPackages [anl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anl-0.1.8.tar.gz tmp/anl-0.1.9.tar.gz --markdown 20240403/a/anl/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 08:26:12] INFO root fetch - processPackages [almirah]: Remove: archive file [/home/abi/fetcher/tmp/almirah-0.1.0.tar.gz]
+[2024-04-03 08:26:12] INFO root fetch - processPackages [almirah]: Remove: archive file [/home/abi/fetcher/tmp/almirah-0.2.0.tar.gz]
+[2024-04-03 08:26:12] INFO root fetch - main [MainThread]: End processing [almirah]: success
+[2024-04-03 08:26:12] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.8.tar.gz]
+[2024-04-03 08:26:12] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.9.tar.gz]
+[2024-04-03 08:26:12] INFO root fetch - main [MainThread]: End processing [neurosym]: success
+[2024-04-03 08:26:12] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-28.2.2.tar.gz]
+[2024-04-03 08:26:12] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-28.3.0.tar.gz]
+[2024-04-03 08:26:12] INFO root fetch - main [MainThread]: End processing [cpop]: success
+[2024-04-03 08:26:12] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-4.1.0.tar.gz]
+[2024-04-03 08:26:12] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-4.1.1.tar.gz]
+[2024-04-03 08:26:12] INFO root fetch - main [MainThread]: End processing [binsync]: success
+[2024-04-03 08:26:12] INFO root fetch - processPackages [anl]: Remove: archive file [/home/abi/fetcher/tmp/anl-0.1.8.tar.gz]
+[2024-04-03 08:26:12] INFO root fetch - processPackages [anl]: Remove: archive file [/home/abi/fetcher/tmp/anl-0.1.9.tar.gz]
+[2024-04-03 08:26:12] INFO root fetch - main [MainThread]: End processing [anl]: success
+[2024-04-03 08:26:12] INFO root fetch - processPackages [azapy]: Remove: archive file [/home/abi/fetcher/tmp/azapy-1.2.3.tar.gz]
+[2024-04-03 08:26:12] INFO root fetch - processPackages [azapy]: Remove: archive file [/home/abi/fetcher/tmp/azapy-1.2.4.tar.gz]
+[2024-04-03 08:26:12] INFO root fetch - main [MainThread]: End processing [azapy]: success
+[2024-04-03 08:26:12] INFO root fetch - main [MainThread]: Store serial: [22598797]

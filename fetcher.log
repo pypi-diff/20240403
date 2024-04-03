@@ -15082,3 +15082,50 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 04:55:33] INFO root fetch - processPackages [ffsim]: Remove: archive file [/home/abi/fetcher/tmp/ffsim-0.0.9.tar.gz]
 [2024-04-03 04:55:33] INFO root fetch - main [MainThread]: End processing [ffsim]: success
 [2024-04-03 04:55:33] INFO root fetch - main [MainThread]: Store serial: [22596804]
+[2024-04-03 04:57:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596804]
+[2024-04-03 04:57:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 04:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-data-schema
+[2024-04-03 04:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VisionCraft
+[2024-04-03 04:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-banking-pain-base
+[2024-04-03 04:57:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytubefix
+[2024-04-03 04:57:42] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-03 04:57:42] INFO root fetch - processPackages [VisionCraft]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 04:57:42] INFO root fetch - processPackages [pytubefix]: New version: [5.0rc1] Old Version: [4.0rc4]
+[2024-04-03 04:57:42] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2024-04-03 04:57:42] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-03 04:57:42] WARNING root fetch - processPackages [aind-data-schema]: Timeout reached during download
+[2024-04-03 04:57:42] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2024-04-03 04:57:42] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/25/24/41dd3f4c4364abb4508f6035be7b7b5fe0c0bcb1e6116a2245cb0a64b341/pytubefix-4.0rc4.tar.gz
+[2024-04-03 04:57:42] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/cc/4a/a734e2c573c88fb54a616cddbc6582265bcdf0c263c803a02e947ab40fbb/VisionCraft-0.0.8.tar.gz
+[2024-04-03 04:57:42] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: Downloading https://files.pythonhosted.org/packages/1f/44/de0a98c0e67195268a0670b1a67bf3068e24d60be5bf8db2b1ba8b2423df/odoo_addon_account_banking_pain_base-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-03 04:57:42] WARNING root fetch - processPackages [aind-data-schema]: Timeout reached during download
+[2024-04-03 04:57:42] WARNING root fetch - processPackages [pytubefix]: Timeout reached during download
+[2024-04-03 04:57:42] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2024-04-03 04:57:42] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20240403/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2024-04-03 04:57:42] WARNING root fetch - processPackages [odoo-addon-account-banking-pain-base]: Timeout reached during download
+[2024-04-03 04:57:42] WARNING root fetch - processPackages [VisionCraft]: Timeout reached during download
+[2024-04-03 04:57:42] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: Downloading https://files.pythonhosted.org/packages/86/9e/52939c51f6ec06985ff789485af9d4271a28856a28f9083322d2a332ea87/odoo_addon_account_banking_pain_base-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-03 04:57:42] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/b1/a4/15c1ff5757fa2a2719588ee1fb9a48753c87fb25ca5258159f2ba92d3d02/pytubefix-5.0rc1.tar.gz
+[2024-04-03 04:57:43] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/bd/d3/6afae57c0f56d67924ffd0bae0de4da64d84d22793a4bce3df6ca99ef08f/VisionCraft-0.0.9.tar.gz
+[2024-04-03 04:57:43] WARNING root fetch - processPackages [odoo-addon-account-banking-pain-base]: Timeout reached during download
+[2024-04-03 04:57:43] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: executing diffoscope
+[2024-04-03 04:57:43] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_pain_base-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_banking_pain_base-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-account-banking-pain-base/17.0.1.0.0.3-17.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-03 04:57:43] WARNING root fetch - processPackages [pytubefix]: Timeout reached during download
+[2024-04-03 04:57:43] INFO root fetch - processPackages [pytubefix]: executing diffoscope
+[2024-04-03 04:57:43] INFO root fetch - processPackages [pytubefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubefix-4.0rc4.tar.gz tmp/pytubefix-5.0rc1.tar.gz --markdown 20240403/p/pytubefix/4.0rc4-5.0rc1/diff.md --exclude *.pyd
+[2024-04-03 04:57:43] WARNING root fetch - processPackages [VisionCraft]: Timeout reached during download
+[2024-04-03 04:57:43] INFO root fetch - processPackages [VisionCraft]: executing diffoscope
+[2024-04-03 04:57:43] INFO root fetch - processPackages [VisionCraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionCraft-0.0.8.tar.gz tmp/VisionCraft-0.0.9.tar.gz --markdown 20240403/V/VisionCraft/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 04:57:43] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2024-04-03 04:57:43] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2024-04-03 04:57:43] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2024-04-03 04:57:43] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_pain_base-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-03 04:57:43] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_pain_base-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-03 04:57:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-pain-base]: success
+[2024-04-03 04:57:43] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.0.8.tar.gz]
+[2024-04-03 04:57:43] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.0.9.tar.gz]
+[2024-04-03 04:57:43] INFO root fetch - main [MainThread]: End processing [VisionCraft]: success
+[2024-04-03 04:57:43] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-4.0rc4.tar.gz]
+[2024-04-03 04:57:43] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.0rc1.tar.gz]
+[2024-04-03 04:57:43] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
+[2024-04-03 04:57:43] INFO root fetch - main [MainThread]: Store serial: [22596815]

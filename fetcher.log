@@ -22219,3 +22219,28 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:39:27] INFO root fetch - processPackages [anise]: Remove: archive file [/home/abi/fetcher/tmp/anise-0.3.1-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl.zip]
 [2024-04-03 08:39:27] INFO root fetch - main [MainThread]: End processing [anise]: success
 [2024-04-03 08:39:27] INFO root fetch - main [MainThread]: Store serial: [22598920]
+[2024-04-03 08:41:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598920]
+[2024-04-03 08:41:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 08:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-115
+[2024-04-03 08:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mplhep
+[2024-04-03 08:41:36] INFO root fetch - processPackages [python-115]: New version: [0.0.5.4] Old Version: [0.0.5.3]
+[2024-04-03 08:41:36] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/14/5f/639e895ef19d8767a4d33e9b36240ae5a2edbb4d12b27f0a82edd78667ac/python_115-0.0.5.3.tar.gz
+[2024-04-03 08:41:36] INFO root fetch - processPackages [mplhep]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-03 08:41:36] WARNING root fetch - processPackages [python-115]: Timeout reached during download
+[2024-04-03 08:41:36] INFO root fetch - processPackages [mplhep]: Downloading https://files.pythonhosted.org/packages/3e/23/96f4d67432c03f398c31ba59fd42fddda4c686a75e62bbb632f2600d90f4/mplhep-0.3.8.tar.gz
+[2024-04-03 08:41:36] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/d8/cc/fdf9a41671295b7685bee55c7515a5aae9a5a19e8611f35ce9eca1c47308/python_115-0.0.5.4.tar.gz
+[2024-04-03 08:41:36] WARNING root fetch - processPackages [mplhep]: Timeout reached during download
+[2024-04-03 08:41:36] WARNING root fetch - processPackages [python-115]: Timeout reached during download
+[2024-04-03 08:41:36] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-04-03 08:41:36] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.5.3.tar.gz tmp/python_115-0.0.5.4.tar.gz --markdown 20240403/p/python-115/0.0.5.3-0.0.5.4/diff.md --exclude *.pyd
+[2024-04-03 08:41:36] INFO root fetch - processPackages [mplhep]: Downloading https://files.pythonhosted.org/packages/79/7d/14def2d0871d2c96df5d1427dad4024d57c8ca1c5ed0e3e57724ae2f430c/mplhep-0.3.9.tar.gz
+[2024-04-03 08:41:37] WARNING root fetch - processPackages [mplhep]: Timeout reached during download
+[2024-04-03 08:41:37] INFO root fetch - processPackages [mplhep]: executing diffoscope
+[2024-04-03 08:41:37] INFO root fetch - processPackages [mplhep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mplhep-0.3.8.tar.gz tmp/mplhep-0.3.9.tar.gz --markdown 20240403/m/mplhep/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-03 08:41:37] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.5.3.tar.gz]
+[2024-04-03 08:41:37] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.5.4.tar.gz]
+[2024-04-03 08:41:37] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-04-03 08:41:37] INFO root fetch - processPackages [mplhep]: Remove: archive file [/home/abi/fetcher/tmp/mplhep-0.3.8.tar.gz]
+[2024-04-03 08:41:37] INFO root fetch - processPackages [mplhep]: Remove: archive file [/home/abi/fetcher/tmp/mplhep-0.3.9.tar.gz]
+[2024-04-03 08:41:37] INFO root fetch - main [MainThread]: End processing [mplhep]: success
+[2024-04-03 08:41:37] INFO root fetch - main [MainThread]: Store serial: [22598952]

@@ -22670,3 +22670,55 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:59:45] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.32.3.dev20240402.tar.gz]
 [2024-04-03 08:59:45] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2024-04-03 08:59:45] INFO root fetch - main [MainThread]: Store serial: [22599091]
+[2024-04-03 09:01:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599091]
+[2024-04-03 09:01:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 09:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qdx-py
+[2024-04-03 09:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: connected-components-3d
+[2024-04-03 09:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fractal-client
+[2024-04-03 09:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2024-04-03 09:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-models-nightly
+[2024-04-03 09:01:55] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240402.8.27.571237] Old Version: [20240402.21.41.551544]
+[2024-04-03 09:01:55] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-04-03 09:01:55] INFO root fetch - processPackages [fractal-client]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-04-03 09:01:55] INFO root fetch - processPackages [qdx-py]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-04-03 09:01:55] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-04-03 09:01:55] INFO root fetch - processPackages [connected-components-3d]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-03 09:01:55] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/56/b9/21dc0000ecf704b01fcb974cf4202d5dfb1d2ec4478acc50aca6e980d89c/certora-cli-alpha-master-20240402.21.41.551544.tar.gz
+[2024-04-03 09:01:55] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14475749>=10485760
+[2024-04-03 09:01:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-03 09:01:55] INFO root fetch - processPackages [fractal-client]: Downloading https://files.pythonhosted.org/packages/ec/85/1db5c090601c325c6bc235f61c8efe463e87c06b673cb6aa3db868370d2a/fractal_client-1.4.3.tar.gz
+[2024-04-03 09:01:55] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/9b/be/0a06abc30b456cf6bfcea4f6028fa3b5acaef4a59cd9a7cabe0ac6d44f47/qdx_py-0.7.1.tar.gz
+[2024-04-03 09:01:55] INFO root fetch - processPackages [connected-components-3d]: Downloading https://files.pythonhosted.org/packages/51/f7/273086ac8fbe360bd2595ef0d4dd153890299f2197dacb752a43441f87cf/connected-components-3d-3.9.0.tar.gz
+[2024-04-03 09:01:55] WARNING root fetch - processPackages [tf-models-nightly]: Timeout reached during download
+[2024-04-03 09:01:55] WARNING root fetch - processPackages [fractal-client]: Timeout reached during download
+[2024-04-03 09:01:55] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-04-03 09:01:55] WARNING root fetch - processPackages [qdx-py]: Timeout reached during download
+[2024-04-03 09:01:55] WARNING root fetch - processPackages [connected-components-3d]: Timeout reached during download
+[2024-04-03 09:01:55] INFO root fetch - processPackages [fractal-client]: Downloading https://files.pythonhosted.org/packages/2f/5b/1fa5e7d299f111aa1c84c910b5ae23ff0beb6ca3b87c79cf293f658a2f24/fractal_client-1.4.4.tar.gz
+[2024-04-03 09:01:55] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/42/ee/eaaaf2a73a6e514d9e8f98b81c6d9be5110632bb5bf37f49df0af6fc727f/qdx_py-0.8.0.tar.gz
+[2024-04-03 09:01:55] WARNING root fetch - processPackages [fractal-client]: Timeout reached during download
+[2024-04-03 09:01:55] INFO root fetch - processPackages [fractal-client]: executing diffoscope
+[2024-04-03 09:01:55] INFO root fetch - processPackages [fractal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_client-1.4.3.tar.gz tmp/fractal_client-1.4.4.tar.gz --markdown 20240403/f/fractal-client/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2024-04-03 09:01:55] WARNING root fetch - processPackages [qdx-py]: Timeout reached during download
+[2024-04-03 09:01:55] INFO root fetch - processPackages [qdx-py]: executing diffoscope
+[2024-04-03 09:01:55] INFO root fetch - processPackages [qdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdx_py-0.7.1.tar.gz tmp/qdx_py-0.8.0.tar.gz --markdown 20240403/q/qdx-py/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2024-04-03 09:01:56] INFO root fetch - processPackages [connected-components-3d]: Downloading https://files.pythonhosted.org/packages/14/97/5d0d6bde68a8f6a4eca89d60116c7e6c1761f7d410f586fecde73d7d67dc/connected-components-3d-3.9.1.tar.gz
+[2024-04-03 09:01:56] WARNING root fetch - processPackages [tf-models-nightly]: Timeout reached during download
+[2024-04-03 09:01:56] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-04-03 09:01:56] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240403/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2024-04-03 09:01:56] WARNING root fetch - processPackages [connected-components-3d]: Timeout reached during download
+[2024-04-03 09:01:56] INFO root fetch - processPackages [connected-components-3d]: executing diffoscope
+[2024-04-03 09:01:56] INFO root fetch - processPackages [connected-components-3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connected-components-3d-3.9.0.tar.gz tmp/connected-components-3d-3.9.1.tar.gz --markdown 20240403/c/connected-components-3d/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2024-04-03 09:01:56] INFO root fetch - processPackages [fractal-client]: Remove: archive file [/home/abi/fetcher/tmp/fractal_client-1.4.3.tar.gz]
+[2024-04-03 09:01:56] INFO root fetch - processPackages [fractal-client]: Remove: archive file [/home/abi/fetcher/tmp/fractal_client-1.4.4.tar.gz]
+[2024-04-03 09:01:56] INFO root fetch - main [MainThread]: End processing [fractal-client]: success
+[2024-04-03 09:01:56] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.7.1.tar.gz]
+[2024-04-03 09:01:56] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.8.0.tar.gz]
+[2024-04-03 09:01:56] INFO root fetch - main [MainThread]: End processing [qdx-py]: success
+[2024-04-03 09:01:57] INFO root fetch - processPackages [connected-components-3d]: Remove: archive file [/home/abi/fetcher/tmp/connected-components-3d-3.9.0.tar.gz]
+[2024-04-03 09:01:57] INFO root fetch - processPackages [connected-components-3d]: Remove: archive file [/home/abi/fetcher/tmp/connected-components-3d-3.9.1.tar.gz]
+[2024-04-03 09:01:57] INFO root fetch - main [MainThread]: End processing [connected-components-3d]: success
+[2024-04-03 09:01:59] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-04-03 09:01:59] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-04-03 09:01:59] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-04-03 09:01:59] INFO root fetch - main [MainThread]: Store serial: [22599147]

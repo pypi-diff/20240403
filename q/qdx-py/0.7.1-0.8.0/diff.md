@@ -1,0 +1,594 @@
+# Comparing `tmp/qdx_py-0.7.1.tar.gz` & `tmp/qdx_py-0.8.0.tar.gz`
+
+## Comparing `qdx_py-0.7.1.tar` & `qdx_py-0.8.0.tar`
+
+### file list
+
+```diff
+@@ -1,8 +1,8 @@
+--rw-r--r--   0        0        0      564 1970-01-01 00:00:00.000000 qdx_py-0.7.1/Cargo.toml
+--rw-r--r--   0     1000      100     2809 2023-11-16 02:44:04.000000 qdx_py-0.7.1/.github/workflows/CI.yml
+--rw-r--r--   0     1000      100      685 2023-11-16 02:44:04.000000 qdx_py-0.7.1/.gitignore
+--rw-r--r--   0     1000      100     1289 2023-12-05 05:54:58.000000 qdx_py-0.7.1/README.md
+--rw-r--r--   0     1000      100     6709 2024-03-06 08:48:59.000000 qdx_py-0.7.1/src/lib.rs
+--rw-r--r--   0     1000      100    27250 2024-03-06 08:47:11.000000 qdx_py-0.7.1/Cargo.lock
+--rw-r--r--   0     1000      100      366 2023-12-01 06:07:08.000000 qdx_py-0.7.1/pyproject.toml
+--rw-r--r--   0        0        0     1614 1970-01-01 00:00:00.000000 qdx_py-0.7.1/PKG-INFO
++-rw-r--r--   0        0        0      564 1970-01-01 00:00:00.000000 qdx_py-0.8.0/Cargo.toml
++-rw-r--r--   0     1000      100     2809 2023-11-16 02:44:04.000000 qdx_py-0.8.0/.github/workflows/CI.yml
++-rw-r--r--   0     1000      100      685 2023-11-16 02:44:04.000000 qdx_py-0.8.0/.gitignore
++-rw-r--r--   0     1000      100     1289 2023-12-05 05:54:58.000000 qdx_py-0.8.0/README.md
++-rw-r--r--   0     1000      100     7664 2024-04-03 06:58:14.000000 qdx_py-0.8.0/src/lib.rs
++-rw-r--r--   0     1000      100    27252 2024-04-03 06:57:14.000000 qdx_py-0.8.0/Cargo.lock
++-rw-r--r--   0     1000      100      366 2023-12-01 06:07:08.000000 qdx_py-0.8.0/pyproject.toml
++-rw-r--r--   0        0        0     1614 1970-01-01 00:00:00.000000 qdx_py-0.8.0/PKG-INFO
+```
+
+### Comparing `qdx_py-0.7.1/Cargo.toml` & `qdx_py-0.8.0/Cargo.toml`
+
+ * *Files 18% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ [package]
+ name = "qdx-py"
+-version = "0.7.1"
++version = "0.8.0"
+ edition = "2021"
+ 
+ # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+ [lib]
+ name = "qdx_py"
+ crate-type = ["rlib", "cdylib"]
+```
+
+### Comparing `qdx_py-0.7.1/.github/workflows/CI.yml` & `qdx_py-0.8.0/.github/workflows/CI.yml`
+
+ * *Files identical despite different names*
+
+### Comparing `qdx_py-0.7.1/.gitignore` & `qdx_py-0.8.0/.gitignore`
+
+ * *Files identical despite different names*
+
+### Comparing `qdx_py-0.7.1/README.md` & `qdx_py-0.8.0/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `qdx_py-0.7.1/src/lib.rs` & `qdx_py-0.8.0/src/lib.rs`
+
+ * *Files 10% similar despite different names*
+
+```diff
+@@ -128,14 +128,38 @@
+         Some(conformer.fragment(backbone_steps, terminal_fragment_sidechain_size));
+ 
+     conformer.topology.assign_fragment_charges();
+ 
+     serde_json::to_string(&conformer).map_err(|e| PyRuntimeError::new_err(e.to_string()))
+ }
+ 
++/// Fragments a conformer by atom labels, updating the fragment formal charges based on existing atom charges
++#[pyfunction]
++fn fragment_by_label(
++    conformer_contents: String,
++    missing_atom_strictness: String,
++) -> PyResult<String> {
++    let mut conformer: Conformer = serde_json::from_str(&conformer_contents)
++        .map_err(|e| PyRuntimeError::new_err(e.to_string()))?;
++
++    let strictness: AtomCheckStrictness =
++        serde_json::from_str(&format!("\"{missing_atom_strictness}\""))
++            .map_err(|e| PyRuntimeError::new_err(e.to_string()))?;
++
++    conformer
++        .perceive_bonds(strictness)
++        .map_err(|e| PyRuntimeError::new_err(e.to_string()))?;
++
++    conformer.topology.fragments = Some(conformer.fragment_by_label());
++
++    conformer.topology.assign_fragment_charges();
++
++    serde_json::to_string(&conformer).map_err(|e| PyRuntimeError::new_err(e.to_string()))
++}
++
+ /// Fragments a conformer, using distance based bond inference instead of pattern based bond inference
+ #[pyfunction]
+ fn fragment_legacy(
+     conformer_contents: String,
+     bond_length_tolerance: f32,
+     backbone_steps: usize,
+     terminal_fragment_sidechain_size: Option<usize>,
+@@ -165,11 +189,12 @@
+     m.add_function(wrap_pyfunction!(conformer_to_pdb, m)?)?;
+     m.add_function(wrap_pyfunction!(sdf_to_conformer, m)?)?;
+     m.add_function(wrap_pyfunction!(conformer_to_sdf, m)?)?;
+     m.add_function(wrap_pyfunction!(concat, m)?)?;
+     m.add_function(wrap_pyfunction!(formal_charge, m)?)?;
+     m.add_function(wrap_pyfunction!(fragment, m)?)?;
+     m.add_function(wrap_pyfunction!(fragment_legacy, m)?)?;
++    m.add_function(wrap_pyfunction!(fragment_by_label, m)?)?;
+     m.add_function(wrap_pyfunction!(drop_amino_acids, m)?)?;
+     m.add_function(wrap_pyfunction!(drop_residues, m)?)?;
+     Ok(())
+ }
+```
+
+### Comparing `qdx_py-0.7.1/Cargo.lock` & `qdx_py-0.8.0/Cargo.lock`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,16 +1,16 @@
+ # This file is automatically @generated by Cargo.
+ # It is not intended for manual editing.
+ version = 3
+ 
+ [[package]]
+ name = "aho-corasick"
+-version = "1.1.2"
++version = "1.1.3"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "b2969dcb958b36655471fc61f7e416fa76033bdd4bfed0678d8fee1e2d07a1f0"
++checksum = "8e60d3430d3a69478ad0993f19238d2df97c507009a52b3c10addcd7f6bcb916"
+ dependencies = [
+  "memchr",
+ ]
+ 
+ [[package]]
+ name = "android-tzdata"
+ version = "0.1.1"
+@@ -24,29 +24,29 @@
+ checksum = "819e7219dbd41043ac279b19830f2efc897156490d7fd6ea916720117ee66311"
+ dependencies = [
+  "libc",
+ ]
+ 
+ [[package]]
+ name = "anyhow"
+-version = "1.0.80"
++version = "1.0.81"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "5ad32ce52e4161730f7098c077cd2ed6229b5804ccf99e5366be1ab72a98b4e1"
++checksum = "0952808a6c2afd1aa8947271f3a60f1a6763c7b912d210184c5149b5cf147247"
+ 
+ [[package]]
+ name = "assertables"
+ version = "7.0.1"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+ checksum = "0c24e9d990669fbd16806bff449e4ac644fd9b1fca014760087732fe4102f131"
+ 
+ [[package]]
+ name = "autocfg"
+-version = "1.1.0"
++version = "1.2.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa"
++checksum = "f1fdabc7756949593fe60f30ec81974b613357de856987752631dea1e3394c80"
+ 
+ [[package]]
+ name = "base64"
+ version = "0.21.7"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+ checksum = "9d297deb1925b89f2ccc13d7635fa0714f12c87adce1c75356b39ca9b7178567"
+ 
+@@ -54,35 +54,35 @@
+ name = "bitflags"
+ version = "1.3.2"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+ checksum = "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a"
+ 
+ [[package]]
+ name = "bumpalo"
+-version = "3.15.3"
++version = "3.15.4"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "8ea184aa71bb362a1157c896979544cc23974e08fd265f29ea96b59f0b4a555b"
++checksum = "7ff69b9dd49fd426c69a0db9fc04dd934cdb6645ff000864d98f7e2af8830eaa"
+ 
+ [[package]]
+ name = "cc"
+-version = "1.0.89"
++version = "1.0.90"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "a0ba8f7aaa012f30d5b2861462f6708eccd49c3c39863fe083a308035f63d723"
++checksum = "8cd6604a82acf3039f1144f54b8eb34e91ffba622051189e71b781822d5ee1f5"
+ 
+ [[package]]
+ name = "cfg-if"
+ version = "1.0.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
+ 
+ [[package]]
+ name = "chrono"
+-version = "0.4.34"
++version = "0.4.37"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "5bc015644b92d5890fab7489e49d21f879d5c990186827d42ec511919404f38b"
++checksum = "8a0d04d43504c61aa6c7531f1871dd0d418d91130162063b789da00fd7057a5e"
+ dependencies = [
+  "android-tzdata",
+  "iana-time-zone",
+  "js-sys",
+  "num-traits",
+  "wasm-bindgen",
+  "windows-targets 0.52.4",
+@@ -182,42 +182,42 @@
+ checksum = "f31827a206f56af32e590ba56d5d2d085f558508192593743f16b2306495269f"
+ dependencies = [
+  "cc",
+ ]
+ 
+ [[package]]
+ name = "indexmap"
+-version = "2.2.5"
++version = "2.2.6"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "7b0b929d511467233429c45a44ac1dcaa21ba0f5ba11e4879e6ed28ddb4f9df4"
++checksum = "168fb715dda47215e360912c096649d23d58bf392ac62f73919e831745e40f26"
+ dependencies = [
+  "equivalent",
+  "hashbrown",
+ ]
+ 
+ [[package]]
+ name = "indoc"
+-version = "2.0.4"
++version = "2.0.5"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "1e186cfbae8084e513daff4240b4797e342f988cecda4fb6c939150f96315fd8"
++checksum = "b248f5224d1d606005e02c97f5aa4e88eeb230488bcc03bc9ca4d7991399f2b5"
+ 
+ [[package]]
+ name = "itertools"
+ version = "0.11.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+ checksum = "b1c173a5686ce8bfa551b3563d0c2170bf24ca44da99c7ca4bfdab5418c3fe57"
+ dependencies = [
+  "either",
+ ]
+ 
+ [[package]]
+ name = "itoa"
+-version = "1.0.10"
++version = "1.0.11"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "b1a46d1a171d865aa5f83f92695765caa047a9b4cbae2cbf37dbd613a793fd4c"
++checksum = "49f1f14873335454500d59611f1cf4a4b0f786f9ac11f4312a78e4cf2566695b"
+ 
+ [[package]]
+ name = "js-sys"
+ version = "0.3.69"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+ checksum = "29c15563dc2726973df627357ce0c9ddddbea194836909d655df6a75d2cf296d"
+ dependencies = [
+@@ -265,23 +265,23 @@
+ checksum = "8263075bb86c5a1b1427b5ae862e8889656f126e9f77c484496e8b47cf5c5558"
+ dependencies = [
+  "regex-automata 0.1.10",
+ ]
+ 
+ [[package]]
+ name = "memchr"
+-version = "2.7.1"
++version = "2.7.2"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "523dc4f511e55ab87b694dc30d0f820d60906ef06413f93d4d7a1385599cc149"
++checksum = "6c8640c5d730cb13ebd907d8d04b52f55ac9a2eec55b440c8892f40d56c76c1d"
+ 
+ [[package]]
+ name = "memoffset"
+-version = "0.9.0"
++version = "0.9.1"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "5a634b1c61a95585bd15607c6ab0c4e5b226e695ff2800ba0cdccddf208c406c"
++checksum = "488016bfae457b036d996092f6cb448677611ce4449e970ceaf42695203f218a"
+ dependencies = [
+  "autocfg",
+ ]
+ 
+ [[package]]
+ name = "nu-ansi-term"
+ version = "0.46.0"
+@@ -306,26 +306,26 @@
+ version = "1.19.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+ checksum = "3fdb12b2476b595f9358c5161aa467c2438859caa136dec86c26fdd2efe17b92"
+ 
+ [[package]]
+ name = "ouroboros"
+ version = "0.1.0"
+-source = "git+ssh://git@github.com/talo/ouroboros.git#d45ae672c1a631af748fdf1e38b8b776497a5faf"
++source = "git+ssh://git@github.com/talo/ouroboros.git#fd6d061bb3247f6b804caf6fa9a119801eb4db3b"
+ dependencies = [
+  "ouroboros-proc-macro",
+  "serde",
+  "serde_json",
+- "tracing",
++ "thiserror",
+ ]
+ 
+ [[package]]
+ name = "ouroboros-proc-macro"
+ version = "0.1.0"
+-source = "git+ssh://git@github.com/talo/ouroboros.git#d45ae672c1a631af748fdf1e38b8b776497a5faf"
++source = "git+ssh://git@github.com/talo/ouroboros.git#fd6d061bb3247f6b804caf6fa9a119801eb4db3b"
+ dependencies = [
+  "proc-macro2",
+  "quote",
+  "syn",
+ ]
+ 
+ [[package]]
+@@ -374,29 +374,29 @@
+ dependencies = [
+  "fixedbitset",
+  "indexmap",
+ ]
+ 
+ [[package]]
+ name = "pin-project-lite"
+-version = "0.2.13"
++version = "0.2.14"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "8afb450f006bf6385ca15ef45d71d2288452bc3683ce2e2cacc0d18e4be60b58"
++checksum = "bda66fc9667c18cb2758a2ac84d1167245054bcf85d5d1aaa6923f45801bdd02"
+ 
+ [[package]]
+ name = "portable-atomic"
+ version = "1.6.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+ checksum = "7170ef9988bc169ba16dd36a7fa041e5c4cbeb6a35b76d4c03daded371eae7c0"
+ 
+ [[package]]
+ name = "proc-macro2"
+-version = "1.0.78"
++version = "1.0.79"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "e2422ad645d89c99f8f3e6b88a9fdeca7fabeac836b1002371c4367c8f984aae"
++checksum = "e835ff2298f5721608eb1a980ecaee1aef2c132bf95ecc026a11b7bf3c01c02e"
+ dependencies = [
+  "unicode-ident",
+ ]
+ 
+ [[package]]
+ name = "pyo3"
+ version = "0.20.3"
+@@ -459,16 +459,16 @@
+  "pyo3-build-config",
+  "quote",
+  "syn",
+ ]
+ 
+ [[package]]
+ name = "qdx-common"
+-version = "0.7.0"
+-source = "git+ssh://git@github.com/talo/qdx-common.git#d32199a2d376c72328451fa59d4eb6eb84146d41"
++version = "0.7.2"
++source = "git+ssh://git@github.com/talo/qdx-common.git#18b5a4343f0299e1b3c545d69ceb20e0afb3ecb7"
+ dependencies = [
+  "anyhow",
+  "assertables",
+  "base64",
+  "euclid",
+  "half",
+  "itertools",
+@@ -487,15 +487,15 @@
+  "tracing",
+  "tracing-subscriber",
+  "uuid",
+ ]
+ 
+ [[package]]
+ name = "qdx-py"
+-version = "0.7.1"
++version = "0.8.0"
+ dependencies = [
+  "pyo3",
+  "qdx-common",
+  "serde",
+  "serde_json",
+ ]
+ 
+@@ -515,22 +515,22 @@
+ checksum = "4722d768eff46b75989dd134e5c353f0d6296e5aaa3132e776cbdb56be7731aa"
+ dependencies = [
+  "bitflags",
+ ]
+ 
+ [[package]]
+ name = "regex"
+-version = "1.10.3"
++version = "1.10.4"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "b62dbe01f0b06f9d8dc7d49e05a0785f153b00b2c227856282f671e0318c9b15"
++checksum = "c117dbdfde9c8308975b6a18d71f3f385c89461f7b3fb054288ecf2a2058ba4c"
+ dependencies = [
+  "aho-corasick",
+  "memchr",
+  "regex-automata 0.4.6",
+- "regex-syntax 0.8.2",
++ "regex-syntax 0.8.3",
+ ]
+ 
+ [[package]]
+ name = "regex-automata"
+ version = "0.1.10"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+ checksum = "6c230d73fb8d8c1b9c0b3135c5142a8acee3a0558fb8db5cf1cb65f8d7862132"
+@@ -542,28 +542,28 @@
+ name = "regex-automata"
+ version = "0.4.6"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+ checksum = "86b83b8b9847f9bf95ef68afb0b8e6cdb80f498442f5179a29fad448fcc1eaea"
+ dependencies = [
+  "aho-corasick",
+  "memchr",
+- "regex-syntax 0.8.2",
++ "regex-syntax 0.8.3",
+ ]
+ 
+ [[package]]
+ name = "regex-syntax"
+ version = "0.6.29"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+ checksum = "f162c6dd7b008981e4d40210aca20b4bd0f9b60ca9271061b07f78537722f2e1"
+ 
+ [[package]]
+ name = "regex-syntax"
+-version = "0.8.2"
++version = "0.8.3"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "c08c74e62047bb2de4ff487b251e4a92e24f48745648451635cec7d591162d9f"
++checksum = "adad44e29e4c806119491a7f06f03de4d1af22c3a680dd47f1e6e179439d1f56"
+ 
+ [[package]]
+ name = "rolling-file"
+ version = "0.2.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+ checksum = "8395b4f860856b740f20a296ea2cd4d823e81a2658cf05ef61be22916026a906"
+ dependencies = [
+@@ -627,17 +627,17 @@
+  "proc-macro2",
+  "quote",
+  "syn",
+ ]
+ 
+ [[package]]
+ name = "serde_json"
+-version = "1.0.114"
++version = "1.0.115"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "c5f09b1bd632ef549eaa9f60a1f8de742bdbc698e6cee2095fc84dde5f549ae0"
++checksum = "12dc5c46daa8e9fdf4f5e71b6cf9a53f2487da0e86e55808e2d35539666497dd"
+ dependencies = [
+  "itoa",
+  "ryu",
+  "serde",
+ ]
+ 
+ [[package]]
+@@ -647,17 +647,17 @@
+ checksum = "f40ca3c46823713e0d4209592e8d6e826aa57e928f09752619fc696c499637f6"
+ dependencies = [
+  "lazy_static",
+ ]
+ 
+ [[package]]
+ name = "smallvec"
+-version = "1.13.1"
++version = "1.13.2"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "e6ecd384b10a64542d77071bd64bd7b231f4ed5940fba55e98c3de13824cf3d7"
++checksum = "3c5e1a9a646d36c3599cd173a41282daf47c44583ad367b8e6837255952e5c67"
+ 
+ [[package]]
+ name = "strum"
+ version = "0.25.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+ checksum = "290d54ea6f91c969195bdbcd7442c8c2a2ba87da8bf60a7ee86a235d4bc1e125"
+ 
+@@ -672,43 +672,43 @@
+  "quote",
+  "rustversion",
+  "syn",
+ ]
+ 
+ [[package]]
+ name = "syn"
+-version = "2.0.52"
++version = "2.0.58"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "b699d15b36d1f02c3e7c69f8ffef53de37aefae075d8488d4ba1a7788d574a07"
++checksum = "44cfb93f38070beee36b3fef7d4f5a16f27751d94b187b666a5cc5e9b0d30687"
+ dependencies = [
+  "proc-macro2",
+  "quote",
+  "unicode-ident",
+ ]
+ 
+ [[package]]
+ name = "target-lexicon"
+ version = "0.12.14"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+ checksum = "e1fc403891a21bcfb7c37834ba66a547a8f402146eba7265b5a6d88059c9ff2f"
+ 
+ [[package]]
+ name = "thiserror"
+-version = "1.0.57"
++version = "1.0.58"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "1e45bcbe8ed29775f228095caf2cd67af7a4ccf756ebff23a306bf3e8b47b24b"
++checksum = "03468839009160513471e86a034bb2c5c0e4baae3b43f79ffc55c4a5427b3297"
+ dependencies = [
+  "thiserror-impl",
+ ]
+ 
+ [[package]]
+ name = "thiserror-impl"
+-version = "1.0.57"
++version = "1.0.58"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "a953cb265bef375dae3de6663da4d3804eee9682ea80d8e2542529b73c531c81"
++checksum = "c61f3ba182994efc43764a46c018c347bc492c79f024e705f46567b418f6d4f7"
+ dependencies = [
+  "proc-macro2",
+  "quote",
+  "syn",
+ ]
+ 
+ [[package]]
+@@ -792,17 +792,17 @@
+ name = "unindent"
+ version = "0.2.3"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+ checksum = "c7de7d73e1754487cb58364ee906a499937a0dfabd86bcb980fa99ec8c8fa2ce"
+ 
+ [[package]]
+ name = "uuid"
+-version = "1.7.0"
++version = "1.8.0"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "f00cc9702ca12d3c81455259621e676d0f7251cec66a21e98fe2e9a37db93b2a"
++checksum = "a183cf7feeba97b4dd1c0d46788634f6221d87fa961b305bed08c851829efcc0"
+ dependencies = [
+  "getrandom",
+  "serde",
+ ]
+ 
+ [[package]]
+ name = "valuable"
+@@ -1013,10 +1013,10 @@
+ name = "windows_x86_64_msvc"
+ version = "0.52.4"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+ checksum = "32b752e52a2da0ddfbdbcc6fceadfeede4c939ed16d13e648833a61dfb611ed8"
+ 
+ [[package]]
+ name = "xml-rs"
+-version = "0.8.19"
++version = "0.8.20"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "0fcb9cbac069e033553e8bb871be2fbdffcab578eb25bd0f7c508cedc6dcd75a"
++checksum = "791978798f0597cfc70478424c2b4fdc2b7a8024aaff78497ef00f24ef674193"
+```
+
+### Comparing `qdx_py-0.7.1/PKG-INFO` & `qdx_py-0.8.0/PKG-INFO`
+
+ * *Files 5% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: qdx-py
+-Version: 0.7.1
++Version: 0.8.0
+ Classifier: Programming Language :: Rust
+ Classifier: Programming Language :: Python :: Implementation :: CPython
+ Classifier: Programming Language :: Python :: Implementation :: PyPy
+ Requires-Python: >=3.7
+ Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+ 
+ # QDX-py
+```
+

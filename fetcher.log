@@ -21906,3 +21906,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:26:12] INFO root fetch - processPackages [azapy]: Remove: archive file [/home/abi/fetcher/tmp/azapy-1.2.4.tar.gz]
 [2024-04-03 08:26:12] INFO root fetch - main [MainThread]: End processing [azapy]: success
 [2024-04-03 08:26:12] INFO root fetch - main [MainThread]: Store serial: [22598797]
+[2024-04-03 08:28:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598797]
+[2024-04-03 08:28:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 08:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skybox
+[2024-04-03 08:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gh-util
+[2024-04-03 08:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spatialtsp
+[2024-04-03 08:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pythagoras
+[2024-04-03 08:28:22] WARNING root fetch - processPackages [pythagoras]: Skipping, unable to determine old version
+[2024-04-03 08:28:22] INFO root fetch - main [MainThread]: End processing [pythagoras] error
+[2024-04-03 08:28:22] INFO root fetch - processPackages [skybox]: New version: [2024.4.3] Old Version: [2024.3.6]
+[2024-04-03 08:28:22] INFO root fetch - processPackages [spatialtsp]: New version: [0.0.5] Old Version: [0.0.1]
+[2024-04-03 08:28:22] INFO root fetch - processPackages [gh-util]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 08:28:22] INFO root fetch - processPackages [skybox]: Downloading https://files.pythonhosted.org/packages/ea/53/484ec04feb248fc71d82622e4390a2377bc6fe75a812a2b2ae2abd981edb/skybox-2024.3.6.tar.gz
+[2024-04-03 08:28:22] INFO root fetch - processPackages [spatialtsp]: Downloading https://files.pythonhosted.org/packages/fc/ef/ce7cef4e5e470532a40c24ce8b3a2d0f2625990581f0b332f24633ad15ec/spatialtsp-0.0.1.tar.gz
+[2024-04-03 08:28:22] INFO root fetch - processPackages [gh-util]: Downloading https://files.pythonhosted.org/packages/12/19/16ad7f3bba41799d3be6c8f35b5b924952b288f4164331df7829d54245ae/gh_util-0.1.8.tar.gz
+[2024-04-03 08:28:22] WARNING root fetch - processPackages [skybox]: Timeout reached during download
+[2024-04-03 08:28:22] WARNING root fetch - processPackages [spatialtsp]: Timeout reached during download
+[2024-04-03 08:28:22] INFO root fetch - processPackages [skybox]: Downloading https://files.pythonhosted.org/packages/9c/98/c4affeaa793a4db368b3c6cb3882b5422a7388e535d97b1e7b0afacf9ab9/skybox-2024.4.3.tar.gz
+[2024-04-03 08:28:23] INFO root fetch - processPackages [spatialtsp]: Downloading https://files.pythonhosted.org/packages/52/4f/fe9d5f185393b18af0d6294df185a54cfed888243fe0e84c02319826f277/spatialtsp-0.0.5.tar.gz
+[2024-04-03 08:28:23] WARNING root fetch - processPackages [skybox]: Timeout reached during download
+[2024-04-03 08:28:23] INFO root fetch - processPackages [skybox]: executing diffoscope
+[2024-04-03 08:28:23] INFO root fetch - processPackages [skybox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skybox-2024.3.6.tar.gz tmp/skybox-2024.4.3.tar.gz --markdown 20240403/s/skybox/2024.3.6-2024.4.3/diff.md --exclude *.pyd
+[2024-04-03 08:28:23] WARNING root fetch - processPackages [gh-util]: Timeout reached during download
+[2024-04-03 08:28:23] INFO root fetch - processPackages [skybox]: Remove: archive file [/home/abi/fetcher/tmp/skybox-2024.3.6.tar.gz]
+[2024-04-03 08:28:23] INFO root fetch - processPackages [skybox]: Remove: archive file [/home/abi/fetcher/tmp/skybox-2024.4.3.tar.gz]
+[2024-04-03 08:28:23] INFO root fetch - main [MainThread]: End processing [skybox]: success
+[2024-04-03 08:28:23] INFO root fetch - processPackages [gh-util]: Downloading https://files.pythonhosted.org/packages/eb/d4/697bc877cb9ef5b789ecccae7ddd11d7b0c97463359d4f2ee02ac77a8268/gh_util-0.1.9.tar.gz
+[2024-04-03 08:28:23] WARNING root fetch - processPackages [spatialtsp]: Timeout reached during download
+[2024-04-03 08:28:23] INFO root fetch - processPackages [spatialtsp]: executing diffoscope
+[2024-04-03 08:28:23] INFO root fetch - processPackages [spatialtsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialtsp-0.0.1.tar.gz tmp/spatialtsp-0.0.5.tar.gz --markdown 20240403/s/spatialtsp/0.0.1-0.0.5/diff.md --exclude *.pyd
+[2024-04-03 08:28:24] WARNING root fetch - processPackages [gh-util]: Timeout reached during download
+[2024-04-03 08:28:24] INFO root fetch - processPackages [gh-util]: executing diffoscope
+[2024-04-03 08:28:24] INFO root fetch - processPackages [gh-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gh_util-0.1.8.tar.gz tmp/gh_util-0.1.9.tar.gz --markdown 20240403/g/gh-util/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 08:28:24] INFO root fetch - processPackages [spatialtsp]: Remove: archive file [/home/abi/fetcher/tmp/spatialtsp-0.0.1.tar.gz]
+[2024-04-03 08:28:24] INFO root fetch - processPackages [spatialtsp]: Remove: archive file [/home/abi/fetcher/tmp/spatialtsp-0.0.5.tar.gz]
+[2024-04-03 08:28:24] INFO root fetch - main [MainThread]: End processing [spatialtsp]: success
+[2024-04-03 08:28:25] INFO root fetch - processPackages [gh-util]: Remove: archive file [/home/abi/fetcher/tmp/gh_util-0.1.8.tar.gz]
+[2024-04-03 08:28:25] INFO root fetch - processPackages [gh-util]: Remove: archive file [/home/abi/fetcher/tmp/gh_util-0.1.9.tar.gz]
+[2024-04-03 08:28:25] INFO root fetch - main [MainThread]: End processing [gh-util]: success
+[2024-04-03 08:28:25] INFO root fetch - main [MainThread]: Store serial: [22598809]

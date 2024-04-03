@@ -20431,3 +20431,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 07:33:29] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tdcpg-3.0.999.tar.gz]
 [2024-04-03 07:33:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tdcpg]: success
 [2024-04-03 07:33:29] INFO root fetch - main [MainThread]: Store serial: [22598378]
+[2024-04-03 07:35:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598378]
+[2024-04-03 07:35:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 07:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyscreeps-arena
+[2024-04-03 07:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tdid
+[2024-04-03 07:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tdmq
+[2024-04-03 07:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: layeutils
+[2024-04-03 07:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-tem
+[2024-04-03 07:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-teo
+[2024-04-03 07:35:37] INFO root fetch - processPackages [pyscreeps-arena]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-03 07:35:37] INFO root fetch - processPackages [pyscreeps-arena]: Downloading https://files.pythonhosted.org/packages/cc/62/3fe28216883df25b3bf9abf8bf0ade001aea9513d6de642b651ccc2d9418/pyscreeps-arena-0.1.6.tar.gz
+[2024-04-03 07:35:37] INFO root fetch - processPackages [layeutils]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-03 07:35:37] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:35:37] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:35:37] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:35:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:35:38] WARNING root fetch - processPackages [pyscreeps-arena]: Timeout reached during download
+[2024-04-03 07:35:38] INFO root fetch - processPackages [layeutils]: Downloading https://files.pythonhosted.org/packages/df/8a/5750fd27fb4c3487b4dbdfad44f376e0526542c6ee8cc4234e63d034eff8/layeutils-0.2.8.tar.gz
+[2024-04-03 07:35:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: Downloading https://files.pythonhosted.org/packages/6a/af/a88318f4524339960be36437e29ed728dd45fec2dc428cff269dfb532fd0/tencentcloud-sdk-python-tdmq-3.0.998.tar.gz
+[2024-04-03 07:35:38] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: Downloading https://files.pythonhosted.org/packages/07/4d/f2b0df5ae752aaa98338b6a6105b1db32e73a34f2a594606509391c385d7/tencentcloud-sdk-python-teo-3.0.998.tar.gz
+[2024-04-03 07:35:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: Downloading https://files.pythonhosted.org/packages/46/3e/fd3c779997240f97e63b184e7fd680dbb82adfe84f83484e64ef076ac6fb/tencentcloud-sdk-python-tdid-3.0.998.tar.gz
+[2024-04-03 07:35:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: Downloading https://files.pythonhosted.org/packages/2c/d7/92a95454f7f8e1bb4a75a02eac519d0bba4396bfeaa64c06549818b2fd6d/tencentcloud-sdk-python-tem-3.0.998.tar.gz
+[2024-04-03 07:35:38] INFO root fetch - processPackages [pyscreeps-arena]: Downloading https://files.pythonhosted.org/packages/29/e3/de7ebec9421d69add7e13c0afb02bd7a72dfc1af6b6fd7672b5b5160c4c2/pyscreeps-arena-0.1.7.tar.gz
+[2024-04-03 07:35:38] WARNING root fetch - processPackages [tencentcloud-sdk-python-tdid]: Timeout reached during download
+[2024-04-03 07:35:38] WARNING root fetch - processPackages [tencentcloud-sdk-python-teo]: Timeout reached during download
+[2024-04-03 07:35:38] WARNING root fetch - processPackages [tencentcloud-sdk-python-tem]: Timeout reached during download
+[2024-04-03 07:35:38] WARNING root fetch - processPackages [pyscreeps-arena]: Timeout reached during download
+[2024-04-03 07:35:38] INFO root fetch - processPackages [pyscreeps-arena]: executing diffoscope
+[2024-04-03 07:35:38] INFO root fetch - processPackages [pyscreeps-arena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscreeps-arena-0.1.6.tar.gz tmp/pyscreeps-arena-0.1.7.tar.gz --markdown 20240403/p/pyscreeps-arena/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-03 07:35:38] WARNING root fetch - processPackages [layeutils]: Timeout reached during download
+[2024-04-03 07:35:38] WARNING root fetch - processPackages [tencentcloud-sdk-python-tdmq]: Timeout reached during download
+[2024-04-03 07:35:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: Downloading https://files.pythonhosted.org/packages/70/0d/3057d25c093970fedab89f14fba80890710dba17eb9243812ea9ff97ee7e/tencentcloud-sdk-python-tdid-3.0.999.tar.gz
+[2024-04-03 07:35:38] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: Downloading https://files.pythonhosted.org/packages/ac/05/c5f9be59561506fdb7e531e8d92f6f8b81b611d79ae0df4d5edc49e03945/tencentcloud-sdk-python-teo-3.0.999.tar.gz
+[2024-04-03 07:35:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: Downloading https://files.pythonhosted.org/packages/8c/64/9681d4cdafa7cea4400f5991b369518f8f2b7066a4a2faee70b8431ecf3e/tencentcloud-sdk-python-tem-3.0.999.tar.gz
+[2024-04-03 07:35:38] INFO root fetch - processPackages [layeutils]: Downloading https://files.pythonhosted.org/packages/49/3d/c713aa3374b8d3b84cd8820b2906eff00ed129c458180bc7ae7c4568a911/layeutils-0.2.9.tar.gz
+[2024-04-03 07:35:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: Downloading https://files.pythonhosted.org/packages/be/e2/73cefafe56186ea9adec2a69a562a6e64b3143f3b67b06b517497e909f64/tencentcloud-sdk-python-tdmq-3.0.999.tar.gz
+[2024-04-03 07:35:38] WARNING root fetch - processPackages [tencentcloud-sdk-python-tdid]: Timeout reached during download
+[2024-04-03 07:35:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: executing diffoscope
+[2024-04-03 07:35:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tdid-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tdid-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-tdid/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:35:38] WARNING root fetch - processPackages [tencentcloud-sdk-python-tem]: Timeout reached during download
+[2024-04-03 07:35:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: executing diffoscope
+[2024-04-03 07:35:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tem-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tem-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-tem/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:35:38] WARNING root fetch - processPackages [tencentcloud-sdk-python-teo]: Timeout reached during download
+[2024-04-03 07:35:38] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: executing diffoscope
+[2024-04-03 07:35:38] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-teo-3.0.998.tar.gz tmp/tencentcloud-sdk-python-teo-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-teo/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:35:38] WARNING root fetch - processPackages [layeutils]: Timeout reached during download
+[2024-04-03 07:35:38] INFO root fetch - processPackages [layeutils]: executing diffoscope
+[2024-04-03 07:35:38] INFO root fetch - processPackages [layeutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layeutils-0.2.8.tar.gz tmp/layeutils-0.2.9.tar.gz --markdown 20240403/l/layeutils/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-03 07:35:38] WARNING root fetch - processPackages [tencentcloud-sdk-python-tdmq]: Timeout reached during download
+[2024-04-03 07:35:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: executing diffoscope
+[2024-04-03 07:35:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tdmq-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tdmq-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-tdmq/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:35:38] INFO root fetch - processPackages [pyscreeps-arena]: Remove: archive file [/home/abi/fetcher/tmp/pyscreeps-arena-0.1.6.tar.gz]
+[2024-04-03 07:35:38] INFO root fetch - processPackages [pyscreeps-arena]: Remove: archive file [/home/abi/fetcher/tmp/pyscreeps-arena-0.1.7.tar.gz]
+[2024-04-03 07:35:38] INFO root fetch - main [MainThread]: End processing [pyscreeps-arena]: success
+[2024-04-03 07:35:39] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-teo-3.0.998.tar.gz]
+[2024-04-03 07:35:39] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-teo-3.0.999.tar.gz]
+[2024-04-03 07:35:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-teo]: success
+[2024-04-03 07:35:39] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tdid-3.0.998.tar.gz]
+[2024-04-03 07:35:39] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tdid-3.0.999.tar.gz]
+[2024-04-03 07:35:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tdid]: success
+[2024-04-03 07:35:39] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tdmq-3.0.998.tar.gz]
+[2024-04-03 07:35:39] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tdmq-3.0.999.tar.gz]
+[2024-04-03 07:35:39] INFO root fetch - processPackages [layeutils]: Remove: archive file [/home/abi/fetcher/tmp/layeutils-0.2.8.tar.gz]
+[2024-04-03 07:35:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tdmq]: success
+[2024-04-03 07:35:39] INFO root fetch - processPackages [layeutils]: Remove: archive file [/home/abi/fetcher/tmp/layeutils-0.2.9.tar.gz]
+[2024-04-03 07:35:39] INFO root fetch - main [MainThread]: End processing [layeutils]: success
+[2024-04-03 07:35:39] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tem-3.0.998.tar.gz]
+[2024-04-03 07:35:39] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tem-3.0.999.tar.gz]
+[2024-04-03 07:35:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tem]: success
+[2024-04-03 07:35:39] INFO root fetch - main [MainThread]: Store serial: [22598397]

@@ -13832,3 +13832,20 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 04:08:33] INFO root fetch - processPackages [odoo14-addon-ssi-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_service-14.0.2.3.0-py3-none-any.whl.zip]
 [2024-04-03 04:08:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-service]: success
 [2024-04-03 04:08:33] INFO root fetch - main [MainThread]: Store serial: [22596394]
+[2024-04-03 04:10:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596394]
+[2024-04-03 04:10:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 04:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DeCGR
+[2024-04-03 04:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-toolkit
+[2024-04-03 04:10:42] INFO root fetch - processPackages [DeCGR]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-03 04:10:42] WARNING root fetch - processPackages [llm-toolkit]: Skipping, unable to determine old version
+[2024-04-03 04:10:42] INFO root fetch - main [MainThread]: End processing [llm-toolkit] error
+[2024-04-03 04:10:43] INFO root fetch - processPackages [DeCGR]: Downloading https://files.pythonhosted.org/packages/ab/c9/6fade771fe7e673b995fb8da74ce0ad0d8e1c233f230ca96a6efa8e99766/DeCGR-1.0.3.tar.gz
+[2024-04-03 04:10:43] WARNING root fetch - processPackages [DeCGR]: Timeout reached during download
+[2024-04-03 04:10:43] INFO root fetch - processPackages [DeCGR]: Downloading https://files.pythonhosted.org/packages/42/f6/3042c92faabaabcece1af793aff07b8327ecb2c7b1772909c7ee8bd5860b/DeCGR-1.0.4.tar.gz
+[2024-04-03 04:10:43] WARNING root fetch - processPackages [DeCGR]: Timeout reached during download
+[2024-04-03 04:10:43] INFO root fetch - processPackages [DeCGR]: executing diffoscope
+[2024-04-03 04:10:43] INFO root fetch - processPackages [DeCGR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeCGR-1.0.3.tar.gz tmp/DeCGR-1.0.4.tar.gz --markdown 20240403/D/DeCGR/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-03 04:10:43] INFO root fetch - processPackages [DeCGR]: Remove: archive file [/home/abi/fetcher/tmp/DeCGR-1.0.3.tar.gz]
+[2024-04-03 04:10:43] INFO root fetch - processPackages [DeCGR]: Remove: archive file [/home/abi/fetcher/tmp/DeCGR-1.0.4.tar.gz]
+[2024-04-03 04:10:43] INFO root fetch - main [MainThread]: End processing [DeCGR]: success
+[2024-04-03 04:10:43] INFO root fetch - main [MainThread]: Store serial: [22596399]

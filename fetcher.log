@@ -17400,3 +17400,50 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:34:05] INFO root fetch - processPackages [pi-base]: Remove: archive file [/home/abi/fetcher/tmp/pi_base-0.0.9.tar.gz]
 [2024-04-03 06:34:05] INFO root fetch - main [MainThread]: End processing [pi-base]: success
 [2024-04-03 06:34:05] INFO root fetch - main [MainThread]: Store serial: [22597538]
+[2024-04-03 06:36:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597538]
+[2024-04-03 06:36:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 06:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-CIAM
+[2024-04-03 06:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-cfg
+[2024-04-03 06:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyscreeps-arena
+[2024-04-03 06:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spectrum-image
+[2024-04-03 06:36:15] INFO root fetch - processPackages [spectrum-image]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-03 06:36:15] INFO root fetch - processPackages [python-CIAM]: New version: [1.2] Old Version: [1.1.2]
+[2024-04-03 06:36:15] INFO root fetch - processPackages [pyscreeps-arena]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-03 06:36:15] INFO root fetch - processPackages [spectrum-image]: Downloading https://files.pythonhosted.org/packages/13/e9/ccde8c8f2da4d2d8f0fb1a25f1d6e6584b010f9da07ecd7b988e986ce340/spectrum_image-0.2.1.tar.gz
+[2024-04-03 06:36:15] INFO root fetch - processPackages [tencentcloud-sdk-python-cfg]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:36:15] INFO root fetch - processPackages [python-CIAM]: Downloading https://files.pythonhosted.org/packages/97/da/055495a91f7eea1c389cb431b0fbefc210b518e538628dd195de4573bfae/python-CIAM-1.1.2.tar.gz
+[2024-04-03 06:36:15] INFO root fetch - processPackages [pyscreeps-arena]: Downloading https://files.pythonhosted.org/packages/84/76/8787c2ec62ed81e4106eacb6ab442c4f94ce8ad9dc784d64752bb9f79690/pyscreeps-arena-0.1.1.tar.gz
+[2024-04-03 06:36:15] WARNING root fetch - processPackages [spectrum-image]: Timeout reached during download
+[2024-04-03 06:36:15] WARNING root fetch - processPackages [pyscreeps-arena]: Timeout reached during download
+[2024-04-03 06:36:15] WARNING root fetch - processPackages [python-CIAM]: Timeout reached during download
+[2024-04-03 06:36:15] INFO root fetch - processPackages [spectrum-image]: Downloading https://files.pythonhosted.org/packages/cf/74/1ec79da38f479b95b474f760d7d8bfa8c7befdb2c72021f24285bfeb5dd4/spectrum_image-0.2.2.tar.gz
+[2024-04-03 06:36:15] INFO root fetch - processPackages [tencentcloud-sdk-python-cfg]: Downloading https://files.pythonhosted.org/packages/5b/80/9e29266659a003111af90e0c5ac74a1a261b371a71e9665d649a21f1b3e9/tencentcloud-sdk-python-cfg-3.0.998.tar.gz
+[2024-04-03 06:36:15] INFO root fetch - processPackages [python-CIAM]: Downloading https://files.pythonhosted.org/packages/78/d1/5f222011deb96393b64f08da7ffbda597e01d74f757444cf6104967fc676/python-CIAM-1.2.tar.gz
+[2024-04-03 06:36:15] WARNING root fetch - processPackages [spectrum-image]: Timeout reached during download
+[2024-04-03 06:36:15] INFO root fetch - processPackages [spectrum-image]: executing diffoscope
+[2024-04-03 06:36:15] INFO root fetch - processPackages [spectrum-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrum_image-0.2.1.tar.gz tmp/spectrum_image-0.2.2.tar.gz --markdown 20240403/s/spectrum-image/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-03 06:36:15] WARNING root fetch - processPackages [tencentcloud-sdk-python-cfg]: Timeout reached during download
+[2024-04-03 06:36:15] INFO root fetch - processPackages [pyscreeps-arena]: Downloading https://files.pythonhosted.org/packages/cd/61/f09ecda851c3abf2c61c9e8399f0f1f399a0cb499eb15234a118fa726e0a/pyscreeps-arena-0.1.2.tar.gz
+[2024-04-03 06:36:15] WARNING root fetch - processPackages [python-CIAM]: Timeout reached during download
+[2024-04-03 06:36:15] INFO root fetch - processPackages [python-CIAM]: executing diffoscope
+[2024-04-03 06:36:15] INFO root fetch - processPackages [python-CIAM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-CIAM-1.1.2.tar.gz tmp/python-CIAM-1.2.tar.gz --markdown 20240403/p/python-CIAM/1.1.2-1.2/diff.md --exclude *.pyd
+[2024-04-03 06:36:15] WARNING root fetch - processPackages [pyscreeps-arena]: Timeout reached during download
+[2024-04-03 06:36:15] INFO root fetch - processPackages [pyscreeps-arena]: executing diffoscope
+[2024-04-03 06:36:15] INFO root fetch - processPackages [pyscreeps-arena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscreeps-arena-0.1.1.tar.gz tmp/pyscreeps-arena-0.1.2.tar.gz --markdown 20240403/p/pyscreeps-arena/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-03 06:36:15] INFO root fetch - processPackages [tencentcloud-sdk-python-cfg]: Downloading https://files.pythonhosted.org/packages/d8/8a/d9da55ac2a9d756f736e4e45c4177f762d13767075b0f41aea3ef899e4fd/tencentcloud-sdk-python-cfg-3.0.999.tar.gz
+[2024-04-03 06:36:15] WARNING root fetch - processPackages [tencentcloud-sdk-python-cfg]: Timeout reached during download
+[2024-04-03 06:36:15] INFO root fetch - processPackages [tencentcloud-sdk-python-cfg]: executing diffoscope
+[2024-04-03 06:36:15] INFO root fetch - processPackages [tencentcloud-sdk-python-cfg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cfg-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cfg-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-cfg/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:36:16] INFO root fetch - processPackages [spectrum-image]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_image-0.2.1.tar.gz]
+[2024-04-03 06:36:16] INFO root fetch - processPackages [spectrum-image]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_image-0.2.2.tar.gz]
+[2024-04-03 06:36:16] INFO root fetch - main [MainThread]: End processing [spectrum-image]: success
+[2024-04-03 06:36:16] INFO root fetch - processPackages [pyscreeps-arena]: Remove: archive file [/home/abi/fetcher/tmp/pyscreeps-arena-0.1.1.tar.gz]
+[2024-04-03 06:36:16] INFO root fetch - processPackages [pyscreeps-arena]: Remove: archive file [/home/abi/fetcher/tmp/pyscreeps-arena-0.1.2.tar.gz]
+[2024-04-03 06:36:16] INFO root fetch - main [MainThread]: End processing [pyscreeps-arena]: success
+[2024-04-03 06:36:16] INFO root fetch - processPackages [tencentcloud-sdk-python-cfg]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cfg-3.0.998.tar.gz]
+[2024-04-03 06:36:16] INFO root fetch - processPackages [tencentcloud-sdk-python-cfg]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cfg-3.0.999.tar.gz]
+[2024-04-03 06:36:16] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cfg]: success
+[2024-04-03 06:36:19] INFO root fetch - processPackages [python-CIAM]: Remove: archive file [/home/abi/fetcher/tmp/python-CIAM-1.1.2.tar.gz]
+[2024-04-03 06:36:19] INFO root fetch - processPackages [python-CIAM]: Remove: archive file [/home/abi/fetcher/tmp/python-CIAM-1.2.tar.gz]
+[2024-04-03 06:36:19] INFO root fetch - main [MainThread]: End processing [python-CIAM]: success
+[2024-04-03 06:36:19] INFO root fetch - main [MainThread]: Store serial: [22597549]

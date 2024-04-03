@@ -2465,3 +2465,72 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 02:04:12] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240402234712-py3-none-any.whl.zip]
 [2024-04-03 02:04:12] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2024-04-03 02:04:12] INFO root fetch - main [MainThread]: Store serial: [22593169]
+[2024-04-03 02:06:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593169]
+[2024-04-03 02:06:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 02:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-nightly
+[2024-04-03 02:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxkern-nightly
+[2024-04-03 02:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chift
+[2024-04-03 02:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hwdocer
+[2024-04-03 02:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygo-jwt
+[2024-04-03 02:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rank-torrent-name
+[2024-04-03 02:06:20] INFO root fetch - processPackages [rank-torrent-name]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-03 02:06:20] INFO root fetch - processPackages [chift]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 02:06:20] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-04-03 02:06:20] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240402.404] Old Version: [1.9.0.20230927.post404]
+[2024-04-03 02:06:20] INFO root fetch - processPackages [hwdocer]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-03 02:06:20] INFO root fetch - processPackages [rank-torrent-name]: Downloading https://files.pythonhosted.org/packages/55/6a/185494bfe23e8a2c4c83c4cf90c8435e7a3836c0c6ded4db899834e269a9/rank_torrent_name-0.2.8.tar.gz
+[2024-04-03 02:06:21] INFO root fetch - processPackages [chift]: Downloading https://files.pythonhosted.org/packages/d6/6f/f1da36cb45e5a3602ca98d5a4c0a76c94eb87c20a7125c20982ab1f6276f/chift-0.1.8.tar.gz
+[2024-04-03 02:06:21] INFO root fetch - processPackages [pygo-jwt]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-03 02:06:21] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-04-03 02:06:21] WARNING root fetch - processPackages [chift]: Timeout reached during download
+[2024-04-03 02:06:21] WARNING root fetch - processPackages [jaxkern-nightly]: Timeout reached during download
+[2024-04-03 02:06:21] WARNING root fetch - processPackages [rank-torrent-name]: Timeout reached during download
+[2024-04-03 02:06:21] INFO root fetch - processPackages [chift]: Downloading https://files.pythonhosted.org/packages/fc/05/9b76c39d5ab3132a9abb69c6da7f9490b9ff7f7bb7c38327921c92e9674f/chift-0.1.9.tar.gz
+[2024-04-03 02:06:21] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/4e/8e/01d5f98f83d86b8174d497acd5f1684bd8b55136a74099cfc9b5ef154fc6/mct-nightly-1.9.0.20230927.post404.tar.gz
+[2024-04-03 02:06:21] INFO root fetch - processPackages [hwdocer]: Downloading https://files.pythonhosted.org/packages/05/b0/61c99a62f74d34c7b4c417faa71f4881af663b22120d22fdea95ac8944c9/hwdocer-0.1.3.tar.gz
+[2024-04-03 02:06:21] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-04-03 02:06:21] INFO root fetch - processPackages [rank-torrent-name]: Downloading https://files.pythonhosted.org/packages/58/da/9bd788cb38b6ae67089397a2537549bc66b4fe0b60be0af6bea97b30ab99/rank_torrent_name-0.2.9.tar.gz
+[2024-04-03 02:06:21] INFO root fetch - processPackages [pygo-jwt]: Downloading https://files.pythonhosted.org/packages/e9/7e/cc4321c929f3a17acc041bc1b712f1e290b5006dcb71c15717ea9d1c76bd/pygo_jwt-0.0.7-pp310-pypy310_pp73-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-03 02:06:21] WARNING root fetch - processPackages [chift]: Timeout reached during download
+[2024-04-03 02:06:21] INFO root fetch - processPackages [chift]: executing diffoscope
+[2024-04-03 02:06:21] INFO root fetch - processPackages [chift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chift-0.1.8.tar.gz tmp/chift-0.1.9.tar.gz --markdown 20240403/c/chift/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 02:06:21] WARNING root fetch - processPackages [hwdocer]: Timeout reached during download
+[2024-04-03 02:06:21] WARNING root fetch - processPackages [jaxkern-nightly]: Timeout reached during download
+[2024-04-03 02:06:21] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-04-03 02:06:21] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240403/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2024-04-03 02:06:21] WARNING root fetch - processPackages [mct-nightly]: Timeout reached during download
+[2024-04-03 02:06:21] WARNING root fetch - processPackages [rank-torrent-name]: Timeout reached during download
+[2024-04-03 02:06:21] INFO root fetch - processPackages [rank-torrent-name]: executing diffoscope
+[2024-04-03 02:06:21] INFO root fetch - processPackages [rank-torrent-name]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rank_torrent_name-0.2.8.tar.gz tmp/rank_torrent_name-0.2.9.tar.gz --markdown 20240403/r/rank-torrent-name/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-03 02:06:21] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/20/b5/b817bd84997497d4e201e6b20195f4e9ec1aa9f9a46077e45e8e63c1abe2/mct-nightly-2.0.0.20240402.404.tar.gz
+[2024-04-03 02:06:21] WARNING root fetch - processPackages [mct-nightly]: Timeout reached during download
+[2024-04-03 02:06:21] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-04-03 02:06:21] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230927.post404.tar.gz tmp/mct-nightly-2.0.0.20240402.404.tar.gz --markdown 20240403/m/mct-nightly/1.9.0.20230927.post404-2.0.0.20240402.404/diff.md --exclude *.pyd
+[2024-04-03 02:06:21] WARNING root fetch - processPackages [pygo-jwt]: Timeout reached during download
+[2024-04-03 02:06:22] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-04-03 02:06:22] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-04-03 02:06:22] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-04-03 02:06:22] INFO root fetch - processPackages [hwdocer]: Downloading https://files.pythonhosted.org/packages/08/c6/8e3ed311be121fd9f9bf04dfa95d39f4c7e2de591d4c1889de13bdd7e916/hwdocer-0.1.4.tar.gz
+[2024-04-03 02:06:22] INFO root fetch - processPackages [pygo-jwt]: Downloading https://files.pythonhosted.org/packages/2b/32/191469bfe586c11d7e70124bc024912c95cfadbd2a3d7905e7f088249fe5/pygo-jwt-0.0.8.tar.gz
+[2024-04-03 02:06:22] INFO root fetch - processPackages [chift]: Remove: archive file [/home/abi/fetcher/tmp/chift-0.1.8.tar.gz]
+[2024-04-03 02:06:22] INFO root fetch - processPackages [chift]: Remove: archive file [/home/abi/fetcher/tmp/chift-0.1.9.tar.gz]
+[2024-04-03 02:06:22] INFO root fetch - main [MainThread]: End processing [chift]: success
+[2024-04-03 02:06:22] WARNING root fetch - processPackages [hwdocer]: Timeout reached during download
+[2024-04-03 02:06:22] INFO root fetch - processPackages [hwdocer]: executing diffoscope
+[2024-04-03 02:06:22] INFO root fetch - processPackages [hwdocer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hwdocer-0.1.3.tar.gz tmp/hwdocer-0.1.4.tar.gz --markdown 20240403/h/hwdocer/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-03 02:06:22] WARNING root fetch - processPackages [pygo-jwt]: Timeout reached during download
+[2024-04-03 02:06:22] INFO root fetch - processPackages [pygo-jwt]: executing diffoscope
+[2024-04-03 02:06:22] INFO root fetch - processPackages [pygo-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygo_jwt-0.0.7-pp310-pypy310_pp73-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pygo-jwt-0.0.8.tar.gz --markdown 20240403/p/pygo-jwt/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-03 02:06:22] INFO root fetch - processPackages [rank-torrent-name]: Remove: archive file [/home/abi/fetcher/tmp/rank_torrent_name-0.2.8.tar.gz]
+[2024-04-03 02:06:22] INFO root fetch - processPackages [rank-torrent-name]: Remove: archive file [/home/abi/fetcher/tmp/rank_torrent_name-0.2.9.tar.gz]
+[2024-04-03 02:06:22] INFO root fetch - main [MainThread]: End processing [rank-torrent-name]: success
+[2024-04-03 02:06:22] INFO root fetch - processPackages [hwdocer]: Remove: archive file [/home/abi/fetcher/tmp/hwdocer-0.1.3.tar.gz]
+[2024-04-03 02:06:22] INFO root fetch - processPackages [hwdocer]: Remove: archive file [/home/abi/fetcher/tmp/hwdocer-0.1.4.tar.gz]
+[2024-04-03 02:06:22] INFO root fetch - main [MainThread]: End processing [hwdocer]: success
+[2024-04-03 02:06:24] INFO root fetch - processPackages [pygo-jwt]: Remove: archive file [/home/abi/fetcher/tmp/pygo_jwt-0.0.7-pp310-pypy310_pp73-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-03 02:06:24] INFO root fetch - processPackages [pygo-jwt]: Remove: archive file [/home/abi/fetcher/tmp/pygo-jwt-0.0.8.tar.gz]
+[2024-04-03 02:06:24] INFO root fetch - main [MainThread]: End processing [pygo-jwt]: success
+[2024-04-03 02:06:24] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230927.post404.tar.gz]
+[2024-04-03 02:06:24] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240402.404.tar.gz]
+[2024-04-03 02:06:24] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-04-03 02:06:24] INFO root fetch - main [MainThread]: Store serial: [22593206]

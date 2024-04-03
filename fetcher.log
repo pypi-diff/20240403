@@ -3736,3 +3736,56 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 02:51:25] INFO root fetch - processPackages [jupyter-scatter]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-scatter-0.9.0.tar.gz]
 [2024-04-03 02:51:25] INFO root fetch - main [MainThread]: End processing [jupyter-scatter]: success
 [2024-04-03 02:51:25] INFO root fetch - main [MainThread]: Store serial: [22593576]
+[2024-04-03 02:53:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593576]
+[2024-04-03 02:53:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 02:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fyamaktestpypi
+[2024-04-03 02:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypipy
+[2024-04-03 02:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msscrawler
+[2024-04-03 02:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: afeng-py-tools
+[2024-04-03 02:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biothings
+[2024-04-03 02:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: httpx-kerberos
+[2024-04-03 02:53:34] WARNING root fetch - processPackages [pypipy]: Skipping, unable to determine old version
+[2024-04-03 02:53:34] INFO root fetch - main [MainThread]: End processing [pypipy] error
+[2024-04-03 02:53:34] INFO root fetch - processPackages [msscrawler]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-03 02:53:34] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-03 02:53:34] INFO root fetch - processPackages [msscrawler]: Downloading https://files.pythonhosted.org/packages/27/e8/9b5a0922ff86e9d9026f97c65d1f7aa3895f5092dd837edf84f6dc25111c/msscrawler-1.3.1.tar.gz
+[2024-04-03 02:53:34] INFO root fetch - processPackages [httpx-kerberos]: New version: [0.1.1] Old Version: [0.0.1]
+[2024-04-03 02:53:34] WARNING root fetch - processPackages [fyamaktestpypi]: Skipping, unable to determine old version
+[2024-04-03 02:53:34] INFO root fetch - main [MainThread]: End processing [fyamaktestpypi] error
+[2024-04-03 02:53:34] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-04-03 02:53:34] INFO root fetch - processPackages [biothings]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-03 02:53:34] WARNING root fetch - processPackages [msscrawler]: Timeout reached during download
+[2024-04-03 02:53:34] WARNING root fetch - processPackages [afeng-py-tools]: Timeout reached during download
+[2024-04-03 02:53:34] INFO root fetch - processPackages [msscrawler]: Downloading https://files.pythonhosted.org/packages/48/7e/491dadd989b2f59962622ffaf7c90e75c364027a6b53a0d9554d27ab8424/msscrawler-1.3.2.tar.gz
+[2024-04-03 02:53:34] INFO root fetch - processPackages [httpx-kerberos]: Downloading https://files.pythonhosted.org/packages/bb/4f/da7ea360d392bedea5d6ce1b9051c4f6908c68954038f0eced51ffcd071f/httpx_kerberos-0.0.1.tar.gz
+[2024-04-03 02:53:34] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-04-03 02:53:34] INFO root fetch - processPackages [biothings]: Downloading https://files.pythonhosted.org/packages/b5/6e/38559f9e956c4086523841f03daab0d526f6660b60bd193826fd8d8d3064/biothings-0.9.0.tar.gz
+[2024-04-03 02:53:35] WARNING root fetch - processPackages [msscrawler]: Timeout reached during download
+[2024-04-03 02:53:35] INFO root fetch - processPackages [msscrawler]: executing diffoscope
+[2024-04-03 02:53:35] INFO root fetch - processPackages [msscrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msscrawler-1.3.1.tar.gz tmp/msscrawler-1.3.2.tar.gz --markdown 20240403/m/msscrawler/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2024-04-03 02:53:35] WARNING root fetch - processPackages [afeng-py-tools]: Timeout reached during download
+[2024-04-03 02:53:35] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-04-03 02:53:35] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240403/a/afeng-py-tools/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-03 02:53:35] WARNING root fetch - processPackages [httpx-kerberos]: Timeout reached during download
+[2024-04-03 02:53:35] WARNING root fetch - processPackages [biothings]: Timeout reached during download
+[2024-04-03 02:53:35] INFO root fetch - processPackages [httpx-kerberos]: Downloading https://files.pythonhosted.org/packages/05/df/9fca51c0426850e87b23245202eb0d031afc92d4ce9ae6587742faeca5eb/httpx_kerberos-0.1.1.tar.gz
+[2024-04-03 02:53:35] INFO root fetch - processPackages [biothings]: Downloading https://files.pythonhosted.org/packages/82/45/2ddb1abb658692e3a9946a71adf4d9d5ac944a3a27cc1a5d9478665ebadb/biothings-0.9.1.tar.gz
+[2024-04-03 02:53:35] WARNING root fetch - processPackages [httpx-kerberos]: Timeout reached during download
+[2024-04-03 02:53:35] INFO root fetch - processPackages [httpx-kerberos]: executing diffoscope
+[2024-04-03 02:53:35] INFO root fetch - processPackages [httpx-kerberos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpx_kerberos-0.0.1.tar.gz tmp/httpx_kerberos-0.1.1.tar.gz --markdown 20240403/h/httpx-kerberos/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2024-04-03 02:53:35] INFO root fetch - processPackages [msscrawler]: Remove: archive file [/home/abi/fetcher/tmp/msscrawler-1.3.1.tar.gz]
+[2024-04-03 02:53:35] INFO root fetch - processPackages [msscrawler]: Remove: archive file [/home/abi/fetcher/tmp/msscrawler-1.3.2.tar.gz]
+[2024-04-03 02:53:35] INFO root fetch - main [MainThread]: End processing [msscrawler]: success
+[2024-04-03 02:53:35] WARNING root fetch - processPackages [biothings]: Timeout reached during download
+[2024-04-03 02:53:35] INFO root fetch - processPackages [biothings]: executing diffoscope
+[2024-04-03 02:53:35] INFO root fetch - processPackages [biothings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biothings-0.9.0.tar.gz tmp/biothings-0.9.1.tar.gz --markdown 20240403/b/biothings/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-03 02:53:36] INFO root fetch - processPackages [httpx-kerberos]: Remove: archive file [/home/abi/fetcher/tmp/httpx_kerberos-0.0.1.tar.gz]
+[2024-04-03 02:53:36] INFO root fetch - processPackages [httpx-kerberos]: Remove: archive file [/home/abi/fetcher/tmp/httpx_kerberos-0.1.1.tar.gz]
+[2024-04-03 02:53:36] INFO root fetch - main [MainThread]: End processing [httpx-kerberos]: success
+[2024-04-03 02:53:36] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-04-03 02:53:36] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-04-03 02:53:36] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-04-03 02:53:36] INFO root fetch - processPackages [biothings]: Remove: archive file [/home/abi/fetcher/tmp/biothings-0.9.0.tar.gz]
+[2024-04-03 02:53:36] INFO root fetch - processPackages [biothings]: Remove: archive file [/home/abi/fetcher/tmp/biothings-0.9.1.tar.gz]
+[2024-04-03 02:53:36] INFO root fetch - main [MainThread]: End processing [biothings]: success
+[2024-04-03 02:53:36] INFO root fetch - main [MainThread]: Store serial: [22593595]

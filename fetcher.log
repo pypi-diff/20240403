@@ -2807,3 +2807,53 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 02:14:14] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240402.tar.gz]
 [2024-04-03 02:14:14] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
 [2024-04-03 02:14:14] INFO root fetch - main [MainThread]: Store serial: [22593278]
+[2024-04-03 02:16:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593278]
+[2024-04-03 02:16:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 02:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-model-manager
+[2024-04-03 02:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-events-notify
+[2024-04-03 02:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-common
+[2024-04-03 02:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-databases
+[2024-04-03 02:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-04-03 02:16:23] INFO root fetch - processPackages [torch-model-manager]: New version: [0.0.4.dev1] Old Version: [0.0.4]
+[2024-04-03 02:16:23] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-04-03 02:16:23] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-03 02:16:23] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.9] Old Version: [2.2.88]
+[2024-04-03 02:16:23] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/c7/1d/58d41f80ee1f8ab80e602ed3f4c5329aeef01ae6e9af1bdf32dce37c8c31/torch-model-manager-0.0.4.tar.gz
+[2024-04-03 02:16:23] WARNING root fetch - processPackages [pytest-databases]: Skipping, unable to determine old version
+[2024-04-03 02:16:23] INFO root fetch - main [MainThread]: End processing [pytest-databases] error
+[2024-04-03 02:16:23] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-04-03 02:16:23] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-03 02:16:23] WARNING root fetch - processPackages [torch-model-manager]: Timeout reached during download
+[2024-04-03 02:16:23] WARNING root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Timeout reached during download
+[2024-04-03 02:16:23] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/47/a9/e52d649c07df06efb78cf0e72b5d49329bf3665be7c78e4e42fdff19cc08/cdk-events-notify-2.2.88.tar.gz
+[2024-04-03 02:16:24] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-04-03 02:16:24] WARNING root fetch - processPackages [cdk-events-notify]: Timeout reached during download
+[2024-04-03 02:16:24] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/dc/d8/bf2951a1851644107b7d73a7a225afecc5a30546cca9db7d3973abf63ecf/torch-model-manager-0.0.4.dev1.tar.gz
+[2024-04-03 02:16:24] WARNING root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Timeout reached during download
+[2024-04-03 02:16:24] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-04-03 02:16:24] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240403/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/diff.md --exclude *.pyd
+[2024-04-03 02:16:24] WARNING root fetch - processPackages [cdk-common]: Timeout reached during download
+[2024-04-03 02:16:24] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/a1/0e/5c24157512e0888da0f9517ac3e7fadfeda39580f53c9d502c41814e9212/cdk-events-notify-2.2.9.tar.gz
+[2024-04-03 02:16:24] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-03 02:16:24] WARNING root fetch - processPackages [cdk-events-notify]: Timeout reached during download
+[2024-04-03 02:16:24] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-03 02:16:24] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.88.tar.gz tmp/cdk-events-notify-2.2.9.tar.gz --markdown 20240403/c/cdk-events-notify/2.2.88-2.2.9/diff.md --exclude *.pyd
+[2024-04-03 02:16:24] WARNING root fetch - processPackages [torch-model-manager]: Timeout reached during download
+[2024-04-03 02:16:24] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-04-03 02:16:24] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-model-manager-0.0.4.tar.gz tmp/torch-model-manager-0.0.4.dev1.tar.gz --markdown 20240403/t/torch-model-manager/0.0.4-0.0.4.dev1/diff.md --exclude *.pyd
+[2024-04-03 02:16:24] WARNING root fetch - processPackages [cdk-common]: Timeout reached during download
+[2024-04-03 02:16:24] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-03 02:16:24] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240403/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-03 02:16:24] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-04-03 02:16:24] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-04-03 02:16:24] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-04-03 02:16:24] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.88.tar.gz]
+[2024-04-03 02:16:24] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.9.tar.gz]
+[2024-04-03 02:16:24] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-03 02:16:24] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch-model-manager-0.0.4.tar.gz]
+[2024-04-03 02:16:24] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch-model-manager-0.0.4.dev1.tar.gz]
+[2024-04-03 02:16:24] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-04-03 02:16:25] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-03 02:16:25] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-03 02:16:25] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-03 02:16:25] INFO root fetch - main [MainThread]: Store serial: [22593295]

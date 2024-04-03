@@ -18359,3 +18359,53 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:51:42] INFO root fetch - processPackages [tencentcloud-sdk-python-ecdn]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ecdn-3.0.999.tar.gz]
 [2024-04-03 06:51:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ecdn]: success
 [2024-04-03 06:51:42] INFO root fetch - main [MainThread]: Store serial: [22597797]
+[2024-04-03 06:53:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597797]
+[2024-04-03 06:53:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 06:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyscreeps-arena
+[2024-04-03 06:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codist
+[2024-04-03 06:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tg-flask-sse-common
+[2024-04-03 06:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langsmith
+[2024-04-03 06:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oelint-adv
+[2024-04-03 06:53:52] INFO root fetch - processPackages [pyscreeps-arena]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-03 06:53:52] INFO root fetch - processPackages [tg-flask-sse-common]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-03 06:53:52] INFO root fetch - processPackages [pyscreeps-arena]: Downloading https://files.pythonhosted.org/packages/83/61/f063543f374bfa9131f9953beaa906f61bb20ed0b185ea651761fde1ac23/pyscreeps-arena-0.1.3.tar.gz
+[2024-04-03 06:53:52] WARNING root fetch - processPackages [codist]: Skipping, unable to determine old version
+[2024-04-03 06:53:52] INFO root fetch - main [MainThread]: End processing [codist] error
+[2024-04-03 06:53:52] INFO root fetch - processPackages [oelint-adv]: New version: [5.1.2] Old Version: [5.1.1]
+[2024-04-03 06:53:52] INFO root fetch - processPackages [langsmith]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 06:53:52] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/3f/01/93a91da2527bbaa6155f9398417eeff6507ddada0f417560a67e20801455/langsmith-0.1.8.tar.gz
+[2024-04-03 06:53:52] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/42/2e/ea58ab7d1d03a1013fdd1a6322109c56b9e348dda1011420b00141471a58/tg_flask_sse_common-2.0.3.tar.gz
+[2024-04-03 06:53:52] WARNING root fetch - processPackages [pyscreeps-arena]: Timeout reached during download
+[2024-04-03 06:53:52] WARNING root fetch - processPackages [tg-flask-sse-common]: Timeout reached during download
+[2024-04-03 06:53:52] WARNING root fetch - processPackages [langsmith]: Timeout reached during download
+[2024-04-03 06:53:52] INFO root fetch - processPackages [oelint-adv]: Downloading https://files.pythonhosted.org/packages/08/a3/5c81c612ee222985f416aa7b60ff1493bd535f282a6632fe5a37db928157/oelint_adv-5.1.1.tar.gz
+[2024-04-03 06:53:52] INFO root fetch - processPackages [pyscreeps-arena]: Downloading https://files.pythonhosted.org/packages/11/d9/aa03cf1758a7fe65070e0bcbfb503da28e23fcd6e2a54fe1a16a8fd71f31/pyscreeps-arena-0.1.4.tar.gz
+[2024-04-03 06:53:52] WARNING root fetch - processPackages [oelint-adv]: Timeout reached during download
+[2024-04-03 06:53:52] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/64/85/923ad738fbc44e802f2b18fa9c48b40af09aa79b675a3a623247396b641c/tg_flask_sse_common-2.0.4.tar.gz
+[2024-04-03 06:53:52] WARNING root fetch - processPackages [pyscreeps-arena]: Timeout reached during download
+[2024-04-03 06:53:52] INFO root fetch - processPackages [pyscreeps-arena]: executing diffoscope
+[2024-04-03 06:53:52] INFO root fetch - processPackages [pyscreeps-arena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscreeps-arena-0.1.3.tar.gz tmp/pyscreeps-arena-0.1.4.tar.gz --markdown 20240403/p/pyscreeps-arena/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-03 06:53:52] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/2f/bd/ae357eeb7736dd31ff704bfdb05c856cd78d6ebcb126b850c2bcdb5830ae/langsmith-0.1.9.tar.gz
+[2024-04-03 06:53:52] WARNING root fetch - processPackages [tg-flask-sse-common]: Timeout reached during download
+[2024-04-03 06:53:52] INFO root fetch - processPackages [tg-flask-sse-common]: executing diffoscope
+[2024-04-03 06:53:52] INFO root fetch - processPackages [tg-flask-sse-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_flask_sse_common-2.0.3.tar.gz tmp/tg_flask_sse_common-2.0.4.tar.gz --markdown 20240403/t/tg-flask-sse-common/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2024-04-03 06:53:53] INFO root fetch - processPackages [oelint-adv]: Downloading https://files.pythonhosted.org/packages/e6/d2/aec26b46e07d54a1a7fc9bdc09ed1e52611898965ce884d409d570d6993a/oelint_adv-5.1.2.tar.gz
+[2024-04-03 06:53:53] WARNING root fetch - processPackages [langsmith]: Timeout reached during download
+[2024-04-03 06:53:53] INFO root fetch - processPackages [langsmith]: executing diffoscope
+[2024-04-03 06:53:53] INFO root fetch - processPackages [langsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langsmith-0.1.8.tar.gz tmp/langsmith-0.1.9.tar.gz --markdown 20240403/l/langsmith/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 06:53:53] WARNING root fetch - processPackages [oelint-adv]: Timeout reached during download
+[2024-04-03 06:53:53] INFO root fetch - processPackages [oelint-adv]: executing diffoscope
+[2024-04-03 06:53:53] INFO root fetch - processPackages [oelint-adv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oelint_adv-5.1.1.tar.gz tmp/oelint_adv-5.1.2.tar.gz --markdown 20240403/o/oelint-adv/5.1.1-5.1.2/diff.md --exclude *.pyd
+[2024-04-03 06:53:53] INFO root fetch - processPackages [pyscreeps-arena]: Remove: archive file [/home/abi/fetcher/tmp/pyscreeps-arena-0.1.3.tar.gz]
+[2024-04-03 06:53:53] INFO root fetch - processPackages [pyscreeps-arena]: Remove: archive file [/home/abi/fetcher/tmp/pyscreeps-arena-0.1.4.tar.gz]
+[2024-04-03 06:53:53] INFO root fetch - main [MainThread]: End processing [pyscreeps-arena]: success
+[2024-04-03 06:53:53] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-2.0.3.tar.gz]
+[2024-04-03 06:53:53] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-2.0.4.tar.gz]
+[2024-04-03 06:53:53] INFO root fetch - main [MainThread]: End processing [tg-flask-sse-common]: success
+[2024-04-03 06:53:53] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.1.8.tar.gz]
+[2024-04-03 06:53:53] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.1.9.tar.gz]
+[2024-04-03 06:53:53] INFO root fetch - main [MainThread]: End processing [langsmith]: success
+[2024-04-03 06:53:54] INFO root fetch - processPackages [oelint-adv]: Remove: archive file [/home/abi/fetcher/tmp/oelint_adv-5.1.1.tar.gz]
+[2024-04-03 06:53:54] INFO root fetch - processPackages [oelint-adv]: Remove: archive file [/home/abi/fetcher/tmp/oelint_adv-5.1.2.tar.gz]
+[2024-04-03 06:53:54] INFO root fetch - main [MainThread]: End processing [oelint-adv]: success
+[2024-04-03 06:53:54] INFO root fetch - main [MainThread]: Store serial: [22597814]

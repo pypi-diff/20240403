@@ -15020,3 +15020,65 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 04:53:21] INFO root fetch - processPackages [rlbot-flatbuffers]: Remove: archive file [/home/abi/fetcher/tmp/rlbot_flatbuffers-0.3.1.tar.gz]
 [2024-04-03 04:53:21] INFO root fetch - main [MainThread]: End processing [rlbot-flatbuffers]: success
 [2024-04-03 04:53:21] INFO root fetch - main [MainThread]: Store serial: [22596785]
+[2024-04-03 04:55:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596785]
+[2024-04-03 04:55:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 04:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-mass-reconcile
+[2024-04-03 04:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-mass-reconcile
+[2024-04-03 04:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-account-reconcile
+[2024-04-03 04:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ffsim
+[2024-04-03 04:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kimdan0211
+[2024-04-03 04:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py2docfx
+[2024-04-03 04:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: defect-detection
+[2024-04-03 04:55:31] WARNING root fetch - processPackages [defect-detection]: Skipping, unable to determine old version
+[2024-04-03 04:55:31] INFO root fetch - main [MainThread]: End processing [defect-detection] error
+[2024-04-03 04:55:31] INFO root fetch - processPackages [py2docfx]: New version: [0.1.2rc1669458] Old Version: [0.1.2rc1669367]
+[2024-04-03 04:55:31] WARNING root fetch - processPackages [kimdan0211]: Skipping, unable to determine old version
+[2024-04-03 04:55:31] INFO root fetch - main [MainThread]: End processing [kimdan0211] error
+[2024-04-03 04:55:31] INFO root fetch - processPackages [ffsim]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 04:55:31] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/c6/37/ca66c6a18d3da3c193ff9b2094c5d3b638ce9e3c3d6c372b4f3301e064e1/py2docfx-0.1.2rc1669367-py3-none-any.whl
+[2024-04-03 04:55:31] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-04-03 04:55:31] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-04-03 04:55:31] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: New version: [16.0.20240402.0] Old Version: [16.0.20230831.0]
+[2024-04-03 04:55:31] WARNING root fetch - processPackages [py2docfx]: Timeout reached during download
+[2024-04-03 04:55:31] INFO root fetch - processPackages [ffsim]: Downloading https://files.pythonhosted.org/packages/2e/99/8dd07af7a50fbac6c2f6084853a12f007db2faac6b180724ce6b79e465ae/ffsim-0.0.8.tar.gz
+[2024-04-03 04:55:31] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Downloading https://files.pythonhosted.org/packages/b2/84/e876185bfe9a9428b697f63e97af3f666193914ef662f3b42bbc9be93510/odoo_addon_account_mass_reconcile-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-03 04:55:31] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Downloading https://files.pythonhosted.org/packages/b2/84/e876185bfe9a9428b697f63e97af3f666193914ef662f3b42bbc9be93510/odoo_addon_account_mass_reconcile-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-03 04:55:31] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: Downloading https://files.pythonhosted.org/packages/ec/68/7e245c602dcf444aac5ca774db1c5269ebaee95106fed48ebd35e372d4f6/odoo_addons_oca_account_reconcile-16.0.20230831.0-py3-none-any.whl
+[2024-04-03 04:55:31] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/65/c9/161f7928fab6e8779ab2b1eb2ef8d9f9ea60e9a943adb265715bf6997391/py2docfx-0.1.2rc1669458-py3-none-any.whl
+[2024-04-03 04:55:31] WARNING root fetch - processPackages [odoo-addons-oca-account-reconcile]: Timeout reached during download
+[2024-04-03 04:55:31] WARNING root fetch - processPackages [odoo-addon-account-mass-reconcile]: Timeout reached during download
+[2024-04-03 04:55:31] WARNING root fetch - processPackages [py2docfx]: Timeout reached during download
+[2024-04-03 04:55:31] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-03 04:55:31] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.2rc1669367-py3-none-any.whl.zip tmp/py2docfx-0.1.2rc1669458-py3-none-any.whl.zip --markdown 20240403/p/py2docfx/0.1.2rc1669367-0.1.2rc1669458/diff.md --exclude *.pyd
+[2024-04-03 04:55:31] WARNING root fetch - processPackages [odoo-addon-account-mass-reconcile]: Timeout reached during download
+[2024-04-03 04:55:31] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: Downloading https://files.pythonhosted.org/packages/86/5b/6b8eb4f512b293856957a3bbf446456636feb3743dc0ff8ae4d8230eaf82/odoo_addons_oca_account_reconcile-16.0.20240402.0-py3-none-any.whl
+[2024-04-03 04:55:31] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Downloading https://files.pythonhosted.org/packages/d0/17/fb7e59992b9e5a5020f334f0b0d6504d396803e5ec4ee4f810fda346e1f5/odoo_addon_account_mass_reconcile-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-03 04:55:31] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Downloading https://files.pythonhosted.org/packages/d0/17/fb7e59992b9e5a5020f334f0b0d6504d396803e5ec4ee4f810fda346e1f5/odoo_addon_account_mass_reconcile-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-03 04:55:31] WARNING root fetch - processPackages [ffsim]: Timeout reached during download
+[2024-04-03 04:55:31] WARNING root fetch - processPackages [odoo-addons-oca-account-reconcile]: Timeout reached during download
+[2024-04-03 04:55:31] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: executing diffoscope
+[2024-04-03 04:55:31] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_reconcile-16.0.20230831.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_reconcile-16.0.20240402.0-py3-none-any.whl.zip --markdown 20240403/o/odoo-addons-oca-account-reconcile/16.0.20230831.0-16.0.20240402.0/diff.md --exclude *.pyd
+[2024-04-03 04:55:31] WARNING root fetch - processPackages [odoo-addon-account-mass-reconcile]: Timeout reached during download
+[2024-04-03 04:55:31] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: executing diffoscope
+[2024-04-03 04:55:31] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_mass_reconcile-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_mass_reconcile-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-account-mass-reconcile/17.0.1.0.0.5-17.0.1.0.0.6/diff.md --exclude *.pyd
+[2024-04-03 04:55:31] WARNING root fetch - processPackages [odoo-addon-account-mass-reconcile]: Timeout reached during download
+[2024-04-03 04:55:31] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: executing diffoscope
+[2024-04-03 04:55:31] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_mass_reconcile-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_mass_reconcile-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-account-mass-reconcile/17.0.1.0.0.5-17.0.1.0.0.6/diff.md --exclude *.pyd
+[2024-04-03 04:55:32] INFO root fetch - processPackages [ffsim]: Downloading https://files.pythonhosted.org/packages/44/73/0a674ae24e0d1adf0b2d2be576e9763c16ffe468b8aef7a301a7eceef858/ffsim-0.0.9.tar.gz
+[2024-04-03 04:55:32] WARNING root fetch - processPackages [ffsim]: Timeout reached during download
+[2024-04-03 04:55:32] INFO root fetch - processPackages [ffsim]: executing diffoscope
+[2024-04-03 04:55:32] INFO root fetch - processPackages [ffsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffsim-0.0.8.tar.gz tmp/ffsim-0.0.9.tar.gz --markdown 20240403/f/ffsim/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 04:55:32] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_reconcile-16.0.20230831.0-py3-none-any.whl.zip]
+[2024-04-03 04:55:32] INFO root fetch - processPackages [odoo-addons-oca-account-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_reconcile-16.0.20240402.0-py3-none-any.whl.zip]
+[2024-04-03 04:55:32] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-reconcile]: success
+[2024-04-03 04:55:32] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.2rc1669367-py3-none-any.whl.zip]
+[2024-04-03 04:55:32] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.2rc1669458-py3-none-any.whl.zip]
+[2024-04-03 04:55:32] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-03 04:55:32] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_mass_reconcile-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-03 04:55:32] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_mass_reconcile-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-03 04:55:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-mass-reconcile]: success
+[2024-04-03 04:55:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-mass-reconcile]: success
+[2024-04-03 04:55:33] INFO root fetch - processPackages [ffsim]: Remove: archive file [/home/abi/fetcher/tmp/ffsim-0.0.8.tar.gz]
+[2024-04-03 04:55:33] INFO root fetch - processPackages [ffsim]: Remove: archive file [/home/abi/fetcher/tmp/ffsim-0.0.9.tar.gz]
+[2024-04-03 04:55:33] INFO root fetch - main [MainThread]: End processing [ffsim]: success
+[2024-04-03 04:55:33] INFO root fetch - main [MainThread]: Store serial: [22596804]

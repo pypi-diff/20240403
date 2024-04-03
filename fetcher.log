@@ -21367,3 +21367,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:06:13] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1712123475.tar.gz]
 [2024-04-03 08:06:13] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
 [2024-04-03 08:06:13] INFO root fetch - main [MainThread]: Store serial: [22598653]
+[2024-04-03 08:08:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598653]
+[2024-04-03 08:08:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-03 08:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-mail-layout-force
+[2024-04-03 08:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osmnx
+[2024-04-03 08:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: a3exception
+[2024-04-03 08:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-mail-tracking
+[2024-04-03 08:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pylotoncycle
+[2024-04-03 08:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: erlab
+[2024-04-03 08:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aliyun-python-sdk-cloudauth
+[2024-04-03 08:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lanQ
+[2024-04-03 08:08:22] INFO root fetch - processPackages [aliyun-python-sdk-cloudauth]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-03 08:08:22] INFO root fetch - processPackages [aliyun-python-sdk-cloudauth]: Downloading https://files.pythonhosted.org/packages/a3/6c/148ba2078a8d2bf3f305bdcfd7ac4a9238183d278f1ba1a33ef6b3900796/aliyun-python-sdk-cloudauth-2.0.8.tar.gz
+[2024-04-03 08:08:22] INFO root fetch - processPackages [a3exception]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-03 08:08:22] INFO root fetch - processPackages [odoo-addon-mail-layout-force]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-04-03 08:08:22] INFO root fetch - processPackages [lanQ]: New version: [1.1] Old Version: [1.0]
+[2024-04-03 08:08:22] INFO root fetch - processPackages [osmnx]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-03 08:08:22] INFO root fetch - processPackages [pylotoncycle]: New version: [0.8.0] Old Version: [0.6.0]
+[2024-04-03 08:08:22] INFO root fetch - processPackages [odoo-addon-mail-tracking]: New version: [16.0.1.0.4.8] Old Version: [16.0.1.0.4.40]
+[2024-04-03 08:08:22] INFO root fetch - processPackages [erlab]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-03 08:08:22] WARNING root fetch - processPackages [aliyun-python-sdk-cloudauth]: Timeout reached during download
+[2024-04-03 08:08:22] INFO root fetch - processPackages [aliyun-python-sdk-cloudauth]: Downloading https://files.pythonhosted.org/packages/11/c4/a2561d2c9cfd4f01d0b1cf09eb5cef72aabf4f4dbd395776d04b06603fa4/aliyun-python-sdk-cloudauth-2.0.9.tar.gz
+[2024-04-03 08:08:22] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/00/a7/e184a98b0a1eb4f640993a3024dec53a1212304586ac93df31bf29ab1d80/odoo_addon_mail_tracking-16.0.1.0.4.40-py3-none-any.whl
+[2024-04-03 08:08:22] INFO root fetch - processPackages [lanQ]: Downloading https://files.pythonhosted.org/packages/98/c2/9b829c5b642ef3aa01bda86b6be2a723c0edf002070d0315e7f83a297292/lanQ-1.0.tar.gz
+[2024-04-03 08:08:22] INFO root fetch - processPackages [osmnx]: Downloading https://files.pythonhosted.org/packages/a9/fc/dd9172a68000b182d7b4f2a4b6cbd1d8fe0b6072487b19c1f0b800942309/osmnx-1.9.1.tar.gz
+[2024-04-03 08:08:22] INFO root fetch - processPackages [odoo-addon-mail-layout-force]: Downloading https://files.pythonhosted.org/packages/de/e1/122f94d6648a84bd359859e25c11d280d583718dee3a211e91f1163b911f/odoo_addon_mail_layout_force-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-03 08:08:22] INFO root fetch - processPackages [a3exception]: Downloading https://files.pythonhosted.org/packages/ee/c6/108bc8784f0a5618cdb6db476940251ffacfff4f0562bc5376015e3ea410/a3exception-0.1.3.tar.gz
+[2024-04-03 08:08:22] INFO root fetch - processPackages [pylotoncycle]: Downloading https://files.pythonhosted.org/packages/c6/db/0c32bc59cc5bf0ab5c3aa8fd7a078d1110cbfa6658ebbaeb967ba26d7918/pylotoncycle-0.6.0.tar.gz
+[2024-04-03 08:08:22] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/d8/08/b5450f8b8fe06b42d26c7e8ae4efeb619f5e665cdb5c766a878f3f35be58/erlab-1.6.0.tar.gz
+[2024-04-03 08:08:22] WARNING root fetch - processPackages [aliyun-python-sdk-cloudauth]: Timeout reached during download
+[2024-04-03 08:08:22] INFO root fetch - processPackages [aliyun-python-sdk-cloudauth]: executing diffoscope
+[2024-04-03 08:08:22] INFO root fetch - processPackages [aliyun-python-sdk-cloudauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-cloudauth-2.0.8.tar.gz tmp/aliyun-python-sdk-cloudauth-2.0.9.tar.gz --markdown 20240403/a/aliyun-python-sdk-cloudauth/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-03 08:08:22] WARNING root fetch - processPackages [lanQ]: Timeout reached during download
+[2024-04-03 08:08:22] WARNING root fetch - processPackages [a3exception]: Timeout reached during download
+[2024-04-03 08:08:22] WARNING root fetch - processPackages [odoo-addon-mail-tracking]: Timeout reached during download
+[2024-04-03 08:08:22] WARNING root fetch - processPackages [odoo-addon-mail-layout-force]: Timeout reached during download
+[2024-04-03 08:08:22] WARNING root fetch - processPackages [osmnx]: Timeout reached during download
+[2024-04-03 08:08:22] WARNING root fetch - processPackages [pylotoncycle]: Timeout reached during download
+[2024-04-03 08:08:22] INFO root fetch - processPackages [lanQ]: Downloading https://files.pythonhosted.org/packages/e9/a5/a1519185132be13d2d0a5d5f9b79e161724b5abef12e4456c01ec2e5c72b/lanQ-1.1.tar.gz
+[2024-04-03 08:08:22] INFO root fetch - processPackages [a3exception]: Downloading https://files.pythonhosted.org/packages/18/aa/0d1c3483cba1297da68cb10fb3437d95b848b67c220ab9145eae31791ecd/a3exception-0.1.4.tar.gz
+[2024-04-03 08:08:22] INFO root fetch - processPackages [odoo-addon-mail-layout-force]: Downloading https://files.pythonhosted.org/packages/5b/cd/c86619bedf688763dbca23fe506660736f96017e28965a7bc1f7f20d5bd0/odoo_addon_mail_layout_force-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-03 08:08:22] INFO root fetch - processPackages [osmnx]: Downloading https://files.pythonhosted.org/packages/2e/85/e33eb7f8e09b07bb2ce3f77c4c676f75b6e1e859aadba6677a733550f4fc/osmnx-1.9.2.tar.gz
+[2024-04-03 08:08:22] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/a9/b5/fe980727422eb439e605ad729f40089261801552e5074675cce97c3dbd4f/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl
+[2024-04-03 08:08:23] INFO root fetch - processPackages [pylotoncycle]: Downloading https://files.pythonhosted.org/packages/b9/7b/3cc89fe5b05004674ab4c7e020643b4a4f7d2ea391d8511c2b2f9431a38e/pylotoncycle-0.8.0.tar.gz
+[2024-04-03 08:08:23] WARNING root fetch - processPackages [a3exception]: Timeout reached during download
+[2024-04-03 08:08:23] INFO root fetch - processPackages [a3exception]: executing diffoscope
+[2024-04-03 08:08:23] INFO root fetch - processPackages [a3exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a3exception-0.1.3.tar.gz tmp/a3exception-0.1.4.tar.gz --markdown 20240403/a/a3exception/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-03 08:08:23] WARNING root fetch - processPackages [lanQ]: Timeout reached during download
+[2024-04-03 08:08:23] INFO root fetch - processPackages [lanQ]: executing diffoscope
+[2024-04-03 08:08:23] INFO root fetch - processPackages [lanQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanQ-1.0.tar.gz tmp/lanQ-1.1.tar.gz --markdown 20240403/l/lanQ/1.0-1.1/diff.md --exclude *.pyd
+[2024-04-03 08:08:23] WARNING root fetch - processPackages [odoo-addon-mail-layout-force]: Timeout reached during download
+[2024-04-03 08:08:23] WARNING root fetch - processPackages [erlab]: Timeout reached during download
+[2024-04-03 08:08:23] INFO root fetch - processPackages [odoo-addon-mail-layout-force]: executing diffoscope
+[2024-04-03 08:08:23] INFO root fetch - processPackages [odoo-addon-mail-layout-force]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_layout_force-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_mail_layout_force-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-mail-layout-force/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-03 08:08:23] WARNING root fetch - processPackages [osmnx]: Timeout reached during download
+[2024-04-03 08:08:23] INFO root fetch - processPackages [osmnx]: executing diffoscope
+[2024-04-03 08:08:23] INFO root fetch - processPackages [osmnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osmnx-1.9.1.tar.gz tmp/osmnx-1.9.2.tar.gz --markdown 20240403/o/osmnx/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2024-04-03 08:08:23] WARNING root fetch - processPackages [odoo-addon-mail-tracking]: Timeout reached during download
+[2024-04-03 08:08:23] INFO root fetch - processPackages [odoo-addon-mail-tracking]: executing diffoscope
+[2024-04-03 08:08:23] INFO root fetch - processPackages [odoo-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_tracking-16.0.1.0.4.40-py3-none-any.whl.zip tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-mail-tracking/16.0.1.0.4.40-16.0.1.0.4.8/diff.md --exclude *.pyd
+[2024-04-03 08:08:23] WARNING root fetch - processPackages [pylotoncycle]: Timeout reached during download
+[2024-04-03 08:08:23] INFO root fetch - processPackages [pylotoncycle]: executing diffoscope
+[2024-04-03 08:08:23] INFO root fetch - processPackages [pylotoncycle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylotoncycle-0.6.0.tar.gz tmp/pylotoncycle-0.8.0.tar.gz --markdown 20240403/p/pylotoncycle/0.6.0-0.8.0/diff.md --exclude *.pyd
+[2024-04-03 08:08:23] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/f6/92/bb52afaeb1cc842591e860f80d74586bf0e6561b9b6aa198ca5c572f094e/erlab-1.6.1.tar.gz
+[2024-04-03 08:08:23] INFO root fetch - processPackages [aliyun-python-sdk-cloudauth]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-cloudauth-2.0.8.tar.gz]
+[2024-04-03 08:08:23] INFO root fetch - processPackages [aliyun-python-sdk-cloudauth]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-cloudauth-2.0.9.tar.gz]
+[2024-04-03 08:08:23] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-cloudauth]: success
+[2024-04-03 08:08:23] WARNING root fetch - processPackages [erlab]: Timeout reached during download
+[2024-04-03 08:08:23] INFO root fetch - processPackages [erlab]: executing diffoscope
+[2024-04-03 08:08:23] INFO root fetch - processPackages [erlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlab-1.6.0.tar.gz tmp/erlab-1.6.1.tar.gz --markdown 20240403/e/erlab/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2024-04-03 08:08:23] INFO root fetch - processPackages [lanQ]: Remove: archive file [/home/abi/fetcher/tmp/lanQ-1.0.tar.gz]
+[2024-04-03 08:08:23] INFO root fetch - processPackages [lanQ]: Remove: archive file [/home/abi/fetcher/tmp/lanQ-1.1.tar.gz]
+[2024-04-03 08:08:23] INFO root fetch - main [MainThread]: End processing [lanQ]: success
+[2024-04-03 08:08:23] INFO root fetch - processPackages [a3exception]: Remove: archive file [/home/abi/fetcher/tmp/a3exception-0.1.3.tar.gz]
+[2024-04-03 08:08:23] INFO root fetch - processPackages [a3exception]: Remove: archive file [/home/abi/fetcher/tmp/a3exception-0.1.4.tar.gz]
+[2024-04-03 08:08:23] INFO root fetch - main [MainThread]: End processing [a3exception]: success
+[2024-04-03 08:08:24] INFO root fetch - processPackages [odoo-addon-mail-layout-force]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_layout_force-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-03 08:08:24] INFO root fetch - processPackages [odoo-addon-mail-layout-force]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_layout_force-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-03 08:08:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-layout-force]: success
+[2024-04-03 08:08:24] INFO root fetch - processPackages [pylotoncycle]: Remove: archive file [/home/abi/fetcher/tmp/pylotoncycle-0.6.0.tar.gz]
+[2024-04-03 08:08:24] INFO root fetch - processPackages [pylotoncycle]: Remove: archive file [/home/abi/fetcher/tmp/pylotoncycle-0.8.0.tar.gz]
+[2024-04-03 08:08:24] INFO root fetch - main [MainThread]: End processing [pylotoncycle]: success
+[2024-04-03 08:08:24] INFO root fetch - processPackages [osmnx]: Remove: archive file [/home/abi/fetcher/tmp/osmnx-1.9.1.tar.gz]
+[2024-04-03 08:08:24] INFO root fetch - processPackages [osmnx]: Remove: archive file [/home/abi/fetcher/tmp/osmnx-1.9.2.tar.gz]
+[2024-04-03 08:08:24] INFO root fetch - main [MainThread]: End processing [osmnx]: success
+[2024-04-03 08:08:24] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.40-py3-none-any.whl.zip]
+[2024-04-03 08:08:24] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip]
+[2024-04-03 08:08:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking]: success
+[2024-04-03 08:08:42] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-1.6.0.tar.gz]
+[2024-04-03 08:08:42] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-1.6.1.tar.gz]
+[2024-04-03 08:08:42] INFO root fetch - main [MainThread]: End processing [erlab]: success
+[2024-04-03 08:08:42] INFO root fetch - main [MainThread]: Store serial: [22598675]

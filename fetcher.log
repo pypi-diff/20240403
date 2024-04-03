@@ -21682,3 +21682,28 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:17:29] INFO root fetch - processPackages [odoo-addon-stock-quant-safe-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_quant_safe_inventory-16.0.1.0.0.3-py3-none-any.whl.zip]
 [2024-04-03 08:17:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-quant-safe-inventory]: success
 [2024-04-03 08:17:29] INFO root fetch - main [MainThread]: Store serial: [22598742]
+[2024-04-03 08:19:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598742]
+[2024-04-03 08:19:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 08:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arts
+[2024-04-03 08:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scml
+[2024-04-03 08:19:38] INFO root fetch - processPackages [arts]: New version: [2024.4.3] Old Version: [2024.4.1]
+[2024-04-03 08:19:38] INFO root fetch - processPackages [scml]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-03 08:19:38] INFO root fetch - processPackages [arts]: Downloading https://files.pythonhosted.org/packages/b6/73/52fedaf9d69595672746b2b53a369278ffdce51775c18f7d11c83b091558/arts-2024.4.1.tar.gz
+[2024-04-03 08:19:38] INFO root fetch - processPackages [scml]: Downloading https://files.pythonhosted.org/packages/e7/68/c865da06037c8c7f3bc4911705ebb800b96a8ffa61e7e8c191c707177c0c/scml-0.7.3.tar.gz
+[2024-04-03 08:19:38] WARNING root fetch - processPackages [arts]: Timeout reached during download
+[2024-04-03 08:19:38] WARNING root fetch - processPackages [scml]: Timeout reached during download
+[2024-04-03 08:19:39] INFO root fetch - processPackages [arts]: Downloading https://files.pythonhosted.org/packages/46/15/99e6a9c143a9f0f9d0a7e958d5dbf1598855ab8715f72bb675683dfe65c1/arts-2024.4.3.tar.gz
+[2024-04-03 08:19:39] INFO root fetch - processPackages [scml]: Downloading https://files.pythonhosted.org/packages/06/d3/1f88a61c39dd4621445523648d36b21d3161054e1aeb8aaa664b449dd515/scml-0.7.4.tar.gz
+[2024-04-03 08:19:39] WARNING root fetch - processPackages [arts]: Timeout reached during download
+[2024-04-03 08:19:39] INFO root fetch - processPackages [arts]: executing diffoscope
+[2024-04-03 08:19:39] INFO root fetch - processPackages [arts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arts-2024.4.1.tar.gz tmp/arts-2024.4.3.tar.gz --markdown 20240403/a/arts/2024.4.1-2024.4.3/diff.md --exclude *.pyd
+[2024-04-03 08:19:39] WARNING root fetch - processPackages [scml]: Timeout reached during download
+[2024-04-03 08:19:39] INFO root fetch - processPackages [scml]: executing diffoscope
+[2024-04-03 08:19:39] INFO root fetch - processPackages [scml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scml-0.7.3.tar.gz tmp/scml-0.7.4.tar.gz --markdown 20240403/s/scml/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2024-04-03 08:19:40] INFO root fetch - processPackages [arts]: Remove: archive file [/home/abi/fetcher/tmp/arts-2024.4.1.tar.gz]
+[2024-04-03 08:19:40] INFO root fetch - processPackages [arts]: Remove: archive file [/home/abi/fetcher/tmp/arts-2024.4.3.tar.gz]
+[2024-04-03 08:19:40] INFO root fetch - main [MainThread]: End processing [arts]: success
+[2024-04-03 08:19:40] INFO root fetch - processPackages [scml]: Remove: archive file [/home/abi/fetcher/tmp/scml-0.7.3.tar.gz]
+[2024-04-03 08:19:40] INFO root fetch - processPackages [scml]: Remove: archive file [/home/abi/fetcher/tmp/scml-0.7.4.tar.gz]
+[2024-04-03 08:19:40] INFO root fetch - main [MainThread]: End processing [scml]: success
+[2024-04-03 08:19:40] INFO root fetch - main [MainThread]: Store serial: [22598748]

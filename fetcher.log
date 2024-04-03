@@ -14211,3 +14211,73 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 04:28:58] INFO root fetch - processPackages [pypipy]: Remove: archive file [/home/abi/fetcher/tmp/pypipy-0.0.4-py3-none-any.whl.zip]
 [2024-04-03 04:28:58] INFO root fetch - main [MainThread]: End processing [pypipy]: success
 [2024-04-03 04:28:58] INFO root fetch - main [MainThread]: Store serial: [22596519]
+[2024-04-03 04:31:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596519]
+[2024-04-03 04:31:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-03 04:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jihyeonkim2024
+[2024-04-03 04:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jsCalc-0.0.1
+[2024-04-03 04:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhtml-enhanced
+[2024-04-03 04:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: johnsnowlabs
+[2024-04-03 04:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: johnsnowlabs-for-databricks
+[2024-04-03 04:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kj20240403
+[2024-04-03 04:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simlify
+[2024-04-03 04:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-03 04:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: developergpt
+[2024-04-03 04:31:07] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.11a1712110396] Old Version: [0.0.11a1712110370]
+[2024-04-03 04:31:07] WARNING root fetch - processPackages [simlify]: Skipping, unable to determine old version
+[2024-04-03 04:31:07] INFO root fetch - main [MainThread]: End processing [simlify] error
+[2024-04-03 04:31:07] WARNING root fetch - processPackages [jihyeonkim2024]: Skipping, unable to determine old version
+[2024-04-03 04:31:07] INFO root fetch - main [MainThread]: End processing [jihyeonkim2024] error
+[2024-04-03 04:31:07] INFO root fetch - processPackages [pyhtml-enhanced]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-03 04:31:07] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/ec/e7/2e147d0348c3d07df784142ee0d39ec8ceb22d197a069f0b777b0cc583db/pulumi_kubernetes_the_hard_way-0.0.11a1712110370.tar.gz
+[2024-04-03 04:31:07] INFO root fetch - processPackages [developergpt]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-04-03 04:31:07] WARNING root fetch - processPackages [kj20240403]: Skipping, unable to determine old version
+[2024-04-03 04:31:07] INFO root fetch - main [MainThread]: End processing [kj20240403] error
+[2024-04-03 04:31:07] WARNING root fetch - processPackages [jsCalc-0.0.1]: Skipping, unable to determine old version
+[2024-04-03 04:31:07] INFO root fetch - main [MainThread]: End processing [jsCalc-0.0.1] error
+[2024-04-03 04:31:07] INFO root fetch - processPackages [johnsnowlabs]: New version: [5.3.3rc3] Old Version: [5.3.3rc2]
+[2024-04-03 04:31:07] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: New version: [5.3.3rc3] Old Version: [5.3.3rc2]
+[2024-04-03 04:31:07] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-03 04:31:07] INFO root fetch - processPackages [johnsnowlabs]: Downloading https://files.pythonhosted.org/packages/ee/4f/785a9757aa85a0715086aa095f3636ee2d669b4f568d5d9124c5081a3b80/johnsnowlabs-5.3.3rc2.tar.gz
+[2024-04-03 04:31:07] INFO root fetch - processPackages [pyhtml-enhanced]: Downloading https://files.pythonhosted.org/packages/26/98/fae362ed55be6533bc08c4edebd048b6b284b17e73addb24780c2c267d01/pyhtml_enhanced-2.0.0.tar.gz
+[2024-04-03 04:31:07] INFO root fetch - processPackages [developergpt]: Downloading https://files.pythonhosted.org/packages/cb/e5/79b60303c45b1ed1f13fb621e998e9bf24af3d9f9172d1a534b0de7c76b7/developergpt-0.6.6.tar.gz
+[2024-04-03 04:31:07] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Downloading https://files.pythonhosted.org/packages/98/eb/37d00ee17291785c123a77cf899823cde935c08b3a51cd376d1f83d69a36/johnsnowlabs_for_databricks-5.3.3rc2.tar.gz
+[2024-04-03 04:31:07] WARNING root fetch - processPackages [developergpt]: Timeout reached during download
+[2024-04-03 04:31:07] WARNING root fetch - processPackages [pyhtml-enhanced]: Timeout reached during download
+[2024-04-03 04:31:07] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/a1/4e/b480da947b52567db958b65cc665950b70e013dec414c1b09171a0c17af9/pulumi_kubernetes_the_hard_way-0.0.11a1712110396.tar.gz
+[2024-04-03 04:31:07] WARNING root fetch - processPackages [johnsnowlabs]: Timeout reached during download
+[2024-04-03 04:31:07] WARNING root fetch - processPackages [johnsnowlabs-for-databricks]: Timeout reached during download
+[2024-04-03 04:31:07] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-03 04:31:07] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-03 04:31:07] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712110370.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712110396.tar.gz --markdown 20240403/p/pulumi-kubernetes-the-hard-way/0.0.11a1712110370-0.0.11a1712110396/diff.md --exclude *.pyd
+[2024-04-03 04:31:07] INFO root fetch - processPackages [developergpt]: Downloading https://files.pythonhosted.org/packages/7b/1a/19c386c547c167e754719b0a8b0336a16cda3e6bfee5d1537a32d44c79b1/developergpt-0.6.7.tar.gz
+[2024-04-03 04:31:07] INFO root fetch - processPackages [pyhtml-enhanced]: Downloading https://files.pythonhosted.org/packages/6a/f6/3aa8db9a1324c94f37b25cd697cd50a7cc0d9dbc0e87ed21edef2f0a2566/pyhtml_enhanced-2.0.1.tar.gz
+[2024-04-03 04:31:07] INFO root fetch - processPackages [johnsnowlabs]: Downloading https://files.pythonhosted.org/packages/48/38/f636b436dac72ff82e8b7f44dfbd7163e868b3e58988f88169ad301dd255/johnsnowlabs-5.3.3rc3.tar.gz
+[2024-04-03 04:31:08] WARNING root fetch - processPackages [developergpt]: Timeout reached during download
+[2024-04-03 04:31:08] INFO root fetch - processPackages [developergpt]: executing diffoscope
+[2024-04-03 04:31:08] INFO root fetch - processPackages [developergpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/developergpt-0.6.6.tar.gz tmp/developergpt-0.6.7.tar.gz --markdown 20240403/d/developergpt/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2024-04-03 04:31:08] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Downloading https://files.pythonhosted.org/packages/0d/32/e2b53a11c42a9c8b6496423d65b0cbf8b30978962f01aced265a3755d74e/johnsnowlabs_for_databricks-5.3.3rc3.tar.gz
+[2024-04-03 04:31:08] WARNING root fetch - processPackages [pyhtml-enhanced]: Timeout reached during download
+[2024-04-03 04:31:08] INFO root fetch - processPackages [pyhtml-enhanced]: executing diffoscope
+[2024-04-03 04:31:08] INFO root fetch - processPackages [pyhtml-enhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtml_enhanced-2.0.0.tar.gz tmp/pyhtml_enhanced-2.0.1.tar.gz --markdown 20240403/p/pyhtml-enhanced/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2024-04-03 04:31:08] WARNING root fetch - processPackages [johnsnowlabs]: Timeout reached during download
+[2024-04-03 04:31:08] INFO root fetch - processPackages [johnsnowlabs]: executing diffoscope
+[2024-04-03 04:31:08] INFO root fetch - processPackages [johnsnowlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/johnsnowlabs-5.3.3rc2.tar.gz tmp/johnsnowlabs-5.3.3rc3.tar.gz --markdown 20240403/j/johnsnowlabs/5.3.3rc2-5.3.3rc3/diff.md --exclude *.pyd
+[2024-04-03 04:31:08] WARNING root fetch - processPackages [johnsnowlabs-for-databricks]: Timeout reached during download
+[2024-04-03 04:31:08] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: executing diffoscope
+[2024-04-03 04:31:08] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/johnsnowlabs_for_databricks-5.3.3rc2.tar.gz tmp/johnsnowlabs_for_databricks-5.3.3rc3.tar.gz --markdown 20240403/j/johnsnowlabs-for-databricks/5.3.3rc2-5.3.3rc3/diff.md --exclude *.pyd
+[2024-04-03 04:31:08] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712110370.tar.gz]
+[2024-04-03 04:31:08] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712110396.tar.gz]
+[2024-04-03 04:31:08] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-03 04:31:08] INFO root fetch - processPackages [developergpt]: Remove: archive file [/home/abi/fetcher/tmp/developergpt-0.6.6.tar.gz]
+[2024-04-03 04:31:08] INFO root fetch - processPackages [developergpt]: Remove: archive file [/home/abi/fetcher/tmp/developergpt-0.6.7.tar.gz]
+[2024-04-03 04:31:08] INFO root fetch - main [MainThread]: End processing [developergpt]: success
+[2024-04-03 04:31:08] INFO root fetch - processPackages [pyhtml-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/pyhtml_enhanced-2.0.0.tar.gz]
+[2024-04-03 04:31:08] INFO root fetch - processPackages [pyhtml-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/pyhtml_enhanced-2.0.1.tar.gz]
+[2024-04-03 04:31:08] INFO root fetch - main [MainThread]: End processing [pyhtml-enhanced]: success
+[2024-04-03 04:31:09] INFO root fetch - processPackages [johnsnowlabs]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs-5.3.3rc2.tar.gz]
+[2024-04-03 04:31:09] INFO root fetch - processPackages [johnsnowlabs]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs-5.3.3rc3.tar.gz]
+[2024-04-03 04:31:09] INFO root fetch - main [MainThread]: End processing [johnsnowlabs]: success
+[2024-04-03 04:31:09] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs_for_databricks-5.3.3rc2.tar.gz]
+[2024-04-03 04:31:09] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs_for_databricks-5.3.3rc3.tar.gz]
+[2024-04-03 04:31:09] INFO root fetch - main [MainThread]: End processing [johnsnowlabs-for-databricks]: success
+[2024-04-03 04:31:09] INFO root fetch - main [MainThread]: Store serial: [22596553]

@@ -14401,3 +14401,100 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 04:37:42] INFO root fetch - processPackages [signalrcore-deng]: Remove: archive file [/home/abi/fetcher/tmp/signalrcore-deng-0.9.3.tar.gz]
 [2024-04-03 04:37:42] INFO root fetch - main [MainThread]: End processing [signalrcore-deng]: success
 [2024-04-03 04:37:42] INFO root fetch - main [MainThread]: Store serial: [22596604]
+[2024-04-03 04:39:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596604]
+[2024-04-03 04:39:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 04:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickfin
+[2024-04-03 04:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: orgmunge
+[2024-04-03 04:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: funboost
+[2024-04-03 04:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kjhpandas
+[2024-04-03 04:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smadi
+[2024-04-03 04:39:51] INFO root fetch - processPackages [funboost]: New version: [43.1] Old Version: [43.0]
+[2024-04-03 04:39:51] INFO root fetch - processPackages [quickfin]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-03 04:39:51] INFO root fetch - processPackages [orgmunge]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-03 04:39:51] WARNING root fetch - processPackages [kjhpandas]: Skipping, unable to determine old version
+[2024-04-03 04:39:51] INFO root fetch - main [MainThread]: End processing [kjhpandas] error
+[2024-04-03 04:39:51] INFO root fetch - processPackages [smadi]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-03 04:39:51] INFO root fetch - processPackages [quickfin]: Downloading https://files.pythonhosted.org/packages/58/18/9ec071d9e79468ec8cba17cae9e96600c2e70e6f0749c7829a9a1eaf5f65/quickfin-1.8.0.tar.gz
+[2024-04-03 04:39:51] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2024-04-03 04:39:51] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-43.0.tar.gz tmp/funboost-43.1.tar.gz --markdown 20240403/f/funboost/43.0-43.1/diff.md --exclude *.pyd
+[2024-04-03 04:39:51] WARNING root fetch - processPackages [quickfin]: Timeout reached during download
+[2024-04-03 04:39:51] INFO root fetch - processPackages [orgmunge]: Downloading https://files.pythonhosted.org/packages/e2/99/2a54a01dcb1e81bf8b0d6e4bcbfe67a2d1fe5cf43f8b4cd267fb93a154d7/orgmunge-0.2.0.tar.gz
+[2024-04-03 04:39:51] INFO root fetch - processPackages [smadi]: Downloading https://files.pythonhosted.org/packages/a1/b2/2ced333edcc112f156241553390f7038852db792f7c271f6ec47d7b7faa3/smadi-0.2.5.tar.gz
+[2024-04-03 04:39:51] WARNING root fetch - processPackages [orgmunge]: Timeout reached during download
+[2024-04-03 04:39:51] INFO root fetch - processPackages [quickfin]: Downloading https://files.pythonhosted.org/packages/f7/81/5611cebce8db0b6121d92bd2ee76f47e49b160d9e5d1bde8f6a81ffd0961/quickfin-1.9.0.tar.gz
+[2024-04-03 04:39:51] WARNING root fetch - processPackages [smadi]: Timeout reached during download
+[2024-04-03 04:39:51] WARNING root fetch - processPackages [quickfin]: Timeout reached during download
+[2024-04-03 04:39:51] INFO root fetch - processPackages [quickfin]: executing diffoscope
+[2024-04-03 04:39:51] INFO root fetch - processPackages [quickfin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickfin-1.8.0.tar.gz tmp/quickfin-1.9.0.tar.gz --markdown 20240403/q/quickfin/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-03 04:39:51] INFO root fetch - processPackages [orgmunge]: Downloading https://files.pythonhosted.org/packages/cd/45/bfb5a13e93f81fbab8c5185746286098e0adf4b0bcf36128d7d0d13fde1e/orgmunge-0.2.1.tar.gz
+[2024-04-03 04:39:51] INFO root fetch - processPackages [smadi]: Downloading https://files.pythonhosted.org/packages/b8/ba/90982c51174d168d1297959b7ec3bd8ab24249e5638dbaa23c10ba946ea0/smadi-0.2.6.tar.gz
+[2024-04-03 04:39:51] WARNING root fetch - processPackages [orgmunge]: Timeout reached during download
+[2024-04-03 04:39:51] INFO root fetch - processPackages [orgmunge]: executing diffoscope
+[2024-04-03 04:39:51] INFO root fetch - processPackages [orgmunge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orgmunge-0.2.0.tar.gz tmp/orgmunge-0.2.1.tar.gz --markdown 20240403/o/orgmunge/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-03 04:39:52] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.8.0.tar.gz]
+[2024-04-03 04:39:52] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.9.0.tar.gz]
+[2024-04-03 04:39:52] INFO root fetch - main [MainThread]: End processing [quickfin]: success
+[2024-04-03 04:39:52] INFO root fetch - processPackages [orgmunge]: Remove: archive file [/home/abi/fetcher/tmp/orgmunge-0.2.0.tar.gz]
+[2024-04-03 04:39:52] INFO root fetch - processPackages [orgmunge]: Remove: archive file [/home/abi/fetcher/tmp/orgmunge-0.2.1.tar.gz]
+[2024-04-03 04:39:52] INFO root fetch - main [MainThread]: End processing [orgmunge]: success
+[2024-04-03 04:39:52] ERROR root fetch - processPackages [funboost]: Diffoscope failed: time="2024-04-03T04:39:51+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2024-04-03 04:39:52] INFO root fetch - main [MainThread]: End processing [funboost] error
+[2024-04-03 04:39:52] WARNING root fetch - processPackages [smadi]: Timeout reached during download
+[2024-04-03 04:39:52] INFO root fetch - processPackages [smadi]: executing diffoscope
+[2024-04-03 04:39:52] INFO root fetch - processPackages [smadi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smadi-0.2.5.tar.gz tmp/smadi-0.2.6.tar.gz --markdown 20240403/s/smadi/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2024-04-03 04:39:53] INFO root fetch - processPackages [smadi]: Remove: archive file [/home/abi/fetcher/tmp/smadi-0.2.5.tar.gz]
+[2024-04-03 04:39:53] INFO root fetch - processPackages [smadi]: Remove: archive file [/home/abi/fetcher/tmp/smadi-0.2.6.tar.gz]
+[2024-04-03 04:39:53] INFO root fetch - main [MainThread]: End processing [smadi]: success
+[2024-04-03 04:39:53] INFO root fetch - main [MainThread]: Store serial: [22596621]

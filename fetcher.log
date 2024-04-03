@@ -15998,3 +15998,28 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 05:37:31] INFO root fetch - processPackages [pycorrector]: Remove: archive file [/home/abi/fetcher/tmp/pycorrector-1.0.4.tar.gz]
 [2024-04-03 05:37:31] INFO root fetch - main [MainThread]: End processing [pycorrector]: success
 [2024-04-03 05:37:31] INFO root fetch - main [MainThread]: Store serial: [22597079]
+[2024-04-03 05:39:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597079]
+[2024-04-03 05:39:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 05:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sawsi
+[2024-04-03 05:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickfin
+[2024-04-03 05:39:40] INFO root fetch - processPackages [quickfin]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-03 05:39:40] INFO root fetch - processPackages [quickfin]: Downloading https://files.pythonhosted.org/packages/58/18/9ec071d9e79468ec8cba17cae9e96600c2e70e6f0749c7829a9a1eaf5f65/quickfin-1.8.0.tar.gz
+[2024-04-03 05:39:40] INFO root fetch - processPackages [sawsi]: New version: [9.9] Old Version: [9.8]
+[2024-04-03 05:39:40] WARNING root fetch - processPackages [quickfin]: Timeout reached during download
+[2024-04-03 05:39:40] INFO root fetch - processPackages [quickfin]: Downloading https://files.pythonhosted.org/packages/f7/81/5611cebce8db0b6121d92bd2ee76f47e49b160d9e5d1bde8f6a81ffd0961/quickfin-1.9.0.tar.gz
+[2024-04-03 05:39:40] INFO root fetch - processPackages [sawsi]: Downloading https://files.pythonhosted.org/packages/a5/89/e5230b963c36d9342bd53c4174b8b4f9595f77c5aa510614cf80ac5315a0/sawsi-9.8.tar.gz
+[2024-04-03 05:39:40] WARNING root fetch - processPackages [quickfin]: Timeout reached during download
+[2024-04-03 05:39:40] INFO root fetch - processPackages [quickfin]: executing diffoscope
+[2024-04-03 05:39:40] INFO root fetch - processPackages [quickfin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickfin-1.8.0.tar.gz tmp/quickfin-1.9.0.tar.gz --markdown 20240403/q/quickfin/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-03 05:39:40] WARNING root fetch - processPackages [sawsi]: Timeout reached during download
+[2024-04-03 05:39:41] INFO root fetch - processPackages [sawsi]: Downloading https://files.pythonhosted.org/packages/69/c2/e945385340121de75cca5d00aa9ac99f3d874c5977239a7d7efe5e969e17/sawsi-9.9.tar.gz
+[2024-04-03 05:39:41] WARNING root fetch - processPackages [sawsi]: Timeout reached during download
+[2024-04-03 05:39:41] INFO root fetch - processPackages [sawsi]: executing diffoscope
+[2024-04-03 05:39:41] INFO root fetch - processPackages [sawsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sawsi-9.8.tar.gz tmp/sawsi-9.9.tar.gz --markdown 20240403/s/sawsi/9.8-9.9/diff.md --exclude *.pyd
+[2024-04-03 05:39:41] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.8.0.tar.gz]
+[2024-04-03 05:39:41] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.9.0.tar.gz]
+[2024-04-03 05:39:41] INFO root fetch - main [MainThread]: End processing [quickfin]: success
+[2024-04-03 05:39:41] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.8.tar.gz]
+[2024-04-03 05:39:41] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.9.tar.gz]
+[2024-04-03 05:39:41] INFO root fetch - main [MainThread]: End processing [sawsi]: success
+[2024-04-03 05:39:41] INFO root fetch - main [MainThread]: Store serial: [22597086]

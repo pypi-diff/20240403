@@ -14681,3 +14681,259 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 04:46:38] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.2.0.tar.gz]
 [2024-04-03 04:46:38] INFO root fetch - main [MainThread]: End processing [agt-server]: success
 [2024-04-03 04:46:38] INFO root fetch - main [MainThread]: Store serial: [22596685]
+[2024-04-03 04:48:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596685]
+[2024-04-03 04:48:49] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2024-04-03 04:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taskara
+[2024-04-03 04:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: galaxy-util
+[2024-04-03 04:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: galaxy-config
+[2024-04-03 04:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: galaxy-files
+[2024-04-03 04:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: galaxy-job-metrics
+[2024-04-03 04:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: galaxy-navigation
+[2024-04-03 04:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: galaxy-objectstore
+[2024-04-03 04:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: galaxy-schema
+[2024-04-03 04:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: galaxy-tool-util
+[2024-04-03 04:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: galaxy-data
+[2024-04-03 04:48:49] INFO root fetch - processPackages [taskara]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-files]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-config]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:49] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/a5/08/2584582ff083f34e31116a6323c50f3168642532a8500f0227e02d8dad3f/taskara-0.1.1.tar.gz
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-job-metrics]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-objectstore]: New version: [24.0.0] Old Version: [23.2.dev0]
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-schema]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-util]: New version: [24.0.0] Old Version: [23.2.dev0]
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-navigation]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-data]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-tool-util]: New version: [24.0.0] Old Version: [23.2.dev0]
+[2024-04-03 04:48:49] WARNING root fetch - processPackages [taskara]: Timeout reached during download
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-config]: Downloading https://files.pythonhosted.org/packages/f7/22/77310a4d14ccf51e1f7018b42c1d9ca5535621144f814d36836523a8ed84/galaxy-config-23.2.1.tar.gz
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-files]: Downloading https://files.pythonhosted.org/packages/82/c1/e23a366824f39985f93e0fe7def58bd55a887fbac27a0c5e1fd5516ff8fd/galaxy-files-23.2.1.tar.gz
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-schema]: Downloading https://files.pythonhosted.org/packages/ff/09/e34774c2473bf38f531e00e5f1c1aba8c65f6520005207c956518903f256/galaxy-schema-23.2.1.tar.gz
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-job-metrics]: Downloading https://files.pythonhosted.org/packages/8b/fc/536ff7cc31b7981e6fe4d41c4e09a75fc484577572e1aa220b3e24185460/galaxy-job-metrics-23.2.1.tar.gz
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-navigation]: Downloading https://files.pythonhosted.org/packages/c4/7d/dd674effec2ebfb316a3f153bc6603cef123299ca9a5d89e3b21ad2d238b/galaxy-navigation-23.2.1.tar.gz
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-tool-util]: Downloading https://files.pythonhosted.org/packages/a7/0b/6cbc66f0ee2402954769286799bdf13dadb9c56f8ac421e6487b08eb1bba/galaxy-tool-util-23.2.dev0.tar.gz
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-data]: Downloading https://files.pythonhosted.org/packages/9d/d0/fc3e64789bfbb4a1151023ee826f1b9d97789572dc2c4b249a3dde336fd0/galaxy-data-23.2.1.tar.gz
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-util]: Downloading https://files.pythonhosted.org/packages/84/6c/0a5d61a668dd2963b78fd1fee6492a9d17622034c8de0861041be59d9750/galaxy-util-23.2.dev0.tar.gz
+[2024-04-03 04:48:49] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/96/4f/779dd0149db8056cc0a961eb615553c0d144c598aeeb2fb9a8fc5392ba8a/taskara-0.1.2.tar.gz
+[2024-04-03 04:48:49] WARNING root fetch - processPackages [galaxy-config]: Timeout reached during download
+[2024-04-03 04:48:49] INFO root fetch - processPackages [galaxy-objectstore]: Downloading https://files.pythonhosted.org/packages/ec/b9/7a45cd168f085478f3841cf97db25d61b495f5ee73e19f73c460f22b9980/galaxy-objectstore-23.2.dev0.tar.gz
+[2024-04-03 04:48:49] WARNING root fetch - processPackages [galaxy-schema]: Timeout reached during download
+[2024-04-03 04:48:49] WARNING root fetch - processPackages [galaxy-job-metrics]: Timeout reached during download
+[2024-04-03 04:48:49] WARNING root fetch - processPackages [galaxy-navigation]: Timeout reached during download
+[2024-04-03 04:48:49] WARNING root fetch - processPackages [galaxy-files]: Timeout reached during download
+[2024-04-03 04:48:50] WARNING root fetch - processPackages [taskara]: Timeout reached during download
+[2024-04-03 04:48:50] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-04-03 04:48:50] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.1.tar.gz tmp/taskara-0.1.2.tar.gz --markdown 20240403/t/taskara/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-03 04:48:50] WARNING root fetch - processPackages [galaxy-data]: Timeout reached during download
+[2024-04-03 04:48:50] WARNING root fetch - processPackages [galaxy-util]: Timeout reached during download
+[2024-04-03 04:48:50] WARNING root fetch - processPackages [galaxy-tool-util]: Timeout reached during download
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-config]: Downloading https://files.pythonhosted.org/packages/52/3a/57c881f84bd9fcd74094c1bbe0a44bb583332f5c74ecc2314f332511ca31/galaxy-config-24.0.0.tar.gz
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-schema]: Downloading https://files.pythonhosted.org/packages/52/b8/19e60905fb617960ce069163154c0e45f6be15a279145b82038d0e1bfaa6/galaxy-schema-24.0.0.tar.gz
+[2024-04-03 04:48:50] WARNING root fetch - processPackages [galaxy-objectstore]: Timeout reached during download
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-navigation]: Downloading https://files.pythonhosted.org/packages/8f/93/a3d5bc9249ba1d315012536d521bc891ea637b624a360c2b7ab8e4192226/galaxy-navigation-24.0.0.tar.gz
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-files]: Downloading https://files.pythonhosted.org/packages/fd/df/ce550a66838a3674e6c217464b2dc940983001bd2b57042ef6f10bdaca6b/galaxy-files-24.0.0.tar.gz
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-job-metrics]: Downloading https://files.pythonhosted.org/packages/15/bd/c86773935fb38c923237e3faa46fa515c68ace362532a9d2009b28b81ed5/galaxy-job-metrics-24.0.0.tar.gz
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-data]: Downloading https://files.pythonhosted.org/packages/23/44/9ba68186f7d05ee715fbd49ea248d50914b554f40d25c13e4879c35606cd/galaxy-data-24.0.0.tar.gz
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-util]: Downloading https://files.pythonhosted.org/packages/d4/39/1563161cf8959fb4692a6830161e75be6412aa708e46a67cf182b1ee8206/galaxy-util-24.0.0.tar.gz
+[2024-04-03 04:48:50] WARNING root fetch - processPackages [galaxy-config]: Timeout reached during download
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-config]: executing diffoscope
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-config-23.2.1.tar.gz tmp/galaxy-config-24.0.0.tar.gz --markdown 20240403/g/galaxy-config/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-tool-util]: Downloading https://files.pythonhosted.org/packages/cd/91/848174928a281df6bac76ca556bda9593963e30ea6ecc671c5d18562d104/galaxy-tool-util-24.0.0.tar.gz
+[2024-04-03 04:48:50] WARNING root fetch - processPackages [galaxy-schema]: Timeout reached during download
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-schema]: executing diffoscope
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-schema-23.2.1.tar.gz tmp/galaxy-schema-24.0.0.tar.gz --markdown 20240403/g/galaxy-schema/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:50] WARNING root fetch - processPackages [galaxy-files]: Timeout reached during download
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-files]: executing diffoscope
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-files-23.2.1.tar.gz tmp/galaxy-files-24.0.0.tar.gz --markdown 20240403/g/galaxy-files/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:50] WARNING root fetch - processPackages [galaxy-job-metrics]: Timeout reached during download
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-job-metrics]: executing diffoscope
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-job-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-job-metrics-23.2.1.tar.gz tmp/galaxy-job-metrics-24.0.0.tar.gz --markdown 20240403/g/galaxy-job-metrics/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:50] WARNING root fetch - processPackages [galaxy-navigation]: Timeout reached during download
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-navigation]: executing diffoscope
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-navigation-23.2.1.tar.gz tmp/galaxy-navigation-24.0.0.tar.gz --markdown 20240403/g/galaxy-navigation/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-objectstore]: Downloading https://files.pythonhosted.org/packages/03/aa/41c3a4ed72c8d55d6d7af613abc4dcee5310dd86661ce3e38874c37096d3/galaxy-objectstore-24.0.0.tar.gz
+[2024-04-03 04:48:50] WARNING root fetch - processPackages [galaxy-data]: Timeout reached during download
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-data]: executing diffoscope
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-data-23.2.1.tar.gz tmp/galaxy-data-24.0.0.tar.gz --markdown 20240403/g/galaxy-data/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:50] WARNING root fetch - processPackages [galaxy-util]: Timeout reached during download
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-util]: executing diffoscope
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-util-23.2.dev0.tar.gz tmp/galaxy-util-24.0.0.tar.gz --markdown 20240403/g/galaxy-util/23.2.dev0-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:50] WARNING root fetch - processPackages [galaxy-tool-util]: Timeout reached during download
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-tool-util]: executing diffoscope
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-tool-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-tool-util-23.2.dev0.tar.gz tmp/galaxy-tool-util-24.0.0.tar.gz --markdown 20240403/g/galaxy-tool-util/23.2.dev0-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:50] WARNING root fetch - processPackages [galaxy-objectstore]: Timeout reached during download
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-objectstore]: executing diffoscope
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-objectstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-objectstore-23.2.dev0.tar.gz tmp/galaxy-objectstore-24.0.0.tar.gz --markdown 20240403/g/galaxy-objectstore/23.2.dev0-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:50] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.1.tar.gz]
+[2024-04-03 04:48:50] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.2.tar.gz]
+[2024-04-03 04:48:50] INFO root fetch - processPackages [taskara]: Start processing: galaxy-selenium
+[2024-04-03 04:48:50] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-04-03 04:48:50] INFO root fetch - processPackages [galaxy-selenium]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-selenium]: Downloading https://files.pythonhosted.org/packages/7b/0e/d4c9eb7aaa701280625d021161d7125e01139e73f8fb00bd4e4bb4581943/galaxy-selenium-23.2.1.tar.gz
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-job-metrics]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-job-metrics-23.2.1.tar.gz]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-job-metrics]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-job-metrics-24.0.0.tar.gz]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-job-metrics]: Start processing: galaxy-tours
+[2024-04-03 04:48:51] INFO root fetch - main [MainThread]: End processing [galaxy-job-metrics]: success
+[2024-04-03 04:48:51] WARNING root fetch - processPackages [galaxy-selenium]: Timeout reached during download
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-navigation]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-navigation-23.2.1.tar.gz]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-navigation]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-navigation-24.0.0.tar.gz]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-navigation]: Start processing: galaxy-test-base
+[2024-04-03 04:48:51] INFO root fetch - main [MainThread]: End processing [galaxy-navigation]: success
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-files]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-files-23.2.1.tar.gz]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-files]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-files-24.0.0.tar.gz]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-files]: Start processing: galaxy-auth
+[2024-04-03 04:48:51] INFO root fetch - main [MainThread]: End processing [galaxy-files]: success
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-tours]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-schema]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-schema-23.2.1.tar.gz]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-schema]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-schema-24.0.0.tar.gz]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-schema]: Start processing: galaxy-job-execution
+[2024-04-03 04:48:51] INFO root fetch - main [MainThread]: End processing [galaxy-schema]: success
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-test-base]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-auth]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-selenium]: Downloading https://files.pythonhosted.org/packages/8e/f8/4fc3978be5bef34048ab920c8ccff3f507c819ec5ad24fa8061609724f58/galaxy-selenium-24.0.0.tar.gz
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-objectstore]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-objectstore-23.2.dev0.tar.gz]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-objectstore]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-objectstore-24.0.0.tar.gz]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-objectstore]: Start processing: galaxy-test-api
+[2024-04-03 04:48:51] INFO root fetch - main [MainThread]: End processing [galaxy-objectstore]: success
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-job-execution]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-util]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-util-23.2.dev0.tar.gz]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-util]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-util-24.0.0.tar.gz]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-util]: Start processing: betfair-parser
+[2024-04-03 04:48:51] INFO root fetch - main [MainThread]: End processing [galaxy-util]: success
+[2024-04-03 04:48:51] WARNING root fetch - processPackages [galaxy-selenium]: Timeout reached during download
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-selenium]: executing diffoscope
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-selenium-23.2.1.tar.gz tmp/galaxy-selenium-24.0.0.tar.gz --markdown 20240403/g/galaxy-selenium/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-test-api]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-tours]: Downloading https://files.pythonhosted.org/packages/6c/05/831b39a9b0285872ad0c1d87f22d765b6e859fe4cd5966651d0bd5f4ec8e/galaxy-tours-23.2.1.tar.gz
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-config]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-config-23.2.1.tar.gz]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-config]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-config-24.0.0.tar.gz]
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-config]: Start processing: galaxy-web-framework
+[2024-04-03 04:48:51] INFO root fetch - main [MainThread]: End processing [galaxy-config]: success
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-test-base]: Downloading https://files.pythonhosted.org/packages/68/a3/554445babac038707d4d95ae6d3639cb0b1c26971621efc71866cbc63f40/galaxy-test-base-23.2.1.tar.gz
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-auth]: Downloading https://files.pythonhosted.org/packages/46/e0/d0390ad19937318f4a142b3d0d141dac74c5751167d169112fbec1a38de9/galaxy-auth-23.2.1.tar.gz
+[2024-04-03 04:48:51] INFO root fetch - processPackages [betfair-parser]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-03 04:48:51] WARNING root fetch - processPackages [galaxy-tours]: Timeout reached during download
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-job-execution]: Downloading https://files.pythonhosted.org/packages/cc/d3/dbf069c70b4206a98c18b573ce228dfabd3f78c4663ea1353205a18f05f8/galaxy-job-execution-23.2.1.tar.gz
+[2024-04-03 04:48:51] INFO root fetch - processPackages [galaxy-web-framework]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:51] WARNING root fetch - processPackages [galaxy-auth]: Timeout reached during download
+[2024-04-03 04:48:52] WARNING root fetch - processPackages [galaxy-test-base]: Timeout reached during download
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-test-api]: Downloading https://files.pythonhosted.org/packages/9f/91/2e9ee362c329c24bfa6768e04dfff9d4ed08ff337c7b05ba84ff8198c056/galaxy-test-api-23.2.1.tar.gz
+[2024-04-03 04:48:52] WARNING root fetch - processPackages [galaxy-job-execution]: Timeout reached during download
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-tours]: Downloading https://files.pythonhosted.org/packages/85/1d/e1ddd461d8a1331453c6d9d4728d18de9649d8c65fa1e7744791307cc8ae/galaxy-tours-24.0.0.tar.gz
+[2024-04-03 04:48:52] INFO root fetch - processPackages [betfair-parser]: Downloading https://files.pythonhosted.org/packages/15/29/f71b7887469e0b25858f6c498741c46959db7661837d546fb16f1aa8e891/betfair_parser-0.9.0.tar.gz
+[2024-04-03 04:48:52] WARNING root fetch - processPackages [galaxy-test-api]: Timeout reached during download
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-auth]: Downloading https://files.pythonhosted.org/packages/9c/5c/8d2f406b49dbd3860757409719dc05b8ffc273ce2ef5db22793c608e79bc/galaxy-auth-24.0.0.tar.gz
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-web-framework]: Downloading https://files.pythonhosted.org/packages/e4/ca/65b04e52d66f4910264bae4ce2c366c40cc86be89ca14a93055e248fc019/galaxy-web-framework-23.2.1.tar.gz
+[2024-04-03 04:48:52] WARNING root fetch - processPackages [galaxy-tours]: Timeout reached during download
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-tours]: executing diffoscope
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-tours]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-tours-23.2.1.tar.gz tmp/galaxy-tours-24.0.0.tar.gz --markdown 20240403/g/galaxy-tours/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-job-execution]: Downloading https://files.pythonhosted.org/packages/89/fc/d5b602d0165c99b6e8e08ee196292c12f6b7be07b5250803e160fc64df4a/galaxy-job-execution-24.0.0.tar.gz
+[2024-04-03 04:48:52] WARNING root fetch - processPackages [betfair-parser]: Timeout reached during download
+[2024-04-03 04:48:52] WARNING root fetch - processPackages [galaxy-auth]: Timeout reached during download
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-auth]: executing diffoscope
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-auth-23.2.1.tar.gz tmp/galaxy-auth-24.0.0.tar.gz --markdown 20240403/g/galaxy-auth/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-test-api]: Downloading https://files.pythonhosted.org/packages/6a/4b/acf1b9a28e4980a072ea6349ac947eb463add56d6d35f67a706133fde45c/galaxy-test-api-24.0.0.tar.gz
+[2024-04-03 04:48:52] WARNING root fetch - processPackages [galaxy-web-framework]: Timeout reached during download
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-test-base]: Downloading https://files.pythonhosted.org/packages/43/ce/5dee583f521612cf82eade71d7c845a2653643af6bcf014723fb447eeb18/galaxy-test-base-24.0.0.tar.gz
+[2024-04-03 04:48:52] WARNING root fetch - processPackages [galaxy-job-execution]: Timeout reached during download
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-job-execution]: executing diffoscope
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-job-execution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-job-execution-23.2.1.tar.gz tmp/galaxy-job-execution-24.0.0.tar.gz --markdown 20240403/g/galaxy-job-execution/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:52] WARNING root fetch - processPackages [galaxy-test-api]: Timeout reached during download
+[2024-04-03 04:48:52] INFO root fetch - processPackages [betfair-parser]: Downloading https://files.pythonhosted.org/packages/49/4c/cc460a86ab61ac61c3bad60a166c8d721348ca53e84d94f2a65ac9ab291f/betfair_parser-0.9.1.tar.gz
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-test-api]: executing diffoscope
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-test-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-test-api-23.2.1.tar.gz tmp/galaxy-test-api-24.0.0.tar.gz --markdown 20240403/g/galaxy-test-api/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:52] WARNING root fetch - processPackages [galaxy-test-base]: Timeout reached during download
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-test-base]: executing diffoscope
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-test-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-test-base-23.2.1.tar.gz tmp/galaxy-test-base-24.0.0.tar.gz --markdown 20240403/g/galaxy-test-base/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-selenium]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-selenium-23.2.1.tar.gz]
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-selenium]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-selenium-24.0.0.tar.gz]
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-selenium]: Start processing: galaxy-web-stack
+[2024-04-03 04:48:52] INFO root fetch - main [MainThread]: End processing [galaxy-selenium]: success
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-web-framework]: Downloading https://files.pythonhosted.org/packages/84/c0/9b51f975df5aa4ff52d44b00314b75c16863f1e5dbd9ccd1fd6b66c3ef15/galaxy-web-framework-24.0.0.tar.gz
+[2024-04-03 04:48:52] WARNING root fetch - processPackages [betfair-parser]: Timeout reached during download
+[2024-04-03 04:48:52] INFO root fetch - processPackages [betfair-parser]: executing diffoscope
+[2024-04-03 04:48:52] INFO root fetch - processPackages [betfair-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betfair_parser-0.9.0.tar.gz tmp/betfair_parser-0.9.1.tar.gz --markdown 20240403/b/betfair-parser/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-tool-util]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-tool-util-23.2.dev0.tar.gz]
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-tool-util]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-tool-util-24.0.0.tar.gz]
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-tool-util]: Start processing: galaxy-app
+[2024-04-03 04:48:52] INFO root fetch - main [MainThread]: End processing [galaxy-tool-util]: success
+[2024-04-03 04:48:52] WARNING root fetch - processPackages [galaxy-web-framework]: Timeout reached during download
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-web-framework]: executing diffoscope
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-web-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-web-framework-23.2.1.tar.gz tmp/galaxy-web-framework-24.0.0.tar.gz --markdown 20240403/g/galaxy-web-framework/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-web-stack]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-app]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:52] INFO root fetch - processPackages [galaxy-web-stack]: Downloading https://files.pythonhosted.org/packages/0e/76/4ad5835d6d8429b49100574c0492c68a911a0559b576ce610a4732afe9b0/galaxy-web-stack-23.2.1.tar.gz
+[2024-04-03 04:48:53] WARNING root fetch - processPackages [galaxy-web-stack]: Timeout reached during download
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-tours]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-tours-23.2.1.tar.gz]
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-tours]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-tours-24.0.0.tar.gz]
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-tours]: Start processing: galaxy-web-apps
+[2024-04-03 04:48:53] INFO root fetch - main [MainThread]: End processing [galaxy-tours]: success
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-app]: Downloading https://files.pythonhosted.org/packages/2f/6c/b024d7c86132a8926709338c49bef02ac75821d997e60030744cf4e65ed0/galaxy-app-23.2.1.tar.gz
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-auth]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-auth-23.2.1.tar.gz]
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-auth]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-auth-24.0.0.tar.gz]
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-auth]: Start processing: galaxy-test-driver
+[2024-04-03 04:48:53] INFO root fetch - main [MainThread]: End processing [galaxy-auth]: success
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-web-apps]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-web-stack]: Downloading https://files.pythonhosted.org/packages/28/bc/b37281397ed3531a5bfcf7a85336a92b19d14eed1eace7e91203666c7ea4/galaxy-web-stack-24.0.0.tar.gz
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-test-driver]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:53] WARNING root fetch - processPackages [galaxy-app]: Timeout reached during download
+[2024-04-03 04:48:53] WARNING root fetch - processPackages [galaxy-web-stack]: Timeout reached during download
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-web-stack]: executing diffoscope
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-web-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-web-stack-23.2.1.tar.gz tmp/galaxy-web-stack-24.0.0.tar.gz --markdown 20240403/g/galaxy-web-stack/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-job-execution]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-job-execution-23.2.1.tar.gz]
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-job-execution]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-job-execution-24.0.0.tar.gz]
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-job-execution]: Start processing: galaxy-tool-shed
+[2024-04-03 04:48:53] INFO root fetch - main [MainThread]: End processing [galaxy-job-execution]: success
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-web-apps]: Downloading https://files.pythonhosted.org/packages/70/93/ccd0dca542246f3ff1f398b52a99f9c107143eaf3035c524102afc3ed6ea/galaxy-web-apps-23.2.1.tar.gz
+[2024-04-03 04:48:53] INFO root fetch - processPackages [betfair-parser]: Remove: archive file [/home/abi/fetcher/tmp/betfair_parser-0.9.0.tar.gz]
+[2024-04-03 04:48:53] INFO root fetch - processPackages [betfair-parser]: Remove: archive file [/home/abi/fetcher/tmp/betfair_parser-0.9.1.tar.gz]
+[2024-04-03 04:48:53] INFO root fetch - main [MainThread]: End processing [betfair-parser]: success
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-test-driver]: Downloading https://files.pythonhosted.org/packages/54/d5/1ad64111494898c1f284e010a94de44c85ee43404edb1080a009a32fc598/galaxy-test-driver-23.2.1.tar.gz
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-test-base]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-test-base-23.2.1.tar.gz]
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-test-base]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-test-base-24.0.0.tar.gz]
+[2024-04-03 04:48:53] INFO root fetch - main [MainThread]: End processing [galaxy-test-base]: success
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-app]: Downloading https://files.pythonhosted.org/packages/10/8a/8722621711150c5522028ae4f5ecd1a7e12cd7e430a6b9cf2f8f4d1ff409/galaxy-app-24.0.0.tar.gz
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-tool-shed]: New version: [24.0.0] Old Version: [23.2.1]
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-web-framework]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-web-framework-23.2.1.tar.gz]
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-web-framework]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-web-framework-24.0.0.tar.gz]
+[2024-04-03 04:48:53] INFO root fetch - main [MainThread]: End processing [galaxy-web-framework]: success
+[2024-04-03 04:48:53] WARNING root fetch - processPackages [galaxy-test-driver]: Timeout reached during download
+[2024-04-03 04:48:53] WARNING root fetch - processPackages [galaxy-app]: Timeout reached during download
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-app]: executing diffoscope
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-app-23.2.1.tar.gz tmp/galaxy-app-24.0.0.tar.gz --markdown 20240403/g/galaxy-app/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-tool-shed]: Downloading https://files.pythonhosted.org/packages/fe/fc/17fe79aeac3b1de1272efc49646a7e16985c48bd5873d5535ce6d3516533/galaxy-tool-shed-23.2.1.tar.gz
+[2024-04-03 04:48:53] WARNING root fetch - processPackages [galaxy-web-apps]: Timeout reached during download
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-test-api]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-test-api-23.2.1.tar.gz]
+[2024-04-03 04:48:53] INFO root fetch - processPackages [galaxy-test-api]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-test-api-24.0.0.tar.gz]
+[2024-04-03 04:48:53] INFO root fetch - main [MainThread]: End processing [galaxy-test-api]: success
+[2024-04-03 04:48:54] WARNING root fetch - processPackages [galaxy-tool-shed]: Timeout reached during download
+[2024-04-03 04:48:54] INFO root fetch - processPackages [galaxy-test-driver]: Downloading https://files.pythonhosted.org/packages/39/c1/d29906ab354b44866f663eabbc602536762fcc1a4130190f274bcf431d98/galaxy-test-driver-24.0.0.tar.gz
+[2024-04-03 04:48:54] INFO root fetch - processPackages [galaxy-web-apps]: Downloading https://files.pythonhosted.org/packages/ce/e3/6264544e689b7fd8e1cb4755a81f270dfeeb9108718f5fd2e44dc48056ca/galaxy-web-apps-24.0.0.tar.gz
+[2024-04-03 04:48:54] INFO root fetch - processPackages [galaxy-data]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-data-23.2.1.tar.gz]
+[2024-04-03 04:48:54] INFO root fetch - processPackages [galaxy-data]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-data-24.0.0.tar.gz]
+[2024-04-03 04:48:54] INFO root fetch - main [MainThread]: End processing [galaxy-data]: success
+[2024-04-03 04:48:54] WARNING root fetch - processPackages [galaxy-test-driver]: Timeout reached during download
+[2024-04-03 04:48:54] INFO root fetch - processPackages [galaxy-test-driver]: executing diffoscope
+[2024-04-03 04:48:54] INFO root fetch - processPackages [galaxy-test-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-test-driver-23.2.1.tar.gz tmp/galaxy-test-driver-24.0.0.tar.gz --markdown 20240403/g/galaxy-test-driver/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:54] INFO root fetch - processPackages [galaxy-web-stack]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-web-stack-23.2.1.tar.gz]
+[2024-04-03 04:48:54] INFO root fetch - processPackages [galaxy-web-stack]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-web-stack-24.0.0.tar.gz]
+[2024-04-03 04:48:54] INFO root fetch - main [MainThread]: End processing [galaxy-web-stack]: success
+[2024-04-03 04:48:54] INFO root fetch - processPackages [galaxy-tool-shed]: Downloading https://files.pythonhosted.org/packages/fb/9b/3053dc8dc70edc5b280623e726b7507b5b2284b67b8ba4a0f07e705d13d8/galaxy-tool-shed-24.0.0.tar.gz
+[2024-04-03 04:48:54] WARNING root fetch - processPackages [galaxy-web-apps]: Timeout reached during download
+[2024-04-03 04:48:54] INFO root fetch - processPackages [galaxy-web-apps]: executing diffoscope
+[2024-04-03 04:48:54] INFO root fetch - processPackages [galaxy-web-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-web-apps-23.2.1.tar.gz tmp/galaxy-web-apps-24.0.0.tar.gz --markdown 20240403/g/galaxy-web-apps/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:54] WARNING root fetch - processPackages [galaxy-tool-shed]: Timeout reached during download
+[2024-04-03 04:48:54] INFO root fetch - processPackages [galaxy-tool-shed]: executing diffoscope
+[2024-04-03 04:48:54] INFO root fetch - processPackages [galaxy-tool-shed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-tool-shed-23.2.1.tar.gz tmp/galaxy-tool-shed-24.0.0.tar.gz --markdown 20240403/g/galaxy-tool-shed/23.2.1-24.0.0/diff.md --exclude *.pyd
+[2024-04-03 04:48:54] INFO root fetch - processPackages [galaxy-test-driver]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-test-driver-23.2.1.tar.gz]
+[2024-04-03 04:48:54] INFO root fetch - processPackages [galaxy-test-driver]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-test-driver-24.0.0.tar.gz]
+[2024-04-03 04:48:54] INFO root fetch - main [MainThread]: End processing [galaxy-test-driver]: success
+[2024-04-03 04:48:55] INFO root fetch - processPackages [galaxy-tool-shed]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-tool-shed-23.2.1.tar.gz]
+[2024-04-03 04:48:55] INFO root fetch - processPackages [galaxy-tool-shed]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-tool-shed-24.0.0.tar.gz]
+[2024-04-03 04:48:55] INFO root fetch - main [MainThread]: End processing [galaxy-tool-shed]: success
+[2024-04-03 04:48:56] INFO root fetch - processPackages [galaxy-web-apps]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-web-apps-23.2.1.tar.gz]
+[2024-04-03 04:48:56] INFO root fetch - processPackages [galaxy-web-apps]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-web-apps-24.0.0.tar.gz]
+[2024-04-03 04:48:56] INFO root fetch - main [MainThread]: End processing [galaxy-web-apps]: success
+[2024-04-03 04:48:58] INFO root fetch - processPackages [galaxy-app]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-app-23.2.1.tar.gz]
+[2024-04-03 04:48:58] INFO root fetch - processPackages [galaxy-app]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-app-24.0.0.tar.gz]
+[2024-04-03 04:48:58] INFO root fetch - main [MainThread]: End processing [galaxy-app]: success
+[2024-04-03 04:48:58] INFO root fetch - main [MainThread]: Store serial: [22596754]

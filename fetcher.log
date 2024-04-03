@@ -3044,3 +3044,50 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 02:22:56] INFO root fetch - processPackages [vectorbt]: Remove: archive file [/home/abi/fetcher/tmp/vectorbt-0.26.1.tar.gz]
 [2024-04-03 02:22:56] INFO root fetch - main [MainThread]: End processing [vectorbt]: success
 [2024-04-03 02:22:56] INFO root fetch - main [MainThread]: Store serial: [22593353]
+[2024-04-03 02:25:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593353]
+[2024-04-03 02:25:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 02:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: git-stats-report
+[2024-04-03 02:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2024-04-03 02:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-serverless-clamscan
+[2024-04-03 02:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: catframes
+[2024-04-03 02:25:06] INFO root fetch - processPackages [git-stats-report]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-03 02:25:06] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-04-03 02:25:06] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-04-03 02:25:06] INFO root fetch - processPackages [git-stats-report]: Downloading https://files.pythonhosted.org/packages/b2/e8/990509edcccc389c060fddf5cba06dc3a8f5326ad846dce1ac31cc6db6f7/git-stats-report-0.1.0.tar.gz
+[2024-04-03 02:25:06] WARNING root fetch - processPackages [cdk-serverless-clamscan]: Timeout reached during download
+[2024-04-03 02:25:06] INFO root fetch - processPackages [catframes]: New version: [2024.3.1] Old Version: [2024.3.0]
+[2024-04-03 02:25:06] WARNING root fetch - processPackages [git-stats-report]: Timeout reached during download
+[2024-04-03 02:25:06] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.94] Old Version: [2.4.93]
+[2024-04-03 02:25:06] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-04-03 02:25:06] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/09/78/957c603aed1e7e753a50c30ab688a14302a97c40c4380b8bec9b67f3e5e2/cdk-certbot-dns-route53-2.4.93.tar.gz
+[2024-04-03 02:25:06] INFO root fetch - processPackages [git-stats-report]: Downloading https://files.pythonhosted.org/packages/d1/0d/24f95559cd3f3ebf246b040c08044de97872503545c38456bf535b8c8e17/git-stats-report-0.1.1.tar.gz
+[2024-04-03 02:25:06] WARNING root fetch - processPackages [cdk-serverless-clamscan]: Timeout reached during download
+[2024-04-03 02:25:06] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-04-03 02:25:06] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240403/c/cdk-serverless-clamscan/2.6.98-2.6.99/diff.md --exclude *.pyd
+[2024-04-03 02:25:06] INFO root fetch - processPackages [catframes]: Downloading https://files.pythonhosted.org/packages/f9/df/b384e609bdb24bb3c805f61a466e228dc35845aa897f8a561f5f1eed72b1/catframes-2024.3.0.tar.gz
+[2024-04-03 02:25:06] WARNING root fetch - processPackages [cdk-certbot-dns-route53]: Timeout reached during download
+[2024-04-03 02:25:06] WARNING root fetch - processPackages [git-stats-report]: Timeout reached during download
+[2024-04-03 02:25:06] INFO root fetch - processPackages [git-stats-report]: executing diffoscope
+[2024-04-03 02:25:06] INFO root fetch - processPackages [git-stats-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-stats-report-0.1.0.tar.gz tmp/git-stats-report-0.1.1.tar.gz --markdown 20240403/g/git-stats-report/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-03 02:25:06] WARNING root fetch - processPackages [catframes]: Timeout reached during download
+[2024-04-03 02:25:06] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/57/f1/1afadfff77fdc333dc9266806d36d335a26e91f880a18743d4564b9e8262/cdk-certbot-dns-route53-2.4.94.tar.gz
+[2024-04-03 02:25:07] INFO root fetch - processPackages [catframes]: Downloading https://files.pythonhosted.org/packages/df/2c/c2b2de42c1c914289bd8d7e10ae74942e83a93fccbacc728a1248c30ba6b/catframes-2024.3.1.tar.gz
+[2024-04-03 02:25:07] WARNING root fetch - processPackages [cdk-certbot-dns-route53]: Timeout reached during download
+[2024-04-03 02:25:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-03 02:25:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.93.tar.gz tmp/cdk-certbot-dns-route53-2.4.94.tar.gz --markdown 20240403/c/cdk-certbot-dns-route53/2.4.93-2.4.94/diff.md --exclude *.pyd
+[2024-04-03 02:25:07] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-04-03 02:25:07] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-04-03 02:25:07] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-04-03 02:25:07] WARNING root fetch - processPackages [catframes]: Timeout reached during download
+[2024-04-03 02:25:07] INFO root fetch - processPackages [catframes]: executing diffoscope
+[2024-04-03 02:25:07] INFO root fetch - processPackages [catframes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catframes-2024.3.0.tar.gz tmp/catframes-2024.3.1.tar.gz --markdown 20240403/c/catframes/2024.3.0-2024.3.1/diff.md --exclude *.pyd
+[2024-04-03 02:25:07] INFO root fetch - processPackages [git-stats-report]: Remove: archive file [/home/abi/fetcher/tmp/git-stats-report-0.1.0.tar.gz]
+[2024-04-03 02:25:07] INFO root fetch - processPackages [git-stats-report]: Remove: archive file [/home/abi/fetcher/tmp/git-stats-report-0.1.1.tar.gz]
+[2024-04-03 02:25:07] INFO root fetch - main [MainThread]: End processing [git-stats-report]: success
+[2024-04-03 02:25:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.93.tar.gz]
+[2024-04-03 02:25:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.94.tar.gz]
+[2024-04-03 02:25:07] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-03 02:25:07] INFO root fetch - processPackages [catframes]: Remove: archive file [/home/abi/fetcher/tmp/catframes-2024.3.0.tar.gz]
+[2024-04-03 02:25:07] INFO root fetch - processPackages [catframes]: Remove: archive file [/home/abi/fetcher/tmp/catframes-2024.3.1.tar.gz]
+[2024-04-03 02:25:07] INFO root fetch - main [MainThread]: End processing [catframes]: success
+[2024-04-03 02:25:07] INFO root fetch - main [MainThread]: Store serial: [22593366]

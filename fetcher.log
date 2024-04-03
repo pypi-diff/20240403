@@ -22526,3 +22526,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:52:34] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.9.tar.gz]
 [2024-04-03 08:52:34] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
 [2024-04-03 08:52:34] INFO root fetch - main [MainThread]: Store serial: [22599037]
+[2024-04-03 08:54:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599037]
+[2024-04-03 08:54:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-03 08:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qwak-core
+[2024-04-03 08:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyqqq
+[2024-04-03 08:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jarpcdantic
+[2024-04-03 08:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weather_provider_api
+[2024-04-03 08:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auth-token-django
+[2024-04-03 08:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: recce
+[2024-04-03 08:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: specnn4pde
+[2024-04-03 08:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clickzetta-connector
+[2024-04-03 08:54:43] INFO root fetch - processPackages [recce]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-03 08:54:43] INFO root fetch - processPackages [pyqqq]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-03 08:54:43] INFO root fetch - processPackages [auth-token-django]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-03 08:54:43] INFO root fetch - processPackages [qwak-core]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-03 08:54:43] WARNING root fetch - processPackages [jarpcdantic]: Skipping, unable to determine old version
+[2024-04-03 08:54:43] INFO root fetch - main [MainThread]: End processing [jarpcdantic] error
+[2024-04-03 08:54:43] WARNING root fetch - processPackages [specnn4pde]: Skipping, unable to determine old version
+[2024-04-03 08:54:43] INFO root fetch - main [MainThread]: End processing [specnn4pde] error
+[2024-04-03 08:54:43] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-03 08:54:43] INFO root fetch - processPackages [weather_provider_api]: New version: [2.49.34] Old Version: [2.49.33]
+[2024-04-03 08:54:43] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/72/38/837cc1acd57f68575077e081787e264551207c44f1c8ecd4b7f5ac3054be/pyqqq-0.6.4.tar.gz
+[2024-04-03 08:54:43] INFO root fetch - processPackages [recce]: Downloading https://files.pythonhosted.org/packages/21/df/adca101db9b99292c6610c06f9f9f9dba09307c59db7b48b0c3b9ecb4c47/recce-0.8.2.tar.gz
+[2024-04-03 08:54:43] INFO root fetch - processPackages [auth-token-django]: Downloading https://files.pythonhosted.org/packages/e8/17/56e36fd38288aa42e63ba805b26e61820960069ef73c749c67f098c0a581/auth-token-django-0.2.0.tar.gz
+[2024-04-03 08:54:43] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/59/3f/bd28e625e13a379a9463795eed9d170cceaf191d98c6ea302e910c4788e1/qwak_core-0.3.98.tar.gz
+[2024-04-03 08:54:44] WARNING root fetch - processPackages [auth-token-django]: Timeout reached during download
+[2024-04-03 08:54:44] WARNING root fetch - processPackages [pyqqq]: Timeout reached during download
+[2024-04-03 08:54:44] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2024-04-03 08:54:44] INFO root fetch - processPackages [weather_provider_api]: Downloading https://files.pythonhosted.org/packages/a2/0a/646b0f52f52aae0062f0c04a45eaea20b28ff174538cfbf4d0406f99e0c7/weather_provider_api-2.49.33.tar.gz
+[2024-04-03 08:54:44] WARNING root fetch - processPackages [qwak-core]: Timeout reached during download
+[2024-04-03 08:54:44] WARNING root fetch - processPackages [recce]: Timeout reached during download
+[2024-04-03 08:54:44] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/71/0e/e7c880c764df31bf9e71679c2a411ac1a48667bfd4caee997236b1cc61fb/qwak_core-0.3.99.tar.gz
+[2024-04-03 08:54:44] WARNING root fetch - processPackages [clickzetta-connector]: Timeout reached during download
+[2024-04-03 08:54:44] INFO root fetch - processPackages [recce]: Downloading https://files.pythonhosted.org/packages/1f/7b/6a960c2015316c08df9c69a378c80579bd00ffa654316ef62781e6e4ac3c/recce-0.9.0.tar.gz
+[2024-04-03 08:54:44] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/05/a9/fe4114494ab606233803762f12c014486b42494c93f7c42b1c2aa14129f7/pyqqq-0.6.5.tar.gz
+[2024-04-03 08:54:44] WARNING root fetch - processPackages [weather_provider_api]: Timeout reached during download
+[2024-04-03 08:54:44] INFO root fetch - processPackages [auth-token-django]: Downloading https://files.pythonhosted.org/packages/3a/31/6f1c0ada00959c31d44e989abc2742042d26f7d34bbbfa4426a8a982524c/auth-token-django-0.2.1.tar.gz
+[2024-04-03 08:54:44] WARNING root fetch - processPackages [pyqqq]: Timeout reached during download
+[2024-04-03 08:54:44] WARNING root fetch - processPackages [auth-token-django]: Timeout reached during download
+[2024-04-03 08:54:44] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-03 08:54:44] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.6.4.tar.gz tmp/pyqqq-0.6.5.tar.gz --markdown 20240403/p/pyqqq/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2024-04-03 08:54:44] INFO root fetch - processPackages [auth-token-django]: executing diffoscope
+[2024-04-03 08:54:44] INFO root fetch - processPackages [auth-token-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth-token-django-0.2.0.tar.gz tmp/auth-token-django-0.2.1.tar.gz --markdown 20240403/a/auth-token-django/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-03 08:54:44] WARNING root fetch - processPackages [qwak-core]: Timeout reached during download
+[2024-04-03 08:54:44] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-04-03 08:54:44] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.3.98.tar.gz tmp/qwak_core-0.3.99.tar.gz --markdown 20240403/q/qwak-core/0.3.98-0.3.99/diff.md --exclude *.pyd
+[2024-04-03 08:54:44] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2024-04-03 08:54:44] WARNING root fetch - processPackages [recce]: Timeout reached during download
+[2024-04-03 08:54:44] INFO root fetch - processPackages [recce]: executing diffoscope
+[2024-04-03 08:54:44] INFO root fetch - processPackages [recce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recce-0.8.2.tar.gz tmp/recce-0.9.0.tar.gz --markdown 20240403/r/recce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 08:54:44] INFO root fetch - processPackages [weather_provider_api]: Downloading https://files.pythonhosted.org/packages/ed/a6/b91e4792335af0a5f1ea28f623246fb8e99c720eaa31ba2ac10c9fc17fd6/weather_provider_api-2.49.34.tar.gz
+[2024-04-03 08:54:44] WARNING root fetch - processPackages [clickzetta-connector]: Timeout reached during download
+[2024-04-03 08:54:44] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2024-04-03 08:54:44] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20240403/c/clickzetta-connector/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-03 08:54:44] WARNING root fetch - processPackages [weather_provider_api]: Timeout reached during download
+[2024-04-03 08:54:44] INFO root fetch - processPackages [weather_provider_api]: executing diffoscope
+[2024-04-03 08:54:44] INFO root fetch - processPackages [weather_provider_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weather_provider_api-2.49.33.tar.gz tmp/weather_provider_api-2.49.34.tar.gz --markdown 20240403/w/weather_provider_api/2.49.33-2.49.34/diff.md --exclude *.pyd
+[2024-04-03 08:54:45] INFO root fetch - processPackages [auth-token-django]: Remove: archive file [/home/abi/fetcher/tmp/auth-token-django-0.2.0.tar.gz]
+[2024-04-03 08:54:45] INFO root fetch - processPackages [auth-token-django]: Remove: archive file [/home/abi/fetcher/tmp/auth-token-django-0.2.1.tar.gz]
+[2024-04-03 08:54:45] INFO root fetch - main [MainThread]: End processing [auth-token-django]: success
+[2024-04-03 08:54:45] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.6.4.tar.gz]
+[2024-04-03 08:54:45] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.6.5.tar.gz]
+[2024-04-03 08:54:45] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-03 08:54:45] INFO root fetch - processPackages [weather_provider_api]: Remove: archive file [/home/abi/fetcher/tmp/weather_provider_api-2.49.33.tar.gz]
+[2024-04-03 08:54:45] INFO root fetch - processPackages [weather_provider_api]: Remove: archive file [/home/abi/fetcher/tmp/weather_provider_api-2.49.34.tar.gz]
+[2024-04-03 08:54:45] INFO root fetch - main [MainThread]: End processing [weather_provider_api]: success
+[2024-04-03 08:54:45] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2024-04-03 08:54:45] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2024-04-03 08:54:45] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2024-04-03 08:54:47] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.98.tar.gz]
+[2024-04-03 08:54:47] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.99.tar.gz]
+[2024-04-03 08:54:47] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-04-03 08:54:55] INFO root fetch - processPackages [recce]: Remove: archive file [/home/abi/fetcher/tmp/recce-0.8.2.tar.gz]
+[2024-04-03 08:54:55] INFO root fetch - processPackages [recce]: Remove: archive file [/home/abi/fetcher/tmp/recce-0.9.0.tar.gz]
+[2024-04-03 08:54:55] INFO root fetch - main [MainThread]: End processing [recce]: success
+[2024-04-03 08:54:55] INFO root fetch - main [MainThread]: Store serial: [22599065]

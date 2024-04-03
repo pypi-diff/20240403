@@ -14937,3 +14937,34 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 04:48:58] INFO root fetch - processPackages [galaxy-app]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-app-24.0.0.tar.gz]
 [2024-04-03 04:48:58] INFO root fetch - main [MainThread]: End processing [galaxy-app]: success
 [2024-04-03 04:48:58] INFO root fetch - main [MainThread]: Store serial: [22596754]
+[2024-04-03 04:51:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596754]
+[2024-04-03 04:51:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 04:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: helpiwantgohome
+[2024-04-03 04:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py2docfx
+[2024-04-03 04:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: surfkit
+[2024-04-03 04:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pi-base
+[2024-04-03 04:51:07] WARNING root fetch - processPackages [surfkit]: Skipping, unable to determine old version
+[2024-04-03 04:51:07] INFO root fetch - main [MainThread]: End processing [surfkit] error
+[2024-04-03 04:51:07] INFO root fetch - processPackages [py2docfx]: New version: [0.1.2rc1669458] Old Version: [0.1.2rc1669367]
+[2024-04-03 04:51:08] WARNING root fetch - processPackages [helpiwantgohome]: Skipping, unable to determine old version
+[2024-04-03 04:51:08] INFO root fetch - main [MainThread]: End processing [helpiwantgohome] error
+[2024-04-03 04:51:08] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/c6/37/ca66c6a18d3da3c193ff9b2094c5d3b638ce9e3c3d6c372b4f3301e064e1/py2docfx-0.1.2rc1669367-py3-none-any.whl
+[2024-04-03 04:51:08] INFO root fetch - processPackages [pi-base]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 04:51:08] WARNING root fetch - processPackages [py2docfx]: Timeout reached during download
+[2024-04-03 04:51:08] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/65/c9/161f7928fab6e8779ab2b1eb2ef8d9f9ea60e9a943adb265715bf6997391/py2docfx-0.1.2rc1669458-py3-none-any.whl
+[2024-04-03 04:51:08] INFO root fetch - processPackages [pi-base]: Downloading https://files.pythonhosted.org/packages/f0/cb/b07dab97659dfc797921084f58555c37e45c096bbc848ecb4b349c5a03f2/pi_base-0.0.8.tar.gz
+[2024-04-03 04:51:08] WARNING root fetch - processPackages [py2docfx]: Timeout reached during download
+[2024-04-03 04:51:08] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-03 04:51:08] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.2rc1669367-py3-none-any.whl.zip tmp/py2docfx-0.1.2rc1669458-py3-none-any.whl.zip --markdown 20240403/p/py2docfx/0.1.2rc1669367-0.1.2rc1669458/diff.md --exclude *.pyd
+[2024-04-03 04:51:08] WARNING root fetch - processPackages [pi-base]: Timeout reached during download
+[2024-04-03 04:51:08] INFO root fetch - processPackages [pi-base]: Downloading https://files.pythonhosted.org/packages/3b/75/c838ac8ad9d2188333f4cdc0352f9977ab5929df366dbc89a4e19076f81b/pi_base-0.0.9.tar.gz
+[2024-04-03 04:51:09] WARNING root fetch - processPackages [pi-base]: Timeout reached during download
+[2024-04-03 04:51:09] INFO root fetch - processPackages [pi-base]: executing diffoscope
+[2024-04-03 04:51:09] INFO root fetch - processPackages [pi-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pi_base-0.0.8.tar.gz tmp/pi_base-0.0.9.tar.gz --markdown 20240403/p/pi-base/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 04:51:09] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.2rc1669367-py3-none-any.whl.zip]
+[2024-04-03 04:51:09] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.2rc1669458-py3-none-any.whl.zip]
+[2024-04-03 04:51:09] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-03 04:51:09] INFO root fetch - processPackages [pi-base]: Remove: archive file [/home/abi/fetcher/tmp/pi_base-0.0.8.tar.gz]
+[2024-04-03 04:51:09] INFO root fetch - processPackages [pi-base]: Remove: archive file [/home/abi/fetcher/tmp/pi_base-0.0.9.tar.gz]
+[2024-04-03 04:51:09] INFO root fetch - main [MainThread]: End processing [pi-base]: success
+[2024-04-03 04:51:09] INFO root fetch - main [MainThread]: Store serial: [22596765]

@@ -22822,3 +22822,50 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 09:06:21] INFO root fetch - processPackages [hdl-registers]: Remove: archive file [/home/abi/fetcher/tmp/hdl_registers-5.1.3.tar.gz]
 [2024-04-03 09:06:21] INFO root fetch - main [MainThread]: End processing [hdl-registers]: success
 [2024-04-03 09:06:21] INFO root fetch - main [MainThread]: Store serial: [22599187]
+[2024-04-03 09:08:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599187]
+[2024-04-03 09:08:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 09:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stock-open-api
+[2024-04-03 09:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: premai
+[2024-04-03 09:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: visium-explore
+[2024-04-03 09:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RTSAI
+[2024-04-03 09:08:30] INFO root fetch - processPackages [RTSAI]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-03 09:08:30] INFO root fetch - processPackages [premai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-03 09:08:30] INFO root fetch - processPackages [visium-explore]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-03 09:08:30] INFO root fetch - processPackages [stock-open-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 09:08:30] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/a5/90/6329cb1873f5c13ee39173c227f94769f2b92b6b4a9b928bbf4ed6931b2c/stock-open-api-0.0.8.tar.gz
+[2024-04-03 09:08:30] INFO root fetch - processPackages [premai]: Downloading https://files.pythonhosted.org/packages/90/02/d89b51bd360f45b6152f4d376a25e60d5c80d337608fe8882ffb2a5aef48/premai-0.3.8.tar.gz
+[2024-04-03 09:08:30] INFO root fetch - processPackages [RTSAI]: Downloading https://files.pythonhosted.org/packages/30/d0/4664935109b43e56f316dab2453ae95ef7fab3b137921b7855533ba408de/RTSAI-0.1.5.tar.gz
+[2024-04-03 09:08:30] INFO root fetch - processPackages [visium-explore]: Downloading https://files.pythonhosted.org/packages/88/6d/3dbaa46cf439a6bd9ab315cfec622c9e93840e3e2cda57e5912b6728a81f/visium-explore-0.8.0.tar.gz
+[2024-04-03 09:08:30] WARNING root fetch - processPackages [RTSAI]: Timeout reached during download
+[2024-04-03 09:08:30] WARNING root fetch - processPackages [stock-open-api]: Timeout reached during download
+[2024-04-03 09:08:30] WARNING root fetch - processPackages [premai]: Timeout reached during download
+[2024-04-03 09:08:30] WARNING root fetch - processPackages [visium-explore]: Timeout reached during download
+[2024-04-03 09:08:30] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/02/8b/2860ce693bbf1b303e7230a40c8f06b9ccf286d66304293f51f919a7f136/stock-open-api-0.0.9.tar.gz
+[2024-04-03 09:08:30] INFO root fetch - processPackages [premai]: Downloading https://files.pythonhosted.org/packages/d1/d0/af59c2d96c54194570ba5b21d45f1fa947b7767402b22b0218398dd7de22/premai-0.3.9.tar.gz
+[2024-04-03 09:08:30] INFO root fetch - processPackages [RTSAI]: Downloading https://files.pythonhosted.org/packages/88/07/e5162db69d154a4b5cb8861db6479d689fd2b50aa324f485c5ccf4e79172/RTSAI-0.1.6.tar.gz
+[2024-04-03 09:08:30] WARNING root fetch - processPackages [premai]: Timeout reached during download
+[2024-04-03 09:08:30] INFO root fetch - processPackages [premai]: executing diffoscope
+[2024-04-03 09:08:30] INFO root fetch - processPackages [premai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/premai-0.3.8.tar.gz tmp/premai-0.3.9.tar.gz --markdown 20240403/p/premai/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-03 09:08:30] INFO root fetch - processPackages [visium-explore]: Downloading https://files.pythonhosted.org/packages/64/e8/aef82f12f329771218227c79cac8c2c8c054d52b125e299f68861e7d4147/visium-explore-0.9.0.tar.gz
+[2024-04-03 09:08:30] WARNING root fetch - processPackages [stock-open-api]: Timeout reached during download
+[2024-04-03 09:08:30] INFO root fetch - processPackages [stock-open-api]: executing diffoscope
+[2024-04-03 09:08:30] INFO root fetch - processPackages [stock-open-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stock-open-api-0.0.8.tar.gz tmp/stock-open-api-0.0.9.tar.gz --markdown 20240403/s/stock-open-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 09:08:30] WARNING root fetch - processPackages [RTSAI]: Timeout reached during download
+[2024-04-03 09:08:30] INFO root fetch - processPackages [RTSAI]: executing diffoscope
+[2024-04-03 09:08:30] INFO root fetch - processPackages [RTSAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RTSAI-0.1.5.tar.gz tmp/RTSAI-0.1.6.tar.gz --markdown 20240403/R/RTSAI/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-03 09:08:30] WARNING root fetch - processPackages [visium-explore]: Timeout reached during download
+[2024-04-03 09:08:30] INFO root fetch - processPackages [visium-explore]: executing diffoscope
+[2024-04-03 09:08:30] INFO root fetch - processPackages [visium-explore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visium-explore-0.8.0.tar.gz tmp/visium-explore-0.9.0.tar.gz --markdown 20240403/v/visium-explore/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 09:08:31] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.8.tar.gz]
+[2024-04-03 09:08:31] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.9.tar.gz]
+[2024-04-03 09:08:31] INFO root fetch - main [MainThread]: End processing [stock-open-api]: success
+[2024-04-03 09:08:31] INFO root fetch - processPackages [visium-explore]: Remove: archive file [/home/abi/fetcher/tmp/visium-explore-0.8.0.tar.gz]
+[2024-04-03 09:08:31] INFO root fetch - processPackages [visium-explore]: Remove: archive file [/home/abi/fetcher/tmp/visium-explore-0.9.0.tar.gz]
+[2024-04-03 09:08:31] INFO root fetch - main [MainThread]: End processing [visium-explore]: success
+[2024-04-03 09:08:31] INFO root fetch - processPackages [RTSAI]: Remove: archive file [/home/abi/fetcher/tmp/RTSAI-0.1.5.tar.gz]
+[2024-04-03 09:08:31] INFO root fetch - processPackages [RTSAI]: Remove: archive file [/home/abi/fetcher/tmp/RTSAI-0.1.6.tar.gz]
+[2024-04-03 09:08:31] INFO root fetch - main [MainThread]: End processing [RTSAI]: success
+[2024-04-03 09:08:31] INFO root fetch - processPackages [premai]: Remove: archive file [/home/abi/fetcher/tmp/premai-0.3.8.tar.gz]
+[2024-04-03 09:08:31] INFO root fetch - processPackages [premai]: Remove: archive file [/home/abi/fetcher/tmp/premai-0.3.9.tar.gz]
+[2024-04-03 09:08:31] INFO root fetch - main [MainThread]: End processing [premai]: success
+[2024-04-03 09:08:31] INFO root fetch - main [MainThread]: Store serial: [22599199]

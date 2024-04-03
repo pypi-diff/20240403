@@ -23287,3 +23287,221 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 09:26:19] INFO root fetch - processPackages [beartype]: Remove: archive file [/home/abi/fetcher/tmp/beartype-0.9.1.tar.gz]
 [2024-04-03 09:26:19] INFO root fetch - main [MainThread]: End processing [beartype]: success
 [2024-04-03 09:26:19] INFO root fetch - main [MainThread]: Store serial: [22599334]
+[2024-04-03 09:28:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599334]
+[2024-04-03 09:28:28] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2024-04-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custom-launch-buttons
+[2024-04-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aixblock-ml
+[2024-04-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aixblock-tools
+[2024-04-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sweetdebug
+[2024-04-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-page-manager
+[2024-04-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb
+[2024-04-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fate-client
+[2024-04-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-dataset
+[2024-04-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opentelemetry-instrumentation-anthropic
+[2024-04-03 09:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-models
+[2024-04-03 09:28:28] INFO root fetch - processPackages [custom-launch-buttons]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-03 09:28:28] WARNING root fetch - processPackages [aixblock-ml]: Skipping, unable to determine old version
+[2024-04-03 09:28:28] INFO root fetch - processPackages [aixblock-ml]: Start processing: opentelemetry-instrumentation-bedrock
+[2024-04-03 09:28:28] INFO root fetch - main [MainThread]: End processing [aixblock-ml] error
+[2024-04-03 09:28:28] WARNING root fetch - processPackages [aixblock-tools]: Skipping, unable to determine old version
+[2024-04-03 09:28:28] INFO root fetch - processPackages [aixblock-tools]: Start processing: nucliadb-protos
+[2024-04-03 09:28:28] INFO root fetch - main [MainThread]: End processing [aixblock-tools] error
+[2024-04-03 09:28:28] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-03 09:28:28] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-03 09:28:28] INFO root fetch - processPackages [flet-page-manager]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 09:28:28] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-03 09:28:28] INFO root fetch - processPackages [fate-client]: New version: [2.1.0] Old Version: [2.0.0b0]
+[2024-04-03 09:28:28] INFO root fetch - processPackages [sweetdebug]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-03 09:28:28] INFO root fetch - processPackages [opentelemetry-instrumentation-anthropic]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-03 09:28:29] INFO root fetch - processPackages [custom-launch-buttons]: Downloading https://files.pythonhosted.org/packages/52/26/d1ba2c8aeae028644546b61f73bac28999c6eb4cf1b4c996d363d8bcab52/custom-launch-buttons-1.1.0.tar.gz
+[2024-04-03 09:28:29] INFO root fetch - processPackages [opentelemetry-instrumentation-bedrock]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-03 09:28:29] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2024-04-03 09:28:29] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-03 09:28:29] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2024-04-03 09:28:29] WARNING root fetch - processPackages [custom-launch-buttons]: Timeout reached during download
+[2024-04-03 09:28:29] WARNING root fetch - processPackages [nucliadb-dataset]: Timeout reached during download
+[2024-04-03 09:28:29] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2024-04-03 09:28:29] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2024-04-03 09:28:29] INFO root fetch - processPackages [flet-page-manager]: Downloading https://files.pythonhosted.org/packages/33/1a/57d6482e3da3524221edb8ccbb91b1c79d3252cc602ed47e3418feb99c2e/flet_page_manager-0.1.8-py312-none-any.whl
+[2024-04-03 09:28:29] INFO root fetch - processPackages [sweetdebug]: Downloading https://files.pythonhosted.org/packages/be/35/9c8bdcee6801f3d97f7943127314fdc89fca0a25f0f2275e3a1f7a117777/sweetdebug-1.0.8.tar.gz
+[2024-04-03 09:28:29] INFO root fetch - processPackages [opentelemetry-instrumentation-anthropic]: Downloading https://files.pythonhosted.org/packages/5d/38/07d43238e5bd6c34da52cb237a8cd6da03bd8e3aa348b84995966a57497d/opentelemetry_instrumentation_anthropic-0.9.3.tar.gz
+[2024-04-03 09:28:29] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2024-04-03 09:28:29] INFO root fetch - processPackages [custom-launch-buttons]: Downloading https://files.pythonhosted.org/packages/82/9a/e9533f94637c330f2cd4d8a20d6a0b994c806b07649966177fc16ae28a4b/custom-launch-buttons-1.1.1.tar.gz
+[2024-04-03 09:28:29] INFO root fetch - processPackages [fate-client]: Downloading https://files.pythonhosted.org/packages/36/bd/1a0890a3cd27a9963cb13e225cd7053ec6a461ab396d85009a5be6380ab2/fate-client-2.0.0b0.tar.gz
+[2024-04-03 09:28:29] WARNING root fetch - processPackages [nucliadb-protos]: Timeout reached during download
+[2024-04-03 09:28:29] INFO root fetch - processPackages [opentelemetry-instrumentation-bedrock]: Downloading https://files.pythonhosted.org/packages/05/29/29357304fb5bae34b8f4a8381ce91614c13cf923314106d8ae5a6e44fb0a/opentelemetry_instrumentation_bedrock-0.9.3.tar.gz
+[2024-04-03 09:28:29] WARNING root fetch - processPackages [nucliadb-models]: Timeout reached during download
+[2024-04-03 09:28:29] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-03 09:28:29] WARNING root fetch - processPackages [sweetdebug]: Timeout reached during download
+[2024-04-03 09:28:29] WARNING root fetch - processPackages [opentelemetry-instrumentation-anthropic]: Timeout reached during download
+[2024-04-03 09:28:29] WARNING root fetch - processPackages [custom-launch-buttons]: Timeout reached during download
+[2024-04-03 09:28:29] INFO root fetch - processPackages [custom-launch-buttons]: executing diffoscope
+[2024-04-03 09:28:29] INFO root fetch - processPackages [custom-launch-buttons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom-launch-buttons-1.1.0.tar.gz tmp/custom-launch-buttons-1.1.1.tar.gz --markdown 20240403/c/custom-launch-buttons/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-03 09:28:29] WARNING root fetch - processPackages [nucliadb-dataset]: Timeout reached during download
+[2024-04-03 09:28:29] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2024-04-03 09:28:29] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-03 09:28:29] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20240403/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-03 09:28:29] WARNING root fetch - processPackages [flet-page-manager]: Timeout reached during download
+[2024-04-03 09:28:29] WARNING root fetch - processPackages [opentelemetry-instrumentation-bedrock]: Timeout reached during download
+[2024-04-03 09:28:29] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2024-04-03 09:28:29] WARNING root fetch - processPackages [fate-client]: Timeout reached during download
+[2024-04-03 09:28:29] WARNING root fetch - processPackages [nucliadb-protos]: Timeout reached during download
+[2024-04-03 09:28:29] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-03 09:28:29] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20240403/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-03 09:28:29] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2024-04-03 09:28:29] INFO root fetch - processPackages [sweetdebug]: Downloading https://files.pythonhosted.org/packages/16/f9/2504a68f205e63f7ee1806b01d537c2567d0ab4ad4d4b7adbc67ee29a1b8/sweetdebug-1.0.9.tar.gz
+[2024-04-03 09:28:29] INFO root fetch - processPackages [opentelemetry-instrumentation-anthropic]: Downloading https://files.pythonhosted.org/packages/0a/26/5438ad99d1393251c1d5de1e45c24ff4109b7080c21bd7f3eb22d7f9a17c/opentelemetry_instrumentation_anthropic-0.9.4.tar.gz
+[2024-04-03 09:28:29] INFO root fetch - processPackages [flet-page-manager]: Downloading https://files.pythonhosted.org/packages/49/05/93a453b6e0ac11c58c07ed319d5b7a8329f04cfd69f5dd4c8a71ea9fba5c/flet_page_manager-0.1.9-py312-none-any.whl
+[2024-04-03 09:28:29] INFO root fetch - processPackages [opentelemetry-instrumentation-bedrock]: Downloading https://files.pythonhosted.org/packages/27/64/3137f444c3f5c3a125eab96892d6cf2b4f9cd8b6ba62749d6c07e130d451/opentelemetry_instrumentation_bedrock-0.9.4.tar.gz
+[2024-04-03 09:28:29] INFO root fetch - processPackages [fate-client]: Downloading https://files.pythonhosted.org/packages/ea/0f/45290efe9c1b7b1822b48b43b8eb7567787fe7c4a54e8df6493e6997632b/fate-client-2.1.0.tar.gz
+[2024-04-03 09:28:29] WARNING root fetch - processPackages [nucliadb-models]: Timeout reached during download
+[2024-04-03 09:28:29] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-03 09:28:29] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20240403/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-03 09:28:29] WARNING root fetch - processPackages [sweetdebug]: Timeout reached during download
+[2024-04-03 09:28:29] INFO root fetch - processPackages [sweetdebug]: executing diffoscope
+[2024-04-03 09:28:29] INFO root fetch - processPackages [sweetdebug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetdebug-1.0.8.tar.gz tmp/sweetdebug-1.0.9.tar.gz --markdown 20240403/s/sweetdebug/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-03 09:28:29] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-03 09:28:29] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-03 09:28:29] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20240403/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-03 09:28:29] WARNING root fetch - processPackages [opentelemetry-instrumentation-anthropic]: Timeout reached during download
+[2024-04-03 09:28:29] INFO root fetch - processPackages [opentelemetry-instrumentation-anthropic]: executing diffoscope
+[2024-04-03 09:28:29] INFO root fetch - processPackages [opentelemetry-instrumentation-anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_anthropic-0.9.3.tar.gz tmp/opentelemetry_instrumentation_anthropic-0.9.4.tar.gz --markdown 20240403/o/opentelemetry-instrumentation-anthropic/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-03 09:28:30] WARNING root fetch - processPackages [flet-page-manager]: Timeout reached during download
+[2024-04-03 09:28:30] INFO root fetch - processPackages [flet-page-manager]: executing diffoscope
+[2024-04-03 09:28:30] INFO root fetch - processPackages [flet-page-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_page_manager-0.1.8-py312-none-any.whl.zip tmp/flet_page_manager-0.1.9-py312-none-any.whl.zip --markdown 20240403/f/flet-page-manager/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 09:28:30] WARNING root fetch - processPackages [fate-client]: Timeout reached during download
+[2024-04-03 09:28:30] INFO root fetch - processPackages [fate-client]: executing diffoscope
+[2024-04-03 09:28:30] INFO root fetch - processPackages [fate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fate-client-2.0.0b0.tar.gz tmp/fate-client-2.1.0.tar.gz --markdown 20240403/f/fate-client/2.0.0b0-2.1.0/diff.md --exclude *.pyd
+[2024-04-03 09:28:30] WARNING root fetch - processPackages [opentelemetry-instrumentation-bedrock]: Timeout reached during download
+[2024-04-03 09:28:30] INFO root fetch - processPackages [opentelemetry-instrumentation-bedrock]: executing diffoscope
+[2024-04-03 09:28:30] INFO root fetch - processPackages [opentelemetry-instrumentation-bedrock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_bedrock-0.9.3.tar.gz tmp/opentelemetry_instrumentation_bedrock-0.9.4.tar.gz --markdown 20240403/o/opentelemetry-instrumentation-bedrock/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-03 09:28:30] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-03 09:28:30] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-03 09:28:30] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: opentelemetry-instrumentation-chromadb
+[2024-04-03 09:28:30] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-03 09:28:30] INFO root fetch - processPackages [opentelemetry-instrumentation-chromadb]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [opentelemetry-instrumentation-chromadb]: Downloading https://files.pythonhosted.org/packages/d6/8a/c8da1f3e181e13c897bed7bd436285162eeef0e4b3ad66abcb2df8e99c96/opentelemetry_instrumentation_chromadb-0.9.3.tar.gz
+[2024-04-03 09:28:31] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [custom-launch-buttons]: Remove: archive file [/home/abi/fetcher/tmp/custom-launch-buttons-1.1.0.tar.gz]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [custom-launch-buttons]: Remove: archive file [/home/abi/fetcher/tmp/custom-launch-buttons-1.1.1.tar.gz]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [nucliadb-protos]: Start processing: nucliadb-sdk
+[2024-04-03 09:28:31] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-03 09:28:31] INFO root fetch - processPackages [custom-launch-buttons]: Start processing: opentelemetry-instrumentation-cohere
+[2024-04-03 09:28:31] INFO root fetch - main [MainThread]: End processing [custom-launch-buttons]: success
+[2024-04-03 09:28:31] WARNING root fetch - processPackages [opentelemetry-instrumentation-chromadb]: Timeout reached during download
+[2024-04-03 09:28:31] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [sweetdebug]: Remove: archive file [/home/abi/fetcher/tmp/sweetdebug-1.0.8.tar.gz]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [sweetdebug]: Remove: archive file [/home/abi/fetcher/tmp/sweetdebug-1.0.9.tar.gz]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [nucliadb-models]: Start processing: nucliadb-telemetry
+[2024-04-03 09:28:31] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-03 09:28:31] INFO root fetch - processPackages [sweetdebug]: Start processing: opentelemetry-instrumentation-haystack
+[2024-04-03 09:28:31] INFO root fetch - main [MainThread]: End processing [sweetdebug]: success
+[2024-04-03 09:28:31] INFO root fetch - processPackages [flet-page-manager]: Remove: archive file [/home/abi/fetcher/tmp/flet_page_manager-0.1.8-py312-none-any.whl.zip]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [flet-page-manager]: Remove: archive file [/home/abi/fetcher/tmp/flet_page_manager-0.1.9-py312-none-any.whl.zip]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [flet-page-manager]: Start processing: nucliadb-utils
+[2024-04-03 09:28:31] INFO root fetch - main [MainThread]: End processing [flet-page-manager]: success
+[2024-04-03 09:28:31] INFO root fetch - processPackages [opentelemetry-instrumentation-cohere]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [opentelemetry-instrumentation-anthropic]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_anthropic-0.9.3.tar.gz]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [opentelemetry-instrumentation-anthropic]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_anthropic-0.9.4.tar.gz]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [opentelemetry-instrumentation-anthropic]: Start processing: opentelemetry-instrumentation-langchain
+[2024-04-03 09:28:31] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-anthropic]: success
+[2024-04-03 09:28:31] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [opentelemetry-instrumentation-bedrock]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_bedrock-0.9.3.tar.gz]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [opentelemetry-instrumentation-bedrock]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_bedrock-0.9.4.tar.gz]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [opentelemetry-instrumentation-bedrock]: Start processing: opentelemetry-instrumentation-llamaindex
+[2024-04-03 09:28:31] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-bedrock]: success
+[2024-04-03 09:28:31] INFO root fetch - processPackages [opentelemetry-instrumentation-chromadb]: Downloading https://files.pythonhosted.org/packages/79/18/0b67a2df68021acfb9c62551ad585154a46c1d902568778acc639dff597d/opentelemetry_instrumentation_chromadb-0.9.4.tar.gz
+[2024-04-03 09:28:31] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2024-04-03 09:28:31] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [2.46.1.post384] Old Version: [2.46.1.post383]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [opentelemetry-instrumentation-haystack]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2024-04-03 09:28:31] INFO root fetch - processPackages [opentelemetry-instrumentation-langchain]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-03 09:28:31] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/d8/b8/a3db860eb16951b8ddc87cf977513d721992f9d59ca854a606a2d5dcaf9d/nucliadb_telemetry-2.46.1.post383-py3-none-any.whl
+[2024-04-03 09:28:31] WARNING root fetch - processPackages [opentelemetry-instrumentation-chromadb]: Timeout reached during download
+[2024-04-03 09:28:31] INFO root fetch - processPackages [opentelemetry-instrumentation-chromadb]: executing diffoscope
+[2024-04-03 09:28:31] INFO root fetch - processPackages [opentelemetry-instrumentation-chromadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_chromadb-0.9.3.tar.gz tmp/opentelemetry_instrumentation_chromadb-0.9.4.tar.gz --markdown 20240403/o/opentelemetry-instrumentation-chromadb/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-03 09:28:31] INFO root fetch - processPackages [opentelemetry-instrumentation-cohere]: Downloading https://files.pythonhosted.org/packages/70/aa/b8c1dd45abaed6ee0dfa15245a5f410419f88bce4a1169ee3fc3e04a7615/opentelemetry_instrumentation_cohere-0.9.3.tar.gz
+[2024-04-03 09:28:31] INFO root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-03 09:28:31] WARNING root fetch - processPackages [nucliadb-sdk]: Timeout reached during download
+[2024-04-03 09:28:31] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-03 09:28:31] INFO root fetch - processPackages [opentelemetry-instrumentation-haystack]: Downloading https://files.pythonhosted.org/packages/82/97/63079c85a35dfeca4d1c4d446868e9a210f29acc3cada17ab1913fce5793/opentelemetry_instrumentation_haystack-0.9.3.tar.gz
+[2024-04-03 09:28:31] WARNING root fetch - processPackages [nucliadb-telemetry]: Timeout reached during download
+[2024-04-03 09:28:31] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2024-04-03 09:28:31] WARNING root fetch - processPackages [opentelemetry-instrumentation-cohere]: Timeout reached during download
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-langchain]: Downloading https://files.pythonhosted.org/packages/82/0f/132a270f34c2a086ec187fe8a26c5583c0b64c07868f677fdd19ce1d9a55/opentelemetry_instrumentation_langchain-0.9.3.tar.gz
+[2024-04-03 09:28:32] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2024-04-03 09:28:32] WARNING root fetch - processPackages [opentelemetry-instrumentation-haystack]: Timeout reached during download
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: Downloading https://files.pythonhosted.org/packages/84/37/bfc8333514961cd8e1413170f7c0181ebaa7f61d7f94818b39a718f9df64/opentelemetry_instrumentation_llamaindex-0.9.3.tar.gz
+[2024-04-03 09:28:32] WARNING root fetch - processPackages [opentelemetry-instrumentation-langchain]: Timeout reached during download
+[2024-04-03 09:28:32] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-03 09:28:32] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-03 09:28:32] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20240403/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-03 09:28:32] WARNING root fetch - processPackages [nucliadb-sdk]: Timeout reached during download
+[2024-04-03 09:28:32] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-03 09:28:32] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20240403/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-03 09:28:32] WARNING root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: Timeout reached during download
+[2024-04-03 09:28:32] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/f5/8c/54082652ccc17d0babdaaac20cfb559f266a64c61add943a485d89003191/nucliadb_telemetry-2.46.1.post384-py3-none-any.whl
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-cohere]: Downloading https://files.pythonhosted.org/packages/05/af/d461353ca47c62030dc489b431b6f46390b9f574cc113c95cd38f6a9a6c1/opentelemetry_instrumentation_cohere-0.9.4.tar.gz
+[2024-04-03 09:28:32] INFO root fetch - processPackages [fate-client]: Remove: archive file [/home/abi/fetcher/tmp/fate-client-2.0.0b0.tar.gz]
+[2024-04-03 09:28:32] INFO root fetch - processPackages [fate-client]: Remove: archive file [/home/abi/fetcher/tmp/fate-client-2.1.0.tar.gz]
+[2024-04-03 09:28:32] INFO root fetch - processPackages [fate-client]: Start processing: opentelemetry-instrumentation-openai
+[2024-04-03 09:28:32] INFO root fetch - main [MainThread]: End processing [fate-client]: success
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-haystack]: Downloading https://files.pythonhosted.org/packages/61/08/b8826b803507755cedb943dffda22952e7ba30200ccceba5aa8780820f76/opentelemetry_instrumentation_haystack-0.9.4.tar.gz
+[2024-04-03 09:28:32] WARNING root fetch - processPackages [nucliadb-telemetry]: Timeout reached during download
+[2024-04-03 09:28:32] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-03 09:28:32] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-2.46.1.post383-py3-none-any.whl.zip tmp/nucliadb_telemetry-2.46.1.post384-py3-none-any.whl.zip --markdown 20240403/n/nucliadb-telemetry/2.46.1.post383-2.46.1.post384/diff.md --exclude *.pyd
+[2024-04-03 09:28:32] WARNING root fetch - processPackages [opentelemetry-instrumentation-cohere]: Timeout reached during download
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-cohere]: executing diffoscope
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_cohere-0.9.3.tar.gz tmp/opentelemetry_instrumentation_cohere-0.9.4.tar.gz --markdown 20240403/o/opentelemetry-instrumentation-cohere/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-langchain]: Downloading https://files.pythonhosted.org/packages/82/4b/425273f1badee723f0c36b0d798ea4d1f03f5ff9d88ac75a0c40e48a8696/opentelemetry_instrumentation_langchain-0.9.4.tar.gz
+[2024-04-03 09:28:32] WARNING root fetch - processPackages [opentelemetry-instrumentation-haystack]: Timeout reached during download
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-haystack]: executing diffoscope
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_haystack-0.9.3.tar.gz tmp/opentelemetry_instrumentation_haystack-0.9.4.tar.gz --markdown 20240403/o/opentelemetry-instrumentation-haystack/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: Downloading https://files.pythonhosted.org/packages/2e/ea/d3127230fc399f951a2f7509bee5be56719a9018b48fd9d4a9a580fc9686/opentelemetry_instrumentation_llamaindex-0.9.4.tar.gz
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-openai]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-03 09:28:32] WARNING root fetch - processPackages [opentelemetry-instrumentation-langchain]: Timeout reached during download
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-langchain]: executing diffoscope
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_langchain-0.9.3.tar.gz tmp/opentelemetry_instrumentation_langchain-0.9.4.tar.gz --markdown 20240403/o/opentelemetry-instrumentation-langchain/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-03 09:28:32] WARNING root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: Timeout reached during download
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: executing diffoscope
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_llamaindex-0.9.3.tar.gz tmp/opentelemetry_instrumentation_llamaindex-0.9.4.tar.gz --markdown 20240403/o/opentelemetry-instrumentation-llamaindex/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-03 09:28:32] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-03 09:28:32] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-03 09:28:32] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-chromadb]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_chromadb-0.9.3.tar.gz]
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-chromadb]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_chromadb-0.9.4.tar.gz]
+[2024-04-03 09:28:32] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-chromadb]: success
+[2024-04-03 09:28:32] INFO root fetch - processPackages [opentelemetry-instrumentation-openai]: Downloading https://files.pythonhosted.org/packages/5e/47/1c3a20ab14baa6c170b4bc38221b440b90dd2507d844360ba8ae1c9f85e9/opentelemetry_instrumentation_openai-0.9.3.tar.gz
+[2024-04-03 09:28:32] WARNING root fetch - processPackages [opentelemetry-instrumentation-openai]: Timeout reached during download
+[2024-04-03 09:28:33] INFO root fetch - processPackages [opentelemetry-instrumentation-openai]: Downloading https://files.pythonhosted.org/packages/45/ad/53e0a6860d767e83f8340bebfc5e5a23d736172d6f43243e8a33cc6c2c27/opentelemetry_instrumentation_openai-0.9.4.tar.gz
+[2024-04-03 09:28:33] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-03 09:28:33] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-03 09:28:33] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-03 09:28:33] INFO root fetch - processPackages [opentelemetry-instrumentation-cohere]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_cohere-0.9.3.tar.gz]
+[2024-04-03 09:28:33] INFO root fetch - processPackages [opentelemetry-instrumentation-cohere]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_cohere-0.9.4.tar.gz]
+[2024-04-03 09:28:33] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-cohere]: success
+[2024-04-03 09:28:33] WARNING root fetch - processPackages [opentelemetry-instrumentation-openai]: Timeout reached during download
+[2024-04-03 09:28:33] INFO root fetch - processPackages [opentelemetry-instrumentation-openai]: executing diffoscope
+[2024-04-03 09:28:33] INFO root fetch - processPackages [opentelemetry-instrumentation-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_openai-0.9.3.tar.gz tmp/opentelemetry_instrumentation_openai-0.9.4.tar.gz --markdown 20240403/o/opentelemetry-instrumentation-openai/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-03 09:28:33] INFO root fetch - processPackages [opentelemetry-instrumentation-langchain]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_langchain-0.9.3.tar.gz]
+[2024-04-03 09:28:33] INFO root fetch - processPackages [opentelemetry-instrumentation-langchain]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_langchain-0.9.4.tar.gz]
+[2024-04-03 09:28:33] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-langchain]: success
+[2024-04-03 09:28:33] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-03 09:28:33] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-03 09:28:33] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-03 09:28:33] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post383-py3-none-any.whl.zip]
+[2024-04-03 09:28:33] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post384-py3-none-any.whl.zip]
+[2024-04-03 09:28:33] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-03 09:28:33] INFO root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_llamaindex-0.9.3.tar.gz]
+[2024-04-03 09:28:33] INFO root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_llamaindex-0.9.4.tar.gz]
+[2024-04-03 09:28:33] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-llamaindex]: success
+[2024-04-03 09:28:33] INFO root fetch - processPackages [opentelemetry-instrumentation-haystack]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_haystack-0.9.3.tar.gz]
+[2024-04-03 09:28:33] INFO root fetch - processPackages [opentelemetry-instrumentation-haystack]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_haystack-0.9.4.tar.gz]
+[2024-04-03 09:28:33] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-haystack]: success
+[2024-04-03 09:28:33] INFO root fetch - processPackages [opentelemetry-instrumentation-openai]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_openai-0.9.3.tar.gz]
+[2024-04-03 09:28:33] INFO root fetch - processPackages [opentelemetry-instrumentation-openai]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_openai-0.9.4.tar.gz]
+[2024-04-03 09:28:33] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-openai]: success
+[2024-04-03 09:28:33] INFO root fetch - main [MainThread]: Store serial: [22599379]

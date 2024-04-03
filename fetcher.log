@@ -19041,3 +19041,53 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 07:04:53] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-keewidb-3.0.999.tar.gz]
 [2024-04-03 07:04:53] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-keewidb]: success
 [2024-04-03 07:04:53] INFO root fetch - main [MainThread]: Store serial: [22597992]
+[2024-04-03 07:06:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597992]
+[2024-04-03 07:07:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Lee-Tae-Yun-OSS
+[2024-04-03 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyminerva
+[2024-04-03 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-mall
+[2024-04-03 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genomeshader
+[2024-04-03 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-mariadb
+[2024-04-03 07:07:03] INFO root fetch - processPackages [pyminerva]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-03 07:07:03] WARNING root fetch - processPackages [Lee-Tae-Yun-OSS]: Skipping, unable to determine old version
+[2024-04-03 07:07:03] INFO root fetch - main [MainThread]: End processing [Lee-Tae-Yun-OSS] error
+[2024-04-03 07:07:03] INFO root fetch - processPackages [tencentcloud-sdk-python-mall]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:07:03] INFO root fetch - processPackages [genomeshader]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 07:07:03] INFO root fetch - processPackages [tencentcloud-sdk-python-mariadb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:07:03] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/71/85/01e8f26ee3130cf86f9e4b898bf1c77b6edaa3ff18d78ab72ab3042c1c41/pyminerva-0.0.98.tar.gz
+[2024-04-03 07:07:03] WARNING root fetch - processPackages [pyminerva]: Timeout reached during download
+[2024-04-03 07:07:03] INFO root fetch - processPackages [tencentcloud-sdk-python-mall]: Downloading https://files.pythonhosted.org/packages/73/cd/ab28e19ee83d91579f06d5f62fa805b3115586dac27fd33d6c8bf4b4a5b3/tencentcloud-sdk-python-mall-3.0.998.tar.gz
+[2024-04-03 07:07:03] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/30/9b/396cf38441ad3c8ce48c213fff676d95f1f3f4feeb1b7dc8824277fe413e/pyminerva-0.0.99.tar.gz
+[2024-04-03 07:07:03] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/1c/84/39f1662d319381705e811acf6c7854194d08e68e45c79d57c5a763bdc863/genomeshader-0.1.8.tar.gz
+[2024-04-03 07:07:03] INFO root fetch - processPackages [tencentcloud-sdk-python-mariadb]: Downloading https://files.pythonhosted.org/packages/01/f8/4b4fb24d28be034cd14210d2a69723d599cab179fb0042e4a79e8cadc25f/tencentcloud-sdk-python-mariadb-3.0.998.tar.gz
+[2024-04-03 07:07:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-mall]: Timeout reached during download
+[2024-04-03 07:07:03] WARNING root fetch - processPackages [pyminerva]: Timeout reached during download
+[2024-04-03 07:07:03] INFO root fetch - processPackages [pyminerva]: executing diffoscope
+[2024-04-03 07:07:03] INFO root fetch - processPackages [pyminerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminerva-0.0.98.tar.gz tmp/pyminerva-0.0.99.tar.gz --markdown 20240403/p/pyminerva/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-03 07:07:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-mariadb]: Timeout reached during download
+[2024-04-03 07:07:03] WARNING root fetch - processPackages [genomeshader]: Timeout reached during download
+[2024-04-03 07:07:03] INFO root fetch - processPackages [tencentcloud-sdk-python-mall]: Downloading https://files.pythonhosted.org/packages/42/60/58e7cef4e19790da30b407ecf53d406270f2eafc9550cb7cd3019f9794ca/tencentcloud-sdk-python-mall-3.0.999.tar.gz
+[2024-04-03 07:07:03] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/99/48/90c7c052b1a65bbffd3e20c6f11964c9fc1a3dc182ef8de7c3611b26d473/genomeshader-0.1.9.tar.gz
+[2024-04-03 07:07:03] INFO root fetch - processPackages [tencentcloud-sdk-python-mariadb]: Downloading https://files.pythonhosted.org/packages/f3/7a/a58ceb60c9351a4a742289f7be43a80fb40476c6ecebdb1c283cefc8ffe9/tencentcloud-sdk-python-mariadb-3.0.999.tar.gz
+[2024-04-03 07:07:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-mall]: Timeout reached during download
+[2024-04-03 07:07:03] INFO root fetch - processPackages [tencentcloud-sdk-python-mall]: executing diffoscope
+[2024-04-03 07:07:03] INFO root fetch - processPackages [tencentcloud-sdk-python-mall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mall-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mall-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-mall/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:07:03] WARNING root fetch - processPackages [genomeshader]: Timeout reached during download
+[2024-04-03 07:07:03] INFO root fetch - processPackages [genomeshader]: executing diffoscope
+[2024-04-03 07:07:03] INFO root fetch - processPackages [genomeshader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomeshader-0.1.8.tar.gz tmp/genomeshader-0.1.9.tar.gz --markdown 20240403/g/genomeshader/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 07:07:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-mariadb]: Timeout reached during download
+[2024-04-03 07:07:03] INFO root fetch - processPackages [tencentcloud-sdk-python-mariadb]: executing diffoscope
+[2024-04-03 07:07:03] INFO root fetch - processPackages [tencentcloud-sdk-python-mariadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mariadb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mariadb-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-mariadb/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:07:04] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.98.tar.gz]
+[2024-04-03 07:07:04] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
+[2024-04-03 07:07:04] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
+[2024-04-03 07:07:04] INFO root fetch - processPackages [tencentcloud-sdk-python-mall]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mall-3.0.998.tar.gz]
+[2024-04-03 07:07:04] INFO root fetch - processPackages [tencentcloud-sdk-python-mall]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mall-3.0.999.tar.gz]
+[2024-04-03 07:07:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mall]: success
+[2024-04-03 07:07:04] INFO root fetch - processPackages [tencentcloud-sdk-python-mariadb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mariadb-3.0.998.tar.gz]
+[2024-04-03 07:07:04] INFO root fetch - processPackages [tencentcloud-sdk-python-mariadb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mariadb-3.0.999.tar.gz]
+[2024-04-03 07:07:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mariadb]: success
+[2024-04-03 07:07:04] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.8.tar.gz]
+[2024-04-03 07:07:04] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.9.tar.gz]
+[2024-04-03 07:07:04] INFO root fetch - main [MainThread]: End processing [genomeshader]: success
+[2024-04-03 07:07:04] INFO root fetch - main [MainThread]: Store serial: [22598009]

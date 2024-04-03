@@ -16297,3 +16297,59 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 05:56:58] INFO root fetch - processPackages [basin3d]: Remove: archive file [/home/abi/fetcher/tmp/basin3d-1.0.3.tar.gz]
 [2024-04-03 05:56:58] INFO root fetch - main [MainThread]: End processing [basin3d]: success
 [2024-04-03 05:56:58] INFO root fetch - main [MainThread]: Store serial: [22597173]
+[2024-04-03 05:59:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597173]
+[2024-04-03 05:59:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 05:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dir2prompt
+[2024-04-03 05:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Computer-vision-utils
+[2024-04-03 05:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pfeed
+[2024-04-03 05:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modernpackage
+[2024-04-03 05:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyPDFForm
+[2024-04-03 05:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mini-racer
+[2024-04-03 05:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opentldr
+[2024-04-03 05:59:07] WARNING root fetch - processPackages [dir2prompt]: Skipping, unable to determine old version
+[2024-04-03 05:59:07] INFO root fetch - main [MainThread]: End processing [dir2prompt] error
+[2024-04-03 05:59:07] INFO root fetch - processPackages [opentldr]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-03 05:59:07] INFO root fetch - processPackages [opentldr]: Downloading https://files.pythonhosted.org/packages/e7/bc/831f394a24916b4a568a3af48520f497f9ce9725e9982a41bef7a19ff469/opentldr-0.3.0.tar.gz
+[2024-04-03 05:59:07] WARNING root fetch - processPackages [modernpackage]: Skipping, unable to determine old version
+[2024-04-03 05:59:07] INFO root fetch - main [MainThread]: End processing [modernpackage] error
+[2024-04-03 05:59:07] INFO root fetch - processPackages [mini-racer]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-03 05:59:07] INFO root fetch - processPackages [pfeed]: New version: [0.0.1.dev5] Old Version: [0.0.1.dev4]
+[2024-04-03 05:59:07] WARNING root fetch - processPackages [Computer-vision-utils]: Skipping, unable to determine old version
+[2024-04-03 05:59:07] INFO root fetch - main [MainThread]: End processing [Computer-vision-utils] error
+[2024-04-03 05:59:07] INFO root fetch - processPackages [PyPDFForm]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-03 05:59:07] WARNING root fetch - processPackages [opentldr]: Timeout reached during download
+[2024-04-03 05:59:07] INFO root fetch - processPackages [opentldr]: Downloading https://files.pythonhosted.org/packages/a6/25/d2fdaf6ca00af68db847f56f571717df5b9a564a8282e7fd7d3085c115c1/opentldr-0.3.1.tar.gz
+[2024-04-03 05:59:07] INFO root fetch - processPackages [pfeed]: Downloading https://files.pythonhosted.org/packages/1a/ab/255eddb77c79da17a5c5ed7bfa81f478f2c85d4dd6f0c342831b32595403/pfeed-0.0.1.dev4.tar.gz
+[2024-04-03 05:59:07] INFO root fetch - processPackages [mini-racer]: Downloading https://files.pythonhosted.org/packages/44/3a/c9e66f4c9c692be4658b8237c571eb952a40d38cf7b80b74b273fa902ecf/mini_racer-0.8.1.tar.gz
+[2024-04-03 05:59:07] INFO root fetch - processPackages [PyPDFForm]: Downloading https://files.pythonhosted.org/packages/69/9f/2ae6600de9a7bcb149411374a44be0c0f9f2c9ce362f6374e578ec5a4e26/PyPDFForm-1.4.8.tar.gz
+[2024-04-03 05:59:07] WARNING root fetch - processPackages [opentldr]: Timeout reached during download
+[2024-04-03 05:59:07] INFO root fetch - processPackages [opentldr]: executing diffoscope
+[2024-04-03 05:59:07] INFO root fetch - processPackages [opentldr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentldr-0.3.0.tar.gz tmp/opentldr-0.3.1.tar.gz --markdown 20240403/o/opentldr/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-03 05:59:07] WARNING root fetch - processPackages [PyPDFForm]: Timeout reached during download
+[2024-04-03 05:59:07] WARNING root fetch - processPackages [pfeed]: Timeout reached during download
+[2024-04-03 05:59:07] WARNING root fetch - processPackages [mini-racer]: Timeout reached during download
+[2024-04-03 05:59:08] INFO root fetch - processPackages [PyPDFForm]: Downloading https://files.pythonhosted.org/packages/f0/86/8219b0802370fbdcae59e87d8b203196b52045c8375f1c043b5db3eb54ff/PyPDFForm-1.4.9.tar.gz
+[2024-04-03 05:59:08] INFO root fetch - processPackages [pfeed]: Downloading https://files.pythonhosted.org/packages/90/19/d9bbb0faf5664a0b41e54eca236b6db24a87ab6b8ccf70b439465bfe9595/pfeed-0.0.1.dev5.tar.gz
+[2024-04-03 05:59:08] INFO root fetch - processPackages [mini-racer]: Downloading https://files.pythonhosted.org/packages/23/f1/8a84ac147dd69560bc9c5163e2fc9821bef5e9d55cae3ab387889ec41334/mini_racer-0.9.0.tar.gz
+[2024-04-03 05:59:08] WARNING root fetch - processPackages [PyPDFForm]: Timeout reached during download
+[2024-04-03 05:59:08] INFO root fetch - processPackages [PyPDFForm]: executing diffoscope
+[2024-04-03 05:59:08] INFO root fetch - processPackages [PyPDFForm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPDFForm-1.4.8.tar.gz tmp/PyPDFForm-1.4.9.tar.gz --markdown 20240403/P/PyPDFForm/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2024-04-03 05:59:08] WARNING root fetch - processPackages [pfeed]: Timeout reached during download
+[2024-04-03 05:59:08] INFO root fetch - processPackages [pfeed]: executing diffoscope
+[2024-04-03 05:59:08] INFO root fetch - processPackages [pfeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfeed-0.0.1.dev4.tar.gz tmp/pfeed-0.0.1.dev5.tar.gz --markdown 20240403/p/pfeed/0.0.1.dev4-0.0.1.dev5/diff.md --exclude *.pyd
+[2024-04-03 05:59:08] WARNING root fetch - processPackages [mini-racer]: Timeout reached during download
+[2024-04-03 05:59:08] INFO root fetch - processPackages [mini-racer]: executing diffoscope
+[2024-04-03 05:59:08] INFO root fetch - processPackages [mini-racer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mini_racer-0.8.1.tar.gz tmp/mini_racer-0.9.0.tar.gz --markdown 20240403/m/mini-racer/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 05:59:08] INFO root fetch - processPackages [opentldr]: Remove: archive file [/home/abi/fetcher/tmp/opentldr-0.3.0.tar.gz]
+[2024-04-03 05:59:08] INFO root fetch - processPackages [opentldr]: Remove: archive file [/home/abi/fetcher/tmp/opentldr-0.3.1.tar.gz]
+[2024-04-03 05:59:08] INFO root fetch - main [MainThread]: End processing [opentldr]: success
+[2024-04-03 05:59:08] INFO root fetch - processPackages [pfeed]: Remove: archive file [/home/abi/fetcher/tmp/pfeed-0.0.1.dev4.tar.gz]
+[2024-04-03 05:59:08] INFO root fetch - processPackages [pfeed]: Remove: archive file [/home/abi/fetcher/tmp/pfeed-0.0.1.dev5.tar.gz]
+[2024-04-03 05:59:08] INFO root fetch - main [MainThread]: End processing [pfeed]: success
+[2024-04-03 05:59:08] INFO root fetch - processPackages [PyPDFForm]: Remove: archive file [/home/abi/fetcher/tmp/PyPDFForm-1.4.8.tar.gz]
+[2024-04-03 05:59:08] INFO root fetch - processPackages [PyPDFForm]: Remove: archive file [/home/abi/fetcher/tmp/PyPDFForm-1.4.9.tar.gz]
+[2024-04-03 05:59:08] INFO root fetch - main [MainThread]: End processing [PyPDFForm]: success
+[2024-04-03 05:59:09] INFO root fetch - processPackages [mini-racer]: Remove: archive file [/home/abi/fetcher/tmp/mini_racer-0.8.1.tar.gz]
+[2024-04-03 05:59:09] INFO root fetch - processPackages [mini-racer]: Remove: archive file [/home/abi/fetcher/tmp/mini_racer-0.9.0.tar.gz]
+[2024-04-03 05:59:09] INFO root fetch - main [MainThread]: End processing [mini-racer]: success
+[2024-04-03 05:59:09] INFO root fetch - main [MainThread]: Store serial: [22597205]

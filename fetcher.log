@@ -22161,3 +22161,61 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:37:12] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.2.tar.gz]
 [2024-04-03 08:37:12] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
 [2024-04-03 08:37:12] INFO root fetch - main [MainThread]: Store serial: [22598873]
+[2024-04-03 08:39:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598873]
+[2024-04-03 08:39:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 08:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-web-notify
+[2024-04-03 08:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-web-calendar-slot-duration
+[2024-04-03 08:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anise
+[2024-04-03 08:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tracking-lib
+[2024-04-03 08:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-endpoint-auth-api-key
+[2024-04-03 08:39:22] INFO root fetch - processPackages [tracking-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 08:39:22] INFO root fetch - processPackages [tracking-lib]: Downloading https://files.pythonhosted.org/packages/91/95/1ef5ec083eb678959925543aaa2e9b75712a055100310a31b08e36bbad46/tracking_lib-0.1.8.tar.gz
+[2024-04-03 08:39:22] INFO root fetch - processPackages [odoo-addon-endpoint-auth-api-key]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.1]
+[2024-04-03 08:39:22] INFO root fetch - processPackages [odoo-addon-web-calendar-slot-duration]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-03 08:39:22] INFO root fetch - processPackages [odoo-addon-web-notify]: New version: [16.0.2.0.0.2] Old Version: [16.0.2.0.0.1]
+[2024-04-03 08:39:22] INFO root fetch - processPackages [anise]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-03 08:39:22] INFO root fetch - processPackages [odoo-addon-web-calendar-slot-duration]: Downloading https://files.pythonhosted.org/packages/6d/90/76f496a89e8b4c1447e76a5ad26f3a1ead75fc49c2fe455de8892db8a4b7/odoo_addon_web_calendar_slot_duration-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-03 08:39:22] WARNING root fetch - processPackages [tracking-lib]: Timeout reached during download
+[2024-04-03 08:39:22] INFO root fetch - processPackages [odoo-addon-endpoint-auth-api-key]: Downloading https://files.pythonhosted.org/packages/da/eb/e3feb16414e8deb85cfc88ff9503a0535ff30d2357651f2cc08be2d077ac/odoo_addon_endpoint_auth_api_key-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-03 08:39:22] INFO root fetch - processPackages [tracking-lib]: Downloading https://files.pythonhosted.org/packages/5b/10/d49a9313bd82173c43c2ff349da8b1726dd89eb90c4fe9aee184c56ef64c/tracking_lib-0.1.9.tar.gz
+[2024-04-03 08:39:22] INFO root fetch - processPackages [odoo-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/3f/d1/42ef4378eb55fe702a5fb3b2d0319c9cd296000d944ab367a280bac94c4e/odoo_addon_web_notify-16.0.2.0.0.1-py3-none-any.whl
+[2024-04-03 08:39:22] WARNING root fetch - processPackages [odoo-addon-web-calendar-slot-duration]: Timeout reached during download
+[2024-04-03 08:39:22] INFO root fetch - processPackages [anise]: Downloading https://files.pythonhosted.org/packages/f2/86/68bd1f7a9eaf50747a0b3800c04da9f85da9c6e1ed0f402d22d3437c64c6/anise-0.3.0.tar.gz
+[2024-04-03 08:39:22] WARNING root fetch - processPackages [odoo-addon-endpoint-auth-api-key]: Timeout reached during download
+[2024-04-03 08:39:22] WARNING root fetch - processPackages [tracking-lib]: Timeout reached during download
+[2024-04-03 08:39:22] INFO root fetch - processPackages [tracking-lib]: executing diffoscope
+[2024-04-03 08:39:22] INFO root fetch - processPackages [tracking-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracking_lib-0.1.8.tar.gz tmp/tracking_lib-0.1.9.tar.gz --markdown 20240403/t/tracking-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 08:39:22] WARNING root fetch - processPackages [odoo-addon-web-notify]: Timeout reached during download
+[2024-04-03 08:39:22] INFO root fetch - processPackages [odoo-addon-web-calendar-slot-duration]: Downloading https://files.pythonhosted.org/packages/1e/89/689d48b79f755d2eaf128777b2ee9fd7c978cd7dddc57ffa672619731721/odoo_addon_web_calendar_slot_duration-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-03 08:39:22] INFO root fetch - processPackages [odoo-addon-endpoint-auth-api-key]: Downloading https://files.pythonhosted.org/packages/78/d3/f27383064332c60fce394fd954f9931fc96df3f6ed304b4dd0997dedbcbf/odoo_addon_endpoint_auth_api_key-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-03 08:39:22] WARNING root fetch - processPackages [odoo-addon-web-calendar-slot-duration]: Timeout reached during download
+[2024-04-03 08:39:22] INFO root fetch - processPackages [odoo-addon-web-calendar-slot-duration]: executing diffoscope
+[2024-04-03 08:39:22] INFO root fetch - processPackages [odoo-addon-web-calendar-slot-duration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_calendar_slot_duration-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_web_calendar_slot_duration-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-web-calendar-slot-duration/17.0.1.0.0.2-17.0.1.0.0.3/diff.md --exclude *.pyd
+[2024-04-03 08:39:22] INFO root fetch - processPackages [odoo-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/0d/f5/97f198fa330d56739b70d16f78ba8371393507c329e301379b7e05ec0624/odoo_addon_web_notify-16.0.2.0.0.2-py3-none-any.whl
+[2024-04-03 08:39:22] WARNING root fetch - processPackages [odoo-addon-endpoint-auth-api-key]: Timeout reached during download
+[2024-04-03 08:39:22] INFO root fetch - processPackages [odoo-addon-endpoint-auth-api-key]: executing diffoscope
+[2024-04-03 08:39:22] INFO root fetch - processPackages [odoo-addon-endpoint-auth-api-key]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_endpoint_auth_api_key-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_endpoint_auth_api_key-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-endpoint-auth-api-key/16.0.1.0.0.1-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2024-04-03 08:39:22] WARNING root fetch - processPackages [odoo-addon-web-notify]: Timeout reached during download
+[2024-04-03 08:39:22] INFO root fetch - processPackages [odoo-addon-web-notify]: executing diffoscope
+[2024-04-03 08:39:22] INFO root fetch - processPackages [odoo-addon-web-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_notify-16.0.2.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_web_notify-16.0.2.0.0.2-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-web-notify/16.0.2.0.0.1-16.0.2.0.0.2/diff.md --exclude *.pyd
+[2024-04-03 08:39:22] WARNING root fetch - processPackages [anise]: Timeout reached during download
+[2024-04-03 08:39:23] INFO root fetch - processPackages [tracking-lib]: Remove: archive file [/home/abi/fetcher/tmp/tracking_lib-0.1.8.tar.gz]
+[2024-04-03 08:39:23] INFO root fetch - processPackages [tracking-lib]: Remove: archive file [/home/abi/fetcher/tmp/tracking_lib-0.1.9.tar.gz]
+[2024-04-03 08:39:23] INFO root fetch - main [MainThread]: End processing [tracking-lib]: success
+[2024-04-03 08:39:23] INFO root fetch - processPackages [anise]: Downloading https://files.pythonhosted.org/packages/6b/c1/1e48bd9cb7cf6084f3506ebc19b58fbc0e7d07fd93e817f7bb1c38fe6907/anise-0.3.1-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl
+[2024-04-03 08:39:23] INFO root fetch - processPackages [odoo-addon-web-calendar-slot-duration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_calendar_slot_duration-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-03 08:39:23] INFO root fetch - processPackages [odoo-addon-web-calendar-slot-duration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_calendar_slot_duration-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-03 08:39:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-calendar-slot-duration]: success
+[2024-04-03 08:39:23] INFO root fetch - processPackages [odoo-addon-endpoint-auth-api-key]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_endpoint_auth_api_key-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-03 08:39:23] INFO root fetch - processPackages [odoo-addon-endpoint-auth-api-key]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_endpoint_auth_api_key-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-03 08:39:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-endpoint-auth-api-key]: success
+[2024-04-03 08:39:23] INFO root fetch - processPackages [odoo-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_notify-16.0.2.0.0.1-py3-none-any.whl.zip]
+[2024-04-03 08:39:23] INFO root fetch - processPackages [odoo-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_notify-16.0.2.0.0.2-py3-none-any.whl.zip]
+[2024-04-03 08:39:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-notify]: success
+[2024-04-03 08:39:26] WARNING root fetch - processPackages [anise]: Timeout reached during download
+[2024-04-03 08:39:26] INFO root fetch - processPackages [anise]: executing diffoscope
+[2024-04-03 08:39:26] INFO root fetch - processPackages [anise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anise-0.3.0.tar.gz tmp/anise-0.3.1-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20240403/a/anise/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-03 08:39:27] INFO root fetch - processPackages [anise]: Remove: archive file [/home/abi/fetcher/tmp/anise-0.3.0.tar.gz]
+[2024-04-03 08:39:27] INFO root fetch - processPackages [anise]: Remove: archive file [/home/abi/fetcher/tmp/anise-0.3.1-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2024-04-03 08:39:27] INFO root fetch - main [MainThread]: End processing [anise]: success
+[2024-04-03 08:39:27] INFO root fetch - main [MainThread]: Store serial: [22598920]

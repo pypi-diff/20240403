@@ -3526,3 +3526,111 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 02:43:34] INFO root fetch - processPackages [nautobot-golden-config]: Remove: archive file [/home/abi/fetcher/tmp/nautobot_golden_config-2.0.4.tar.gz]
 [2024-04-03 02:43:34] INFO root fetch - main [MainThread]: End processing [nautobot-golden-config]: success
 [2024-04-03 02:43:34] INFO root fetch - main [MainThread]: Store serial: [22593509]
+[2024-04-03 02:45:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593509]
+[2024-04-03 02:45:42] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-03 02:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grib2io-interp
+[2024-04-03 02:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: comicpy
+[2024-04-03 02:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2024-04-03 02:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfds-nightly
+[2024-04-03 02:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webifier
+[2024-04-03 02:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agsconfig
+[2024-04-03 02:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet-core
+[2024-04-03 02:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flet-runtime
+[2024-04-03 02:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flet-embed
+[2024-04-03 02:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flet
+[2024-04-03 02:45:43] INFO root fetch - processPackages [grib2io-interp]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet-runtime]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet-embed]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet-core]: New version: [0.9.0.dev1631] Old Version: [0.9.0.dev1630]
+[2024-04-03 02:45:43] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202404020044] Old Version: [4.9.4.dev202404010044]
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/06/78/2b607ba8cf90f09185f6b1de3138bf723d510d19ee11130a68433cce2d20/flet_core-0.9.0.dev1630.tar.gz
+[2024-04-03 02:45:43] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202404020044] Old Version: [4.9.4.dev202404010044]
+[2024-04-03 02:45:43] INFO root fetch - processPackages [comicpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 02:45:43] INFO root fetch - processPackages [agsconfig]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-03 02:45:43] INFO root fetch - processPackages [webifier]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/15/82/9fa16b72f5adaebe976011591b069855d21edeaa5b2c89f27fc177fb62f1/flet_runtime-0.8.4.tar.gz
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/78/0b/3b2abde2d3702bc07cf45b3f8552c52075ee039269b94f62432c08e3a549/flet_embed-0.8.4.tar.gz
+[2024-04-03 02:45:43] INFO root fetch - processPackages [grib2io-interp]: Downloading https://files.pythonhosted.org/packages/fb/11/4f1b7c8aa34da7dc02a3de870f3cc97b88a12b88ff8061692c5561b682c5/grib2io-interp-1.1.0.tar.gz
+[2024-04-03 02:45:43] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/82/74/3b1111214f3407ddf4dc935608b77fb6a4eb8bacf83aad40f42978016b33/tfds-nightly-4.9.4.dev202404010044.tar.gz
+[2024-04-03 02:45:43] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/82/74/3b1111214f3407ddf4dc935608b77fb6a4eb8bacf83aad40f42978016b33/tfds-nightly-4.9.4.dev202404010044.tar.gz
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/ce/fc/0ddf2fc596aee033604fc82eaba85dae0d03a7ccf44591e532a1f9e3db17/flet-0.8.4.tar.gz
+[2024-04-03 02:45:43] WARNING root fetch - processPackages [grib2io-interp]: Skipping package: exceeds size limit 56477042>=10485760
+[2024-04-03 02:45:43] INFO root fetch - processPackages [grib2io-interp]: Start processing: pypipy
+[2024-04-03 02:45:43] INFO root fetch - main [MainThread]: End processing [grib2io-interp] error
+[2024-04-03 02:45:43] WARNING root fetch - processPackages [flet-core]: Timeout reached during download
+[2024-04-03 02:45:43] WARNING root fetch - processPackages [flet-runtime]: Timeout reached during download
+[2024-04-03 02:45:43] INFO root fetch - processPackages [comicpy]: Downloading https://files.pythonhosted.org/packages/bb/b3/cc58eef28e14f398c87f3d3c3cbf2625661e234cd4e356b03e1762d62125/comicpy-0.1.8.tar.gz
+[2024-04-03 02:45:43] WARNING root fetch - processPackages [flet-embed]: Timeout reached during download
+[2024-04-03 02:45:43] INFO root fetch - processPackages [agsconfig]: Downloading https://files.pythonhosted.org/packages/ed/75/fd84553229c46f2dd6396e09c9850c68176d626f2bfffd0c3ab76e616f78/agsconfig-0.2.9-py2.py3-none-any.whl
+[2024-04-03 02:45:43] INFO root fetch - processPackages [webifier]: Downloading https://files.pythonhosted.org/packages/4a/3b/51c6d4ab67e1f799ee7f964e21b619836d69ca77d5693d4925b31cb61caa/webifier-0.1.8.tar.gz
+[2024-04-03 02:45:43] WARNING root fetch - processPackages [pypipy]: Skipping, unable to determine old version
+[2024-04-03 02:45:43] INFO root fetch - main [MainThread]: End processing [pypipy] error
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/4f/c9/c2705045754a5e96e2a0e04c30f12e30cc27d1e60b1fb83e686da4c0a8e6/flet_core-0.9.0.dev1631.tar.gz
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/7d/21/4486f082fce6b7ee7174ae6b6c9bd62faeeb1cf712e65ccbd42d2a02b641/flet_runtime-0.9.0.tar.gz
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/81/7e/d8933b7cb514fb7fd415c9368e2a55ab10465ad0c1277670abc72164e31b/flet_embed-0.9.0.tar.gz
+[2024-04-03 02:45:43] WARNING root fetch - processPackages [comicpy]: Timeout reached during download
+[2024-04-03 02:45:43] WARNING root fetch - processPackages [agsconfig]: Timeout reached during download
+[2024-04-03 02:45:43] WARNING root fetch - processPackages [webifier]: Timeout reached during download
+[2024-04-03 02:45:43] WARNING root fetch - processPackages [tfds-nightly]: Timeout reached during download
+[2024-04-03 02:45:43] WARNING root fetch - processPackages [flet-core]: Timeout reached during download
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.9.0.dev1630.tar.gz tmp/flet_core-0.9.0.dev1631.tar.gz --markdown 20240403/f/flet-core/0.9.0.dev1630-0.9.0.dev1631/diff.md --exclude *.pyd
+[2024-04-03 02:45:43] WARNING root fetch - processPackages [flet-embed]: Timeout reached during download
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.8.4.tar.gz tmp/flet_embed-0.9.0.tar.gz --markdown 20240403/f/flet-embed/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 02:45:43] WARNING root fetch - processPackages [tfds-nightly]: Timeout reached during download
+[2024-04-03 02:45:43] WARNING root fetch - processPackages [flet]: Timeout reached during download
+[2024-04-03 02:45:43] WARNING root fetch - processPackages [flet-runtime]: Timeout reached during download
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.8.4.tar.gz tmp/flet_runtime-0.9.0.tar.gz --markdown 20240403/f/flet-runtime/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 02:45:43] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/d4/d1/bd4c5d9a5ef2c4f4bf42313bc4ce2235e3931410b1781982c062cd16f4fb/tfds-nightly-4.9.4.dev202404020044.tar.gz
+[2024-04-03 02:45:43] INFO root fetch - processPackages [comicpy]: Downloading https://files.pythonhosted.org/packages/08/ce/d26d3c3c0b8a668c87d53ce85b439042965907ed6a98680c31a3fc35d4b2/comicpy-0.1.9.tar.gz
+[2024-04-03 02:45:43] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/70/f1/c96f61c9817584ef31d84401520cb5d02e9b320f79d8aff85ba005ca6132/flet-0.9.0.tar.gz
+[2024-04-03 02:45:43] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/d4/d1/bd4c5d9a5ef2c4f4bf42313bc4ce2235e3931410b1781982c062cd16f4fb/tfds-nightly-4.9.4.dev202404020044.tar.gz
+[2024-04-03 02:45:43] INFO root fetch - processPackages [agsconfig]: Downloading https://files.pythonhosted.org/packages/f3/ce/bed8c3b3c319d59bd2e55d41f933dc82eba037ec0a7347654c8448ec2435/agsconfig-0.3.0-py2.py3-none-any.whl
+[2024-04-03 02:45:43] INFO root fetch - processPackages [webifier]: Downloading https://files.pythonhosted.org/packages/4c/c1/3e2238ea4405fd0ac7194473c0938506b4dcfb9912a7271d3e57c5169018/webifier-0.1.9.tar.gz
+[2024-04-03 02:45:44] WARNING root fetch - processPackages [comicpy]: Timeout reached during download
+[2024-04-03 02:45:44] INFO root fetch - processPackages [comicpy]: executing diffoscope
+[2024-04-03 02:45:44] INFO root fetch - processPackages [comicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comicpy-0.1.8.tar.gz tmp/comicpy-0.1.9.tar.gz --markdown 20240403/c/comicpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 02:45:44] WARNING root fetch - processPackages [agsconfig]: Timeout reached during download
+[2024-04-03 02:45:44] INFO root fetch - processPackages [agsconfig]: executing diffoscope
+[2024-04-03 02:45:44] INFO root fetch - processPackages [agsconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsconfig-0.2.9-py2.py3-none-any.whl.zip tmp/agsconfig-0.3.0-py2.py3-none-any.whl.zip --markdown 20240403/a/agsconfig/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2024-04-03 02:45:44] WARNING root fetch - processPackages [tfds-nightly]: Timeout reached during download
+[2024-04-03 02:45:44] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-04-03 02:45:44] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202404010044.tar.gz tmp/tfds-nightly-4.9.4.dev202404020044.tar.gz --markdown 20240403/t/tfds-nightly/4.9.4.dev202404010044-4.9.4.dev202404020044/diff.md --exclude *.pyd
+[2024-04-03 02:45:44] WARNING root fetch - processPackages [flet]: Timeout reached during download
+[2024-04-03 02:45:44] INFO root fetch - processPackages [flet]: executing diffoscope
+[2024-04-03 02:45:44] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.8.4.tar.gz tmp/flet-0.9.0.tar.gz --markdown 20240403/f/flet/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 02:45:44] WARNING root fetch - processPackages [tfds-nightly]: Timeout reached during download
+[2024-04-03 02:45:44] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-04-03 02:45:44] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202404010044.tar.gz tmp/tfds-nightly-4.9.4.dev202404020044.tar.gz --markdown 20240403/t/tfds-nightly/4.9.4.dev202404010044-4.9.4.dev202404020044/diff.md --exclude *.pyd
+[2024-04-03 02:45:44] WARNING root fetch - processPackages [webifier]: Timeout reached during download
+[2024-04-03 02:45:44] INFO root fetch - processPackages [webifier]: executing diffoscope
+[2024-04-03 02:45:44] INFO root fetch - processPackages [webifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webifier-0.1.8.tar.gz tmp/webifier-0.1.9.tar.gz --markdown 20240403/w/webifier/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 02:45:44] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.8.4.tar.gz]
+[2024-04-03 02:45:44] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.tar.gz]
+[2024-04-03 02:45:44] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2024-04-03 02:45:44] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.8.4.tar.gz]
+[2024-04-03 02:45:44] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.tar.gz]
+[2024-04-03 02:45:44] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2024-04-03 02:45:44] INFO root fetch - processPackages [comicpy]: Remove: archive file [/home/abi/fetcher/tmp/comicpy-0.1.8.tar.gz]
+[2024-04-03 02:45:44] INFO root fetch - processPackages [comicpy]: Remove: archive file [/home/abi/fetcher/tmp/comicpy-0.1.9.tar.gz]
+[2024-04-03 02:45:44] INFO root fetch - main [MainThread]: End processing [comicpy]: success
+[2024-04-03 02:45:45] INFO root fetch - processPackages [agsconfig]: Remove: archive file [/home/abi/fetcher/tmp/agsconfig-0.2.9-py2.py3-none-any.whl.zip]
+[2024-04-03 02:45:45] INFO root fetch - processPackages [agsconfig]: Remove: archive file [/home/abi/fetcher/tmp/agsconfig-0.3.0-py2.py3-none-any.whl.zip]
+[2024-04-03 02:45:45] INFO root fetch - main [MainThread]: End processing [agsconfig]: success
+[2024-04-03 02:45:45] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1630.tar.gz]
+[2024-04-03 02:45:45] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1631.tar.gz]
+[2024-04-03 02:45:45] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2024-04-03 02:45:45] INFO root fetch - processPackages [webifier]: Remove: archive file [/home/abi/fetcher/tmp/webifier-0.1.8.tar.gz]
+[2024-04-03 02:45:45] INFO root fetch - processPackages [webifier]: Remove: archive file [/home/abi/fetcher/tmp/webifier-0.1.9.tar.gz]
+[2024-04-03 02:45:45] INFO root fetch - main [MainThread]: End processing [webifier]: success
+[2024-04-03 02:45:53] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404010044.tar.gz]
+[2024-04-03 02:45:53] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404020044.tar.gz]
+[2024-04-03 02:45:53] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-04-03 02:45:54] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-04-03 02:46:33] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.8.4.tar.gz]
+[2024-04-03 02:46:33] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.tar.gz]
+[2024-04-03 02:46:33] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2024-04-03 02:46:33] INFO root fetch - main [MainThread]: Store serial: [22593543]

@@ -14570,3 +14570,53 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 04:42:05] INFO root fetch - processPackages [elasticsearch-curator]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_curator-8.0.9.tar.gz]
 [2024-04-03 04:42:05] INFO root fetch - main [MainThread]: End processing [elasticsearch-curator]: success
 [2024-04-03 04:42:05] INFO root fetch - main [MainThread]: Store serial: [22596650]
+[2024-04-03 04:44:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596650]
+[2024-04-03 04:44:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 04:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index-vector-stores-tidbvector
+[2024-04-03 04:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jsCalc1023
+[2024-04-03 04:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pi-vae-pytorch
+[2024-04-03 04:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: recce
+[2024-04-03 04:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imgori
+[2024-04-03 04:44:14] INFO root fetch - processPackages [imgori]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-03 04:44:14] INFO root fetch - processPackages [imgori]: Downloading https://files.pythonhosted.org/packages/06/9b/28284d6c44b75ed453ef6bdd03be31a342c3d15f4e58bfafe52919f9538f/imgori-0.2.7-py3-none-any.whl
+[2024-04-03 04:44:14] INFO root fetch - processPackages [pi-vae-pytorch]: New version: [1.0.0b3] Old Version: [1.0.0b1]
+[2024-04-03 04:44:14] INFO root fetch - processPackages [llama-index-vector-stores-tidbvector]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-03 04:44:14] INFO root fetch - processPackages [recce]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-03 04:44:14] WARNING root fetch - processPackages [jsCalc1023]: Skipping, unable to determine old version
+[2024-04-03 04:44:14] INFO root fetch - main [MainThread]: End processing [jsCalc1023] error
+[2024-04-03 04:44:14] WARNING root fetch - processPackages [imgori]: Timeout reached during download
+[2024-04-03 04:44:15] INFO root fetch - processPackages [pi-vae-pytorch]: Downloading https://files.pythonhosted.org/packages/ff/e2/61c32e48ecc8e8a2ad9b14e46059faf8a5d3ece495cc21cda0a23f2a61a9/pi-vae-pytorch-1.0.0b1.tar.gz
+[2024-04-03 04:44:15] INFO root fetch - processPackages [llama-index-vector-stores-tidbvector]: Downloading https://files.pythonhosted.org/packages/89/cd/6985a6bf26da85cf030b8be4c3fce8e0d8d0d7e5cade5455604e916c27ee/llama_index_vector_stores_tidbvector-0.1.1.tar.gz
+[2024-04-03 04:44:15] INFO root fetch - processPackages [recce]: Downloading https://files.pythonhosted.org/packages/21/df/adca101db9b99292c6610c06f9f9f9dba09307c59db7b48b0c3b9ecb4c47/recce-0.8.2.tar.gz
+[2024-04-03 04:44:15] INFO root fetch - processPackages [imgori]: Downloading https://files.pythonhosted.org/packages/4d/af/8394771743506a130ce6457dd365276b6a3cc883d110a73a31a883e6b9e8/imgori-0.2.8-py3-none-any.whl
+[2024-04-03 04:44:15] WARNING root fetch - processPackages [pi-vae-pytorch]: Timeout reached during download
+[2024-04-03 04:44:15] WARNING root fetch - processPackages [llama-index-vector-stores-tidbvector]: Timeout reached during download
+[2024-04-03 04:44:15] WARNING root fetch - processPackages [imgori]: Timeout reached during download
+[2024-04-03 04:44:15] INFO root fetch - processPackages [imgori]: executing diffoscope
+[2024-04-03 04:44:15] INFO root fetch - processPackages [imgori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgori-0.2.7-py3-none-any.whl.zip tmp/imgori-0.2.8-py3-none-any.whl.zip --markdown 20240403/i/imgori/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2024-04-03 04:44:15] WARNING root fetch - processPackages [recce]: Timeout reached during download
+[2024-04-03 04:44:15] INFO root fetch - processPackages [pi-vae-pytorch]: Downloading https://files.pythonhosted.org/packages/66/7e/b52aec397fcfdbd547279a1711b25d3e8f55925f47023f283224d663be1b/pi-vae-pytorch-1.0.0b3.tar.gz
+[2024-04-03 04:44:15] INFO root fetch - processPackages [llama-index-vector-stores-tidbvector]: Downloading https://files.pythonhosted.org/packages/32/ac/3b724fdc565339e14f7510ff09fbd66c86a5ef215afc5c591802b65b0474/llama_index_vector_stores_tidbvector-0.1.2.tar.gz
+[2024-04-03 04:44:15] WARNING root fetch - processPackages [pi-vae-pytorch]: Timeout reached during download
+[2024-04-03 04:44:15] INFO root fetch - processPackages [pi-vae-pytorch]: executing diffoscope
+[2024-04-03 04:44:15] INFO root fetch - processPackages [pi-vae-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pi-vae-pytorch-1.0.0b1.tar.gz tmp/pi-vae-pytorch-1.0.0b3.tar.gz --markdown 20240403/p/pi-vae-pytorch/1.0.0b1-1.0.0b3/diff.md --exclude *.pyd
+[2024-04-03 04:44:15] INFO root fetch - processPackages [recce]: Downloading https://files.pythonhosted.org/packages/1f/7b/6a960c2015316c08df9c69a378c80579bd00ffa654316ef62781e6e4ac3c/recce-0.9.0.tar.gz
+[2024-04-03 04:44:15] WARNING root fetch - processPackages [llama-index-vector-stores-tidbvector]: Timeout reached during download
+[2024-04-03 04:44:15] INFO root fetch - processPackages [llama-index-vector-stores-tidbvector]: executing diffoscope
+[2024-04-03 04:44:15] INFO root fetch - processPackages [llama-index-vector-stores-tidbvector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_vector_stores_tidbvector-0.1.1.tar.gz tmp/llama_index_vector_stores_tidbvector-0.1.2.tar.gz --markdown 20240403/l/llama-index-vector-stores-tidbvector/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-03 04:44:15] WARNING root fetch - processPackages [recce]: Timeout reached during download
+[2024-04-03 04:44:15] INFO root fetch - processPackages [recce]: executing diffoscope
+[2024-04-03 04:44:15] INFO root fetch - processPackages [recce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recce-0.8.2.tar.gz tmp/recce-0.9.0.tar.gz --markdown 20240403/r/recce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 04:44:15] INFO root fetch - processPackages [imgori]: Remove: archive file [/home/abi/fetcher/tmp/imgori-0.2.7-py3-none-any.whl.zip]
+[2024-04-03 04:44:15] INFO root fetch - processPackages [imgori]: Remove: archive file [/home/abi/fetcher/tmp/imgori-0.2.8-py3-none-any.whl.zip]
+[2024-04-03 04:44:15] INFO root fetch - main [MainThread]: End processing [imgori]: success
+[2024-04-03 04:44:16] INFO root fetch - processPackages [llama-index-vector-stores-tidbvector]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_tidbvector-0.1.1.tar.gz]
+[2024-04-03 04:44:16] INFO root fetch - processPackages [llama-index-vector-stores-tidbvector]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_tidbvector-0.1.2.tar.gz]
+[2024-04-03 04:44:16] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-tidbvector]: success
+[2024-04-03 04:44:16] INFO root fetch - processPackages [pi-vae-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/pi-vae-pytorch-1.0.0b1.tar.gz]
+[2024-04-03 04:44:16] INFO root fetch - processPackages [pi-vae-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/pi-vae-pytorch-1.0.0b3.tar.gz]
+[2024-04-03 04:44:16] INFO root fetch - main [MainThread]: End processing [pi-vae-pytorch]: success
+[2024-04-03 04:44:26] INFO root fetch - processPackages [recce]: Remove: archive file [/home/abi/fetcher/tmp/recce-0.8.2.tar.gz]
+[2024-04-03 04:44:26] INFO root fetch - processPackages [recce]: Remove: archive file [/home/abi/fetcher/tmp/recce-0.9.0.tar.gz]
+[2024-04-03 04:44:26] INFO root fetch - main [MainThread]: End processing [recce]: success
+[2024-04-03 04:44:26] INFO root fetch - main [MainThread]: Store serial: [22596665]

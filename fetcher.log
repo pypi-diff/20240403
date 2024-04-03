@@ -16257,3 +16257,9 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 05:52:39] INFO root fetch - processPackages [chittorgarh-client]: Remove: archive file [/home/abi/fetcher/tmp/chittorgarh_client-1.0.9.tar.gz]
 [2024-04-03 05:52:39] INFO root fetch - main [MainThread]: End processing [chittorgarh-client]: success
 [2024-04-03 05:52:39] INFO root fetch - main [MainThread]: Store serial: [22597155]
+[2024-04-03 05:54:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597155]
+[2024-04-03 05:54:48] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-03 05:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: facebook-graphql-scraper
+[2024-04-03 05:54:48] WARNING root fetch - processPackages [facebook-graphql-scraper]: Skipping, unable to determine old version
+[2024-04-03 05:54:48] INFO root fetch - main [MainThread]: End processing [facebook-graphql-scraper] error
+[2024-04-03 05:54:48] INFO root fetch - main [MainThread]: Store serial: [22597158]

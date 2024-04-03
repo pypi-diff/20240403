@@ -18886,3 +18886,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 07:00:32] INFO root fetch - processPackages [tencentcloud-sdk-python-iotexplorer]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotexplorer-3.0.999.tar.gz]
 [2024-04-03 07:00:32] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iotexplorer]: success
 [2024-04-03 07:00:32] INFO root fetch - main [MainThread]: Store serial: [22597943]
+[2024-04-03 07:02:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597943]
+[2024-04-03 07:02:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 07:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-iotvideo
+[2024-04-03 07:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-iotvideoindustry
+[2024-04-03 07:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-irp
+[2024-04-03 07:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-iss
+[2024-04-03 07:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-ivld
+[2024-04-03 07:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vite-project
+[2024-04-03 07:02:41] WARNING root fetch - processPackages [vite-project]: Skipping, unable to determine old version
+[2024-04-03 07:02:41] INFO root fetch - main [MainThread]: End processing [vite-project] error
+[2024-04-03 07:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: Downloading https://files.pythonhosted.org/packages/49/cc/43cbdb48e3887dd1f5d70e68797f3fcefeaded015f56e2c4e4d8c077a7ee/tencentcloud-sdk-python-iss-3.0.998.tar.gz
+[2024-04-03 07:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Downloading https://files.pythonhosted.org/packages/3a/94/be57051f224cab8dde8ba59206901af18ca82982597b3bb815faffae580c/tencentcloud-sdk-python-irp-3.0.998.tar.gz
+[2024-04-03 07:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Downloading https://files.pythonhosted.org/packages/39/d8/00a77d78061f82dab0e7261e9d7b78692d04e1972a458e799890e984093b/tencentcloud-sdk-python-iotvideo-3.0.998.tar.gz
+[2024-04-03 07:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: Downloading https://files.pythonhosted.org/packages/54/88/66a62776c14a945d98f689302b15365a53a470a7478775a78f22f7ab0b7b/tencentcloud-sdk-python-ivld-3.0.998.tar.gz
+[2024-04-03 07:02:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-irp]: Timeout reached during download
+[2024-04-03 07:02:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-ivld]: Timeout reached during download
+[2024-04-03 07:02:41] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Downloading https://files.pythonhosted.org/packages/af/44/fc549e2fad6f2f433caf020f38909bbdba315ee6b544538eab98d7a3bf3b/tencentcloud-sdk-python-iotvideoindustry-3.0.998.tar.gz
+[2024-04-03 07:02:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-iss]: Timeout reached during download
+[2024-04-03 07:02:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Timeout reached during download
+[2024-04-03 07:02:41] WARNING root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Timeout reached during download
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Downloading https://files.pythonhosted.org/packages/b6/2a/3459ece93ae8ba8ecbd53f67e1059d8cb69fdabd952d9c68a4ddbe108bf6/tencentcloud-sdk-python-irp-3.0.999.tar.gz
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: Downloading https://files.pythonhosted.org/packages/60/62/24e25761cd8be766573139a3004359100c14a4f335d28a31dbe1e6d7addd/tencentcloud-sdk-python-ivld-3.0.999.tar.gz
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: Downloading https://files.pythonhosted.org/packages/cd/9c/b14ae7ca2d8d7b02f14526e879aa4d2be3f0c566a4a76461782f400b539f/tencentcloud-sdk-python-iss-3.0.999.tar.gz
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Downloading https://files.pythonhosted.org/packages/4d/c9/04468a942f64a0d005575a43bee3399d0ed8be320ef8b83423f805b468f0/tencentcloud-sdk-python-iotvideo-3.0.999.tar.gz
+[2024-04-03 07:02:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-irp]: Timeout reached during download
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: executing diffoscope
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-irp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-irp-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-irp/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:02:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-ivld]: Timeout reached during download
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: executing diffoscope
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ivld-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ivld-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-ivld/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Downloading https://files.pythonhosted.org/packages/a7/4d/2f7d7838507385727b95705c85ca6e0ea305ffee11888e13b1d28f5d038c/tencentcloud-sdk-python-iotvideoindustry-3.0.999.tar.gz
+[2024-04-03 07:02:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-iss]: Timeout reached during download
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: executing diffoscope
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iss-3.0.998.tar.gz tmp/tencentcloud-sdk-python-iss-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-iss/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:02:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Timeout reached during download
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: executing diffoscope
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iotvideo-3.0.998.tar.gz tmp/tencentcloud-sdk-python-iotvideo-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-iotvideo/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:02:42] WARNING root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Timeout reached during download
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: executing diffoscope
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.998.tar.gz tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-iotvideoindustry/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ivld-3.0.998.tar.gz]
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ivld-3.0.999.tar.gz]
+[2024-04-03 07:02:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ivld]: success
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-irp-3.0.998.tar.gz]
+[2024-04-03 07:02:42] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-irp-3.0.999.tar.gz]
+[2024-04-03 07:02:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-irp]: success
+[2024-04-03 07:02:43] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.998.tar.gz]
+[2024-04-03 07:02:43] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideoindustry]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotvideoindustry-3.0.999.tar.gz]
+[2024-04-03 07:02:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iotvideoindustry]: success
+[2024-04-03 07:02:43] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iss-3.0.998.tar.gz]
+[2024-04-03 07:02:43] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iss-3.0.999.tar.gz]
+[2024-04-03 07:02:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iss]: success
+[2024-04-03 07:02:43] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotvideo-3.0.998.tar.gz]
+[2024-04-03 07:02:43] INFO root fetch - processPackages [tencentcloud-sdk-python-iotvideo]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iotvideo-3.0.999.tar.gz]
+[2024-04-03 07:02:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iotvideo]: success
+[2024-04-03 07:02:43] INFO root fetch - main [MainThread]: Store serial: [22597963]

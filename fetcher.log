@@ -2242,3 +2242,39 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 01:59:09] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.0.46.tar.gz]
 [2024-04-03 01:59:09] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
 [2024-04-03 01:59:09] INFO root fetch - main [MainThread]: Store serial: [22593115]
+[2024-04-03 02:01:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593115]
+[2024-04-03 02:01:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 02:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: burr
+[2024-04-03 02:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uprock-sdk
+[2024-04-03 02:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emailbob-twingate
+[2024-04-03 02:01:18] INFO root fetch - processPackages [uprock-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 02:01:18] INFO root fetch - processPackages [emailbob-twingate]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-03 02:01:18] INFO root fetch - processPackages [uprock-sdk]: Downloading https://files.pythonhosted.org/packages/26/22/126fb32f31645995a5011f583fcbff3a5bd9d706b40186f5a97d77b1809b/uprock_sdk-0.1.8.tar.gz
+[2024-04-03 02:01:18] INFO root fetch - processPackages [emailbob-twingate]: Downloading https://files.pythonhosted.org/packages/18/7e/a687c4e43fc45eff26972a197771eb8e92b254e0f58f3c4716278fe44500/emailbob_twingate-0.0.7.tar.gz
+[2024-04-03 02:01:18] WARNING root fetch - processPackages [uprock-sdk]: Timeout reached during download
+[2024-04-03 02:01:18] WARNING root fetch - processPackages [emailbob-twingate]: Timeout reached during download
+[2024-04-03 02:01:18] INFO root fetch - processPackages [uprock-sdk]: Downloading https://files.pythonhosted.org/packages/9f/c4/b3c22c4effa404516d26a91e86a36be6214f4ddddbf45903687c612dc45c/uprock_sdk-0.1.9.tar.gz
+[2024-04-03 02:01:18] INFO root fetch - processPackages [emailbob-twingate]: Downloading https://files.pythonhosted.org/packages/07/8d/c311d8169e9a874b9001ea68d0070a70b1baa5e11917d0e7cb8f6e9bdb6a/emailbob_twingate-0.0.9.tar.gz
+[2024-04-03 02:01:18] WARNING root fetch - processPackages [uprock-sdk]: Timeout reached during download
+[2024-04-03 02:01:18] INFO root fetch - processPackages [uprock-sdk]: executing diffoscope
+[2024-04-03 02:01:18] INFO root fetch - processPackages [uprock-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uprock_sdk-0.1.8.tar.gz tmp/uprock_sdk-0.1.9.tar.gz --markdown 20240403/u/uprock-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 02:01:18] WARNING root fetch - processPackages [emailbob-twingate]: Timeout reached during download
+[2024-04-03 02:01:18] INFO root fetch - processPackages [emailbob-twingate]: executing diffoscope
+[2024-04-03 02:01:18] INFO root fetch - processPackages [emailbob-twingate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailbob_twingate-0.0.7.tar.gz tmp/emailbob_twingate-0.0.9.tar.gz --markdown 20240403/e/emailbob-twingate/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 02:01:19] INFO root fetch - processPackages [burr]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-03 02:01:19] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/87/83/f7356070de16e070dbc68373d02f5b3677c417c21359630b2007a8b027df/burr-0.8.1.tar.gz
+[2024-04-03 02:01:19] INFO root fetch - processPackages [uprock-sdk]: Remove: archive file [/home/abi/fetcher/tmp/uprock_sdk-0.1.8.tar.gz]
+[2024-04-03 02:01:19] INFO root fetch - processPackages [uprock-sdk]: Remove: archive file [/home/abi/fetcher/tmp/uprock_sdk-0.1.9.tar.gz]
+[2024-04-03 02:01:19] INFO root fetch - main [MainThread]: End processing [uprock-sdk]: success
+[2024-04-03 02:01:19] INFO root fetch - processPackages [emailbob-twingate]: Remove: archive file [/home/abi/fetcher/tmp/emailbob_twingate-0.0.7.tar.gz]
+[2024-04-03 02:01:19] INFO root fetch - processPackages [emailbob-twingate]: Remove: archive file [/home/abi/fetcher/tmp/emailbob_twingate-0.0.9.tar.gz]
+[2024-04-03 02:01:19] INFO root fetch - main [MainThread]: End processing [emailbob-twingate]: success
+[2024-04-03 02:01:19] WARNING root fetch - processPackages [burr]: Timeout reached during download
+[2024-04-03 02:01:19] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/65/38/00b44d54c37f35813232167f5745ca37eac9ad13574e81e1f4e685acf5d5/burr-0.9.0.tar.gz
+[2024-04-03 02:01:20] WARNING root fetch - processPackages [burr]: Timeout reached during download
+[2024-04-03 02:01:20] INFO root fetch - processPackages [burr]: executing diffoscope
+[2024-04-03 02:01:20] INFO root fetch - processPackages [burr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burr-0.8.1.tar.gz tmp/burr-0.9.0.tar.gz --markdown 20240403/b/burr/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 02:01:56] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.8.1.tar.gz]
+[2024-04-03 02:01:56] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
+[2024-04-03 02:01:56] INFO root fetch - main [MainThread]: End processing [burr]: success
+[2024-04-03 02:01:56] INFO root fetch - main [MainThread]: Store serial: [22593123]

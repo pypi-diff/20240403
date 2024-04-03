@@ -19248,3 +19248,86 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 07:11:26] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mps-3.0.999.tar.gz]
 [2024-04-03 07:11:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mps]: success
 [2024-04-03 07:11:26] INFO root fetch - main [MainThread]: Store serial: [22598055]
+[2024-04-03 07:13:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598055]
+[2024-04-03 07:13:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-03 07:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-pms
+[2024-04-03 07:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-pms-l10n-es
+[2024-04-03 07:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-pos-session-pay-invoice
+[2024-04-03 07:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ftb-snbt-lib
+[2024-04-03 07:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cfdiclient
+[2024-04-03 07:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: test-tele
+[2024-04-03 07:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-mrs
+[2024-04-03 07:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-phone-number-fmt
+[2024-04-03 07:13:35] INFO root fetch - processPackages [odoo13-addon-pos-session-pay-invoice]: New version: [13.0.1.0.1.dev9] Old Version: [13.0.1.0.1.dev8]
+[2024-04-03 07:13:35] WARNING root fetch - processPackages [test-tele]: Skipping, unable to determine old version
+[2024-04-03 07:13:35] INFO root fetch - main [MainThread]: End processing [test-tele] error
+[2024-04-03 07:13:35] INFO root fetch - processPackages [py-phone-number-fmt]: New version: [2.0.0] Old Version: [1.2b5]
+[2024-04-03 07:13:35] INFO root fetch - processPackages [cfdiclient]: New version: [1.5.9] Old Version: [1.5.6]
+[2024-04-03 07:13:35] INFO root fetch - processPackages [odoo14-addon-pms]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.0]
+[2024-04-03 07:13:35] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: New version: [14.0.2.6.8.dev9] Old Version: [14.0.2.6.8.dev8]
+[2024-04-03 07:13:35] INFO root fetch - processPackages [ftb-snbt-lib]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-03 07:13:35] INFO root fetch - processPackages [tencentcloud-sdk-python-mrs]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:13:35] INFO root fetch - processPackages [odoo13-addon-pos-session-pay-invoice]: Downloading https://files.pythonhosted.org/packages/17/f5/e3b6f8426e662745b825ee78127b9168121c60af797545e115d6a6f9419d/odoo13_addon_pos_session_pay_invoice-13.0.1.0.1.dev8-py3-none-any.whl
+[2024-04-03 07:13:35] INFO root fetch - processPackages [cfdiclient]: Downloading https://files.pythonhosted.org/packages/8c/1a/e62e236c5b9e6ddf9cfb3786fabef730733089503c356216a899e552ed78/cfdiclient-1.5.6.tar.gz
+[2024-04-03 07:13:35] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Downloading https://files.pythonhosted.org/packages/fc/ed/525349fd2a15ad0a00e765e046e196b42732fa88715451518fb87a6f635d/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev8-py3-none-any.whl
+[2024-04-03 07:13:35] INFO root fetch - processPackages [py-phone-number-fmt]: Downloading https://files.pythonhosted.org/packages/44/32/363051fde330839fe0c4bcc16c88fb9988a64e623a19c7d2a099b397fc59/py_phone_number_fmt-1.2b5-py3-none-any.whl
+[2024-04-03 07:13:35] INFO root fetch - processPackages [ftb-snbt-lib]: Downloading https://files.pythonhosted.org/packages/e7/23/443d34707b37996e576f1725d14973cedaf87e381da4d9a8fe368aa12793/ftb-snbt-lib-0.1.2.tar.gz
+[2024-04-03 07:13:35] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/35/dd/9ca9ec4be1214b080d690d035081114d6c68515ac18307d8cb5edc8c7664/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl
+[2024-04-03 07:13:35] INFO root fetch - processPackages [tencentcloud-sdk-python-mrs]: Downloading https://files.pythonhosted.org/packages/82/6a/fc711c90a50bbd3f43ffe3fbbcabf2a346686e9b61a7588d466a4c297100/tencentcloud-sdk-python-mrs-3.0.998.tar.gz
+[2024-04-03 07:13:35] WARNING root fetch - processPackages [odoo13-addon-pos-session-pay-invoice]: Timeout reached during download
+[2024-04-03 07:13:35] WARNING root fetch - processPackages [odoo14-addon-pms-l10n-es]: Timeout reached during download
+[2024-04-03 07:13:35] WARNING root fetch - processPackages [py-phone-number-fmt]: Timeout reached during download
+[2024-04-03 07:13:35] WARNING root fetch - processPackages [ftb-snbt-lib]: Timeout reached during download
+[2024-04-03 07:13:35] WARNING root fetch - processPackages [tencentcloud-sdk-python-mrs]: Timeout reached during download
+[2024-04-03 07:13:36] WARNING root fetch - processPackages [cfdiclient]: Timeout reached during download
+[2024-04-03 07:13:36] WARNING root fetch - processPackages [odoo14-addon-pms]: Timeout reached during download
+[2024-04-03 07:13:36] INFO root fetch - processPackages [odoo13-addon-pos-session-pay-invoice]: Downloading https://files.pythonhosted.org/packages/1f/f0/fc9066320970416d91a3ea7cb03267138e502d2c8fc67f8be9d31e6893ee/odoo13_addon_pos_session_pay_invoice-13.0.1.0.1.dev9-py3-none-any.whl
+[2024-04-03 07:13:36] INFO root fetch - processPackages [py-phone-number-fmt]: Downloading https://files.pythonhosted.org/packages/d7/1d/2a4274b53675962d19913f9480595eb2c8d60d68d8a9a190116e73f5c14d/py-phone-number-fmt-2.0.0.tar.gz
+[2024-04-03 07:13:36] INFO root fetch - processPackages [ftb-snbt-lib]: Downloading https://files.pythonhosted.org/packages/18/fd/9ca41a7f09ca422166703c69f90edf63f5cd7a991cc2fc1b64995180ee73/ftb-snbt-lib-0.1.3.tar.gz
+[2024-04-03 07:13:36] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Downloading https://files.pythonhosted.org/packages/f9/46/01f03598bf302f5e6faa906abf772582d6fcfb66609c83995ac64259bd11/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev9-py3-none-any.whl
+[2024-04-03 07:13:36] INFO root fetch - processPackages [cfdiclient]: Downloading https://files.pythonhosted.org/packages/7b/18/64bd7f0d9600a8e9314052d362f84ceda70112ac1e7bdc608637ffdd59e0/cfdiclient-1.5.9.tar.gz
+[2024-04-03 07:13:36] INFO root fetch - processPackages [tencentcloud-sdk-python-mrs]: Downloading https://files.pythonhosted.org/packages/ed/35/9b25dab3e42f754f827e7f5f1da0442a6b3920e936e7dad38b3ad909e8d1/tencentcloud-sdk-python-mrs-3.0.999.tar.gz
+[2024-04-03 07:13:36] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/6b/d2/872d4271026f02e164cdf6773633ee7c39723165f305fdf11e37a2224677/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl
+[2024-04-03 07:13:36] WARNING root fetch - processPackages [py-phone-number-fmt]: Timeout reached during download
+[2024-04-03 07:13:36] INFO root fetch - processPackages [py-phone-number-fmt]: executing diffoscope
+[2024-04-03 07:13:36] INFO root fetch - processPackages [py-phone-number-fmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_phone_number_fmt-1.2b5-py3-none-any.whl.zip tmp/py-phone-number-fmt-2.0.0.tar.gz --markdown 20240403/p/py-phone-number-fmt/1.2b5-2.0.0/diff.md --exclude *.pyd
+[2024-04-03 07:13:36] WARNING root fetch - processPackages [ftb-snbt-lib]: Timeout reached during download
+[2024-04-03 07:13:36] INFO root fetch - processPackages [ftb-snbt-lib]: executing diffoscope
+[2024-04-03 07:13:36] INFO root fetch - processPackages [ftb-snbt-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftb-snbt-lib-0.1.2.tar.gz tmp/ftb-snbt-lib-0.1.3.tar.gz --markdown 20240403/f/ftb-snbt-lib/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-03 07:13:36] WARNING root fetch - processPackages [odoo14-addon-pms-l10n-es]: Timeout reached during download
+[2024-04-03 07:13:36] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: executing diffoscope
+[2024-04-03 07:13:36] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev8-py3-none-any.whl.zip tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev9-py3-none-any.whl.zip --markdown 20240403/o/odoo14-addon-pms-l10n-es/14.0.2.6.8.dev8-14.0.2.6.8.dev9/diff.md --exclude *.pyd
+[2024-04-03 07:13:36] WARNING root fetch - processPackages [odoo13-addon-pos-session-pay-invoice]: Timeout reached during download
+[2024-04-03 07:13:36] INFO root fetch - processPackages [odoo13-addon-pos-session-pay-invoice]: executing diffoscope
+[2024-04-03 07:13:36] INFO root fetch - processPackages [odoo13-addon-pos-session-pay-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_pos_session_pay_invoice-13.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_pos_session_pay_invoice-13.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20240403/o/odoo13-addon-pos-session-pay-invoice/13.0.1.0.1.dev8-13.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2024-04-03 07:13:36] WARNING root fetch - processPackages [cfdiclient]: Timeout reached during download
+[2024-04-03 07:13:36] INFO root fetch - processPackages [cfdiclient]: executing diffoscope
+[2024-04-03 07:13:36] INFO root fetch - processPackages [cfdiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfdiclient-1.5.6.tar.gz tmp/cfdiclient-1.5.9.tar.gz --markdown 20240403/c/cfdiclient/1.5.6-1.5.9/diff.md --exclude *.pyd
+[2024-04-03 07:13:36] WARNING root fetch - processPackages [tencentcloud-sdk-python-mrs]: Timeout reached during download
+[2024-04-03 07:13:36] INFO root fetch - processPackages [tencentcloud-sdk-python-mrs]: executing diffoscope
+[2024-04-03 07:13:36] INFO root fetch - processPackages [tencentcloud-sdk-python-mrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mrs-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mrs-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-mrs/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:13:36] WARNING root fetch - processPackages [odoo14-addon-pms]: Timeout reached during download
+[2024-04-03 07:13:36] INFO root fetch - processPackages [odoo14-addon-pms]: executing diffoscope
+[2024-04-03 07:13:36] INFO root fetch - processPackages [odoo14-addon-pms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip --markdown 20240403/o/odoo14-addon-pms/14.0.2.8.0-14.0.2.9.0/diff.md --exclude *.pyd
+[2024-04-03 07:13:37] INFO root fetch - processPackages [py-phone-number-fmt]: Remove: archive file [/home/abi/fetcher/tmp/py_phone_number_fmt-1.2b5-py3-none-any.whl.zip]
+[2024-04-03 07:13:37] INFO root fetch - processPackages [py-phone-number-fmt]: Remove: archive file [/home/abi/fetcher/tmp/py-phone-number-fmt-2.0.0.tar.gz]
+[2024-04-03 07:13:37] INFO root fetch - main [MainThread]: End processing [py-phone-number-fmt]: success
+[2024-04-03 07:13:37] INFO root fetch - processPackages [ftb-snbt-lib]: Remove: archive file [/home/abi/fetcher/tmp/ftb-snbt-lib-0.1.2.tar.gz]
+[2024-04-03 07:13:37] INFO root fetch - processPackages [ftb-snbt-lib]: Remove: archive file [/home/abi/fetcher/tmp/ftb-snbt-lib-0.1.3.tar.gz]
+[2024-04-03 07:13:37] INFO root fetch - main [MainThread]: End processing [ftb-snbt-lib]: success
+[2024-04-03 07:13:37] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev8-py3-none-any.whl.zip]
+[2024-04-03 07:13:37] INFO root fetch - processPackages [odoo14-addon-pms-l10n-es]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms_l10n_es-14.0.2.6.8.dev9-py3-none-any.whl.zip]
+[2024-04-03 07:13:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms-l10n-es]: success
+[2024-04-03 07:13:37] INFO root fetch - processPackages [odoo13-addon-pos-session-pay-invoice]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_pos_session_pay_invoice-13.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-04-03 07:13:37] INFO root fetch - processPackages [odoo13-addon-pos-session-pay-invoice]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_pos_session_pay_invoice-13.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2024-04-03 07:13:37] INFO root fetch - main [MainThread]: End processing [odoo13-addon-pos-session-pay-invoice]: success
+[2024-04-03 07:13:37] INFO root fetch - processPackages [cfdiclient]: Remove: archive file [/home/abi/fetcher/tmp/cfdiclient-1.5.6.tar.gz]
+[2024-04-03 07:13:37] INFO root fetch - processPackages [cfdiclient]: Remove: archive file [/home/abi/fetcher/tmp/cfdiclient-1.5.9.tar.gz]
+[2024-04-03 07:13:37] INFO root fetch - main [MainThread]: End processing [cfdiclient]: success
+[2024-04-03 07:13:37] INFO root fetch - processPackages [tencentcloud-sdk-python-mrs]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mrs-3.0.998.tar.gz]
+[2024-04-03 07:13:37] INFO root fetch - processPackages [tencentcloud-sdk-python-mrs]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mrs-3.0.999.tar.gz]
+[2024-04-03 07:13:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mrs]: success
+[2024-04-03 07:13:37] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip]
+[2024-04-03 07:13:37] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
+[2024-04-03 07:13:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
+[2024-04-03 07:13:37] INFO root fetch - main [MainThread]: Store serial: [22598077]

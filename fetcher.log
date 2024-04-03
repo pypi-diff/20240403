@@ -13468,3 +13468,61 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 03:46:49] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.1.7.tar.gz]
 [2024-04-03 03:46:49] INFO root fetch - main [MainThread]: End processing [qteasy]: success
 [2024-04-03 03:46:49] INFO root fetch - main [MainThread]: Store serial: [22596274]
+[2024-04-03 03:48:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596274]
+[2024-04-03 03:48:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 03:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: krabby
+[2024-04-03 03:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: statmanager-kr
+[2024-04-03 03:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feno
+[2024-04-03 03:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: panpiper
+[2024-04-03 03:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: schwab-py
+[2024-04-03 03:48:58] INFO root fetch - processPackages [krabby]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 03:48:58] INFO root fetch - processPackages [schwab-py]: New version: [0.0.0a3] Old Version: [0.0.0a2]
+[2024-04-03 03:48:58] INFO root fetch - processPackages [krabby]: Downloading https://files.pythonhosted.org/packages/81/43/322c72eedc21fb3ea17c8e0132cc5362e3d6a6f1b2b94a4f12affb177990/krabby-0.1.8.tar.gz
+[2024-04-03 03:48:58] INFO root fetch - processPackages [feno]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-03 03:48:58] INFO root fetch - processPackages [panpiper]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-03 03:48:58] INFO root fetch - processPackages [statmanager-kr]: New version: [1.8.1.9] Old Version: [1.8.1.8]
+[2024-04-03 03:48:58] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/be/e4/8049fb8094e2fa54685ac1d221c9b31a58cd56193c041bf4e67934be87aa/schwab-py-0.0.0a2.tar.gz
+[2024-04-03 03:48:58] WARNING root fetch - processPackages [krabby]: Timeout reached during download
+[2024-04-03 03:48:58] INFO root fetch - processPackages [feno]: Downloading https://files.pythonhosted.org/packages/54/ca/cd3f1a683253113fb2c43160299065dc76e6e733a383f5007dded76da437/feno-0.0.6.tar.gz
+[2024-04-03 03:48:58] WARNING root fetch - processPackages [schwab-py]: Timeout reached during download
+[2024-04-03 03:48:58] INFO root fetch - processPackages [krabby]: Downloading https://files.pythonhosted.org/packages/14/b2/dde75359c4b87fe1fe26ff24086bc515e612ff9253940b1e509844c4c7c2/krabby-0.1.9.tar.gz
+[2024-04-03 03:48:58] INFO root fetch - processPackages [panpiper]: Downloading https://files.pythonhosted.org/packages/0f/26/afc73f01a7197e33df07f84fd702335406c4171d047fa7035a8d96362222/panpiper-1.0.0.tar.gz
+[2024-04-03 03:48:58] WARNING root fetch - processPackages [feno]: Timeout reached during download
+[2024-04-03 03:48:58] WARNING root fetch - processPackages [krabby]: Timeout reached during download
+[2024-04-03 03:48:58] INFO root fetch - processPackages [krabby]: executing diffoscope
+[2024-04-03 03:48:58] INFO root fetch - processPackages [krabby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krabby-0.1.8.tar.gz tmp/krabby-0.1.9.tar.gz --markdown 20240403/k/krabby/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 03:48:58] INFO root fetch - processPackages [statmanager-kr]: Downloading https://files.pythonhosted.org/packages/8c/97/9925b5e1dc42cb0aa1eb74961c1ee398a01a2348b07475a6861d1c0ca546/statmanager_kr-1.8.1.8-py3-none-any.whl
+[2024-04-03 03:48:58] WARNING root fetch - processPackages [panpiper]: Timeout reached during download
+[2024-04-03 03:48:58] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/6d/18/eaa9c2aedf40b7cdd7d6549df4c3a4fed8847f798644a554c0d00907ae8a/schwab-py-0.0.0a3.tar.gz
+[2024-04-03 03:48:58] INFO root fetch - processPackages [feno]: Downloading https://files.pythonhosted.org/packages/32/40/6f2a6a4e1c0caf0d45bccea13998087665ebd30a5e6e10dfe98c6684af77/feno-0.0.7.tar.gz
+[2024-04-03 03:48:58] WARNING root fetch - processPackages [statmanager-kr]: Timeout reached during download
+[2024-04-03 03:48:58] WARNING root fetch - processPackages [schwab-py]: Timeout reached during download
+[2024-04-03 03:48:58] INFO root fetch - processPackages [schwab-py]: executing diffoscope
+[2024-04-03 03:48:58] INFO root fetch - processPackages [schwab-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schwab-py-0.0.0a2.tar.gz tmp/schwab-py-0.0.0a3.tar.gz --markdown 20240403/s/schwab-py/0.0.0a2-0.0.0a3/diff.md --exclude *.pyd
+[2024-04-03 03:48:58] INFO root fetch - processPackages [panpiper]: Downloading https://files.pythonhosted.org/packages/3e/20/a640431a78ccb74602940dc470c5235a5279718f34f1f8b60656c8b943ad/panpiper-1.0.1.tar.gz
+[2024-04-03 03:48:58] WARNING root fetch - processPackages [feno]: Timeout reached during download
+[2024-04-03 03:48:58] INFO root fetch - processPackages [feno]: executing diffoscope
+[2024-04-03 03:48:58] INFO root fetch - processPackages [feno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feno-0.0.6.tar.gz tmp/feno-0.0.7.tar.gz --markdown 20240403/f/feno/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-03 03:48:58] INFO root fetch - processPackages [statmanager-kr]: Downloading https://files.pythonhosted.org/packages/6f/6a/db7879e5f2c8e4b5a1c0b10ae768203a4739b47a76deffd13b3cfecd2e3b/statmanager_kr-1.8.1.9-py3-none-any.whl
+[2024-04-03 03:48:59] WARNING root fetch - processPackages [panpiper]: Timeout reached during download
+[2024-04-03 03:48:59] INFO root fetch - processPackages [panpiper]: executing diffoscope
+[2024-04-03 03:48:59] INFO root fetch - processPackages [panpiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panpiper-1.0.0.tar.gz tmp/panpiper-1.0.1.tar.gz --markdown 20240403/p/panpiper/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-03 03:48:59] WARNING root fetch - processPackages [statmanager-kr]: Timeout reached during download
+[2024-04-03 03:48:59] INFO root fetch - processPackages [statmanager-kr]: executing diffoscope
+[2024-04-03 03:48:59] INFO root fetch - processPackages [statmanager-kr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statmanager_kr-1.8.1.8-py3-none-any.whl.zip tmp/statmanager_kr-1.8.1.9-py3-none-any.whl.zip --markdown 20240403/s/statmanager-kr/1.8.1.8-1.8.1.9/diff.md --exclude *.pyd
+[2024-04-03 03:48:59] INFO root fetch - processPackages [krabby]: Remove: archive file [/home/abi/fetcher/tmp/krabby-0.1.8.tar.gz]
+[2024-04-03 03:48:59] INFO root fetch - processPackages [krabby]: Remove: archive file [/home/abi/fetcher/tmp/krabby-0.1.9.tar.gz]
+[2024-04-03 03:48:59] INFO root fetch - main [MainThread]: End processing [krabby]: success
+[2024-04-03 03:48:59] INFO root fetch - processPackages [feno]: Remove: archive file [/home/abi/fetcher/tmp/feno-0.0.6.tar.gz]
+[2024-04-03 03:48:59] INFO root fetch - processPackages [feno]: Remove: archive file [/home/abi/fetcher/tmp/feno-0.0.7.tar.gz]
+[2024-04-03 03:48:59] INFO root fetch - main [MainThread]: End processing [feno]: success
+[2024-04-03 03:48:59] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab-py-0.0.0a2.tar.gz]
+[2024-04-03 03:48:59] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab-py-0.0.0a3.tar.gz]
+[2024-04-03 03:48:59] INFO root fetch - main [MainThread]: End processing [schwab-py]: success
+[2024-04-03 03:48:59] INFO root fetch - processPackages [statmanager-kr]: Remove: archive file [/home/abi/fetcher/tmp/statmanager_kr-1.8.1.8-py3-none-any.whl.zip]
+[2024-04-03 03:48:59] INFO root fetch - processPackages [statmanager-kr]: Remove: archive file [/home/abi/fetcher/tmp/statmanager_kr-1.8.1.9-py3-none-any.whl.zip]
+[2024-04-03 03:48:59] INFO root fetch - main [MainThread]: End processing [statmanager-kr]: success
+[2024-04-03 03:48:59] INFO root fetch - processPackages [panpiper]: Remove: archive file [/home/abi/fetcher/tmp/panpiper-1.0.0.tar.gz]
+[2024-04-03 03:48:59] INFO root fetch - processPackages [panpiper]: Remove: archive file [/home/abi/fetcher/tmp/panpiper-1.0.1.tar.gz]
+[2024-04-03 03:48:59] INFO root fetch - main [MainThread]: End processing [panpiper]: success
+[2024-04-03 03:48:59] INFO root fetch - main [MainThread]: Store serial: [22596294]

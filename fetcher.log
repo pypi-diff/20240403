@@ -22944,3 +22944,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 09:13:10] INFO root fetch - processPackages [qalx-orcaflex]: Remove: archive file [/home/abi/fetcher/tmp/qalx_orcaflex-0.2.9a1.tar.gz]
 [2024-04-03 09:13:10] INFO root fetch - main [MainThread]: End processing [qalx-orcaflex]: success
 [2024-04-03 09:13:10] INFO root fetch - main [MainThread]: Store serial: [22599221]
+[2024-04-03 09:15:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599221]
+[2024-04-03 09:15:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 09:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotframework-creartramas
+[2024-04-03 09:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: isar
+[2024-04-03 09:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luminesce-sdk-preview
+[2024-04-03 09:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: custom-launch-buttons
+[2024-04-03 09:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reptor
+[2024-04-03 09:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sage-lib
+[2024-04-03 09:15:18] INFO root fetch - processPackages [custom-launch-buttons]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-03 09:15:19] INFO root fetch - processPackages [sage-lib]: New version: [0.1.4.9] Old Version: [0.1.4.8]
+[2024-04-03 09:15:19] INFO root fetch - processPackages [robotframework-creartramas]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-03 09:15:19] INFO root fetch - processPackages [reptor]: New version: [0.9] Old Version: [0.8]
+[2024-04-03 09:15:19] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-04-03 09:15:19] INFO root fetch - processPackages [isar]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-03 09:15:19] INFO root fetch - processPackages [custom-launch-buttons]: Downloading https://files.pythonhosted.org/packages/52/26/d1ba2c8aeae028644546b61f73bac28999c6eb4cf1b4c996d363d8bcab52/custom-launch-buttons-1.1.0.tar.gz
+[2024-04-03 09:15:19] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/0c/1f/00eb35df49893269d3a67a24076f2fa665c50056f0ab1d92180c8fe0f343/sage_lib-0.1.4.8.tar.gz
+[2024-04-03 09:15:19] INFO root fetch - processPackages [robotframework-creartramas]: Downloading https://files.pythonhosted.org/packages/74/bc/fcc5435cffd099abb314fd30ca1cca2d021c0573c1282b7f0b4d44a6d845/robotframework_creartramas-2.0.0.tar.gz
+[2024-04-03 09:15:19] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-04-03 09:15:19] INFO root fetch - processPackages [reptor]: Downloading https://files.pythonhosted.org/packages/b0/dd/2420573be08f8438dcbd83a9d09acfd3565cd884567ccb1e5e914db7e9ee/reptor-0.8.tar.gz
+[2024-04-03 09:15:19] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/24/9e/a40ae5538b353dd0f94cbf122f8b47de58d34ffca0b2e4633c259740b079/isar-1.9.1.tar.gz
+[2024-04-03 09:15:19] WARNING root fetch - processPackages [custom-launch-buttons]: Timeout reached during download
+[2024-04-03 09:15:19] WARNING root fetch - processPackages [luminesce-sdk-preview]: Timeout reached during download
+[2024-04-03 09:15:19] WARNING root fetch - processPackages [isar]: Timeout reached during download
+[2024-04-03 09:15:19] WARNING root fetch - processPackages [reptor]: Timeout reached during download
+[2024-04-03 09:15:19] WARNING root fetch - processPackages [robotframework-creartramas]: Timeout reached during download
+[2024-04-03 09:15:19] WARNING root fetch - processPackages [sage-lib]: Timeout reached during download
+[2024-04-03 09:15:19] INFO root fetch - processPackages [custom-launch-buttons]: Downloading https://files.pythonhosted.org/packages/82/9a/e9533f94637c330f2cd4d8a20d6a0b994c806b07649966177fc16ae28a4b/custom-launch-buttons-1.1.1.tar.gz
+[2024-04-03 09:15:19] INFO root fetch - processPackages [robotframework-creartramas]: Downloading https://files.pythonhosted.org/packages/1a/e2/2e57d967b1e54edc8faa076ed539cd71f6efa8e4c386bcdf5dead06ccfc0/robotframework_creartramas-2.1.0.tar.gz
+[2024-04-03 09:15:19] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-04-03 09:15:19] INFO root fetch - processPackages [reptor]: Downloading https://files.pythonhosted.org/packages/c7/65/f1686cc6fdd1205203aaded033c6dfb9117dca3b72e9e9ab2b41aa2b99b7/reptor-0.9.tar.gz
+[2024-04-03 09:15:19] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/0c/bd/c87b8c89cd96667a2dc47e515d33dc70dc401f8319ab1c440d614490ed4d/isar-1.9.2.tar.gz
+[2024-04-03 09:15:19] WARNING root fetch - processPackages [custom-launch-buttons]: Timeout reached during download
+[2024-04-03 09:15:19] INFO root fetch - processPackages [custom-launch-buttons]: executing diffoscope
+[2024-04-03 09:15:19] INFO root fetch - processPackages [custom-launch-buttons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom-launch-buttons-1.1.0.tar.gz tmp/custom-launch-buttons-1.1.1.tar.gz --markdown 20240403/c/custom-launch-buttons/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-03 09:15:19] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/47/e4/6aefb4d16c81a0b7b546cadb557484d6d521dc93ce41bd491e80060443d4/sage_lib-0.1.4.9.tar.gz
+[2024-04-03 09:15:19] WARNING root fetch - processPackages [robotframework-creartramas]: Timeout reached during download
+[2024-04-03 09:15:19] INFO root fetch - processPackages [robotframework-creartramas]: executing diffoscope
+[2024-04-03 09:15:19] INFO root fetch - processPackages [robotframework-creartramas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_creartramas-2.0.0.tar.gz tmp/robotframework_creartramas-2.1.0.tar.gz --markdown 20240403/r/robotframework-creartramas/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2024-04-03 09:15:19] WARNING root fetch - processPackages [reptor]: Timeout reached during download
+[2024-04-03 09:15:19] INFO root fetch - processPackages [reptor]: executing diffoscope
+[2024-04-03 09:15:19] INFO root fetch - processPackages [reptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reptor-0.8.tar.gz tmp/reptor-0.9.tar.gz --markdown 20240403/r/reptor/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-03 09:15:19] WARNING root fetch - processPackages [isar]: Timeout reached during download
+[2024-04-03 09:15:19] INFO root fetch - processPackages [isar]: executing diffoscope
+[2024-04-03 09:15:19] INFO root fetch - processPackages [isar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isar-1.9.1.tar.gz tmp/isar-1.9.2.tar.gz --markdown 20240403/i/isar/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2024-04-03 09:15:19] WARNING root fetch - processPackages [sage-lib]: Timeout reached during download
+[2024-04-03 09:15:19] INFO root fetch - processPackages [sage-lib]: executing diffoscope
+[2024-04-03 09:15:19] INFO root fetch - processPackages [sage-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage_lib-0.1.4.8.tar.gz tmp/sage_lib-0.1.4.9.tar.gz --markdown 20240403/s/sage-lib/0.1.4.8-0.1.4.9/diff.md --exclude *.pyd
+[2024-04-03 09:15:20] WARNING root fetch - processPackages [luminesce-sdk-preview]: Timeout reached during download
+[2024-04-03 09:15:20] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-04-03 09:15:20] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240403/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2024-04-03 09:15:20] INFO root fetch - processPackages [robotframework-creartramas]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_creartramas-2.0.0.tar.gz]
+[2024-04-03 09:15:20] INFO root fetch - processPackages [robotframework-creartramas]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_creartramas-2.1.0.tar.gz]
+[2024-04-03 09:15:20] INFO root fetch - main [MainThread]: End processing [robotframework-creartramas]: success
+[2024-04-03 09:15:20] INFO root fetch - processPackages [custom-launch-buttons]: Remove: archive file [/home/abi/fetcher/tmp/custom-launch-buttons-1.1.0.tar.gz]
+[2024-04-03 09:15:20] INFO root fetch - processPackages [custom-launch-buttons]: Remove: archive file [/home/abi/fetcher/tmp/custom-launch-buttons-1.1.1.tar.gz]
+[2024-04-03 09:15:20] INFO root fetch - main [MainThread]: End processing [custom-launch-buttons]: success
+[2024-04-03 09:15:20] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.1.tar.gz]
+[2024-04-03 09:15:20] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.2.tar.gz]
+[2024-04-03 09:15:20] INFO root fetch - main [MainThread]: End processing [isar]: success
+[2024-04-03 09:15:20] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.4.8.tar.gz]
+[2024-04-03 09:15:20] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.4.9.tar.gz]
+[2024-04-03 09:15:20] INFO root fetch - main [MainThread]: End processing [sage-lib]: success
+[2024-04-03 09:15:20] INFO root fetch - processPackages [reptor]: Remove: archive file [/home/abi/fetcher/tmp/reptor-0.8.tar.gz]
+[2024-04-03 09:15:20] INFO root fetch - processPackages [reptor]: Remove: archive file [/home/abi/fetcher/tmp/reptor-0.9.tar.gz]
+[2024-04-03 09:15:20] INFO root fetch - main [MainThread]: End processing [reptor]: success
+[2024-04-03 09:15:21] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-04-03 09:15:21] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-04-03 09:15:21] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-04-03 09:15:21] INFO root fetch - main [MainThread]: Store serial: [22599239]

@@ -16882,3 +16882,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:14:04] INFO root fetch - processPackages [tencentcloud-sdk-python-anicloud]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-anicloud-3.0.999.tar.gz]
 [2024-04-03 06:14:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-anicloud]: success
 [2024-04-03 06:14:04] INFO root fetch - main [MainThread]: Store serial: [22597362]
+[2024-04-03 06:16:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597362]
+[2024-04-03 06:16:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 06:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snowflake-connector-python-nightly
+[2024-04-03 06:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pmpt
+[2024-04-03 06:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-apigateway
+[2024-04-03 06:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-apm
+[2024-04-03 06:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-asr
+[2024-04-03 06:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-asw
+[2024-04-03 06:16:13] INFO root fetch - processPackages [pmpt]: New version: [1.0.3] Old Version: [1.0.1.post8487904168]
+[2024-04-03 06:16:13] INFO root fetch - processPackages [pmpt]: Downloading https://files.pythonhosted.org/packages/7b/6d/fb99ef4119f2c434f6ae75f56da77e119554c3b7d30e6a9bb10c93b35ac5/pmpt-1.0.1.post8487904168-py3-none-any.whl
+[2024-04-03 06:16:13] INFO root fetch - processPackages [tencentcloud-sdk-python-apm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:16:13] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2024.4.3] Old Version: [2024.3.9]
+[2024-04-03 06:16:13] INFO root fetch - processPackages [tencentcloud-sdk-python-apigateway]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:16:14] WARNING root fetch - processPackages [pmpt]: Timeout reached during download
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-asr]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-apm]: Downloading https://files.pythonhosted.org/packages/35/f5/78161f817ad2ebec9dad430b1d7da0224d10b083e5ed7b1d6e3301ba5f70/tencentcloud-sdk-python-apm-3.0.998.tar.gz
+[2024-04-03 06:16:14] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/99/cb/e195ea9206989c7bf2fd83ce03cbc3285fc78507fcdb43e5426e96d34ca6/snowflake-connector-python-nightly-2024.3.9.tar.gz
+[2024-04-03 06:16:14] INFO root fetch - processPackages [pmpt]: Downloading https://files.pythonhosted.org/packages/b5/6d/1206240385f1253bab505e2d494bcbca444384bb0b3dc882ccf8416e1eae/pmpt-1.0.3.tar.gz
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-apigateway]: Downloading https://files.pythonhosted.org/packages/fe/83/fe78df52d9c832de3b86a61a6c0a5a201ca0350fb3f6a0e19150ec7dad40/tencentcloud-sdk-python-apigateway-3.0.998.tar.gz
+[2024-04-03 06:16:14] WARNING root fetch - processPackages [tencentcloud-sdk-python-apm]: Timeout reached during download
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-asr]: Downloading https://files.pythonhosted.org/packages/ec/87/f68dd247e89622e64feab7190d9465e153b8abff2f11440a81c61c01bac8/tencentcloud-sdk-python-asr-3.0.998.tar.gz
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: Downloading https://files.pythonhosted.org/packages/1f/71/b84e13bec8adb269790f659dea3e500fdaa0f94e439a1ec89ad96b75460f/tencentcloud-sdk-python-asw-3.0.998.tar.gz
+[2024-04-03 06:16:14] WARNING root fetch - processPackages [pmpt]: Timeout reached during download
+[2024-04-03 06:16:14] INFO root fetch - processPackages [pmpt]: executing diffoscope
+[2024-04-03 06:16:14] INFO root fetch - processPackages [pmpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmpt-1.0.1.post8487904168-py3-none-any.whl.zip tmp/pmpt-1.0.3.tar.gz --markdown 20240403/p/pmpt/1.0.1.post8487904168-1.0.3/diff.md --exclude *.pyd
+[2024-04-03 06:16:14] WARNING root fetch - processPackages [tencentcloud-sdk-python-apigateway]: Timeout reached during download
+[2024-04-03 06:16:14] WARNING root fetch - processPackages [tencentcloud-sdk-python-asr]: Timeout reached during download
+[2024-04-03 06:16:14] WARNING root fetch - processPackages [snowflake-connector-python-nightly]: Timeout reached during download
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-apm]: Downloading https://files.pythonhosted.org/packages/c2/71/325db42102663d82ca99b177263412eff539f2f7283d7b7bed58934f49d9/tencentcloud-sdk-python-apm-3.0.999.tar.gz
+[2024-04-03 06:16:14] WARNING root fetch - processPackages [tencentcloud-sdk-python-asw]: Timeout reached during download
+[2024-04-03 06:16:14] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/2a/62/15942963fa090c01da088f74745f5da494bc542434a3c61af74715a7b2e3/snowflake-connector-python-nightly-2024.4.3.tar.gz
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-apigateway]: Downloading https://files.pythonhosted.org/packages/0b/95/4d5c9acbf7aa52ae024b7e045289b754b9e4ac9d07a50c4669936a24f3d9/tencentcloud-sdk-python-apigateway-3.0.999.tar.gz
+[2024-04-03 06:16:14] WARNING root fetch - processPackages [tencentcloud-sdk-python-apm]: Timeout reached during download
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-apm]: executing diffoscope
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-apm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-apm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-apm-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-apm/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-asr]: Downloading https://files.pythonhosted.org/packages/46/3e/7f6691d963386fb6b252ecdd7978e06e8f723c83051dc6e49af7b36ed980/tencentcloud-sdk-python-asr-3.0.999.tar.gz
+[2024-04-03 06:16:14] WARNING root fetch - processPackages [tencentcloud-sdk-python-apigateway]: Timeout reached during download
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: Downloading https://files.pythonhosted.org/packages/a1/f6/ba1d634736ab5a2a47260f5e3f03c23b6c3dea00e5853d415ebc2e82b180/tencentcloud-sdk-python-asw-3.0.999.tar.gz
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-apigateway]: executing diffoscope
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-apigateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-apigateway-3.0.998.tar.gz tmp/tencentcloud-sdk-python-apigateway-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-apigateway/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:16:14] WARNING root fetch - processPackages [snowflake-connector-python-nightly]: Timeout reached during download
+[2024-04-03 06:16:14] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2024-04-03 06:16:14] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2024.3.9.tar.gz tmp/snowflake-connector-python-nightly-2024.4.3.tar.gz --markdown 20240403/s/snowflake-connector-python-nightly/2024.3.9-2024.4.3/diff.md --exclude *.pyd
+[2024-04-03 06:16:14] INFO root fetch - processPackages [pmpt]: Remove: archive file [/home/abi/fetcher/tmp/pmpt-1.0.1.post8487904168-py3-none-any.whl.zip]
+[2024-04-03 06:16:14] INFO root fetch - processPackages [pmpt]: Remove: archive file [/home/abi/fetcher/tmp/pmpt-1.0.3.tar.gz]
+[2024-04-03 06:16:14] INFO root fetch - main [MainThread]: End processing [pmpt]: success
+[2024-04-03 06:16:14] WARNING root fetch - processPackages [tencentcloud-sdk-python-asr]: Timeout reached during download
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-asr]: executing diffoscope
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-asr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-asr-3.0.998.tar.gz tmp/tencentcloud-sdk-python-asr-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-asr/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:16:14] WARNING root fetch - processPackages [tencentcloud-sdk-python-asw]: Timeout reached during download
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: executing diffoscope
+[2024-04-03 06:16:14] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-asw-3.0.998.tar.gz tmp/tencentcloud-sdk-python-asw-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-asw/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:16:15] INFO root fetch - processPackages [tencentcloud-sdk-python-apm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-apm-3.0.998.tar.gz]
+[2024-04-03 06:16:15] INFO root fetch - processPackages [tencentcloud-sdk-python-apm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-apm-3.0.999.tar.gz]
+[2024-04-03 06:16:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-apm]: success
+[2024-04-03 06:16:15] INFO root fetch - processPackages [tencentcloud-sdk-python-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-apigateway-3.0.998.tar.gz]
+[2024-04-03 06:16:15] INFO root fetch - processPackages [tencentcloud-sdk-python-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-apigateway-3.0.999.tar.gz]
+[2024-04-03 06:16:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-apigateway]: success
+[2024-04-03 06:16:15] INFO root fetch - processPackages [tencentcloud-sdk-python-asr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-asr-3.0.998.tar.gz]
+[2024-04-03 06:16:15] INFO root fetch - processPackages [tencentcloud-sdk-python-asr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-asr-3.0.999.tar.gz]
+[2024-04-03 06:16:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-asr]: success
+[2024-04-03 06:16:15] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-asw-3.0.998.tar.gz]
+[2024-04-03 06:16:15] INFO root fetch - processPackages [tencentcloud-sdk-python-asw]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-asw-3.0.999.tar.gz]
+[2024-04-03 06:16:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-asw]: success
+[2024-04-03 06:16:16] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.3.9.tar.gz]
+[2024-04-03 06:16:16] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.4.3.tar.gz]
+[2024-04-03 06:16:16] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2024-04-03 06:16:16] INFO root fetch - main [MainThread]: Store serial: [22597400]

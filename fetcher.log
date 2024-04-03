@@ -21765,3 +21765,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:21:51] INFO root fetch - processPackages [libbs]: Remove: archive file [/home/abi/fetcher/tmp/libbs-1.2.1.tar.gz]
 [2024-04-03 08:21:51] INFO root fetch - main [MainThread]: End processing [libbs]: success
 [2024-04-03 08:21:51] INFO root fetch - main [MainThread]: Store serial: [22598764]
+[2024-04-03 08:23:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598764]
+[2024-04-03 08:24:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 08:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-rule-reserve-max-quantity
+[2024-04-03 08:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SimpleJsonConfigParser
+[2024-04-03 08:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-picking-quick
+[2024-04-03 08:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tracking-lib
+[2024-04-03 08:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quark-engine
+[2024-04-03 08:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: almirah
+[2024-04-03 08:24:00] INFO root fetch - processPackages [SimpleJsonConfigParser]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-03 08:24:00] INFO root fetch - processPackages [odoo-addon-stock-picking-quick]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-04-03 08:24:00] INFO root fetch - processPackages [SimpleJsonConfigParser]: Downloading https://files.pythonhosted.org/packages/92/25/3035748e3a79d94d5aaadfe9d5395a4a3fb54a911503f88e1623b02569b1/SimpleJsonConfigParser-1.0.0.tar.gz
+[2024-04-03 08:24:00] INFO root fetch - processPackages [tracking-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-03 08:24:00] INFO root fetch - processPackages [odoo-addon-stock-rule-reserve-max-quantity]: New version: [16.0.1.0.1.3] Old Version: [16.0.1.0.1.1]
+[2024-04-03 08:24:00] INFO root fetch - processPackages [quark-engine]: New version: [24.4.1] Old Version: [24.2.1]
+[2024-04-03 08:24:00] INFO root fetch - processPackages [almirah]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-03 08:24:00] WARNING root fetch - processPackages [SimpleJsonConfigParser]: Timeout reached during download
+[2024-04-03 08:24:00] INFO root fetch - processPackages [tracking-lib]: Downloading https://files.pythonhosted.org/packages/91/95/1ef5ec083eb678959925543aaa2e9b75712a055100310a31b08e36bbad46/tracking_lib-0.1.8.tar.gz
+[2024-04-03 08:24:00] INFO root fetch - processPackages [odoo-addon-stock-picking-quick]: Downloading https://files.pythonhosted.org/packages/7a/ea/0be62888e0efea8313d6ca02b618b6116a8504ee2880298a1106d9fca7cd/odoo_addon_stock_picking_quick-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-03 08:24:00] INFO root fetch - processPackages [odoo-addon-stock-rule-reserve-max-quantity]: Downloading https://files.pythonhosted.org/packages/1d/a7/34cbaa5380b7af347c4c7ccd6bf7de2b6e47a56851cfe4208fff8dd1a0db/odoo_addon_stock_rule_reserve_max_quantity-16.0.1.0.1.1-py3-none-any.whl
+[2024-04-03 08:24:00] INFO root fetch - processPackages [quark-engine]: Downloading https://files.pythonhosted.org/packages/f9/9b/c4ad1446b9a50e9dd361fd7603e0c77bab6866f337d36cf8df34062b9515/quark-engine-24.2.1.tar.gz
+[2024-04-03 08:24:00] INFO root fetch - processPackages [almirah]: Downloading https://files.pythonhosted.org/packages/06/03/d7bff075e9e85055dbac6a0957e835cd8044fb8cd1d97a93c1d471e5492c/almirah-0.1.0.tar.gz
+[2024-04-03 08:24:00] INFO root fetch - processPackages [SimpleJsonConfigParser]: Downloading https://files.pythonhosted.org/packages/f8/63/51e8ea5ae3d60464d698916452d27e9662b291522ed3bf80b0578036e287/SimpleJsonConfigParser-1.0.1.tar.gz
+[2024-04-03 08:24:00] WARNING root fetch - processPackages [tracking-lib]: Timeout reached during download
+[2024-04-03 08:24:00] WARNING root fetch - processPackages [odoo-addon-stock-rule-reserve-max-quantity]: Timeout reached during download
+[2024-04-03 08:24:00] WARNING root fetch - processPackages [quark-engine]: Timeout reached during download
+[2024-04-03 08:24:00] WARNING root fetch - processPackages [odoo-addon-stock-picking-quick]: Timeout reached during download
+[2024-04-03 08:24:00] WARNING root fetch - processPackages [SimpleJsonConfigParser]: Timeout reached during download
+[2024-04-03 08:24:00] INFO root fetch - processPackages [SimpleJsonConfigParser]: executing diffoscope
+[2024-04-03 08:24:00] INFO root fetch - processPackages [SimpleJsonConfigParser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleJsonConfigParser-1.0.0.tar.gz tmp/SimpleJsonConfigParser-1.0.1.tar.gz --markdown 20240403/S/SimpleJsonConfigParser/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-03 08:24:01] WARNING root fetch - processPackages [almirah]: Timeout reached during download
+[2024-04-03 08:24:01] INFO root fetch - processPackages [quark-engine]: Downloading https://files.pythonhosted.org/packages/96/ef/41ef5a41c33f7c985102c8ae72f588ee4332cb8c182f39165e8bca014ef0/quark-engine-24.4.1.tar.gz
+[2024-04-03 08:24:01] INFO root fetch - processPackages [odoo-addon-stock-rule-reserve-max-quantity]: Downloading https://files.pythonhosted.org/packages/45/35/1298779a1f820f2eef9bba5d1687b0c55d25eabd78578ca92a17c8d69802/odoo_addon_stock_rule_reserve_max_quantity-16.0.1.0.1.3-py3-none-any.whl
+[2024-04-03 08:24:01] INFO root fetch - processPackages [tracking-lib]: Downloading https://files.pythonhosted.org/packages/5b/10/d49a9313bd82173c43c2ff349da8b1726dd89eb90c4fe9aee184c56ef64c/tracking_lib-0.1.9.tar.gz
+[2024-04-03 08:24:01] INFO root fetch - processPackages [odoo-addon-stock-picking-quick]: Downloading https://files.pythonhosted.org/packages/22/56/7ef9445f60c8d8797ba63fd0bc355e5d168dc088c5db5e7b77484809afdb/odoo_addon_stock_picking_quick-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-03 08:24:01] WARNING root fetch - processPackages [tracking-lib]: Timeout reached during download
+[2024-04-03 08:24:01] INFO root fetch - processPackages [tracking-lib]: executing diffoscope
+[2024-04-03 08:24:01] INFO root fetch - processPackages [tracking-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracking_lib-0.1.8.tar.gz tmp/tracking_lib-0.1.9.tar.gz --markdown 20240403/t/tracking-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-03 08:24:01] WARNING root fetch - processPackages [odoo-addon-stock-rule-reserve-max-quantity]: Timeout reached during download
+[2024-04-03 08:24:01] INFO root fetch - processPackages [odoo-addon-stock-rule-reserve-max-quantity]: executing diffoscope
+[2024-04-03 08:24:01] INFO root fetch - processPackages [odoo-addon-stock-rule-reserve-max-quantity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_rule_reserve_max_quantity-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_stock_rule_reserve_max_quantity-16.0.1.0.1.3-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-stock-rule-reserve-max-quantity/16.0.1.0.1.1-16.0.1.0.1.3/diff.md --exclude *.pyd
+[2024-04-03 08:24:01] WARNING root fetch - processPackages [odoo-addon-stock-picking-quick]: Timeout reached during download
+[2024-04-03 08:24:01] INFO root fetch - processPackages [odoo-addon-stock-picking-quick]: executing diffoscope
+[2024-04-03 08:24:01] INFO root fetch - processPackages [odoo-addon-stock-picking-quick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_quick-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_quick-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-stock-picking-quick/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-03 08:24:01] WARNING root fetch - processPackages [quark-engine]: Timeout reached during download
+[2024-04-03 08:24:01] INFO root fetch - processPackages [quark-engine]: executing diffoscope
+[2024-04-03 08:24:01] INFO root fetch - processPackages [quark-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quark-engine-24.2.1.tar.gz tmp/quark-engine-24.4.1.tar.gz --markdown 20240403/q/quark-engine/24.2.1-24.4.1/diff.md --exclude *.pyd
+[2024-04-03 08:24:01] INFO root fetch - processPackages [almirah]: Downloading https://files.pythonhosted.org/packages/c5/e5/c218625621b371d8aa29b239c6edb98cdb73892285f26cdeb0064b2cc036/almirah-0.2.0.tar.gz
+[2024-04-03 08:24:01] INFO root fetch - processPackages [SimpleJsonConfigParser]: Remove: archive file [/home/abi/fetcher/tmp/SimpleJsonConfigParser-1.0.0.tar.gz]
+[2024-04-03 08:24:01] INFO root fetch - processPackages [SimpleJsonConfigParser]: Remove: archive file [/home/abi/fetcher/tmp/SimpleJsonConfigParser-1.0.1.tar.gz]
+[2024-04-03 08:24:01] INFO root fetch - main [MainThread]: End processing [SimpleJsonConfigParser]: success
+[2024-04-03 08:24:01] WARNING root fetch - processPackages [almirah]: Timeout reached during download
+[2024-04-03 08:24:01] INFO root fetch - processPackages [almirah]: executing diffoscope
+[2024-04-03 08:24:01] INFO root fetch - processPackages [almirah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almirah-0.1.0.tar.gz tmp/almirah-0.2.0.tar.gz --markdown 20240403/a/almirah/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-03 08:24:01] INFO root fetch - processPackages [tracking-lib]: Remove: archive file [/home/abi/fetcher/tmp/tracking_lib-0.1.8.tar.gz]
+[2024-04-03 08:24:01] INFO root fetch - processPackages [tracking-lib]: Remove: archive file [/home/abi/fetcher/tmp/tracking_lib-0.1.9.tar.gz]
+[2024-04-03 08:24:01] INFO root fetch - main [MainThread]: End processing [tracking-lib]: success
+[2024-04-03 08:24:01] INFO root fetch - processPackages [odoo-addon-stock-picking-quick]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_quick-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-03 08:24:01] INFO root fetch - processPackages [odoo-addon-stock-picking-quick]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_quick-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-03 08:24:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-quick]: success
+[2024-04-03 08:24:02] INFO root fetch - processPackages [quark-engine]: Remove: archive file [/home/abi/fetcher/tmp/quark-engine-24.2.1.tar.gz]
+[2024-04-03 08:24:02] INFO root fetch - processPackages [quark-engine]: Remove: archive file [/home/abi/fetcher/tmp/quark-engine-24.4.1.tar.gz]
+[2024-04-03 08:24:02] INFO root fetch - main [MainThread]: End processing [quark-engine]: success
+[2024-04-03 08:24:02] INFO root fetch - processPackages [odoo-addon-stock-rule-reserve-max-quantity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_rule_reserve_max_quantity-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-04-03 08:24:02] INFO root fetch - processPackages [odoo-addon-stock-rule-reserve-max-quantity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_rule_reserve_max_quantity-16.0.1.0.1.3-py3-none-any.whl.zip]
+[2024-04-03 08:24:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-rule-reserve-max-quantity]: success
+[2024-04-03 08:24:02] INFO root fetch - processPackages [almirah]: Remove: archive file [/home/abi/fetcher/tmp/almirah-0.1.0.tar.gz]
+[2024-04-03 08:24:02] INFO root fetch - processPackages [almirah]: Remove: archive file [/home/abi/fetcher/tmp/almirah-0.2.0.tar.gz]
+[2024-04-03 08:24:02] INFO root fetch - main [MainThread]: End processing [almirah]: success
+[2024-04-03 08:24:02] INFO root fetch - main [MainThread]: Store serial: [22598777]

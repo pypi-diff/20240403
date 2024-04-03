@@ -18409,3 +18409,89 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:53:54] INFO root fetch - processPackages [oelint-adv]: Remove: archive file [/home/abi/fetcher/tmp/oelint_adv-5.1.2.tar.gz]
 [2024-04-03 06:53:54] INFO root fetch - main [MainThread]: End processing [oelint-adv]: success
 [2024-04-03 06:53:54] INFO root fetch - main [MainThread]: Store serial: [22597814]
+[2024-04-03 06:55:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597814]
+[2024-04-03 06:56:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-03 06:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-intl-en
+[2024-04-03 06:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: consolectrlchandler
+[2024-04-03 06:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azure-template
+[2024-04-03 06:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-emr
+[2024-04-03 06:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-es
+[2024-04-03 06:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OrthoBase
+[2024-04-03 06:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-ess
+[2024-04-03 06:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyminerva
+[2024-04-03 06:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-essbasic
+[2024-04-03 06:56:03] WARNING root fetch - processPackages [consolectrlchandler]: Skipping, unable to determine old version
+[2024-04-03 06:56:03] INFO root fetch - main [MainThread]: End processing [consolectrlchandler] error
+[2024-04-03 06:56:03] INFO root fetch - processPackages [pyminerva]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-03 06:56:03] INFO root fetch - processPackages [azure-template]: New version: [0.1.0b971103] Old Version: [0.1.0b954542]
+[2024-04-03 06:56:03] WARNING root fetch - processPackages [OrthoBase]: Skipping, unable to determine old version
+[2024-04-03 06:56:03] INFO root fetch - main [MainThread]: End processing [OrthoBase] error
+[2024-04-03 06:56:03] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/71/85/01e8f26ee3130cf86f9e4b898bf1c77b6edaa3ff18d78ab72ab3042c1c41/pyminerva-0.0.98.tar.gz
+[2024-04-03 06:56:03] INFO root fetch - processPackages [azure-template]: Downloading https://files.pythonhosted.org/packages/82/04/b1cf5ee1227ca7899decd531cd1521ea523ed4cbdc8ce0e3d7e58ca8331c/azure-template-0.1.0b954542.zip
+[2024-04-03 06:56:03] INFO root fetch - processPackages [tencentcloud-sdk-python-emr]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:56:03] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2024-04-03 06:56:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ess]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:56:03] INFO root fetch - processPackages [tencentcloud-sdk-python-essbasic]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:56:03] INFO root fetch - processPackages [tencentcloud-sdk-python-es]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:56:03] WARNING root fetch - processPackages [azure-template]: Timeout reached during download
+[2024-04-03 06:56:03] WARNING root fetch - processPackages [pyminerva]: Timeout reached during download
+[2024-04-03 06:56:03] INFO root fetch - processPackages [azure-template]: Downloading https://files.pythonhosted.org/packages/a3/ab/51e8db029e6b46655758882e5ee630afbf245243726a418c4125d2ae7e4e/azure-template-0.1.0b971103.zip
+[2024-04-03 06:56:03] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/30/9b/396cf38441ad3c8ce48c213fff676d95f1f3f4feeb1b7dc8824277fe413e/pyminerva-0.0.99.tar.gz
+[2024-04-03 06:56:03] INFO root fetch - processPackages [tencentcloud-sdk-python-emr]: Downloading https://files.pythonhosted.org/packages/a9/32/9606261befc7857856c8c5fb03c2442c452f8a0f0dda2c60fc8007ff5482/tencentcloud-sdk-python-emr-3.0.998.tar.gz
+[2024-04-03 06:56:03] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2024-04-03 06:56:03] INFO root fetch - processPackages [tencentcloud-sdk-python-essbasic]: Downloading https://files.pythonhosted.org/packages/39/78/833bd063a50a5d14f87c4c81faa9cce750a898d0679062fd52efb2ccaa5f/tencentcloud-sdk-python-essbasic-3.0.998.tar.gz
+[2024-04-03 06:56:03] INFO root fetch - processPackages [tencentcloud-sdk-python-es]: Downloading https://files.pythonhosted.org/packages/d4/d9/79376c84a007535ebb58384ab483c18698c58c5cc30724f7819cdf2dcddf/tencentcloud-sdk-python-es-3.0.998.tar.gz
+[2024-04-03 06:56:03] INFO root fetch - processPackages [tencentcloud-sdk-python-ess]: Downloading https://files.pythonhosted.org/packages/bf/f5/add32b3e80dc7dc9a3231e6f4b700ea05e62b2ee607c852314e27ed25256/tencentcloud-sdk-python-ess-3.0.998.tar.gz
+[2024-04-03 06:56:03] WARNING root fetch - processPackages [pyminerva]: Timeout reached during download
+[2024-04-03 06:56:03] INFO root fetch - processPackages [pyminerva]: executing diffoscope
+[2024-04-03 06:56:03] INFO root fetch - processPackages [pyminerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminerva-0.0.98.tar.gz tmp/pyminerva-0.0.99.tar.gz --markdown 20240403/p/pyminerva/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-03 06:56:03] WARNING root fetch - processPackages [azure-template]: Timeout reached during download
+[2024-04-03 06:56:03] INFO root fetch - processPackages [azure-template]: executing diffoscope
+[2024-04-03 06:56:03] INFO root fetch - processPackages [azure-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-template-0.1.0b954542.zip tmp/azure-template-0.1.0b971103.zip --markdown 20240403/a/azure-template/0.1.0b954542-0.1.0b971103/diff.md --exclude *.pyd
+[2024-04-03 06:56:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-emr]: Timeout reached during download
+[2024-04-03 06:56:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-essbasic]: Timeout reached during download
+[2024-04-03 06:56:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-es]: Timeout reached during download
+[2024-04-03 06:56:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Timeout reached during download
+[2024-04-03 06:56:03] WARNING root fetch - processPackages [tencentcloud-sdk-python-ess]: Timeout reached during download
+[2024-04-03 06:56:03] INFO root fetch - processPackages [tencentcloud-sdk-python-emr]: Downloading https://files.pythonhosted.org/packages/8f/c6/6340d03e9eaf5877d67acc1ed3eca340423f4df6cf67bfdf06a33d5f772e/tencentcloud-sdk-python-emr-3.0.999.tar.gz
+[2024-04-03 06:56:03] INFO root fetch - processPackages [tencentcloud-sdk-python-essbasic]: Downloading https://files.pythonhosted.org/packages/86/59/2fe92dc83bfc84eb92e2926dc01e53bb79148f4c8ba9c3601d478f91fe4d/tencentcloud-sdk-python-essbasic-3.0.999.tar.gz
+[2024-04-03 06:56:03] INFO root fetch - processPackages [tencentcloud-sdk-python-es]: Downloading https://files.pythonhosted.org/packages/ff/5c/30c47b78d1be8a05310e9983ff5be68df6cc811319661459bdc97686baea/tencentcloud-sdk-python-es-3.0.999.tar.gz
+[2024-04-03 06:56:03] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2024-04-03 06:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-ess]: Downloading https://files.pythonhosted.org/packages/a4/41/54f869016ef207d3049a1090a7e4726157aace5ae633618e05b3d6f17a99/tencentcloud-sdk-python-ess-3.0.999.tar.gz
+[2024-04-03 06:56:04] WARNING root fetch - processPackages [tencentcloud-sdk-python-emr]: Timeout reached during download
+[2024-04-03 06:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-emr]: executing diffoscope
+[2024-04-03 06:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-emr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-emr-3.0.998.tar.gz tmp/tencentcloud-sdk-python-emr-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-emr/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:56:04] WARNING root fetch - processPackages [tencentcloud-sdk-python-es]: Timeout reached during download
+[2024-04-03 06:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-es]: executing diffoscope
+[2024-04-03 06:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-es]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-es-3.0.998.tar.gz tmp/tencentcloud-sdk-python-es-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-es/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:56:04] WARNING root fetch - processPackages [tencentcloud-sdk-python-essbasic]: Timeout reached during download
+[2024-04-03 06:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-essbasic]: executing diffoscope
+[2024-04-03 06:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-essbasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-essbasic-3.0.998.tar.gz tmp/tencentcloud-sdk-python-essbasic-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-essbasic/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:56:04] INFO root fetch - processPackages [azure-template]: Remove: archive file [/home/abi/fetcher/tmp/azure-template-0.1.0b954542.zip]
+[2024-04-03 06:56:04] INFO root fetch - processPackages [azure-template]: Remove: archive file [/home/abi/fetcher/tmp/azure-template-0.1.0b971103.zip]
+[2024-04-03 06:56:04] WARNING root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Timeout reached during download
+[2024-04-03 06:56:04] INFO root fetch - main [MainThread]: End processing [azure-template]: success
+[2024-04-03 06:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2024-04-03 06:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2024-04-03 06:56:04] WARNING root fetch - processPackages [tencentcloud-sdk-python-ess]: Timeout reached during download
+[2024-04-03 06:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-ess]: executing diffoscope
+[2024-04-03 06:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-ess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ess-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ess-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-ess/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:56:04] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.98.tar.gz]
+[2024-04-03 06:56:04] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
+[2024-04-03 06:56:04] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
+[2024-04-03 06:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-es]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-es-3.0.998.tar.gz]
+[2024-04-03 06:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-es]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-es-3.0.999.tar.gz]
+[2024-04-03 06:56:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-es]: success
+[2024-04-03 06:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-emr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-emr-3.0.998.tar.gz]
+[2024-04-03 06:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-emr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-emr-3.0.999.tar.gz]
+[2024-04-03 06:56:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-emr]: success
+[2024-04-03 06:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-essbasic]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-essbasic-3.0.998.tar.gz]
+[2024-04-03 06:56:04] INFO root fetch - processPackages [tencentcloud-sdk-python-essbasic]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-essbasic-3.0.999.tar.gz]
+[2024-04-03 06:56:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-essbasic]: success
+[2024-04-03 06:56:05] INFO root fetch - processPackages [tencentcloud-sdk-python-ess]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ess-3.0.998.tar.gz]
+[2024-04-03 06:56:05] INFO root fetch - processPackages [tencentcloud-sdk-python-ess]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ess-3.0.999.tar.gz]
+[2024-04-03 06:56:05] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ess]: success
+[2024-04-03 06:56:05] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2024-04-03 06:56:05] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2024-04-03 06:56:05] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2024-04-03 06:56:05] INFO root fetch - main [MainThread]: Store serial: [22597842]

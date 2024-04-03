@@ -19160,3 +19160,91 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 07:09:15] INFO root fetch - processPackages [hyload]: Remove: archive file [/home/abi/fetcher/tmp/hyload-0.4.0-py3-none-any.whl.zip]
 [2024-04-03 07:09:15] INFO root fetch - main [MainThread]: End processing [hyload]: success
 [2024-04-03 07:09:15] INFO root fetch - main [MainThread]: Store serial: [22598027]
+[2024-04-03 07:11:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598027]
+[2024-04-03 07:11:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-03 07:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tg-flask-sse-common
+[2024-04-03 07:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-mna
+[2024-04-03 07:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: substrate
+[2024-04-03 07:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-mongodb
+[2024-04-03 07:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-monitor
+[2024-04-03 07:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: td-pyspark
+[2024-04-03 07:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tablelinker-light
+[2024-04-03 07:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-mps
+[2024-04-03 07:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-pms-housekeeping
+[2024-04-03 07:11:24] INFO root fetch - processPackages [tg-flask-sse-common]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-04-03 07:11:24] INFO root fetch - processPackages [substrate]: New version: [120240403.0.1] Old Version: [120240315.0.1]
+[2024-04-03 07:11:24] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/64/85/923ad738fbc44e802f2b18fa9c48b40af09aa79b675a3a623247396b641c/tg_flask_sse_common-2.0.4.tar.gz
+[2024-04-03 07:11:24] INFO root fetch - processPackages [odoo14-addon-pms-housekeeping]: New version: [14.0.1.0.2.dev8] Old Version: [14.0.1.0.2.dev7]
+[2024-04-03 07:11:24] WARNING root fetch - processPackages [tablelinker-light]: Skipping, unable to determine old version
+[2024-04-03 07:11:24] INFO root fetch - main [MainThread]: End processing [tablelinker-light] error
+[2024-04-03 07:11:24] INFO root fetch - processPackages [td-pyspark]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-03 07:11:24] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:11:24] INFO root fetch - processPackages [tencentcloud-sdk-python-monitor]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:11:24] INFO root fetch - processPackages [tencentcloud-sdk-python-mna]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:11:24] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 07:11:24] WARNING root fetch - processPackages [tg-flask-sse-common]: Timeout reached during download
+[2024-04-03 07:11:24] INFO root fetch - processPackages [substrate]: Downloading https://files.pythonhosted.org/packages/ad/b1/dbee7c972d49bb11558e5953062c3a3ef5dc30d5b4c38ebd92cc2c9e1f10/substrate-120240315.0.1.tar.gz
+[2024-04-03 07:11:24] INFO root fetch - processPackages [odoo14-addon-pms-housekeeping]: Downloading https://files.pythonhosted.org/packages/0f/70/a248e3fb238bb666ddfb1dc4f288d8bda204de407645aec7ae4cbf135ab8/odoo14_addon_pms_housekeeping-14.0.1.0.2.dev7-py3-none-any.whl
+[2024-04-03 07:11:24] INFO root fetch - processPackages [td-pyspark]: Downloading https://files.pythonhosted.org/packages/c3/d3/6165df41d3f26ab8724d60b9c0a89d2795835dce6c55b3e78bad89db2eb7/td_pyspark-24.2.0.tar.gz
+[2024-04-03 07:11:24] INFO root fetch - processPackages [tencentcloud-sdk-python-monitor]: Downloading https://files.pythonhosted.org/packages/a6/83/58665ae178847abfc53e436f9ab1d2de75d9631b7422301feda3dca7f989/tencentcloud-sdk-python-monitor-3.0.998.tar.gz
+[2024-04-03 07:11:24] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: Downloading https://files.pythonhosted.org/packages/17/f1/436979fbdd2dea336a7ee8794f2688876b3b4fb2fdf7357598183b80b133/tencentcloud-sdk-python-mongodb-3.0.998.tar.gz
+[2024-04-03 07:11:24] INFO root fetch - processPackages [tencentcloud-sdk-python-mna]: Downloading https://files.pythonhosted.org/packages/96/ed/31d652fbc2576a61b82a5ccd5ac8c4d90181ff12edb2b33726fc57ec95eb/tencentcloud-sdk-python-mna-3.0.998.tar.gz
+[2024-04-03 07:11:24] WARNING root fetch - processPackages [td-pyspark]: Skipping package: exceeds size limit 21592112>=10485760
+[2024-04-03 07:11:24] INFO root fetch - main [MainThread]: End processing [td-pyspark] error
+[2024-04-03 07:11:24] WARNING root fetch - processPackages [substrate]: Timeout reached during download
+[2024-04-03 07:11:24] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/25/95/91db77b4572b6c42caf50baa7ae801753c9dad20fefe885262cca62c70ea/tg_flask_sse_common-2.0.5.tar.gz
+[2024-04-03 07:11:24] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: Downloading https://files.pythonhosted.org/packages/64/a1/cd09e726dd2636742c056da6982096c33a6f299d8d44a35519224b52ed43/tencentcloud-sdk-python-mps-3.0.998.tar.gz
+[2024-04-03 07:11:24] WARNING root fetch - processPackages [odoo14-addon-pms-housekeeping]: Timeout reached during download
+[2024-04-03 07:11:24] WARNING root fetch - processPackages [tencentcloud-sdk-python-mongodb]: Timeout reached during download
+[2024-04-03 07:11:24] WARNING root fetch - processPackages [tencentcloud-sdk-python-mna]: Timeout reached during download
+[2024-04-03 07:11:24] WARNING root fetch - processPackages [tencentcloud-sdk-python-monitor]: Timeout reached during download
+[2024-04-03 07:11:24] WARNING root fetch - processPackages [tg-flask-sse-common]: Timeout reached during download
+[2024-04-03 07:11:24] INFO root fetch - processPackages [tg-flask-sse-common]: executing diffoscope
+[2024-04-03 07:11:24] INFO root fetch - processPackages [tg-flask-sse-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_flask_sse_common-2.0.4.tar.gz tmp/tg_flask_sse_common-2.0.5.tar.gz --markdown 20240403/t/tg-flask-sse-common/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2024-04-03 07:11:24] INFO root fetch - processPackages [substrate]: Downloading https://files.pythonhosted.org/packages/88/04/2ff0043e6bb21940d2a4849ca23df61b056ea3678297f290cae454e3cc56/substrate-120240403.0.1.tar.gz
+[2024-04-03 07:11:24] INFO root fetch - processPackages [odoo14-addon-pms-housekeeping]: Downloading https://files.pythonhosted.org/packages/8e/a7/ac05734e6523f0e1cc6d4c3910d80ebc154e0f5e0004b5b8f5d344f0c181/odoo14_addon_pms_housekeeping-14.0.1.0.2.dev8-py3-none-any.whl
+[2024-04-03 07:11:24] WARNING root fetch - processPackages [substrate]: Timeout reached during download
+[2024-04-03 07:11:24] INFO root fetch - processPackages [substrate]: executing diffoscope
+[2024-04-03 07:11:24] INFO root fetch - processPackages [substrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrate-120240315.0.1.tar.gz tmp/substrate-120240403.0.1.tar.gz --markdown 20240403/s/substrate/120240315.0.1-120240403.0.1/diff.md --exclude *.pyd
+[2024-04-03 07:11:24] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: Downloading https://files.pythonhosted.org/packages/b1/07/18762c8943abc4b4259d50c87261a6f8f14bff54d6f3a52568c800c7e2ce/tencentcloud-sdk-python-mongodb-3.0.999.tar.gz
+[2024-04-03 07:11:25] INFO root fetch - processPackages [tencentcloud-sdk-python-mna]: Downloading https://files.pythonhosted.org/packages/e5/4b/69435e8c979528ff473e6eacd06308dd14db52b2bd1399a1eb1ff2d2ee15/tencentcloud-sdk-python-mna-3.0.999.tar.gz
+[2024-04-03 07:11:25] INFO root fetch - processPackages [tencentcloud-sdk-python-monitor]: Downloading https://files.pythonhosted.org/packages/65/2e/0011651653eefe63fc3b7a738f6a9eacb86d8497718f1ebe5b73d04e11dd/tencentcloud-sdk-python-monitor-3.0.999.tar.gz
+[2024-04-03 07:11:25] WARNING root fetch - processPackages [odoo14-addon-pms-housekeeping]: Timeout reached during download
+[2024-04-03 07:11:25] INFO root fetch - processPackages [odoo14-addon-pms-housekeeping]: executing diffoscope
+[2024-04-03 07:11:25] INFO root fetch - processPackages [odoo14-addon-pms-housekeeping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms_housekeeping-14.0.1.0.2.dev7-py3-none-any.whl.zip tmp/odoo14_addon_pms_housekeeping-14.0.1.0.2.dev8-py3-none-any.whl.zip --markdown 20240403/o/odoo14-addon-pms-housekeeping/14.0.1.0.2.dev7-14.0.1.0.2.dev8/diff.md --exclude *.pyd
+[2024-04-03 07:11:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-mps]: Timeout reached during download
+[2024-04-03 07:11:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-mongodb]: Timeout reached during download
+[2024-04-03 07:11:25] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: executing diffoscope
+[2024-04-03 07:11:25] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mongodb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mongodb-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-mongodb/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:11:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-mna]: Timeout reached during download
+[2024-04-03 07:11:25] INFO root fetch - processPackages [tencentcloud-sdk-python-mna]: executing diffoscope
+[2024-04-03 07:11:25] INFO root fetch - processPackages [tencentcloud-sdk-python-mna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mna-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mna-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-mna/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:11:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-monitor]: Timeout reached during download
+[2024-04-03 07:11:25] INFO root fetch - processPackages [tencentcloud-sdk-python-monitor]: executing diffoscope
+[2024-04-03 07:11:25] INFO root fetch - processPackages [tencentcloud-sdk-python-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-monitor-3.0.998.tar.gz tmp/tencentcloud-sdk-python-monitor-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-monitor/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:11:25] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: Downloading https://files.pythonhosted.org/packages/de/bc/2588a7a442bb535b0019fc9daf9e8ee42136536cb50fd800f26a58b81b2b/tencentcloud-sdk-python-mps-3.0.999.tar.gz
+[2024-04-03 07:11:25] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-2.0.4.tar.gz]
+[2024-04-03 07:11:25] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-2.0.5.tar.gz]
+[2024-04-03 07:11:25] INFO root fetch - main [MainThread]: End processing [tg-flask-sse-common]: success
+[2024-04-03 07:11:25] WARNING root fetch - processPackages [tencentcloud-sdk-python-mps]: Timeout reached during download
+[2024-04-03 07:11:25] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: executing diffoscope
+[2024-04-03 07:11:25] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mps-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mps-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-mps/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 07:11:25] INFO root fetch - processPackages [odoo14-addon-pms-housekeeping]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms_housekeeping-14.0.1.0.2.dev7-py3-none-any.whl.zip]
+[2024-04-03 07:11:25] INFO root fetch - processPackages [odoo14-addon-pms-housekeeping]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms_housekeeping-14.0.1.0.2.dev8-py3-none-any.whl.zip]
+[2024-04-03 07:11:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms-housekeeping]: success
+[2024-04-03 07:11:25] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mongodb-3.0.998.tar.gz]
+[2024-04-03 07:11:25] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mongodb-3.0.999.tar.gz]
+[2024-04-03 07:11:25] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mongodb]: success
+[2024-04-03 07:11:25] INFO root fetch - processPackages [tencentcloud-sdk-python-mna]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mna-3.0.998.tar.gz]
+[2024-04-03 07:11:25] INFO root fetch - processPackages [tencentcloud-sdk-python-mna]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mna-3.0.999.tar.gz]
+[2024-04-03 07:11:25] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mna]: success
+[2024-04-03 07:11:25] INFO root fetch - processPackages [substrate]: Remove: archive file [/home/abi/fetcher/tmp/substrate-120240315.0.1.tar.gz]
+[2024-04-03 07:11:25] INFO root fetch - processPackages [substrate]: Remove: archive file [/home/abi/fetcher/tmp/substrate-120240403.0.1.tar.gz]
+[2024-04-03 07:11:25] INFO root fetch - main [MainThread]: End processing [substrate]: success
+[2024-04-03 07:11:26] INFO root fetch - processPackages [tencentcloud-sdk-python-monitor]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-monitor-3.0.998.tar.gz]
+[2024-04-03 07:11:26] INFO root fetch - processPackages [tencentcloud-sdk-python-monitor]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-monitor-3.0.999.tar.gz]
+[2024-04-03 07:11:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-monitor]: success
+[2024-04-03 07:11:26] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mps-3.0.998.tar.gz]
+[2024-04-03 07:11:26] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mps-3.0.999.tar.gz]
+[2024-04-03 07:11:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mps]: success
+[2024-04-03 07:11:26] INFO root fetch - main [MainThread]: Store serial: [22598055]

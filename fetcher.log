@@ -22601,3 +22601,22 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:54:55] INFO root fetch - processPackages [recce]: Remove: archive file [/home/abi/fetcher/tmp/recce-0.9.0.tar.gz]
 [2024-04-03 08:54:55] INFO root fetch - main [MainThread]: End processing [recce]: success
 [2024-04-03 08:54:55] INFO root fetch - main [MainThread]: Store serial: [22599065]
+[2024-04-03 08:56:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599065]
+[2024-04-03 08:57:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 08:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autoai-ts-libs
+[2024-04-03 08:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai-butler-sdk
+[2024-04-03 08:57:04] INFO root fetch - processPackages [ai-butler-sdk]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-04-03 08:57:04] INFO root fetch - processPackages [ai-butler-sdk]: Downloading https://files.pythonhosted.org/packages/a3/07/912eb98b087d4e57ee0ec6fda273a60522a54ae5199cfc3067487788e478/ai_butler_sdk-0.4.7.tar.gz
+[2024-04-03 08:57:04] INFO root fetch - processPackages [autoai-ts-libs]: New version: [3.2.2] Old Version: [3.2.1]
+[2024-04-03 08:57:04] WARNING root fetch - processPackages [ai-butler-sdk]: Timeout reached during download
+[2024-04-03 08:57:05] INFO root fetch - processPackages [autoai-ts-libs]: Downloading https://files.pythonhosted.org/packages/ee/ed/70bf7ed02a0781d76b893625b06f2ca59a4d9095b7e9229455b258f85756/autoai_ts_libs-3.2.1-cp310-cp310-win_amd64.whl
+[2024-04-03 08:57:05] WARNING root fetch - processPackages [autoai-ts-libs]: Skipping package: exceeds size limit 23812428>=10485760
+[2024-04-03 08:57:05] INFO root fetch - main [MainThread]: End processing [autoai-ts-libs] error
+[2024-04-03 08:57:05] INFO root fetch - processPackages [ai-butler-sdk]: Downloading https://files.pythonhosted.org/packages/b6/c8/57392da4d0a94ea86af59191a2acb212d21b731773bbb159d1bf638820d7/ai_butler_sdk-0.4.8.tar.gz
+[2024-04-03 08:57:05] WARNING root fetch - processPackages [ai-butler-sdk]: Timeout reached during download
+[2024-04-03 08:57:05] INFO root fetch - processPackages [ai-butler-sdk]: executing diffoscope
+[2024-04-03 08:57:05] INFO root fetch - processPackages [ai-butler-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_butler_sdk-0.4.7.tar.gz tmp/ai_butler_sdk-0.4.8.tar.gz --markdown 20240403/a/ai-butler-sdk/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2024-04-03 08:57:05] INFO root fetch - processPackages [ai-butler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai_butler_sdk-0.4.7.tar.gz]
+[2024-04-03 08:57:05] INFO root fetch - processPackages [ai-butler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai_butler_sdk-0.4.8.tar.gz]
+[2024-04-03 08:57:05] INFO root fetch - main [MainThread]: End processing [ai-butler-sdk]: success
+[2024-04-03 08:57:05] INFO root fetch - main [MainThread]: Store serial: [22599074]

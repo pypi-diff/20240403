@@ -3441,3 +3441,88 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 02:39:01] INFO root fetch - processPackages [shipyard-mode]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_mode-0.1.1a0.tar.gz]
 [2024-04-03 02:39:01] INFO root fetch - main [MainThread]: End processing [shipyard-mode]: success
 [2024-04-03 02:39:01] INFO root fetch - main [MainThread]: Store serial: [22593474]
+[2024-04-03 02:41:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593474]
+[2024-04-03 02:41:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-03 02:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medor
+[2024-04-03 02:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flet-core
+[2024-04-03 02:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flet-runtime
+[2024-04-03 02:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet-embed
+[2024-04-03 02:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet
+[2024-04-03 02:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Leonardo-Ai-SDK
+[2024-04-03 02:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet-pyodide
+[2024-04-03 02:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nautobot-golden-config
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-core]: New version: [0.9.0.dev1631] Old Version: [0.9.0.dev1630]
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-embed]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-03 02:41:11] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [5.3.0] Old Version: [5.2.6]
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-pyodide]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-runtime]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-03 02:41:11] INFO root fetch - processPackages [medor]: New version: [0.0.1b3] Old Version: [0.0.1b2]
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-03 02:41:11] INFO root fetch - processPackages [nautobot-golden-config]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/06/78/2b607ba8cf90f09185f6b1de3138bf723d510d19ee11130a68433cce2d20/flet_core-0.9.0.dev1630.tar.gz
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/78/0b/3b2abde2d3702bc07cf45b3f8552c52075ee039269b94f62432c08e3a549/flet_embed-0.8.4.tar.gz
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/15/82/9fa16b72f5adaebe976011591b069855d21edeaa5b2c89f27fc177fb62f1/flet_runtime-0.8.4.tar.gz
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/ce/fc/0ddf2fc596aee033604fc82eaba85dae0d03a7ccf44591e532a1f9e3db17/flet-0.8.4.tar.gz
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/f5/35/853e25293958dcbd636693f30ba26fe5cdc28b47ead0afcb3ecaa9fffad1/flet_pyodide-0.8.4.tar.gz
+[2024-04-03 02:41:11] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/47/1a/f6aadb736dece9069a468953fa42aea606845da63b9a1dcf9d4c1039ce2b/Leonardo-Ai-SDK-5.2.6.tar.gz
+[2024-04-03 02:41:11] INFO root fetch - processPackages [medor]: Downloading https://files.pythonhosted.org/packages/d1/d0/dba121474d31d3214ad7c853d51341a1e8285abf93b319e8d3dc1b996987/medor-0.0.1b2.tar.gz
+[2024-04-03 02:41:11] WARNING root fetch - processPackages [flet-core]: Timeout reached during download
+[2024-04-03 02:41:11] WARNING root fetch - processPackages [flet-embed]: Timeout reached during download
+[2024-04-03 02:41:11] WARNING root fetch - processPackages [flet-runtime]: Timeout reached during download
+[2024-04-03 02:41:11] WARNING root fetch - processPackages [medor]: Skipping package: exceeds size limit 16015809>=10485760
+[2024-04-03 02:41:11] INFO root fetch - main [MainThread]: End processing [medor] error
+[2024-04-03 02:41:11] WARNING root fetch - processPackages [flet-pyodide]: Timeout reached during download
+[2024-04-03 02:41:11] WARNING root fetch - processPackages [Leonardo-Ai-SDK]: Timeout reached during download
+[2024-04-03 02:41:11] INFO root fetch - processPackages [nautobot-golden-config]: Downloading https://files.pythonhosted.org/packages/88/6e/afce5d7b4f69e4767e7b58924a4755611f6a2da23ce9f9f6728f4a09efb9/nautobot_golden_config-2.0.3.tar.gz
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/81/7e/d8933b7cb514fb7fd415c9368e2a55ab10465ad0c1277670abc72164e31b/flet_embed-0.9.0.tar.gz
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/4f/c9/c2705045754a5e96e2a0e04c30f12e30cc27d1e60b1fb83e686da4c0a8e6/flet_core-0.9.0.dev1631.tar.gz
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/7d/21/4486f082fce6b7ee7174ae6b6c9bd62faeeb1cf712e65ccbd42d2a02b641/flet_runtime-0.9.0.tar.gz
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/0b/26/a5b2ba93c30d3a89efc6b6734cc4db067c9d2ca16059ed4685281d46c1f7/flet_pyodide-0.9.0.tar.gz
+[2024-04-03 02:41:11] WARNING root fetch - processPackages [flet]: Timeout reached during download
+[2024-04-03 02:41:11] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/25/eb/d39e88fe64d8c59e2f9ca8c32266a834d5d40b473bee60f7caf5b1e1ebc8/Leonardo-Ai-SDK-5.3.0.tar.gz
+[2024-04-03 02:41:11] WARNING root fetch - processPackages [flet-embed]: Timeout reached during download
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.8.4.tar.gz tmp/flet_embed-0.9.0.tar.gz --markdown 20240403/f/flet-embed/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/70/f1/c96f61c9817584ef31d84401520cb5d02e9b320f79d8aff85ba005ca6132/flet-0.9.0.tar.gz
+[2024-04-03 02:41:11] WARNING root fetch - processPackages [flet-pyodide]: Timeout reached during download
+[2024-04-03 02:41:11] WARNING root fetch - processPackages [flet-runtime]: Timeout reached during download
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.8.4.tar.gz tmp/flet_pyodide-0.9.0.tar.gz --markdown 20240403/f/flet-pyodide/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.8.4.tar.gz tmp/flet_runtime-0.9.0.tar.gz --markdown 20240403/f/flet-runtime/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 02:41:11] WARNING root fetch - processPackages [flet-core]: Timeout reached during download
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2024-04-03 02:41:11] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.9.0.dev1630.tar.gz tmp/flet_core-0.9.0.dev1631.tar.gz --markdown 20240403/f/flet-core/0.9.0.dev1630-0.9.0.dev1631/diff.md --exclude *.pyd
+[2024-04-03 02:41:11] WARNING root fetch - processPackages [Leonardo-Ai-SDK]: Timeout reached during download
+[2024-04-03 02:41:11] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2024-04-03 02:41:11] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-5.2.6.tar.gz tmp/Leonardo-Ai-SDK-5.3.0.tar.gz --markdown 20240403/L/Leonardo-Ai-SDK/5.2.6-5.3.0/diff.md --exclude *.pyd
+[2024-04-03 02:41:12] WARNING root fetch - processPackages [flet]: Timeout reached during download
+[2024-04-03 02:41:12] INFO root fetch - processPackages [flet]: executing diffoscope
+[2024-04-03 02:41:12] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.8.4.tar.gz tmp/flet-0.9.0.tar.gz --markdown 20240403/f/flet/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 02:41:12] WARNING root fetch - processPackages [nautobot-golden-config]: Timeout reached during download
+[2024-04-03 02:41:12] INFO root fetch - processPackages [nautobot-golden-config]: Downloading https://files.pythonhosted.org/packages/0d/29/8d0c1955393d8ca8e7b8ef34b9693cee3e0e11a4be700f0e8a975a48d5b8/nautobot_golden_config-2.0.4.tar.gz
+[2024-04-03 02:41:12] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.8.4.tar.gz]
+[2024-04-03 02:41:12] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.tar.gz]
+[2024-04-03 02:41:12] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2024-04-03 02:41:12] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.8.4.tar.gz]
+[2024-04-03 02:41:12] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.tar.gz]
+[2024-04-03 02:41:12] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2024-04-03 02:41:12] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.8.4.tar.gz]
+[2024-04-03 02:41:12] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.tar.gz]
+[2024-04-03 02:41:12] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2024-04-03 02:41:12] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.2.6.tar.gz]
+[2024-04-03 02:41:12] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.0.tar.gz]
+[2024-04-03 02:41:12] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2024-04-03 02:41:12] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1630.tar.gz]
+[2024-04-03 02:41:12] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1631.tar.gz]
+[2024-04-03 02:41:12] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2024-04-03 02:42:01] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.8.4.tar.gz]
+[2024-04-03 02:42:01] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.tar.gz]
+[2024-04-03 02:42:01] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2024-04-03 02:43:30] WARNING root fetch - processPackages [nautobot-golden-config]: Timeout reached during download
+[2024-04-03 02:43:30] INFO root fetch - processPackages [nautobot-golden-config]: executing diffoscope
+[2024-04-03 02:43:30] INFO root fetch - processPackages [nautobot-golden-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautobot_golden_config-2.0.3.tar.gz tmp/nautobot_golden_config-2.0.4.tar.gz --markdown 20240403/n/nautobot-golden-config/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2024-04-03 02:43:34] INFO root fetch - processPackages [nautobot-golden-config]: Remove: archive file [/home/abi/fetcher/tmp/nautobot_golden_config-2.0.3.tar.gz]
+[2024-04-03 02:43:34] INFO root fetch - processPackages [nautobot-golden-config]: Remove: archive file [/home/abi/fetcher/tmp/nautobot_golden_config-2.0.4.tar.gz]
+[2024-04-03 02:43:34] INFO root fetch - main [MainThread]: End processing [nautobot-golden-config]: success
+[2024-04-03 02:43:34] INFO root fetch - main [MainThread]: Store serial: [22593509]

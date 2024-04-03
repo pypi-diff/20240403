@@ -14281,3 +14281,34 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 04:31:09] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs_for_databricks-5.3.3rc3.tar.gz]
 [2024-04-03 04:31:09] INFO root fetch - main [MainThread]: End processing [johnsnowlabs-for-databricks]: success
 [2024-04-03 04:31:09] INFO root fetch - main [MainThread]: Store serial: [22596553]
+[2024-04-03 04:33:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596553]
+[2024-04-03 04:33:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 04:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nixtlats
+[2024-04-03 04:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xklb
+[2024-04-03 04:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dirconfig
+[2024-04-03 04:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: se0kcalc2024
+[2024-04-03 04:33:19] WARNING root fetch - processPackages [dirconfig]: Skipping, unable to determine old version
+[2024-04-03 04:33:19] INFO root fetch - main [MainThread]: End processing [dirconfig] error
+[2024-04-03 04:33:19] INFO root fetch - processPackages [nixtlats]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-03 04:33:19] WARNING root fetch - processPackages [se0kcalc2024]: Skipping, unable to determine old version
+[2024-04-03 04:33:19] INFO root fetch - main [MainThread]: End processing [se0kcalc2024] error
+[2024-04-03 04:33:19] INFO root fetch - processPackages [xklb]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-04-03 04:33:19] INFO root fetch - processPackages [nixtlats]: Downloading https://files.pythonhosted.org/packages/41/53/f839184ebc6346deb5c83167b3f4e2d37e2701ad98a68a9bb17fd64787ea/nixtlats-0.2.0.tar.gz
+[2024-04-03 04:33:19] WARNING root fetch - processPackages [nixtlats]: Timeout reached during download
+[2024-04-03 04:33:20] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/98/2b/016ffc45cf0a3df1fcfc1603ad11fde3d07f5995f8f6b3f4d062b543781b/xklb-2.5.8.tar.gz
+[2024-04-03 04:33:20] INFO root fetch - processPackages [nixtlats]: Downloading https://files.pythonhosted.org/packages/19/a1/aba4ece33c882bc74c71f49ec45e13beba5f75b6bf7868cc3f0256496a82/nixtlats-0.3.0.tar.gz
+[2024-04-03 04:33:20] WARNING root fetch - processPackages [nixtlats]: Timeout reached during download
+[2024-04-03 04:33:20] INFO root fetch - processPackages [nixtlats]: executing diffoscope
+[2024-04-03 04:33:20] INFO root fetch - processPackages [nixtlats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nixtlats-0.2.0.tar.gz tmp/nixtlats-0.3.0.tar.gz --markdown 20240403/n/nixtlats/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-03 04:33:20] WARNING root fetch - processPackages [xklb]: Timeout reached during download
+[2024-04-03 04:33:20] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/4e/05/9d82a1ff2d9b9c4fb1faeddaad1c5442a4c6d9e76fc8369d59062ab94134/xklb-2.5.9.tar.gz
+[2024-04-03 04:33:20] WARNING root fetch - processPackages [xklb]: Timeout reached during download
+[2024-04-03 04:33:20] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2024-04-03 04:33:20] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.5.8.tar.gz tmp/xklb-2.5.9.tar.gz --markdown 20240403/x/xklb/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2024-04-03 04:33:20] INFO root fetch - processPackages [nixtlats]: Remove: archive file [/home/abi/fetcher/tmp/nixtlats-0.2.0.tar.gz]
+[2024-04-03 04:33:20] INFO root fetch - processPackages [nixtlats]: Remove: archive file [/home/abi/fetcher/tmp/nixtlats-0.3.0.tar.gz]
+[2024-04-03 04:33:20] INFO root fetch - main [MainThread]: End processing [nixtlats]: success
+[2024-04-03 04:33:21] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.5.8.tar.gz]
+[2024-04-03 04:33:21] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.5.9.tar.gz]
+[2024-04-03 04:33:21] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2024-04-03 04:33:21] INFO root fetch - main [MainThread]: Store serial: [22596563]

@@ -15328,3 +15328,17 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 05:06:45] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-04-03 05:06:45] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-04-03 05:06:45] INFO root fetch - main [MainThread]: Store serial: [22596860]
+[2024-04-03 05:08:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596860]
+[2024-04-03 05:08:54] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-03 05:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinjected
+[2024-04-03 05:08:54] INFO root fetch - processPackages [pinjected]: New version: [0.2.26] Old Version: [0.2.24]
+[2024-04-03 05:08:54] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/e4/ca/17eb5bbca9adae6d17de8d9b84add1f4b2a414fc64c68fb083ae9512ccbe/pinjected-0.2.24.tar.gz
+[2024-04-03 05:08:54] WARNING root fetch - processPackages [pinjected]: Timeout reached during download
+[2024-04-03 05:08:54] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/78/f2/3739238cc4139126322eb243993b6f1d4c5015b1d214ae0e556a47e47e59/pinjected-0.2.26.tar.gz
+[2024-04-03 05:08:55] WARNING root fetch - processPackages [pinjected]: Timeout reached during download
+[2024-04-03 05:08:55] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-04-03 05:08:55] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.24.tar.gz tmp/pinjected-0.2.26.tar.gz --markdown 20240403/p/pinjected/0.2.24-0.2.26/diff.md --exclude *.pyd
+[2024-04-03 05:08:55] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.24.tar.gz]
+[2024-04-03 05:08:55] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.26.tar.gz]
+[2024-04-03 05:08:55] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-04-03 05:08:55] INFO root fetch - main [MainThread]: Store serial: [22596863]

@@ -10717,3 +10717,619 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 03:26:01] INFO root fetch - processPackages [types-aiobotocore-lambda]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lambda-2.9.1.tar.gz]
 [2024-04-03 03:26:01] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-lambda]: success
 [2024-04-03 03:26:01] INFO root fetch - main [MainThread]: Store serial: [22595375]
+[2024-04-03 03:28:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22595375]
+[2024-04-03 03:28:11] INFO root fetch - main [MainThread]: Found 57 changed packages
+[2024-04-03 03:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-aiobotocore-launch-wizard
+[2024-04-03 03:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-aiobotocore-lex-models
+[2024-04-03 03:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-aiobotocore-lex-runtime
+[2024-04-03 03:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-aiobotocore-lexv2-models
+[2024-04-03 03:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-aiobotocore-lexv2-runtime
+[2024-04-03 03:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: types-aiobotocore-license-manager-linux-subscriptions
+[2024-04-03 03:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-aiobotocore-license-manager
+[2024-04-03 03:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: types-aiobotocore-license-manager-user-subscriptions
+[2024-04-03 03:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-aiobotocore-lightsail
+[2024-04-03 03:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: types-aiobotocore-location
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-launch-wizard]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-lex-models]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-license-manager-user-subscriptions]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-license-manager]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-lightsail]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-lexv2-models]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-license-manager-linux-subscriptions]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-lexv2-runtime]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-location]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-lex-runtime]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-launch-wizard]: Downloading https://files.pythonhosted.org/packages/fb/0b/1d22b5a96add66e8a405d040b776e3bea5037f839be7ebffc9a5716e69b9/types-aiobotocore-launch-wizard-2.9.0.tar.gz
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-license-manager-linux-subscriptions]: Downloading https://files.pythonhosted.org/packages/ba/b8/46584f352cf3bc04f8329e2042c6dba6b33878362cd54683da699dfc1aa0/types-aiobotocore-license-manager-linux-subscriptions-2.9.0.tar.gz
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-lex-models]: Downloading https://files.pythonhosted.org/packages/dd/44/5066ee88b80e5b817e5abd7b3fa4a9e0f15a8475fdc634ff06b31fc08b51/types-aiobotocore-lex-models-2.9.0.tar.gz
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-license-manager]: Downloading https://files.pythonhosted.org/packages/bc/89/d9aaee52521f8b6339f927b917ba8618d1fb084cafb4f41b3cb0265dc3ef/types-aiobotocore-license-manager-2.9.0.tar.gz
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-license-manager-user-subscriptions]: Downloading https://files.pythonhosted.org/packages/98/e9/4c5ac4be537e36aa78a95f5dd6778796af91953fb2509877f3b0eb0e3190/types-aiobotocore-license-manager-user-subscriptions-2.9.0.tar.gz
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-lexv2-models]: Downloading https://files.pythonhosted.org/packages/97/fc/a175f4102bea8daaa8611ca2769ab8bf2f9975ec6d54a8d27adca47fdd38/types-aiobotocore-lexv2-models-2.9.0.tar.gz
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-lightsail]: Downloading https://files.pythonhosted.org/packages/f7/13/ef3709333b653addeed8b898b9b4290fbb173c03da3336f3f6b4fcf197e4/types-aiobotocore-lightsail-2.9.0.tar.gz
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-lex-runtime]: Downloading https://files.pythonhosted.org/packages/86/56/89f1525774921d3e579295717df1cc9ffd0c40b88f3d16fccdfcef266902/types-aiobotocore-lex-runtime-2.9.0.tar.gz
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-lexv2-runtime]: Downloading https://files.pythonhosted.org/packages/68/e3/da0bec0c7618779180590f2050436895fd95f293f67b13fcdbe0d730127e/types-aiobotocore-lexv2-runtime-2.9.0.tar.gz
+[2024-04-03 03:28:11] INFO root fetch - processPackages [types-aiobotocore-location]: Downloading https://files.pythonhosted.org/packages/f9/d8/318067ba553ddcdfbf456a01f2e8b0aa64d24abe1cf29b1b2fb895a7d86e/types-aiobotocore-location-2.9.0.tar.gz
+[2024-04-03 03:28:12] WARNING root fetch - processPackages [types-aiobotocore-license-manager-user-subscriptions]: Timeout reached during download
+[2024-04-03 03:28:12] WARNING root fetch - processPackages [types-aiobotocore-lex-models]: Timeout reached during download
+[2024-04-03 03:28:12] WARNING root fetch - processPackages [types-aiobotocore-lex-runtime]: Timeout reached during download
+[2024-04-03 03:28:12] WARNING root fetch - processPackages [types-aiobotocore-location]: Timeout reached during download
+[2024-04-03 03:28:12] WARNING root fetch - processPackages [types-aiobotocore-license-manager]: Timeout reached during download
+[2024-04-03 03:28:12] WARNING root fetch - processPackages [types-aiobotocore-license-manager-linux-subscriptions]: Timeout reached during download
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-license-manager-user-subscriptions]: Downloading https://files.pythonhosted.org/packages/03/73/11d67ed24596f459aa6af4b9ffd082583425c4e753daba886a7e38a25b86/types-aiobotocore-license-manager-user-subscriptions-2.9.1.tar.gz
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-lex-models]: Downloading https://files.pythonhosted.org/packages/42/13/ed6d46c0954d9115284d43c03bb6dce8768ddeb239bc91b0ed576da84eb5/types-aiobotocore-lex-models-2.9.1.tar.gz
+[2024-04-03 03:28:12] WARNING root fetch - processPackages [types-aiobotocore-launch-wizard]: Timeout reached during download
+[2024-04-03 03:28:12] WARNING root fetch - processPackages [types-aiobotocore-lexv2-models]: Timeout reached during download
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-location]: Downloading https://files.pythonhosted.org/packages/2d/2e/983eb61347685ec04539e050de8e228a95f943c72a305cbedf5b825075ea/types-aiobotocore-location-2.9.1.tar.gz
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-lex-runtime]: Downloading https://files.pythonhosted.org/packages/80/4d/c46c6b510ef206cae6b1629ffd9d4b6411cd26bf56cfbd5b686199894b06/types-aiobotocore-lex-runtime-2.9.1.tar.gz
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-license-manager]: Downloading https://files.pythonhosted.org/packages/25/65/e4209ae573251d5a7a48a1ded8fc4c8c152aeb410df885f5d970d2c8c6f8/types-aiobotocore-license-manager-2.9.1.tar.gz
+[2024-04-03 03:28:12] WARNING root fetch - processPackages [types-aiobotocore-license-manager-user-subscriptions]: Timeout reached during download
+[2024-04-03 03:28:12] WARNING root fetch - processPackages [types-aiobotocore-lex-models]: Timeout reached during download
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-license-manager-user-subscriptions]: executing diffoscope
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-license-manager-user-subscriptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-license-manager-user-subscriptions-2.9.0.tar.gz tmp/types-aiobotocore-license-manager-user-subscriptions-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-license-manager-user-subscriptions/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-lex-models]: executing diffoscope
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-lex-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-lex-models-2.9.0.tar.gz tmp/types-aiobotocore-lex-models-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-lex-models/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-license-manager-linux-subscriptions]: Downloading https://files.pythonhosted.org/packages/60/13/c2e5f7ec6c5d71da79991d2b3bcd9b97d1a23e458e43610d341868da5452/types-aiobotocore-license-manager-linux-subscriptions-2.9.1.tar.gz
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-launch-wizard]: Downloading https://files.pythonhosted.org/packages/65/b8/68de3aef0e78b8c9dc9d0b7649bb0da3a3a4b357a3ba8d1051a368ccb9c7/types-aiobotocore-launch-wizard-2.9.1.tar.gz
+[2024-04-03 03:28:12] WARNING root fetch - processPackages [types-aiobotocore-location]: Timeout reached during download
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-location]: executing diffoscope
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-location-2.9.0.tar.gz tmp/types-aiobotocore-location-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-location/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-lexv2-models]: Downloading https://files.pythonhosted.org/packages/ec/16/25aa5b8790ee6f6afac5c32f62febd7b4ca6009332f3ffe1278a9cb7b7e0/types-aiobotocore-lexv2-models-2.9.1.tar.gz
+[2024-04-03 03:28:12] WARNING root fetch - processPackages [types-aiobotocore-lex-runtime]: Timeout reached during download
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-lex-runtime]: executing diffoscope
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-lex-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-lex-runtime-2.9.0.tar.gz tmp/types-aiobotocore-lex-runtime-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-lex-runtime/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:12] WARNING root fetch - processPackages [types-aiobotocore-license-manager]: Timeout reached during download
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-license-manager]: executing diffoscope
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-license-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-license-manager-2.9.0.tar.gz tmp/types-aiobotocore-license-manager-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-license-manager/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:12] WARNING root fetch - processPackages [types-aiobotocore-license-manager-linux-subscriptions]: Timeout reached during download
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-license-manager-linux-subscriptions]: executing diffoscope
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-license-manager-linux-subscriptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-license-manager-linux-subscriptions-2.9.0.tar.gz tmp/types-aiobotocore-license-manager-linux-subscriptions-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-license-manager-linux-subscriptions/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:12] WARNING root fetch - processPackages [types-aiobotocore-lexv2-runtime]: Timeout reached during download
+[2024-04-03 03:28:12] WARNING root fetch - processPackages [types-aiobotocore-lightsail]: Timeout reached during download
+[2024-04-03 03:28:12] WARNING root fetch - processPackages [types-aiobotocore-launch-wizard]: Timeout reached during download
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-launch-wizard]: executing diffoscope
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-launch-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-launch-wizard-2.9.0.tar.gz tmp/types-aiobotocore-launch-wizard-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-launch-wizard/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:12] INFO root fetch - processPackages [types-aiobotocore-lexv2-runtime]: Downloading https://files.pythonhosted.org/packages/b3/7f/99218e5348de0ee5f9feb33c4738356762f14daee3ef57c018be6f3c03ad/types-aiobotocore-lexv2-runtime-2.9.1.tar.gz
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-lightsail]: Downloading https://files.pythonhosted.org/packages/3a/68/9e92b43baab1161e1661607a8a5e0749c01b4591dcec6c7e73eeb930fcf5/types-aiobotocore-lightsail-2.9.1.tar.gz
+[2024-04-03 03:28:13] WARNING root fetch - processPackages [types-aiobotocore-lexv2-models]: Timeout reached during download
+[2024-04-03 03:28:13] WARNING root fetch - processPackages [types-aiobotocore-lightsail]: Timeout reached during download
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-lexv2-models]: executing diffoscope
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-lexv2-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-lexv2-models-2.9.0.tar.gz tmp/types-aiobotocore-lexv2-models-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-lexv2-models/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-lightsail]: executing diffoscope
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-lightsail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-lightsail-2.9.0.tar.gz tmp/types-aiobotocore-lightsail-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-lightsail/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:13] WARNING root fetch - processPackages [types-aiobotocore-lexv2-runtime]: Timeout reached during download
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-lexv2-runtime]: executing diffoscope
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-lexv2-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-lexv2-runtime-2.9.0.tar.gz tmp/types-aiobotocore-lexv2-runtime-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-lexv2-runtime/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-license-manager-user-subscriptions]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-license-manager-user-subscriptions-2.9.0.tar.gz]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-license-manager-user-subscriptions]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-license-manager-user-subscriptions-2.9.1.tar.gz]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-license-manager-user-subscriptions]: Start processing: types-aiobotocore-logs
+[2024-04-03 03:28:13] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-license-manager-user-subscriptions]: success
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-lex-models]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lex-models-2.9.0.tar.gz]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-lex-models]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lex-models-2.9.1.tar.gz]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-lex-models]: Start processing: types-aiobotocore-lookoutequipment
+[2024-04-03 03:28:13] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-lex-models]: success
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-location]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-location-2.9.0.tar.gz]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-location]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-location-2.9.1.tar.gz]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-location]: Start processing: types-aiobotocore-lookoutmetrics
+[2024-04-03 03:28:13] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-location]: success
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-lex-runtime]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lex-runtime-2.9.0.tar.gz]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-lex-runtime]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lex-runtime-2.9.1.tar.gz]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-lex-runtime]: Start processing: types-aiobotocore-lookoutvision
+[2024-04-03 03:28:13] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-lex-runtime]: success
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-logs]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-license-manager]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-license-manager-2.9.0.tar.gz]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-license-manager]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-license-manager-2.9.1.tar.gz]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-license-manager]: Start processing: types-aiobotocore-m2
+[2024-04-03 03:28:13] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-license-manager]: success
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-lookoutequipment]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-license-manager-linux-subscriptions]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-license-manager-linux-subscriptions-2.9.0.tar.gz]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-license-manager-linux-subscriptions]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-license-manager-linux-subscriptions-2.9.1.tar.gz]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-license-manager-linux-subscriptions]: Start processing: types-aiobotocore-machinelearning
+[2024-04-03 03:28:13] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-license-manager-linux-subscriptions]: success
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-lookoutmetrics]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-lookoutvision]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-launch-wizard]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-launch-wizard-2.9.0.tar.gz]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-launch-wizard]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-launch-wizard-2.9.1.tar.gz]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-launch-wizard]: Start processing: types-aiobotocore-macie2
+[2024-04-03 03:28:13] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-launch-wizard]: success
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-m2]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-machinelearning]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:13] INFO root fetch - processPackages [types-aiobotocore-logs]: Downloading https://files.pythonhosted.org/packages/20/e4/d5506d9cd9e0fa12b4d23b612a6cd298eed77d9aa8329c0852d6c8ce2211/types-aiobotocore-logs-2.9.0.tar.gz
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lookoutequipment]: Downloading https://files.pythonhosted.org/packages/ea/86/0cacd86f6a360b19e36d3d4f6e38c2b178d4c768f390f46b2d2a87ddfcae/types-aiobotocore-lookoutequipment-2.9.0.tar.gz
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-macie2]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lookoutmetrics]: Downloading https://files.pythonhosted.org/packages/35/13/1f9f27a21c365a55cb6cca1547f7fd7fc1fd2b49ec4c6e8bb930ab70277d/types-aiobotocore-lookoutmetrics-2.9.0.tar.gz
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lookoutvision]: Downloading https://files.pythonhosted.org/packages/5a/1a/09b3c0be02fbaafbd8df22789435224c1eaccb1ef5d0866f8de7d4a98ac4/types-aiobotocore-lookoutvision-2.9.0.tar.gz
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-m2]: Downloading https://files.pythonhosted.org/packages/6f/dd/b7f8ceeac3fc278bf0585556f3d3f1a0cd1bcc18543179d936cd78485b80/types-aiobotocore-m2-2.9.0.tar.gz
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lexv2-runtime]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lexv2-runtime-2.9.0.tar.gz]
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lexv2-runtime]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lexv2-runtime-2.9.1.tar.gz]
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lexv2-runtime]: Start processing: types-aiobotocore-managedblockchain
+[2024-04-03 03:28:14] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-lexv2-runtime]: success
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-machinelearning]: Downloading https://files.pythonhosted.org/packages/2a/c9/674183db3c621c34fe1c56780b39658dfed892b0dada016726f37a755b8a/types-aiobotocore-machinelearning-2.9.0.tar.gz
+[2024-04-03 03:28:14] WARNING root fetch - processPackages [types-aiobotocore-lookoutequipment]: Timeout reached during download
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-macie2]: Downloading https://files.pythonhosted.org/packages/99/64/e1fcaac0970c851c42f582a6d3f55cacda39c5e15087d6645297b4cea06e/types-aiobotocore-macie2-2.9.0.tar.gz
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lexv2-models]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lexv2-models-2.9.0.tar.gz]
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lexv2-models]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lexv2-models-2.9.1.tar.gz]
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lexv2-models]: Start processing: types-aiobotocore-managedblockchain-query
+[2024-04-03 03:28:14] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-lexv2-models]: success
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-managedblockchain]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:14] WARNING root fetch - processPackages [types-aiobotocore-lookoutmetrics]: Timeout reached during download
+[2024-04-03 03:28:14] WARNING root fetch - processPackages [types-aiobotocore-lookoutvision]: Timeout reached during download
+[2024-04-03 03:28:14] WARNING root fetch - processPackages [types-aiobotocore-machinelearning]: Timeout reached during download
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lightsail]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lightsail-2.9.0.tar.gz]
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lightsail]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lightsail-2.9.1.tar.gz]
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lightsail]: Start processing: types-aiobotocore-marketplace-agreement
+[2024-04-03 03:28:14] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-lightsail]: success
+[2024-04-03 03:28:14] WARNING root fetch - processPackages [types-aiobotocore-m2]: Timeout reached during download
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-managedblockchain-query]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lookoutequipment]: Downloading https://files.pythonhosted.org/packages/d1/8a/4d128901352acb5f5c79c84d41eb33dbc9bd01e5b715a59a1390c469eddf/types-aiobotocore-lookoutequipment-2.9.1.tar.gz
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-marketplace-agreement]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:14] WARNING root fetch - processPackages [types-aiobotocore-macie2]: Timeout reached during download
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-managedblockchain]: Downloading https://files.pythonhosted.org/packages/90/97/1756e37b83f414f5e0da28cb23e33194250f783399dbfba10da6659ae323/types-aiobotocore-managedblockchain-2.9.0.tar.gz
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lookoutvision]: Downloading https://files.pythonhosted.org/packages/27/50/8f262f82eaadaf4a89faecd0b0bbf42d0ff8adf72e7879d829caa018c2f4/types-aiobotocore-lookoutvision-2.9.1.tar.gz
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-machinelearning]: Downloading https://files.pythonhosted.org/packages/d7/9b/d02684131a09e8f27f419bac6733e1966e2ca921b7d04cea72cd620d44f2/types-aiobotocore-machinelearning-2.9.1.tar.gz
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lookoutmetrics]: Downloading https://files.pythonhosted.org/packages/58/96/b0839091bff375b384b4543d661b22b26409ac0f1beaa57e48997f898ffd/types-aiobotocore-lookoutmetrics-2.9.1.tar.gz
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-m2]: Downloading https://files.pythonhosted.org/packages/ce/bb/1321f9af8070d7689deb3c9f665135cb6230ae85dd27af2be228e493ff7c/types-aiobotocore-m2-2.9.1.tar.gz
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-managedblockchain-query]: Downloading https://files.pythonhosted.org/packages/58/1a/1da0da87457d2b706c496cad48ecac6dee966b0a23264c3179f156dd7017/types-aiobotocore-managedblockchain-query-2.9.0.tar.gz
+[2024-04-03 03:28:14] WARNING root fetch - processPackages [types-aiobotocore-lookoutequipment]: Timeout reached during download
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lookoutequipment]: executing diffoscope
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lookoutequipment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-lookoutequipment-2.9.0.tar.gz tmp/types-aiobotocore-lookoutequipment-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-lookoutequipment/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:14] WARNING root fetch - processPackages [types-aiobotocore-managedblockchain]: Timeout reached during download
+[2024-04-03 03:28:14] WARNING root fetch - processPackages [types-aiobotocore-logs]: Timeout reached during download
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-marketplace-agreement]: Downloading https://files.pythonhosted.org/packages/37/e6/a07b02484b026ebab6fa26572614f48c0817881cf5b704d7da9a7638fa41/types-aiobotocore-marketplace-agreement-2.9.0.tar.gz
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-macie2]: Downloading https://files.pythonhosted.org/packages/78/f9/91cc5ba279f8065f83d973ceff5e634c1a8a207fd59f97e40dfa85121460/types-aiobotocore-macie2-2.9.1.tar.gz
+[2024-04-03 03:28:14] WARNING root fetch - processPackages [types-aiobotocore-managedblockchain-query]: Timeout reached during download
+[2024-04-03 03:28:14] WARNING root fetch - processPackages [types-aiobotocore-lookoutmetrics]: Timeout reached during download
+[2024-04-03 03:28:14] WARNING root fetch - processPackages [types-aiobotocore-machinelearning]: Timeout reached during download
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lookoutmetrics]: executing diffoscope
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-lookoutmetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-lookoutmetrics-2.9.0.tar.gz tmp/types-aiobotocore-lookoutmetrics-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-lookoutmetrics/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-machinelearning]: executing diffoscope
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-machinelearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-machinelearning-2.9.0.tar.gz tmp/types-aiobotocore-machinelearning-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-machinelearning/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:14] WARNING root fetch - processPackages [types-aiobotocore-marketplace-agreement]: Timeout reached during download
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-managedblockchain]: Downloading https://files.pythonhosted.org/packages/3c/7a/5d89ce3d26db529d94dc1b28178f4cc2cc053d2e8ec74312c3fe3a1e40fb/types-aiobotocore-managedblockchain-2.9.1.tar.gz
+[2024-04-03 03:28:14] INFO root fetch - processPackages [types-aiobotocore-logs]: Downloading https://files.pythonhosted.org/packages/7f/f1/e619b23ed0d78562235e0f0f7d983a35ec8741fd8ce03c6928403e3aa1b1/types-aiobotocore-logs-2.9.1.tar.gz
+[2024-04-03 03:28:15] WARNING root fetch - processPackages [types-aiobotocore-macie2]: Timeout reached during download
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-macie2]: executing diffoscope
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-macie2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-macie2-2.9.0.tar.gz tmp/types-aiobotocore-macie2-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-macie2/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-managedblockchain-query]: Downloading https://files.pythonhosted.org/packages/1b/71/64c334e70cf9624070b7dab7a37b4ef382c525b52e51aa2f44fa3b08d5b1/types-aiobotocore-managedblockchain-query-2.9.1.tar.gz
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-marketplace-agreement]: Downloading https://files.pythonhosted.org/packages/ea/81/c6458fd9844049de6d107cf2342c448a13ba13d6ca5d7b99dc66a025680f/types-aiobotocore-marketplace-agreement-2.9.1.tar.gz
+[2024-04-03 03:28:15] WARNING root fetch - processPackages [types-aiobotocore-managedblockchain]: Timeout reached during download
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-managedblockchain]: executing diffoscope
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-managedblockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-managedblockchain-2.9.0.tar.gz tmp/types-aiobotocore-managedblockchain-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-managedblockchain/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:15] WARNING root fetch - processPackages [types-aiobotocore-logs]: Timeout reached during download
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-logs]: executing diffoscope
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-logs-2.9.0.tar.gz tmp/types-aiobotocore-logs-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-logs/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:15] WARNING root fetch - processPackages [types-aiobotocore-managedblockchain-query]: Timeout reached during download
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-managedblockchain-query]: executing diffoscope
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-managedblockchain-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-managedblockchain-query-2.9.0.tar.gz tmp/types-aiobotocore-managedblockchain-query-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-managedblockchain-query/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:15] WARNING root fetch - processPackages [types-aiobotocore-marketplace-agreement]: Timeout reached during download
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-marketplace-agreement]: executing diffoscope
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-marketplace-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-marketplace-agreement-2.9.0.tar.gz tmp/types-aiobotocore-marketplace-agreement-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-marketplace-agreement/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:15] WARNING root fetch - processPackages [types-aiobotocore-lookoutvision]: Timeout reached during download
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-lookoutvision]: executing diffoscope
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-lookoutvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-lookoutvision-2.9.0.tar.gz tmp/types-aiobotocore-lookoutvision-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-lookoutvision/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:15] WARNING root fetch - processPackages [types-aiobotocore-m2]: Timeout reached during download
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-m2]: executing diffoscope
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-m2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-m2-2.9.0.tar.gz tmp/types-aiobotocore-m2-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-m2/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-lookoutequipment]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lookoutequipment-2.9.0.tar.gz]
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-lookoutequipment]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lookoutequipment-2.9.1.tar.gz]
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-lookoutequipment]: Start processing: types-aiobotocore-marketplace-catalog
+[2024-04-03 03:28:15] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-lookoutequipment]: success
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-marketplace-catalog]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-machinelearning]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-machinelearning-2.9.0.tar.gz]
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-machinelearning]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-machinelearning-2.9.1.tar.gz]
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-machinelearning]: Start processing: types-aiobotocore-marketplace-deployment
+[2024-04-03 03:28:15] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-machinelearning]: success
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-lookoutmetrics]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lookoutmetrics-2.9.0.tar.gz]
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-lookoutmetrics]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lookoutmetrics-2.9.1.tar.gz]
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-lookoutmetrics]: Start processing: types-aiobotocore-marketplace-entitlement
+[2024-04-03 03:28:15] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-lookoutmetrics]: success
+[2024-04-03 03:28:15] INFO root fetch - processPackages [types-aiobotocore-marketplace-deployment]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-macie2]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-macie2-2.9.0.tar.gz]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-macie2]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-macie2-2.9.1.tar.gz]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-macie2]: Start processing: types-aiobotocore-marketplacecommerceanalytics
+[2024-04-03 03:28:16] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-macie2]: success
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-marketplace-entitlement]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-marketplace-catalog]: Downloading https://files.pythonhosted.org/packages/76/a8/ddbc9f7dc1ff58f1d16323a4666b328f7acafded57484b213c5a8ca559b1/types-aiobotocore-marketplace-catalog-2.9.0.tar.gz
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-marketplacecommerceanalytics]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-marketplace-deployment]: Downloading https://files.pythonhosted.org/packages/10/65/8d3e0d6b255ec36c1236f17476bc5c9477901b0576c310ed038962dcbc82/types-aiobotocore-marketplace-deployment-2.9.0.tar.gz
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-managedblockchain-query]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-managedblockchain-query-2.9.0.tar.gz]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-managedblockchain-query]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-managedblockchain-query-2.9.1.tar.gz]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-managedblockchain-query]: Start processing: types-aiobotocore-mediaconnect
+[2024-04-03 03:28:16] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-managedblockchain-query]: success
+[2024-04-03 03:28:16] WARNING root fetch - processPackages [types-aiobotocore-marketplace-catalog]: Timeout reached during download
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-managedblockchain]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-managedblockchain-2.9.0.tar.gz]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-managedblockchain]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-managedblockchain-2.9.1.tar.gz]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-managedblockchain]: Start processing: types-aiobotocore-mediaconvert
+[2024-04-03 03:28:16] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-managedblockchain]: success
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-logs]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-logs-2.9.0.tar.gz]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-logs]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-logs-2.9.1.tar.gz]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-logs]: Start processing: mypandas2024huu123
+[2024-04-03 03:28:16] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-logs]: success
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-marketplace-entitlement]: Downloading https://files.pythonhosted.org/packages/bb/d5/fcc4ccaa2f882bd5d361a95ee81979e38e9aab4ce0e405ece2a093631bae/types-aiobotocore-marketplace-entitlement-2.9.0.tar.gz
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-marketplace-agreement]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-marketplace-agreement-2.9.0.tar.gz]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-marketplace-agreement]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-marketplace-agreement-2.9.1.tar.gz]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-marketplace-agreement]: Start processing: types-aiobotocore-medialive
+[2024-04-03 03:28:16] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-marketplace-agreement]: success
+[2024-04-03 03:28:16] WARNING root fetch - processPackages [types-aiobotocore-marketplace-deployment]: Timeout reached during download
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-mediaconnect]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-marketplacecommerceanalytics]: Downloading https://files.pythonhosted.org/packages/b1/57/5726e734dc949644fbf2fb366ca636ea2c4494dcf43c2f329502f1c70352/types-aiobotocore-marketplacecommerceanalytics-2.9.0.tar.gz
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-mediaconvert]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:16] WARNING root fetch - processPackages [mypandas2024huu123]: Skipping, unable to determine old version
+[2024-04-03 03:28:16] INFO root fetch - processPackages [mypandas2024huu123]: Start processing: types-aiobotocore-mediapackage
+[2024-04-03 03:28:16] INFO root fetch - main [MainThread]: End processing [mypandas2024huu123] error
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-lookoutvision]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lookoutvision-2.9.0.tar.gz]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-lookoutvision]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-lookoutvision-2.9.1.tar.gz]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-lookoutvision]: Start processing: types-aiobotocore-mediapackage-vod
+[2024-04-03 03:28:16] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-lookoutvision]: success
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-medialive]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-marketplace-catalog]: Downloading https://files.pythonhosted.org/packages/5b/ef/804d3cf73dffcd8bc06efe0033b0124116cc4f03dcfbfbe2e534a556630d/types-aiobotocore-marketplace-catalog-2.9.1.tar.gz
+[2024-04-03 03:28:16] WARNING root fetch - processPackages [types-aiobotocore-marketplace-entitlement]: Timeout reached during download
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-mediapackage]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-m2]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-m2-2.9.0.tar.gz]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-m2]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-m2-2.9.1.tar.gz]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-m2]: Start processing: types-aiobotocore-mediapackagev2
+[2024-04-03 03:28:16] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-m2]: success
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-mediapackage-vod]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:16] WARNING root fetch - processPackages [types-aiobotocore-marketplacecommerceanalytics]: Timeout reached during download
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-marketplace-deployment]: Downloading https://files.pythonhosted.org/packages/33/e6/6a15962a4f4cd668d889fe4b045ecf9ac7320162d42fe5b9b286d2f4bc12/types-aiobotocore-marketplace-deployment-2.9.1.tar.gz
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-mediaconnect]: Downloading https://files.pythonhosted.org/packages/ae/bd/c11c1dacc33189d1f53fdeb001d71575767d11a50093854f4701a99e7b0b/types-aiobotocore-mediaconnect-2.9.0.tar.gz
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-mediaconvert]: Downloading https://files.pythonhosted.org/packages/0a/ce/62f7d3dfe95f3ddd96670bb6589a8e1c814350f91b7a717367cf90a5661b/types-aiobotocore-mediaconvert-2.9.0.tar.gz
+[2024-04-03 03:28:16] WARNING root fetch - processPackages [types-aiobotocore-marketplace-catalog]: Timeout reached during download
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-marketplace-catalog]: executing diffoscope
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-marketplace-catalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-marketplace-catalog-2.9.0.tar.gz tmp/types-aiobotocore-marketplace-catalog-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-marketplace-catalog/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-medialive]: Downloading https://files.pythonhosted.org/packages/d1/16/79b0157a1161b475595884fc8f5c400325c9a1ff7bc04e4da7ad2db5b5b9/types-aiobotocore-medialive-2.9.0.tar.gz
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-mediapackagev2]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-marketplace-entitlement]: Downloading https://files.pythonhosted.org/packages/8e/dd/737a62d8554cf9f8d6b5a0d2dd5548cb7e9c4611734ea0cc44ef0e90943c/types-aiobotocore-marketplace-entitlement-2.9.1.tar.gz
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-mediapackage]: Downloading https://files.pythonhosted.org/packages/27/82/7c6bf46f6d74aeff1478174da2c4ad0671dd5f74b89a25ef420a395d8ff8/types-aiobotocore-mediapackage-2.9.0.tar.gz
+[2024-04-03 03:28:16] WARNING root fetch - processPackages [types-aiobotocore-marketplace-deployment]: Timeout reached during download
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-marketplace-deployment]: executing diffoscope
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-marketplace-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-marketplace-deployment-2.9.0.tar.gz tmp/types-aiobotocore-marketplace-deployment-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-marketplace-deployment/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-marketplacecommerceanalytics]: Downloading https://files.pythonhosted.org/packages/33/ba/5421c87bfd6c7cc95ae66a37ac3f03fa882b904901ffc41a498d47f21620/types-aiobotocore-marketplacecommerceanalytics-2.9.1.tar.gz
+[2024-04-03 03:28:16] INFO root fetch - processPackages [types-aiobotocore-mediapackage-vod]: Downloading https://files.pythonhosted.org/packages/60/2a/aadf9c36ebccc8fafd12ce591dd2d6cf61542da9d1774cf8aa41376b5a03/types-aiobotocore-mediapackage-vod-2.9.0.tar.gz
+[2024-04-03 03:28:16] WARNING root fetch - processPackages [types-aiobotocore-mediaconvert]: Timeout reached during download
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediapackagev2]: Downloading https://files.pythonhosted.org/packages/98/ab/c3046d83c5d428367df263109e9d95da5d19591e8043ce2f3b3d857841f2/types-aiobotocore-mediapackagev2-2.9.0.tar.gz
+[2024-04-03 03:28:17] WARNING root fetch - processPackages [types-aiobotocore-marketplace-entitlement]: Timeout reached during download
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-marketplace-entitlement]: executing diffoscope
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-marketplace-entitlement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-marketplace-entitlement-2.9.0.tar.gz tmp/types-aiobotocore-marketplace-entitlement-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-marketplace-entitlement/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:17] WARNING root fetch - processPackages [types-aiobotocore-mediapackage]: Timeout reached during download
+[2024-04-03 03:28:17] WARNING root fetch - processPackages [types-aiobotocore-marketplacecommerceanalytics]: Timeout reached during download
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-marketplacecommerceanalytics]: executing diffoscope
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-marketplacecommerceanalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-marketplacecommerceanalytics-2.9.0.tar.gz tmp/types-aiobotocore-marketplacecommerceanalytics-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-marketplacecommerceanalytics/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:17] WARNING root fetch - processPackages [types-aiobotocore-mediapackagev2]: Timeout reached during download
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediaconvert]: Downloading https://files.pythonhosted.org/packages/9e/2f/547e33c8a050911fe5e5a3525f9b79f1a50b86063b24992640e2355f2869/types-aiobotocore-mediaconvert-2.9.1.tar.gz
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediapackage]: Downloading https://files.pythonhosted.org/packages/ad/2c/3939834e3ae53fa624ec8f0004e7cdbe564c07bcae772be8ce4be8eb4c43/types-aiobotocore-mediapackage-2.9.1.tar.gz
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediapackagev2]: Downloading https://files.pythonhosted.org/packages/f9/5a/9fd47ebab0fd48b1002dae1d088564ec4f927c2699cf2785135a90460e76/types-aiobotocore-mediapackagev2-2.9.1.tar.gz
+[2024-04-03 03:28:17] WARNING root fetch - processPackages [types-aiobotocore-mediapackage-vod]: Timeout reached during download
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-marketplace-catalog]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-marketplace-catalog-2.9.0.tar.gz]
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-marketplace-catalog]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-marketplace-catalog-2.9.1.tar.gz]
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-marketplace-catalog]: Start processing: types-aiobotocore-mediastore-data
+[2024-04-03 03:28:17] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-marketplace-catalog]: success
+[2024-04-03 03:28:17] WARNING root fetch - processPackages [types-aiobotocore-mediaconnect]: Timeout reached during download
+[2024-04-03 03:28:17] WARNING root fetch - processPackages [types-aiobotocore-mediapackage]: Timeout reached during download
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediapackage]: executing diffoscope
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediapackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-mediapackage-2.9.0.tar.gz tmp/types-aiobotocore-mediapackage-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-mediapackage/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-marketplace-deployment]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-marketplace-deployment-2.9.0.tar.gz]
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-marketplace-deployment]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-marketplace-deployment-2.9.1.tar.gz]
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-marketplace-deployment]: Start processing: coloraide
+[2024-04-03 03:28:17] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-marketplace-deployment]: success
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediastore-data]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediapackage-vod]: Downloading https://files.pythonhosted.org/packages/80/ea/82d1a487e8f17439c9ace069b138547b2768cdf16a4d7a10355ae18f7036/types-aiobotocore-mediapackage-vod-2.9.1.tar.gz
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediaconnect]: Downloading https://files.pythonhosted.org/packages/b9/74/3a9e8fe0d69c423e17501898a7b038f89a5e44f5ae937447273e04d317ac/types-aiobotocore-mediaconnect-2.9.1.tar.gz
+[2024-04-03 03:28:17] INFO root fetch - processPackages [coloraide]: New version: [3.2] Old Version: [3.1.2]
+[2024-04-03 03:28:17] WARNING root fetch - processPackages [types-aiobotocore-mediaconvert]: Timeout reached during download
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediaconvert]: executing diffoscope
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediaconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-mediaconvert-2.9.0.tar.gz tmp/types-aiobotocore-mediaconvert-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-mediaconvert/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:17] WARNING root fetch - processPackages [types-aiobotocore-medialive]: Timeout reached during download
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-marketplacecommerceanalytics]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-marketplacecommerceanalytics-2.9.0.tar.gz]
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-marketplacecommerceanalytics]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-marketplacecommerceanalytics-2.9.1.tar.gz]
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-marketplacecommerceanalytics]: Start processing: types-aiobotocore-mediastore
+[2024-04-03 03:28:17] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-marketplacecommerceanalytics]: success
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediastore-data]: Downloading https://files.pythonhosted.org/packages/a5/52/6af532a35f9dad0fed53a647ca7337f3e68a3c61f167f6054c13f014f2a2/types-aiobotocore-mediastore-data-2.9.0.tar.gz
+[2024-04-03 03:28:17] WARNING root fetch - processPackages [types-aiobotocore-mediapackage-vod]: Timeout reached during download
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediapackage-vod]: executing diffoscope
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediapackage-vod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-mediapackage-vod-2.9.0.tar.gz tmp/types-aiobotocore-mediapackage-vod-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-mediapackage-vod/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-marketplace-entitlement]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-marketplace-entitlement-2.9.0.tar.gz]
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-marketplace-entitlement]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-marketplace-entitlement-2.9.1.tar.gz]
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-marketplace-entitlement]: Start processing: types-aiobotocore-codepipeline
+[2024-04-03 03:28:17] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-marketplace-entitlement]: success
+[2024-04-03 03:28:17] WARNING root fetch - processPackages [types-aiobotocore-mediapackagev2]: Timeout reached during download
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediapackagev2]: executing diffoscope
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediapackagev2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-mediapackagev2-2.9.0.tar.gz tmp/types-aiobotocore-mediapackagev2-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-mediapackagev2/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:17] INFO root fetch - processPackages [coloraide]: Downloading https://files.pythonhosted.org/packages/ed/29/2d4de1741ffacdb198da1a2bace16f2fa338751b1b2b6dcf96688704fd2e/coloraide-3.1.2.tar.gz
+[2024-04-03 03:28:17] WARNING root fetch - processPackages [types-aiobotocore-mediaconnect]: Timeout reached during download
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediaconnect]: executing diffoscope
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediaconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-mediaconnect-2.9.0.tar.gz tmp/types-aiobotocore-mediaconnect-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-mediaconnect/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:17] INFO root fetch - processPackages [types-aiobotocore-mediastore]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-medialive]: Downloading https://files.pythonhosted.org/packages/76/92/918c076e6e0277f38d5c23024552172f81367d60630be9c35baf2e99d8e2/types-aiobotocore-medialive-2.9.1.tar.gz
+[2024-04-03 03:28:18] WARNING root fetch - processPackages [types-aiobotocore-mediastore-data]: Timeout reached during download
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-codepipeline]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:18] WARNING root fetch - processPackages [coloraide]: Skipping package: exceeds size limit 19901283>=10485760
+[2024-04-03 03:28:18] INFO root fetch - processPackages [coloraide]: Start processing: types-aiobotocore-mediatailor
+[2024-04-03 03:28:18] INFO root fetch - main [MainThread]: End processing [coloraide] error
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediastore]: Downloading https://files.pythonhosted.org/packages/8e/a2/685e8950860ac129e06d15f3bf60bcc32223202d1220b38dbabb2f579c4b/types-aiobotocore-mediastore-2.9.0.tar.gz
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediatailor]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediastore-data]: Downloading https://files.pythonhosted.org/packages/cc/7a/d5fafb27d745c4fdfb5661505a9057754e52204c03f92e19811226755174/types-aiobotocore-mediastore-data-2.9.1.tar.gz
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediapackage]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mediapackage-2.9.0.tar.gz]
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediapackage]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mediapackage-2.9.1.tar.gz]
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediapackage]: Start processing: types-aiobotocore-codestar-connections
+[2024-04-03 03:28:18] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-mediapackage]: success
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-codepipeline]: Downloading https://files.pythonhosted.org/packages/0c/5e/665165a066103a0e9251b412142536f285bbcf9ac6b971fa9253e6bc62ce/types-aiobotocore-codepipeline-2.9.0.tar.gz
+[2024-04-03 03:28:18] WARNING root fetch - processPackages [types-aiobotocore-mediastore]: Timeout reached during download
+[2024-04-03 03:28:18] WARNING root fetch - processPackages [types-aiobotocore-medialive]: Timeout reached during download
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-medialive]: executing diffoscope
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-medialive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-medialive-2.9.0.tar.gz tmp/types-aiobotocore-medialive-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-medialive/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-codestar-connections]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:18] WARNING root fetch - processPackages [types-aiobotocore-mediastore-data]: Timeout reached during download
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediastore-data]: executing diffoscope
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediastore-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-mediastore-data-2.9.0.tar.gz tmp/types-aiobotocore-mediastore-data-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-mediastore-data/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:18] WARNING root fetch - processPackages [types-aiobotocore-codepipeline]: Timeout reached during download
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediatailor]: Downloading https://files.pythonhosted.org/packages/bf/48/2e3179c4d4d43dd9eafe8227ad137fd09c8addf5b6346b999b51d0c824dc/types-aiobotocore-mediatailor-2.9.0.tar.gz
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediastore]: Downloading https://files.pythonhosted.org/packages/d5/83/bc8f911b7e4d851a9e04af3a96ab0d368a643c4496c688abdabd908bcf49/types-aiobotocore-mediastore-2.9.1.tar.gz
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-codestar-connections]: Downloading https://files.pythonhosted.org/packages/66/b3/63b8ebb3cc1165429064ffa434bcd676304e4090de46d4169a2284d37460/types-aiobotocore-codestar-connections-2.9.0.tar.gz
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediaconvert]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mediaconvert-2.9.0.tar.gz]
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediaconvert]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mediaconvert-2.9.1.tar.gz]
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediaconvert]: Start processing: types-aiobotocore-medical-imaging
+[2024-04-03 03:28:18] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-mediaconvert]: success
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-codepipeline]: Downloading https://files.pythonhosted.org/packages/bf/5b/21d89b6b1a99e2fc973576656a8872cbe8c7d44d6d4a4b85165e17c8652a/types-aiobotocore-codepipeline-2.9.1.tar.gz
+[2024-04-03 03:28:18] WARNING root fetch - processPackages [types-aiobotocore-mediastore]: Timeout reached during download
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediaconnect]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mediaconnect-2.9.0.tar.gz]
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediaconnect]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mediaconnect-2.9.1.tar.gz]
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediastore]: executing diffoscope
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediastore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-mediastore-2.9.0.tar.gz tmp/types-aiobotocore-mediastore-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-mediastore/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediaconnect]: Start processing: types-aiobotocore-codestar-notifications
+[2024-04-03 03:28:18] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-mediaconnect]: success
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediapackage-vod]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mediapackage-vod-2.9.0.tar.gz]
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediapackage-vod]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mediapackage-vod-2.9.1.tar.gz]
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-mediapackage-vod]: Start processing: types-aiobotocore-glue
+[2024-04-03 03:28:18] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-mediapackage-vod]: success
+[2024-04-03 03:28:18] INFO root fetch - processPackages [types-aiobotocore-medical-imaging]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:19] WARNING root fetch - processPackages [types-aiobotocore-codestar-connections]: Timeout reached during download
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-mediapackagev2]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mediapackagev2-2.9.0.tar.gz]
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-mediapackagev2]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mediapackagev2-2.9.1.tar.gz]
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-mediapackagev2]: Start processing: types-aiobotocore-memorydb
+[2024-04-03 03:28:19] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-mediapackagev2]: success
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-codestar-notifications]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:19] WARNING root fetch - processPackages [types-aiobotocore-codepipeline]: Timeout reached during download
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-codepipeline]: executing diffoscope
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-codepipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-codepipeline-2.9.0.tar.gz tmp/types-aiobotocore-codepipeline-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-codepipeline/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-glue]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-memorydb]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-medical-imaging]: Downloading https://files.pythonhosted.org/packages/d8/11/635f21e9a56d05e8a5963b9383d7688e98d431ca19623f08a7e12ae9d6f3/types-aiobotocore-medical-imaging-2.9.0.tar.gz
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-codestar-connections]: Downloading https://files.pythonhosted.org/packages/c7/c5/ecbd3f6343ea628429010b6f2a2955177cd2c9cda59ac91b588a12e3bd43/types-aiobotocore-codestar-connections-2.9.1.tar.gz
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-codestar-notifications]: Downloading https://files.pythonhosted.org/packages/ae/f6/265b867ba255ad4e4012eccaf37f5673128baf47e97d737b55d07536c7f2/types-aiobotocore-codestar-notifications-2.9.0.tar.gz
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-mediastore-data]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mediastore-data-2.9.0.tar.gz]
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-mediastore-data]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mediastore-data-2.9.1.tar.gz]
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-mediastore-data]: Start processing: types-aiobotocore-grafana
+[2024-04-03 03:28:19] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-mediastore-data]: success
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-glue]: Downloading https://files.pythonhosted.org/packages/da/6a/73c23a96ef0af91a4822e2a9361f47dfb7fa797a92baeb368663b81a2e16/types-aiobotocore-glue-2.9.0.tar.gz
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-medialive]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-medialive-2.9.0.tar.gz]
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-medialive]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-medialive-2.9.1.tar.gz]
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-medialive]: Start processing: types-aiobotocore-meteringmarketplace
+[2024-04-03 03:28:19] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-medialive]: success
+[2024-04-03 03:28:19] WARNING root fetch - processPackages [types-aiobotocore-codestar-notifications]: Timeout reached during download
+[2024-04-03 03:28:19] WARNING root fetch - processPackages [types-aiobotocore-medical-imaging]: Timeout reached during download
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-memorydb]: Downloading https://files.pythonhosted.org/packages/5f/32/d04df92f5b09297913b81165c89102f2cc10def74d015c8d66f733dbc178/types-aiobotocore-memorydb-2.9.0.tar.gz
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-grafana]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:19] WARNING root fetch - processPackages [types-aiobotocore-codestar-connections]: Timeout reached during download
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-codestar-connections]: executing diffoscope
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-codestar-connections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-codestar-connections-2.9.0.tar.gz tmp/types-aiobotocore-codestar-connections-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-codestar-connections/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-meteringmarketplace]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-mediastore]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mediastore-2.9.0.tar.gz]
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-mediastore]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mediastore-2.9.1.tar.gz]
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-mediastore]: Start processing: types-aiobotocore-greengrass
+[2024-04-03 03:28:19] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-mediastore]: success
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-codestar-notifications]: Downloading https://files.pythonhosted.org/packages/44/29/dec453a76083d47970421061a2466a931982babe46f21d1c159f05a9b28c/types-aiobotocore-codestar-notifications-2.9.1.tar.gz
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-medical-imaging]: Downloading https://files.pythonhosted.org/packages/fb/a4/932d379530e63858161efe72071360aa3bd6f317dec4bcd057a14e21e511/types-aiobotocore-medical-imaging-2.9.1.tar.gz
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-grafana]: Downloading https://files.pythonhosted.org/packages/ba/7d/acb66979a6e067f3a2cf4cc646edaf02bb9375d54b55b6189bac565bb0f1/types-aiobotocore-grafana-2.9.0.tar.gz
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-greengrass]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-meteringmarketplace]: Downloading https://files.pythonhosted.org/packages/60/90/d1864d2d339d475b7c42898e3a5a3518c7832eec99552a7941a8fdf10b7c/types-aiobotocore-meteringmarketplace-2.9.0.tar.gz
+[2024-04-03 03:28:19] WARNING root fetch - processPackages [types-aiobotocore-mediatailor]: Timeout reached during download
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-codepipeline]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-codepipeline-2.9.0.tar.gz]
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-codepipeline]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-codepipeline-2.9.1.tar.gz]
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-codepipeline]: Start processing: types-aiobotocore-mgh
+[2024-04-03 03:28:19] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-codepipeline]: success
+[2024-04-03 03:28:19] WARNING root fetch - processPackages [types-aiobotocore-memorydb]: Timeout reached during download
+[2024-04-03 03:28:19] WARNING root fetch - processPackages [types-aiobotocore-medical-imaging]: Timeout reached during download
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-medical-imaging]: executing diffoscope
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-medical-imaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-medical-imaging-2.9.0.tar.gz tmp/types-aiobotocore-medical-imaging-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-medical-imaging/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:19] WARNING root fetch - processPackages [types-aiobotocore-glue]: Timeout reached during download
+[2024-04-03 03:28:19] INFO root fetch - processPackages [types-aiobotocore-mgh]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-greengrass]: Downloading https://files.pythonhosted.org/packages/0b/0f/878202460154a3973051812a9dcb7587509be707ef69ce372565e789425a/types-aiobotocore-greengrass-2.9.0.tar.gz
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-mediatailor]: Downloading https://files.pythonhosted.org/packages/bc/c2/78d336fd439816bf0d84ae09334a10b8f247faf6de118f93b113dcbdd524/types-aiobotocore-mediatailor-2.9.1.tar.gz
+[2024-04-03 03:28:20] WARNING root fetch - processPackages [types-aiobotocore-codestar-notifications]: Timeout reached during download
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-codestar-notifications]: executing diffoscope
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-codestar-notifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-codestar-notifications-2.9.0.tar.gz tmp/types-aiobotocore-codestar-notifications-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-codestar-notifications/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-memorydb]: Downloading https://files.pythonhosted.org/packages/9a/c5/a35a68735e339f7a56a23e269cdd26f47f121bef0393670a1d0b3049904e/types-aiobotocore-memorydb-2.9.1.tar.gz
+[2024-04-03 03:28:20] WARNING root fetch - processPackages [types-aiobotocore-meteringmarketplace]: Timeout reached during download
+[2024-04-03 03:28:20] WARNING root fetch - processPackages [types-aiobotocore-grafana]: Timeout reached during download
+[2024-04-03 03:28:20] WARNING root fetch - processPackages [types-aiobotocore-mediatailor]: Timeout reached during download
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-mediatailor]: executing diffoscope
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-mediatailor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-mediatailor-2.9.0.tar.gz tmp/types-aiobotocore-mediatailor-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-mediatailor/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-mgh]: Downloading https://files.pythonhosted.org/packages/5a/bd/a4abe80c89250caa87b691c1bd85162dcca68d936a513e5b61ac7318fa03/types-aiobotocore-mgh-2.9.0.tar.gz
+[2024-04-03 03:28:20] WARNING root fetch - processPackages [types-aiobotocore-memorydb]: Timeout reached during download
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-memorydb]: executing diffoscope
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-memorydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-memorydb-2.9.0.tar.gz tmp/types-aiobotocore-memorydb-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-memorydb/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-codestar-connections]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-codestar-connections-2.9.0.tar.gz]
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-codestar-connections]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-codestar-connections-2.9.1.tar.gz]
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-codestar-connections]: Start processing: types-aiobotocore-greengrassv2
+[2024-04-03 03:28:20] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-codestar-connections]: success
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-meteringmarketplace]: Downloading https://files.pythonhosted.org/packages/f1/e2/79808ed33ba18ab586b004acdbba41337ad7694e4d8278970d3e9aeb6429/types-aiobotocore-meteringmarketplace-2.9.1.tar.gz
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-glue]: Downloading https://files.pythonhosted.org/packages/46/02/77924f0901c5b58db90f348989fbc8c065067af51f309eb484fd1d69af15/types-aiobotocore-glue-2.9.1.tar.gz
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-grafana]: Downloading https://files.pythonhosted.org/packages/61/ed/16e0ab95e6437f54610773f930f6d0b34d2e5e7dd93febec40f098ae4383/types-aiobotocore-grafana-2.9.1.tar.gz
+[2024-04-03 03:28:20] WARNING root fetch - processPackages [types-aiobotocore-greengrass]: Timeout reached during download
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-greengrassv2]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:20] WARNING root fetch - processPackages [types-aiobotocore-grafana]: Timeout reached during download
+[2024-04-03 03:28:20] WARNING root fetch - processPackages [types-aiobotocore-glue]: Timeout reached during download
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-grafana]: executing diffoscope
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-grafana-2.9.0.tar.gz tmp/types-aiobotocore-grafana-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-grafana/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-glue]: executing diffoscope
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-glue-2.9.0.tar.gz tmp/types-aiobotocore-glue-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-glue/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-greengrass]: Downloading https://files.pythonhosted.org/packages/a7/47/a449a51dcf959c5cd0376db75a4456f4750190d9076db7aa75d555935458/types-aiobotocore-greengrass-2.9.1.tar.gz
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-medical-imaging]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-medical-imaging-2.9.0.tar.gz]
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-medical-imaging]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-medical-imaging-2.9.1.tar.gz]
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-medical-imaging]: Start processing: jaraco.xkcd
+[2024-04-03 03:28:20] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-medical-imaging]: success
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-greengrassv2]: Downloading https://files.pythonhosted.org/packages/43/51/4e66a82b519cebd9e92e79fe0ea05c9191c89e0b194e4eed1089799800a2/types-aiobotocore-greengrassv2-2.9.0.tar.gz
+[2024-04-03 03:28:20] WARNING root fetch - processPackages [types-aiobotocore-meteringmarketplace]: Timeout reached during download
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-meteringmarketplace]: executing diffoscope
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-meteringmarketplace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-meteringmarketplace-2.9.0.tar.gz tmp/types-aiobotocore-meteringmarketplace-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-meteringmarketplace/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:20] INFO root fetch - processPackages [jaraco.xkcd]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-codestar-notifications]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-codestar-notifications-2.9.0.tar.gz]
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-codestar-notifications]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-codestar-notifications-2.9.1.tar.gz]
+[2024-04-03 03:28:20] INFO root fetch - processPackages [types-aiobotocore-codestar-notifications]: Start processing: types-aiobotocore-mgn
+[2024-04-03 03:28:20] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-codestar-notifications]: success
+[2024-04-03 03:28:21] WARNING root fetch - processPackages [types-aiobotocore-greengrassv2]: Timeout reached during download
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-mediatailor]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mediatailor-2.9.0.tar.gz]
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-mediatailor]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mediatailor-2.9.1.tar.gz]
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-mediatailor]: Start processing: types-aiobotocore-groundstation
+[2024-04-03 03:28:21] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-mediatailor]: success
+[2024-04-03 03:28:21] INFO root fetch - processPackages [jaraco.xkcd]: Downloading https://files.pythonhosted.org/packages/ac/95/be38821afd5b7be4df619cb439b2910cd581b891dd2a7efed2d2ee2857af/jaraco.xkcd-3.0.2.tar.gz
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-mgn]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:21] WARNING root fetch - processPackages [types-aiobotocore-greengrass]: Timeout reached during download
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-greengrass]: executing diffoscope
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-greengrass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-greengrass-2.9.0.tar.gz tmp/types-aiobotocore-greengrass-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-greengrass/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-groundstation]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:21] WARNING root fetch - processPackages [types-aiobotocore-mgh]: Timeout reached during download
+[2024-04-03 03:28:21] WARNING root fetch - processPackages [jaraco.xkcd]: Timeout reached during download
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-memorydb]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-memorydb-2.9.0.tar.gz]
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-memorydb]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-memorydb-2.9.1.tar.gz]
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-memorydb]: Start processing: types-aiobotocore-migration-hub-refactor-spaces
+[2024-04-03 03:28:21] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-memorydb]: success
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-greengrassv2]: Downloading https://files.pythonhosted.org/packages/35/90/bc1928dd94a24e5c669d46b7e09c11dd78338863ff376a00ec9404992269/types-aiobotocore-greengrassv2-2.9.1.tar.gz
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-mgn]: Downloading https://files.pythonhosted.org/packages/46/e5/fd89a0ddabf78a4081be48ed0d075e6b153b90d1324119ca7490f7eb94f8/types-aiobotocore-mgn-2.9.0.tar.gz
+[2024-04-03 03:28:21] INFO root fetch - processPackages [jaraco.xkcd]: Downloading https://files.pythonhosted.org/packages/e8/f3/4028d2c3e1305e34368fa898dc5ad239a9667fbd5d4d77be4f0a6a311e10/jaraco.xkcd-3.0.3.tar.gz
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-migration-hub-refactor-spaces]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-grafana]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-grafana-2.9.0.tar.gz]
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-grafana]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-grafana-2.9.1.tar.gz]
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-grafana]: Start processing: types-aiobotocore-guardduty
+[2024-04-03 03:28:21] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-grafana]: success
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-groundstation]: Downloading https://files.pythonhosted.org/packages/b0/dd/778159fefd08f2cf9fd3f196fcdd6cc528efb2bed405b746209e1d5036bf/types-aiobotocore-groundstation-2.9.0.tar.gz
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-mgh]: Downloading https://files.pythonhosted.org/packages/1b/95/5512eeee50c3c862e313f4daaea2d3cdeb6013997bdf16cc9741fc178ff0/types-aiobotocore-mgh-2.9.1.tar.gz
+[2024-04-03 03:28:21] WARNING root fetch - processPackages [types-aiobotocore-greengrassv2]: Timeout reached during download
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-greengrassv2]: executing diffoscope
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-greengrassv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-greengrassv2-2.9.0.tar.gz tmp/types-aiobotocore-greengrassv2-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-greengrassv2/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:21] WARNING root fetch - processPackages [types-aiobotocore-mgn]: Timeout reached during download
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-guardduty]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:21] WARNING root fetch - processPackages [jaraco.xkcd]: Timeout reached during download
+[2024-04-03 03:28:21] INFO root fetch - processPackages [jaraco.xkcd]: executing diffoscope
+[2024-04-03 03:28:21] INFO root fetch - processPackages [jaraco.xkcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.xkcd-3.0.2.tar.gz tmp/jaraco.xkcd-3.0.3.tar.gz --markdown 20240403/j/jaraco.xkcd/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-glue]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-glue-2.9.0.tar.gz]
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-glue]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-glue-2.9.1.tar.gz]
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-glue]: Start processing: types-aiobotocore-migrationhub-config
+[2024-04-03 03:28:21] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-glue]: success
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-migration-hub-refactor-spaces]: Downloading https://files.pythonhosted.org/packages/40/81/ba6e58c3f72d877be959e4ccd19b29eb289dccfa6f8213c5705304dd2eac/types-aiobotocore-migration-hub-refactor-spaces-2.9.0.tar.gz
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-mgn]: Downloading https://files.pythonhosted.org/packages/cc/e9/11087b334b11b63c50f03bff4c35c6ae0f5fd7090765d6229fc573475074/types-aiobotocore-mgn-2.9.1.tar.gz
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-migrationhub-config]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-guardduty]: Downloading https://files.pythonhosted.org/packages/3d/ba/7197c44e173464d5fbf97c614e42be42413cf5b6c25e0f3784d5deb71a9f/types-aiobotocore-guardduty-2.9.0.tar.gz
+[2024-04-03 03:28:21] WARNING root fetch - processPackages [types-aiobotocore-mgh]: Timeout reached during download
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-mgh]: executing diffoscope
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-mgh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-mgh-2.9.0.tar.gz tmp/types-aiobotocore-mgh-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-mgh/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-meteringmarketplace]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-meteringmarketplace-2.9.0.tar.gz]
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-meteringmarketplace]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-meteringmarketplace-2.9.1.tar.gz]
+[2024-04-03 03:28:21] WARNING root fetch - processPackages [types-aiobotocore-migration-hub-refactor-spaces]: Timeout reached during download
+[2024-04-03 03:28:21] INFO root fetch - processPackages [types-aiobotocore-meteringmarketplace]: Start processing: types-aiobotocore-health
+[2024-04-03 03:28:21] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-meteringmarketplace]: success
+[2024-04-03 03:28:21] WARNING root fetch - processPackages [types-aiobotocore-groundstation]: Timeout reached during download
+[2024-04-03 03:28:22] WARNING root fetch - processPackages [types-aiobotocore-mgn]: Timeout reached during download
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-mgn]: executing diffoscope
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-mgn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-mgn-2.9.0.tar.gz tmp/types-aiobotocore-mgn-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-mgn/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-migrationhub-config]: Downloading https://files.pythonhosted.org/packages/56/61/e93e81e1abc6944deb76ca9296cb269dabc4458ba270d2f257fee911b305/types-aiobotocore-migrationhub-config-2.9.0.tar.gz
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-greengrass]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-greengrass-2.9.0.tar.gz]
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-greengrass]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-greengrass-2.9.1.tar.gz]
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-greengrass]: Start processing: types-aiobotocore-migrationhuborchestrator
+[2024-04-03 03:28:22] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-greengrass]: success
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-health]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:22] WARNING root fetch - processPackages [types-aiobotocore-guardduty]: Timeout reached during download
+[2024-04-03 03:28:22] WARNING root fetch - processPackages [types-aiobotocore-migrationhub-config]: Timeout reached during download
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-migration-hub-refactor-spaces]: Downloading https://files.pythonhosted.org/packages/65/2d/35b3ef3ece9871bc7202a07f7f4f2296c562797a00ae7c2b9e2f728ab46c/types-aiobotocore-migration-hub-refactor-spaces-2.9.1.tar.gz
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-migrationhuborchestrator]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-groundstation]: Downloading https://files.pythonhosted.org/packages/31/36/9693a51f20a3f7cc048e235e543cb717e3040025915abd75c6e1e9253c43/types-aiobotocore-groundstation-2.9.1.tar.gz
+[2024-04-03 03:28:22] INFO root fetch - processPackages [jaraco.xkcd]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.xkcd-3.0.2.tar.gz]
+[2024-04-03 03:28:22] INFO root fetch - processPackages [jaraco.xkcd]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.xkcd-3.0.3.tar.gz]
+[2024-04-03 03:28:22] INFO root fetch - processPackages [jaraco.xkcd]: Start processing: types-aiobotocore-healthlake
+[2024-04-03 03:28:22] INFO root fetch - main [MainThread]: End processing [jaraco.xkcd]: success
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-guardduty]: Downloading https://files.pythonhosted.org/packages/c9/16/1d3cf343ac43ff511702b331995bb48e55a0740fa722592abde7eeac4228/types-aiobotocore-guardduty-2.9.1.tar.gz
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-health]: Downloading https://files.pythonhosted.org/packages/1e/1f/cfb16843b7867dce9046d3459100ac69caa84e6700d3555f98f9887fc150/types-aiobotocore-health-2.9.0.tar.gz
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-greengrassv2]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-greengrassv2-2.9.0.tar.gz]
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-greengrassv2]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-greengrassv2-2.9.1.tar.gz]
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-greengrassv2]: Start processing: types-aiobotocore-migrationhubstrategy
+[2024-04-03 03:28:22] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-greengrassv2]: success
+[2024-04-03 03:28:22] WARNING root fetch - processPackages [types-aiobotocore-migration-hub-refactor-spaces]: Timeout reached during download
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-migration-hub-refactor-spaces]: executing diffoscope
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-migration-hub-refactor-spaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-migration-hub-refactor-spaces-2.9.0.tar.gz tmp/types-aiobotocore-migration-hub-refactor-spaces-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-migration-hub-refactor-spaces/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-migrationhub-config]: Downloading https://files.pythonhosted.org/packages/79/0f/3678b4ccb51255b36705633b60ead71939085aed58a01a8c75772955648f/types-aiobotocore-migrationhub-config-2.9.1.tar.gz
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-healthlake]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-migrationhuborchestrator]: Downloading https://files.pythonhosted.org/packages/92/e7/5b36e37c90c0c26f706587667b071db8fc41a90524aa38aa3fe0549b9bd0/types-aiobotocore-migrationhuborchestrator-2.9.0.tar.gz
+[2024-04-03 03:28:22] WARNING root fetch - processPackages [types-aiobotocore-guardduty]: Timeout reached during download
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-guardduty]: executing diffoscope
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-guardduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-guardduty-2.9.0.tar.gz tmp/types-aiobotocore-guardduty-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-guardduty/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-migrationhubstrategy]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:22] WARNING root fetch - processPackages [types-aiobotocore-health]: Timeout reached during download
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-healthlake]: Downloading https://files.pythonhosted.org/packages/81/e4/6280cbc3bb1e753c348a8586971feb50e74a2f64a4c70028b84df17b0bff/types-aiobotocore-healthlake-2.9.0.tar.gz
+[2024-04-03 03:28:22] WARNING root fetch - processPackages [types-aiobotocore-migrationhub-config]: Timeout reached during download
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-migrationhub-config]: executing diffoscope
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-migrationhub-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-migrationhub-config-2.9.0.tar.gz tmp/types-aiobotocore-migrationhub-config-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-migrationhub-config/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-mgh]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mgh-2.9.0.tar.gz]
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-mgh]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mgh-2.9.1.tar.gz]
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-mgh]: Start processing: types-aiobotocore-honeycode
+[2024-04-03 03:28:22] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-mgh]: success
+[2024-04-03 03:28:22] WARNING root fetch - processPackages [types-aiobotocore-groundstation]: Timeout reached during download
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-groundstation]: executing diffoscope
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-groundstation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-groundstation-2.9.0.tar.gz tmp/types-aiobotocore-groundstation-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-groundstation/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-migrationhubstrategy]: Downloading https://files.pythonhosted.org/packages/3d/88/c28ec64c7aeb47544f2aad225211b4defcbc5b6ee520ae0fb094c518d009/types-aiobotocore-migrationhubstrategy-2.9.0.tar.gz
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-health]: Downloading https://files.pythonhosted.org/packages/ee/1d/7ba93823b1714f308154517adcfa16032a0b27b2d3de76a8d50bfe90f00b/types-aiobotocore-health-2.9.1.tar.gz
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-mgn]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mgn-2.9.0.tar.gz]
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-mgn]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-mgn-2.9.1.tar.gz]
+[2024-04-03 03:28:22] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-mgn]: success
+[2024-04-03 03:28:22] INFO root fetch - processPackages [types-aiobotocore-honeycode]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-03 03:28:22] WARNING root fetch - processPackages [types-aiobotocore-migrationhuborchestrator]: Timeout reached during download
+[2024-04-03 03:28:22] WARNING root fetch - processPackages [types-aiobotocore-healthlake]: Timeout reached during download
+[2024-04-03 03:28:23] WARNING root fetch - processPackages [types-aiobotocore-health]: Timeout reached during download
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-health]: executing diffoscope
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-health]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-health-2.9.0.tar.gz tmp/types-aiobotocore-health-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-health/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:23] WARNING root fetch - processPackages [types-aiobotocore-migrationhubstrategy]: Timeout reached during download
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-honeycode]: Downloading https://files.pythonhosted.org/packages/67/bc/e9c4daac87c38c4674a8d6479812fa0a6620203efe443a98245751d97979/types-aiobotocore-honeycode-2.9.0.tar.gz
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-migrationhuborchestrator]: Downloading https://files.pythonhosted.org/packages/1d/5a/f184851bf414d46f340bf8e3689ad1fab6f37dd4062e2a0b69ded968ace1/types-aiobotocore-migrationhuborchestrator-2.9.1.tar.gz
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-healthlake]: Downloading https://files.pythonhosted.org/packages/61/08/1b5a39832713f379c13ec40cc7a5cc0991d3cd889dec9c14bd4ea915cb32/types-aiobotocore-healthlake-2.9.1.tar.gz
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-migrationhubstrategy]: Downloading https://files.pythonhosted.org/packages/af/d5/ebede6eeead4f2d3de711bec85412598531073f0a18547f2018cabc6f1d1/types-aiobotocore-migrationhubstrategy-2.9.1.tar.gz
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-migration-hub-refactor-spaces]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-migration-hub-refactor-spaces-2.9.0.tar.gz]
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-migration-hub-refactor-spaces]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-migration-hub-refactor-spaces-2.9.1.tar.gz]
+[2024-04-03 03:28:23] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-migration-hub-refactor-spaces]: success
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-guardduty]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-guardduty-2.9.0.tar.gz]
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-guardduty]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-guardduty-2.9.1.tar.gz]
+[2024-04-03 03:28:23] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-guardduty]: success
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-migrationhub-config]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-migrationhub-config-2.9.0.tar.gz]
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-migrationhub-config]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-migrationhub-config-2.9.1.tar.gz]
+[2024-04-03 03:28:23] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-migrationhub-config]: success
+[2024-04-03 03:28:23] WARNING root fetch - processPackages [types-aiobotocore-honeycode]: Timeout reached during download
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-groundstation]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-groundstation-2.9.0.tar.gz]
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-groundstation]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-groundstation-2.9.1.tar.gz]
+[2024-04-03 03:28:23] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-groundstation]: success
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-honeycode]: Downloading https://files.pythonhosted.org/packages/e3/ad/eb8e3701f7464d959c38313b7586c9a72f0342e7366b0b11d62f5701eaa8/types-aiobotocore-honeycode-2.9.1.tar.gz
+[2024-04-03 03:28:23] WARNING root fetch - processPackages [types-aiobotocore-migrationhuborchestrator]: Timeout reached during download
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-migrationhuborchestrator]: executing diffoscope
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-migrationhuborchestrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-migrationhuborchestrator-2.9.0.tar.gz tmp/types-aiobotocore-migrationhuborchestrator-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-migrationhuborchestrator/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:23] WARNING root fetch - processPackages [types-aiobotocore-healthlake]: Timeout reached during download
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-healthlake]: executing diffoscope
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-healthlake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-healthlake-2.9.0.tar.gz tmp/types-aiobotocore-healthlake-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-healthlake/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-health]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-health-2.9.0.tar.gz]
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-health]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-health-2.9.1.tar.gz]
+[2024-04-03 03:28:23] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-health]: success
+[2024-04-03 03:28:23] WARNING root fetch - processPackages [types-aiobotocore-honeycode]: Timeout reached during download
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-honeycode]: executing diffoscope
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-honeycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-honeycode-2.9.0.tar.gz tmp/types-aiobotocore-honeycode-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-honeycode/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:23] WARNING root fetch - processPackages [types-aiobotocore-migrationhubstrategy]: Timeout reached during download
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-migrationhubstrategy]: executing diffoscope
+[2024-04-03 03:28:23] INFO root fetch - processPackages [types-aiobotocore-migrationhubstrategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-migrationhubstrategy-2.9.0.tar.gz tmp/types-aiobotocore-migrationhubstrategy-2.9.1.tar.gz --markdown 20240403/t/types-aiobotocore-migrationhubstrategy/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-03 03:28:24] INFO root fetch - processPackages [types-aiobotocore-migrationhuborchestrator]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-migrationhuborchestrator-2.9.0.tar.gz]
+[2024-04-03 03:28:24] INFO root fetch - processPackages [types-aiobotocore-migrationhuborchestrator]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-migrationhuborchestrator-2.9.1.tar.gz]
+[2024-04-03 03:28:24] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-migrationhuborchestrator]: success
+[2024-04-03 03:28:24] INFO root fetch - processPackages [types-aiobotocore-honeycode]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-honeycode-2.9.0.tar.gz]
+[2024-04-03 03:28:24] INFO root fetch - processPackages [types-aiobotocore-honeycode]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-honeycode-2.9.1.tar.gz]
+[2024-04-03 03:28:24] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-honeycode]: success
+[2024-04-03 03:28:24] INFO root fetch - processPackages [types-aiobotocore-healthlake]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-healthlake-2.9.0.tar.gz]
+[2024-04-03 03:28:24] INFO root fetch - processPackages [types-aiobotocore-healthlake]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-healthlake-2.9.1.tar.gz]
+[2024-04-03 03:28:24] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-healthlake]: success
+[2024-04-03 03:28:24] INFO root fetch - processPackages [types-aiobotocore-migrationhubstrategy]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-migrationhubstrategy-2.9.0.tar.gz]
+[2024-04-03 03:28:24] INFO root fetch - processPackages [types-aiobotocore-migrationhubstrategy]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-migrationhubstrategy-2.9.1.tar.gz]
+[2024-04-03 03:28:24] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-migrationhubstrategy]: success
+[2024-04-03 03:28:24] INFO root fetch - main [MainThread]: Store serial: [22595613]

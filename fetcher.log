@@ -3008,3 +3008,39 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 02:20:45] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
 [2024-04-03 02:20:45] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
 [2024-04-03 02:20:45] INFO root fetch - main [MainThread]: Store serial: [22593342]
+[2024-04-03 02:22:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593342]
+[2024-04-03 02:22:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-03 02:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: air-sdk-python
+[2024-04-03 02:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vectorbt
+[2024-04-03 02:22:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-tweet-queue
+[2024-04-03 02:22:54] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-03 02:22:54] INFO root fetch - processPackages [air-sdk-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-03 02:22:54] INFO root fetch - processPackages [vectorbt]: New version: [0.26.1] Old Version: [0.26.0]
+[2024-04-03 02:22:54] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2024-04-03 02:22:54] WARNING root fetch - processPackages [cdk-tweet-queue]: Timeout reached during download
+[2024-04-03 02:22:54] INFO root fetch - processPackages [air-sdk-python]: Downloading https://files.pythonhosted.org/packages/e6/7e/5025c35c624204d38d96724d6aab30af89667c1276120666cdb5711d6d67/air-sdk-python-0.9.0.tar.gz
+[2024-04-03 02:22:54] INFO root fetch - processPackages [vectorbt]: Downloading https://files.pythonhosted.org/packages/2c/a4/4640882c3f0ff4466c9886a3a3645a5b82d7f47651e17d60c211de45d3a3/vectorbt-0.26.0.tar.gz
+[2024-04-03 02:22:54] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2024-04-03 02:22:55] WARNING root fetch - processPackages [air-sdk-python]: Timeout reached during download
+[2024-04-03 02:22:55] WARNING root fetch - processPackages [vectorbt]: Timeout reached during download
+[2024-04-03 02:22:55] WARNING root fetch - processPackages [cdk-tweet-queue]: Timeout reached during download
+[2024-04-03 02:22:55] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2024-04-03 02:22:55] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20240403/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-03 02:22:55] INFO root fetch - processPackages [air-sdk-python]: Downloading https://files.pythonhosted.org/packages/c8/bc/3a6f4f24fc59dd5729c85aa82d63b1395ca97704eb7368fe064c5f911f24/air-sdk-python-0.9.1.tar.gz
+[2024-04-03 02:22:55] INFO root fetch - processPackages [vectorbt]: Downloading https://files.pythonhosted.org/packages/ce/ee/6df80b8a58284bf88d92640be0e5d1fec861cc887bc5c2194d0c7a36a196/vectorbt-0.26.1.tar.gz
+[2024-04-03 02:22:55] WARNING root fetch - processPackages [air-sdk-python]: Timeout reached during download
+[2024-04-03 02:22:55] INFO root fetch - processPackages [air-sdk-python]: executing diffoscope
+[2024-04-03 02:22:55] INFO root fetch - processPackages [air-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/air-sdk-python-0.9.0.tar.gz tmp/air-sdk-python-0.9.1.tar.gz --markdown 20240403/a/air-sdk-python/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-03 02:22:55] WARNING root fetch - processPackages [vectorbt]: Timeout reached during download
+[2024-04-03 02:22:55] INFO root fetch - processPackages [vectorbt]: executing diffoscope
+[2024-04-03 02:22:55] INFO root fetch - processPackages [vectorbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectorbt-0.26.0.tar.gz tmp/vectorbt-0.26.1.tar.gz --markdown 20240403/v/vectorbt/0.26.0-0.26.1/diff.md --exclude *.pyd
+[2024-04-03 02:22:55] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2024-04-03 02:22:55] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2024-04-03 02:22:55] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2024-04-03 02:22:55] INFO root fetch - processPackages [air-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/air-sdk-python-0.9.0.tar.gz]
+[2024-04-03 02:22:55] INFO root fetch - processPackages [air-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/air-sdk-python-0.9.1.tar.gz]
+[2024-04-03 02:22:55] INFO root fetch - main [MainThread]: End processing [air-sdk-python]: success
+[2024-04-03 02:22:56] INFO root fetch - processPackages [vectorbt]: Remove: archive file [/home/abi/fetcher/tmp/vectorbt-0.26.0.tar.gz]
+[2024-04-03 02:22:56] INFO root fetch - processPackages [vectorbt]: Remove: archive file [/home/abi/fetcher/tmp/vectorbt-0.26.1.tar.gz]
+[2024-04-03 02:22:56] INFO root fetch - main [MainThread]: End processing [vectorbt]: success
+[2024-04-03 02:22:56] INFO root fetch - main [MainThread]: Store serial: [22593353]

@@ -14194,3 +14194,20 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 04:26:48] INFO root fetch - processPackages [paibox]: Remove: archive file [/home/abi/fetcher/tmp/paibox-1.0.0b1.tar.gz]
 [2024-04-03 04:26:48] INFO root fetch - main [MainThread]: End processing [paibox]: success
 [2024-04-03 04:26:48] INFO root fetch - main [MainThread]: Store serial: [22596513]
+[2024-04-03 04:28:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596513]
+[2024-04-03 04:28:57] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 04:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oss20240403
+[2024-04-03 04:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypipy
+[2024-04-03 04:28:57] INFO root fetch - processPackages [pypipy]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-03 04:28:57] WARNING root fetch - processPackages [oss20240403]: Skipping, unable to determine old version
+[2024-04-03 04:28:57] INFO root fetch - main [MainThread]: End processing [oss20240403] error
+[2024-04-03 04:28:57] INFO root fetch - processPackages [pypipy]: Downloading https://files.pythonhosted.org/packages/8e/b6/1103f66fa7277d63b14c96bde4a32f37c49b44cc4915502afa94b92d700d/pypipy-0.0.3-py3-none-any.whl
+[2024-04-03 04:28:57] WARNING root fetch - processPackages [pypipy]: Timeout reached during download
+[2024-04-03 04:28:57] INFO root fetch - processPackages [pypipy]: Downloading https://files.pythonhosted.org/packages/87/a4/78c3ecd595b5870ae8e0301244b500c454f9fa849af36f609015f1ab9795/pypipy-0.0.4-py3-none-any.whl
+[2024-04-03 04:28:57] WARNING root fetch - processPackages [pypipy]: Timeout reached during download
+[2024-04-03 04:28:57] INFO root fetch - processPackages [pypipy]: executing diffoscope
+[2024-04-03 04:28:57] INFO root fetch - processPackages [pypipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipy-0.0.3-py3-none-any.whl.zip tmp/pypipy-0.0.4-py3-none-any.whl.zip --markdown 20240403/p/pypipy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-03 04:28:58] INFO root fetch - processPackages [pypipy]: Remove: archive file [/home/abi/fetcher/tmp/pypipy-0.0.3-py3-none-any.whl.zip]
+[2024-04-03 04:28:58] INFO root fetch - processPackages [pypipy]: Remove: archive file [/home/abi/fetcher/tmp/pypipy-0.0.4-py3-none-any.whl.zip]
+[2024-04-03 04:28:58] INFO root fetch - main [MainThread]: End processing [pypipy]: success
+[2024-04-03 04:28:58] INFO root fetch - main [MainThread]: Store serial: [22596519]

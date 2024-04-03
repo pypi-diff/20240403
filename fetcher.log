@@ -3334,3 +3334,83 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 02:32:30] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.tar.gz]
 [2024-04-03 02:32:30] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2024-04-03 02:32:30] INFO root fetch - main [MainThread]: Store serial: [22593435]
+[2024-04-03 02:34:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22593435]
+[2024-04-03 02:34:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 02:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-dev
+[2024-04-03 02:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SQLDataModel
+[2024-04-03 02:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chaturbate-poller
+[2024-04-03 02:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: state-machine-semaphore
+[2024-04-03 02:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SheildPy
+[2024-04-03 02:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amazon-textract-caller
+[2024-04-03 02:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ytdl-sub
+[2024-04-03 02:34:39] INFO root fetch - processPackages [chaturbate-poller]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-03 02:34:39] INFO root fetch - processPackages [sbcli-dev]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-03 02:34:39] INFO root fetch - processPackages [chaturbate-poller]: Downloading https://files.pythonhosted.org/packages/b1/f0/557bfb2884001fb0eefc5ab657f4168cf1d9855c775ac1176dee56d8d325/chaturbate_poller-0.1.2.tar.gz
+[2024-04-03 02:34:39] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/54/af/8e60768924a1fddc143b530f2f8a2a01dd4ebdfd49d1107dff2cc1a2ee97/sbcli-dev-2.0.1.zip
+[2024-04-03 02:34:39] INFO root fetch - processPackages [SQLDataModel]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-03 02:34:39] INFO root fetch - processPackages [SheildPy]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-03 02:34:39] INFO root fetch - processPackages [amazon-textract-caller]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-03 02:34:39] INFO root fetch - processPackages [ytdl-sub]: New version: [2024.4.3] Old Version: [2024.4.1]
+[2024-04-03 02:34:39] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-03 02:34:39] WARNING root fetch - processPackages [chaturbate-poller]: Timeout reached during download
+[2024-04-03 02:34:39] WARNING root fetch - processPackages [sbcli-dev]: Timeout reached during download
+[2024-04-03 02:34:39] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2024-04-03 02:34:39] INFO root fetch - processPackages [SQLDataModel]: Downloading https://files.pythonhosted.org/packages/c1/96/c46589631bba411613b16f0a6c9ee4ee1346a7d03994d86ea2fd2c892d07/SQLDataModel-0.3.1.tar.gz
+[2024-04-03 02:34:39] INFO root fetch - processPackages [SheildPy]: Downloading https://files.pythonhosted.org/packages/5d/33/18c0e7ed4163cec2af333d61d637630b47f165875261dd63b7943c9f9352/SheildPy-0.0.7.tar.gz
+[2024-04-03 02:34:39] INFO root fetch - processPackages [chaturbate-poller]: Downloading https://files.pythonhosted.org/packages/bd/4f/63b6d13a10bb36b7e7459da4cda2a1cc272c45a5e20fb1515706a114b59d/chaturbate_poller-0.1.3.tar.gz
+[2024-04-03 02:34:39] INFO root fetch - processPackages [amazon-textract-caller]: Downloading https://files.pythonhosted.org/packages/92/c9/bb5c432ed24afd7906c39bcf2775da7d7ebcc22974cc958175bddf281c90/amazon-textract-caller-0.2.2.tar.gz
+[2024-04-03 02:34:39] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/68/66/40ec7c566ddc171e4efdbaa878202168a878997e9ae8b7fd6acbc556fb86/ytdl-sub-2024.4.1.tar.gz
+[2024-04-03 02:34:39] WARNING root fetch - processPackages [state-machine-semaphore]: Timeout reached during download
+[2024-04-03 02:34:39] WARNING root fetch - processPackages [SheildPy]: Timeout reached during download
+[2024-04-03 02:34:39] WARNING root fetch - processPackages [SQLDataModel]: Timeout reached during download
+[2024-04-03 02:34:39] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/f0/1a/d89fb439c38285c28556271cabd966090fb9ff986fcda5183b35eeb972db/sbcli-dev-2.0.2.zip
+[2024-04-03 02:34:39] WARNING root fetch - processPackages [amazon-textract-caller]: Timeout reached during download
+[2024-04-03 02:34:39] WARNING root fetch - processPackages [chaturbate-poller]: Timeout reached during download
+[2024-04-03 02:34:39] INFO root fetch - processPackages [chaturbate-poller]: executing diffoscope
+[2024-04-03 02:34:39] INFO root fetch - processPackages [chaturbate-poller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaturbate_poller-0.1.2.tar.gz tmp/chaturbate_poller-0.1.3.tar.gz --markdown 20240403/c/chaturbate-poller/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-03 02:34:39] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2024-04-03 02:34:39] WARNING root fetch - processPackages [ytdl-sub]: Timeout reached during download
+[2024-04-03 02:34:39] WARNING root fetch - processPackages [sbcli-dev]: Timeout reached during download
+[2024-04-03 02:34:39] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-04-03 02:34:39] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-dev-2.0.1.zip tmp/sbcli-dev-2.0.2.zip --markdown 20240403/s/sbcli-dev/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2024-04-03 02:34:39] INFO root fetch - processPackages [SheildPy]: Downloading https://files.pythonhosted.org/packages/0d/48/4658d920b0522d13a177c44eb50fbd0687ed5fc42b5ace0d5017904d3358/SheildPy-0.0.8.tar.gz
+[2024-04-03 02:34:39] INFO root fetch - processPackages [SQLDataModel]: Downloading https://files.pythonhosted.org/packages/ab/b5/a6fcbababfeb26e702743b4eda24cc2d6cbb020c7e13cc92ebd368ff0bbf/SQLDataModel-0.3.2.tar.gz
+[2024-04-03 02:34:39] INFO root fetch - processPackages [amazon-textract-caller]: Downloading https://files.pythonhosted.org/packages/6b/e2/bcd32c0c5bcdb410db5122a8c617ab8216bee09726b3309ed5186a5838ec/amazon-textract-caller-0.2.3.tar.gz
+[2024-04-03 02:34:40] WARNING root fetch - processPackages [state-machine-semaphore]: Timeout reached during download
+[2024-04-03 02:34:40] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2024-04-03 02:34:40] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20240403/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-03 02:34:40] WARNING root fetch - processPackages [SheildPy]: Timeout reached during download
+[2024-04-03 02:34:40] INFO root fetch - processPackages [SheildPy]: executing diffoscope
+[2024-04-03 02:34:40] INFO root fetch - processPackages [SheildPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SheildPy-0.0.7.tar.gz tmp/SheildPy-0.0.8.tar.gz --markdown 20240403/S/SheildPy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-03 02:34:40] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/c7/a2/efe49bb16ad663f2e5b793c3c3952dc89417938444d33d6f8c86f1889c3a/ytdl-sub-2024.4.3.tar.gz
+[2024-04-03 02:34:40] WARNING root fetch - processPackages [SQLDataModel]: Timeout reached during download
+[2024-04-03 02:34:40] INFO root fetch - processPackages [SQLDataModel]: executing diffoscope
+[2024-04-03 02:34:40] INFO root fetch - processPackages [SQLDataModel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLDataModel-0.3.1.tar.gz tmp/SQLDataModel-0.3.2.tar.gz --markdown 20240403/S/SQLDataModel/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-03 02:34:40] WARNING root fetch - processPackages [amazon-textract-caller]: Timeout reached during download
+[2024-04-03 02:34:40] INFO root fetch - processPackages [amazon-textract-caller]: executing diffoscope
+[2024-04-03 02:34:40] INFO root fetch - processPackages [amazon-textract-caller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-textract-caller-0.2.2.tar.gz tmp/amazon-textract-caller-0.2.3.tar.gz --markdown 20240403/a/amazon-textract-caller/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-03 02:34:40] WARNING root fetch - processPackages [ytdl-sub]: Timeout reached during download
+[2024-04-03 02:34:40] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2024-04-03 02:34:40] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-sub-2024.4.1.tar.gz tmp/ytdl-sub-2024.4.3.tar.gz --markdown 20240403/y/ytdl-sub/2024.4.1-2024.4.3/diff.md --exclude *.pyd
+[2024-04-03 02:34:40] INFO root fetch - processPackages [chaturbate-poller]: Remove: archive file [/home/abi/fetcher/tmp/chaturbate_poller-0.1.2.tar.gz]
+[2024-04-03 02:34:40] INFO root fetch - processPackages [SheildPy]: Remove: archive file [/home/abi/fetcher/tmp/SheildPy-0.0.7.tar.gz]
+[2024-04-03 02:34:40] INFO root fetch - processPackages [chaturbate-poller]: Remove: archive file [/home/abi/fetcher/tmp/chaturbate_poller-0.1.3.tar.gz]
+[2024-04-03 02:34:40] INFO root fetch - processPackages [SheildPy]: Remove: archive file [/home/abi/fetcher/tmp/SheildPy-0.0.8.tar.gz]
+[2024-04-03 02:34:40] INFO root fetch - main [MainThread]: End processing [chaturbate-poller]: success
+[2024-04-03 02:34:40] INFO root fetch - main [MainThread]: End processing [SheildPy]: success
+[2024-04-03 02:34:40] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2024-04-03 02:34:40] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2024-04-03 02:34:40] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2024-04-03 02:34:40] INFO root fetch - processPackages [amazon-textract-caller]: Remove: archive file [/home/abi/fetcher/tmp/amazon-textract-caller-0.2.2.tar.gz]
+[2024-04-03 02:34:40] INFO root fetch - processPackages [amazon-textract-caller]: Remove: archive file [/home/abi/fetcher/tmp/amazon-textract-caller-0.2.3.tar.gz]
+[2024-04-03 02:34:40] INFO root fetch - main [MainThread]: End processing [amazon-textract-caller]: success
+[2024-04-03 02:34:40] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-dev-2.0.1.zip]
+[2024-04-03 02:34:40] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-dev-2.0.2.zip]
+[2024-04-03 02:34:40] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-04-03 02:34:41] INFO root fetch - processPackages [SQLDataModel]: Remove: archive file [/home/abi/fetcher/tmp/SQLDataModel-0.3.1.tar.gz]
+[2024-04-03 02:34:41] INFO root fetch - processPackages [SQLDataModel]: Remove: archive file [/home/abi/fetcher/tmp/SQLDataModel-0.3.2.tar.gz]
+[2024-04-03 02:34:41] INFO root fetch - main [MainThread]: End processing [SQLDataModel]: success
+[2024-04-03 02:34:41] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2024.4.1.tar.gz]
+[2024-04-03 02:34:41] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2024.4.3.tar.gz]
+[2024-04-03 02:34:41] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2024-04-03 02:34:41] INFO root fetch - main [MainThread]: Store serial: [22593455]

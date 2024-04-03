@@ -21458,3 +21458,67 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:08:42] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-1.6.1.tar.gz]
 [2024-04-03 08:08:42] INFO root fetch - main [MainThread]: End processing [erlab]: success
 [2024-04-03 08:08:42] INFO root fetch - main [MainThread]: Store serial: [22598675]
+[2024-04-03 08:10:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598675]
+[2024-04-03 08:10:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 08:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crawlab-ai
+[2024-04-03 08:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-barcodes-generator-location
+[2024-04-03 08:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spark-ai-python
+[2024-04-03 08:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyg-nightly
+[2024-04-03 08:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emr-metadata-collector
+[2024-04-03 08:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pythagoras
+[2024-04-03 08:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamjoy
+[2024-04-03 08:10:51] WARNING root fetch - processPackages [pythagoras]: Skipping, unable to determine old version
+[2024-04-03 08:10:51] INFO root fetch - main [MainThread]: End processing [pythagoras] error
+[2024-04-03 08:10:51] INFO root fetch - processPackages [spark-ai-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-03 08:10:51] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240402] Old Version: [2.6.0.dev20240401]
+[2024-04-03 08:10:51] INFO root fetch - processPackages [odoo-addon-barcodes-generator-location]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-04-03 08:10:51] INFO root fetch - processPackages [crawlab-ai]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-03 08:10:51] INFO root fetch - processPackages [streamjoy]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-03 08:10:51] WARNING root fetch - processPackages [emr-metadata-collector]: Skipping, unable to determine old version
+[2024-04-03 08:10:51] INFO root fetch - main [MainThread]: End processing [emr-metadata-collector] error
+[2024-04-03 08:10:51] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/f4/fb/add24d391c9e74bdc54b217e18d2a6003fb4db73d26fd757acf24fc284b0/spark_ai_python-0.3.8.tar.gz
+[2024-04-03 08:10:51] WARNING root fetch - processPackages [spark-ai-python]: Timeout reached during download
+[2024-04-03 08:10:51] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/5f/fc/ab1e3f7138191040ecda4757dee85f06b7f6f60c56e0d4fa72c7d15fc89a/pyg_nightly-2.6.0.dev20240401.tar.gz
+[2024-04-03 08:10:51] INFO root fetch - processPackages [odoo-addon-barcodes-generator-location]: Downloading https://files.pythonhosted.org/packages/d3/be/36bbaf310029a18f293c54cb1d00e99493e1f8952eebc5fe6b0caad347f8/odoo_addon_barcodes_generator_location-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-03 08:10:51] INFO root fetch - processPackages [crawlab-ai]: Downloading https://files.pythonhosted.org/packages/97/dd/48be15631dd24ab24739f7d289dd8b3402933eb3dae160044d9e2e00d15e/crawlab-ai-0.0.1.tar.gz
+[2024-04-03 08:10:51] INFO root fetch - processPackages [streamjoy]: Downloading https://files.pythonhosted.org/packages/25/38/043ed10678ea7da584d50213c58a1d8d78175678b55f72b8b140980d6b86/streamjoy-0.0.2.tar.gz
+[2024-04-03 08:10:51] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/9c/8f/839a31dcb40a663647214e2c2a849dd29aba055b051276318cae0b879c67/spark_ai_python-0.3.9.tar.gz
+[2024-04-03 08:10:51] WARNING root fetch - processPackages [odoo-addon-barcodes-generator-location]: Timeout reached during download
+[2024-04-03 08:10:51] WARNING root fetch - processPackages [crawlab-ai]: Timeout reached during download
+[2024-04-03 08:10:51] WARNING root fetch - processPackages [pyg-nightly]: Timeout reached during download
+[2024-04-03 08:10:51] WARNING root fetch - processPackages [spark-ai-python]: Timeout reached during download
+[2024-04-03 08:10:51] INFO root fetch - processPackages [spark-ai-python]: executing diffoscope
+[2024-04-03 08:10:51] INFO root fetch - processPackages [spark-ai-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_ai_python-0.3.8.tar.gz tmp/spark_ai_python-0.3.9.tar.gz --markdown 20240403/s/spark-ai-python/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-03 08:10:51] WARNING root fetch - processPackages [streamjoy]: Timeout reached during download
+[2024-04-03 08:10:51] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/91/24/de325652df2e08189672675d2f3593f7c9c3e99dcf79e676ca1a528a75dc/pyg_nightly-2.6.0.dev20240402.tar.gz
+[2024-04-03 08:10:51] INFO root fetch - processPackages [odoo-addon-barcodes-generator-location]: Downloading https://files.pythonhosted.org/packages/13/c7/97f0f6903951b58eed312f62372e9fe31f81550e26906237507c94e44678/odoo_addon_barcodes_generator_location-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-03 08:10:51] INFO root fetch - processPackages [crawlab-ai]: Downloading https://files.pythonhosted.org/packages/34/12/c29f9c7fc76a5714f74d3297cb311912f8d49a8c4cd256df6ba4bed7a217/crawlab-ai-0.0.2.tar.gz
+[2024-04-03 08:10:51] INFO root fetch - processPackages [streamjoy]: Downloading https://files.pythonhosted.org/packages/a9/93/febd1d6de2802a04eb9531a96d43fafcdc7fd21ccf47e3dd28d19af05d75/streamjoy-0.0.3.tar.gz
+[2024-04-03 08:10:51] WARNING root fetch - processPackages [crawlab-ai]: Timeout reached during download
+[2024-04-03 08:10:51] INFO root fetch - processPackages [crawlab-ai]: executing diffoscope
+[2024-04-03 08:10:51] INFO root fetch - processPackages [crawlab-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlab-ai-0.0.1.tar.gz tmp/crawlab-ai-0.0.2.tar.gz --markdown 20240403/c/crawlab-ai/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-03 08:10:51] WARNING root fetch - processPackages [odoo-addon-barcodes-generator-location]: Timeout reached during download
+[2024-04-03 08:10:51] INFO root fetch - processPackages [odoo-addon-barcodes-generator-location]: executing diffoscope
+[2024-04-03 08:10:51] INFO root fetch - processPackages [odoo-addon-barcodes-generator-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_barcodes_generator_location-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_barcodes_generator_location-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-barcodes-generator-location/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2024-04-03 08:10:51] WARNING root fetch - processPackages [pyg-nightly]: Timeout reached during download
+[2024-04-03 08:10:51] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-04-03 08:10:51] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240401.tar.gz tmp/pyg_nightly-2.6.0.dev20240402.tar.gz --markdown 20240403/p/pyg-nightly/2.6.0.dev20240401-2.6.0.dev20240402/diff.md --exclude *.pyd
+[2024-04-03 08:10:52] WARNING root fetch - processPackages [streamjoy]: Timeout reached during download
+[2024-04-03 08:10:52] INFO root fetch - processPackages [streamjoy]: executing diffoscope
+[2024-04-03 08:10:52] INFO root fetch - processPackages [streamjoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamjoy-0.0.2.tar.gz tmp/streamjoy-0.0.3.tar.gz --markdown 20240403/s/streamjoy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-03 08:10:52] INFO root fetch - processPackages [crawlab-ai]: Remove: archive file [/home/abi/fetcher/tmp/crawlab-ai-0.0.1.tar.gz]
+[2024-04-03 08:10:52] INFO root fetch - processPackages [crawlab-ai]: Remove: archive file [/home/abi/fetcher/tmp/crawlab-ai-0.0.2.tar.gz]
+[2024-04-03 08:10:52] INFO root fetch - main [MainThread]: End processing [crawlab-ai]: success
+[2024-04-03 08:10:52] INFO root fetch - processPackages [odoo-addon-barcodes-generator-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_barcodes_generator_location-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-03 08:10:52] INFO root fetch - processPackages [odoo-addon-barcodes-generator-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_barcodes_generator_location-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-03 08:10:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-barcodes-generator-location]: success
+[2024-04-03 08:10:52] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.8.tar.gz]
+[2024-04-03 08:10:52] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
+[2024-04-03 08:10:52] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
+[2024-04-03 08:10:52] INFO root fetch - processPackages [streamjoy]: Remove: archive file [/home/abi/fetcher/tmp/streamjoy-0.0.2.tar.gz]
+[2024-04-03 08:10:52] INFO root fetch - processPackages [streamjoy]: Remove: archive file [/home/abi/fetcher/tmp/streamjoy-0.0.3.tar.gz]
+[2024-04-03 08:10:52] INFO root fetch - main [MainThread]: End processing [streamjoy]: success
+[2024-04-03 08:10:54] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240401.tar.gz]
+[2024-04-03 08:10:54] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240402.tar.gz]
+[2024-04-03 08:10:54] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-04-03 08:10:54] INFO root fetch - main [MainThread]: Store serial: [22598696]

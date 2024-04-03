@@ -14083,3 +14083,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 04:21:39] INFO root fetch - processPackages [finhack]: Remove: archive file [/home/abi/fetcher/tmp/finhack-0.0.2.dev9.tar.gz]
 [2024-04-03 04:21:39] INFO root fetch - main [MainThread]: End processing [finhack]: success
 [2024-04-03 04:21:39] INFO root fetch - main [MainThread]: Store serial: [22596458]
+[2024-04-03 04:23:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596458]
+[2024-04-03 04:23:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-03 04:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bc-sus-columnvalidation
+[2024-04-03 04:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rp
+[2024-04-03 04:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: esphome-dashboard
+[2024-04-03 04:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-03 04:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edgartools
+[2024-04-03 04:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sejinchun2024
+[2024-04-03 04:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: junhyeok31
+[2024-04-03 04:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minhyeong2024
+[2024-04-03 04:23:49] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-03 04:23:49] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.11a1712110370] Old Version: [0.0.11a1712103012]
+[2024-04-03 04:23:49] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-04-03 04:23:49] INFO root fetch - processPackages [bc-sus-columnvalidation]: New version: [0.9.2.7] Old Version: [0.9.2.5]
+[2024-04-03 04:23:49] WARNING root fetch - processPackages [sejinchun2024]: Skipping, unable to determine old version
+[2024-04-03 04:23:49] INFO root fetch - main [MainThread]: End processing [sejinchun2024] error
+[2024-04-03 04:23:49] WARNING root fetch - processPackages [junhyeok31]: Skipping, unable to determine old version
+[2024-04-03 04:23:49] WARNING root fetch - processPackages [minhyeong2024]: Skipping, unable to determine old version
+[2024-04-03 04:23:49] INFO root fetch - main [MainThread]: End processing [junhyeok31] error
+[2024-04-03 04:23:49] INFO root fetch - main [MainThread]: End processing [minhyeong2024] error
+[2024-04-03 04:23:49] INFO root fetch - processPackages [esphome-dashboard]: New version: [20240403.0] Old Version: [20240319.0]
+[2024-04-03 04:23:49] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-04-03 04:23:49] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-04-03 04:23:49] INFO root fetch - processPackages [edgartools]: New version: [2.9.0] Old Version: [2.8.3]
+[2024-04-03 04:23:49] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/07/1e/02ac85a3a362552b3dca8221dc1483689c5d20c50323c8413ddd669ba211/pulumi_kubernetes_the_hard_way-0.0.11a1712103012.tar.gz
+[2024-04-03 04:23:50] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-03 04:23:50] INFO root fetch - processPackages [bc-sus-columnvalidation]: Downloading https://files.pythonhosted.org/packages/d7/7d/a987d4f1a6d478c4aa90575350b4669cfdbbb122b2b536b9aff9551f6f55/bc_sus_columnvalidation-0.9.2.5.tar.gz
+[2024-04-03 04:23:50] INFO root fetch - processPackages [esphome-dashboard]: Downloading https://files.pythonhosted.org/packages/22/d9/f9d6b35391f4ce463d7d918cb7cd2a620cb95a8e52a752c7f5c74d40ba26/esphome-dashboard-20240319.0.tar.gz
+[2024-04-03 04:23:50] INFO root fetch - processPackages [edgartools]: Downloading https://files.pythonhosted.org/packages/d8/c6/400200c18dfea8996fed257a419285ffb6839fac1a467836c0d47f525bfa/edgartools-2.8.3.tar.gz
+[2024-04-03 04:23:50] WARNING root fetch - processPackages [bc-sus-columnvalidation]: Timeout reached during download
+[2024-04-03 04:23:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/ec/e7/2e147d0348c3d07df784142ee0d39ec8ceb22d197a069f0b777b0cc583db/pulumi_kubernetes_the_hard_way-0.0.11a1712110370.tar.gz
+[2024-04-03 04:23:50] WARNING root fetch - processPackages [edgartools]: Timeout reached during download
+[2024-04-03 04:23:50] INFO root fetch - processPackages [bc-sus-columnvalidation]: Downloading https://files.pythonhosted.org/packages/2d/b3/0bcf0aea4eaaee63f775b14eefbb6238b606eb29664c0b7f38acfe733505/bc_sus_columnvalidation-0.9.2.7.tar.gz
+[2024-04-03 04:23:50] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-03 04:23:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-03 04:23:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712103012.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712110370.tar.gz --markdown 20240403/p/pulumi-kubernetes-the-hard-way/0.0.11a1712103012-0.0.11a1712110370/diff.md --exclude *.pyd
+[2024-04-03 04:23:50] WARNING root fetch - processPackages [bc-sus-columnvalidation]: Timeout reached during download
+[2024-04-03 04:23:50] INFO root fetch - processPackages [bc-sus-columnvalidation]: executing diffoscope
+[2024-04-03 04:23:50] INFO root fetch - processPackages [bc-sus-columnvalidation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc_sus_columnvalidation-0.9.2.5.tar.gz tmp/bc_sus_columnvalidation-0.9.2.7.tar.gz --markdown 20240403/b/bc-sus-columnvalidation/0.9.2.5-0.9.2.7/diff.md --exclude *.pyd
+[2024-04-03 04:23:50] INFO root fetch - processPackages [edgartools]: Downloading https://files.pythonhosted.org/packages/c6/e4/10d80214acd99a350add686b19eb2625613291c9bff643051d50b5aca766/edgartools-2.9.0.tar.gz
+[2024-04-03 04:23:50] WARNING root fetch - processPackages [edgartools]: Timeout reached during download
+[2024-04-03 04:23:50] INFO root fetch - processPackages [edgartools]: executing diffoscope
+[2024-04-03 04:23:50] INFO root fetch - processPackages [edgartools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgartools-2.8.3.tar.gz tmp/edgartools-2.9.0.tar.gz --markdown 20240403/e/edgartools/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2024-04-03 04:23:51] INFO root fetch - processPackages [bc-sus-columnvalidation]: Remove: archive file [/home/abi/fetcher/tmp/bc_sus_columnvalidation-0.9.2.5.tar.gz]
+[2024-04-03 04:23:51] INFO root fetch - processPackages [bc-sus-columnvalidation]: Remove: archive file [/home/abi/fetcher/tmp/bc_sus_columnvalidation-0.9.2.7.tar.gz]
+[2024-04-03 04:23:51] INFO root fetch - main [MainThread]: End processing [bc-sus-columnvalidation]: success
+[2024-04-03 04:23:51] WARNING root fetch - processPackages [esphome-dashboard]: Timeout reached during download
+[2024-04-03 04:23:51] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712103012.tar.gz]
+[2024-04-03 04:23:51] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712110370.tar.gz]
+[2024-04-03 04:23:51] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-03 04:23:51] INFO root fetch - processPackages [esphome-dashboard]: Downloading https://files.pythonhosted.org/packages/a4/41/3f17358c965ad2f7d093aa34faa9f9a52e53f5efc6ec8119744c5cb366ba/esphome-dashboard-20240403.0.tar.gz
+[2024-04-03 04:23:51] INFO root fetch - processPackages [edgartools]: Remove: archive file [/home/abi/fetcher/tmp/edgartools-2.8.3.tar.gz]
+[2024-04-03 04:23:51] INFO root fetch - processPackages [edgartools]: Remove: archive file [/home/abi/fetcher/tmp/edgartools-2.9.0.tar.gz]
+[2024-04-03 04:23:51] INFO root fetch - main [MainThread]: End processing [edgartools]: success
+[2024-04-03 04:23:52] WARNING root fetch - processPackages [esphome-dashboard]: Timeout reached during download
+[2024-04-03 04:23:52] INFO root fetch - processPackages [esphome-dashboard]: executing diffoscope
+[2024-04-03 04:23:52] INFO root fetch - processPackages [esphome-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-dashboard-20240319.0.tar.gz tmp/esphome-dashboard-20240403.0.tar.gz --markdown 20240403/e/esphome-dashboard/20240319.0-20240403.0/diff.md --exclude *.pyd
+[2024-04-03 04:24:35] INFO root fetch - processPackages [esphome-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/esphome-dashboard-20240319.0.tar.gz]
+[2024-04-03 04:24:35] INFO root fetch - processPackages [esphome-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/esphome-dashboard-20240403.0.tar.gz]
+[2024-04-03 04:24:35] INFO root fetch - main [MainThread]: End processing [esphome-dashboard]: success
+[2024-04-03 04:24:35] INFO root fetch - main [MainThread]: Store serial: [22596486]

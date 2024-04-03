@@ -13712,3 +13712,42 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 03:59:54] INFO root fetch - processPackages [onlyuserclient]: Remove: archive file [/home/abi/fetcher/tmp/onlyuserclient-1.2.9.dev0-py3-none-any.whl.zip]
 [2024-04-03 03:59:54] INFO root fetch - main [MainThread]: End processing [onlyuserclient]: success
 [2024-04-03 03:59:54] INFO root fetch - main [MainThread]: Store serial: [22596356]
+[2024-04-03 04:01:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596356]
+[2024-04-03 04:02:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-03 04:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liminal-sdk-python
+[2024-04-03 04:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vkdispatch
+[2024-04-03 04:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: getpublicipv4
+[2024-04-03 04:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agentops
+[2024-04-03 04:02:03] INFO root fetch - processPackages [agentops]: New version: [0.1.0b7] Old Version: [0.1.0b5]
+[2024-04-03 04:02:03] INFO root fetch - processPackages [getpublicipv4]: New version: [0.12] Old Version: [0.10]
+[2024-04-03 04:02:03] INFO root fetch - processPackages [agentops]: Downloading https://files.pythonhosted.org/packages/84/d6/f0bbe5883b86e749f2f02896d94054ebd84b4d66524e4b7004263ae21a6f/agentops-0.1.0b5.tar.gz
+[2024-04-03 04:02:03] WARNING root fetch - processPackages [vkdispatch]: Skipping, unable to determine old version
+[2024-04-03 04:02:03] INFO root fetch - main [MainThread]: End processing [vkdispatch] error
+[2024-04-03 04:02:03] INFO root fetch - processPackages [liminal-sdk-python]: New version: [2024.4.0] Old Version: [2024.3.5]
+[2024-04-03 04:02:03] WARNING root fetch - processPackages [agentops]: Timeout reached during download
+[2024-04-03 04:02:03] INFO root fetch - processPackages [getpublicipv4]: Downloading https://files.pythonhosted.org/packages/8c/3a/14a4450002822ab648b7b1acf68965e8a2d15dcba481bd5b442dffcd7b40/getpublicipv4-0.10.tar.gz
+[2024-04-03 04:02:04] INFO root fetch - processPackages [liminal-sdk-python]: Downloading https://files.pythonhosted.org/packages/09/a6/4a982e006a29d6cb6480d50e1ea6faadb1f8c57a528e77bc1ec85cd49d55/liminal_sdk_python-2024.3.5.tar.gz
+[2024-04-03 04:02:04] INFO root fetch - processPackages [agentops]: Downloading https://files.pythonhosted.org/packages/cb/f0/c32014a8ee12df4596ec4d90428e73e0cc5277d1b9bd2b53f815a7f0ea1f/agentops-0.1.0b7.tar.gz
+[2024-04-03 04:02:04] WARNING root fetch - processPackages [liminal-sdk-python]: Timeout reached during download
+[2024-04-03 04:02:04] WARNING root fetch - processPackages [getpublicipv4]: Timeout reached during download
+[2024-04-03 04:02:04] WARNING root fetch - processPackages [agentops]: Timeout reached during download
+[2024-04-03 04:02:04] INFO root fetch - processPackages [agentops]: executing diffoscope
+[2024-04-03 04:02:04] INFO root fetch - processPackages [agentops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentops-0.1.0b5.tar.gz tmp/agentops-0.1.0b7.tar.gz --markdown 20240403/a/agentops/0.1.0b5-0.1.0b7/diff.md --exclude *.pyd
+[2024-04-03 04:02:04] INFO root fetch - processPackages [liminal-sdk-python]: Downloading https://files.pythonhosted.org/packages/b1/9d/0efce9488f6740ec6fe127c0650d59139ba5a4c0120656e24bb2de3c9e4f/liminal_sdk_python-2024.4.0.tar.gz
+[2024-04-03 04:02:04] INFO root fetch - processPackages [getpublicipv4]: Downloading https://files.pythonhosted.org/packages/4a/6b/c82271130734aecb870a3b7b58e60006f524729f82fab342d5a9209a5bea/getpublicipv4-0.12.tar.gz
+[2024-04-03 04:02:04] WARNING root fetch - processPackages [liminal-sdk-python]: Timeout reached during download
+[2024-04-03 04:02:04] INFO root fetch - processPackages [liminal-sdk-python]: executing diffoscope
+[2024-04-03 04:02:04] INFO root fetch - processPackages [liminal-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liminal_sdk_python-2024.3.5.tar.gz tmp/liminal_sdk_python-2024.4.0.tar.gz --markdown 20240403/l/liminal-sdk-python/2024.3.5-2024.4.0/diff.md --exclude *.pyd
+[2024-04-03 04:02:04] WARNING root fetch - processPackages [getpublicipv4]: Timeout reached during download
+[2024-04-03 04:02:04] INFO root fetch - processPackages [getpublicipv4]: executing diffoscope
+[2024-04-03 04:02:04] INFO root fetch - processPackages [getpublicipv4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getpublicipv4-0.10.tar.gz tmp/getpublicipv4-0.12.tar.gz --markdown 20240403/g/getpublicipv4/0.10-0.12/diff.md --exclude *.pyd
+[2024-04-03 04:02:04] INFO root fetch - processPackages [agentops]: Remove: archive file [/home/abi/fetcher/tmp/agentops-0.1.0b5.tar.gz]
+[2024-04-03 04:02:04] INFO root fetch - processPackages [agentops]: Remove: archive file [/home/abi/fetcher/tmp/agentops-0.1.0b7.tar.gz]
+[2024-04-03 04:02:04] INFO root fetch - main [MainThread]: End processing [agentops]: success
+[2024-04-03 04:02:05] INFO root fetch - processPackages [getpublicipv4]: Remove: archive file [/home/abi/fetcher/tmp/getpublicipv4-0.10.tar.gz]
+[2024-04-03 04:02:05] INFO root fetch - processPackages [getpublicipv4]: Remove: archive file [/home/abi/fetcher/tmp/getpublicipv4-0.12.tar.gz]
+[2024-04-03 04:02:05] INFO root fetch - main [MainThread]: End processing [getpublicipv4]: success
+[2024-04-03 04:02:05] INFO root fetch - processPackages [liminal-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/liminal_sdk_python-2024.3.5.tar.gz]
+[2024-04-03 04:02:05] INFO root fetch - processPackages [liminal-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/liminal_sdk_python-2024.4.0.tar.gz]
+[2024-04-03 04:02:05] INFO root fetch - main [MainThread]: End processing [liminal-sdk-python]: success
+[2024-04-03 04:02:05] INFO root fetch - main [MainThread]: Store serial: [22596370]

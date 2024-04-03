@@ -19331,3 +19331,53 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 07:13:37] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
 [2024-04-03 07:13:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
 [2024-04-03 07:13:37] INFO root fetch - main [MainThread]: Store serial: [22598077]
+[2024-04-03 07:15:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598077]
+[2024-04-03 07:15:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 07:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-pos-membership-extension
+[2024-04-03 07:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-pos
+[2024-04-03 07:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AppWrapper
+[2024-04-03 07:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py7za
+[2024-04-03 07:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tablelinker-light
+[2024-04-03 07:15:46] INFO root fetch - processPackages [AppWrapper]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-03 07:15:46] WARNING root fetch - processPackages [tablelinker-light]: Skipping, unable to determine old version
+[2024-04-03 07:15:46] INFO root fetch - main [MainThread]: End processing [tablelinker-light] error
+[2024-04-03 07:15:46] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/92/63/397ff9c0fa004cea91903dd5e34cfe05932bbe74af904681692ae81b22c7/AppWrapper-0.2.7.tar.gz
+[2024-04-03 07:15:46] INFO root fetch - processPackages [odoo-addons-oca-pos]: New version: [16.0.20240402.0] Old Version: [16.0.20240325.0]
+[2024-04-03 07:15:46] INFO root fetch - processPackages [odoo-addon-pos-membership-extension]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-04-03 07:15:46] INFO root fetch - processPackages [py7za]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-03 07:15:46] WARNING root fetch - processPackages [AppWrapper]: Timeout reached during download
+[2024-04-03 07:15:46] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/9f/08/7aa862fcfe6c618d0069e296631eda699c520eff8c20b4ae609a37629708/odoo_addons_oca_pos-16.0.20240325.0-py3-none-any.whl
+[2024-04-03 07:15:47] INFO root fetch - processPackages [py7za]: Downloading https://files.pythonhosted.org/packages/40/a4/5681d8798169cf3ea74be71b3376e1746697265f64de0ffc2d0385931dad/py7za-0.3.1.tar.gz
+[2024-04-03 07:15:47] INFO root fetch - processPackages [odoo-addon-pos-membership-extension]: Downloading https://files.pythonhosted.org/packages/6c/86/491bdf795b276912ddeedbb3a3746f170e74719bab5610f54939f931c0f4/odoo_addon_pos_membership_extension-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-03 07:15:47] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/5e/d3/e35d5f0cc976fdac22170eeb2e9eac692e9c8d2ae267028a409e962593a1/AppWrapper-0.2.8.tar.gz
+[2024-04-03 07:15:47] WARNING root fetch - processPackages [odoo-addons-oca-pos]: Timeout reached during download
+[2024-04-03 07:15:47] WARNING root fetch - processPackages [odoo-addon-pos-membership-extension]: Timeout reached during download
+[2024-04-03 07:15:47] WARNING root fetch - processPackages [AppWrapper]: Timeout reached during download
+[2024-04-03 07:15:47] INFO root fetch - processPackages [AppWrapper]: executing diffoscope
+[2024-04-03 07:15:47] INFO root fetch - processPackages [AppWrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppWrapper-0.2.7.tar.gz tmp/AppWrapper-0.2.8.tar.gz --markdown 20240403/A/AppWrapper/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2024-04-03 07:15:47] WARNING root fetch - processPackages [py7za]: Timeout reached during download
+[2024-04-03 07:15:47] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/2f/d7/a8123466a7e9e7ee4caa35bdd939b3bee2b08e5a4edfc5691ace70824644/odoo_addons_oca_pos-16.0.20240402.0-py3-none-any.whl
+[2024-04-03 07:15:47] INFO root fetch - processPackages [odoo-addon-pos-membership-extension]: Downloading https://files.pythonhosted.org/packages/78/3f/846a07fdbcce478e61305520890472048a97941391f25fafdf227e6a117e/odoo_addon_pos_membership_extension-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-03 07:15:47] WARNING root fetch - processPackages [odoo-addons-oca-pos]: Timeout reached during download
+[2024-04-03 07:15:47] INFO root fetch - processPackages [odoo-addons-oca-pos]: executing diffoscope
+[2024-04-03 07:15:47] INFO root fetch - processPackages [odoo-addons-oca-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_pos-16.0.20240325.0-py3-none-any.whl.zip tmp/odoo_addons_oca_pos-16.0.20240402.0-py3-none-any.whl.zip --markdown 20240403/o/odoo-addons-oca-pos/16.0.20240325.0-16.0.20240402.0/diff.md --exclude *.pyd
+[2024-04-03 07:15:47] INFO root fetch - processPackages [py7za]: Downloading https://files.pythonhosted.org/packages/42/3f/bb06eef178ea64bf449a938ca56b555ff44a3b45f69d2de4816870240ae1/py7za-0.3.2.tar.gz
+[2024-04-03 07:15:47] WARNING root fetch - processPackages [odoo-addon-pos-membership-extension]: Timeout reached during download
+[2024-04-03 07:15:47] INFO root fetch - processPackages [odoo-addon-pos-membership-extension]: executing diffoscope
+[2024-04-03 07:15:47] INFO root fetch - processPackages [odoo-addon-pos-membership-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_membership_extension-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_pos_membership_extension-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-pos-membership-extension/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-03 07:15:47] WARNING root fetch - processPackages [py7za]: Timeout reached during download
+[2024-04-03 07:15:47] INFO root fetch - processPackages [py7za]: executing diffoscope
+[2024-04-03 07:15:47] INFO root fetch - processPackages [py7za]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py7za-0.3.1.tar.gz tmp/py7za-0.3.2.tar.gz --markdown 20240403/p/py7za/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-03 07:15:47] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.7.tar.gz]
+[2024-04-03 07:15:47] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.8.tar.gz]
+[2024-04-03 07:15:47] INFO root fetch - main [MainThread]: End processing [AppWrapper]: success
+[2024-04-03 07:15:47] INFO root fetch - processPackages [odoo-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_pos-16.0.20240325.0-py3-none-any.whl.zip]
+[2024-04-03 07:15:47] INFO root fetch - processPackages [odoo-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_pos-16.0.20240402.0-py3-none-any.whl.zip]
+[2024-04-03 07:15:47] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-pos]: success
+[2024-04-03 07:15:48] INFO root fetch - processPackages [odoo-addon-pos-membership-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_membership_extension-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-03 07:15:48] INFO root fetch - processPackages [odoo-addon-pos-membership-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_membership_extension-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-03 07:15:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-membership-extension]: success
+[2024-04-03 07:15:48] INFO root fetch - processPackages [py7za]: Remove: archive file [/home/abi/fetcher/tmp/py7za-0.3.1.tar.gz]
+[2024-04-03 07:15:48] INFO root fetch - processPackages [py7za]: Remove: archive file [/home/abi/fetcher/tmp/py7za-0.3.2.tar.gz]
+[2024-04-03 07:15:48] INFO root fetch - main [MainThread]: End processing [py7za]: success
+[2024-04-03 07:15:48] INFO root fetch - main [MainThread]: Store serial: [22598089]

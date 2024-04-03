@@ -22103,3 +22103,61 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 08:35:00] INFO root fetch - processPackages [libro]: Remove: archive file [/home/abi/fetcher/tmp/libro-0.1.2.tar.gz]
 [2024-04-03 08:35:00] INFO root fetch - main [MainThread]: End processing [libro]: success
 [2024-04-03 08:35:00] INFO root fetch - main [MainThread]: Store serial: [22598860]
+[2024-04-03 08:37:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22598860]
+[2024-04-03 08:37:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 08:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: e3-core
+[2024-04-03 08:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-115
+[2024-04-03 08:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DLMS-SPODES
+[2024-04-03 08:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syncstart
+[2024-04-03 08:37:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lyrebird
+[2024-04-03 08:37:09] INFO root fetch - processPackages [python-115]: New version: [0.0.5.3] Old Version: [0.0.5.2]
+[2024-04-03 08:37:09] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-03 08:37:09] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/7f/87/35f5396a652ce8850944505238bfd099671fc906885122496e613e682cc6/python_115-0.0.5.2.tar.gz
+[2024-04-03 08:37:09] INFO root fetch - processPackages [syncstart]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-03 08:37:09] INFO root fetch - processPackages [e3-core]: New version: [22.5.0] Old Version: [22.4.0]
+[2024-04-03 08:37:09] INFO root fetch - processPackages [lyrebird]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-03 08:37:09] WARNING root fetch - processPackages [python-115]: Timeout reached during download
+[2024-04-03 08:37:09] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2024-04-03 08:37:09] INFO root fetch - processPackages [syncstart]: Downloading https://files.pythonhosted.org/packages/96/7a/985e2d99f9177e5f55e9f3dcae63e9d2daf5746bc31b45d9074aba0e35c0/syncstart-1.0.1-py3-none-any.whl
+[2024-04-03 08:37:09] INFO root fetch - processPackages [e3-core]: Downloading https://files.pythonhosted.org/packages/58/d8/19af5c0c88d1a8b08d785c5894f264be890378f37cb44fa9d5fc0be7cdfd/e3-core-22.4.0.tar.gz
+[2024-04-03 08:37:09] WARNING root fetch - processPackages [DLMS-SPODES]: Timeout reached during download
+[2024-04-03 08:37:09] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/06/13/4ab9bba5638766ee4616a2f79ef2b14a6cc420f30ee45746325841de3068/lyrebird-2.9.1.tar.gz
+[2024-04-03 08:37:09] WARNING root fetch - processPackages [syncstart]: Timeout reached during download
+[2024-04-03 08:37:09] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/14/5f/639e895ef19d8767a4d33e9b36240ae5a2edbb4d12b27f0a82edd78667ac/python_115-0.0.5.3.tar.gz
+[2024-04-03 08:37:10] WARNING root fetch - processPackages [e3-core]: Timeout reached during download
+[2024-04-03 08:37:10] WARNING root fetch - processPackages [python-115]: Timeout reached during download
+[2024-04-03 08:37:10] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-04-03 08:37:10] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.5.2.tar.gz tmp/python_115-0.0.5.3.tar.gz --markdown 20240403/p/python-115/0.0.5.2-0.0.5.3/diff.md --exclude *.pyd
+[2024-04-03 08:37:10] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2024-04-03 08:37:10] INFO root fetch - processPackages [syncstart]: Downloading https://files.pythonhosted.org/packages/42/c6/ab5eb6f1761d02413e1061a03575c5bf295c8621169168a954e1e3440b87/syncstart-1.1.0-py3-none-any.whl
+[2024-04-03 08:37:10] INFO root fetch - processPackages [e3-core]: Downloading https://files.pythonhosted.org/packages/77/20/392ec9c5de61a36c75c7a4220159e728413e4f40b56f22d0bc065a84dee1/e3_core-22.5.0-py3-none-any.whl
+[2024-04-03 08:37:10] WARNING root fetch - processPackages [lyrebird]: Timeout reached during download
+[2024-04-03 08:37:10] WARNING root fetch - processPackages [syncstart]: Timeout reached during download
+[2024-04-03 08:37:10] INFO root fetch - processPackages [syncstart]: executing diffoscope
+[2024-04-03 08:37:10] INFO root fetch - processPackages [syncstart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncstart-1.0.1-py3-none-any.whl.zip tmp/syncstart-1.1.0-py3-none-any.whl.zip --markdown 20240403/s/syncstart/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2024-04-03 08:37:10] WARNING root fetch - processPackages [DLMS-SPODES]: Timeout reached during download
+[2024-04-03 08:37:10] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2024-04-03 08:37:10] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20240403/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2024-04-03 08:37:10] WARNING root fetch - processPackages [e3-core]: Timeout reached during download
+[2024-04-03 08:37:10] INFO root fetch - processPackages [e3-core]: executing diffoscope
+[2024-04-03 08:37:10] INFO root fetch - processPackages [e3-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e3-core-22.4.0.tar.gz tmp/e3_core-22.5.0-py3-none-any.whl.zip --markdown 20240403/e/e3-core/22.4.0-22.5.0/diff.md --exclude *.pyd
+[2024-04-03 08:37:10] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/77/cb/ae987ef021622334d287593ae7760a4c9bac044e030a96acf5a262910328/lyrebird-2.9.2.tar.gz
+[2024-04-03 08:37:10] INFO root fetch - processPackages [syncstart]: Remove: archive file [/home/abi/fetcher/tmp/syncstart-1.0.1-py3-none-any.whl.zip]
+[2024-04-03 08:37:10] INFO root fetch - processPackages [syncstart]: Remove: archive file [/home/abi/fetcher/tmp/syncstart-1.1.0-py3-none-any.whl.zip]
+[2024-04-03 08:37:10] INFO root fetch - main [MainThread]: End processing [syncstart]: success
+[2024-04-03 08:37:10] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.5.2.tar.gz]
+[2024-04-03 08:37:10] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.5.3.tar.gz]
+[2024-04-03 08:37:10] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-04-03 08:37:11] INFO root fetch - processPackages [e3-core]: Remove: archive file [/home/abi/fetcher/tmp/e3-core-22.4.0.tar.gz]
+[2024-04-03 08:37:11] INFO root fetch - processPackages [e3-core]: Remove: archive file [/home/abi/fetcher/tmp/e3_core-22.5.0-py3-none-any.whl.zip]
+[2024-04-03 08:37:11] INFO root fetch - main [MainThread]: End processing [e3-core]: success
+[2024-04-03 08:37:11] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2024-04-03 08:37:11] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2024-04-03 08:37:11] WARNING root fetch - processPackages [lyrebird]: Timeout reached during download
+[2024-04-03 08:37:11] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2024-04-03 08:37:11] INFO root fetch - processPackages [lyrebird]: executing diffoscope
+[2024-04-03 08:37:11] INFO root fetch - processPackages [lyrebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrebird-2.9.1.tar.gz tmp/lyrebird-2.9.2.tar.gz --markdown 20240403/l/lyrebird/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2024-04-03 08:37:12] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.1.tar.gz]
+[2024-04-03 08:37:12] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.2.tar.gz]
+[2024-04-03 08:37:12] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
+[2024-04-03 08:37:12] INFO root fetch - main [MainThread]: Store serial: [22598873]

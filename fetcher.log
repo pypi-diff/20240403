@@ -17447,3 +17447,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:36:19] INFO root fetch - processPackages [python-CIAM]: Remove: archive file [/home/abi/fetcher/tmp/python-CIAM-1.2.tar.gz]
 [2024-04-03 06:36:19] INFO root fetch - main [MainThread]: End processing [python-CIAM]: success
 [2024-04-03 06:36:19] INFO root fetch - main [MainThread]: Store serial: [22597549]
+[2024-04-03 06:38:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597549]
+[2024-04-03 06:38:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-03 06:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-cfs
+[2024-04-03 06:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cryptopian-infra
+[2024-04-03 06:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-chdfs
+[2024-04-03 06:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-ciam
+[2024-04-03 06:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-cii
+[2024-04-03 06:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-cim
+[2024-04-03 06:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyscreeps-arena
+[2024-04-03 06:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-cis
+[2024-04-03 06:38:28] INFO root fetch - processPackages [pyscreeps-arena]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-03 06:38:28] INFO root fetch - processPackages [pyscreeps-arena]: Downloading https://files.pythonhosted.org/packages/cd/61/f09ecda851c3abf2c61c9e8399f0f1f399a0cb499eb15234a118fa726e0a/pyscreeps-arena-0.1.2.tar.gz
+[2024-04-03 06:38:28] INFO root fetch - processPackages [cryptopian-infra]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-03 06:38:28] INFO root fetch - processPackages [tencentcloud-sdk-python-ciam]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:38:28] INFO root fetch - processPackages [tencentcloud-sdk-python-chdfs]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:38:28] INFO root fetch - processPackages [tencentcloud-sdk-python-cii]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:38:28] INFO root fetch - processPackages [tencentcloud-sdk-python-cfs]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:38:28] INFO root fetch - processPackages [tencentcloud-sdk-python-cim]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:38:28] WARNING root fetch - processPackages [pyscreeps-arena]: Timeout reached during download
+[2024-04-03 06:38:28] INFO root fetch - processPackages [cryptopian-infra]: Downloading https://files.pythonhosted.org/packages/d4/b2/4c7f38b998bf7b24115f3468909907b303c5bca6f6e4142ce98101cbac00/cryptopian_infra-0.1.1.tar.gz
+[2024-04-03 06:38:28] INFO root fetch - processPackages [tencentcloud-sdk-python-ciam]: Downloading https://files.pythonhosted.org/packages/08/12/e4df914d494b24a08c2ea4c4b6204866b55bf856df0e0ede8aeb2a248cf7/tencentcloud-sdk-python-ciam-3.0.998.tar.gz
+[2024-04-03 06:38:28] INFO root fetch - processPackages [tencentcloud-sdk-python-chdfs]: Downloading https://files.pythonhosted.org/packages/d1/07/6748af88c654b69096ba7ab4952453ae0d6ec09f2ab66c0501a914fcaa8d/tencentcloud-sdk-python-chdfs-3.0.998.tar.gz
+[2024-04-03 06:38:28] INFO root fetch - processPackages [tencentcloud-sdk-python-cim]: Downloading https://files.pythonhosted.org/packages/fc/0c/00422ca579063142126903bb04b63de5b300bd3c994ecd5c40373f4f605d/tencentcloud-sdk-python-cim-3.0.998.tar.gz
+[2024-04-03 06:38:28] INFO root fetch - processPackages [tencentcloud-sdk-python-cfs]: Downloading https://files.pythonhosted.org/packages/b3/5f/f5328f2e500437e4cdd53beb682cd72a3fa5eb7d9d48e49a242e02eab1c5/tencentcloud-sdk-python-cfs-3.0.998.tar.gz
+[2024-04-03 06:38:28] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-03 06:38:28] WARNING root fetch - processPackages [cryptopian-infra]: Timeout reached during download
+[2024-04-03 06:38:28] WARNING root fetch - processPackages [tencentcloud-sdk-python-ciam]: Timeout reached during download
+[2024-04-03 06:38:28] INFO root fetch - processPackages [pyscreeps-arena]: Downloading https://files.pythonhosted.org/packages/83/61/f063543f374bfa9131f9953beaa906f61bb20ed0b185ea651761fde1ac23/pyscreeps-arena-0.1.3.tar.gz
+[2024-04-03 06:38:28] WARNING root fetch - processPackages [tencentcloud-sdk-python-chdfs]: Timeout reached during download
+[2024-04-03 06:38:28] WARNING root fetch - processPackages [tencentcloud-sdk-python-cim]: Timeout reached during download
+[2024-04-03 06:38:28] WARNING root fetch - processPackages [tencentcloud-sdk-python-cfs]: Timeout reached during download
+[2024-04-03 06:38:28] INFO root fetch - processPackages [tencentcloud-sdk-python-cii]: Downloading https://files.pythonhosted.org/packages/9f/e9/8f18173d3fe9fedc047536d54298ebd39ce19ce387986e61cccf771433b8/tencentcloud-sdk-python-cii-3.0.998.tar.gz
+[2024-04-03 06:38:28] WARNING root fetch - processPackages [pyscreeps-arena]: Timeout reached during download
+[2024-04-03 06:38:28] INFO root fetch - processPackages [pyscreeps-arena]: executing diffoscope
+[2024-04-03 06:38:28] INFO root fetch - processPackages [pyscreeps-arena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscreeps-arena-0.1.2.tar.gz tmp/pyscreeps-arena-0.1.3.tar.gz --markdown 20240403/p/pyscreeps-arena/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-03 06:38:28] INFO root fetch - processPackages [cryptopian-infra]: Downloading https://files.pythonhosted.org/packages/54/cd/7dd8a6216dc43e66cf31536c317941b3694aa6c08779ade24bc8045414d1/cryptopian_infra-0.1.2.tar.gz
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-ciam]: Downloading https://files.pythonhosted.org/packages/86/c7/ec9a15e4ae608074c8e932942919a4a002d9688ddcd3a5755a6eef78bebe/tencentcloud-sdk-python-ciam-3.0.999.tar.gz
+[2024-04-03 06:38:29] WARNING root fetch - processPackages [tencentcloud-sdk-python-cii]: Timeout reached during download
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-chdfs]: Downloading https://files.pythonhosted.org/packages/a4/36/c10d395f446cfff3ffdfd3b9928617d5beaa249e6ea6bf322ee9d4f99c74/tencentcloud-sdk-python-chdfs-3.0.999.tar.gz
+[2024-04-03 06:38:29] WARNING root fetch - processPackages [cryptopian-infra]: Timeout reached during download
+[2024-04-03 06:38:29] INFO root fetch - processPackages [cryptopian-infra]: executing diffoscope
+[2024-04-03 06:38:29] INFO root fetch - processPackages [cryptopian-infra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptopian_infra-0.1.1.tar.gz tmp/cryptopian_infra-0.1.2.tar.gz --markdown 20240403/c/cryptopian-infra/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cim]: Downloading https://files.pythonhosted.org/packages/aa/a1/676b21dd661350ab49ae3cff593dab173c02ff5925b009ccec4c20b3a322/tencentcloud-sdk-python-cim-3.0.999.tar.gz
+[2024-04-03 06:38:29] WARNING root fetch - processPackages [tencentcloud-sdk-python-ciam]: Timeout reached during download
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-ciam]: executing diffoscope
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-ciam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ciam-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ciam-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-ciam/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:38:29] WARNING root fetch - processPackages [tencentcloud-sdk-python-chdfs]: Timeout reached during download
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-chdfs]: executing diffoscope
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-chdfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-chdfs-3.0.998.tar.gz tmp/tencentcloud-sdk-python-chdfs-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-chdfs/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: Downloading https://files.pythonhosted.org/packages/7f/38/401f3647b64b746fc71cb98ef74e1f8d8d7f6ac2da8abf4780a8eaa5031f/tencentcloud-sdk-python-cis-3.0.998.tar.gz
+[2024-04-03 06:38:29] WARNING root fetch - processPackages [tencentcloud-sdk-python-cim]: Timeout reached during download
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cim]: executing diffoscope
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cim-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cim-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-cim/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cii]: Downloading https://files.pythonhosted.org/packages/3f/6c/3873d72fc806ca26ab291ccce876249a9cf04096ab3736b116c6089ef2e6/tencentcloud-sdk-python-cii-3.0.999.tar.gz
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cfs]: Downloading https://files.pythonhosted.org/packages/6d/2a/d4e56aa6530b7ece6190edc980b51ca66094c286129f693def4a9775a290/tencentcloud-sdk-python-cfs-3.0.999.tar.gz
+[2024-04-03 06:38:29] WARNING root fetch - processPackages [tencentcloud-sdk-python-cis]: Timeout reached during download
+[2024-04-03 06:38:29] WARNING root fetch - processPackages [tencentcloud-sdk-python-cii]: Timeout reached during download
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cii]: executing diffoscope
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cii-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cii-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-cii/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:38:29] WARNING root fetch - processPackages [tencentcloud-sdk-python-cfs]: Timeout reached during download
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cfs]: executing diffoscope
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cfs-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cfs-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-cfs/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: Downloading https://files.pythonhosted.org/packages/64/6c/a3525dfbcca82e86a0008715e2f0200fefe08e26d739222040b98717a28f/tencentcloud-sdk-python-cis-3.0.999.tar.gz
+[2024-04-03 06:38:29] INFO root fetch - processPackages [pyscreeps-arena]: Remove: archive file [/home/abi/fetcher/tmp/pyscreeps-arena-0.1.2.tar.gz]
+[2024-04-03 06:38:29] INFO root fetch - processPackages [pyscreeps-arena]: Remove: archive file [/home/abi/fetcher/tmp/pyscreeps-arena-0.1.3.tar.gz]
+[2024-04-03 06:38:29] INFO root fetch - main [MainThread]: End processing [pyscreeps-arena]: success
+[2024-04-03 06:38:29] WARNING root fetch - processPackages [tencentcloud-sdk-python-cis]: Timeout reached during download
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: executing diffoscope
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cis-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cis-3.0.999.tar.gz --markdown 20240403/t/tencentcloud-sdk-python-cis/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-chdfs]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-chdfs-3.0.998.tar.gz]
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-chdfs]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-chdfs-3.0.999.tar.gz]
+[2024-04-03 06:38:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-chdfs]: success
+[2024-04-03 06:38:29] INFO root fetch - processPackages [cryptopian-infra]: Remove: archive file [/home/abi/fetcher/tmp/cryptopian_infra-0.1.1.tar.gz]
+[2024-04-03 06:38:29] INFO root fetch - processPackages [cryptopian-infra]: Remove: archive file [/home/abi/fetcher/tmp/cryptopian_infra-0.1.2.tar.gz]
+[2024-04-03 06:38:29] INFO root fetch - main [MainThread]: End processing [cryptopian-infra]: success
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-ciam]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ciam-3.0.998.tar.gz]
+[2024-04-03 06:38:29] INFO root fetch - processPackages [tencentcloud-sdk-python-ciam]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ciam-3.0.999.tar.gz]
+[2024-04-03 06:38:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ciam]: success
+[2024-04-03 06:38:30] INFO root fetch - processPackages [tencentcloud-sdk-python-cii]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cii-3.0.998.tar.gz]
+[2024-04-03 06:38:30] INFO root fetch - processPackages [tencentcloud-sdk-python-cii]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cii-3.0.999.tar.gz]
+[2024-04-03 06:38:30] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cii]: success
+[2024-04-03 06:38:30] INFO root fetch - processPackages [tencentcloud-sdk-python-cim]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cim-3.0.998.tar.gz]
+[2024-04-03 06:38:30] INFO root fetch - processPackages [tencentcloud-sdk-python-cim]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cim-3.0.999.tar.gz]
+[2024-04-03 06:38:30] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cim]: success
+[2024-04-03 06:38:30] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cis-3.0.998.tar.gz]
+[2024-04-03 06:38:30] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cis-3.0.999.tar.gz]
+[2024-04-03 06:38:30] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cis]: success
+[2024-04-03 06:38:30] INFO root fetch - processPackages [tencentcloud-sdk-python-cfs]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cfs-3.0.998.tar.gz]
+[2024-04-03 06:38:30] INFO root fetch - processPackages [tencentcloud-sdk-python-cfs]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cfs-3.0.999.tar.gz]
+[2024-04-03 06:38:30] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cfs]: success
+[2024-04-03 06:38:30] INFO root fetch - main [MainThread]: Store serial: [22597571]

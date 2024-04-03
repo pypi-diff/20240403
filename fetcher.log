@@ -23176,3 +23176,53 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 09:21:56] INFO root fetch - processPackages [pyfate]: Remove: archive file [/home/abi/fetcher/tmp/pyfate-2.1.0.tar.gz]
 [2024-04-03 09:21:56] INFO root fetch - main [MainThread]: End processing [pyfate]: success
 [2024-04-03 09:21:56] INFO root fetch - main [MainThread]: Store serial: [22599301]
+[2024-04-03 09:24:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599301]
+[2024-04-03 09:24:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 09:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djelm
+[2024-04-03 09:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: truefoundry
+[2024-04-03 09:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arxiv-search-assistant
+[2024-04-03 09:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: semanticlayertools
+[2024-04-03 09:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-web-tree-dynamic-colored-field
+[2024-04-03 09:24:06] INFO root fetch - processPackages [djelm]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-03 09:24:06] INFO root fetch - processPackages [truefoundry]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-03 09:24:06] INFO root fetch - processPackages [semanticlayertools]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-03 09:24:06] INFO root fetch - processPackages [djelm]: Downloading https://files.pythonhosted.org/packages/84/44/3ffa8026504c757389047f4729cf79cde42f072c7a31795af71a452b9931/djelm-0.6.0.tar.gz
+[2024-04-03 09:24:06] WARNING root fetch - processPackages [arxiv-search-assistant]: Skipping, unable to determine old version
+[2024-04-03 09:24:06] INFO root fetch - main [MainThread]: End processing [arxiv-search-assistant] error
+[2024-04-03 09:24:06] INFO root fetch - processPackages [odoo-addon-web-tree-dynamic-colored-field]: New version: [17.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2024-04-03 09:24:06] WARNING root fetch - processPackages [djelm]: Timeout reached during download
+[2024-04-03 09:24:06] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/48/e7/1d86cfa6d82a3478a113aac3007c53934b1633dd58b6d94c166382807c6c/truefoundry-0.1.0.tar.gz
+[2024-04-03 09:24:06] INFO root fetch - processPackages [semanticlayertools]: Downloading https://files.pythonhosted.org/packages/f5/3f/7f4a7e64915f57e9a99af7d1abf5bd9cd1e2efdbe4b7aed0fad0f83306cc/semanticlayertools-0.2.4.tar.gz
+[2024-04-03 09:24:06] INFO root fetch - processPackages [djelm]: Downloading https://files.pythonhosted.org/packages/58/25/2b3ac470122ec3829575f5be737d9082e304ea6b16accd48e9aef58a6b24/djelm-0.7.0.tar.gz
+[2024-04-03 09:24:06] INFO root fetch - processPackages [odoo-addon-web-tree-dynamic-colored-field]: Downloading https://files.pythonhosted.org/packages/50/ed/8e8eb087f6e10d25ba123d5d97bff75a3195b4cfcebfb7218c91c000245e/odoo_addon_web_tree_dynamic_colored_field-15.0.1.0.1-py3-none-any.whl
+[2024-04-03 09:24:06] WARNING root fetch - processPackages [truefoundry]: Timeout reached during download
+[2024-04-03 09:24:06] WARNING root fetch - processPackages [semanticlayertools]: Timeout reached during download
+[2024-04-03 09:24:06] WARNING root fetch - processPackages [djelm]: Timeout reached during download
+[2024-04-03 09:24:06] INFO root fetch - processPackages [djelm]: executing diffoscope
+[2024-04-03 09:24:06] INFO root fetch - processPackages [djelm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djelm-0.6.0.tar.gz tmp/djelm-0.7.0.tar.gz --markdown 20240403/d/djelm/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2024-04-03 09:24:06] WARNING root fetch - processPackages [odoo-addon-web-tree-dynamic-colored-field]: Timeout reached during download
+[2024-04-03 09:24:06] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/5f/df/c8914d09b77815b27040a518ee4ce88a17b757addf7279179b1e46ad0d57/truefoundry-0.1.1.tar.gz
+[2024-04-03 09:24:06] INFO root fetch - processPackages [semanticlayertools]: Downloading https://files.pythonhosted.org/packages/33/13/446aad198306fecc28a23dd91fc0b4104de2a7e276e6e7af985cca960090/semanticlayertools-0.2.5.tar.gz
+[2024-04-03 09:24:06] INFO root fetch - processPackages [odoo-addon-web-tree-dynamic-colored-field]: Downloading https://files.pythonhosted.org/packages/ba/74/9589a292a35393c981f29f0cb2dfd586e4766b20f1e9dfbab32ae8a32d01/odoo_addon_web_tree_dynamic_colored_field-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-03 09:24:06] WARNING root fetch - processPackages [truefoundry]: Timeout reached during download
+[2024-04-03 09:24:06] INFO root fetch - processPackages [truefoundry]: executing diffoscope
+[2024-04-03 09:24:06] INFO root fetch - processPackages [truefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truefoundry-0.1.0.tar.gz tmp/truefoundry-0.1.1.tar.gz --markdown 20240403/t/truefoundry/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-03 09:24:06] WARNING root fetch - processPackages [semanticlayertools]: Timeout reached during download
+[2024-04-03 09:24:06] INFO root fetch - processPackages [semanticlayertools]: executing diffoscope
+[2024-04-03 09:24:06] INFO root fetch - processPackages [semanticlayertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semanticlayertools-0.2.4.tar.gz tmp/semanticlayertools-0.2.5.tar.gz --markdown 20240403/s/semanticlayertools/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-03 09:24:07] WARNING root fetch - processPackages [odoo-addon-web-tree-dynamic-colored-field]: Timeout reached during download
+[2024-04-03 09:24:07] INFO root fetch - processPackages [odoo-addon-web-tree-dynamic-colored-field]: executing diffoscope
+[2024-04-03 09:24:07] INFO root fetch - processPackages [odoo-addon-web-tree-dynamic-colored-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_tree_dynamic_colored_field-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_web_tree_dynamic_colored_field-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-web-tree-dynamic-colored-field/15.0.1.0.1-17.0.1.0.0.2/diff.md --exclude *.pyd
+[2024-04-03 09:24:07] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.1.0.tar.gz]
+[2024-04-03 09:24:07] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.1.1.tar.gz]
+[2024-04-03 09:24:07] INFO root fetch - main [MainThread]: End processing [truefoundry]: success
+[2024-04-03 09:24:07] INFO root fetch - processPackages [djelm]: Remove: archive file [/home/abi/fetcher/tmp/djelm-0.6.0.tar.gz]
+[2024-04-03 09:24:07] INFO root fetch - processPackages [djelm]: Remove: archive file [/home/abi/fetcher/tmp/djelm-0.7.0.tar.gz]
+[2024-04-03 09:24:07] INFO root fetch - main [MainThread]: End processing [djelm]: success
+[2024-04-03 09:24:08] INFO root fetch - processPackages [semanticlayertools]: Remove: archive file [/home/abi/fetcher/tmp/semanticlayertools-0.2.4.tar.gz]
+[2024-04-03 09:24:08] INFO root fetch - processPackages [semanticlayertools]: Remove: archive file [/home/abi/fetcher/tmp/semanticlayertools-0.2.5.tar.gz]
+[2024-04-03 09:24:08] INFO root fetch - main [MainThread]: End processing [semanticlayertools]: success
+[2024-04-03 09:24:08] INFO root fetch - processPackages [odoo-addon-web-tree-dynamic-colored-field]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_tree_dynamic_colored_field-15.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-03 09:24:08] INFO root fetch - processPackages [odoo-addon-web-tree-dynamic-colored-field]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_tree_dynamic_colored_field-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-03 09:24:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-tree-dynamic-colored-field]: success
+[2024-04-03 09:24:08] INFO root fetch - main [MainThread]: Store serial: [22599317]

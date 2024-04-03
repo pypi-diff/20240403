@@ -15248,3 +15248,83 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 05:04:18] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.9.tar.gz]
 [2024-04-03 05:04:18] INFO root fetch - main [MainThread]: End processing [humanloop]: success
 [2024-04-03 05:04:18] INFO root fetch - main [MainThread]: Store serial: [22596840]
+[2024-04-03 05:06:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596840]
+[2024-04-03 05:06:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 05:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mpl-markers
+[2024-04-03 05:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-aws
+[2024-04-03 05:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: merlin-pyfunc-server
+[2024-04-03 05:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: merlin-sdk
+[2024-04-03 05:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: merlin-batch-predictor
+[2024-04-03 05:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MobileInventoryCLI
+[2024-04-03 05:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kservehelper
+[2024-04-03 05:06:27] INFO root fetch - processPackages [mpl-markers]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-03 05:06:27] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.39] Old Version: [0.4.38]
+[2024-04-03 05:06:27] INFO root fetch - processPackages [merlin-batch-predictor]: New version: [0.41.1] Old Version: [0.41.0rc5]
+[2024-04-03 05:06:27] INFO root fetch - processPackages [mpl-markers]: Downloading https://files.pythonhosted.org/packages/87/74/0eaa6da01149b2d5bc31a405db5776757370a2f4903ad99eb859d36b280f/mpl-markers-0.0.5.tar.gz
+[2024-04-03 05:06:27] INFO root fetch - processPackages [kservehelper]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-03 05:06:27] INFO root fetch - processPackages [merlin-pyfunc-server]: New version: [0.41.1] Old Version: [0.41.0rc5]
+[2024-04-03 05:06:27] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2024-04-03 05:06:27] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/34/eb/008767047926dbb9f1d96eb9e5f4108eacb015b9e89543a0535a86110a3b/MobileInventoryCLI-0.4.38.tar.gz
+[2024-04-03 05:06:27] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-04-03 05:06:27] WARNING root fetch - processPackages [mpl-markers]: Timeout reached during download
+[2024-04-03 05:06:27] WARNING root fetch - processPackages [MobileInventoryCLI]: Timeout reached during download
+[2024-04-03 05:06:27] INFO root fetch - processPackages [merlin-batch-predictor]: Downloading https://files.pythonhosted.org/packages/7f/12/d1caf8bea70a8c15e74c7dba4c79b5ca4e382a367fb220a3a7e1e102304e/merlin-batch-predictor-0.41.0rc5.tar.gz
+[2024-04-03 05:06:27] INFO root fetch - processPackages [mpl-markers]: Downloading https://files.pythonhosted.org/packages/46/59/cda3d8db3983bfdfc0fdd8f833435b00e222fcf8acb593c0a7b21e1675b6/mpl-markers-0.0.6.tar.gz
+[2024-04-03 05:06:27] INFO root fetch - processPackages [kservehelper]: Downloading https://files.pythonhosted.org/packages/b1/60/706ffad132c0681184137a93d74a2535d3b2cd6a1c0d5eecdc765294c742/kservehelper-1.2.1.tar.gz
+[2024-04-03 05:06:27] INFO root fetch - processPackages [merlin-pyfunc-server]: Downloading https://files.pythonhosted.org/packages/c6/a9/09e5fee4fb172918c29c9ab71f8f23c29ac41c5b7155997bcba8b0dd8450/merlin-pyfunc-server-0.41.0rc5.tar.gz
+[2024-04-03 05:06:27] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2024-04-03 05:06:27] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-04-03 05:06:27] WARNING root fetch - processPackages [merlin-batch-predictor]: Timeout reached during download
+[2024-04-03 05:06:27] WARNING root fetch - processPackages [kservehelper]: Timeout reached during download
+[2024-04-03 05:06:27] WARNING root fetch - processPackages [mpl-markers]: Timeout reached during download
+[2024-04-03 05:06:27] INFO root fetch - processPackages [mpl-markers]: executing diffoscope
+[2024-04-03 05:06:27] INFO root fetch - processPackages [mpl-markers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpl-markers-0.0.5.tar.gz tmp/mpl-markers-0.0.6.tar.gz --markdown 20240403/m/mpl-markers/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-03 05:06:27] WARNING root fetch - processPackages [merlin-pyfunc-server]: Timeout reached during download
+[2024-04-03 05:06:27] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/99/24/41b432b0d571b08c652ff5229fc5a65f231a08d2e2977d0912e6307b53a5/MobileInventoryCLI-0.4.39.tar.gz
+[2024-04-03 05:06:27] WARNING root fetch - processPackages [merlin-sdk]: Timeout reached during download
+[2024-04-03 05:06:28] WARNING root fetch - processPackages [MobileInventoryCLI]: Timeout reached during download
+[2024-04-03 05:06:28] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-04-03 05:06:28] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.38.tar.gz tmp/MobileInventoryCLI-0.4.39.tar.gz --markdown 20240403/M/MobileInventoryCLI/0.4.38-0.4.39/diff.md --exclude *.pyd
+[2024-04-03 05:06:28] INFO root fetch - processPackages [merlin-batch-predictor]: Downloading https://files.pythonhosted.org/packages/e0/fb/dfd6d6f6ad12b97dbbad129296ed08f54bc8d34ff013939e6965d402f3b4/merlin-batch-predictor-0.41.1.tar.gz
+[2024-04-03 05:06:28] INFO root fetch - processPackages [kservehelper]: Downloading https://files.pythonhosted.org/packages/cc/d6/70b096b0087a34d58b58d6234c86835652d00b8ea69f28e401ef7e94089c/kservehelper-1.2.2.tar.gz
+[2024-04-03 05:06:28] WARNING root fetch - processPackages [pulumi-aws]: Timeout reached during download
+[2024-04-03 05:06:28] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2024-04-03 05:06:28] WARNING root fetch - processPackages [merlin-batch-predictor]: Timeout reached during download
+[2024-04-03 05:06:28] INFO root fetch - processPackages [merlin-batch-predictor]: executing diffoscope
+[2024-04-03 05:06:28] INFO root fetch - processPackages [merlin-batch-predictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-batch-predictor-0.41.0rc5.tar.gz tmp/merlin-batch-predictor-0.41.1.tar.gz --markdown 20240403/m/merlin-batch-predictor/0.41.0rc5-0.41.1/diff.md --exclude *.pyd
+[2024-04-03 05:06:28] WARNING root fetch - processPackages [kservehelper]: Timeout reached during download
+[2024-04-03 05:06:28] INFO root fetch - processPackages [kservehelper]: executing diffoscope
+[2024-04-03 05:06:28] INFO root fetch - processPackages [kservehelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kservehelper-1.2.1.tar.gz tmp/kservehelper-1.2.2.tar.gz --markdown 20240403/k/kservehelper/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2024-04-03 05:06:28] INFO root fetch - processPackages [merlin-pyfunc-server]: Downloading https://files.pythonhosted.org/packages/b3/51/470e91a0e97663a11098574c2afae7b452311af0904a12a46d3a6f0010b0/merlin-pyfunc-server-0.41.1.tar.gz
+[2024-04-03 05:06:28] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-04-03 05:06:28] WARNING root fetch - processPackages [merlin-sdk]: Timeout reached during download
+[2024-04-03 05:06:28] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2024-04-03 05:06:28] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20240403/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2024-04-03 05:06:28] WARNING root fetch - processPackages [merlin-pyfunc-server]: Timeout reached during download
+[2024-04-03 05:06:28] INFO root fetch - processPackages [merlin-pyfunc-server]: executing diffoscope
+[2024-04-03 05:06:28] INFO root fetch - processPackages [merlin-pyfunc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-pyfunc-server-0.41.0rc5.tar.gz tmp/merlin-pyfunc-server-0.41.1.tar.gz --markdown 20240403/m/merlin-pyfunc-server/0.41.0rc5-0.41.1/diff.md --exclude *.pyd
+[2024-04-03 05:06:28] INFO root fetch - processPackages [mpl-markers]: Remove: archive file [/home/abi/fetcher/tmp/mpl-markers-0.0.5.tar.gz]
+[2024-04-03 05:06:28] INFO root fetch - processPackages [mpl-markers]: Remove: archive file [/home/abi/fetcher/tmp/mpl-markers-0.0.6.tar.gz]
+[2024-04-03 05:06:28] INFO root fetch - main [MainThread]: End processing [mpl-markers]: success
+[2024-04-03 05:06:28] WARNING root fetch - processPackages [pulumi-aws]: Timeout reached during download
+[2024-04-03 05:06:28] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-04-03 05:06:28] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240403/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/diff.md --exclude *.pyd
+[2024-04-03 05:06:28] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.38.tar.gz]
+[2024-04-03 05:06:28] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.39.tar.gz]
+[2024-04-03 05:06:28] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-04-03 05:06:28] INFO root fetch - processPackages [kservehelper]: Remove: archive file [/home/abi/fetcher/tmp/kservehelper-1.2.1.tar.gz]
+[2024-04-03 05:06:28] INFO root fetch - processPackages [kservehelper]: Remove: archive file [/home/abi/fetcher/tmp/kservehelper-1.2.2.tar.gz]
+[2024-04-03 05:06:28] INFO root fetch - main [MainThread]: End processing [kservehelper]: success
+[2024-04-03 05:06:29] INFO root fetch - processPackages [merlin-batch-predictor]: Remove: archive file [/home/abi/fetcher/tmp/merlin-batch-predictor-0.41.0rc5.tar.gz]
+[2024-04-03 05:06:29] INFO root fetch - processPackages [merlin-batch-predictor]: Remove: archive file [/home/abi/fetcher/tmp/merlin-batch-predictor-0.41.1.tar.gz]
+[2024-04-03 05:06:29] INFO root fetch - main [MainThread]: End processing [merlin-batch-predictor]: success
+[2024-04-03 05:06:29] INFO root fetch - processPackages [merlin-pyfunc-server]: Remove: archive file [/home/abi/fetcher/tmp/merlin-pyfunc-server-0.41.0rc5.tar.gz]
+[2024-04-03 05:06:29] INFO root fetch - processPackages [merlin-pyfunc-server]: Remove: archive file [/home/abi/fetcher/tmp/merlin-pyfunc-server-0.41.1.tar.gz]
+[2024-04-03 05:06:29] INFO root fetch - main [MainThread]: End processing [merlin-pyfunc-server]: success
+[2024-04-03 05:06:29] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2024-04-03 05:06:29] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2024-04-03 05:06:29] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2024-04-03 05:06:45] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-04-03 05:06:45] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-04-03 05:06:45] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-04-03 05:06:45] INFO root fetch - main [MainThread]: Store serial: [22596860]

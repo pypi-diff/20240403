@@ -13593,3 +13593,64 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 03:53:21] INFO root fetch - processPackages [odoo14-addon-ssi-revenue-recognition]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_revenue_recognition-14.0.3.9.0-py3-none-any.whl.zip]
 [2024-04-03 03:53:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-revenue-recognition]: success
 [2024-04-03 03:53:21] INFO root fetch - main [MainThread]: Store serial: [22596322]
+[2024-04-03 03:55:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596322]
+[2024-04-03 03:55:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 03:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fishhook
+[2024-04-03 03:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Plametal-calc
+[2024-04-03 03:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ridge-map
+[2024-04-03 03:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antfyutils
+[2024-04-03 03:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: automonisaur
+[2024-04-03 03:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: entrez-utils
+[2024-04-03 03:55:31] INFO root fetch - processPackages [antfyutils]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-03 03:55:31] INFO root fetch - processPackages [ridge-map]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-03 03:55:31] INFO root fetch - processPackages [antfyutils]: Downloading https://files.pythonhosted.org/packages/4f/dc/ffd0d81e0ccb2e194afba503774b56099e9a17e9fdb8019f02b262396e32/antfyutils-0.0.3.tar.gz
+[2024-04-03 03:55:31] INFO root fetch - processPackages [fishhook]: New version: [0.3] Old Version: [0.2.9]
+[2024-04-03 03:55:31] WARNING root fetch - processPackages [Plametal-calc]: Skipping, unable to determine old version
+[2024-04-03 03:55:31] INFO root fetch - main [MainThread]: End processing [Plametal-calc] error
+[2024-04-03 03:55:31] INFO root fetch - processPackages [automonisaur]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-03 03:55:31] INFO root fetch - processPackages [entrez-utils]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-03 03:55:32] INFO root fetch - processPackages [ridge-map]: Downloading https://files.pythonhosted.org/packages/e6/7e/55c5c91c776ebc0aaa1760fa30ce738e6dd7eede0572ece99e1453893a01/ridge_map-0.0.4-py3-none-any.whl
+[2024-04-03 03:55:32] WARNING root fetch - processPackages [antfyutils]: Timeout reached during download
+[2024-04-03 03:55:32] INFO root fetch - processPackages [fishhook]: Downloading https://files.pythonhosted.org/packages/5a/7c/45f13560d7bb7b5a595ed20fd4f42fc306000d08bdc889f0ca741038888e/fishhook-0.2.9.tar.gz
+[2024-04-03 03:55:32] INFO root fetch - processPackages [entrez-utils]: Downloading https://files.pythonhosted.org/packages/c8/c2/2bcf4b33b2c786b04b0d0e8bdfe737aa894d8f474c9f5faf1478425ca9a7/entrez_utils-0.0.2.tar.gz
+[2024-04-03 03:55:32] INFO root fetch - processPackages [automonisaur]: Downloading https://files.pythonhosted.org/packages/34/36/111e39fdcb3966f02901e85b3add354ebcbff7464676477766aea63d60a7/automonisaur-0.4.2.tar.gz
+[2024-04-03 03:55:32] INFO root fetch - processPackages [antfyutils]: Downloading https://files.pythonhosted.org/packages/40/71/3148bfab6666bdaef426c0a59fcc7d4ae6330b763978a9e7a27309351a2b/antfyutils-0.0.4.tar.gz
+[2024-04-03 03:55:32] WARNING root fetch - processPackages [fishhook]: Timeout reached during download
+[2024-04-03 03:55:32] WARNING root fetch - processPackages [entrez-utils]: Timeout reached during download
+[2024-04-03 03:55:32] WARNING root fetch - processPackages [ridge-map]: Timeout reached during download
+[2024-04-03 03:55:32] WARNING root fetch - processPackages [antfyutils]: Timeout reached during download
+[2024-04-03 03:55:32] INFO root fetch - processPackages [antfyutils]: executing diffoscope
+[2024-04-03 03:55:32] INFO root fetch - processPackages [antfyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antfyutils-0.0.3.tar.gz tmp/antfyutils-0.0.4.tar.gz --markdown 20240403/a/antfyutils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-03 03:55:32] INFO root fetch - processPackages [fishhook]: Downloading https://files.pythonhosted.org/packages/4f/02/9bef6b52e9a565f2764e9824d4a5fe37559bbdbc7650f5130a7c8aa0cac1/fishhook-0.3.tar.gz
+[2024-04-03 03:55:32] WARNING root fetch - processPackages [automonisaur]: Timeout reached during download
+[2024-04-03 03:55:32] INFO root fetch - processPackages [ridge-map]: Downloading https://files.pythonhosted.org/packages/ec/88/f67745dc767538800fec99802f9b53e10bfe8da802b647b86387802a61eb/ridge_map-0.0.5.tar.gz
+[2024-04-03 03:55:32] INFO root fetch - processPackages [entrez-utils]: Downloading https://files.pythonhosted.org/packages/37/a1/39549c2a26488c38e55116e835d0cc37f5d93dce324a1cabad61c3e0b259/entrez_utils-0.0.3.tar.gz
+[2024-04-03 03:55:32] WARNING root fetch - processPackages [fishhook]: Timeout reached during download
+[2024-04-03 03:55:32] INFO root fetch - processPackages [fishhook]: executing diffoscope
+[2024-04-03 03:55:32] INFO root fetch - processPackages [fishhook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fishhook-0.2.9.tar.gz tmp/fishhook-0.3.tar.gz --markdown 20240403/f/fishhook/0.2.9-0.3/diff.md --exclude *.pyd
+[2024-04-03 03:55:32] WARNING root fetch - processPackages [ridge-map]: Timeout reached during download
+[2024-04-03 03:55:32] INFO root fetch - processPackages [ridge-map]: executing diffoscope
+[2024-04-03 03:55:32] INFO root fetch - processPackages [ridge-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ridge_map-0.0.4-py3-none-any.whl.zip tmp/ridge_map-0.0.5.tar.gz --markdown 20240403/r/ridge-map/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-03 03:55:32] INFO root fetch - processPackages [automonisaur]: Downloading https://files.pythonhosted.org/packages/69/70/ce5e6a128a6eaae6aa21014128d714c1513f217a560def1c4790590d2abe/automonisaur-0.5.0.tar.gz
+[2024-04-03 03:55:32] WARNING root fetch - processPackages [entrez-utils]: Timeout reached during download
+[2024-04-03 03:55:32] INFO root fetch - processPackages [entrez-utils]: executing diffoscope
+[2024-04-03 03:55:32] INFO root fetch - processPackages [entrez-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entrez_utils-0.0.2.tar.gz tmp/entrez_utils-0.0.3.tar.gz --markdown 20240403/e/entrez-utils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-03 03:55:32] INFO root fetch - processPackages [antfyutils]: Remove: archive file [/home/abi/fetcher/tmp/antfyutils-0.0.3.tar.gz]
+[2024-04-03 03:55:32] INFO root fetch - processPackages [antfyutils]: Remove: archive file [/home/abi/fetcher/tmp/antfyutils-0.0.4.tar.gz]
+[2024-04-03 03:55:32] INFO root fetch - main [MainThread]: End processing [antfyutils]: success
+[2024-04-03 03:55:32] WARNING root fetch - processPackages [automonisaur]: Timeout reached during download
+[2024-04-03 03:55:32] INFO root fetch - processPackages [automonisaur]: executing diffoscope
+[2024-04-03 03:55:32] INFO root fetch - processPackages [automonisaur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automonisaur-0.4.2.tar.gz tmp/automonisaur-0.5.0.tar.gz --markdown 20240403/a/automonisaur/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2024-04-03 03:55:33] INFO root fetch - processPackages [ridge-map]: Remove: archive file [/home/abi/fetcher/tmp/ridge_map-0.0.4-py3-none-any.whl.zip]
+[2024-04-03 03:55:33] INFO root fetch - processPackages [ridge-map]: Remove: archive file [/home/abi/fetcher/tmp/ridge_map-0.0.5.tar.gz]
+[2024-04-03 03:55:33] INFO root fetch - main [MainThread]: End processing [ridge-map]: success
+[2024-04-03 03:55:33] INFO root fetch - processPackages [fishhook]: Remove: archive file [/home/abi/fetcher/tmp/fishhook-0.2.9.tar.gz]
+[2024-04-03 03:55:33] INFO root fetch - processPackages [fishhook]: Remove: archive file [/home/abi/fetcher/tmp/fishhook-0.3.tar.gz]
+[2024-04-03 03:55:33] INFO root fetch - main [MainThread]: End processing [fishhook]: success
+[2024-04-03 03:55:33] INFO root fetch - processPackages [entrez-utils]: Remove: archive file [/home/abi/fetcher/tmp/entrez_utils-0.0.2.tar.gz]
+[2024-04-03 03:55:33] INFO root fetch - processPackages [entrez-utils]: Remove: archive file [/home/abi/fetcher/tmp/entrez_utils-0.0.3.tar.gz]
+[2024-04-03 03:55:33] INFO root fetch - main [MainThread]: End processing [entrez-utils]: success
+[2024-04-03 03:55:34] INFO root fetch - processPackages [automonisaur]: Remove: archive file [/home/abi/fetcher/tmp/automonisaur-0.4.2.tar.gz]
+[2024-04-03 03:55:34] INFO root fetch - processPackages [automonisaur]: Remove: archive file [/home/abi/fetcher/tmp/automonisaur-0.5.0.tar.gz]
+[2024-04-03 03:55:34] INFO root fetch - main [MainThread]: End processing [automonisaur]: success
+[2024-04-03 03:55:34] INFO root fetch - main [MainThread]: Store serial: [22596341]

@@ -16398,3 +16398,154 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 06:02:38] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.999.1.tar.gz]
 [2024-04-03 06:02:38] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2024-04-03 06:02:38] INFO root fetch - main [MainThread]: Store serial: [22597224]
+[2024-04-03 06:04:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597224]
+[2024-04-03 06:04:47] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-03 06:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mctech-discovery
+[2024-04-03 06:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: not1mm
+[2024-04-03 06:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: massive-cvutils
+[2024-04-03 06:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: surfkit
+[2024-04-03 06:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agentql
+[2024-04-03 06:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MobileInventoryCLI
+[2024-04-03 06:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dir2prompt
+[2024-04-03 06:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-knowledge
+[2024-04-03 06:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-document-page-approval
+[2024-04-03 06:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-document-page-access-group
+[2024-04-03 06:04:48] INFO root fetch - processPackages [dir2prompt]: New version: [2024.4.2] Old Version: [1.0.0]
+[2024-04-03 06:04:48] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-04-03 06:04:48] INFO root fetch - processPackages [not1mm]: New version: [24.4.2] Old Version: [24.4.1.2]
+[2024-04-03 06:04:48] INFO root fetch - processPackages [surfkit]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-03 06:04:48] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.41] Old Version: [0.4.40]
+[2024-04-03 06:04:48] INFO root fetch - processPackages [mctech-discovery]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-03 06:04:48] INFO root fetch - processPackages [agentql]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-03 06:04:48] ERROR root fetch - processPackages [massive-cvutils]: Unable to get metadata: No such project 'massive-cvutils'
+[2024-04-03 06:04:48] INFO root fetch - processPackages [massive-cvutils]: Start processing: odoo-addon-document-page-access-group
+[2024-04-03 06:04:48] INFO root fetch - main [MainThread]: End processing [massive-cvutils] error
+[2024-04-03 06:04:48] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: New version: [16.0.20240328.1] Old Version: [16.0.20240206.0]
+[2024-04-03 06:04:48] INFO root fetch - processPackages [odoo-addon-document-page-approval]: New version: [16.0.1.1.0.9] Old Version: [16.0.1.1.0.8]
+[2024-04-03 06:04:48] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-03 06:04:48] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/2c/d9/3a0afac51c590dba816c43392e259a604d016805fa69e252973e5ed1f7b2/not1mm-24.4.1.2.tar.gz
+[2024-04-03 06:04:48] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/6b/b6/b81a91713d02a7b687265343114fac3ce4794a1ccf485daf918f39ee1fc0/MobileInventoryCLI-0.4.40.tar.gz
+[2024-04-03 06:04:48] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/b1/96/010de3108c4e29bd10736df81998407f2e42ccf0211697cf96ccc77ba23b/surfkit-0.1.0.tar.gz
+[2024-04-03 06:04:48] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: Downloading https://files.pythonhosted.org/packages/bf/6a/0126354dab068300006b7b7f085c88999f86919cbfa370b1fc581ae9cbb6/odoo_addon_document_page_access_group-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-03 06:04:48] INFO root fetch - processPackages [dir2prompt]: Downloading https://files.pythonhosted.org/packages/96/68/2df376b1bcf35ef0ee947564040c2cbfd8ce36d33d63fd543cef50d06994/dir2prompt-1.0.0.tar.gz
+[2024-04-03 06:04:48] INFO root fetch - processPackages [mctech-discovery]: Downloading https://files.pythonhosted.org/packages/5b/08/099b8b5b0adb9c73ea7aa94895881cb4ad9fcc5c82d7d6b2a703c05e4496/mctech_discovery-1.1.8.tar.gz
+[2024-04-03 06:04:48] WARNING root fetch - processPackages [MobileInventoryCLI]: Timeout reached during download
+[2024-04-03 06:04:48] INFO root fetch - processPackages [agentql]: Downloading https://files.pythonhosted.org/packages/60/da/b9866acabc2707b7343e0a9bf8b12994049fcb0999f56e657fd89560f85d/agentql-0.3.0.tar.gz
+[2024-04-03 06:04:48] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/dc/19/bf57f9d9f013567d5516832d7582e5886f7030a62c54489270948eb95bd1/odoo_addon_document_page_approval-16.0.1.1.0.8-py3-none-any.whl
+[2024-04-03 06:04:48] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: Downloading https://files.pythonhosted.org/packages/43/9f/b9f06039f139ee85f236347f0987251e19bc3e57957abdd4c5a32feff081/odoo_addons_oca_knowledge-16.0.20240206.0-py3-none-any.whl
+[2024-04-03 06:04:48] WARNING root fetch - processPackages [surfkit]: Timeout reached during download
+[2024-04-03 06:04:48] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: Downloading https://files.pythonhosted.org/packages/5c/c5/2a5e653b26abd3cf2bd21482ef7dda839f408e4adc00636b4631b4d4128a/odoo_addon_document_page_access_group-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-03 06:04:48] WARNING root fetch - processPackages [odoo-addon-document-page-access-group]: Timeout reached during download
+[2024-04-03 06:04:48] WARNING root fetch - processPackages [dir2prompt]: Timeout reached during download
+[2024-04-03 06:04:48] WARNING root fetch - processPackages [mctech-discovery]: Timeout reached during download
+[2024-04-03 06:04:48] WARNING root fetch - processPackages [not1mm]: Timeout reached during download
+[2024-04-03 06:04:48] WARNING root fetch - processPackages [odoo-addons-oca-knowledge]: Timeout reached during download
+[2024-04-03 06:04:48] WARNING root fetch - processPackages [agentql]: Timeout reached during download
+[2024-04-03 06:04:48] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: Downloading https://files.pythonhosted.org/packages/5c/c5/2a5e653b26abd3cf2bd21482ef7dda839f408e4adc00636b4631b4d4128a/odoo_addon_document_page_access_group-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-03 06:04:48] WARNING root fetch - processPackages [odoo-addon-document-page-access-group]: Timeout reached during download
+[2024-04-03 06:04:48] WARNING root fetch - processPackages [odoo-addon-document-page-approval]: Timeout reached during download
+[2024-04-03 06:04:48] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/d7/84/2b5128d60fb2a830ef7d665a716b239dfc23445cea91e1acd61ce5c4b137/MobileInventoryCLI-0.4.41.tar.gz
+[2024-04-03 06:04:48] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/3d/59/37247e9700beb92c535abe7f125bd6ecb9750157c5effe2b9b5f61ab78c5/surfkit-0.1.1.tar.gz
+[2024-04-03 06:04:48] WARNING root fetch - processPackages [odoo-addon-document-page-access-group]: Timeout reached during download
+[2024-04-03 06:04:48] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: executing diffoscope
+[2024-04-03 06:04:48] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page_access_group-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_document_page_access_group-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-document-page-access-group/16.0.1.0.0.1-17.0.1.0.0.2/diff.md --exclude *.pyd
+[2024-04-03 06:04:48] INFO root fetch - processPackages [dir2prompt]: Downloading https://files.pythonhosted.org/packages/1e/77/417986884676eb6e209194803020c1b9d317a71e8ade13b88b7ce4e8d3c2/dir2prompt-2024.4.2.tar.gz
+[2024-04-03 06:04:48] INFO root fetch - processPackages [agentql]: Downloading https://files.pythonhosted.org/packages/88/aa/b2d72e2aa7df7fa5bf7c60c850851246f4db572a9fa9225556301ea8a2bb/agentql-0.3.1.tar.gz
+[2024-04-03 06:04:48] INFO root fetch - processPackages [mctech-discovery]: Downloading https://files.pythonhosted.org/packages/2c/43/3102853f1877465afc242247e53d9d5ea10cccdc13414b0002f754aa87a1/mctech_discovery-1.1.9.tar.gz
+[2024-04-03 06:04:48] WARNING root fetch - processPackages [MobileInventoryCLI]: Timeout reached during download
+[2024-04-03 06:04:48] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-04-03 06:04:48] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.40.tar.gz tmp/MobileInventoryCLI-0.4.41.tar.gz --markdown 20240403/M/MobileInventoryCLI/0.4.40-0.4.41/diff.md --exclude *.pyd
+[2024-04-03 06:04:48] WARNING root fetch - processPackages [surfkit]: Timeout reached during download
+[2024-04-03 06:04:48] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-03 06:04:48] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.0.tar.gz tmp/surfkit-0.1.1.tar.gz --markdown 20240403/s/surfkit/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-03 06:04:48] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/c5/d9/8f55a5d78734b7ad87c18ccb0b618bb9b62a833a5a13503dbd9a0e2f7713/not1mm-24.4.2.tar.gz
+[2024-04-03 06:04:48] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: Downloading https://files.pythonhosted.org/packages/fd/8e/69e546cfdc57707d716399c6e90773784ed09aeeff0883344c3b82e3b29f/odoo_addons_oca_knowledge-16.0.20240328.1-py3-none-any.whl
+[2024-04-03 06:04:48] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: Downloading https://files.pythonhosted.org/packages/a5/b8/48d745fe635645195144c8097665c40262370cbbd4836b54087938997497/odoo_addon_document_page_access_group-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-03 06:04:48] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/df/15/3e62f2011c104ac9abad94e6ac151eb773ba5f5bdf4e2e6521155edc3bd3/odoo_addon_document_page_approval-16.0.1.1.0.9-py3-none-any.whl
+[2024-04-03 06:04:48] WARNING root fetch - processPackages [dir2prompt]: Timeout reached during download
+[2024-04-03 06:04:48] INFO root fetch - processPackages [dir2prompt]: executing diffoscope
+[2024-04-03 06:04:48] INFO root fetch - processPackages [dir2prompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dir2prompt-1.0.0.tar.gz tmp/dir2prompt-2024.4.2.tar.gz --markdown 20240403/d/dir2prompt/1.0.0-2024.4.2/diff.md --exclude *.pyd
+[2024-04-03 06:04:48] WARNING root fetch - processPackages [agentql]: Timeout reached during download
+[2024-04-03 06:04:48] INFO root fetch - processPackages [agentql]: executing diffoscope
+[2024-04-03 06:04:48] INFO root fetch - processPackages [agentql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentql-0.3.0.tar.gz tmp/agentql-0.3.1.tar.gz --markdown 20240403/a/agentql/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-03 06:04:48] WARNING root fetch - processPackages [mctech-discovery]: Timeout reached during download
+[2024-04-03 06:04:48] INFO root fetch - processPackages [mctech-discovery]: executing diffoscope
+[2024-04-03 06:04:48] INFO root fetch - processPackages [mctech-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mctech_discovery-1.1.8.tar.gz tmp/mctech_discovery-1.1.9.tar.gz --markdown 20240403/m/mctech-discovery/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-03 06:04:49] WARNING root fetch - processPackages [odoo-addons-oca-knowledge]: Timeout reached during download
+[2024-04-03 06:04:49] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: executing diffoscope
+[2024-04-03 06:04:49] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_knowledge-16.0.20240206.0-py3-none-any.whl.zip tmp/odoo_addons_oca_knowledge-16.0.20240328.1-py3-none-any.whl.zip --markdown 20240403/o/odoo-addons-oca-knowledge/16.0.20240206.0-16.0.20240328.1/diff.md --exclude *.pyd
+[2024-04-03 06:04:49] WARNING root fetch - processPackages [odoo-addon-document-page-approval]: Timeout reached during download
+[2024-04-03 06:04:49] INFO root fetch - processPackages [odoo-addon-document-page-approval]: executing diffoscope
+[2024-04-03 06:04:49] INFO root fetch - processPackages [odoo-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page_approval-16.0.1.1.0.8-py3-none-any.whl.zip tmp/odoo_addon_document_page_approval-16.0.1.1.0.9-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-document-page-approval/16.0.1.1.0.8-16.0.1.1.0.9/diff.md --exclude *.pyd
+[2024-04-03 06:04:49] WARNING root fetch - processPackages [odoo-addon-document-page-access-group]: Timeout reached during download
+[2024-04-03 06:04:49] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: executing diffoscope
+[2024-04-03 06:04:49] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page_access_group-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_document_page_access_group-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-document-page-access-group/17.0.1.0.0.2-17.0.1.0.0.3/diff.md --exclude *.pyd
+[2024-04-03 06:04:49] WARNING root fetch - processPackages [not1mm]: Timeout reached during download
+[2024-04-03 06:04:49] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2024-04-03 06:04:49] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-24.4.1.2.tar.gz tmp/not1mm-24.4.2.tar.gz --markdown 20240403/n/not1mm/24.4.1.2-24.4.2/diff.md --exclude *.pyd
+[2024-04-03 06:04:49] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.0.tar.gz]
+[2024-04-03 06:04:49] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.1.tar.gz]
+[2024-04-03 06:04:49] INFO root fetch - processPackages [surfkit]: Start processing: massivetools
+[2024-04-03 06:04:49] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-03 06:04:49] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page_access_group-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-03 06:04:49] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page_access_group-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-03 06:04:49] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: Start processing: odoo-addon-document-page-partner
+[2024-04-03 06:04:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-access-group]: success
+[2024-04-03 06:04:50] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.40.tar.gz]
+[2024-04-03 06:04:50] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.41.tar.gz]
+[2024-04-03 06:04:50] INFO root fetch - processPackages [MobileInventoryCLI]: Start processing: odoo-addon-document-page
+[2024-04-03 06:04:50] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-04-03 06:04:50] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_knowledge-16.0.20240206.0-py3-none-any.whl.zip]
+[2024-04-03 06:04:50] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_knowledge-16.0.20240328.1-py3-none-any.whl.zip]
+[2024-04-03 06:04:50] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: Start processing: shellserver
+[2024-04-03 06:04:50] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-knowledge]: success
+[2024-04-03 06:04:50] INFO root fetch - processPackages [dir2prompt]: Remove: archive file [/home/abi/fetcher/tmp/dir2prompt-1.0.0.tar.gz]
+[2024-04-03 06:04:50] INFO root fetch - processPackages [dir2prompt]: Remove: archive file [/home/abi/fetcher/tmp/dir2prompt-2024.4.2.tar.gz]
+[2024-04-03 06:04:50] INFO root fetch - main [MainThread]: End processing [dir2prompt]: success
+[2024-04-03 06:04:50] INFO root fetch - processPackages [odoo-addon-document-page]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.0.2]
+[2024-04-03 06:04:50] WARNING root fetch - processPackages [massivetools]: Skipping, unable to determine old version
+[2024-04-03 06:04:50] INFO root fetch - main [MainThread]: End processing [massivetools] error
+[2024-04-03 06:04:50] INFO root fetch - processPackages [mctech-discovery]: Remove: archive file [/home/abi/fetcher/tmp/mctech_discovery-1.1.8.tar.gz]
+[2024-04-03 06:04:50] INFO root fetch - processPackages [mctech-discovery]: Remove: archive file [/home/abi/fetcher/tmp/mctech_discovery-1.1.9.tar.gz]
+[2024-04-03 06:04:50] INFO root fetch - main [MainThread]: End processing [mctech-discovery]: success
+[2024-04-03 06:04:50] INFO root fetch - processPackages [odoo-addon-document-page-partner]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.1]
+[2024-04-03 06:04:50] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page_access_group-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-03 06:04:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-access-group]: success
+[2024-04-03 06:04:50] INFO root fetch - processPackages [odoo-addon-document-page]: Downloading https://files.pythonhosted.org/packages/6f/27/c1375d0a13257fb81b1b40dae0928076c0c830efbf2db9339dab4d1dceea/odoo_addon_document_page-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-03 06:04:50] INFO root fetch - processPackages [shellserver]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-03 06:04:50] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page_approval-16.0.1.1.0.8-py3-none-any.whl.zip]
+[2024-04-03 06:04:50] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page_approval-16.0.1.1.0.9-py3-none-any.whl.zip]
+[2024-04-03 06:04:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-approval]: success
+[2024-04-03 06:04:50] INFO root fetch - processPackages [agentql]: Remove: archive file [/home/abi/fetcher/tmp/agentql-0.3.0.tar.gz]
+[2024-04-03 06:04:50] INFO root fetch - processPackages [agentql]: Remove: archive file [/home/abi/fetcher/tmp/agentql-0.3.1.tar.gz]
+[2024-04-03 06:04:50] INFO root fetch - main [MainThread]: End processing [agentql]: success
+[2024-04-03 06:04:50] INFO root fetch - processPackages [odoo-addon-document-page-partner]: Downloading https://files.pythonhosted.org/packages/f2/72/2fb7e170a638daaa61202f1a90eaa3b651659ca31335195935a175e90659/odoo_addon_document_page_partner-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-03 06:04:50] WARNING root fetch - processPackages [odoo-addon-document-page]: Timeout reached during download
+[2024-04-03 06:04:50] INFO root fetch - processPackages [shellserver]: Downloading https://files.pythonhosted.org/packages/8b/80/a62b47f1cf058538730dfcd7ab1670e79fcb30a1336d6ee74cf7fa6350bd/shellserver-0.1.0.tar.gz
+[2024-04-03 06:04:50] WARNING root fetch - processPackages [odoo-addon-document-page-partner]: Timeout reached during download
+[2024-04-03 06:04:50] INFO root fetch - processPackages [odoo-addon-document-page]: Downloading https://files.pythonhosted.org/packages/3c/d0/9a049969aebfdc447b29ceca952b4a142cb2898491710555b8e7d054a182/odoo_addon_document_page-17.0.1.1.0-py3-none-any.whl
+[2024-04-03 06:04:50] WARNING root fetch - processPackages [shellserver]: Timeout reached during download
+[2024-04-03 06:04:50] WARNING root fetch - processPackages [odoo-addon-document-page]: Timeout reached during download
+[2024-04-03 06:04:50] INFO root fetch - processPackages [odoo-addon-document-page]: executing diffoscope
+[2024-04-03 06:04:50] INFO root fetch - processPackages [odoo-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_document_page-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-document-page/17.0.1.0.0.2-17.0.1.1.0/diff.md --exclude *.pyd
+[2024-04-03 06:04:50] INFO root fetch - processPackages [odoo-addon-document-page-partner]: Downloading https://files.pythonhosted.org/packages/5d/9c/90b30c3576583b724b4dfcf13cb4d97deb7019a6e5d17b2e5c3d6671f0db/odoo_addon_document_page_partner-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-03 06:04:50] INFO root fetch - processPackages [shellserver]: Downloading https://files.pythonhosted.org/packages/57/71/899a4ae73eb5b1fb9024616719dc099dc49fce79c11822d3c03641bf0bcf/shellserver-0.1.1.tar.gz
+[2024-04-03 06:04:50] WARNING root fetch - processPackages [odoo-addon-document-page-partner]: Timeout reached during download
+[2024-04-03 06:04:50] INFO root fetch - processPackages [odoo-addon-document-page-partner]: executing diffoscope
+[2024-04-03 06:04:50] INFO root fetch - processPackages [odoo-addon-document-page-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page_partner-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_document_page_partner-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240403/o/odoo-addon-document-page-partner/16.0.1.0.0.1-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2024-04-03 06:04:51] WARNING root fetch - processPackages [shellserver]: Timeout reached during download
+[2024-04-03 06:04:51] INFO root fetch - processPackages [shellserver]: executing diffoscope
+[2024-04-03 06:04:51] INFO root fetch - processPackages [shellserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellserver-0.1.0.tar.gz tmp/shellserver-0.1.1.tar.gz --markdown 20240403/s/shellserver/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-03 06:04:51] INFO root fetch - processPackages [odoo-addon-document-page-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page_partner-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-03 06:04:51] INFO root fetch - processPackages [odoo-addon-document-page-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page_partner-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-03 06:04:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-partner]: success
+[2024-04-03 06:04:51] INFO root fetch - processPackages [odoo-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-03 06:04:51] INFO root fetch - processPackages [odoo-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-03 06:04:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page]: success
+[2024-04-03 06:04:51] INFO root fetch - processPackages [shellserver]: Remove: archive file [/home/abi/fetcher/tmp/shellserver-0.1.0.tar.gz]
+[2024-04-03 06:04:51] INFO root fetch - processPackages [shellserver]: Remove: archive file [/home/abi/fetcher/tmp/shellserver-0.1.1.tar.gz]
+[2024-04-03 06:04:51] INFO root fetch - main [MainThread]: End processing [shellserver]: success
+[2024-04-03 06:04:52] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.1.2.tar.gz]
+[2024-04-03 06:04:52] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.2.tar.gz]
+[2024-04-03 06:04:52] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2024-04-03 06:04:52] INFO root fetch - main [MainThread]: Store serial: [22597264]

@@ -15909,3 +15909,28 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 05:30:58] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040203.tar.gz]
 [2024-04-03 05:30:58] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-04-03 05:30:58] INFO root fetch - main [MainThread]: Store serial: [22597045]
+[2024-04-03 05:33:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597045]
+[2024-04-03 05:33:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 05:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqqq
+[2024-04-03 05:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metagpt
+[2024-04-03 05:33:08] INFO root fetch - processPackages [pyqqq]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-03 05:33:08] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/88/51/ec48bf5b1688c3522025d4eb5d7073d02c304c0cfbeb798dc824a422e217/pyqqq-0.6.0.tar.gz
+[2024-04-03 05:33:08] INFO root fetch - processPackages [metagpt]: New version: [0.8.0] Old Version: [0.7.7]
+[2024-04-03 05:33:08] INFO root fetch - processPackages [metagpt]: Downloading https://files.pythonhosted.org/packages/bc/22/732a40ccd2da1164e5ce0b4e57fbf6ac530aae1e390fa475673cf862fb64/metagpt-0.7.7.tar.gz
+[2024-04-03 05:33:08] WARNING root fetch - processPackages [pyqqq]: Timeout reached during download
+[2024-04-03 05:33:08] WARNING root fetch - processPackages [metagpt]: Timeout reached during download
+[2024-04-03 05:33:08] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/9e/ec/add8f2fa983552de52d5beb564d5163c224814f1d07ae21aeb03036fa673/pyqqq-0.6.1.tar.gz
+[2024-04-03 05:33:08] INFO root fetch - processPackages [metagpt]: Downloading https://files.pythonhosted.org/packages/df/3f/3e5660691bfc3f6396f1ee7ad2c616e544dd4765866150acc3dc1861b53b/metagpt-0.8.0.tar.gz
+[2024-04-03 05:33:08] WARNING root fetch - processPackages [pyqqq]: Timeout reached during download
+[2024-04-03 05:33:08] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-03 05:33:08] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.6.0.tar.gz tmp/pyqqq-0.6.1.tar.gz --markdown 20240403/p/pyqqq/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-03 05:33:08] WARNING root fetch - processPackages [metagpt]: Timeout reached during download
+[2024-04-03 05:33:08] INFO root fetch - processPackages [metagpt]: executing diffoscope
+[2024-04-03 05:33:08] INFO root fetch - processPackages [metagpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metagpt-0.7.7.tar.gz tmp/metagpt-0.8.0.tar.gz --markdown 20240403/m/metagpt/0.7.7-0.8.0/diff.md --exclude *.pyd
+[2024-04-03 05:33:09] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.6.0.tar.gz]
+[2024-04-03 05:33:09] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.6.1.tar.gz]
+[2024-04-03 05:33:09] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-03 05:33:10] INFO root fetch - processPackages [metagpt]: Remove: archive file [/home/abi/fetcher/tmp/metagpt-0.7.7.tar.gz]
+[2024-04-03 05:33:10] INFO root fetch - processPackages [metagpt]: Remove: archive file [/home/abi/fetcher/tmp/metagpt-0.8.0.tar.gz]
+[2024-04-03 05:33:10] INFO root fetch - main [MainThread]: End processing [metagpt]: success
+[2024-04-03 05:33:10] INFO root fetch - main [MainThread]: Store serial: [22597056]

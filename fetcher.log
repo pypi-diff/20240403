@@ -16103,3 +16103,30 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 05:44:02] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
 [2024-04-03 05:44:02] INFO root fetch - main [MainThread]: End processing [coretex]: success
 [2024-04-03 05:44:02] INFO root fetch - main [MainThread]: Store serial: [22597119]
+[2024-04-03 05:46:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597119]
+[2024-04-03 05:46:11] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-03 05:48:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597119]
+[2024-04-03 05:48:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-03 05:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wttch-train-helper
+[2024-04-03 05:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tg-flask-sse-common
+[2024-04-03 05:48:16] INFO root fetch - processPackages [tg-flask-sse-common]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-03 05:48:16] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/9e/6b/2c28b8cfe7514974bc50f7490c02ae010e058ce3de37e6ce25d26b29a05e/tg_flask_sse_common-2.0.1.tar.gz
+[2024-04-03 05:48:16] INFO root fetch - processPackages [wttch-train-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 05:48:16] WARNING root fetch - processPackages [tg-flask-sse-common]: Timeout reached during download
+[2024-04-03 05:48:16] INFO root fetch - processPackages [wttch-train-helper]: Downloading https://files.pythonhosted.org/packages/3b/39/20b37adf77ac5d3a1c29fac307c5b35603437a19b4e9ccfdf3da730c7734/wttch-train-helper-0.0.8.tar.gz
+[2024-04-03 05:48:17] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/2d/5d/6aa33b95b5a5adc465e5e5fd17e954fec77cfbb18e025901f6027602dcb7/tg_flask_sse_common-2.0.2.tar.gz
+[2024-04-03 05:48:17] WARNING root fetch - processPackages [tg-flask-sse-common]: Timeout reached during download
+[2024-04-03 05:48:17] INFO root fetch - processPackages [tg-flask-sse-common]: executing diffoscope
+[2024-04-03 05:48:17] INFO root fetch - processPackages [tg-flask-sse-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_flask_sse_common-2.0.1.tar.gz tmp/tg_flask_sse_common-2.0.2.tar.gz --markdown 20240403/t/tg-flask-sse-common/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2024-04-03 05:48:17] WARNING root fetch - processPackages [wttch-train-helper]: Timeout reached during download
+[2024-04-03 05:48:17] INFO root fetch - processPackages [wttch-train-helper]: Downloading https://files.pythonhosted.org/packages/06/f1/4c3862ff8dfa72e0261e6a5f5e8fb8722a335c9adec2134db760cf92c16a/wttch-train-helper-0.0.9.tar.gz
+[2024-04-03 05:48:17] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-2.0.1.tar.gz]
+[2024-04-03 05:48:17] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-2.0.2.tar.gz]
+[2024-04-03 05:48:17] INFO root fetch - main [MainThread]: End processing [tg-flask-sse-common]: success
+[2024-04-03 05:48:17] WARNING root fetch - processPackages [wttch-train-helper]: Timeout reached during download
+[2024-04-03 05:48:17] INFO root fetch - processPackages [wttch-train-helper]: executing diffoscope
+[2024-04-03 05:48:17] INFO root fetch - processPackages [wttch-train-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wttch-train-helper-0.0.8.tar.gz tmp/wttch-train-helper-0.0.9.tar.gz --markdown 20240403/w/wttch-train-helper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 05:48:18] INFO root fetch - processPackages [wttch-train-helper]: Remove: archive file [/home/abi/fetcher/tmp/wttch-train-helper-0.0.8.tar.gz]
+[2024-04-03 05:48:18] INFO root fetch - processPackages [wttch-train-helper]: Remove: archive file [/home/abi/fetcher/tmp/wttch-train-helper-0.0.9.tar.gz]
+[2024-04-03 05:48:18] INFO root fetch - main [MainThread]: End processing [wttch-train-helper]: success
+[2024-04-03 05:48:18] INFO root fetch - main [MainThread]: Store serial: [22597125]

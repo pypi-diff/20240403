@@ -23742,3 +23742,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 09:35:10] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.902.tar.gz]
 [2024-04-03 09:35:10] INFO root fetch - main [MainThread]: End processing [urllib3-future]: success
 [2024-04-03 09:35:10] INFO root fetch - main [MainThread]: Store serial: [22599463]
+[2024-04-03 09:37:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22599463]
+[2024-04-03 09:37:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 09:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smwasm
+[2024-04-03 09:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arxiv-search-assistant
+[2024-04-03 09:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: open-parser
+[2024-04-03 09:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conformal-eval
+[2024-04-03 09:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: specnn4pde
+[2024-04-03 09:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vite-to-flask
+[2024-04-03 09:37:19] WARNING root fetch - processPackages [specnn4pde]: Skipping, unable to determine old version
+[2024-04-03 09:37:19] INFO root fetch - main [MainThread]: End processing [specnn4pde] error
+[2024-04-03 09:37:19] INFO root fetch - processPackages [vite-to-flask]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-03 09:37:19] WARNING root fetch - processPackages [arxiv-search-assistant]: Skipping, unable to determine old version
+[2024-04-03 09:37:19] INFO root fetch - main [MainThread]: End processing [arxiv-search-assistant] error
+[2024-04-03 09:37:19] INFO root fetch - processPackages [conformal-eval]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2024-04-03 09:37:19] WARNING root fetch - processPackages [smwasm]: Skipping, unable to determine old version
+[2024-04-03 09:37:19] INFO root fetch - main [MainThread]: End processing [smwasm] error
+[2024-04-03 09:37:19] INFO root fetch - processPackages [open-parser]: New version: [0.0.2] Old Version: [0.0.0]
+[2024-04-03 09:37:20] INFO root fetch - processPackages [conformal-eval]: Downloading https://files.pythonhosted.org/packages/14/28/2b6bdb489a547a9d00adb5b6a30ccf7b0a0dd17249874b6d56a90adb0cb4/conformal_eval-1.0.0b2.tar.gz
+[2024-04-03 09:37:20] INFO root fetch - processPackages [open-parser]: Downloading https://files.pythonhosted.org/packages/71/09/3d3bd03f78fb37eeed6b3361103380446a4f5354745cc69fcf5df10ef88b/open_parser-0.0.0.tar.gz
+[2024-04-03 09:37:20] INFO root fetch - processPackages [vite-to-flask]: Downloading https://files.pythonhosted.org/packages/08/32/5719a6fb642def835e2bfbaa59a58bc8f636c9bcaeb7ad9a8b46e086f62b/vite_to_flask-0.3.0.tar.gz
+[2024-04-03 09:37:20] WARNING root fetch - processPackages [conformal-eval]: Timeout reached during download
+[2024-04-03 09:37:20] WARNING root fetch - processPackages [vite-to-flask]: Timeout reached during download
+[2024-04-03 09:37:20] WARNING root fetch - processPackages [open-parser]: Timeout reached during download
+[2024-04-03 09:37:20] INFO root fetch - processPackages [conformal-eval]: Downloading https://files.pythonhosted.org/packages/82/17/e4fbab9e9d3c720776e74a09c7a1f26e5672c89a2ed1607c1bad36a05123/conformal_eval-1.0.0b3.tar.gz
+[2024-04-03 09:37:20] INFO root fetch - processPackages [vite-to-flask]: Downloading https://files.pythonhosted.org/packages/cb/7c/df5be672733fb2d560f2e89a1d604c6e3747a23eb80f11115bafabeeed93/vite_to_flask-0.4.0.tar.gz
+[2024-04-03 09:37:20] INFO root fetch - processPackages [open-parser]: Downloading https://files.pythonhosted.org/packages/32/69/8b27338746d68fe2992a92364e40afae7194cea834f3dbec56b0fb9853a0/open_parser-0.0.2.tar.gz
+[2024-04-03 09:37:20] WARNING root fetch - processPackages [conformal-eval]: Timeout reached during download
+[2024-04-03 09:37:20] INFO root fetch - processPackages [conformal-eval]: executing diffoscope
+[2024-04-03 09:37:20] INFO root fetch - processPackages [conformal-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conformal_eval-1.0.0b2.tar.gz tmp/conformal_eval-1.0.0b3.tar.gz --markdown 20240403/c/conformal-eval/1.0.0b2-1.0.0b3/diff.md --exclude *.pyd
+[2024-04-03 09:37:20] WARNING root fetch - processPackages [open-parser]: Timeout reached during download
+[2024-04-03 09:37:20] INFO root fetch - processPackages [open-parser]: executing diffoscope
+[2024-04-03 09:37:20] INFO root fetch - processPackages [open-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_parser-0.0.0.tar.gz tmp/open_parser-0.0.2.tar.gz --markdown 20240403/o/open-parser/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2024-04-03 09:37:20] WARNING root fetch - processPackages [vite-to-flask]: Timeout reached during download
+[2024-04-03 09:37:20] INFO root fetch - processPackages [vite-to-flask]: executing diffoscope
+[2024-04-03 09:37:20] INFO root fetch - processPackages [vite-to-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vite_to_flask-0.3.0.tar.gz tmp/vite_to_flask-0.4.0.tar.gz --markdown 20240403/v/vite-to-flask/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-03 09:37:21] INFO root fetch - processPackages [open-parser]: Remove: archive file [/home/abi/fetcher/tmp/open_parser-0.0.0.tar.gz]
+[2024-04-03 09:37:21] INFO root fetch - processPackages [open-parser]: Remove: archive file [/home/abi/fetcher/tmp/open_parser-0.0.2.tar.gz]
+[2024-04-03 09:37:21] INFO root fetch - main [MainThread]: End processing [open-parser]: success
+[2024-04-03 09:37:21] INFO root fetch - processPackages [conformal-eval]: Remove: archive file [/home/abi/fetcher/tmp/conformal_eval-1.0.0b2.tar.gz]
+[2024-04-03 09:37:21] INFO root fetch - processPackages [conformal-eval]: Remove: archive file [/home/abi/fetcher/tmp/conformal_eval-1.0.0b3.tar.gz]
+[2024-04-03 09:37:21] INFO root fetch - main [MainThread]: End processing [conformal-eval]: success
+[2024-04-03 09:37:21] INFO root fetch - processPackages [vite-to-flask]: Remove: archive file [/home/abi/fetcher/tmp/vite_to_flask-0.3.0.tar.gz]
+[2024-04-03 09:37:21] INFO root fetch - processPackages [vite-to-flask]: Remove: archive file [/home/abi/fetcher/tmp/vite_to_flask-0.4.0.tar.gz]
+[2024-04-03 09:37:21] INFO root fetch - main [MainThread]: End processing [vite-to-flask]: success
+[2024-04-03 09:37:21] INFO root fetch - main [MainThread]: Store serial: [22599484]

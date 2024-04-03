@@ -15190,3 +15190,61 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 05:02:04] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.1.4.tar.gz]
 [2024-04-03 05:02:04] INFO root fetch - main [MainThread]: End processing [ithaca-py]: success
 [2024-04-03 05:02:04] INFO root fetch - main [MainThread]: Store serial: [22596829]
+[2024-04-03 05:04:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596829]
+[2024-04-03 05:04:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-03 05:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uqer
+[2024-04-03 05:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simlify
+[2024-04-03 05:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aind-data-schema
+[2024-04-03 05:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: humanloop
+[2024-04-03 05:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mpl-markers
+[2024-04-03 05:04:13] INFO root fetch - processPackages [simlify]: New version: [0.0.0.post74] Old Version: [0.0.0.post73]
+[2024-04-03 05:04:13] INFO root fetch - processPackages [humanloop]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-03 05:04:13] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-03 05:04:13] INFO root fetch - processPackages [uqer]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-03 05:04:13] INFO root fetch - processPackages [mpl-markers]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-03 05:04:13] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2024-04-03 05:04:13] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/f3/0f/6563d7ec6757564521491230927d66f8f32f7eede6f247c15caa702aeddd/humanloop-0.7.8.tar.gz
+[2024-04-03 05:04:13] INFO root fetch - processPackages [simlify]: Downloading https://files.pythonhosted.org/packages/4d/99/face641752ac87e280798cf1ea0ffa6538fb338acb57b30accd8eb59cfa5/simlify-0.0.0.post73-py3-none-any.whl
+[2024-04-03 05:04:13] WARNING root fetch - processPackages [aind-data-schema]: Timeout reached during download
+[2024-04-03 05:04:13] WARNING root fetch - processPackages [humanloop]: Timeout reached during download
+[2024-04-03 05:04:13] INFO root fetch - processPackages [uqer]: Downloading https://files.pythonhosted.org/packages/b5/d9/b0402a66404a13202714f75b32dd143e2061dc77b58bce4affceb676f367/uqer-1.3.8.tar.gz
+[2024-04-03 05:04:13] WARNING root fetch - processPackages [simlify]: Timeout reached during download
+[2024-04-03 05:04:13] INFO root fetch - processPackages [mpl-markers]: Downloading https://files.pythonhosted.org/packages/87/74/0eaa6da01149b2d5bc31a405db5776757370a2f4903ad99eb859d36b280f/mpl-markers-0.0.5.tar.gz
+[2024-04-03 05:04:13] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2024-04-03 05:04:13] WARNING root fetch - processPackages [mpl-markers]: Timeout reached during download
+[2024-04-03 05:04:13] WARNING root fetch - processPackages [aind-data-schema]: Timeout reached during download
+[2024-04-03 05:04:13] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2024-04-03 05:04:13] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20240403/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2024-04-03 05:04:13] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/42/49/2e50db62f54004990b08a1ec75901635bb6ce90d3f84155b1af3de5c750f/humanloop-0.7.9.tar.gz
+[2024-04-03 05:04:13] INFO root fetch - processPackages [simlify]: Downloading https://files.pythonhosted.org/packages/6d/b0/8dea024aeb791f27bda0d92bd67fc9885427dc69c51c16a9d1e91372096b/simlify-0.0.0.post74-py3-none-any.whl
+[2024-04-03 05:04:13] WARNING root fetch - processPackages [uqer]: Timeout reached during download
+[2024-04-03 05:04:13] WARNING root fetch - processPackages [simlify]: Timeout reached during download
+[2024-04-03 05:04:13] INFO root fetch - processPackages [simlify]: executing diffoscope
+[2024-04-03 05:04:13] INFO root fetch - processPackages [simlify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simlify-0.0.0.post73-py3-none-any.whl.zip tmp/simlify-0.0.0.post74-py3-none-any.whl.zip --markdown 20240403/s/simlify/0.0.0.post73-0.0.0.post74/diff.md --exclude *.pyd
+[2024-04-03 05:04:13] WARNING root fetch - processPackages [humanloop]: Timeout reached during download
+[2024-04-03 05:04:13] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2024-04-03 05:04:13] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.7.8.tar.gz tmp/humanloop-0.7.9.tar.gz --markdown 20240403/h/humanloop/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2024-04-03 05:04:13] INFO root fetch - processPackages [mpl-markers]: Downloading https://files.pythonhosted.org/packages/46/59/cda3d8db3983bfdfc0fdd8f833435b00e222fcf8acb593c0a7b21e1675b6/mpl-markers-0.0.6.tar.gz
+[2024-04-03 05:04:13] INFO root fetch - processPackages [uqer]: Downloading https://files.pythonhosted.org/packages/d4/b4/016fa0477ee45676b0004c86a38f1b24e7f91cfec2a02329c66ba025e47c/uqer-1.3.9.tar.gz
+[2024-04-03 05:04:14] WARNING root fetch - processPackages [uqer]: Timeout reached during download
+[2024-04-03 05:04:14] INFO root fetch - processPackages [uqer]: executing diffoscope
+[2024-04-03 05:04:14] INFO root fetch - processPackages [uqer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uqer-1.3.8.tar.gz tmp/uqer-1.3.9.tar.gz --markdown 20240403/u/uqer/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2024-04-03 05:04:14] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2024-04-03 05:04:14] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2024-04-03 05:04:14] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2024-04-03 05:04:14] WARNING root fetch - processPackages [mpl-markers]: Timeout reached during download
+[2024-04-03 05:04:14] INFO root fetch - processPackages [mpl-markers]: executing diffoscope
+[2024-04-03 05:04:14] INFO root fetch - processPackages [mpl-markers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpl-markers-0.0.5.tar.gz tmp/mpl-markers-0.0.6.tar.gz --markdown 20240403/m/mpl-markers/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-03 05:04:14] INFO root fetch - processPackages [simlify]: Remove: archive file [/home/abi/fetcher/tmp/simlify-0.0.0.post73-py3-none-any.whl.zip]
+[2024-04-03 05:04:14] INFO root fetch - processPackages [simlify]: Remove: archive file [/home/abi/fetcher/tmp/simlify-0.0.0.post74-py3-none-any.whl.zip]
+[2024-04-03 05:04:14] INFO root fetch - main [MainThread]: End processing [simlify]: success
+[2024-04-03 05:04:15] INFO root fetch - processPackages [mpl-markers]: Remove: archive file [/home/abi/fetcher/tmp/mpl-markers-0.0.5.tar.gz]
+[2024-04-03 05:04:15] INFO root fetch - processPackages [mpl-markers]: Remove: archive file [/home/abi/fetcher/tmp/mpl-markers-0.0.6.tar.gz]
+[2024-04-03 05:04:15] INFO root fetch - main [MainThread]: End processing [mpl-markers]: success
+[2024-04-03 05:04:16] INFO root fetch - processPackages [uqer]: Remove: archive file [/home/abi/fetcher/tmp/uqer-1.3.8.tar.gz]
+[2024-04-03 05:04:16] INFO root fetch - processPackages [uqer]: Remove: archive file [/home/abi/fetcher/tmp/uqer-1.3.9.tar.gz]
+[2024-04-03 05:04:16] INFO root fetch - main [MainThread]: End processing [uqer]: success
+[2024-04-03 05:04:18] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.8.tar.gz]
+[2024-04-03 05:04:18] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.9.tar.gz]
+[2024-04-03 05:04:18] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2024-04-03 05:04:18] INFO root fetch - main [MainThread]: Store serial: [22596840]

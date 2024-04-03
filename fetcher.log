@@ -16353,3 +16353,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-03 05:59:09] INFO root fetch - processPackages [mini-racer]: Remove: archive file [/home/abi/fetcher/tmp/mini_racer-0.9.0.tar.gz]
 [2024-04-03 05:59:09] INFO root fetch - main [MainThread]: End processing [mini-racer]: success
 [2024-04-03 05:59:09] INFO root fetch - main [MainThread]: Store serial: [22597205]
+[2024-04-03 06:01:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22597205]
+[2024-04-03 06:01:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-03 06:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-diffsinger
+[2024-04-03 06:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MIM-CVutils
+[2024-04-03 06:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: facebook-graphql-scraper
+[2024-04-03 06:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tccli
+[2024-04-03 06:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dir2prompt
+[2024-04-03 06:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: taskara
+[2024-04-03 06:01:18] INFO root fetch - processPackages [taskara]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-03 06:01:18] WARNING root fetch - processPackages [dir2prompt]: Skipping, unable to determine old version
+[2024-04-03 06:01:18] INFO root fetch - main [MainThread]: End processing [dir2prompt] error
+[2024-04-03 06:01:18] WARNING root fetch - processPackages [nonebot-plugin-diffsinger]: Skipping, unable to determine old version
+[2024-04-03 06:01:18] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-diffsinger] error
+[2024-04-03 06:01:18] INFO root fetch - processPackages [facebook-graphql-scraper]: New version: [0.3] Old Version: [0.2]
+[2024-04-03 06:01:18] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/96/4f/779dd0149db8056cc0a961eb615553c0d144c598aeeb2fb9a8fc5392ba8a/taskara-0.1.2.tar.gz
+[2024-04-03 06:01:18] WARNING root fetch - processPackages [MIM-CVutils]: Skipping, unable to determine old version
+[2024-04-03 06:01:18] INFO root fetch - main [MainThread]: End processing [MIM-CVutils] error
+[2024-04-03 06:01:18] WARNING root fetch - processPackages [taskara]: Timeout reached during download
+[2024-04-03 06:01:18] INFO root fetch - processPackages [facebook-graphql-scraper]: Downloading https://files.pythonhosted.org/packages/a6/2a/2fb6828e3e320090fbc2377bd27db6355c69e45b0f4cab767be7c68f21a6/facebook-graphql-scraper-0.2.tar.gz
+[2024-04-03 06:01:18] INFO root fetch - processPackages [tccli]: New version: [3.0.999.1] Old Version: [3.0.998.1]
+[2024-04-03 06:01:18] WARNING root fetch - processPackages [facebook-graphql-scraper]: Timeout reached during download
+[2024-04-03 06:01:18] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/a4/c9/28b92ca124ba1dd982c1efe88b68454318d83783e2d80fdf873d3ea9c2a8/taskara-0.1.3.tar.gz
+[2024-04-03 06:01:18] WARNING root fetch - processPackages [taskara]: Timeout reached during download
+[2024-04-03 06:01:18] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-04-03 06:01:18] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.2.tar.gz tmp/taskara-0.1.3.tar.gz --markdown 20240403/t/taskara/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-03 06:01:18] INFO root fetch - processPackages [facebook-graphql-scraper]: Downloading https://files.pythonhosted.org/packages/aa/ee/35d86859f4ce877b190896ba566111325a1f0eebd927f9f3bd1900a53e7e/facebook-graphql-scraper-0.3.tar.gz
+[2024-04-03 06:01:18] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/4b/45/a3b0e2cc7f86f87ffa99bd6f833796de67aee82386f88a6d4a85073532e9/tccli-3.0.998.1.tar.gz
+[2024-04-03 06:01:18] WARNING root fetch - processPackages [facebook-graphql-scraper]: Timeout reached during download
+[2024-04-03 06:01:18] INFO root fetch - processPackages [facebook-graphql-scraper]: executing diffoscope
+[2024-04-03 06:01:18] INFO root fetch - processPackages [facebook-graphql-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facebook-graphql-scraper-0.2.tar.gz tmp/facebook-graphql-scraper-0.3.tar.gz --markdown 20240403/f/facebook-graphql-scraper/0.2-0.3/diff.md --exclude *.pyd
+[2024-04-03 06:01:19] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.2.tar.gz]
+[2024-04-03 06:01:19] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.3.tar.gz]
+[2024-04-03 06:01:19] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-04-03 06:01:19] WARNING root fetch - processPackages [tccli]: Timeout reached during download
+[2024-04-03 06:01:19] INFO root fetch - processPackages [facebook-graphql-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook-graphql-scraper-0.2.tar.gz]
+[2024-04-03 06:01:19] INFO root fetch - processPackages [facebook-graphql-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook-graphql-scraper-0.3.tar.gz]
+[2024-04-03 06:01:19] INFO root fetch - main [MainThread]: End processing [facebook-graphql-scraper]: success
+[2024-04-03 06:01:19] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/06/41/78d3ee9b2ead17ab0876618d203995653100fb27e524f51810d16df1bc97/tccli-3.0.999.1.tar.gz
+[2024-04-03 06:01:20] WARNING root fetch - processPackages [tccli]: Timeout reached during download
+[2024-04-03 06:01:20] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2024-04-03 06:01:20] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.998.1.tar.gz tmp/tccli-3.0.999.1.tar.gz --markdown 20240403/t/tccli/3.0.998.1-3.0.999.1/diff.md --exclude *.pyd
+[2024-04-03 06:02:38] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.998.1.tar.gz]
+[2024-04-03 06:02:38] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.999.1.tar.gz]
+[2024-04-03 06:02:38] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2024-04-03 06:02:38] INFO root fetch - main [MainThread]: Store serial: [22597224]

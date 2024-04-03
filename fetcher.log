@@ -12985,3 +12985,67 @@ AssertionError: tmp/lmwrapper-0.8.7.2.tar.gz does not exist
 [2024-04-03 03:35:41] INFO root fetch - processPackages [autoredteam]: Remove: archive file [/home/abi/fetcher/tmp/autoredteam-0.1.6.tar.gz]
 [2024-04-03 03:35:41] INFO root fetch - main [MainThread]: End processing [autoredteam]: success
 [2024-04-03 03:35:41] INFO root fetch - main [MainThread]: Store serial: [22596119]
+[2024-04-03 03:37:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22596119]
+[2024-04-03 03:37:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-03 03:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NNSOM
+[2024-04-03 03:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OSS-Class
+[2024-04-03 03:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deltachat-rpc-client
+[2024-04-03 03:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tokengrams
+[2024-04-03 03:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vizmath
+[2024-04-03 03:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bradford-white-connect-client
+[2024-04-03 03:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pet-lang
+[2024-04-03 03:37:51] INFO root fetch - processPackages [deltachat-rpc-client]: New version: [1.137.0] Old Version: [1.136.6]
+[2024-04-03 03:37:51] INFO root fetch - processPackages [NNSOM]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-04-03 03:37:51] INFO root fetch - processPackages [tokengrams]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-03 03:37:51] INFO root fetch - processPackages [deltachat-rpc-client]: Downloading https://files.pythonhosted.org/packages/47/c8/002654c3e6caf1fcc4659aac9b7897cdf6a50238e2d2c9d03bb75c004c22/deltachat-rpc-client-1.136.6.tar.gz
+[2024-04-03 03:37:51] WARNING root fetch - processPackages [OSS-Class]: Skipping, unable to determine old version
+[2024-04-03 03:37:51] INFO root fetch - main [MainThread]: End processing [OSS-Class] error
+[2024-04-03 03:37:51] INFO root fetch - processPackages [NNSOM]: Downloading https://files.pythonhosted.org/packages/0c/af/b7cc541e23522ef12fbb0995215fc260e3dee40d51eaeb336d3930152739/nnsom-1.3.6.tar.gz
+[2024-04-03 03:37:51] INFO root fetch - processPackages [bradford-white-connect-client]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-03 03:37:51] WARNING root fetch - processPackages [pet-lang]: Skipping, unable to determine old version
+[2024-04-03 03:37:51] INFO root fetch - main [MainThread]: End processing [pet-lang] error
+[2024-04-03 03:37:51] INFO root fetch - processPackages [vizmath]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-03 03:37:51] WARNING root fetch - processPackages [deltachat-rpc-client]: Timeout reached during download
+[2024-04-03 03:37:51] WARNING root fetch - processPackages [NNSOM]: Timeout reached during download
+[2024-04-03 03:37:52] INFO root fetch - processPackages [tokengrams]: Downloading https://files.pythonhosted.org/packages/f6/32/601ed0c206d69d06b5e38a3ab80fc5b7c83be06786c8c7f8a4655407ebc4/tokengrams-0.1.0-cp310-cp310-manylinux_2_31_x86_64.whl
+[2024-04-03 03:37:52] INFO root fetch - processPackages [NNSOM]: Downloading https://files.pythonhosted.org/packages/28/c9/fa4c1e2a558caffdbcb6481b7b988d17dcda4849c9ca8b2470a7ca99fc91/nnsom-1.3.7.tar.gz
+[2024-04-03 03:37:52] INFO root fetch - processPackages [bradford-white-connect-client]: Downloading https://files.pythonhosted.org/packages/f9/ad/81f620c2bc16d04758393336e42f9892f6f4e70d0a79a94af92b616c7444/bradford_white_connect_client-0.0.6.tar.gz
+[2024-04-03 03:37:52] INFO root fetch - processPackages [vizmath]: Downloading https://files.pythonhosted.org/packages/9f/2f/de3eaf798a07515ec3e47d7283d70967ccc2cf15ba7bc4f24fb453261ed2/vizmath-0.0.8.tar.gz
+[2024-04-03 03:37:52] INFO root fetch - processPackages [deltachat-rpc-client]: Downloading https://files.pythonhosted.org/packages/d1/41/8dfcdb9954142a20939559cd2dc4852949e0a63caaef0a8d97d5e1988a55/deltachat-rpc-client-1.137.0.tar.gz
+[2024-04-03 03:37:52] WARNING root fetch - processPackages [NNSOM]: Timeout reached during download
+[2024-04-03 03:37:52] INFO root fetch - processPackages [NNSOM]: executing diffoscope
+[2024-04-03 03:37:52] INFO root fetch - processPackages [NNSOM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnsom-1.3.6.tar.gz tmp/nnsom-1.3.7.tar.gz --markdown 20240403/N/NNSOM/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2024-04-03 03:37:52] WARNING root fetch - processPackages [tokengrams]: Timeout reached during download
+[2024-04-03 03:37:52] WARNING root fetch - processPackages [bradford-white-connect-client]: Timeout reached during download
+[2024-04-03 03:37:52] WARNING root fetch - processPackages [deltachat-rpc-client]: Timeout reached during download
+[2024-04-03 03:37:52] INFO root fetch - processPackages [deltachat-rpc-client]: executing diffoscope
+[2024-04-03 03:37:52] INFO root fetch - processPackages [deltachat-rpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltachat-rpc-client-1.136.6.tar.gz tmp/deltachat-rpc-client-1.137.0.tar.gz --markdown 20240403/d/deltachat-rpc-client/1.136.6-1.137.0/diff.md --exclude *.pyd
+[2024-04-03 03:37:52] INFO root fetch - processPackages [tokengrams]: Downloading https://files.pythonhosted.org/packages/70/11/8987664dcb4b18141a4c11f62f9bf919298066ce88d6a925229bdf41fe94/tokengrams-0.2.0-cp310-cp310-manylinux_2_31_x86_64.whl
+[2024-04-03 03:37:52] INFO root fetch - processPackages [bradford-white-connect-client]: Downloading https://files.pythonhosted.org/packages/5b/3d/26729d0899abc0c8dbe06fbf31a65ad50a9223adbfdf0e51e15560ac0cdc/bradford_white_connect_client-0.0.9.tar.gz
+[2024-04-03 03:37:52] WARNING root fetch - processPackages [vizmath]: Timeout reached during download
+[2024-04-03 03:37:52] WARNING root fetch - processPackages [tokengrams]: Timeout reached during download
+[2024-04-03 03:37:52] INFO root fetch - processPackages [tokengrams]: executing diffoscope
+[2024-04-03 03:37:52] INFO root fetch - processPackages [tokengrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokengrams-0.1.0-cp310-cp310-manylinux_2_31_x86_64.whl.zip tmp/tokengrams-0.2.0-cp310-cp310-manylinux_2_31_x86_64.whl.zip --markdown 20240403/t/tokengrams/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-03 03:37:52] WARNING root fetch - processPackages [bradford-white-connect-client]: Timeout reached during download
+[2024-04-03 03:37:52] INFO root fetch - processPackages [bradford-white-connect-client]: executing diffoscope
+[2024-04-03 03:37:52] INFO root fetch - processPackages [bradford-white-connect-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bradford_white_connect_client-0.0.6.tar.gz tmp/bradford_white_connect_client-0.0.9.tar.gz --markdown 20240403/b/bradford-white-connect-client/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 03:37:52] INFO root fetch - processPackages [NNSOM]: Remove: archive file [/home/abi/fetcher/tmp/nnsom-1.3.6.tar.gz]
+[2024-04-03 03:37:52] INFO root fetch - processPackages [NNSOM]: Remove: archive file [/home/abi/fetcher/tmp/nnsom-1.3.7.tar.gz]
+[2024-04-03 03:37:52] INFO root fetch - main [MainThread]: End processing [NNSOM]: success
+[2024-04-03 03:37:52] INFO root fetch - processPackages [vizmath]: Downloading https://files.pythonhosted.org/packages/66/fb/9c8c0eb8a72b46e38cea6c32a9e9a2735b2e6a42f6f33e07e00e6bb281b4/vizmath-0.0.9.tar.gz
+[2024-04-03 03:37:52] INFO root fetch - processPackages [deltachat-rpc-client]: Remove: archive file [/home/abi/fetcher/tmp/deltachat-rpc-client-1.136.6.tar.gz]
+[2024-04-03 03:37:52] INFO root fetch - processPackages [deltachat-rpc-client]: Remove: archive file [/home/abi/fetcher/tmp/deltachat-rpc-client-1.137.0.tar.gz]
+[2024-04-03 03:37:52] INFO root fetch - main [MainThread]: End processing [deltachat-rpc-client]: success
+[2024-04-03 03:37:52] WARNING root fetch - processPackages [vizmath]: Timeout reached during download
+[2024-04-03 03:37:52] INFO root fetch - processPackages [vizmath]: executing diffoscope
+[2024-04-03 03:37:52] INFO root fetch - processPackages [vizmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240403:/home/abi/fetcher/20240403:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vizmath-0.0.8.tar.gz tmp/vizmath-0.0.9.tar.gz --markdown 20240403/v/vizmath/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-03 03:37:53] INFO root fetch - processPackages [bradford-white-connect-client]: Remove: archive file [/home/abi/fetcher/tmp/bradford_white_connect_client-0.0.6.tar.gz]
+[2024-04-03 03:37:53] INFO root fetch - processPackages [bradford-white-connect-client]: Remove: archive file [/home/abi/fetcher/tmp/bradford_white_connect_client-0.0.9.tar.gz]
+[2024-04-03 03:37:53] INFO root fetch - main [MainThread]: End processing [bradford-white-connect-client]: success
+[2024-04-03 03:37:53] INFO root fetch - processPackages [vizmath]: Remove: archive file [/home/abi/fetcher/tmp/vizmath-0.0.8.tar.gz]
+[2024-04-03 03:37:53] INFO root fetch - processPackages [vizmath]: Remove: archive file [/home/abi/fetcher/tmp/vizmath-0.0.9.tar.gz]
+[2024-04-03 03:37:53] INFO root fetch - main [MainThread]: End processing [vizmath]: success
+[2024-04-03 03:37:57] INFO root fetch - processPackages [tokengrams]: Remove: archive file [/home/abi/fetcher/tmp/tokengrams-0.1.0-cp310-cp310-manylinux_2_31_x86_64.whl.zip]
+[2024-04-03 03:37:57] INFO root fetch - processPackages [tokengrams]: Remove: archive file [/home/abi/fetcher/tmp/tokengrams-0.2.0-cp310-cp310-manylinux_2_31_x86_64.whl.zip]
+[2024-04-03 03:37:57] INFO root fetch - main [MainThread]: End processing [tokengrams]: success
+[2024-04-03 03:37:57] INFO root fetch - main [MainThread]: Store serial: [22596156]
